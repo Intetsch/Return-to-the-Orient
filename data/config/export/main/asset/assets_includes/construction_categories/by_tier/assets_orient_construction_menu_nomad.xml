@@ -1,0 +1,81 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000014</GUID>
+                    <Name>orient construction menu 1 (tier)</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_workforce_2d_nomad.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>114523</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000147</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000016</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000156</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000214</Building>
+                        </Item>
+                        <Item>
+                            <Building>500091</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000159</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000215</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000303</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000376</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000300</Building>
+                        </Item>
+                        <Item>
+                            <Building>114566</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000203</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000148</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000172</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000793</Building>
+                        </Item>
+                        <Item>
+                            <Building>133886</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nomads</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122007</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

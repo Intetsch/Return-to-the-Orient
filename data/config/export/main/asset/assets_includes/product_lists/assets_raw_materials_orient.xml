@@ -1,0 +1,40 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="502075">
+		<Asset>
+			<Template>ProductList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000041</GUID>
+					<Name>RawMaterials_Orient</Name>
+				</Standard>
+				<ProductList>
+					<List>
+						<Item>
+							<Product>1010227</Product>
+						</Item>
+						<Item>
+							<Product>1010226</Product>
+						</Item>
+						<Item>
+							<Product>1010228</Product>
+						</Item>
+						<Item>
+							<Product>1010256</Product>
+						</Item>
+						<Item>
+							<Product>6360</Product>
+						</Item>
+					</List>
+				</ProductList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="502052,502053,502054,502082" Path="Values/ProductList/List">
+		<Item>
+			<Product>1404000041</Product>
+		</Item>
+	</ModOp>
+
+</ModOps>

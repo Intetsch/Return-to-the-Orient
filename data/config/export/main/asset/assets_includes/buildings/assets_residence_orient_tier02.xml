@@ -1,0 +1,231 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114436">
+        <Asset>
+            <Template>ResidenceBuilding7_Colony</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000017</GUID>
+                    <Name>residence_orient_tier02</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_resident.png</IconFilename>
+                    <InfoDescription>163059</InfoDescription>
+                </Standard>
+                <Blocking />
+                <Building>
+                    <BuildingType>Residence</BuildingType>
+                    <SkipUnlockMessage>1</SkipUnlockMessage>
+                    <PickingAsset>1404000016</PickingAsset>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>3</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>ResidenceBuilding7_Colony</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/residence/south/ambassador/s_ambassador_house_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/residence/south/ambassador/s_ambassador_house_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/residence/south/ambassador/s_ambassador_house_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/residence/south/ambassador/s_ambassador_house_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <DefaultSkinName>1404000017</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                    </Skins>
+                    <DefaultParticipant>Mod9</DefaultParticipant>
+                </Object>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Residence</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122010</LineID>
+                </Text>
+                <Constructable>
+                    <DestructionCategory>Residents</DestructionCategory>
+                    <ConstructionMenuIcon>1404000011</ConstructionMenuIcon>
+                </Constructable>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Upgradable>
+                    <UpgradeCost />
+                </Upgradable>
+                <SoundEmitter>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Wood</MaterialType>
+                </SoundEmitter>
+                <Infolayer />
+                <FeedbackController />
+                <Residence7>
+                    <PopulationLevel7>1404000011</PopulationLevel7>
+                    <ResidentMax>20</ResidentMax>
+                    <ResidentsRequiredForUpgrade>20</ResidentsRequiredForUpgrade>
+                </Residence7>
+                <LogisticNode>
+                    <REMOVE_THIS_LATER_FeedbackUnitTier>Level2</REMOVE_THIS_LATER_FeedbackUnitTier>
+                </LogisticNode>
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
+                    <HappinessDependentMurmur>
+                        <Angry>
+                            <Murmur>Africa_ElderUnhappy</Murmur>
+                        </Angry>
+                        <Unhappy>
+                            <Murmur>Africa_ElderUnhappy</Murmur>
+                        </Unhappy>
+                        <Neutral>
+                            <Murmur>Africa_ElderHappy</Murmur>
+                        </Neutral>
+                        <Happy>
+                            <Murmur>Africa_ElderHappy</Murmur>
+                        </Happy>
+                        <Euphoric>
+                            <Murmur>Africa_ElderHappy</Murmur>
+                        </Euphoric>
+                    </HappinessDependentMurmur>
+                </AmbientMoodProvider>
+                <UpgradeList />
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <MaximumHitPoints>2000</MaximumHitPoints>
+                </Attackable>
+                <IncidentInfectable />
+                <Pausable />
+                <Culture />
+                <StreetActivation />
+                <InfluenceSource>
+                    <InfluenceAmount>4</InfluenceAmount>
+                    <InfluenceSource>Culture</InfluenceSource>
+                </InfluenceSource>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- AllResidences -->
+    <ModOp Type="add" GUID="142785" Path="Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1404000017</Building>
+        </Item>
+    </ModOp>
+
+    <!-- Residence2Buildings -->
+    <ModOp Type="add" GUID="2001089" Path="Values/FeedbackBuildingGroup/Buildings">
+        <Item>
+            <Building>1404000017</Building>
+        </Item>
+    </ModOp>
+
+    <!-- all residences EU & SA + Africa & Scholar -->
+    <ModOp Type="add" GUID="190762" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000017</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- ItemSearchConfig -->
+    <ModOp Type="add" GUID="26026" Path="Values/ItemSearchConfig/SearchCategories/Residents/SubCategories/Item/Keywords">
+        <Item>
+            <Keyword>1404000017</Keyword>
+            <Priority>18</Priority>
+        </Item>
+    </ModOp>
+
+</ModOps>

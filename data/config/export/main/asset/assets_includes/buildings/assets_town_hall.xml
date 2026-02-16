@@ -1,0 +1,146 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="117859">
+        <Asset>
+            <BaseAssetGUID>100415</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404000202</GUID>
+                    <Name>town_hall_orient</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>2500</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Guildhouse</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/native/south/academy_of_wisdom/s_academy_of_wisdom.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <SkinList />
+                    </Skins>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LineID>44477</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <ItemContainer>
+                    <SocketScopeRadius>25</SocketScopeRadius>
+                </ItemContainer>
+                <UpgradeList />
+                <Attackable />
+                <Pausable />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>50</Amount>
+                            <InactiveAmount>25</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <IncidentInfluencer />
+                <Culture />
+                <StorageBase />
+                <Warehouse />
+                <LogisticNode />
+                <Distribution />
+                <InfluenceSource />
+                <BuildingUnique />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

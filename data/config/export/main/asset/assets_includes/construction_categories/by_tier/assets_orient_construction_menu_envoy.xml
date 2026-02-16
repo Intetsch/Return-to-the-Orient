@@ -1,0 +1,87 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000015</GUID>
+                    <Name>orient construction menu 2 (tier)</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_workforce_2d_envoy.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>119029</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000158</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000204</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000615</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000202</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000173</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000165</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000375</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000372</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000289</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000149</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000295</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000297</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000296</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000290</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000323</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000164</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000299</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000298</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoys</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122008</LineID>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,45 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="125530">
+        <Asset>
+            <Template>LockableNotification</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000179</GUID>
+                    <Name>NewAge_Orient1_Notification</Name>
+                </Standard>
+                <Notification>
+                    <NotificationType>
+                        <Template>MainNotification</Template>
+                        <Values>
+                            <MainNotification>
+                                <Title>1404000181</Title>
+                                <NotificationMainIconAsset>1404000010</NotificationMainIconAsset>
+                                <Icon01>1404000159</Icon01>
+                                <Icon02>1404000147</Icon02>
+                                <BackgroundAnimation>data\ui\video\ui_alpha\main_banner\africa_shepherds_a.bk2</BackgroundAnimation>
+                            </MainNotification>
+                            <BaseNotification>
+                                <NotificationText>1404000183</NotificationText>
+                                <NotificationAudioAsset>201843</NotificationAudioAsset>
+                            </BaseNotification>
+                            <NotificationSubtitle>
+                                <Subtitle>265159</Subtitle>
+                            </NotificationSubtitle>
+                        </Values>
+                    </NotificationType>
+                </Notification>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="142358" Path="Values/BannerConfig/CityLevelBanners">
+        <Item>
+            <RequiredValue>1</RequiredValue>
+            <PopulationGUID>1404000010</PopulationGUID>
+            <Notification>1404000179</Notification>
+        </Item>
+    </ModOp>
+
+</ModOps>

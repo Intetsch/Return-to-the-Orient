@@ -1,0 +1,55 @@
+{
+  "Version": "1.1",
+  "ModID": "Natoncy_shared_importdock_honey",
+  "DeprecateIds": [],
+  "ModDependencies": [
+    "Taludas_shared_tradingcompany"
+  ],
+  "LoadAfterIds": [
+    "Taludas_shared_tradingcompany",
+    "Taludas_shared_tradingcompany_packaging",
+    "Taludas_shared_tradingcompany_allimportpiers"
+  ],
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "shared_importdock_honey_natoncy",
+    "English": "shared_importdock_honey_natoncy",
+    "French": "shared_importdock_honey_natoncy",
+    "German": " shared_importdock_honey_natoncy",
+    "Italian": "shared_importdock_honey_natoncy",
+    "Japanese": "shared_importdock_honey_natoncy",
+    "Korean": "shared_importdock_honey_natoncy",
+    "Polish": "shared_importdock_honey_natoncy",
+    "Russian": "shared_importdock_honey_natoncy",
+    "Spanish": "shared_importdock_honey_natoncy",
+    "Taiwanese": "shared_importdock_honey_natoncy"
+  },
+  "Description": {
+    "English": "# Extra Building \n\n Extra Buildings implemented by Taludas for use in some of my mods. \n\n - New building: Import Dock Honey for use in the Foreign Trading Company",
+    "German": "# Extra Gebäude \n\n Zusätzliche Gebäude, die von Taludas für einige meiner Mods implementiert wurden. \n\n - Neues Gebäude: Importdock Ebenholz zur Nutzung in der Fernhandelscompagnie",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Natoncy"
+}

@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="ru_ru" Hash="1984769525">
+			<ObjectPath>\SoundBanks\Default Work Unit\Natoncy_Orient_Nomad</ObjectPath>
+			<ShortName>Natoncy_Orient_Nomad</ShortName>
+			<Path>ru_ru\Natoncy_Orient_Nomad.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2818093464" Name="Play_residents_6607250" ObjectPath="\Events\Default Work Unit\Play_residents_6607250" GUID="{8FD4A30A-9D6A-4C64-B2F2-55EDDE9CA589}" DurationType="OneShot" DurationMin="3.422041" DurationMax="3.422041">
+					<IncludedMemoryFiles>
+						<File Id="377438709" Language="ru_ru">
+							<ShortName>residents_6607250.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607250_8A899ED3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093465" Name="Play_residents_6607251" ObjectPath="\Events\Default Work Unit\Play_residents_6607251" GUID="{6945EF59-EBEC-47C4-848D-72796E4328C3}" DurationType="OneShot" DurationMin="1.17551" DurationMax="1.17551">
+					<IncludedMemoryFiles>
+						<File Id="410799255" Language="ru_ru">
+							<ShortName>residents_6607251.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607251_DD87F6E8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093466" Name="Play_residents_6607252" ObjectPath="\Events\Default Work Unit\Play_residents_6607252" GUID="{9130B9B6-F385-4A7A-A9CB-C134B6F2AEC1}" DurationType="OneShot" DurationMin="1.645714" DurationMax="1.645714">
+					<IncludedMemoryFiles>
+						<File Id="701856713" Language="ru_ru">
+							<ShortName>residents_6607252.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607252_AA77623B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093467" Name="Play_residents_6607253" ObjectPath="\Events\Default Work Unit\Play_residents_6607253" GUID="{4D7AA31C-6372-416F-86B8-9B41DEE6DCFF}" DurationType="OneShot" DurationMin="2.298775" DurationMax="2.298775">
+					<IncludedMemoryFiles>
+						<File Id="269946207" Language="ru_ru">
+							<ShortName>residents_6607253.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607253_8FAC27A8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426321" Name="Play_residents_6607260" ObjectPath="\Events\Default Work Unit\Play_residents_6607260" GUID="{24079251-C0F0-4826-8921-522E8B51AA13}" DurationType="OneShot" DurationMin="1.933061" DurationMax="1.933061">
+					<IncludedMemoryFiles>
+						<File Id="142087216" Language="ru_ru">
+							<ShortName>residents_6607260.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607260_B07F888B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426320" Name="Play_residents_6607261" ObjectPath="\Events\Default Work Unit\Play_residents_6607261" GUID="{CC22908C-DC5C-4F8F-87C5-4901B5D9847C}" DurationType="OneShot" DurationMin="1.959184" DurationMax="1.959184">
+					<IncludedMemoryFiles>
+						<File Id="224182053" Language="ru_ru">
+							<ShortName>residents_6607261.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607261_9EF2AFEA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648766" Name="Play_residents_6607270" ObjectPath="\Events\Default Work Unit\Play_residents_6607270" GUID="{F999CEFF-0660-46BD-A008-1040DB10C20F}" DurationType="OneShot" DurationMin="2.272653" DurationMax="2.272653">
+					<IncludedMemoryFiles>
+						<File Id="489319911" Language="ru_ru">
+							<ShortName>residents_6607270.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607270_86F83E10.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648767" Name="Play_residents_6607271" ObjectPath="\Events\Default Work Unit\Play_residents_6607271" GUID="{08488D58-7ABB-4D1A-B35E-286FF27A2E80}" DurationType="OneShot" DurationMin="3.422041" DurationMax="3.422041">
+					<IncludedMemoryFiles>
+						<File Id="920253191" Language="ru_ru">
+							<ShortName>residents_6607271.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607271_E76B40C6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760607" Name="Play_residents_6607280" ObjectPath="\Events\Default Work Unit\Play_residents_6607280" GUID="{E4F29A43-8AE6-44A5-9F64-780A2C1B626D}" DurationType="OneShot" DurationMin="2.481633" DurationMax="2.481633">
+					<IncludedMemoryFiles>
+						<File Id="858903462" Language="ru_ru">
+							<ShortName>residents_6607280.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607280_32F80384.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760606" Name="Play_residents_6607281" ObjectPath="\Events\Default Work Unit\Play_residents_6607281" GUID="{9D01FF45-93C0-43E2-860D-AD69184B4FB3}" DurationType="OneShot" DurationMin="1.541224" DurationMax="1.541224">
+					<IncludedMemoryFiles>
+						<File Id="178888497" Language="ru_ru">
+							<ShortName>residents_6607281.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607281_1A44FD45.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983020" Name="Play_residents_6607290" ObjectPath="\Events\Default Work Unit\Play_residents_6607290" GUID="{8B8C2968-7D1D-45D8-A5CB-8FDABE36B33E}" DurationType="OneShot" DurationMin="2.821224" DurationMax="2.821224">
+					<IncludedMemoryFiles>
+						<File Id="150628708" Language="ru_ru">
+							<ShortName>residents_6607290.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607290_4F497F66.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983021" Name="Play_residents_6607291" ObjectPath="\Events\Default Work Unit\Play_residents_6607291" GUID="{F07326DA-132C-4530-B6AA-32C5D38A79F9}" DurationType="OneShot" DurationMin="2.324898" DurationMax="2.324898">
+					<IncludedMemoryFiles>
+						<File Id="682767732" Language="ru_ru">
+							<ShortName>residents_6607291.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607291_A1CFE190.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633486" Name="Play_residents_6607300" ObjectPath="\Events\Default Work Unit\Play_residents_6607300" GUID="{71A0C8EC-4C1D-4CD1-9D60-F9525153D638}" DurationType="OneShot" DurationMin="1.854694" DurationMax="1.854694">
+					<IncludedMemoryFiles>
+						<File Id="746074549" Language="ru_ru">
+							<ShortName>residents_6607300.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607300_D50181C9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633487" Name="Play_residents_6607301" ObjectPath="\Events\Default Work Unit\Play_residents_6607301" GUID="{D33AFB65-B7E2-43E0-99CA-A26917823CFA}" DurationType="OneShot" DurationMin="3.056327" DurationMax="3.056327">
+					<IncludedMemoryFiles>
+						<File Id="528909907" Language="ru_ru">
+							<ShortName>residents_6607301.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607301_C4327BA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411169" Name="Play_residents_6607310" ObjectPath="\Events\Default Work Unit\Play_residents_6607310" GUID="{BE222E01-1CBF-4113-B712-5A83A07659A7}" DurationType="OneShot" DurationMin="4.075102" DurationMax="4.075102">
+					<IncludedMemoryFiles>
+						<File Id="113288361" Language="ru_ru">
+							<ShortName>residents_6607310.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607310_C038CC32.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411168" Name="Play_residents_6607311" ObjectPath="\Events\Default Work Unit\Play_residents_6607311" GUID="{348AE329-57ED-49D6-842A-BBF88579AC1B}" DurationType="OneShot" DurationMin="3.422041" DurationMax="3.422041">
+					<IncludedMemoryFiles>
+						<File Id="807895925" Language="ru_ru">
+							<ShortName>residents_6607311.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607311_F2578B66.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411171" Name="Play_residents_6607312" ObjectPath="\Events\Default Work Unit\Play_residents_6607312" GUID="{78EE7A90-B957-4BEC-AB7D-F4361465A617}" DurationType="OneShot" DurationMin="3.213061" DurationMax="3.213061">
+					<IncludedMemoryFiles>
+						<File Id="954086043" Language="ru_ru">
+							<ShortName>residents_6607312.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607312_FB1E8080.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411170" Name="Play_residents_6607313" ObjectPath="\Events\Default Work Unit\Play_residents_6607313" GUID="{0F9492B6-50BD-4829-94F8-72300C4AD1F9}" DurationType="OneShot" DurationMin="2.612245" DurationMax="2.612245">
+					<IncludedMemoryFiles>
+						<File Id="281374109" Language="ru_ru">
+							<ShortName>residents_6607313.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607313_E91C284D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411173" Name="Play_residents_6607314" ObjectPath="\Events\Default Work Unit\Play_residents_6607314" GUID="{ABB134F8-493F-48B1-A2A2-72D6CD6B36A2}" DurationType="OneShot" DurationMin="3.448163" DurationMax="3.448163">
+					<IncludedMemoryFiles>
+						<File Id="273805900" Language="ru_ru">
+							<ShortName>residents_6607314.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607314_46F6CAC4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078312" Name="Play_residents_6607320" ObjectPath="\Events\Default Work Unit\Play_residents_6607320" GUID="{19F9008C-BF7C-45F3-9A93-BFE10BE4C7DF}" DurationType="OneShot" DurationMin="4.075102" DurationMax="4.075102">
+					<IncludedMemoryFiles>
+						<File Id="304657912" Language="ru_ru">
+							<ShortName>residents_6607320.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607320_4F173C9E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078313" Name="Play_residents_6607321" ObjectPath="\Events\Default Work Unit\Play_residents_6607321" GUID="{C413C362-5BFF-4349-8AF5-AFCAA1E150A6}" DurationType="OneShot" DurationMin="2.324898" DurationMax="2.324898">
+					<IncludedMemoryFiles>
+						<File Id="13079015" Language="ru_ru">
+							<ShortName>residents_6607321.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607321_73E5596F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078314" Name="Play_residents_6607322" ObjectPath="\Events\Default Work Unit\Play_residents_6607322" GUID="{9BC18A79-EDB2-464C-AD6A-C65AA8A182AB}" DurationType="OneShot" DurationMin="3.082449" DurationMax="3.082449">
+					<IncludedMemoryFiles>
+						<File Id="655623585" Language="ru_ru">
+							<ShortName>residents_6607322.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607322_742F68FB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078315" Name="Play_residents_6607323" ObjectPath="\Events\Default Work Unit\Play_residents_6607323" GUID="{60ED449D-C5ED-4AAB-8480-20DD73ACD53F}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="65920796" Language="ru_ru">
+							<ShortName>residents_6607323.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607323_42D2581F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078316" Name="Play_residents_6607324" ObjectPath="\Events\Default Work Unit\Play_residents_6607324" GUID="{3E50BFEE-C5B8-4E63-B156-8735BDEA483C}" DurationType="OneShot" DurationMin="4.310204" DurationMax="4.310204">
+					<IncludedMemoryFiles>
+						<File Id="300025431" Language="ru_ru">
+							<ShortName>residents_6607324.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607324_06E4C0B4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855899" Name="Play_residents_6607330" ObjectPath="\Events\Default Work Unit\Play_residents_6607330" GUID="{5B3B22F7-6D4A-426F-9035-4DAC1CBBA057}" DurationType="OneShot" DurationMin="3.317551" DurationMax="3.317551">
+					<IncludedMemoryFiles>
+						<File Id="1008039451" Language="ru_ru">
+							<ShortName>residents_6607330.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607330_7DAC6CBB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855898" Name="Play_residents_6607331" ObjectPath="\Events\Default Work Unit\Play_residents_6607331" GUID="{A3A1F60D-225D-4ED2-B428-C56C110EE389}" DurationType="OneShot" DurationMin="3.813878" DurationMax="3.813878">
+					<IncludedMemoryFiles>
+						<File Id="639617252" Language="ru_ru">
+							<ShortName>residents_6607331.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607331_FD08D067.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855897" Name="Play_residents_6607332" ObjectPath="\Events\Default Work Unit\Play_residents_6607332" GUID="{F5D94F0A-8627-4647-A7B9-78015361B1F6}" DurationType="OneShot" DurationMin="3.892245" DurationMax="3.892245">
+					<IncludedMemoryFiles>
+						<File Id="105884941" Language="ru_ru">
+							<ShortName>residents_6607332.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607332_304105A1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855896" Name="Play_residents_6607333" ObjectPath="\Events\Default Work Unit\Play_residents_6607333" GUID="{C1ECE230-21B8-4BAE-8FF8-C42602A6B2D4}" DurationType="OneShot" DurationMin="4.519184" DurationMax="4.519184">
+					<IncludedMemoryFiles>
+						<File Id="509446591" Language="ru_ru">
+							<ShortName>residents_6607333.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607333_EEC1AEAB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855903" Name="Play_residents_6607334" ObjectPath="\Events\Default Work Unit\Play_residents_6607334" GUID="{C5F70D7F-25C3-46B0-A03E-DF2028891ED4}" DurationType="OneShot" DurationMin="2.899592" DurationMax="2.899592">
+					<IncludedMemoryFiles>
+						<File Id="658666646" Language="ru_ru">
+							<ShortName>residents_6607334.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607334_A156651B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744058" Name="Play_residents_6607340" ObjectPath="\Events\Default Work Unit\Play_residents_6607340" GUID="{63CDFADD-0A8E-40E0-8724-C8C7EAD8CF22}" DurationType="OneShot" DurationMin="4.519184" DurationMax="4.519184">
+					<IncludedMemoryFiles>
+						<File Id="802773750" Language="ru_ru">
+							<ShortName>residents_6607340.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607340_5B4FFAB4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744059" Name="Play_residents_6607341" ObjectPath="\Events\Default Work Unit\Play_residents_6607341" GUID="{D753E29F-AFDF-463E-A8C2-2928F8B353E0}" DurationType="OneShot" DurationMin="3.866122" DurationMax="3.866122">
+					<IncludedMemoryFiles>
+						<File Id="529894490" Language="ru_ru">
+							<ShortName>residents_6607341.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607341_9B985309.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744056" Name="Play_residents_6607342" ObjectPath="\Events\Default Work Unit\Play_residents_6607342" GUID="{60D23426-F478-4FCB-9745-8AEE83C27B9C}" DurationType="OneShot" DurationMin="2.377143" DurationMax="2.377143">
+					<IncludedMemoryFiles>
+						<File Id="44986925" Language="ru_ru">
+							<ShortName>residents_6607342.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607342_8CC24235.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744057" Name="Play_residents_6607343" ObjectPath="\Events\Default Work Unit\Play_residents_6607343" GUID="{E823D035-B53B-41BB-889C-F9C2BCC553D7}" DurationType="OneShot" DurationMin="4.022857" DurationMax="4.022857">
+					<IncludedMemoryFiles>
+						<File Id="96166815" Language="ru_ru">
+							<ShortName>residents_6607343.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607343_EE016EA4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744062" Name="Play_residents_6607344" ObjectPath="\Events\Default Work Unit\Play_residents_6607344" GUID="{1F982C16-907E-4F2E-9ED6-CB887510F185}" DurationType="OneShot" DurationMin="2.45551" DurationMax="2.45551">
+					<IncludedMemoryFiles>
+						<File Id="828728603" Language="ru_ru">
+							<ShortName>residents_6607344.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607344_F6589555.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521645" Name="Play_residents_6607350" ObjectPath="\Events\Default Work Unit\Play_residents_6607350" GUID="{828A58F2-D985-4359-A773-44D5681F3828}" DurationType="OneShot" DurationMin="4.388571" DurationMax="4.388571">
+					<IncludedMemoryFiles>
+						<File Id="185108826" Language="ru_ru">
+							<ShortName>residents_6607350.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607350_29BEFAA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521644" Name="Play_residents_6607351" ObjectPath="\Events\Default Work Unit\Play_residents_6607351" GUID="{E5338332-3E78-4EED-A53C-D90C817ED316}" DurationType="OneShot" DurationMin="5.433469" DurationMax="5.433469">
+					<IncludedMemoryFiles>
+						<File Id="306456366" Language="ru_ru">
+							<ShortName>residents_6607351.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607351_4D1F57AB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521647" Name="Play_residents_6607352" ObjectPath="\Events\Default Work Unit\Play_residents_6607352" GUID="{78BE6753-D06B-4080-8ADE-8ACE3E3CC1B3}" DurationType="OneShot" DurationMin="5.433469" DurationMax="5.433469">
+					<IncludedMemoryFiles>
+						<File Id="1057516911" Language="ru_ru">
+							<ShortName>residents_6607352.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607352_CC842259.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521646" Name="Play_residents_6607353" ObjectPath="\Events\Default Work Unit\Play_residents_6607353" GUID="{CF40824E-F1B8-439A-88FD-FB13BF0B47A2}" DurationType="OneShot" DurationMin="5.355102" DurationMax="5.355102">
+					<IncludedMemoryFiles>
+						<File Id="259855921" Language="ru_ru">
+							<ShortName>residents_6607353.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607353_2E209863.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521641" Name="Play_residents_6607354" ObjectPath="\Events\Default Work Unit\Play_residents_6607354" GUID="{64DE3D6C-B1D6-4760-A931-F57753C50CC5}" DurationType="OneShot" DurationMin="2.403265" DurationMax="2.403265">
+					<IncludedMemoryFiles>
+						<File Id="61188883" Language="ru_ru">
+							<ShortName>residents_6607354.wav</ShortName>
+							<Path>Voices\ru_ru\residents_6607354_43649E35.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{964F2AAE-50A9-48DB-AD20-50838773A2C5}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="de_de" Hash="2396292273">
+			<ObjectPath>\SoundBanks\Default Work Unit\Natoncy_Orient_Nomad</ObjectPath>
+			<ShortName>Natoncy_Orient_Nomad</ShortName>
+			<Path>de_de\Natoncy_Orient_Nomad.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2818093464" Name="Play_residents_6607250" ObjectPath="\Events\Default Work Unit\Play_residents_6607250" GUID="{8FD4A30A-9D6A-4C64-B2F2-55EDDE9CA589}" DurationType="OneShot" DurationMin="2.821224" DurationMax="2.821224">
+					<IncludedMemoryFiles>
+						<File Id="110378740" Language="de_de">
+							<ShortName>residents_6607250.wav</ShortName>
+							<Path>Voices\de_de\residents_6607250_407B823A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093465" Name="Play_residents_6607251" ObjectPath="\Events\Default Work Unit\Play_residents_6607251" GUID="{6945EF59-EBEC-47C4-848D-72796E4328C3}" DurationType="OneShot" DurationMin="1.724082" DurationMax="1.724082">
+					<IncludedMemoryFiles>
+						<File Id="672588474" Language="de_de">
+							<ShortName>residents_6607251.wav</ShortName>
+							<Path>Voices\de_de\residents_6607251_DBEA3BA3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093466" Name="Play_residents_6607252" ObjectPath="\Events\Default Work Unit\Play_residents_6607252" GUID="{9130B9B6-F385-4A7A-A9CB-C134B6F2AEC1}" DurationType="OneShot" DurationMin="1.541224" DurationMax="1.541224">
+					<IncludedMemoryFiles>
+						<File Id="880494846" Language="de_de">
+							<ShortName>residents_6607252.wav</ShortName>
+							<Path>Voices\de_de\residents_6607252_260C2D12.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093467" Name="Play_residents_6607253" ObjectPath="\Events\Default Work Unit\Play_residents_6607253" GUID="{4D7AA31C-6372-416F-86B8-9B41DEE6DCFF}" DurationType="OneShot" DurationMin="2.246531" DurationMax="2.246531">
+					<IncludedMemoryFiles>
+						<File Id="491882896" Language="de_de">
+							<ShortName>residents_6607253.wav</ShortName>
+							<Path>Voices\de_de\residents_6607253_263F49FB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426321" Name="Play_residents_6607260" ObjectPath="\Events\Default Work Unit\Play_residents_6607260" GUID="{24079251-C0F0-4826-8921-522E8B51AA13}" DurationType="OneShot" DurationMin="2.481633" DurationMax="2.481633">
+					<IncludedMemoryFiles>
+						<File Id="837608205" Language="de_de">
+							<ShortName>residents_6607260.wav</ShortName>
+							<Path>Voices\de_de\residents_6607260_64B73BA7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426320" Name="Play_residents_6607261" ObjectPath="\Events\Default Work Unit\Play_residents_6607261" GUID="{CC22908C-DC5C-4F8F-87C5-4901B5D9847C}" DurationType="OneShot" DurationMin="2.168163" DurationMax="2.168163">
+					<IncludedMemoryFiles>
+						<File Id="108423542" Language="de_de">
+							<ShortName>residents_6607261.wav</ShortName>
+							<Path>Voices\de_de\residents_6607261_85B41E05.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648766" Name="Play_residents_6607270" ObjectPath="\Events\Default Work Unit\Play_residents_6607270" GUID="{F999CEFF-0660-46BD-A008-1040DB10C20F}" DurationType="OneShot" DurationMin="2.481633" DurationMax="2.481633">
+					<IncludedMemoryFiles>
+						<File Id="1051811027" Language="de_de">
+							<ShortName>residents_6607270.wav</ShortName>
+							<Path>Voices\de_de\residents_6607270_B1BF0FF9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648767" Name="Play_residents_6607271" ObjectPath="\Events\Default Work Unit\Play_residents_6607271" GUID="{08488D58-7ABB-4D1A-B35E-286FF27A2E80}" DurationType="OneShot" DurationMin="3.866122" DurationMax="3.866122">
+					<IncludedMemoryFiles>
+						<File Id="130696178" Language="de_de">
+							<ShortName>residents_6607271.wav</ShortName>
+							<Path>Voices\de_de\residents_6607271_ECFCA6F2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760607" Name="Play_residents_6607280" ObjectPath="\Events\Default Work Unit\Play_residents_6607280" GUID="{E4F29A43-8AE6-44A5-9F64-780A2C1B626D}" DurationType="OneShot" DurationMin="2.377143" DurationMax="2.377143">
+					<IncludedMemoryFiles>
+						<File Id="1065533209" Language="de_de">
+							<ShortName>residents_6607280.wav</ShortName>
+							<Path>Voices\de_de\residents_6607280_76C754B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760606" Name="Play_residents_6607281" ObjectPath="\Events\Default Work Unit\Play_residents_6607281" GUID="{9D01FF45-93C0-43E2-860D-AD69184B4FB3}" DurationType="OneShot" DurationMin="1.933061" DurationMax="1.933061">
+					<IncludedMemoryFiles>
+						<File Id="1066716356" Language="de_de">
+							<ShortName>residents_6607281.wav</ShortName>
+							<Path>Voices\de_de\residents_6607281_D6C3E388.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983020" Name="Play_residents_6607290" ObjectPath="\Events\Default Work Unit\Play_residents_6607290" GUID="{8B8C2968-7D1D-45D8-A5CB-8FDABE36B33E}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="632723864" Language="de_de">
+							<ShortName>residents_6607290.wav</ShortName>
+							<Path>Voices\de_de\residents_6607290_69478D62.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983021" Name="Play_residents_6607291" ObjectPath="\Events\Default Work Unit\Play_residents_6607291" GUID="{F07326DA-132C-4530-B6AA-32C5D38A79F9}" DurationType="OneShot" DurationMin="2.586123" DurationMax="2.586123">
+					<IncludedMemoryFiles>
+						<File Id="95216621" Language="de_de">
+							<ShortName>residents_6607291.wav</ShortName>
+							<Path>Voices\de_de\residents_6607291_6216E55C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633486" Name="Play_residents_6607300" ObjectPath="\Events\Default Work Unit\Play_residents_6607300" GUID="{71A0C8EC-4C1D-4CD1-9D60-F9525153D638}" DurationType="OneShot" DurationMin="2.690612" DurationMax="2.690612">
+					<IncludedMemoryFiles>
+						<File Id="754489244" Language="de_de">
+							<ShortName>residents_6607300.wav</ShortName>
+							<Path>Voices\de_de\residents_6607300_522909C4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633487" Name="Play_residents_6607301" ObjectPath="\Events\Default Work Unit\Play_residents_6607301" GUID="{D33AFB65-B7E2-43E0-99CA-A26917823CFA}" DurationType="OneShot" DurationMin="3.004082" DurationMax="3.004082">
+					<IncludedMemoryFiles>
+						<File Id="1027282445" Language="de_de">
+							<ShortName>residents_6607301.wav</ShortName>
+							<Path>Voices\de_de\residents_6607301_DED7EB15.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411169" Name="Play_residents_6607310" ObjectPath="\Events\Default Work Unit\Play_residents_6607310" GUID="{BE222E01-1CBF-4113-B712-5A83A07659A7}" DurationType="OneShot" DurationMin="3.709388" DurationMax="3.709388">
+					<IncludedMemoryFiles>
+						<File Id="1050660844" Language="de_de">
+							<ShortName>residents_6607310.wav</ShortName>
+							<Path>Voices\de_de\residents_6607310_BD64CEDB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411168" Name="Play_residents_6607311" ObjectPath="\Events\Default Work Unit\Play_residents_6607311" GUID="{348AE329-57ED-49D6-842A-BBF88579AC1B}" DurationType="OneShot" DurationMin="3.761633" DurationMax="3.761633">
+					<IncludedMemoryFiles>
+						<File Id="973112929" Language="de_de">
+							<ShortName>residents_6607311.wav</ShortName>
+							<Path>Voices\de_de\residents_6607311_32E8DCEE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411171" Name="Play_residents_6607312" ObjectPath="\Events\Default Work Unit\Play_residents_6607312" GUID="{78EE7A90-B957-4BEC-AB7D-F4361465A617}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="666210359" Language="de_de">
+							<ShortName>residents_6607312.wav</ShortName>
+							<Path>Voices\de_de\residents_6607312_8ED9C3FD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411170" Name="Play_residents_6607313" ObjectPath="\Events\Default Work Unit\Play_residents_6607313" GUID="{0F9492B6-50BD-4829-94F8-72300C4AD1F9}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="931138233" Language="de_de">
+							<ShortName>residents_6607313.wav</ShortName>
+							<Path>Voices\de_de\residents_6607313_8E17A8B6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411173" Name="Play_residents_6607314" ObjectPath="\Events\Default Work Unit\Play_residents_6607314" GUID="{ABB134F8-493F-48B1-A2A2-72D6CD6B36A2}" DurationType="OneShot" DurationMin="2.873469" DurationMax="2.873469">
+					<IncludedMemoryFiles>
+						<File Id="699249080" Language="de_de">
+							<ShortName>residents_6607314.wav</ShortName>
+							<Path>Voices\de_de\residents_6607314_2E288EED.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078312" Name="Play_residents_6607320" ObjectPath="\Events\Default Work Unit\Play_residents_6607320" GUID="{19F9008C-BF7C-45F3-9A93-BFE10BE4C7DF}" DurationType="OneShot" DurationMin="3.552653" DurationMax="3.552653">
+					<IncludedMemoryFiles>
+						<File Id="96392798" Language="de_de">
+							<ShortName>residents_6607320.wav</ShortName>
+							<Path>Voices\de_de\residents_6607320_317A564D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078313" Name="Play_residents_6607321" ObjectPath="\Events\Default Work Unit\Play_residents_6607321" GUID="{C413C362-5BFF-4349-8AF5-AFCAA1E150A6}" DurationType="OneShot" DurationMin="2.742857" DurationMax="2.742857">
+					<IncludedMemoryFiles>
+						<File Id="945959458" Language="de_de">
+							<ShortName>residents_6607321.wav</ShortName>
+							<Path>Voices\de_de\residents_6607321_8FB07FCC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078314" Name="Play_residents_6607322" ObjectPath="\Events\Default Work Unit\Play_residents_6607322" GUID="{9BC18A79-EDB2-464C-AD6A-C65AA8A182AB}" DurationType="OneShot" DurationMin="3.474286" DurationMax="3.474286">
+					<IncludedMemoryFiles>
+						<File Id="662868350" Language="de_de">
+							<ShortName>residents_6607322.wav</ShortName>
+							<Path>Voices\de_de\residents_6607322_E5AA1CD7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078315" Name="Play_residents_6607323" ObjectPath="\Events\Default Work Unit\Play_residents_6607323" GUID="{60ED449D-C5ED-4AAB-8480-20DD73ACD53F}" DurationType="OneShot" DurationMin="3.213061" DurationMax="3.213061">
+					<IncludedMemoryFiles>
+						<File Id="928266062" Language="de_de">
+							<ShortName>residents_6607323.wav</ShortName>
+							<Path>Voices\de_de\residents_6607323_8DD32944.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078316" Name="Play_residents_6607324" ObjectPath="\Events\Default Work Unit\Play_residents_6607324" GUID="{3E50BFEE-C5B8-4E63-B156-8735BDEA483C}" DurationType="OneShot" DurationMin="5.773061" DurationMax="5.773061">
+					<IncludedMemoryFiles>
+						<File Id="187668982" Language="de_de">
+							<ShortName>residents_6607324.wav</ShortName>
+							<Path>Voices\de_de\residents_6607324_4437B21E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855899" Name="Play_residents_6607330" ObjectPath="\Events\Default Work Unit\Play_residents_6607330" GUID="{5B3B22F7-6D4A-426F-9035-4DAC1CBBA057}" DurationType="OneShot" DurationMin="3.395918" DurationMax="3.395918">
+					<IncludedMemoryFiles>
+						<File Id="547956689" Language="de_de">
+							<ShortName>residents_6607330.wav</ShortName>
+							<Path>Voices\de_de\residents_6607330_720A920C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855898" Name="Play_residents_6607331" ObjectPath="\Events\Default Work Unit\Play_residents_6607331" GUID="{A3A1F60D-225D-4ED2-B428-C56C110EE389}" DurationType="OneShot" DurationMin="4.466939" DurationMax="4.466939">
+					<IncludedMemoryFiles>
+						<File Id="898246022" Language="de_de">
+							<ShortName>residents_6607331.wav</ShortName>
+							<Path>Voices\de_de\residents_6607331_CE9B110D.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855897" Name="Play_residents_6607332" ObjectPath="\Events\Default Work Unit\Play_residents_6607332" GUID="{F5D94F0A-8627-4647-A7B9-78015361B1F6}" DurationType="OneShot" DurationMin="4.80653" DurationMax="4.80653">
+					<IncludedMemoryFiles>
+						<File Id="491524697" Language="de_de">
+							<ShortName>residents_6607332.wav</ShortName>
+							<Path>Voices\de_de\residents_6607332_036EB27A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855896" Name="Play_residents_6607333" ObjectPath="\Events\Default Work Unit\Play_residents_6607333" GUID="{C1ECE230-21B8-4BAE-8FF8-C42602A6B2D4}" DurationType="OneShot" DurationMin="5.276735" DurationMax="5.276735">
+					<IncludedMemoryFiles>
+						<File Id="414383426" Language="de_de">
+							<ShortName>residents_6607333.wav</ShortName>
+							<Path>Voices\de_de\residents_6607333_E2A504F7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855903" Name="Play_residents_6607334" ObjectPath="\Events\Default Work Unit\Play_residents_6607334" GUID="{C5F70D7F-25C3-46B0-A03E-DF2028891ED4}" DurationType="OneShot" DurationMin="4.388571" DurationMax="4.388571">
+					<IncludedMemoryFiles>
+						<File Id="463187003" Language="de_de">
+							<ShortName>residents_6607334.wav</ShortName>
+							<Path>Voices\de_de\residents_6607334_471BDC27.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744058" Name="Play_residents_6607340" ObjectPath="\Events\Default Work Unit\Play_residents_6607340" GUID="{63CDFADD-0A8E-40E0-8724-C8C7EAD8CF22}" DurationType="OneShot" DurationMin="4.075102" DurationMax="4.075102">
+					<IncludedMemoryFiles>
+						<File Id="429139916" Language="de_de">
+							<ShortName>residents_6607340.wav</ShortName>
+							<Path>Voices\de_de\residents_6607340_8F72222B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744059" Name="Play_residents_6607341" ObjectPath="\Events\Default Work Unit\Play_residents_6607341" GUID="{D753E29F-AFDF-463E-A8C2-2928F8B353E0}" DurationType="OneShot" DurationMin="3.160816" DurationMax="3.160816">
+					<IncludedMemoryFiles>
+						<File Id="545138408" Language="de_de">
+							<ShortName>residents_6607341.wav</ShortName>
+							<Path>Voices\de_de\residents_6607341_F027EEDC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744056" Name="Play_residents_6607342" ObjectPath="\Events\Default Work Unit\Play_residents_6607342" GUID="{60D23426-F478-4FCB-9745-8AEE83C27B9C}" DurationType="OneShot" DurationMin="2.847347" DurationMax="2.847347">
+					<IncludedMemoryFiles>
+						<File Id="331068265" Language="de_de">
+							<ShortName>residents_6607342.wav</ShortName>
+							<Path>Voices\de_de\residents_6607342_2BE52462.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744057" Name="Play_residents_6607343" ObjectPath="\Events\Default Work Unit\Play_residents_6607343" GUID="{E823D035-B53B-41BB-889C-F9C2BCC553D7}" DurationType="OneShot" DurationMin="3.030204" DurationMax="3.030204">
+					<IncludedMemoryFiles>
+						<File Id="315830814" Language="de_de">
+							<ShortName>residents_6607343.wav</ShortName>
+							<Path>Voices\de_de\residents_6607343_06840714.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744062" Name="Play_residents_6607344" ObjectPath="\Events\Default Work Unit\Play_residents_6607344" GUID="{1F982C16-907E-4F2E-9ED6-CB887510F185}" DurationType="OneShot" DurationMin="3.186939" DurationMax="3.186939">
+					<IncludedMemoryFiles>
+						<File Id="611806462" Language="de_de">
+							<ShortName>residents_6607344.wav</ShortName>
+							<Path>Voices\de_de\residents_6607344_5F6B53B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521645" Name="Play_residents_6607350" ObjectPath="\Events\Default Work Unit\Play_residents_6607350" GUID="{828A58F2-D985-4359-A773-44D5681F3828}" DurationType="OneShot" DurationMin="4.284081" DurationMax="4.284081">
+					<IncludedMemoryFiles>
+						<File Id="51448501" Language="de_de">
+							<ShortName>residents_6607350.wav</ShortName>
+							<Path>Voices\de_de\residents_6607350_475AAFDF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521644" Name="Play_residents_6607351" ObjectPath="\Events\Default Work Unit\Play_residents_6607351" GUID="{E5338332-3E78-4EED-A53C-D90C817ED316}" DurationType="OneShot" DurationMin="6.321633" DurationMax="6.321633">
+					<IncludedMemoryFiles>
+						<File Id="584709135" Language="de_de">
+							<ShortName>residents_6607351.wav</ShortName>
+							<Path>Voices\de_de\residents_6607351_2087CF69.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521647" Name="Play_residents_6607352" ObjectPath="\Events\Default Work Unit\Play_residents_6607352" GUID="{78BE6753-D06B-4080-8ADE-8ACE3E3CC1B3}" DurationType="OneShot" DurationMin="4.388571" DurationMax="4.388571">
+					<IncludedMemoryFiles>
+						<File Id="272374263" Language="de_de">
+							<ShortName>residents_6607352.wav</ShortName>
+							<Path>Voices\de_de\residents_6607352_DB140D3E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521646" Name="Play_residents_6607353" ObjectPath="\Events\Default Work Unit\Play_residents_6607353" GUID="{CF40824E-F1B8-439A-88FD-FB13BF0B47A2}" DurationType="OneShot" DurationMin="5.720816" DurationMax="5.720816">
+					<IncludedMemoryFiles>
+						<File Id="466368990" Language="de_de">
+							<ShortName>residents_6607353.wav</ShortName>
+							<Path>Voices\de_de\residents_6607353_9DF498B3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521641" Name="Play_residents_6607354" ObjectPath="\Events\Default Work Unit\Play_residents_6607354" GUID="{64DE3D6C-B1D6-4760-A931-F57753C50CC5}" DurationType="OneShot" DurationMin="2.586123" DurationMax="2.586123">
+					<IncludedMemoryFiles>
+						<File Id="304366327" Language="de_de">
+							<ShortName>residents_6607354.wav</ShortName>
+							<Path>Voices\de_de\residents_6607354_CF8051D9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{964F2AAE-50A9-48DB-AD20-50838773A2C5}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="fr_fr" Hash="3751184220">
+			<ObjectPath>\SoundBanks\Default Work Unit\Natoncy_Orient_Nomad</ObjectPath>
+			<ShortName>Natoncy_Orient_Nomad</ShortName>
+			<Path>fr_fr\Natoncy_Orient_Nomad.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2818093464" Name="Play_residents_6607250" ObjectPath="\Events\Default Work Unit\Play_residents_6607250" GUID="{8FD4A30A-9D6A-4C64-B2F2-55EDDE9CA589}" DurationType="OneShot" DurationMin="2.272653" DurationMax="2.272653">
+					<IncludedMemoryFiles>
+						<File Id="171590455" Language="fr_fr">
+							<ShortName>residents_6607250.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607250_6A86B2AD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093465" Name="Play_residents_6607251" ObjectPath="\Events\Default Work Unit\Play_residents_6607251" GUID="{6945EF59-EBEC-47C4-848D-72796E4328C3}" DurationType="OneShot" DurationMin="1.724082" DurationMax="1.724082">
+					<IncludedMemoryFiles>
+						<File Id="850641516" Language="fr_fr">
+							<ShortName>residents_6607251.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607251_FF8C7D23.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093466" Name="Play_residents_6607252" ObjectPath="\Events\Default Work Unit\Play_residents_6607252" GUID="{9130B9B6-F385-4A7A-A9CB-C134B6F2AEC1}" DurationType="OneShot" DurationMin="2.089796" DurationMax="2.089796">
+					<IncludedMemoryFiles>
+						<File Id="363801530" Language="fr_fr">
+							<ShortName>residents_6607252.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607252_F71814CD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093467" Name="Play_residents_6607253" ObjectPath="\Events\Default Work Unit\Play_residents_6607253" GUID="{4D7AA31C-6372-416F-86B8-9B41DEE6DCFF}" DurationType="OneShot" DurationMin="1.671837" DurationMax="1.671837">
+					<IncludedMemoryFiles>
+						<File Id="252438937" Language="fr_fr">
+							<ShortName>residents_6607253.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607253_1416D5C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426321" Name="Play_residents_6607260" ObjectPath="\Events\Default Work Unit\Play_residents_6607260" GUID="{24079251-C0F0-4826-8921-522E8B51AA13}" DurationType="OneShot" DurationMin="1.959184" DurationMax="1.959184">
+					<IncludedMemoryFiles>
+						<File Id="755038535" Language="fr_fr">
+							<ShortName>residents_6607260.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607260_D41A5AC2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426320" Name="Play_residents_6607261" ObjectPath="\Events\Default Work Unit\Play_residents_6607261" GUID="{CC22908C-DC5C-4F8F-87C5-4901B5D9847C}" DurationType="OneShot" DurationMin="2.246531" DurationMax="2.246531">
+					<IncludedMemoryFiles>
+						<File Id="387004255" Language="fr_fr">
+							<ShortName>residents_6607261.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607261_DED5821A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648766" Name="Play_residents_6607270" ObjectPath="\Events\Default Work Unit\Play_residents_6607270" GUID="{F999CEFF-0660-46BD-A008-1040DB10C20F}" DurationType="OneShot" DurationMin="1.906939" DurationMax="1.906939">
+					<IncludedMemoryFiles>
+						<File Id="141829484" Language="fr_fr">
+							<ShortName>residents_6607270.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607270_9769BE03.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648767" Name="Play_residents_6607271" ObjectPath="\Events\Default Work Unit\Play_residents_6607271" GUID="{08488D58-7ABB-4D1A-B35E-286FF27A2E80}" DurationType="OneShot" DurationMin="2.977959" DurationMax="2.977959">
+					<IncludedMemoryFiles>
+						<File Id="12188586" Language="fr_fr">
+							<ShortName>residents_6607271.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607271_955DFC6F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760607" Name="Play_residents_6607280" ObjectPath="\Events\Default Work Unit\Play_residents_6607280" GUID="{E4F29A43-8AE6-44A5-9F64-780A2C1B626D}" DurationType="OneShot" DurationMin="2.481633" DurationMax="2.481633">
+					<IncludedMemoryFiles>
+						<File Id="562006902" Language="fr_fr">
+							<ShortName>residents_6607280.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607280_1A034257.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760606" Name="Play_residents_6607281" ObjectPath="\Events\Default Work Unit\Play_residents_6607281" GUID="{9D01FF45-93C0-43E2-860D-AD69184B4FB3}" DurationType="OneShot" DurationMin="2.063673" DurationMax="2.063673">
+					<IncludedMemoryFiles>
+						<File Id="257687286" Language="fr_fr">
+							<ShortName>residents_6607281.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607281_183E4F1B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983020" Name="Play_residents_6607290" ObjectPath="\Events\Default Work Unit\Play_residents_6607290" GUID="{8B8C2968-7D1D-45D8-A5CB-8FDABE36B33E}" DurationType="OneShot" DurationMin="2.037551" DurationMax="2.037551">
+					<IncludedMemoryFiles>
+						<File Id="603839927" Language="fr_fr">
+							<ShortName>residents_6607290.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607290_8985A22E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983021" Name="Play_residents_6607291" ObjectPath="\Events\Default Work Unit\Play_residents_6607291" GUID="{F07326DA-132C-4530-B6AA-32C5D38A79F9}" DurationType="OneShot" DurationMin="1.697959" DurationMax="1.697959">
+					<IncludedMemoryFiles>
+						<File Id="839471838" Language="fr_fr">
+							<ShortName>residents_6607291.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607291_31F71E1C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633486" Name="Play_residents_6607300" ObjectPath="\Events\Default Work Unit\Play_residents_6607300" GUID="{71A0C8EC-4C1D-4CD1-9D60-F9525153D638}" DurationType="OneShot" DurationMin="2.66449" DurationMax="2.66449">
+					<IncludedMemoryFiles>
+						<File Id="1002081016" Language="fr_fr">
+							<ShortName>residents_6607300.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607300_DEB37499.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633487" Name="Play_residents_6607301" ObjectPath="\Events\Default Work Unit\Play_residents_6607301" GUID="{D33AFB65-B7E2-43E0-99CA-A26917823CFA}" DurationType="OneShot" DurationMin="2.272653" DurationMax="2.272653">
+					<IncludedMemoryFiles>
+						<File Id="420644620" Language="fr_fr">
+							<ShortName>residents_6607301.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607301_9F91E9B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411169" Name="Play_residents_6607310" ObjectPath="\Events\Default Work Unit\Play_residents_6607310" GUID="{BE222E01-1CBF-4113-B712-5A83A07659A7}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="58110861" Language="fr_fr">
+							<ShortName>residents_6607310.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607310_DCCC18A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411168" Name="Play_residents_6607311" ObjectPath="\Events\Default Work Unit\Play_residents_6607311" GUID="{348AE329-57ED-49D6-842A-BBF88579AC1B}" DurationType="OneShot" DurationMin="2.951837" DurationMax="2.951837">
+					<IncludedMemoryFiles>
+						<File Id="1010519582" Language="fr_fr">
+							<ShortName>residents_6607311.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607311_E8031517.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411171" Name="Play_residents_6607312" ObjectPath="\Events\Default Work Unit\Play_residents_6607312" GUID="{78EE7A90-B957-4BEC-AB7D-F4361465A617}" DurationType="OneShot" DurationMin="1.985306" DurationMax="1.985306">
+					<IncludedMemoryFiles>
+						<File Id="688217952" Language="fr_fr">
+							<ShortName>residents_6607312.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607312_4D479910.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411170" Name="Play_residents_6607313" ObjectPath="\Events\Default Work Unit\Play_residents_6607313" GUID="{0F9492B6-50BD-4829-94F8-72300C4AD1F9}" DurationType="OneShot" DurationMin="2.742857" DurationMax="2.742857">
+					<IncludedMemoryFiles>
+						<File Id="1069030663" Language="fr_fr">
+							<ShortName>residents_6607313.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607313_D106FCC9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411173" Name="Play_residents_6607314" ObjectPath="\Events\Default Work Unit\Play_residents_6607314" GUID="{ABB134F8-493F-48B1-A2A2-72D6CD6B36A2}" DurationType="OneShot" DurationMin="2.76898" DurationMax="2.76898">
+					<IncludedMemoryFiles>
+						<File Id="705850738" Language="fr_fr">
+							<ShortName>residents_6607314.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607314_D9342FFE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078312" Name="Play_residents_6607320" ObjectPath="\Events\Default Work Unit\Play_residents_6607320" GUID="{19F9008C-BF7C-45F3-9A93-BFE10BE4C7DF}" DurationType="OneShot" DurationMin="2.742857" DurationMax="2.742857">
+					<IncludedMemoryFiles>
+						<File Id="687251363" Language="fr_fr">
+							<ShortName>residents_6607320.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607320_BC93CE9C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078313" Name="Play_residents_6607321" ObjectPath="\Events\Default Work Unit\Play_residents_6607321" GUID="{C413C362-5BFF-4349-8AF5-AFCAA1E150A6}" DurationType="OneShot" DurationMin="2.377143" DurationMax="2.377143">
+					<IncludedMemoryFiles>
+						<File Id="419768346" Language="fr_fr">
+							<ShortName>residents_6607321.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607321_B19973CC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078314" Name="Play_residents_6607322" ObjectPath="\Events\Default Work Unit\Play_residents_6607322" GUID="{9BC18A79-EDB2-464C-AD6A-C65AA8A182AB}" DurationType="OneShot" DurationMin="2.220408" DurationMax="2.220408">
+					<IncludedMemoryFiles>
+						<File Id="1019133898" Language="fr_fr">
+							<ShortName>residents_6607322.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607322_00CC4CA0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078315" Name="Play_residents_6607323" ObjectPath="\Events\Default Work Unit\Play_residents_6607323" GUID="{60ED449D-C5ED-4AAB-8480-20DD73ACD53F}" DurationType="OneShot" DurationMin="2.533878" DurationMax="2.533878">
+					<IncludedMemoryFiles>
+						<File Id="717559425" Language="fr_fr">
+							<ShortName>residents_6607323.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607323_8FA4EE29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078316" Name="Play_residents_6607324" ObjectPath="\Events\Default Work Unit\Play_residents_6607324" GUID="{3E50BFEE-C5B8-4E63-B156-8735BDEA483C}" DurationType="OneShot" DurationMin="3.970612" DurationMax="3.970612">
+					<IncludedMemoryFiles>
+						<File Id="1046334205" Language="fr_fr">
+							<ShortName>residents_6607324.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607324_A0E8DBD9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855899" Name="Play_residents_6607330" ObjectPath="\Events\Default Work Unit\Play_residents_6607330" GUID="{5B3B22F7-6D4A-426F-9035-4DAC1CBBA057}" DurationType="OneShot" DurationMin="3.84" DurationMax="3.84">
+					<IncludedMemoryFiles>
+						<File Id="44969505" Language="fr_fr">
+							<ShortName>residents_6607330.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607330_D244E4FB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855898" Name="Play_residents_6607331" ObjectPath="\Events\Default Work Unit\Play_residents_6607331" GUID="{A3A1F60D-225D-4ED2-B428-C56C110EE389}" DurationType="OneShot" DurationMin="5.537959" DurationMax="5.537959">
+					<IncludedMemoryFiles>
+						<File Id="469051532" Language="fr_fr">
+							<ShortName>residents_6607331.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607331_B60F3A78.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855897" Name="Play_residents_6607332" ObjectPath="\Events\Default Work Unit\Play_residents_6607332" GUID="{F5D94F0A-8627-4647-A7B9-78015361B1F6}" DurationType="OneShot" DurationMin="4.205714" DurationMax="4.205714">
+					<IncludedMemoryFiles>
+						<File Id="474002058" Language="fr_fr">
+							<ShortName>residents_6607332.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607332_B6BF88AE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855896" Name="Play_residents_6607333" ObjectPath="\Events\Default Work Unit\Play_residents_6607333" GUID="{C1ECE230-21B8-4BAE-8FF8-C42602A6B2D4}" DurationType="OneShot" DurationMin="3.892245" DurationMax="3.892245">
+					<IncludedMemoryFiles>
+						<File Id="873571598" Language="fr_fr">
+							<ShortName>residents_6607333.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607333_DCF7582F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855903" Name="Play_residents_6607334" ObjectPath="\Events\Default Work Unit\Play_residents_6607334" GUID="{C5F70D7F-25C3-46B0-A03E-DF2028891ED4}" DurationType="OneShot" DurationMin="3.500408" DurationMax="3.500408">
+					<IncludedMemoryFiles>
+						<File Id="20260384" Language="fr_fr">
+							<ShortName>residents_6607334.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607334_AE17C551.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744058" Name="Play_residents_6607340" ObjectPath="\Events\Default Work Unit\Play_residents_6607340" GUID="{63CDFADD-0A8E-40E0-8724-C8C7EAD8CF22}" DurationType="OneShot" DurationMin="4.466939" DurationMax="4.466939">
+					<IncludedMemoryFiles>
+						<File Id="407223341" Language="fr_fr">
+							<ShortName>residents_6607340.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607340_1176BB12.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744059" Name="Play_residents_6607341" ObjectPath="\Events\Default Work Unit\Play_residents_6607341" GUID="{D753E29F-AFDF-463E-A8C2-2928F8B353E0}" DurationType="OneShot" DurationMin="2.977959" DurationMax="2.977959">
+					<IncludedMemoryFiles>
+						<File Id="955740083" Language="fr_fr">
+							<ShortName>residents_6607341.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607341_BB5239DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744056" Name="Play_residents_6607342" ObjectPath="\Events\Default Work Unit\Play_residents_6607342" GUID="{60D23426-F478-4FCB-9745-8AEE83C27B9C}" DurationType="OneShot" DurationMin="2.272653" DurationMax="2.272653">
+					<IncludedMemoryFiles>
+						<File Id="504090771" Language="fr_fr">
+							<ShortName>residents_6607342.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607342_0B333055.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744057" Name="Play_residents_6607343" ObjectPath="\Events\Default Work Unit\Play_residents_6607343" GUID="{E823D035-B53B-41BB-889C-F9C2BCC553D7}" DurationType="OneShot" DurationMin="3.63102" DurationMax="3.63102">
+					<IncludedMemoryFiles>
+						<File Id="628033561" Language="fr_fr">
+							<ShortName>residents_6607343.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607343_267BB92E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744062" Name="Play_residents_6607344" ObjectPath="\Events\Default Work Unit\Play_residents_6607344" GUID="{1F982C16-907E-4F2E-9ED6-CB887510F185}" DurationType="OneShot" DurationMin="2.612245" DurationMax="2.612245">
+					<IncludedMemoryFiles>
+						<File Id="174951618" Language="fr_fr">
+							<ShortName>residents_6607344.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607344_AA32744A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521645" Name="Play_residents_6607350" ObjectPath="\Events\Default Work Unit\Play_residents_6607350" GUID="{828A58F2-D985-4359-A773-44D5681F3828}" DurationType="OneShot" DurationMin="4.858776" DurationMax="4.858776">
+					<IncludedMemoryFiles>
+						<File Id="95735942" Language="fr_fr">
+							<ShortName>residents_6607350.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607350_73607794.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521644" Name="Play_residents_6607351" ObjectPath="\Events\Default Work Unit\Play_residents_6607351" GUID="{E5338332-3E78-4EED-A53C-D90C817ED316}" DurationType="OneShot" DurationMin="5.668571" DurationMax="5.668571">
+					<IncludedMemoryFiles>
+						<File Id="1007237226" Language="fr_fr">
+							<ShortName>residents_6607351.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607351_45EFB2C4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521647" Name="Play_residents_6607352" ObjectPath="\Events\Default Work Unit\Play_residents_6607352" GUID="{78BE6753-D06B-4080-8ADE-8ACE3E3CC1B3}" DurationType="OneShot" DurationMin="4.884898" DurationMax="4.884898">
+					<IncludedMemoryFiles>
+						<File Id="4193188" Language="fr_fr">
+							<ShortName>residents_6607352.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607352_B2815B2C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521646" Name="Play_residents_6607353" ObjectPath="\Events\Default Work Unit\Play_residents_6607353" GUID="{CF40824E-F1B8-439A-88FD-FB13BF0B47A2}" DurationType="OneShot" DurationMin="4.284081" DurationMax="4.284081">
+					<IncludedMemoryFiles>
+						<File Id="802170597" Language="fr_fr">
+							<ShortName>residents_6607353.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607353_DC73BCD2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521641" Name="Play_residents_6607354" ObjectPath="\Events\Default Work Unit\Play_residents_6607354" GUID="{64DE3D6C-B1D6-4760-A931-F57753C50CC5}" DurationType="OneShot" DurationMin="2.586123" DurationMax="2.586123">
+					<IncludedMemoryFiles>
+						<File Id="835009307" Language="fr_fr">
+							<ShortName>residents_6607354.wav</ShortName>
+							<Path>Voices\fr_fr\residents_6607354_FF985CD0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{964F2AAE-50A9-48DB-AD20-50838773A2C5}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="en_us" Hash="1125637977">
+			<ObjectPath>\SoundBanks\Default Work Unit\Natoncy_Orient_Nomad</ObjectPath>
+			<ShortName>Natoncy_Orient_Nomad</ShortName>
+			<Path>en_us\Natoncy_Orient_Nomad.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2818093464" Name="Play_residents_6607250" ObjectPath="\Events\Default Work Unit\Play_residents_6607250" GUID="{8FD4A30A-9D6A-4C64-B2F2-55EDDE9CA589}" DurationType="OneShot" DurationMin="2.639252" DurationMax="2.639252">
+					<IncludedMemoryFiles>
+						<File Id="390206905" Language="en_us">
+							<ShortName>residents_6607250.wav</ShortName>
+							<Path>Voices\en_us\residents_6607250_2D00004C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093465" Name="Play_residents_6607251" ObjectPath="\Events\Default Work Unit\Play_residents_6607251" GUID="{6945EF59-EBEC-47C4-848D-72796E4328C3}" DurationType="OneShot" DurationMin="1.923084" DurationMax="1.923084">
+					<IncludedMemoryFiles>
+						<File Id="820247828" Language="en_us">
+							<ShortName>residents_6607251.wav</ShortName>
+							<Path>Voices\en_us\residents_6607251_29274D29.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093466" Name="Play_residents_6607252" ObjectPath="\Events\Default Work Unit\Play_residents_6607252" GUID="{9130B9B6-F385-4A7A-A9CB-C134B6F2AEC1}" DurationType="OneShot" DurationMin="2.294422" DurationMax="2.294422">
+					<IncludedMemoryFiles>
+						<File Id="103864963" Language="en_us">
+							<ShortName>residents_6607252.wav</ShortName>
+							<Path>Voices\en_us\residents_6607252_666D2868.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2818093467" Name="Play_residents_6607253" ObjectPath="\Events\Default Work Unit\Play_residents_6607253" GUID="{4D7AA31C-6372-416F-86B8-9B41DEE6DCFF}" DurationType="OneShot" DurationMin="2.679048" DurationMax="2.679048">
+					<IncludedMemoryFiles>
+						<File Id="632035920" Language="en_us">
+							<ShortName>residents_6607253.wav</ShortName>
+							<Path>Voices\en_us\residents_6607253_29D9633B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426321" Name="Play_residents_6607260" ObjectPath="\Events\Default Work Unit\Play_residents_6607260" GUID="{24079251-C0F0-4826-8921-522E8B51AA13}" DurationType="OneShot" DurationMin="2.79839" DurationMax="2.79839">
+					<IncludedMemoryFiles>
+						<File Id="108217151" Language="en_us">
+							<ShortName>residents_6607260.wav</ShortName>
+							<Path>Voices\en_us\residents_6607260_6E992E91.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2868426320" Name="Play_residents_6607261" ObjectPath="\Events\Default Work Unit\Play_residents_6607261" GUID="{CC22908C-DC5C-4F8F-87C5-4901B5D9847C}" DurationType="OneShot" DurationMin="2.301859" DurationMax="2.301859">
+					<IncludedMemoryFiles>
+						<File Id="890139998" Language="en_us">
+							<ShortName>residents_6607261.wav</ShortName>
+							<Path>Voices\en_us\residents_6607261_AA9E3145.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648766" Name="Play_residents_6607270" ObjectPath="\Events\Default Work Unit\Play_residents_6607270" GUID="{F999CEFF-0660-46BD-A008-1040DB10C20F}" DurationType="OneShot" DurationMin="3.33381" DurationMax="3.33381">
+					<IncludedMemoryFiles>
+						<File Id="994409709" Language="en_us">
+							<ShortName>residents_6607270.wav</ShortName>
+							<Path>Voices\en_us\residents_6607270_E883B8DF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2851648767" Name="Play_residents_6607271" ObjectPath="\Events\Default Work Unit\Play_residents_6607271" GUID="{08488D58-7ABB-4D1A-B35E-286FF27A2E80}" DurationType="OneShot" DurationMin="3.482721" DurationMax="3.482721">
+					<IncludedMemoryFiles>
+						<File Id="53256104" Language="en_us">
+							<ShortName>residents_6607271.wav</ShortName>
+							<Path>Voices\en_us\residents_6607271_6CACDBF6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760607" Name="Play_residents_6607280" ObjectPath="\Events\Default Work Unit\Play_residents_6607280" GUID="{E4F29A43-8AE6-44A5-9F64-780A2C1B626D}" DurationType="OneShot" DurationMin="2.487143" DurationMax="2.487143">
+					<IncludedMemoryFiles>
+						<File Id="146253845" Language="en_us">
+							<ShortName>residents_6607280.wav</ShortName>
+							<Path>Voices\en_us\residents_6607280_E969B1AD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2767760606" Name="Play_residents_6607281" ObjectPath="\Events\Default Work Unit\Play_residents_6607281" GUID="{9D01FF45-93C0-43E2-860D-AD69184B4FB3}" DurationType="OneShot" DurationMin="2.71644" DurationMax="2.71644">
+					<IncludedMemoryFiles>
+						<File Id="55893729" Language="en_us">
+							<ShortName>residents_6607281.wav</ShortName>
+							<Path>Voices\en_us\residents_6607281_D5E68A58.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983020" Name="Play_residents_6607290" ObjectPath="\Events\Default Work Unit\Play_residents_6607290" GUID="{8B8C2968-7D1D-45D8-A5CB-8FDABE36B33E}" DurationType="OneShot" DurationMin="2.681156" DurationMax="2.681156">
+					<IncludedMemoryFiles>
+						<File Id="297042023" Language="en_us">
+							<ShortName>residents_6607290.wav</ShortName>
+							<Path>Voices\en_us\residents_6607290_CB3ECB50.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2750983021" Name="Play_residents_6607291" ObjectPath="\Events\Default Work Unit\Play_residents_6607291" GUID="{F07326DA-132C-4530-B6AA-32C5D38A79F9}" DurationType="OneShot" DurationMin="2.535873" DurationMax="2.535873">
+					<IncludedMemoryFiles>
+						<File Id="374642713" Language="en_us">
+							<ShortName>residents_6607291.wav</ShortName>
+							<Path>Voices\en_us\residents_6607291_BA55E3CB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633486" Name="Play_residents_6607300" ObjectPath="\Events\Default Work Unit\Play_residents_6607300" GUID="{71A0C8EC-4C1D-4CD1-9D60-F9525153D638}" DurationType="OneShot" DurationMin="3.382404" DurationMax="3.382404">
+					<IncludedMemoryFiles>
+						<File Id="168754781" Language="en_us">
+							<ShortName>residents_6607300.wav</ShortName>
+							<Path>Voices\en_us\residents_6607300_D4CA52BB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="653633487" Name="Play_residents_6607301" ObjectPath="\Events\Default Work Unit\Play_residents_6607301" GUID="{D33AFB65-B7E2-43E0-99CA-A26917823CFA}" DurationType="OneShot" DurationMin="2.803107" DurationMax="2.803107">
+					<IncludedMemoryFiles>
+						<File Id="308493435" Language="en_us">
+							<ShortName>residents_6607301.wav</ShortName>
+							<Path>Voices\en_us\residents_6607301_412A35FC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411169" Name="Play_residents_6607310" ObjectPath="\Events\Default Work Unit\Play_residents_6607310" GUID="{BE222E01-1CBF-4113-B712-5A83A07659A7}" DurationType="OneShot" DurationMin="3.360522" DurationMax="3.360522">
+					<IncludedMemoryFiles>
+						<File Id="829146787" Language="en_us">
+							<ShortName>residents_6607310.wav</ShortName>
+							<Path>Voices\en_us\residents_6607310_48D95353.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411168" Name="Play_residents_6607311" ObjectPath="\Events\Default Work Unit\Play_residents_6607311" GUID="{348AE329-57ED-49D6-842A-BBF88579AC1B}" DurationType="OneShot" DurationMin="3.229025" DurationMax="3.229025">
+					<IncludedMemoryFiles>
+						<File Id="503635498" Language="en_us">
+							<ShortName>residents_6607311.wav</ShortName>
+							<Path>Voices\en_us\residents_6607311_5AEE5D58.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411171" Name="Play_residents_6607312" ObjectPath="\Events\Default Work Unit\Play_residents_6607312" GUID="{78EE7A90-B957-4BEC-AB7D-F4361465A617}" DurationType="OneShot" DurationMin="2.804104" DurationMax="2.804104">
+					<IncludedMemoryFiles>
+						<File Id="369916316" Language="en_us">
+							<ShortName>residents_6607312.wav</ShortName>
+							<Path>Voices\en_us\residents_6607312_B731F3DA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411170" Name="Play_residents_6607313" ObjectPath="\Events\Default Work Unit\Play_residents_6607313" GUID="{0F9492B6-50BD-4829-94F8-72300C4AD1F9}" DurationType="OneShot" DurationMin="3.149002" DurationMax="3.149002">
+					<IncludedMemoryFiles>
+						<File Id="777728357" Language="en_us">
+							<ShortName>residents_6607313.wav</ShortName>
+							<Path>Voices\en_us\residents_6607313_C7204D8E.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="670411173" Name="Play_residents_6607314" ObjectPath="\Events\Default Work Unit\Play_residents_6607314" GUID="{ABB134F8-493F-48B1-A2A2-72D6CD6B36A2}" DurationType="OneShot" DurationMin="3.134014" DurationMax="3.134014">
+					<IncludedMemoryFiles>
+						<File Id="840388858" Language="en_us">
+							<ShortName>residents_6607314.wav</ShortName>
+							<Path>Voices\en_us\residents_6607314_89531A17.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078312" Name="Play_residents_6607320" ObjectPath="\Events\Default Work Unit\Play_residents_6607320" GUID="{19F9008C-BF7C-45F3-9A93-BFE10BE4C7DF}" DurationType="OneShot" DurationMin="3.345556" DurationMax="3.345556">
+					<IncludedMemoryFiles>
+						<File Id="818814188" Language="en_us">
+							<ShortName>residents_6607320.wav</ShortName>
+							<Path>Voices\en_us\residents_6607320_214719E6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078313" Name="Play_residents_6607321" ObjectPath="\Events\Default Work Unit\Play_residents_6607321" GUID="{C413C362-5BFF-4349-8AF5-AFCAA1E150A6}" DurationType="OneShot" DurationMin="3.099887" DurationMax="3.099887">
+					<IncludedMemoryFiles>
+						<File Id="78524751" Language="en_us">
+							<ShortName>residents_6607321.wav</ShortName>
+							<Path>Voices\en_us\residents_6607321_E3548E98.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078314" Name="Play_residents_6607322" ObjectPath="\Events\Default Work Unit\Play_residents_6607322" GUID="{9BC18A79-EDB2-464C-AD6A-C65AA8A182AB}" DurationType="OneShot" DurationMin="3.260476" DurationMax="3.260476">
+					<IncludedMemoryFiles>
+						<File Id="563312174" Language="en_us">
+							<ShortName>residents_6607322.wav</ShortName>
+							<Path>Voices\en_us\residents_6607322_92CB254F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078315" Name="Play_residents_6607323" ObjectPath="\Events\Default Work Unit\Play_residents_6607323" GUID="{60ED449D-C5ED-4AAB-8480-20DD73ACD53F}" DurationType="OneShot" DurationMin="3.020408" DurationMax="3.020408">
+					<IncludedMemoryFiles>
+						<File Id="734868894" Language="en_us">
+							<ShortName>residents_6607323.wav</ShortName>
+							<Path>Voices\en_us\residents_6607323_ED2594A7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="620078316" Name="Play_residents_6607324" ObjectPath="\Events\Default Work Unit\Play_residents_6607324" GUID="{3E50BFEE-C5B8-4E63-B156-8735BDEA483C}" DurationType="OneShot" DurationMin="3.735782" DurationMax="3.735782">
+					<IncludedMemoryFiles>
+						<File Id="6711928" Language="en_us">
+							<ShortName>residents_6607324.wav</ShortName>
+							<Path>Voices\en_us\residents_6607324_74A607DD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855899" Name="Play_residents_6607330" ObjectPath="\Events\Default Work Unit\Play_residents_6607330" GUID="{5B3B22F7-6D4A-426F-9035-4DAC1CBBA057}" DurationType="OneShot" DurationMin="3.535964" DurationMax="3.535964">
+					<IncludedMemoryFiles>
+						<File Id="607626101" Language="en_us">
+							<ShortName>residents_6607330.wav</ShortName>
+							<Path>Voices\en_us\residents_6607330_4EBFD7FD.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855898" Name="Play_residents_6607331" ObjectPath="\Events\Default Work Unit\Play_residents_6607331" GUID="{A3A1F60D-225D-4ED2-B428-C56C110EE389}" DurationType="OneShot" DurationMin="4.163538" DurationMax="4.163538">
+					<IncludedMemoryFiles>
+						<File Id="86125509" Language="en_us">
+							<ShortName>residents_6607331.wav</ShortName>
+							<Path>Voices\en_us\residents_6607331_9558AC5B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855897" Name="Play_residents_6607332" ObjectPath="\Events\Default Work Unit\Play_residents_6607332" GUID="{F5D94F0A-8627-4647-A7B9-78015361B1F6}" DurationType="OneShot" DurationMin="4.827959" DurationMax="4.827959">
+					<IncludedMemoryFiles>
+						<File Id="165667921" Language="en_us">
+							<ShortName>residents_6607332.wav</ShortName>
+							<Path>Voices\en_us\residents_6607332_D75551FC.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855896" Name="Play_residents_6607333" ObjectPath="\Events\Default Work Unit\Play_residents_6607333" GUID="{C1ECE230-21B8-4BAE-8FF8-C42602A6B2D4}" DurationType="OneShot" DurationMin="4.368957" DurationMax="4.368957">
+					<IncludedMemoryFiles>
+						<File Id="11307221" Language="en_us">
+							<ShortName>residents_6607333.wav</ShortName>
+							<Path>Voices\en_us\residents_6607333_DC6CD72F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="636855903" Name="Play_residents_6607334" ObjectPath="\Events\Default Work Unit\Play_residents_6607334" GUID="{C5F70D7F-25C3-46B0-A03E-DF2028891ED4}" DurationType="OneShot" DurationMin="3.739955" DurationMax="3.739955">
+					<IncludedMemoryFiles>
+						<File Id="238912995" Language="en_us">
+							<ShortName>residents_6607334.wav</ShortName>
+							<Path>Voices\en_us\residents_6607334_1BE420C9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744058" Name="Play_residents_6607340" ObjectPath="\Events\Default Work Unit\Play_residents_6607340" GUID="{63CDFADD-0A8E-40E0-8724-C8C7EAD8CF22}" DurationType="OneShot" DurationMin="5.014943" DurationMax="5.014943">
+					<IncludedMemoryFiles>
+						<File Id="876161099" Language="en_us">
+							<ShortName>residents_6607340.wav</ShortName>
+							<Path>Voices\en_us\residents_6607340_5ACAD664.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744059" Name="Play_residents_6607341" ObjectPath="\Events\Default Work Unit\Play_residents_6607341" GUID="{D753E29F-AFDF-463E-A8C2-2928F8B353E0}" DurationType="OneShot" DurationMin="3.263968" DurationMax="3.263968">
+					<IncludedMemoryFiles>
+						<File Id="748940992" Language="en_us">
+							<ShortName>residents_6607341.wav</ShortName>
+							<Path>Voices\en_us\residents_6607341_EE1EBAE3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744056" Name="Play_residents_6607342" ObjectPath="\Events\Default Work Unit\Play_residents_6607342" GUID="{60D23426-F478-4FCB-9745-8AEE83C27B9C}" DurationType="OneShot" DurationMin="2.549977" DurationMax="2.549977">
+					<IncludedMemoryFiles>
+						<File Id="660836900" Language="en_us">
+							<ShortName>residents_6607342.wav</ShortName>
+							<Path>Voices\en_us\residents_6607342_51596D90.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744057" Name="Play_residents_6607343" ObjectPath="\Events\Default Work Unit\Play_residents_6607343" GUID="{E823D035-B53B-41BB-889C-F9C2BCC553D7}" DurationType="OneShot" DurationMin="3.484966" DurationMax="3.484966">
+					<IncludedMemoryFiles>
+						<File Id="568659615" Language="en_us">
+							<ShortName>residents_6607343.wav</ShortName>
+							<Path>Voices\en_us\residents_6607343_C50E9FBE.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="720744062" Name="Play_residents_6607344" ObjectPath="\Events\Default Work Unit\Play_residents_6607344" GUID="{1F982C16-907E-4F2E-9ED6-CB887510F185}" DurationType="OneShot" DurationMin="3.025964" DurationMax="3.025964">
+					<IncludedMemoryFiles>
+						<File Id="160985837" Language="en_us">
+							<ShortName>residents_6607344.wav</ShortName>
+							<Path>Voices\en_us\residents_6607344_23B06FEB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521645" Name="Play_residents_6607350" ObjectPath="\Events\Default Work Unit\Play_residents_6607350" GUID="{828A58F2-D985-4359-A773-44D5681F3828}" DurationType="OneShot" DurationMin="5.575941" DurationMax="5.575941">
+					<IncludedMemoryFiles>
+						<File Id="981492356" Language="en_us">
+							<ShortName>residents_6607350.wav</ShortName>
+							<Path>Voices\en_us\residents_6607350_9FAC5D87.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521644" Name="Play_residents_6607351" ObjectPath="\Events\Default Work Unit\Play_residents_6607351" GUID="{E5338332-3E78-4EED-A53C-D90C817ED316}" DurationType="OneShot" DurationMin="5.650476" DurationMax="5.650476">
+					<IncludedMemoryFiles>
+						<File Id="854485757" Language="en_us">
+							<ShortName>residents_6607351.wav</ShortName>
+							<Path>Voices\en_us\residents_6607351_1A7A9209.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521647" Name="Play_residents_6607352" ObjectPath="\Events\Default Work Unit\Play_residents_6607352" GUID="{78BE6753-D06B-4080-8ADE-8ACE3E3CC1B3}" DurationType="OneShot" DurationMin="5.575941" DurationMax="5.575941">
+					<IncludedMemoryFiles>
+						<File Id="717373128" Language="en_us">
+							<ShortName>residents_6607352.wav</ShortName>
+							<Path>Voices\en_us\residents_6607352_FA31F768.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521646" Name="Play_residents_6607353" ObjectPath="\Events\Default Work Unit\Play_residents_6607353" GUID="{CF40824E-F1B8-439A-88FD-FB13BF0B47A2}" DurationType="OneShot" DurationMin="5.575941" DurationMax="5.575941">
+					<IncludedMemoryFiles>
+						<File Id="32101517" Language="en_us">
+							<ShortName>residents_6607353.wav</ShortName>
+							<Path>Voices\en_us\residents_6607353_39E9EB55.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="737521641" Name="Play_residents_6607354" ObjectPath="\Events\Default Work Unit\Play_residents_6607354" GUID="{64DE3D6C-B1D6-4760-A931-F57753C50CC5}" DurationType="OneShot" DurationMin="5.650476" DurationMax="5.650476">
+					<IncludedMemoryFiles>
+						<File Id="582899895" Language="en_us">
+							<ShortName>residents_6607354.wav</ShortName>
+							<Path>Voices\en_us\residents_6607354_50892EDA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{964F2AAE-50A9-48DB-AD20-50838773A2C5}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1034224485">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

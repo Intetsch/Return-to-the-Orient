@@ -1,0 +1,66 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000617</GUID>
+                    <Name>orient construction menu culture (category)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/achievement/icon_achievement_category_culture.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000323</Building>
+                        </Item>
+                        <Item>
+                            <Building>133886</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000379</Building>
+                        </Item>
+                        <Item>
+                            <Building>102818</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000584</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000585</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000380</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000381</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000586</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000587</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000178</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000234</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Culture</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>500116</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

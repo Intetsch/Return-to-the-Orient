@@ -1,0 +1,112 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114340">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000012</GUID>
+                    <Name>Nomad Workforce</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_workforce_2.5d_nomad.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nomad Workforce</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122006</LineID>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Product>
+                    <StorageLevel>Area</StorageLevel>
+                    <DeltaOnly>1</DeltaOnly>
+                    <IsWorkforce>1</IsWorkforce>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- WorkforceNewsTracker -->
+    <ModOp Type="add" GUID="140989" Path="Values/WorkforceNewsTracker/WorkforceArticles">
+        <Item>
+            <Product>1404000012</Product>
+            <Article>128405</Article>
+        </Item>
+    </ModOp>
+
+    <!-- WorkforceSliderNewsTracker -->
+    <ModOp Type="add" GUID="141002" Path="Values/WorkforceSliderNewsTracker/WorkforceSliderArticles">
+        <Item>
+            <TrackingTime>300000</TrackingTime>
+            <Min>0.25</Min>
+            <Max>1</Max>
+            <Article>140580</Article>
+            <Context>1404000012</Context>
+        </Item>
+        <Item>
+            <TrackingTime>300000</TrackingTime>
+            <Min>-1</Min>
+            <Max>-0.25</Max>
+            <Article>140578</Article>
+            <Context>1404000012</Context>
+        </Item>
+    </ModOp>
+
+    <!-- GoodValueBalancing -->
+    <ModOp Type="merge" GUID="142977" Path="Values/GoodValueBalancing/WorkforceData">
+        <!-- result: 32 -->
+        <Mod3>
+            <Tiers>
+                <Item>
+                    <WorkforceValue>0.8136364</WorkforceValue>
+                    <WorkforceGUID>1404000012</WorkforceGUID>
+                </Item>
+            </Tiers>
+        </Mod3>
+    </ModOp>
+
+    <!-- IslandBarScene -->
+    <ModOp Type="add" GUID="25000121" Path="Values/IslandBarScene/WorkforceOrder">
+        <Item>
+            <WorkforceEntry>1404000012</WorkforceEntry>
+        </Item>
+    </ModOp>
+
+    <!-- KeywordFilter -->
+    <ModOp Type="add" GUID="501962" Path="Values/KeywordFilter/Keywords">
+        <Item>
+            <Keyword>1404000012</Keyword>
+            <ProductList>502069</ProductList>
+        </Item>
+    </ModOp>
+
+    <!-- DistributionUpgrade / AddDeltas -->
+    <ModOp GUID='191303' Type="add" Path="Values/DistributionUpgrade/AddDeltas/">
+        <Item>
+            <Product>1404000012</Product>
+            <Amount>20</Amount>
+        </Item>
+    </ModOp>
+
+    <!-- IslandBarScene/WorkforceOrder -->
+    <!-- <ModOp Type="addNextSibling" GUID="25000121" Path="/Values/IslandBarScene/WorkforceOrder/Item[WorkforceEntry='5406']">
+        <Item>
+            <WorkforceEntry>1404000012</WorkforceEntry>
+        </Item>
+    </ModOp> -->
+
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/WorkforceList">
+        <Item>
+            <Factory>1404000012</Factory>
+        </Item>
+    </ModOp>
+
+
+
+    
+</ModOps>

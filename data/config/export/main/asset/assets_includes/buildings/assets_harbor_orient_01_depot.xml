@@ -1,0 +1,143 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="1010519">
+        <Asset>
+            <BaseAssetGUID>1010519</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404000217</GUID>
+                    <Name>harbor_orient_01 (Depot)</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/harbor_01_orient/harbor_01_orient.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <AmbientMoodProvider />
+                <Constructable />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LineID>8506</LineID>
+                </Text>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>3000</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>12</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborDepot</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Attackable />
+                <Warehouse />
+                <StorageBase />
+                <Locked />
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>20</Amount>
+                            <InactiveAmount>10</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>0</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <SoundEmitter />
+                <Infolayer />
+                <UpgradeList />
+                <LogisticNode />
+                <FeedbackController />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

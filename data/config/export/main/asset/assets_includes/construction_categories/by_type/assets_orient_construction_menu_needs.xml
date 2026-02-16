@@ -1,0 +1,69 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000620</GUID>
+                    <Name>orient construction menu needs (category)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_itemsockets_01.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000159</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000303</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000300</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000172</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000173</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000165</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000289</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000295</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000297</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000296</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000164</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000299</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000298</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Consumables</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>500945</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

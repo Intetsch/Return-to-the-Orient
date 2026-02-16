@@ -1,0 +1,220 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118745">
+        <Asset>
+            <Template>PopulationLevel7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000010</GUID>
+                    <Name>Nomads_Mod8</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_nomad.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nomads</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122004</LineID>
+                </Text>
+                <PopulationLevel7>
+                    <PopulationInputs>
+                        <!-- Basic -->
+                        <Item>
+                            <Product>120020</Product>
+                            <SupplyWeight>3</SupplyWeight>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1888999749</Product>
+                            <Amount>0.0005</Amount>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>100</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>49</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1404000265</Product>
+                            <Amount>0.000277778</Amount>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>199</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>1404000150</Product>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>350</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+
+                        <!-- Luxury -->
+                        <Item>
+                            <Product>1404000235</Product>
+                            <Amount>0.000294118</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>200</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>99</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
+                            <Product>114404</Product>
+                            <Amount>0.000625</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>350</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        
+                        <!-- Lifestyle -->
+                        <Item>
+                            <Product>1010213</Product>
+                            <Amount>0.000454545</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000001</Population>
+                                <MinPopulationAmount>150</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>1010193</Product>
+                            <Amount>0.0003125</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000002</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>1010258</Product>
+                            <Amount>0.001</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000004</Population>
+                                <MinPopulationAmount>1750</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>1010201</Product>
+                            <Amount>0.000277778</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000001</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>5400</Product>
+                            <Amount>0.00125</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>1800</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                        <Item>
+                            <Product>5384</Product>
+                            <Amount>0.000714286</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>1</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
+                    </PopulationInputs>
+                    <DefaultResidence>1404000016</DefaultResidence>
+                    <PopulationOutputs>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </PopulationOutputs>
+                    <CategoryIcon>data/ui/2kimages/main/icons/icon_arrow.png</CategoryIcon>
+                    <PopulationParticipant>Mod8</PopulationParticipant>
+                    <PopulationAtWorkParticipant>Mod8</PopulationAtWorkParticipant>
+                    <MoodText>
+                        <Angry>
+                            <Text>1404000047</Text>
+                        </Angry>
+                        <Unhappy>
+                            <Text>1404000048</Text>
+                        </Unhappy>
+                        <Neutral>
+                            <Text>1404000049</Text>
+                        </Neutral>
+                        <Happy>
+                            <Text>1404000050</Text>
+                        </Happy>
+                        <Euphoric>
+                            <Text>1404000051</Text>
+                        </Euphoric>
+                    </MoodText>
+                </PopulationLevel7>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- PopulationLevelList -->
+    <ModOp Type="addNextSibling" GUID="2001271" Path="/Values/GUIConfig/PopulationLevelList/Item[PopulationLevel='114330']">
+        <Item>
+            <PopulationLevel>1404000010</PopulationLevel>
+        </Item>
+    </ModOp>
+
+    <!-- KeywordFilter -->
+    <ModOp Type="add" GUID="501962" Path="Values/KeywordFilter/Keywords">
+        <Item>
+            <Keyword>1404000010</Keyword>
+            <ProductList>1404000029</ProductList>
+        </Item>
+    </ModOp>
+
+    <!-- HappinessConfigs -->
+    <ModOp Type="add" GUID="25000118" Path="/Values/ObjectmenuResidenceScene/HappinessConfigs">
+        <Item>
+            <PopulationLevel>1404000010</PopulationLevel>
+            <AssignedConfig>502287</AssignedConfig>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="merge" GUID="141703" Path="Values/CharacterInteractionConfig/MapParticipantArchetypeToPopulationLevel">
+        <Mod8>
+            <PopulationLevel>1404000010</PopulationLevel>
+        </Mod8>
+    </ModOp>
+
+    <!-- HighscoreFeature -->
+    <ModOp Type="add" GUID="142996" Path="Values/HighscoreFeature/PopulationBalancing">
+        <Item>
+            <PopulationGuid>1404000010</PopulationGuid>
+            <PopulationFactor>1.9</PopulationFactor>
+        </Item>
+    </ModOp>
+
+</ModOps>

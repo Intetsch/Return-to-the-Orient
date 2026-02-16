@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114343">
+        <Asset>
+            <Template>Fertility</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000293</GUID>
+                    <Name>Rose Fertility</Name>
+                    <IconFilename>data/ui\Icons\icon_rosenfarm.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rose Fertility</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122001</LineID>
+                </Text>
+                <Fertility />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- MinimapScene -->
+    <ModOp Type="add" GUID="500204" Path="Values/MinimapScene/FertilityOrder">
+        <Item>
+            <GUID>1404000293</GUID>
+        </Item>
+    </ModOp>
+
+</ModOps>

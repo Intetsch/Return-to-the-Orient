@@ -1,0 +1,34 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="601380">
+        <Asset>
+            <Template>PopulationGroup7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000152</GUID>
+                    <Name>Orient population</Name>
+                </Standard>
+                <Text>
+                  <LocaText>
+                    <English>
+                      <Text>Population: The Orient</Text>
+                      <Status>Exported</Status>
+                    </English>
+                  </LocaText>
+                </Text>
+                <PopulationGroup7>
+                    <PopulationLevels>
+                        <Item>
+                            <Level>1404000010</Level>
+                        </Item>
+                        <Item>
+                            <Level>1404000011</Level>
+                        </Item>
+                    </PopulationLevels>
+                    <Regional>Mod3</Regional>
+                </PopulationGroup7>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

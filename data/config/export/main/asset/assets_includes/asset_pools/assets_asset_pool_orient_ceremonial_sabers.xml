@@ -1,0 +1,46 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000765</GUID>
+					<Name>asset pool orient Ceremonial Sabers</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000321</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000312</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000238</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005093</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005406</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005649</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000314</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005351</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000295</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

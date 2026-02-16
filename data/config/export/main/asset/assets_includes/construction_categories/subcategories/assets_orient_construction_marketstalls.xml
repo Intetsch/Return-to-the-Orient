@@ -1,0 +1,55 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000372</GUID>
+                    <Name>orient construction menu marketstalls</Name>
+                    <IconFilename>data/graphics/icons/products/icon_marketstall_general.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000356</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000373</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000367</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000366</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000371</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000365</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000370</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000369</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1404000372</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45754</LineID>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

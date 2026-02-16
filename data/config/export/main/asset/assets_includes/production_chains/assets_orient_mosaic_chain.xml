@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000158</GUID>
+                    <Name>orient mosaic chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_mosaic.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000157</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>117743</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010560</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Mosaic</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

@@ -1,0 +1,39 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000619</GUID>
+                    <Name>orient construction menu materials (category)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_build_menu.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>500091</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000214</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000158</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Materials</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>500943</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

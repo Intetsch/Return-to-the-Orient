@@ -1,0 +1,21 @@
+<ModOps>
+
+    <Include File="city/assets__index.xml" />
+    <Include File="monument/assets__index.xml" />
+    <Include File="ornaments/assets__index.xml" />
+    <Include File="production/assets__index.xml" />
+
+    <Include File="assets_harbor_orient_01_depot.xml" />
+
+    <Include File="assets_kontor.xml" />
+    <Include File="assets_logistic_orient_01.xml" />
+    
+    <Include File="assets_noria.xml" />
+
+    <Include File="assets_residence_orient_tier01.xml" />
+    <Include File="assets_residence_orient_tier02.xml" />
+
+    <Include File="assets_town_hall.xml" />
+    <Include File="assets_trade_union.xml" />
+
+</ModOps>

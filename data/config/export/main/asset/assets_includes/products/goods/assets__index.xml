@@ -1,0 +1,62 @@
+<ModOps>
+
+    <Include File="assets_sultans_seals.xml" />
+
+
+    <!-- BasicNeedGoods -->
+    <ModOp Type="add" GUID="501993" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404000235</Product>
+        </Item>
+        <Item>
+            <Product>1404000238</Product>
+        </Item>
+        <Item>
+            <Product>1404000241</Product>
+        </Item>
+        <Item>
+            <Product>1888999749</Product>
+        </Item>
+        <Item>
+            <Product>1404000250</Product>
+        </Item>
+        <Item>
+            <Product>1404000253</Product>
+        </Item>
+        <Item>
+            <Product>1404000262</Product>
+        </Item>
+        <Item>
+            <Product>1404000265</Product>
+        </Item>
+        <Item>
+            <Product>114404</Product>
+        </Item>
+        <Item>
+            <Product>1900100125</Product>
+        </Item>
+        <Item>
+            <Product>1404000277</Product>
+        </Item>
+        <Item>
+            <Product>1404000283</Product>
+        </Item>
+        <Item>
+            <Product>1999005057</Product>
+        </Item>
+    </ModOp>
+
+    <!-- ConstructionMaterials -->
+    <ModOp Type="add" GUID="501957,502221" Path="Values/ProductList/List">
+        <Item>
+            <Product>1010196</Product>
+        </Item>
+        <Item>
+            <Product>1404000256</Product>
+        </Item>
+        <Item>
+            <Product>1404000207</Product>
+        </Item>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,196 @@
+<ModOps>
+
+	<ModOp GUID='24829' Type="addNextSibling">
+		<Asset>
+			<Template>IrrigationPropagationSourceNoSlot</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000212</GUID>
+					<Name>Noria</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_basin.png</IconFilename>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking />
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>1000</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>1010196</Ingredient>
+							<Amount>7</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>114402</Ingredient>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>IrrigationPropagationSourceNoSlot</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/noria2/s_noria.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Pump</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<ParticipantMessageArcheType>SA_Resident_tier01_atWork</ParticipantMessageArcheType>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Basin</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>54958</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>270350</Sound>
+						</Item>
+					</ActiveSounds>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<UpgradeList />
+				<LogisticNode>
+					<TransporterCountMax>0</TransporterCountMax>
+				</LogisticNode>
+				<AmbientMoodProvider />
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>35</Amount>
+							<InactiveAmount>20</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>0</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+				</Attackable>
+				<IncidentInfectable>
+					<Infectable>
+						<Fire>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Fire>
+						<Riot>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Riot>
+						<Illness>
+							<Escalated>0</Escalated>
+						</Illness>
+						<Explosion>
+							<Base>0</Base>
+							<Escalated>0</Escalated>
+						</Explosion>
+					</Infectable>
+				</IncidentInfectable>
+				<Pausable />
+                <ItemContainer>
+                    <SocketScope>Radius</SocketScope>
+                    <SocketScopeRadius>30</SocketScopeRadius>
+                    <SocketScopeRadiusOverlapCategory>Mod1</SocketScopeRadiusOverlapCategory>
+                </ItemContainer>
+				<Culture />
+				<QuestObject />
+				<IrrigationSource>
+					<AutoWaterBaseTile>Source_Canal</AutoWaterBaseTile>
+					<PipeFillCapacity>100</PipeFillCapacity>
+					<TooManyPipesInfolayerIcon>125037</TooManyPipesInfolayerIcon>
+					<CanBeFilledDynamically>1</CanBeFilledDynamically>
+					<MaxDynamicFillCapacity>150</MaxDynamicFillCapacity>
+				</IrrigationSource>
+			</Values>
+		</Asset>
+
+
+	</ModOp>
+
+</ModOps>

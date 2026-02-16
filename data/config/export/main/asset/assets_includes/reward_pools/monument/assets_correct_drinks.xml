@@ -1,0 +1,35 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="7170">
+        <Asset>
+            <Template>RewardPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000756</GUID>
+                    <Name>Correct Orient Drinks</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_alcohol-1.png</IconFilename>
+                    <InfoDescription>19635</InfoDescription>
+                </Standard>
+                <RewardPool>
+                    <ItemsPool>
+                        <Item>
+                            <ItemLink>1404000265</ItemLink>
+                        </Item>
+                        <Item>
+                            <ItemLink>114390</ItemLink>
+                        </Item>
+                    </ItemsPool>
+                </RewardPool>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Status>Localization</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

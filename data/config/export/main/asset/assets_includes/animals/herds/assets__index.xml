@@ -1,0 +1,13 @@
+<ModOps>
+
+    <Include File="assets_herd_dromedary.xml" />
+    <Include File="assets_herd_hyaena.xml" />
+    <Include File="assets_herd_water_buffalo.xml" />
+
+
+
+    <ModOp Type="add" GUID="119853,118226" Path="/Values/AnimalBase/AutoSpawn_Regions">;Mod3</ModOp>
+
+
+
+</ModOps>

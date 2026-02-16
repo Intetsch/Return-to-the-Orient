@@ -1,0 +1,330 @@
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="204954">
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000571</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000465</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000467</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000469</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000471</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000572</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000473</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000475</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000573</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000477</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000479</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000574</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000481</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000483</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000575</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000485</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000487</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000576</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000489</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000491</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000581</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000493</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000495</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000497</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000499</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000501</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000503</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000505</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000507</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000509</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000511</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000582</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000513</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000515</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000517</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000519</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000521</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>TextPool</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000583</GUID>
+          <Name>TextPool_Orient_Tier02_Residence_</Name>
+        </Standard>
+        <TextPool />
+        <PreConditionList>
+          <Condition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </Condition>
+        </PreConditionList>
+        <AudioTextPool>
+          <AudioTextList>
+            <Item>
+              <AudioText>1404000523</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000525</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000527</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000529</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000531</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000533</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000535</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000537</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000539</AudioText>
+            </Item>
+            <Item>
+              <AudioText>1404000541</AudioText>
+            </Item>
+          </AudioTextList>
+        </AudioTextPool>
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

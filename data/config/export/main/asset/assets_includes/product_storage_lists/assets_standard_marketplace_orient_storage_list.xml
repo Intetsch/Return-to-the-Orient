@@ -1,0 +1,60 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="502168">
+		<Asset>
+			<Template>ProductStorageList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000031</GUID>
+					<Name>StandardMarketplaceOrientStorageList</Name>
+				</Standard>
+				<ProductStorageList>
+					<ProductList>
+						<!-- Nomads -->
+						<Item>
+							<Product>1888999749</Product>
+						</Item>
+						<Item>
+							<Product>1404000235</Product>
+						</Item>
+						<Item>
+							<Product>1404000265</Product>
+						</Item>
+						<Item>
+							<Product>114404</Product>
+						</Item>
+						<!-- Envoys -->
+						<Item>
+							<Product>1404000277</Product>
+						</Item>
+						<Item>
+							<Product>1404000262</Product>
+						</Item>
+						<Item>
+							<Product>1404000253</Product>
+						</Item>
+						<Item>
+							<Product>1404000238</Product>
+						</Item>
+						<Item>
+							<Product>1900100125</Product>
+						</Item>
+						<Item>
+							<Product>1404000250</Product>
+						</Item>
+						<Item>
+							<Product>1999005057</Product>
+						</Item>
+						<Item>
+							<Product>1404000283</Product>
+						</Item>
+						<Item>
+							<Product>1404000241</Product>
+						</Item>
+					</ProductList>
+				</ProductStorageList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

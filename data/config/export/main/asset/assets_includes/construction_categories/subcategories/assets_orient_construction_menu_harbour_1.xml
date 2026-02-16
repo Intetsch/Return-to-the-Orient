@@ -1,0 +1,41 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000215</GUID>
+                    <Name>orient construction menu harbour 1 (tier)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_harbour_buildings.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101339</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000217</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19173</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45754</LineID>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="101339" Path="/Values/Building">
+        <AssociatedRegions>Mod3</AssociatedRegions>
+    </ModOp>
+
+</ModOps>

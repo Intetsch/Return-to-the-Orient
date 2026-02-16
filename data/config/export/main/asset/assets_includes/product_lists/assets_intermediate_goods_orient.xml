@@ -1,0 +1,52 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="502077">
+		<Asset>
+			<Template>ProductList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000043</GUID>
+					<Name>IntermediateGoods_Orient</Name>
+				</Standard>
+				<ProductList>
+					<List>
+						<Item>
+							<Product>24850</Product>
+						</Item>
+						<Item>
+							<Product>117701</Product>
+						</Item>
+						<Item>
+							<Product>1010219</Product>
+						</Item>
+						<Item>
+							<Product>1010239</Product>
+						</Item>
+						<Item>
+							<Product>1010241</Product>
+						</Item>
+						<Item>
+							<Product>1010242</Product>
+						</Item>
+						<Item>
+							<Product>1010258</Product>
+						</Item>
+						<Item>
+							<Product>1999005093</Product>
+						</Item>
+						<Item>
+							<Product>1010219</Product>
+						</Item>
+					</List>
+				</ProductList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="502046,502047,502048,502084" Path="Values/ProductList/List">
+		<Item>
+			<Product>1404000043</Product>
+		</Item>
+	</ModOp>
+
+</ModOps>

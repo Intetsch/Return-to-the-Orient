@@ -1,0 +1,25 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="234885">
+        <Asset>
+            <Template>StateChoice</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000221</GUID>
+                    <Name>Orient</Name>
+                </Standard>
+                <WwiseStandard>
+                    <WwiseID>3991942870</WwiseID>
+                </WwiseStandard>
+                <StateChoice />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="203339" Path="Values/StateGroup/StateChoices">
+        <Item>
+            <Choice>1404000221</Choice>
+        </Item>
+    </ModOp>
+
+</ModOps>

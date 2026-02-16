@@ -1,0 +1,49 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118226">
+        <Asset>
+            <Template>Herd</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000175</GUID>
+                    <Name>Herd Hyaena</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_cattle.png</IconFilename>
+                </Standard>
+                <Mesh>
+                    <OnlyVisibleInEditor>1</OnlyVisibleInEditor>
+                </Mesh>
+                <Object>
+                    <Type>EditorObject</Type>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/ui/placeholder/herd_deer.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <SoundEmitter />
+                <Herd>
+                    <LikesToRunAround>1</LikesToRunAround>
+                    <StandTogetherRadius>6</StandTogetherRadius>
+                    <Attackable>1</Attackable>
+                </Herd>
+                <AnimalBase>
+                    <AnimalCFGs>
+                        <Item>
+                            <AnimalCFG>data/dlc06/graphics/units/wildlife/hyaena/hyaena.cfg</AnimalCFG>
+                            <RelativeProbability>100</RelativeProbability>
+                        </Item>
+                    </AnimalCFGs>
+                    <AutoSpawn_AmbientZones>North;South</AutoSpawn_AmbientZones>
+                    <AutoSpawn_Regions>Mod3</AutoSpawn_Regions>
+                    <UnitCountMin>8</UnitCountMin>
+                    <UnitCountMax>16</UnitCountMax>
+                    <AutoSpawn_RelativeProbability>10</AutoSpawn_RelativeProbability>
+                    <Animal_AudioLoop>235602</Animal_AudioLoop>
+                    <ScaleFactor>0.7</ScaleFactor>
+                    <ScaleDeviationFactorMin>0.5</ScaleDeviationFactorMin>
+                </AnimalBase>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

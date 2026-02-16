@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="6506">
+          <Asset>
+            <Template>MonumentEventReward</Template>
+            <Values>
+              <Standard>
+                <GUID>1404000337</GUID>
+                <Name>Pilgrimage medium 1</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/monument_event_rewards/icon_reward_3.png</IconFilename>
+                <InfoDescription>8844</InfoDescription>
+              </Standard>
+              <Text>
+                <LocaText>
+                  <English>
+                    <Text>Influence</Text>
+                    <Status>Exported</Status>
+                  </English>
+                </LocaText>
+              </Text>
+              <Reward>
+                <RewardAssets>
+                  <Item>
+                    <Reward>1010190</Reward>
+                    <Amount>30</Amount>
+                  </Item>
+                </RewardAssets>
+              </Reward>
+            </Values>
+          </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,55 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114340">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000207</GUID>
+                    <Name>sultans seals</Name>
+                    <IconFilename>data/graphics/icons/products/icon_sultans_seal.png</IconFilename>
+                    <InfoDescription>1404000286</InfoDescription>
+                </Standard>
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11702</ProductCategory>
+                    <BasePrice>100</BasePrice>
+                    <CivLevel>1</CivLevel>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Mod3</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <FluffText>1404000287</FluffText>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- StandardProductStorageList -->
+    <ModOp Type="add" GUID="120055" Path="Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1404000207</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Expedition Balancing -->
+    <ModOp Type="add" GUID="800111" Path="Values/ExpeditionFeature/FeedOption/FeedOptions">
+        <Item>
+            <MoraleFactor>0.4</MoraleFactor>
+            <Product>1404000207</Product>
+        </Item>
+    </ModOp>
+
+</ModOps>

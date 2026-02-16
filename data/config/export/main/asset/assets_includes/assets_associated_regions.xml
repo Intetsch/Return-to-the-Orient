@@ -1,0 +1,27 @@
+<ModOps>
+
+    <ModOp Type="add" GUID="114523,117654,119029,122988,101058,112842,117786,114545,127913,101573,101344,102818" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative buildings -->
+    <ModOp Type="add" GUID="10284,13011,13911,10283" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative palace -->
+    <ModOp Type="add" GUID="12673,12689,12666,12712,12713,12765,12769,12772,12774,12775,12778" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative docklands -->
+    <ModOp Type="add" GUID="12885,12956,12911,12954,12957,12955,12958,14202,14203,14204,14205,14206,14207,14208,14209,14210,14211,14212,14213,14214,14215,14216,14217,14218,14219,14220,14221,14222,14223,14224,14225,14226" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative hacienda -->
+    <ModOp Type="add" GUID="13996,14176,14175,14235,14236,14248,14268,14299,14378,14405,14413,14415,14418,14419" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative industry -->
+    <ModOp Type="add" GUID="14771,14772,14773,14774,14775,14776,14777,14778,14788,14789,14790,14791" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative beach -->
+    <ModOp Type="add" GUID="14445,14446,14448,14452,14478,14490,14525,14586,13910" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative pastures -->
+    <ModOp Type="add" GUID="13919,13920,13915,13976,13979,13990,13991,13992,13995" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Creative fields -->
+    <ModOp Type="add" GUID="13916,13917,13928,13930,13934,13935,13940,13942,13943,13944,13948,13957,14179,13993,13994,16233,16605,16604,16603,16602" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+
+    <ModOp Type="add" GUID="120020" Path="Values/Product/AssociatedRegion">;Mod3</ModOp>
+
+    <ModOp Type="add" GUID="101339" Path="/Values/Building">
+        <AssociatedRegions>Mod3</AssociatedRegions>
+    </ModOp>
+
+</ModOps>

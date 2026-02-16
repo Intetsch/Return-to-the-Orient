@@ -1,0 +1,180 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118745">
+        <Asset>
+            <Template>Profile_Virtual_NeverOwnsObjects</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000019</GUID>
+                    <Name>OrientEnvoys</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_envoy.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122012</LineID>
+                </Text>
+                <Profile>
+                    <ProfilePicture>data/graphics/icons/residents/icon_resident_envoy.png</ProfilePicture>
+                    <Portrait>1404000155</Portrait>
+                    <ParticipantID>Mod9</ParticipantID>
+                    <NotificationBackground>data/ui/2kimages/main/assets/character_bg/bgr_character_07.png</NotificationBackground>
+                    <DefaultColor>Color8</DefaultColor>
+                </Profile>
+                <ParticipantMessages>
+                    <MessageTriggers>
+                        <QuestInvitation>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestInvitation>
+                        <QuestStarted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestStarted>
+                        <QuestSuccessful>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestSuccessful>
+                        <QuestFailed>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestFailed>
+                        <QuestAborted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestAborted>
+                        <QuestEscortShipSelected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestEscortShipSelected>
+                        <SettlementRightsClaimIsland>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlementRightsClaimIsland>
+                        <SettlementRightsSeizeIsland>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlementRightsSeizeIsland>
+                    </MessageTriggers>
+                </ParticipantMessages>
+                <Object>
+                    <DefaultParticipant>Mod9</DefaultParticipant>
+                </Object>
+                <ParticipantMessageObject>
+                    <ParticipantMessages>1404000564</ParticipantMessages>
+                </ParticipantMessageObject>
+                <Interaction />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

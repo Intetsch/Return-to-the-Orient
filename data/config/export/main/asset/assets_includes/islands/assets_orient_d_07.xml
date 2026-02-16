@@ -1,0 +1,21 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="140373">
+        <Asset>
+            <Template>RandomIsland</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000195</GUID>
+                    <Name>orient_d_07</Name>
+                </Standard>
+                <RandomIsland>
+                    <FilePath>data/sessions/islands/pool/orient/scenario02_d_07/scenario02_d_07.a7m</FilePath>
+                    <IslandRegion>Mod3</IslandRegion>
+                    <IslandDifficulty>Normal;Hard</IslandDifficulty>
+                    <IslandType>Decoration</IslandType>
+                </RandomIsland>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

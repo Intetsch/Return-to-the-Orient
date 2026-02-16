@@ -1,0 +1,875 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_2envoys\\",
+   "SourceFilesRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_2envoys\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_2envoys\\GeneratedSoundBanks\\Windows\\en_us\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_2envoys\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "291168151",
+    "GUID": "{ABB15C7E-2D19-4149-8BB9-346593394042}",
+    "Language": "en_us",
+    "Hash": "1957796817",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Natoncy_Orient_Envoy",
+    "ShortName": "Natoncy_Orient_Envoy",
+    "Path": "en_us\\Natoncy_Orient_Envoy.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "986530901",
+      "Name": "Play_residents_6608650",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608650",
+      "GUID": "{B8734C55-DCCB-4A58-9B28-0AD4725C1F90}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.450952",
+      "DurationMax": "2.450952",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "475620283",
+        "Language": "en_us",
+        "ShortName": "residents_6608650.wav",
+        "Path": "Voices\\en_us\\residents_6608650_5C7E97A0.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986530900",
+      "Name": "Play_residents_6608651",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608651",
+      "GUID": "{A464F79F-D0D2-4065-82A4-0E6A8D0F7A33}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.629705",
+      "DurationMax": "2.629705",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "493599126",
+        "Language": "en_us",
+        "ShortName": "residents_6608651.wav",
+        "Path": "Voices\\en_us\\residents_6608651_FD70BC52.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986530903",
+      "Name": "Play_residents_6608652",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608652",
+      "GUID": "{35DA936A-84AE-4D34-BCC3-3A99743B6692}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.450952",
+      "DurationMax": "2.450952",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "984444095",
+        "Language": "en_us",
+        "ShortName": "residents_6608652.wav",
+        "Path": "Voices\\en_us\\residents_6608652_CF758B4C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986530902",
+      "Name": "Play_residents_6608653",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608653",
+      "GUID": "{80C33F63-E762-4F21-AE45-E458367B2C69}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.629705",
+      "DurationMax": "2.629705",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "287809533",
+        "Language": "en_us",
+        "ShortName": "residents_6608653.wav",
+        "Path": "Voices\\en_us\\residents_6608653_367B5932.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936198044",
+      "Name": "Play_residents_6608660",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608660",
+      "GUID": "{CB1A7488-85BB-490C-9E25-58D048B6EE66}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.034263",
+      "DurationMax": "3.034263",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "922127843",
+        "Language": "en_us",
+        "ShortName": "residents_6608660.wav",
+        "Path": "Voices\\en_us\\residents_6608660_1ECA3AAA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936198045",
+      "Name": "Play_residents_6608661",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608661",
+      "GUID": "{E980810D-B870-4E3A-95D6-B649AAC2F701}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.889773",
+      "DurationMax": "2.889773",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "533546791",
+        "Language": "en_us",
+        "ShortName": "residents_6608661.wav",
+        "Path": "Voices\\en_us\\residents_6608661_E3E48FAC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "952975631",
+      "Name": "Play_residents_6608670",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608670",
+      "GUID": "{FC713C60-4896-42C1-A422-BDFF38C7E459}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.",
+      "DurationMax": "3.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72141844",
+        "Language": "en_us",
+        "ShortName": "residents_6608670.wav",
+        "Path": "Voices\\en_us\\residents_6608670_DB887A03.wem"
+       }
+      ]
+     },
+     {
+      "Id": "952975630",
+      "Name": "Play_residents_6608671",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608671",
+      "GUID": "{9A32D2F0-0FC5-45BE-8106-A95C6D53FC1E}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.3678",
+      "DurationMax": "3.3678",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "305949330",
+        "Language": "en_us",
+        "ShortName": "residents_6608671.wav",
+        "Path": "Voices\\en_us\\residents_6608671_C035956C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1036863790",
+      "Name": "Play_residents_6608680",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608680",
+      "GUID": "{2D8705ED-979E-49C0-A107-CCD01EC24C9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.488572",
+      "DurationMax": "4.488572",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "901996994",
+        "Language": "en_us",
+        "ShortName": "residents_6608680.wav",
+        "Path": "Voices\\en_us\\residents_6608680_08C844E4.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1036863791",
+      "Name": "Play_residents_6608681",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608681",
+      "GUID": "{7F838868-7333-4534-B7DC-E59263787839}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.21517",
+      "DurationMax": "4.21517",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "532891093",
+        "Language": "en_us",
+        "ShortName": "residents_6608681.wav",
+        "Path": "Voices\\en_us\\residents_6608681_92D84D9E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1053641345",
+      "Name": "Play_residents_6608690",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608690",
+      "GUID": "{3A60E36F-A805-4FCB-888A-E2BF8289162A}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.555646",
+      "DurationMax": "3.555646",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "923385599",
+        "Language": "en_us",
+        "ShortName": "residents_6608690.wav",
+        "Path": "Voices\\en_us\\residents_6608690_9BB30FC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1053641344",
+      "Name": "Play_residents_6608691",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608691",
+      "GUID": "{A7F9DF29-BB84-4688-914F-94EE61FE8D4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.421927",
+      "DurationMax": "4.421927",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "569980298",
+        "Language": "en_us",
+        "ShortName": "residents_6608691.wav",
+        "Path": "Voices\\en_us\\residents_6608691_E1615702.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1003455679",
+      "Name": "Play_residents_6608700",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608700",
+      "GUID": "{3E5C8452-0C78-4F94-959C-64CABD1317EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.744535",
+      "DurationMax": "2.744535",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "513670093",
+        "Language": "en_us",
+        "ShortName": "residents_6608700.wav",
+        "Path": "Voices\\en_us\\residents_6608700_1981B1A1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1003455678",
+      "Name": "Play_residents_6608701",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608701",
+      "GUID": "{F7F90E0F-61C6-4E55-90DB-B2C2FEC0CED3}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.499501",
+      "DurationMax": "2.499501",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "644085409",
+        "Language": "en_us",
+        "ShortName": "residents_6608701.wav",
+        "Path": "Voices\\en_us\\residents_6608701_702950BA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986677964",
+      "Name": "Play_residents_6608710",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608710",
+      "GUID": "{595C5CBC-4DF6-4210-8BAC-CD92A3AEBC08}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.308594",
+      "DurationMax": "3.308594",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "785175288",
+        "Language": "en_us",
+        "ShortName": "residents_6608710.wav",
+        "Path": "Voices\\en_us\\residents_6608710_557735F1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986677965",
+      "Name": "Play_residents_6608711",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608711",
+      "GUID": "{E9F8EE34-148F-4909-AFFD-79B30AADE6A9}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.773764",
+      "DurationMax": "3.773764",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "311245418",
+        "Language": "en_us",
+        "ShortName": "residents_6608711.wav",
+        "Path": "Voices\\en_us\\residents_6608711_C15EACC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986677966",
+      "Name": "Play_residents_6608712",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608712",
+      "GUID": "{43F96058-9240-4AF4-9885-BD93FFE83883}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.806417",
+      "DurationMax": "3.806417",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "403024034",
+        "Language": "en_us",
+        "ShortName": "residents_6608712.wav",
+        "Path": "Voices\\en_us\\residents_6608712_5CD779C9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986677967",
+      "Name": "Play_residents_6608713",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608713",
+      "GUID": "{76CF369D-E3B7-4B88-90E0-A677CA852B68}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.592925",
+      "DurationMax": "4.592925",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "425335382",
+        "Language": "en_us",
+        "ShortName": "residents_6608713.wav",
+        "Path": "Voices\\en_us\\residents_6608713_1B883614.wem"
+       }
+      ]
+     },
+     {
+      "Id": "986677960",
+      "Name": "Play_residents_6608714",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608714",
+      "GUID": "{DC696068-27C2-4110-AC82-97818AFB2FCE}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.345533",
+      "DurationMax": "4.345533",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "898398954",
+        "Language": "en_us",
+        "ShortName": "residents_6608714.wav",
+        "Path": "Voices\\en_us\\residents_6608714_EB37BD1B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1037010821",
+      "Name": "Play_residents_6608720",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608720",
+      "GUID": "{C1A6FCE1-9722-4979-83D2-B293CC84E1C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.871769",
+      "DurationMax": "3.871769",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "751038902",
+        "Language": "en_us",
+        "ShortName": "residents_6608720.wav",
+        "Path": "Voices\\en_us\\residents_6608720_5F0074AA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1037010820",
+      "Name": "Play_residents_6608721",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608721",
+      "GUID": "{B3094561-102D-460E-8D40-9FA76694DD04}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.381678",
+      "DurationMax": "3.381678",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1022932963",
+        "Language": "en_us",
+        "ShortName": "residents_6608721.wav",
+        "Path": "Voices\\en_us\\residents_6608721_1BFC95C8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1037010823",
+      "Name": "Play_residents_6608722",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608722",
+      "GUID": "{0F4266A2-13C2-4FE2-BC57-294311F13697}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.724739",
+      "DurationMax": "3.724739",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "586818033",
+        "Language": "en_us",
+        "ShortName": "residents_6608722.wav",
+        "Path": "Voices\\en_us\\residents_6608722_E325C4B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1037010822",
+      "Name": "Play_residents_6608723",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608723",
+      "GUID": "{0D40863A-DF40-408D-B23F-B03CC6E14120}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.538095",
+      "DurationMax": "3.538095",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "387089641",
+        "Language": "en_us",
+        "ShortName": "residents_6608723.wav",
+        "Path": "Voices\\en_us\\residents_6608723_93CCD777.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1037010817",
+      "Name": "Play_residents_6608724",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608724",
+      "GUID": "{180913F2-C9C3-4E86-B232-7512B37679C9}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.871769",
+      "DurationMax": "3.871769",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "658813559",
+        "Language": "en_us",
+        "ShortName": "residents_6608724.wav",
+        "Path": "Voices\\en_us\\residents_6608724_9C8C288C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1020233234",
+      "Name": "Play_residents_6608730",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608730",
+      "GUID": "{9515A339-83FE-4A34-80FA-583779527100}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.15644",
+      "DurationMax": "2.15644",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "475264452",
+        "Language": "en_us",
+        "ShortName": "residents_6608730.wav",
+        "Path": "Voices\\en_us\\residents_6608730_9544BCC7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1020233235",
+      "Name": "Play_residents_6608731",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608731",
+      "GUID": "{AC9820F4-2C57-4E80-9668-54EFDD4161CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.418707",
+      "DurationMax": "4.418707",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "657274225",
+        "Language": "en_us",
+        "ShortName": "residents_6608731.wav",
+        "Path": "Voices\\en_us\\residents_6608731_39669007.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1020233232",
+      "Name": "Play_residents_6608732",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608732",
+      "GUID": "{3575C43E-34FA-4AA9-B74B-C8B0EE70D7F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.853084",
+      "DurationMax": "3.853084",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "291447160",
+        "Language": "en_us",
+        "ShortName": "residents_6608732.wav",
+        "Path": "Voices\\en_us\\residents_6608732_EB8B28B6.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1020233233",
+      "Name": "Play_residents_6608733",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608733",
+      "GUID": "{C2875B6B-B48F-4986-93F0-B340B7D45E34}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.93712",
+      "DurationMax": "3.93712",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "107518667",
+        "Language": "en_us",
+        "ShortName": "residents_6608733.wav",
+        "Path": "Voices\\en_us\\residents_6608733_CA58561E.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1020233238",
+      "Name": "Play_residents_6608734",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608734",
+      "GUID": "{7BE52038-2C07-4B5A-BE03-8E3D8A5D320D}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.13975",
+      "DurationMax": "5.13975",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "20076748",
+        "Language": "en_us",
+        "ShortName": "residents_6608734.wav",
+        "Path": "Voices\\en_us\\residents_6608734_8E47063F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936345203",
+      "Name": "Play_residents_6608740",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608740",
+      "GUID": "{C6D74E40-7B1B-49CB-8066-07CF8904C3E8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.299977",
+      "DurationMax": "3.299977",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "763576199",
+        "Language": "en_us",
+        "ShortName": "residents_6608740.wav",
+        "Path": "Voices\\en_us\\residents_6608740_EE01D8DE.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936345202",
+      "Name": "Play_residents_6608741",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608741",
+      "GUID": "{6A7E7477-7893-4069-9FCB-D36096DA970E}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.459887",
+      "DurationMax": "4.459887",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "149281",
+        "Language": "en_us",
+        "ShortName": "residents_6608741.wav",
+        "Path": "Voices\\en_us\\residents_6608741_660CBD61.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936345201",
+      "Name": "Play_residents_6608742",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608742",
+      "GUID": "{83BB66C5-84DD-4DF8-8E4F-48D434703BB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.969773",
+      "DurationMax": "3.969773",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "881853132",
+        "Language": "en_us",
+        "ShortName": "residents_6608742.wav",
+        "Path": "Voices\\en_us\\residents_6608742_BD91557A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936345200",
+      "Name": "Play_residents_6608743",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608743",
+      "GUID": "{4CCC75D7-6FE2-494D-A10E-969869FBB0CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.192358",
+      "DurationMax": "4.192358",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1018390621",
+        "Language": "en_us",
+        "ShortName": "residents_6608743.wav",
+        "Path": "Voices\\en_us\\residents_6608743_AA99C43C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "936345207",
+      "Name": "Play_residents_6608744",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608744",
+      "GUID": "{9FAC89EB-69DC-4F95-93B1-79352E886504}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.459887",
+      "DurationMax": "4.459887",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "938527473",
+        "Language": "en_us",
+        "ShortName": "residents_6608744.wav",
+        "Path": "Voices\\en_us\\residents_6608744_345C16C3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "919567488",
+      "Name": "Play_residents_6608750",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608750",
+      "GUID": "{CA172B66-5E58-4420-8416-47194F17A8CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.403945",
+      "DurationMax": "6.403945",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "673500437",
+        "Language": "en_us",
+        "ShortName": "residents_6608750.wav",
+        "Path": "Voices\\en_us\\residents_6608750_FF9A6729.wem"
+       }
+      ]
+     },
+     {
+      "Id": "919567489",
+      "Name": "Play_residents_6608751",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608751",
+      "GUID": "{6936EC27-C33E-4A87-9420-7158BEA8A403}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.231179",
+      "DurationMax": "4.231179",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "734951037",
+        "Language": "en_us",
+        "ShortName": "residents_6608751.wav",
+        "Path": "Voices\\en_us\\residents_6608751_2BDD0E23.wem"
+       }
+      ]
+     },
+     {
+      "Id": "919567490",
+      "Name": "Play_residents_6608752",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608752",
+      "GUID": "{D16BC26C-051F-4CFF-8B15-A0CC95853D50}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.015329",
+      "DurationMax": "5.015329",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "642991262",
+        "Language": "en_us",
+        "ShortName": "residents_6608752.wav",
+        "Path": "Voices\\en_us\\residents_6608752_1894186A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "919567491",
+      "Name": "Play_residents_6608753",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608753",
+      "GUID": "{6EF82BAA-CCFC-4AD9-BBEA-153B8AEE8A9C}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.822767",
+      "DurationMax": "3.822767",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "748849789",
+        "Language": "en_us",
+        "ShortName": "residents_6608753.wav",
+        "Path": "Voices\\en_us\\residents_6608753_5B7A2742.wem"
+       }
+      ]
+     },
+     {
+      "Id": "919567492",
+      "Name": "Play_residents_6608754",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608754",
+      "GUID": "{AC18CF26-EBC2-4551-A327-EA7C663F7BD6}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.72127",
+      "DurationMax": "4.72127",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "180209312",
+        "Language": "en_us",
+        "ShortName": "residents_6608754.wav",
+        "Path": "Voices\\en_us\\residents_6608754_2D8C644A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900377",
+      "Name": "Play_residents_6608760",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608760",
+      "GUID": "{54FE4525-8A0D-4B33-9982-FFC012908C93}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.48898",
+      "DurationMax": "5.48898",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "460387706",
+        "Language": "en_us",
+        "ShortName": "residents_6608760.wav",
+        "Path": "Voices\\en_us\\residents_6608760_5C5E19D8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900376",
+      "Name": "Play_residents_6608761",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608761",
+      "GUID": "{F7D93DDD-E598-40D5-A385-A441D62128C8}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.427211",
+      "DurationMax": "4.427211",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "951551286",
+        "Language": "en_us",
+        "ShortName": "residents_6608761.wav",
+        "Path": "Voices\\en_us\\residents_6608761_11A2EDEE.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900379",
+      "Name": "Play_residents_6608762",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608762",
+      "GUID": "{0BB89D5A-37FA-4A07-B19E-C44231F980A2}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.946531",
+      "DurationMax": "5.946531",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "831445676",
+        "Language": "en_us",
+        "ShortName": "residents_6608762.wav",
+        "Path": "Voices\\en_us\\residents_6608762_9748AD71.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900378",
+      "Name": "Play_residents_6608763",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608763",
+      "GUID": "{C571104E-CB19-4F28-A7CB-2919A82922E6}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.119274",
+      "DurationMax": "8.119274",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "280099775",
+        "Language": "en_us",
+        "ShortName": "residents_6608763.wav",
+        "Path": "Voices\\en_us\\residents_6608763_AD9FA9BF.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900381",
+      "Name": "Play_residents_6608764",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608764",
+      "GUID": "{B6AEB730-9AE1-4A0A-B418-2977B78059AB}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.631973",
+      "DurationMax": "5.631973",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "135234614",
+        "Language": "en_us",
+        "ShortName": "residents_6608764.wav",
+        "Path": "Voices\\en_us\\residents_6608764_B672CFB5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900380",
+      "Name": "Play_residents_6608765",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608765",
+      "GUID": "{DA9DF44B-DCA8-473F-A610-024461BBE173}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.217278",
+      "DurationMax": "8.217278",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "332534384",
+        "Language": "en_us",
+        "ShortName": "residents_6608765.wav",
+        "Path": "Voices\\en_us\\residents_6608765_47C2CB15.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900383",
+      "Name": "Play_residents_6608766",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608766",
+      "GUID": "{A4046B95-5C5A-428B-A990-0DEF9C347AC0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.704036",
+      "DurationMax": "3.704036",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "159282092",
+        "Language": "en_us",
+        "ShortName": "residents_6608766.wav",
+        "Path": "Voices\\en_us\\residents_6608766_B3CF86EA.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900382",
+      "Name": "Play_residents_6608767",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608767",
+      "GUID": "{FD77C6EA-9529-42DD-8E5E-3DAD572DBEE5}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.910816",
+      "DurationMax": "3.910816",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "868887977",
+        "Language": "en_us",
+        "ShortName": "residents_6608767.wav",
+        "Path": "Voices\\en_us\\residents_6608767_75B6AA7B.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900369",
+      "Name": "Play_residents_6608768",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608768",
+      "GUID": "{9CE4B506-1267-48D3-9C36-0C0CED80A695}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.554127",
+      "DurationMax": "7.554127",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "548902847",
+        "Language": "en_us",
+        "ShortName": "residents_6608768.wav",
+        "Path": "Voices\\en_us\\residents_6608768_FD809699.wem"
+       }
+      ]
+     },
+     {
+      "Id": "969900368",
+      "Name": "Play_residents_6608769",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_residents_6608769",
+      "GUID": "{7712E19F-C32E-490B-B2A5-1CEF9BC5664F}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.906032",
+      "DurationMax": "3.906032",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "466534312",
+        "Language": "en_us",
+        "ShortName": "residents_6608769.wav",
+        "Path": "Voices\\en_us\\residents_6608769_0A783DAF.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1322396954",
+      "Name": "Menu_Volume_Master",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_Master",
+      "GUID": "{75985DEF-F0E6-45E1-8B90-BF008EE66803}"
+     },
+     {
+      "Id": "3305957125",
+      "Name": "Menu_Volume_VO",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_VO",
+      "GUID": "{964F2AAE-50A9-48DB-AD20-50838773A2C5}"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,35 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="7170">
+        <Asset>
+            <Template>RewardPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000758</GUID>
+                    <Name>Correct Orient Carnival Goods</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_ordinary_food.png</IconFilename>
+                    <InfoDescription>16526</InfoDescription>
+                </Standard>
+                <RewardPool>
+                    <ItemsPool>
+                        <Item>
+                            <ItemLink>114404</ItemLink>
+                        </Item>
+                        <Item>
+                            <ItemLink>117698</ItemLink>
+                        </Item>
+                    </ItemsPool>
+                </RewardPool>
+                <Locked />
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Status>Localization</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

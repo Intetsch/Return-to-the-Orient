@@ -1,0 +1,79 @@
+<ModOps>
+
+    <!-- Copied from New Horizon -->
+    <ModOp GUID="500475" Type="replace" Condition="!@133700001">
+        <Asset>
+            <Template>WorldMapConfig</Template>
+            <Values>
+                <Standard>
+                    <GUID>500475</GUID>
+                    <Name>WorldMapConfig</Name>
+                    <ID>WorldMapConfig</ID>
+                </Standard>
+                <WorldMapConfig>
+                    <ShipScaleFactor>0.08</ShipScaleFactor>
+                    <AirShipScaleFactor>0.06</AirShipScaleFactor>
+                    <ShipFleetDistance>0.4</ShipFleetDistance>
+                    <AmbientSetting>UI_World_Map</AmbientSetting>
+                    <Camera>
+                        <CameraAngle>45</CameraAngle>
+                        <MinZoom>12</MinZoom>
+                        <MaxZoom>26</MaxZoom>
+                        <StartZoom>0.8</StartZoom>
+                        <ZoomStep>0.5</ZoomStep>
+                        <ZoomSpeed>4</ZoomSpeed>
+                        <CloseMaxPanDistance>20</CloseMaxPanDistance>
+                        <FarMaxPanDistance>20</FarMaxPanDistance>
+                        <CenterX>4.3</CenterX>
+                        <CenterY>0.2</CenterY>
+                        <StartX>8.8</StartX>
+                        <StartY>4.7</StartY>
+                        <DragSpeedFar>0.019</DragSpeedFar>
+                        <DragSpeedNear>0.0107</DragSpeedNear>
+                        <FOV>0.74</FOV>
+                        <ScrollSpeed>15</ScrollSpeed>
+                    </Camera>
+                    <TradeRoutes>
+                        <Thickness>0.2</Thickness>
+                        <Tiling>10</Tiling>
+                        <ScrollSpeed>0.1</ScrollSpeed>
+                        <Glow>1</Glow>
+                        <Color>-989743</Color>
+                    </TradeRoutes>
+                    <ExpeditionLines>
+                        <Thickness>0.2</Thickness>
+                        <Tiling>10</Tiling>
+                        <ScrollSpeed>0.1</ScrollSpeed>
+                        <Color>-1</Color>
+                        <Texture>data/graphics/ui/region_view/traderoute_02.png</Texture>
+                    </ExpeditionLines>
+                    <Infotips>
+                        <ShipInfotip>500460</ShipInfotip>
+                        <FleetInfotip>500437</FleetInfotip>
+                    </Infotips>
+                    <Assets>
+                        <Globe>100740</Globe>
+                    </Assets>
+                    <FishEyeStrength>0.15</FishEyeStrength>
+                    <ShipHeightOffset>-0.19</ShipHeightOffset>
+                    <AirshipHeightOffset>1</AirshipHeightOffset>
+                    <WindDirection>45</WindDirection>
+                    <ScenarioOrder>
+                        <Item />
+                        <Item>
+                            <ScenarioType>ElNino</ScenarioType>
+                        </Item>
+                        <Item>
+                            <ScenarioType>MrPostMan</ScenarioType>
+                        </Item>
+                        <Item>
+                            <ScenarioType>ExportMaster</ScenarioType>
+                        </Item>
+                    </ScenarioOrder>
+                    <PromotedScenario>ExportMaster</PromotedScenario>
+                </WorldMapConfig>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

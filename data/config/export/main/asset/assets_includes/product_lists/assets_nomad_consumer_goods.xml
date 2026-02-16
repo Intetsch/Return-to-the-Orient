@@ -1,0 +1,51 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502074">
+        <Asset>
+            <Template>ProductList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000032</GUID>
+                    <Name>NomadConsumerGoods</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_nomad.png</IconFilename>
+                </Standard>
+                <ProductList>
+                    <List>
+                        <Item>
+                            <Product>114371</Product>
+                        </Item>
+                        <Item>
+                            <Product>1404000235</Product>
+                        </Item>
+                        <Item>
+                            <Product>1888999749</Product>
+                        </Item>
+                        <Item>
+                            <Product>1404000265</Product>
+                        </Item>
+                        <Item>
+                            <Product>114404</Product>
+                        </Item>
+                        <Item>
+                            <Product>1404000277</Product>
+                        </Item>
+                    </List>
+                </ProductList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502031,502034,502035,502081" Path="Values/ProductList/List">
+        <Item>
+            <Product>1404000032</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="501962" Path="Values/KeywordFilter/Keywords">
+        <Item>
+            <Keyword>23481</Keyword>
+            <ProductList>1404000032</ProductList>
+        </Item>
+    </ModOp>
+
+</ModOps>

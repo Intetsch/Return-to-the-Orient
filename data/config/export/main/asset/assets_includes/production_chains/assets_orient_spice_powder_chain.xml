@@ -1,0 +1,34 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000173</GUID>
+                    <Name>orient spice powder chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_spice_powder.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000170</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>114452</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Spice Powder</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

@@ -1,0 +1,28 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000777</GUID>
+					<Name>asset pool orient Marketstall: Pocket Watches</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000356</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000361</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000355</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

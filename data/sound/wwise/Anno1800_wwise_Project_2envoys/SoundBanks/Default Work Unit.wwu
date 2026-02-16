@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A1F575B-D633-4E38-9709-62815F916913}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{8A1F575B-D633-4E38-9709-62815F916913}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Natoncy_Orient_Envoy" ID="{ABB15C7E-2D19-4149-8BB9-346593394042}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_residents_6608651" ID="{A464F79F-D0D2-4065-82A4-0E6A8D0F7A33}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608741" ID="{6A7E7477-7893-4069-9FCB-D36096DA970E}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608723" ID="{0D40863A-DF40-408D-B23F-B03CC6E14120}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608761" ID="{F7D93DDD-E598-40D5-A385-A441D62128C8}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608714" ID="{DC696068-27C2-4110-AC82-97818AFB2FCE}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608710" ID="{595C5CBC-4DF6-4210-8BAC-CD92A3AEBC08}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608766" ID="{A4046B95-5C5A-428B-A990-0DEF9C347AC0}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608670" ID="{FC713C60-4896-42C1-A422-BDFF38C7E459}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608767" ID="{FD77C6EA-9529-42DD-8E5E-3DAD572DBEE5}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608750" ID="{CA172B66-5E58-4420-8416-47194F17A8CD}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608681" ID="{7F838868-7333-4534-B7DC-E59263787839}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608754" ID="{AC18CF26-EBC2-4551-A327-EA7C663F7BD6}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608671" ID="{9A32D2F0-0FC5-45BE-8106-A95C6D53FC1E}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608721" ID="{B3094561-102D-460E-8D40-9FA76694DD04}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608691" ID="{A7F9DF29-BB84-4688-914F-94EE61FE8D4A}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608765" ID="{DA9DF44B-DCA8-473F-A610-024461BBE173}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608768" ID="{9CE4B506-1267-48D3-9C36-0C0CED80A695}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608711" ID="{E9F8EE34-148F-4909-AFFD-79B30AADE6A9}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608769" ID="{7712E19F-C32E-490B-B2A5-1CEF9BC5664F}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608660" ID="{CB1A7488-85BB-490C-9E25-58D048B6EE66}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608743" ID="{4CCC75D7-6FE2-494D-A10E-969869FBB0CF}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608720" ID="{C1A6FCE1-9722-4979-83D2-B293CC84E1C9}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608733" ID="{C2875B6B-B48F-4986-93F0-B340B7D45E34}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608680" ID="{2D8705ED-979E-49C0-A107-CCD01EC24C9F}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608740" ID="{C6D74E40-7B1B-49CB-8066-07CF8904C3E8}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608762" ID="{0BB89D5A-37FA-4A07-B19E-C44231F980A2}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608764" ID="{B6AEB730-9AE1-4A0A-B418-2977B78059AB}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608730" ID="{9515A339-83FE-4A34-80FA-583779527100}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608650" ID="{B8734C55-DCCB-4A58-9B28-0AD4725C1F90}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608751" ID="{6936EC27-C33E-4A87-9420-7158BEA8A403}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608732" ID="{3575C43E-34FA-4AA9-B74B-C8B0EE70D7F7}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608753" ID="{6EF82BAA-CCFC-4AD9-BBEA-153B8AEE8A9C}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608712" ID="{43F96058-9240-4AF4-9885-BD93FFE83883}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608760" ID="{54FE4525-8A0D-4B33-9982-FFC012908C93}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608734" ID="{7BE52038-2C07-4B5A-BE03-8E3D8A5D320D}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608713" ID="{76CF369D-E3B7-4B88-90E0-A677CA852B68}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608752" ID="{D16BC26C-051F-4CFF-8B15-A0CC95853D50}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608652" ID="{35DA936A-84AE-4D34-BCC3-3A99743B6692}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608742" ID="{83BB66C5-84DD-4DF8-8E4F-48D434703BB3}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608661" ID="{E980810D-B870-4E3A-95D6-B649AAC2F701}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608701" ID="{F7F90E0F-61C6-4E55-90DB-B2C2FEC0CED3}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608731" ID="{AC9820F4-2C57-4E80-9668-54EFDD4161CC}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608724" ID="{180913F2-C9C3-4E86-B232-7512B37679C9}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608653" ID="{80C33F63-E762-4F21-AE45-E458367B2C69}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608763" ID="{C571104E-CB19-4F28-A7CB-2919A82922E6}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608700" ID="{3E5C8452-0C78-4F94-959C-64CABD1317EC}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608744" ID="{9FAC89EB-69DC-4F95-93B1-79352E886504}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608690" ID="{3A60E36F-A805-4FCB-888A-E2BF8289162A}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_residents_6608722" ID="{0F4266A2-13C2-4FE2-BC57-294311F13697}" WorkUnitID="{C244361B-31D3-4BA1-9530-7E41F5F09C30}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

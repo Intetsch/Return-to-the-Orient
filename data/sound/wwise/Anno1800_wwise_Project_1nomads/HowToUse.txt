@@ -1,0 +1,44 @@
+Install wwise
+...
+
+
+open project from folder by starting "Anno1800_wwise.wproj"
+
+The free version only support up to 200 audio files per soundbank. if you have 4 translations of one audio, it is 4 files.
+So to support all 4 languages of Anno you can only add 50 sounds per soundbank.
+
+At best make sure that your audiofile names are unique and maybe even include a short version of your nickname (but the name for different languages must be the same). Its not 100% if this is required, but just to be sure.
+At least within your soundbank the file (and later eventnames) must be unique. And later your soundbankname also must be unique.
+
+I added a SFX Mixxer with Postioning enabled, but never tested this yet, so you still might need to find out how exactly positioning works.
+Eg. the vanilla soundbank json files also have as GameParameters also "Camera_Height_to_terrain", which I did not add yet (I only added Masetr and Voice/SFX Volume to adjust the loudness of the sound)
+
+
+
+
+Adding Voice
+
+1) Confirm the Audio Tab on the right is open and you see in the "Action Mixxer Hierarchy" the SFX Mixxer and the Voice Mixxer (may need to expand the "Default Work Unit")
+2) Rightclick the Voice Mixxer and select "Import Audio Files". 
+3) On the top left of the new window select as "Import" "Create new object" and make sure "Import as" is "Sound Voice". Click "Add Files" to select the english wav files you want to import. Hit "import" in the bottom right.
+4) Do 2)+3) again, but this time as "Import" we choose "Localize language" and right next to it you choose the language (different from english). Import the files this way for all languages you want 
+	(Anno1800 can only do eng,ger,rus and fra).
+5) Select all already imported audio files in below the Mixxer (you may need to expand it) and rightclick them. Then select "New Event (One Object per Event)" -> "Play".
+6) This creates an Event for all of them in the Events Tab. I'm not sure if this event name has to be unique or not, by default it is just "Play_" and the audiofile name. 
+	So at best make sure your auidofilenames are unique, then there wont be problems for sure.
+7) Now select on the top left "Project" and "Convert all audio files". There you select "All Languages" and confirm with "Ok". The converting settings are already good in my prepared Anno1800 Project, 
+	it is to make the file size smaller.
+8) On top left now select "Layouts" and choose "SoundBank". In ~the middle of the screen you can now hit "New..." to create a new soundbank. Choose a unique name with your Nickname, 
+	because wwise will use this name to generate the number-Id, which would always be the same and therefore incompatible if all use the same soundbank name.
+9) Select the newly created soundbank (you may need to expand the Default Work Unit). Then make sure you have the "Events" Tab open on the left. Drag and Drop your "Default Work Unit" from the Events list 
+	to the bottom of your screen into the Soundbank Editor below the words "Hierarchy Inclusion". This automatically adds all your events to the soundbank.
+10) Now hit "Generate All" Button on the top right. It hopefully generates your soundbank with no errors and all languages.
+
+You can now close Wwise program and go to your file explorer to "Documents\Wwise_Projects\Anno1800_wwise\GeneratedSoundBanks\Windows" (or where your project folder is located at).
+There you will have one folder per language. Copy paste them into your mods folder with the folder structure: "data\sound\generatedsoundbanks\windows\en_us\New_Soundbank.bnk"
+Do this for each language. From within thse language folders you only need the ".bnk" and the ".json" files, so you can delete the other files and if you want also delete all file in GeneratedSoundBanks from your wwise project.
+For the game to recognize these new soundbanks, their filename has to match their ID. So open the json files and copy the first "Id" you see directly below "SoundBanks". Close the json again and rename 
+the bnk and the json file to this Id number. Do this for every language (its the same Id for all languages). Close and reopen the folders to make sure windows successfully renamed them, sometimes it bugs...
+
+
+Now use my script to create the assets.xml

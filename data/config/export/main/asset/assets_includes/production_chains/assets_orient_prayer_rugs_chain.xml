@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000172</GUID>
+                    <Name>orient prayer rugs chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/goods_africa/icon_tapestries.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000171</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404000169</Building>
+                        </Item>
+                        <Item>
+                            <Building>114451</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Prayer Rugs</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

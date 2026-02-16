@@ -1,0 +1,29 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502168">
+        <Asset>
+            <Template>ProductList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000044</GUID>
+                    <Name>EnvoyWorkforceGoods</Name>
+                </Standard>
+                <ProductList>
+                    <List>
+                        <Item>
+                            <Product>1404000207</Product>
+                        </Item>
+                    </List>
+                </ProductList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="501962" Path="Values/KeywordFilter/Keywords">
+        <Item>
+            <Keyword>23481</Keyword>
+            <ProductList>1404000044</ProductList>
+        </Item>
+    </ModOp>
+
+</ModOps>

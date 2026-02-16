@@ -1,0 +1,17 @@
+<ModOps>
+
+    <Include File="meta_lists/assets__index.xml" />
+    
+    <Include File="assets_agricultural_goods_orient.xml" />
+    <Include File="assets_construction_materials_orient_sort.xml" />
+    <Include File="assets_envoy_consumer_goods.xml" />
+    <Include File="assets_envoy_unlock_goods.xml" />
+    <Include File="assets_envoy_workforce_goods.xml" />
+    <Include File="assets_intermediate_goods_orient.xml" />
+    <Include File="assets_nomad_consumer_goods.xml" />
+    <Include File="assets_nomad_unlock_goods.xml" />
+    <Include File="assets_nomad_workforce_goods.xml" />
+    <Include File="assets_orient_session_goods.xml" />
+    <Include File="assets_raw_materials_orient.xml" />
+
+</ModOps>

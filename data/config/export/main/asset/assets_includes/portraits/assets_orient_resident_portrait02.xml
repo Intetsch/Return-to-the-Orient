@@ -1,0 +1,31 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114620">
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404000155</GUID>
+                    <Name>orient_resident_portrait02</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_envoy.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/orient/resident_orient_tier02/resident_orient_tier02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                    <DLCDependency>410071</DLCDependency>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    
+</ModOps>

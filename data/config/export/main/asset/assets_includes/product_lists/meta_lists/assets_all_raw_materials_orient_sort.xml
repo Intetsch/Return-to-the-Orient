@@ -1,0 +1,35 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="502082">
+		<Asset>
+			<Template>ProductList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000040</GUID>
+					<Name>AllRawMaterials_OrientSort</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+				</Standard>
+				<ProductList>
+					<List>
+						<Item>
+							<Product>1404000041</Product>
+						</Item>
+						<Item>
+							<Product>502075</Product>
+						</Item>
+						<Item>
+							<Product>502049</Product>
+						</Item>
+						<Item>
+							<Product>502050</Product>
+						</Item>
+						<Item>
+							<Product>502051</Product>
+						</Item>
+					</List>
+				</ProductList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

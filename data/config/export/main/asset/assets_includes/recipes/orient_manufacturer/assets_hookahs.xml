@@ -1,0 +1,48 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000320</GUID>
+                    <Name>Recipe_Hookahs</Name>
+                    <IconFilename>data\modgraphics\ui\icon_hookah.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hookahs</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404000316</RecipeBuilding>
+                    <RecipeDescriptionText>1404000594</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_hookahs.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>10</PosX>
+                            <PosY>20</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>380</PosX>
+                            <PosY>300</PosY>
+                            <UICirclePointer>NorthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>325</PosX>
+                            <PosY>0</PosY>
+                            <UICirclePointer>West</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

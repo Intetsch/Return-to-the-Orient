@@ -1,0 +1,329 @@
+
+<Info>
+	<DisableFeedbackArea>0</DisableFeedbackArea>
+	<BoundingBox>
+		<Name>BoundingBox</Name>
+		<Position>
+			<xf>-0.12109375</xf>
+			<yf>3.1298828125</yf>
+			<zf>0.55029296875</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>5.6279296875</xf>
+			<yf>5.820556640625</yf>
+			<zf>5.442138671875</zf>
+		</Extents>
+	</BoundingBox>
+
+	<BuildBlocker>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>3</zf>
+		</Position>
+
+		<Position>
+			<xf>3</xf>
+			<zf>3</zf>
+		</Position>
+
+		<Position>
+			<xf>3</xf>
+			<zf>-3</zf>
+		</Position>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>-3</zf>
+		</Position>
+
+	</BuildBlocker>
+
+	<Dummy>
+		<Name>DamageImpact0</Name>
+		<Position>
+			<xf>1.246638</xf>
+			<yf>1.44215</yf>
+			<zf>-0.994108</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1</xf>
+			<yf>1</yf>
+			<zf>1</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>DamageImpact1</Name>
+		<Position>
+			<xf>-1.205019</xf>
+			<yf>3.300482</yf>
+			<zf>-0.566369</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1</xf>
+			<yf>1</yf>
+			<zf>1</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>DamageImpact2</Name>
+		<Position>
+			<xf>-2.309891</xf>
+			<yf>1.85309</yf>
+			<zf>1.030586</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1</xf>
+			<yf>1</yf>
+			<zf>1</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>DamageImpact3</Name>
+		<Position>
+			<xf>1.37986</xf>
+			<yf>1.197193</yf>
+			<zf>1.865486</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1</xf>
+			<yf>1</yf>
+			<zf>1</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>DamageImpact4</Name>
+		<Position>
+			<xf>0.031514</xf>
+			<yf>1.405777</yf>
+			<zf>0.002398</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>1</xf>
+			<yf>1</yf>
+			<zf>1</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>infolayer</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>6.2998046875</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.099853515625</xf>
+			<yf>0.099853515625</yf>
+			<zf>0.099853515625</zf>
+		</Extents>
+	</Dummy>
+
+	<Dummy>
+		<Name>transporter_spawn</Name>
+		<Position>
+			<xf>-2.75</xf>
+			<yf>0</yf>
+			<zf>2.75</zf>
+		</Position>
+		<Rotation>
+			<xf>0.000000</xf>
+			<yf>0.000000</yf>
+			<zf>0.000000</zf>
+			<wf>1.000000</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.100000</xf>
+			<yf>0.100000</yf>
+			<zf>0.100000</zf>
+		</Extents>
+	</Dummy>
+
+	<FeedbackBlocker>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>2.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>2.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>3</zf>
+		</Position>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>3</zf>
+		</Position>
+
+	</FeedbackBlocker>
+
+	<FeedbackBlocker>
+
+		<Position>
+			<xf>3</xf>
+			<zf>-1.5</zf>
+		</Position>
+
+		<Position>
+			<xf>1</xf>
+			<zf>-1.5</zf>
+		</Position>
+
+		<Position>
+			<xf>1</xf>
+			<zf>-2</zf>
+		</Position>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>-2</zf>
+		</Position>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>-3</zf>
+		</Position>
+
+		<Position>
+			<xf>3</xf>
+			<zf>-3</zf>
+		</Position>
+
+	</FeedbackBlocker>
+
+	<FeedbackBlocker>
+
+		<Position>
+			<xf>-2.5</xf>
+			<zf>-3</zf>
+		</Position>
+
+		<Position>
+			<xf>-2.5</xf>
+			<zf>-1.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>-1.5</zf>
+		</Position>
+
+		<Position>
+			<xf>-3</xf>
+			<zf>-3</zf>
+		</Position>
+
+	</FeedbackBlocker>
+
+	<IntersectBox>
+		<Name>Hitbox_0</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>3</xf>
+			<yf>0.099853515625</yf>
+			<zf>3</zf>
+		</Extents>
+	</IntersectBox>
+
+	<IntersectBox>
+		<Name>Hitbox_1</Name>
+		<Position>
+			<xf>0</xf>
+			<yf>1</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2</xf>
+			<yf>1</yf>
+			<zf>2</zf>
+		</Extents>
+	</IntersectBox>
+
+	<MeshBoundingBox>
+		<Name>MeshBoundingBox</Name>
+		<Position>
+			<xf>0.10583090782165527</xf>
+			<yf>4.475279268124723</yf>
+			<zf>-0.008140921592712402</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>2.835656023025513</xf>
+			<yf>4.57546726813016</yf>
+			<zf>3.0178160429000855</zf>
+		</Extents>
+	</MeshBoundingBox>
+</Info>

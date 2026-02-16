@@ -1,0 +1,49 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000781</GUID>
+					<Name>asset pool orient Marzipan</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000162</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005057</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000160</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000201</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005084</Asset>
+						</Item>
+						<Item>
+							<Asset>1440218</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000382</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005649</Asset>
+						</Item>
+						<Item>
+							<Asset>1999005351</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000164</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

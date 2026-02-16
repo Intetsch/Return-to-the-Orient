@@ -1,0 +1,69 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000614</GUID>
+                    <Name>orient construction menu 3 (creative)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000017</Building>
+                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
+                        </Item>
+                        <Item>
+                            <Building>10284</Building>
+                        </Item>
+                        <Item>
+                            <Building>13011</Building>
+                        </Item>
+                        <Item>
+                            <Building>12779</Building>
+                        </Item>
+                        <Item>
+                            <Building>14234</Building>
+                        </Item>
+                        <Item>
+                            <Building>14588</Building>
+                        </Item>
+                        <Item>
+                            <Building>13911</Building>
+                        </Item>
+                        <Item>
+                            <Building>14792</Building>
+                        </Item>
+                        <Item>
+                            <Building>14652</Building>
+                        </Item>
+                        <Item>
+                            <Building>10283</Building>
+                        </Item>
+                        <Item>
+                            <Building>13975</Building>
+                        </Item>
+                        <Item>
+                            <Building>13977</Building>
+                        </Item>
+                    </BuildingList>
+                    <RevelantForAI>0</RevelantForAI>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Creative Assets</Text>
+                        </English>
+                    </LocaText>
+                    <TextOverride>10140</TextOverride>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

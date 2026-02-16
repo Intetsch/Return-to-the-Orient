@@ -1,0 +1,43 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000319</GUID>
+                    <Name>Recipe_Pearl_Necklaces</Name>
+                    <IconFilename>data\modgraphics\ui\icon_pearl_necklaces.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pearl Necklaces</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404000161</RecipeBuilding>
+                    <RecipeDescriptionText>1404000595</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_necklaces.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>160</PosX>
+                            <PosY>160</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>380</PosX>
+                            <PosY>375</PosY>
+                            <UICirclePointer>NorthWest</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

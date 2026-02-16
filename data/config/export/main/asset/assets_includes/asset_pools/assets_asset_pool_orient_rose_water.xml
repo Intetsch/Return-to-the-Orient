@@ -1,0 +1,37 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000786</GUID>
+					<Name>asset pool orient Rose Water</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000294</Asset>
+						</Item>
+						<Item>
+							<Asset>1900100125</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000292</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000588</Asset>
+						</Item>
+						<Item>
+							<Asset>1900100099</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000297</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

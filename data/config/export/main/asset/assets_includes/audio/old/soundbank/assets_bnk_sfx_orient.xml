@@ -1,0 +1,21 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="270389">
+        <Asset>
+            <Template>SoundBank</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000220</GUID>
+                    <Name>BNK_SFX_orient</Name>
+                </Standard>
+                <SoundBank>
+                    <LoadMedia>0</LoadMedia>
+                </SoundBank>
+                <WwiseStandard>
+                    <WwiseID>2853845331</WwiseID>
+                </WwiseStandard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

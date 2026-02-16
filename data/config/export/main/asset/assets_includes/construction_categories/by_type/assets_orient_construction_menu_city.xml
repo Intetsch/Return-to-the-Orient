@@ -1,0 +1,72 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000616</GUID>
+                    <Name>orient construction menu city (category)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_stance_flee.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>114523</Building>
+                        </Item>
+                        <Item>
+                            <Building>119029</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000016</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000156</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000147</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000148</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000204</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000149</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000290</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000372</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000376</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000375</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000203</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000202</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>City</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>500092</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

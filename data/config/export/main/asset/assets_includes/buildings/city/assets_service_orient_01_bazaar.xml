@@ -1,0 +1,211 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114436">
+        <Asset>
+            <BaseAssetGUID>1010372</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404000147</GUID>
+                    <Name>service_orient_01 (Bazaar)</Name>
+                    <ID>MarketplaceOrient</ID>
+                </Standard>
+                <Text>
+                </Text>
+                <Blocking/>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>2</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>3</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>0</Amount>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>4</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Market</TemplateName>
+                                        <Index>5</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/public/south/bazaar/s_bazaar.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/1404_import/buildings/public/south/bazaar/s_bazaar_ambassador.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <Skins>
+                        <!-- <DefaultSkinName>1010372</DefaultSkinName>
+                        <DefaultSkinDescription>23853</DefaultSkinDescription>
+                        <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+                        <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc06/icon_market_default.png</OverrideDefaultIcon> -->
+                        <SkinList>
+                            <!-- <Item>
+                                <SkinAssetGuid>80160</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>753</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>754</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>755</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>20921</SkinAssetGuid>
+                            </Item>
+                            <Item>
+                                <SkinAssetGuid>21096</SkinAssetGuid>
+                            </Item> -->
+                        </SkinList>
+                    </Skins>
+                </Object>
+                <Constructable/>
+                <Mesh/>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>270302</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+                <Infolayer/>
+                <FeedbackController/>
+                <UpgradeList/>
+                <AmbientMoodProvider/>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>30</Amount>
+                            <InactiveAmount>15</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>0</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Market/>
+                <StorageBase>
+                    <ProductStorageList>1404000031</ProductStorageList>
+                </StorageBase>
+                <Attackable/>
+                <Pausable/>
+                <IncidentInfectable/>
+                <LogisticNode/>
+                <PublicService/>
+                <Culture/>
+                <StreetActivation/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- GlobalBalancing -->
+    <ModOp Type="add" GUID="2001270" Path="Values/GlobalConfig/GUIDRegionReplacements/Item[6]/GUIDGroup">
+        <Mod3>
+            <AssetGUID>1404000147</AssetGUID>
+        </Mod3>
+    </ModOp>
+
+    <!-- all public services -->
+    <ModOp Type="add" GUID="191501" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000147</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- all marketplaces -->
+    <ModOp Type="add" GUID="191540" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000147</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- all buildings with maintenance DLC11 -->
+    <ModOp Type="add" GUID="368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000147</GUID>
+        </Item>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502085">
+        <Asset>
+            <Template>ProductList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000045</GUID>
+                    <Name>OrientSessionGoods</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+                </Standard>
+                <ProductList>
+                    <List>
+                        <Item>
+                            <Product>1404000030</Product>
+                        </Item>
+                        <Item>
+                            <Product>1404000044</Product>
+                        </Item>
+                    </List>
+                </ProductList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="501962" Path="Values/KeywordFilter/Keywords">
+        <Item>
+            <Keyword>23481</Keyword>
+            <ProductList>1404000045</ProductList>
+        </Item>
+    </ModOp>
+
+</ModOps>

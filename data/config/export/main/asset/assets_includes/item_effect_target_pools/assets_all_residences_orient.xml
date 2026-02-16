@@ -1,0 +1,35 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="125110">
+		<Asset>
+			<Template>ItemEffectTargetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000022</GUID>
+					<Name>all residences orient</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>All Oriental Residences</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>43379</LineID>
+				</Text>
+				<ItemEffectTargetPool>
+					<EffectTargetGUIDs>
+						<Item>
+							<GUID>1404000016</GUID>
+						</Item>
+						<Item>
+							<GUID>1404000017</GUID>
+						</Item>
+					</EffectTargetGUIDs>
+				</ItemEffectTargetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

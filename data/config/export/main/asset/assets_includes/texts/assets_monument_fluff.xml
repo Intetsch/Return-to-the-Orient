@@ -1,0 +1,54 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000794</GUID>
+                    <Name>Orient_Monument_Stage_0_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text></Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000795</GUID>
+                    <Name>Orient_Monument_Stage_1_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text></Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000796</GUID>
+                    <Name>Orient_Monument_Stage_2_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text></Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

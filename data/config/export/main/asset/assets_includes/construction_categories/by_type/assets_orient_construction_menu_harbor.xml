@@ -1,0 +1,42 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000618</GUID>
+                    <Name>orient construction menu harbor (category)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_pier_2d.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>101339</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000217</Building>
+                        </Item>
+                        <Item>
+                            <Building>101573</Building>
+                        </Item>
+                        <Item>
+                            <Building>101344</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>500111</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

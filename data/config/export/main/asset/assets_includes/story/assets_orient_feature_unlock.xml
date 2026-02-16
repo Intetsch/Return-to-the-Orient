@@ -1,0 +1,81 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114115">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000799</GUID>
+                    <Name>Orient SessionDiscovery Condition</Name>
+                </Standard>
+                <Locked />
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsDLCActive</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsDLCActive>
+                                <DLCAssetList>
+                                    <Item>
+                                        <DLCAsset>410042</DLCAsset>
+                                    </Item>
+                                </DLCAssetList>
+                            </ConditionIsDLCActive>
+                            <ConditionPropsNegatable />
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>15000000</Context>
+                                                    <CounterAmount>10</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                        <SubTriggers>
+                                            <Item>
+                                                <SubTrigger>
+                                                    <Template>AutoCreateTrigger</Template>
+                                                    <Values>
+                                                        <Trigger>
+                                                            <TriggerCondition>
+                                                                <Template>ConditionTimer</Template>
+                                                                <Values>
+                                                                    <Condition />
+                                                                    <ConditionTimer>
+                                                                        <TimeLimit>60000</TimeLimit>
+                                                                    </ConditionTimer>
+                                                                </Values>
+                                                            </TriggerCondition>
+                                                        </Trigger>
+                                                    </Values>
+                                                </SubTrigger>
+                                            </Item>
+                                        </SubTriggers>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

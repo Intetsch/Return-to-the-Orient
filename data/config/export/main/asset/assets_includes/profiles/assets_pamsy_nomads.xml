@@ -1,0 +1,1878 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="285">
+        <Asset>
+            <BaseAssetGUID>174</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404000563</GUID>
+                    <Name>PaMSy_Archetype_Nomads</Name>
+                </Standard>
+                <ParticipantMessages>
+                    <MessageTriggers>
+                        <ClickKontor>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickKontor>
+                        <ClickOwnResidence>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000578</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>1</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000579</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>2</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000580</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>3</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>4</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>5</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>5</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>6</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>6</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>7</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>7</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>8</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>8</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickOwnResidence>
+                        <ClickProductionBuildingWithInfolayer>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>1</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>2</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>3</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>4</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>5</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>5</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>6</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>6</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>7</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>7</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>8</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>8</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>9</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>9</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>10</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>10</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>11</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>11</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>12</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>12</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>13</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>13</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>14</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>14</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>15</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>15</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickProductionBuildingWithInfolayer>
+                        <QuestInvitation>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000567</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestInvitation>
+                        <QuestStarted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000565</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestStarted>
+                        <QuestSuccessful>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000569</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestSuccessful>
+                        <QuestFailed>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000577</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestFailed>
+                        <QuestAborted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000568</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestAborted>
+                        <QuestAbortedAutomatically>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <SideNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestAbortedAutomatically>
+                        <QuestEscortShipSelected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestEscortShipSelected>
+                        <QuestReminder>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000566</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestReminder>
+                        <QuestResolveConfirmation>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000567</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestResolveConfirmation>
+                        <QuestInvitationSmugglerQuest>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestInvitationSmugglerQuest>
+                        <QuestSmugglerTradingStationReached>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestSmugglerTradingStationReached>
+                        <QuestStartInvitationGiveItem>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestStartInvitationGiveItem>
+                        <QuestStartFollowShip>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestStartFollowShip>
+                        <SettlePermissionRequest>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionRequest>
+                        <SettlePermissionAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionAccepted>
+                        <SettlePermissionDeclined>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionDeclined>
+                        <SettlementRightsSeizeIsland>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlementRightsSeizeIsland>
+                        <DiplomacyOffer>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOffer>
+                        <DiplomacyOfferThreat>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreat>
+                        <DiplomacyOfferAccept>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferAccept>
+                        <DiplomacyOfferRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferRejected>
+                        <DiplomacyOfferRejectedTooOften>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferRejectedTooOften>
+                        <DiplomacyOfferThreatAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreatAccepted>
+                        <DiplomacyOfferThreatRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreatRejected>
+                        <DiplomacyDeclareWar>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclareWar>
+                        <DiplomacyOfferPeace>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferPeace>
+                        <DiplomacyOfferPeaceAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferPeaceAccepted>
+                        <DiplomacyOfferCeasefire>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferCeasefire>
+                        <DiplomacyOfferCeasefireAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferCeasefireAccepted>
+                        <DiplomacyOfferTraderights>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferTraderights>
+                        <DiplomacyOfferTraderightsAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferTraderightsAccepted>
+                        <DiplomacyCancelTraderights>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyCancelTraderights>
+                        <DiplomacyOfferAlliance>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferAlliance>
+                        <DiplomacyOfferAllianceAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferAllianceAccepted>
+                        <DiplomacyCancelAlliance>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyCancelAlliance>
+                        <DiplomacyOfferGiftAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferGiftAccepted>
+                        <DiplomacyOfferGiftRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferGiftRejected>
+                        <DiplomacyAskForQuestRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAskForQuestRejected>
+                        <DiplomacyRequestSupportFleetAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyRequestSupportFleetAccepted>
+                        <DiplomacyRequestSupportFleetRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyRequestSupportFleetRejected>
+                        <DiplomacyAcceptFlatter>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAcceptFlatter>
+                        <DiplomacyDeclineFlatter>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclineFlatter>
+                        <DiplomacyAcceptInsult>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAcceptInsult>
+                        <DiplomacyDeclineInsult>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclineInsult>
+                        <DiplomacyCounterProposal>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyCounterProposal>
+                        <NewspaperPublishedWithPropaganda>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </NewspaperPublishedWithPropaganda>
+                        <ParticipantDiscovered>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ParticipantDiscovered>
+                        <MenuWelcomeMessage />
+                        <MenuIdleMessage />
+                        <MilitaryShipDestroyed>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </MilitaryShipDestroyed>
+                        <MilitaryParticipantDefeated>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </MilitaryParticipantDefeated>
+                        <NoQuestAvailable>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </NoQuestAvailable>
+                        <PauseProductionBuilding>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000444</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </PauseProductionBuilding>
+                        <ResumeProductionBuilding>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>PaMSy_Base</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <Subtitle>1404000426</Subtitle>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ResumeProductionBuilding>
+                        <ClickOwnRecipeBuffFactory>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>5</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>6</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>7</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>8</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickOwnRecipeBuffFactory>
+                        <RecipeApplied>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </RecipeApplied>
+                        <ClickOwnSkyscraper>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>5</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>6</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>7</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>8</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickOwnSkyscraper>
+                    </MessageTriggers>
+                </ParticipantMessages>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

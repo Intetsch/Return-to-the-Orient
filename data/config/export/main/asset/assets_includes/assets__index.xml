@@ -1,0 +1,38 @@
+<ModOps>
+    
+    <Include File="animals/assets__index.xml" />
+    <Include File="asset_pools/assets__index.xml" />
+    <Include File="audio/assets__index.xml" />
+    <Include File="buildings/assets__index.xml" />
+    <Include File="construction_categories/assets__index.xml" />
+    <Include File="farmfields/assets__index.xml" />
+    <Include File="fertilities/assets__index.xml" />
+    <Include File="islands/assets__index.xml" />
+    <Include File="item_effect_target_pools/assets__index.xml" />
+    <Include File="monument_events/assets__index.xml" />
+    <Include File="notifications/assets__index.xml" />
+    <Include File="population_groups/assets__index.xml" />
+    <Include File="population_levels/assets__index.xml" />
+    <Include File="portraits/assets__index.xml" />
+    <Include File="product_filters/assets__index.xml" />
+    <Include File="product_lists/assets__index.xml" />
+    <Include File="product_storage_lists/assets__index.xml" />
+    <Include File="production_chains/assets__index.xml" />
+    <Include File="products/assets__index.xml" />
+    <Include File="profiles/assets__index.xml" />
+    <Include File="recipe_lists/assets__index.xml" />
+    <Include File="recipes/assets__index.xml" />
+    <Include File="reward_pools/assets__index.xml" />
+    <Include File="story/assets__index.xml" />
+    <Include File="texts/assets__index.xml" />
+    <Include File="triggers/assets__index.xml" />
+
+    <Include File="assets_animal_config_orient.xml" />
+    <Include File="assets_associated_regions.xml" />
+    <Include File="assets_feedback_balancing_orient.xml" />
+    <Include File="assets_irrigation_feature.xml" />
+    <Include File="assets_region.xml" />
+    <Include File="assets_session.xml" />
+    <Include File="assets_worldmap.xml" />
+
+</ModOps>

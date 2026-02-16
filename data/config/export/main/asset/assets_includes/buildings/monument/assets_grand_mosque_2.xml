@@ -1,0 +1,160 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID='1010492'>
+		<Asset>
+			<Template>MonumentColony</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000325</GUID>
+					<Name>grand_mosque_2</Name>
+					<IconFilename>data/graphics/icons/public_services/icon_monument.png</IconFilename>
+				</Standard>
+				<Building>
+					<PickingAsset>1404000323</PickingAsset>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+				</Building>
+				<Blocking />
+				<Cost />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/public/south/sultan_mosque/s_sultan_mosque_unfinished_02.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404000327</DefaultSkinName>
+						<DefaultSkinDescription>23853</DefaultSkinDescription>
+						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Monument</GUIType>
+					<OnSelection>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<ActionList />
+						</Values>
+					</OnSelection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Grand Mosque: Glazing</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+					<LineID>20109</LineID>
+				</Text>
+				<Constructable />
+				<Locked />
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>200863</Sound>
+						</Item>
+					</ActiveSounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
+				<FeedbackController />
+				<Infolayer />
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000207</Product>
+							<Amount>20</Amount>
+							<StorageAmount>600</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010196</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+						<Item>
+							<Product>114402</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1404000256</Product>
+							<Amount>10</Amount>
+							<StorageAmount>300</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1010207</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+						<Item>
+							<Product>1404000241</Product>
+							<Amount>5</Amount>
+							<StorageAmount>150</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<CycleTime>60</CycleTime>
+				</FactoryBase>
+				<LogisticNode>
+					<TransporterCountMax>2</TransporterCountMax>
+				</LogisticNode>
+				<Monument>
+					<UpgradeTarget>1404000327</UpgradeTarget>
+					<MicrophaseCount>30</MicrophaseCount>
+					<UnfinishedIcon>500415</UnfinishedIcon>
+					<FinishedIcon>500419</FinishedIcon>
+					<ShutdownText>6783</ShutdownText>
+					<MonumentFluff>1404000796</MonumentFluff>
+					<MonumentHeadline>1404000327</MonumentHeadline>
+					<BackgroundImage>
+						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/monument_grand_mosque_00.png</Blueprint>
+						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/monument_grand_mosque_04.png</PhasePlanned>
+						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/monument_grand_mosque_04_coloured.png</PhaseFinished>
+					</BackgroundImage>
+					<ProgressbarHeight>70</ProgressbarHeight>
+				</Monument>
+				<Culture />
+				<AmbientMoodProvider>
+					<Murmur>MonumentConstruction</Murmur>
+				</AmbientMoodProvider>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>2400</Amount>
+							<ShutdownThreshold>0.4</ShutdownThreshold>
+						</Item>
+					</Maintenances>
+					<ConsumerPriorityAlarmed>2</ConsumerPriorityAlarmed>
+				</Maintenance>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+					<MaximumHitPoints>10000</MaximumHitPoints>
+					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable>
+					<CanPauseManually>1</CanPauseManually>
+				</Pausable>
+				<BuildingUnique>
+					<Uniques>
+						<Item>
+							<UniqueType>Monument01</UniqueType>
+							<UniqueScope>Area</UniqueScope>
+						</Item>
+					</Uniques>
+				</BuildingUnique>
+				<UpgradeList />
+				<Industrializable>
+					<MandatoryIndustrialization>0</MandatoryIndustrialization>
+				</Industrializable>
+				<QuestObject />
+				<Electrifiable />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

@@ -1,0 +1,34 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114362">
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000359</GUID>
+                    <Name>Marketstall: Gramophones</Name>
+                    <IconFilename>data/graphics/icons/products/icon_marketstall_gramophones.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Marketstall: Gramophones</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44460</LineID>
+                </Text>
+                <Locked />
+                <Product>
+                    <ProductColor>-11415604</ProductColor>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11709</ProductCategory>
+                    <IsAbstract>1</IsAbstract>
+                    <AssociatedRegion>Mod3</AssociatedRegion>
+                </Product>
+                <ExpeditionAttribute />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

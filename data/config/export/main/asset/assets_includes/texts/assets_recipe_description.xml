@@ -1,0 +1,70 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000592</GUID>
+                    <Name>Orient_Manufacturer_Recipe_Ceremonial_Sabers_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Dieser prunkvolle Klingenstreich aus poliertem Stahl dient weniger dem Kampf als dem guten Eindruck. Sein Griff glänzt im Fackelschein und erzählt Geschichten von Paraden, Gelöbnissen und überambitionierten Offizieren. Ein Hieb in die Luft, ein salutierender Schritt und schon fühlt man sich um Rang und Würde reicher.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000593</GUID>
+                    <Name>Orient_Manufacturer_Recipe_Chandeliers_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ein grandioses Lichtermeer aus Gold und purem Größenwahn. Mit einem einzigen Einschalten lässt er selbst den schlichtesten Raum aussehen, als seien Könige im Anmarsch. Seine funkelnden Prismen brechen das Licht in tausend kleine Sterne und ziehen Staub an wie ein Magnet. Doch wer würde das bemerken, geblendet von so viel Glorie?</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000594</GUID>
+                    <Name>Orient_Manufacturer_Recipe_Hookahs_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000595</GUID>
+                    <Name>Orient_Manufacturer_Recipe_Pearl_Necklaces_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

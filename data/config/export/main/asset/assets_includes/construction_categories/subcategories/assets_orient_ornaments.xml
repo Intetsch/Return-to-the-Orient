@@ -1,0 +1,63 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000793</GUID>
+                    <Name>orient construction menu ornament</Name>
+                    <IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <!-- Nomads -->
+                        <Item>
+                            <Building>1404000379</Building>
+                        </Item>
+                        <!-- Envoys -->
+                        <Item>
+                            <Building>102818</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000584</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000585</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000380</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000381</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000586</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000587</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000178</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000234</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45754</LineID>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

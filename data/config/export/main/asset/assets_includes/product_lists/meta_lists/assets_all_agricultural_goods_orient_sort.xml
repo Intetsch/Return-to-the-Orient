@@ -1,0 +1,35 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502168">
+        <Asset>
+            <Template>ProductList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000033</GUID>
+                    <Name>AllAgricultureGoods_OrientSort</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+                </Standard>
+                <ProductList>
+                    <List>
+                        <Item>
+                            <Product>1404000028</Product>
+                        </Item>
+                        <Item>
+                            <Product>502037</Product>
+                        </Item>
+                        <Item>
+                            <Product>502038</Product>
+                        </Item>
+                        <Item>
+                            <Product>502039</Product>
+                        </Item>
+                        <Item>
+                            <Product>502076</Product>
+                        </Item>
+                    </List>
+                </ProductList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

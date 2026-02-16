@@ -1,0 +1,48 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000296</GUID>
+                    <Name>orient hookahs chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_hookah.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000316</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010282</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010307</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010308</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010333</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010330</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hookahs</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

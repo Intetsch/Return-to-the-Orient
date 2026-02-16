@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000299</GUID>
+                    <Name>orient turbans chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_turbans.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000309</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404000169</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010267</Building>
+                        </Item>
+                        <Item>
+                            <Building>5457</Building>
+                            <ForceIcon>5401</ForceIcon>
+                            <Tier2>
+                                <Item>
+                                    <Building>5164</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>turbans</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

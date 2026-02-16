@@ -1,0 +1,58 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000164</GUID>
+                    <Name>orient marzipan chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_marzipan.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000162</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404000160</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000382</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1999005384</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010341</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010332</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010317</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010329</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Marzipan</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

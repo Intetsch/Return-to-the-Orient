@@ -1,0 +1,31 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="141508">
+        <Asset>
+            <Template>FertilitySet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000009</GUID>
+                    <Name>Set Orient 1</Name>
+                </Standard>
+                <ResourceSetCondition>
+                    <AllowedRegion>Mod3</AllowedRegion>
+                    <AllowedIslandType>Starter</AllowedIslandType>
+                    <AllowedIslandDifficulty>Normal;Hard</AllowedIslandDifficulty>
+                    <AllowedResourceAmounts>Low;Medium;High</AllowedResourceAmounts>
+                </ResourceSetCondition>
+                <FertilitySet>
+                    <Fertilities>
+                        <Item>
+                            <Fertility>1404000007</Fertility>
+                        </Item>
+                        <Item>
+                            <Fertility>1404000301</Fertility>
+                        </Item>
+                    </Fertilities>
+                </FertilitySet>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

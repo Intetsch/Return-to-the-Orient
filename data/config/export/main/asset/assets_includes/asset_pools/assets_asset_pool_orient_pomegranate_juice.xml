@@ -1,0 +1,28 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000785</GUID>
+					<Name>asset pool orient Pomegranate Juice</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000300</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000596</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000265</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

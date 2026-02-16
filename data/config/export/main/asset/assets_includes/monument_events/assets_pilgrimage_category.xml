@@ -1,0 +1,43 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="17003">
+        <Asset>
+            <Template>MonumentEventCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000328</GUID>
+                    <Name>Pilgrimage</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_monument_event.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pilgrimage</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Locked/>
+                <MonumentEventCategory>
+                    <Events>
+                        <Item>
+                            <Event>1404000329</Event>
+                        </Item>
+                        <Item>
+                            <Event>1404000330</Event>
+                        </Item>
+                        <Item>
+                            <Event>1404000331</Event>
+                        </Item>
+                    </Events>
+                    <PotentialCategoryReward>6507</PotentialCategoryReward>
+                    <CategoryDescriptionFluff>6508</CategoryDescriptionFluff>
+                    <CategoryBackground>data/ui/2kimages/main/assets/monument_event/bg_monument_event_pilgrimage.png</CategoryBackground>
+                    <SizeSelectionBackground>data/ui/2kimages/main/assets/monument_event/monument_event_mosque_pilgrimage.png</SizeSelectionBackground>
+                    <EventAudioState>InExhibitionEventArcheology</EventAudioState>
+                </MonumentEventCategory>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

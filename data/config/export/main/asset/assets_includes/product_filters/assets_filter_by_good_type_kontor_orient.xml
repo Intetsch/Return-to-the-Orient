@@ -1,0 +1,67 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502086">
+        <Asset>
+            <Template>ProductFilter</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000034</GUID>
+                    <Name>Filter by Good Type - KontorOrient</Name>
+                </Standard>
+                <ProductFilter>
+                    <Categories>
+                        <Item>
+                            <Icon>17624</Icon>
+                            <ProductList>1404000036</ProductList>
+                        </Item>
+                        <Item>
+                            <Icon>11511</Icon>
+                            <ProductList>1404000038</ProductList>
+                        </Item>
+                        <Item>
+                            <Icon>11510</Icon>
+                            <ProductList>1404000037</ProductList>
+                        </Item>
+                        <Item>
+                            <Icon>11512</Icon>
+                            <ProductList>1404000040</ProductList>
+                        </Item>
+                        <Item>
+                            <Icon>11513</Icon>
+                            <ProductList>1404000033</ProductList>
+                        </Item>
+                        <Item>
+                            <Icon>11514</Icon>
+                            <ProductList>1404000042</ProductList>
+                        </Item>
+                    </Categories>
+                    <ProductFilterInfoTip>500680</ProductFilterInfoTip>
+                </ProductFilter>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- ObjectmenuKontorScene -->
+    <ModOp Type="add" GUID="25000231" Path="Values/ObjectmenuKontorScene/Regions">
+        <Mod3>
+            <ProductFilter>1404000034</ProductFilter>
+        </Mod3>
+    </ModOp>
+
+    <!-- SessionTradeRoutesScene -->
+    <ModOp Type="add" GUID="500344" Path="Values/SessionTradeRoutesScene/GoodFilter/Normal/FilterPerRegion">
+        <Mod3>
+            <Filter>1404000034</Filter>
+        </Mod3>
+    </ModOp>
+
+
+
+
+
+
+
+
+
+
+</ModOps>

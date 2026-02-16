@@ -1,0 +1,34 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000787</GUID>
+					<Name>asset pool orient Rugs</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000171</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000169</Asset>
+						</Item>
+						<Item>
+							<Asset>1440209</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000200</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000172</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

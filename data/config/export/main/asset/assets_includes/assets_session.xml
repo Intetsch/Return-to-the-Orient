@@ -1,0 +1,394 @@
+<ModOps>
+
+    <!-- Add New Session -->
+    <ModOp Type="addNextSibling" GUID="112132">
+        <Asset>
+            <Template>SessionSouthAmerica</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000000</GUID>
+                    <Name>Orient_Session</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+                </Standard>
+                <Session>
+                    <Region>1404000006</Region>
+                    <MapTemplate>1404000002</MapTemplate>
+                    <CameraLoopSequence1>11</CameraLoopSequence1>
+                    <CameraLoopSequence2>10</CameraLoopSequence2>
+                    <AllowAdvancedCameraSettings>1</AllowAdvancedCameraSettings>
+                    <TransferData>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- Europe -->
+                            <Session>180023</Session>
+                            <Duration>270000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- EuropeNorth_Expedition01 -->
+                            <Session>800385</Session>
+                            <Duration>330000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- EuropeCentral_Expedition01 -->
+                            <Session>800433</Session>
+                            <Duration>160000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- EuropeSouth_Expedition01 -->
+                            <Session>800432</Session>
+                            <Duration>300000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- SouthAmerica_Unlock -->
+                            <Session>800390</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- SouthAmerica -->
+                            <Session>180025</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- SouthAmerica_Expedition01 -->
+                            <Session>800386</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- SouthAmerica_Expedition02 -->
+                            <Session>800387</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Campaign Chapter 3/SouthAmerica -->
+                            <Session>801999</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- SunkenTreasures_Unlock -->
+                            <Session>803421</Session>
+                            <Duration>200000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Cape Trelawney -->
+                            <Session>110934</Session>
+                            <Duration>200000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- Arctic Unlock -->
+                            <Session>803422</Session>
+                            <Duration>670000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- The Arctic -->
+                            <Session>180045</Session>
+                            <Duration>670000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Arctic_Expedtion01 -->
+                            <Session>800384</Session>
+                            <Duration>670000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- Enbesa Unlock -->
+                            <Session>803423</Session>
+                            <Duration>160000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Enbesa -->
+                            <Session>112132</Session>
+                            <Duration>160000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <!-- ############################################################### -->
+                        <Item>
+                            <!-- Four Crowns -->
+                            <Session>2111001</Session>
+                            <Duration>200000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Kingsgrove -->
+                            <Session>2121001</Session>
+                            <Duration>620000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- New Horizons -->
+                            <Session>133700000</Session>
+                            <Duration>160000</Duration>
+                            <Direction>NorthEast</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Mayabeque Unlock -->
+                            <Session>133700000</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                        <Item>
+                            <!-- Mayabeque -->
+                            <Session>133700000</Session>
+                            <Duration>420000</Duration>
+                            <Direction>NorthWest</Direction>
+                        </Item>
+                    </TransferData>
+                    <SpawnStartShipAndKontor>0</SpawnStartShipAndKontor>
+                    <SecondPartiesMaySettleHere>0</SecondPartiesMaySettleHere>
+                    <WorldMapCardBackground>1404000005</WorldMapCardBackground>
+                    <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_orient.cfg</WorldMapAsset>
+                    <SecondPartyReferenceUnlock>0</SecondPartyReferenceUnlock>
+                    <SecondPartyForceFollowPlayer>0</SecondPartyForceFollowPlayer>
+                    <SecondPartyMotivation>
+                        <TargetPopulation>1404000011</TargetPopulation>
+                        <TargetAmount>300</TargetAmount>
+                    </SecondPartyMotivation>
+                </Session>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Orient</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                    <DLCDependency>410040</DLCDependency>
+                </Locked>
+                <WorldMapSound>
+                    <UIClickEvent>9818389</UIClickEvent>
+                </WorldMapSound>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Icon for region -->
+    <ModOp Type="add" GUID="500927" Path="Values/SideNotificationsArchive/CoopSessionIcons">
+        <Item>
+            <Session>1404000000</Session>
+            <Icon>data/ui/2kimages/main/icons/icon_session_orient.png</Icon>
+        </Item>
+    </ModOp>
+
+    <!-- Add new background for region (Trading) -->
+    <ModOp Type="addNextSibling" GUID="501683">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000003</GUID>
+                    <Name>orientBackground</Name>
+                    <IconFilename>data/ui/2kimages/main/assets/session_btn/session_btn_orient_0.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add new icon for region (Trading) -->
+    <ModOp Type="addNextSibling" GUID="501342">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000004</GUID>
+                    <Name>Orient Icon</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add new background for region (World Map) -->
+    <ModOp Type="addNextSibling" GUID="500875">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000005</GUID>
+                    <Name>orientCardBackground</Name>
+                    <IconFilename>data/ui/2kimages/main/assets/worldcard_bg/bg_worldcard_orient.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="120483">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000590</GUID>
+                    <Name>Orient Station Background</Name>
+                    <IconFilename>data/ui/2kimages/main/assets/session_btn/bgr_station_orient_0.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="120485">
+        <Asset>
+            <Template>Icon</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000591</GUID>
+                    <Name>Orient Background Statistic</Name>
+                    <IconFilename>data/ui/2kimages/main/assets/button_bg/bg_btn_orient_0.png</IconFilename>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Add MapIcon/Background to session -->
+    <ModOp Type="add" GUID="501680" Path="Values/SessionScene/SessionList">
+        <Item>
+            <Icon>1404000004</Icon>
+            <Session>1404000000</Session>
+            <Text>1404000000</Text>
+            <Background>1404000003</Background>
+            <StatisticScreenBackground>1404000591</StatisticScreenBackground>
+            <TradeRouteBackground>1404000590</TradeRouteBackground>
+            <SessionTransferBackground>1404000591</SessionTransferBackground>
+            <QuickNavigationBackground>1404000590</QuickNavigationBackground>
+        </Item>
+    </ModOp>
+
+    <!-- Add session to world map -->
+    <ModOp Type="add" GUID="180036" Path="Values/WorldMap/ReleaseSessions">
+        <Item>
+            <Session>1404000000</Session>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="110933">
+        <Asset>
+            <Template>MapTemplate</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000002</GUID>
+                    <Name>Orient</Name>
+                </Standard>
+                <MapTemplate>
+                    <IslandSize>Small;Medium;Large</IslandSize>
+                    <TemplateFilename>data/sessions/maps/orient/orient2.a7t</TemplateFilename>
+                    <TemplateSize>Large</TemplateSize>
+                    <TemplateRegion>Mod3</TemplateRegion>
+                </MapTemplate>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="180023" Path="Values/Session/TransferData">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>270000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="180025" Path="Values/Session/TransferData">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>420000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="110934" Path="Values/Session/TransferData">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>200000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="180045" Path="Values/Session/TransferData">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>670000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="112132" Path="Values/Session/TransferData">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>160000</Duration>
+            <Direction>NorthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="2111001" Path="Values/Session/TransferData" Condition="@2111001">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>200000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="2121100" Path="Values/Session/TransferData" Condition="@2121100">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>620000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="133700000" Path="Values/Session/TransferData" Condition="@133700000">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>160000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1999003005" Path="Values/Session/TransferData" Condition="@1999003005">
+        <Item>
+            <Session>1404000000</Session>
+            <Duration>420000</Duration>
+            <Direction>SouthEast</Direction>
+        </Item>
+    </ModOp>
+
+
+    <!-- Add Keybinding -->
+    <ModOp Type="add" GUID="2001271" Path="Values/GUIConfig/KeyBindings">
+        <Item>
+            <KeyTypes>Numpad8</KeyTypes>
+            <Command>TextSources.TextSourceRoots.Interface.JumpToSession(1404000000)</Command>
+            <Text>1404000001</Text>
+            <Active>Session;WorldMap</Active>
+            <Identifier>1404000000</Identifier>
+            <AvailableOnPlatforms>PC;Xbox;PS;Stadia</AvailableOnPlatforms>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="23427">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000001</GUID>
+                    <Name>Session Switch - Orient</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Enter "The Orient"</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

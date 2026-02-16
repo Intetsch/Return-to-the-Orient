@@ -1,0 +1,34 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000214</GUID>
+                    <Name>orient irrigation chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_basin.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>112842</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404000212</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Irrigation</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>
