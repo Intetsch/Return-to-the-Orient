@@ -1,0 +1,129 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000181</GUID>
+                    <Name>LevelUp_NewAge_Title_Orient01</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>AGE OF</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000182</GUID>
+                    <Name>LevelUp_NewAge_Title_Orient02</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>AGE OF</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000183</GUID>
+                    <Name>LevelUp_NewAge_Content_Orient01</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>SETTLEMENT</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000184</GUID>
+                    <Name>LevelUp_NewAge_Content_Orient02</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>DIPLOMACY</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000210</GUID>
+                    <Name>LevelUp_CityState_Content_Orient01</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>PROTECTORATE</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="21535">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000211</GUID>
+                    <Name>LevelUp_CityState_Content_Orient02</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>PROVINCE</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29180</LineID>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

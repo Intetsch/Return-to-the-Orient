@@ -35,16 +35,6 @@
     </Asset>
   </ModOp>
 
-  <Group>
-    <ModOp Type="add" GUID="120055"
-      Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1900100099']"
-      Path="/Values/ProductStorageList/ProductList">
-      <Item>
-        <Product>1900100099</Product>
-      </Item>
-    </ModOp>
-  </Group>
-
   <!-- START ADD GOOD TO AgriculturalProducts-->
   <ModOp Type="addNextSibling" GUID='502041,502038,502076' Path="/Values/ProductList/List">
       <Item>

@@ -186,7 +186,7 @@
                                             <Values>
                                                 <Action/>
                                                 <ActionLoadSession>
-                                                    <LoadSession>180045</LoadSession>
+                                                    <LoadSession>1404000000</LoadSession>
                                                     <!--Arctic Session-->
                                                 </ActionLoadSession>
                                             </Values>
@@ -260,8 +260,7 @@
                                             <Template>ActionEnterSession</Template>
                                             <Values>
                                                 <ActionEnterSession>
-                                                    <TargetSession>180045</TargetSession>
-                                                    <!--Arctic Session-->
+                                                    <TargetSession>1404000000</TargetSession>
                                                 </ActionEnterSession>
                                                 <Action/>
                                             </Values>

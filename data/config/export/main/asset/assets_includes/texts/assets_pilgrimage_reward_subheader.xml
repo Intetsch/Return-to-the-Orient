@@ -1,0 +1,38 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000812</GUID>
+                    <Name>Pilgrimage Reward Subheader</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Praise of the Prilgrims</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000813</GUID>
+                    <Name>Pilgrimage RewardChestFluff </Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
