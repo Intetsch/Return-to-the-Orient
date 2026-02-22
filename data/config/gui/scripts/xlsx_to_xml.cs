@@ -4,13 +4,13 @@ using ClosedXML.Excel;
 using System.Xml;
 using System.Xml.Linq;
 
-string basePath = @"C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\config";
+string basePath = Directory.GetCurrentDirectory().Replace("\\gui", "");
 string guiFolder = Path.Combine(basePath, "gui");
-string excelPath = Path.Combine(guiFolder, "Localizations.xlsx");
+string excelPath = Path.Combine(guiFolder, "_Localizations.xlsx");
 
 if (!File.Exists(excelPath))
 {
-    Console.WriteLine("Excel file not found.");
+    Console.WriteLine($"Excel file not found in {excelPath}.");
     return;
 }
 

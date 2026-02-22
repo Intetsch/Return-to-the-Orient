@@ -4,7 +4,7 @@ using ClosedXML.Excel;
 using System.Xml;
 using System.Xml.Linq;
 
-string basePath = @"C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\config";
+string basePath = Directory.GetCurrentDirectory().Replace("\\gui", "");
 string rootFolder = Path.Combine(basePath, @"export\main\asset\assets_includes");
 string guiFolder = Path.Combine(basePath, "gui");
 
@@ -88,7 +88,7 @@ List<string> allGuids = assetTexts
 // 4️⃣ Write Excel
 //------------------------------------------------------------
 
-string outputPath = Path.Combine(guiFolder, "Localizations.xlsx");
+string outputPath = Path.Combine(guiFolder, "_Localizations.xlsx");
 
 using (XLWorkbook workbook = new())
 {

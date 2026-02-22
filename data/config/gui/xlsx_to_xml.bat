@@ -1,1 +1,0 @@
-dotnet run xlsx_to_xml.cs
