@@ -169,10 +169,7 @@
                         </English>
                     </LocaText>
                 </Text>
-                <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
-                    <DLCDependency>410040</DLCDependency>
-                </Locked>
+                <Locked />
                 <WorldMapSound>
                     <UIClickEvent>9818389</UIClickEvent>
                 </WorldMapSound>

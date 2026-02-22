@@ -17,7 +17,10 @@
                             <ConditionIsDLCActive>
                                 <DLCAssetList>
                                     <Item>
-                                        <DLCAsset>410042</DLCAsset>
+                                        <DLCAsset>410071</DLCAsset>
+                                    </Item>
+                                    <Item>
+                                        <DLCAsset>24963</DLCAsset>
                                     </Item>
                                 </DLCAssetList>
                             </ConditionIsDLCActive>
@@ -36,8 +39,8 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15000000</Context>
-                                                    <CounterAmount>10</CounterAmount>
+                                                    <Context>15000004</Context>
+                                                    <CounterAmount>6000</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
                                         </TriggerCondition>
@@ -48,14 +51,58 @@
                                                     <Values>
                                                         <Trigger>
                                                             <TriggerCondition>
-                                                                <Template>ConditionTimer</Template>
+                                                                <Template>ConditionPlayerCounter</Template>
                                                                 <Values>
                                                                     <Condition />
-                                                                    <ConditionTimer>
-                                                                        <TimeLimit>60000</TimeLimit>
-                                                                    </ConditionTimer>
+                                                                    <ConditionPlayerCounter>
+                                                                        <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                                        <Context>5403</Context>
+                                                                        <CounterAmount>5000</CounterAmount>
+                                                                    </ConditionPlayerCounter>
                                                                 </Values>
                                                             </TriggerCondition>
+                                                            <SubTriggers>
+                                                                <Item>
+                                                                    <SubTrigger>
+                                                                        <Template>AutoCreateTrigger</Template>
+                                                                        <Values>
+                                                                            <Trigger>
+                                                                                <TriggerCondition>
+                                                                                    <Template>ConditionPlayerCounter</Template>
+                                                                                    <Values>
+                                                                                        <Condition />
+                                                                                        <ConditionPlayerCounter>
+                                                                                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                                                            <Context>114330</Context>
+                                                                                            <CounterAmount>3000</CounterAmount>
+                                                                                        </ConditionPlayerCounter>
+                                                                                    </Values>
+                                                                                </TriggerCondition>
+                                                                                <SubTriggers>
+                                                                                    <Item>
+                                                                                        <SubTrigger>
+                                                                                            <Template>AutoCreateTrigger</Template>
+                                                                                            <Values>
+                                                                                                <Trigger>
+                                                                                                    <TriggerCondition>
+                                                                                                        <Template>ConditionTimer</Template>
+                                                                                                        <Values>
+                                                                                                            <Condition />
+                                                                                                            <ConditionTimer>
+                                                                                                                <TimeLimit>60000</TimeLimit>
+                                                                                                            </ConditionTimer>
+                                                                                                        </Values>
+                                                                                                    </TriggerCondition>
+                                                                                                </Trigger>
+                                                                                            </Values>
+                                                                                        </SubTrigger>
+                                                                                    </Item>
+                                                                                </SubTriggers>
+                                                                            </Trigger>
+                                                                        </Values>
+                                                                    </SubTrigger>
+                                                                </Item>
+                                                            </SubTriggers>
                                                         </Trigger>
                                                     </Values>
                                                 </SubTrigger>

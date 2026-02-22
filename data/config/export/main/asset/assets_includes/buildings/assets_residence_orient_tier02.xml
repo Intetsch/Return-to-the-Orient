@@ -138,9 +138,7 @@
                     <DestructionCategory>Residents</DestructionCategory>
                     <ConstructionMenuIcon>1404000011</ConstructionMenuIcon>
                 </Constructable>
-                <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
-                </Locked>
+				<Locked />
                 <Upgradable>
                     <UpgradeCost />
                 </Upgradable>

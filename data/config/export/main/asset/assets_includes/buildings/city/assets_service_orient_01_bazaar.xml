@@ -145,9 +145,7 @@
                         </Item>
                     </ActiveSounds>
                 </SoundEmitter>
-                <Locked>
-                    <DefaultLockedState>0</DefaultLockedState>
-                </Locked>
+                <Locked/>
                 <Infolayer/>
                 <FeedbackController/>
                 <UpgradeList/>
