@@ -69,7 +69,7 @@ foreach (KeyValuePair<string, int> lang in languageColumns)
         modOp.Add(
             new XElement("Text",
                 new XElement("GUID", row.Guid),
-                new XElement("Text", textRaw)
+                new XElement("Text", textRaw?.Trim())
             )
         );
     }
