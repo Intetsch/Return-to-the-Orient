@@ -14,11 +14,12 @@ Check these:
     117763 Production2Buildings Africa (FeedbackBuildingGroup)
     ’ or '
     farm modules
+    1404000799 sub triggers
+    F:\SteamLibrary\steamapps\common\Anno 1800\mods
 
 Bugs:
     Watered fields not shown as green and unwatered fields are not counted as dry
         ? irrigation_condition_01 [GUID: 601016]
-    Unlocks broken
     Product icons broken
     Pilgrimage Reward Subheader 1404000812 not displayed
     <InfoDescription>131556</InfoDescription>
@@ -43,6 +44,9 @@ ToDo:
             
             8 Settle 3000 Envoy
             9 Build Grand Mosque
+
+            https://a1800.net/a1800/asset/105377
+            https://a1800.net/a1800/asset/113298
     Localization
 
     Items -> Satanoy

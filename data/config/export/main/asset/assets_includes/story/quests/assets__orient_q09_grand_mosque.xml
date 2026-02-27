@@ -217,7 +217,7 @@
                             <ActionForceNewspaper/>
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
-                    <QuestGiver>119051</QuestGiver>
+                    <QuestGiver>78</QuestGiver>
                     <!--Third_party_13 (Emperor Ketema)-->
                     <StoryText>119738</StoryText>
                     <!--Campaign_Ketema_StatusQuo_IrrigationSystem_QuestBook-->
@@ -239,8 +239,7 @@
                     <HasExclusiveQuestGiver>0</HasExclusiveQuestGiver>
                     <QuestSessionDependencies>
                         <Item>
-                            <SessionOrRegion>112132</SessionOrRegion>
-                            <!--African_Session-->
+                            <SessionOrRegion>1404000000</SessionOrRegion>
                         </Item>
                     </QuestSessionDependencies>
                     <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_questbook_landoflions.png</QuestBookBackground>

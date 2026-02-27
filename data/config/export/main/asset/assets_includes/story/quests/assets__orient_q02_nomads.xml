@@ -277,7 +277,7 @@
                         </Values>
                     </SuccessSpeechBubble>
                 </Quest>
-                <PreConditionList>
+                <!-- <PreConditionList>
                     <Condition>
                         <Template>ConditionQuestState</Template>
                         <Values>
@@ -286,6 +286,15 @@
                                 <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
                                 <ConditionQuestStateQuestGUID>1404000800</ConditionQuestStateQuestGUID>
                             </ConditionQuestState>
+                        </Values>
+                    </Condition>
+                </PreConditionList> -->
+                <PreConditionList>
+                    <Condition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition/>
+                            <ConditionAlwaysTrue/>
                         </Values>
                     </Condition>
                 </PreConditionList>

@@ -13,18 +13,9 @@
                         <Notification>
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
-                                <CharacterNotification>
-                                    <Profile>94</Profile>
-                                    <!--Third_party_10 (Lady Jane)-->
-                                </CharacterNotification>
-                                <BaseNotification>
-                                    <NotificationText>115194</NotificationText>
-                                    <!--ArcticQ101 Lady Janes Request Intro Summary 3-->
-                                </BaseNotification>
-                                <NotificationSubtitle>
-                                    <Subtitle>116448</Subtitle>
-                                    <!--AT_DLC03_LadyFaithful_ArcticQ101_03-->
-                                </NotificationSubtitle>
+                                <CharacterNotification/>
+                                <BaseNotification/>
+                                <NotificationSubtitle/>
                             </Values>
                         </Notification>
                         <SuppressMessage>1</SuppressMessage>
@@ -33,27 +24,12 @@
                         <Notification>
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
-                                <CharacterNotification>
-                                    <Profile>94</Profile>
-                                    <!--Third_party_10 (Lady Jane)-->
-                                </CharacterNotification>
-                                <BaseNotification>
-                                    <NotificationText>116793</NotificationText>
-                                    <!--ArcticQ102 Sir Johns Last Base Subsuccess2-->
-                                    <RestrictToSessionOrRegion>1</RestrictToSessionOrRegion>
-                                    <RestrictedToSessionOrRegions>
-                                        <Item>
-                                            <SessionOrRegion>180045</SessionOrRegion>
-                                            <!--Arctic Session-->
-                                        </Item>
-                                    </RestrictedToSessionOrRegions>
-                                </BaseNotification>
-                                <NotificationSubtitle>
-                                    <Subtitle>116495</Subtitle>
-                                    <!--AT_DLC03_LadyFaithful_Negative_04-->
-                                </NotificationSubtitle>
+                                <CharacterNotification/>
+                                <BaseNotification/>
+                                <NotificationSubtitle/>
                             </Values>
                         </Notification>
+                        <SuppressMessage>1</SuppressMessage>
                     </SuccessMessage>
                     <FailureMessage>
                         <Notification>
@@ -187,20 +163,7 @@
                                                 <Action/>
                                                 <ActionLoadSession>
                                                     <LoadSession>1404000000</LoadSession>
-                                                    <!--Arctic Session-->
                                                 </ActionLoadSession>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionRegisterTrigger</Template>
-                                            <Values>
-                                                <Action/>
-                                                <ActionRegisterTrigger>
-                                                    <TriggerAsset>114120</TriggerAsset>
-                                                    <!--Trigger EnterSession-->
-                                                </ActionRegisterTrigger>
                                             </Values>
                                         </Action>
                                     </Item>
@@ -283,8 +246,7 @@
                             <ActionForceNewspaper/>
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
-                    <QuestGiver>94</QuestGiver>
-                    <!--Third_party_10 (Lady Jane)-->
+                    <QuestGiver>78</QuestGiver>
                     <StoryText>116867</StoryText>
                     <!--ArcticQ101 Lady Janes Request Questbook-->
                     <MaxCallOut>1</MaxCallOut>
