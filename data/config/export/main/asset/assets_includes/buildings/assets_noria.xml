@@ -189,8 +189,11 @@
 				</IrrigationSource>
 			</Values>
 		</Asset>
-
-
 	</ModOp>
-
+	
+	<ModOp Type="addNextSibling" Path="//Assets/Asset/Values/ItemEffect/EffectTargets/Item[GUID='114544']">
+        <Item>
+            <GUID>1404000212</GUID>
+        </Item>
+    </ModOp>
 </ModOps>
