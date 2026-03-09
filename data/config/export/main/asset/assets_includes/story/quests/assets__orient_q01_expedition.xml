@@ -247,12 +247,11 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>78</QuestGiver>
-                    <StoryText>116867</StoryText>
-                    <!--ArcticQ101 Lady Janes Request Questbook-->
+                    <StoryText>1404000828</StoryText>
                     <MaxCallOut>1</MaxCallOut>
                     <MaxSolveCount>1</MaxSolveCount>
                     <QuestTimeLimit>0</QuestTimeLimit>
-                    <QuestCategory>ThePassageQuest</QuestCategory>
+                    <QuestCategory>TutorialQuest</QuestCategory>
                     <QuestActivation>QuestStart</QuestActivation>
                     <IsAbortable>0</IsAbortable>
                     <QuestTrackerVisibility>Global</QuestTrackerVisibility>
@@ -265,14 +264,13 @@
                         </Values>
                     </ConfirmOnReachedCondition>
                     <HasExclusiveQuestGiver>0</HasExclusiveQuestGiver>
-                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_passage.png</QuestBookBackground>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
                     <ReputationQuestFail>
                         <ReputationFailList/>
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>117212</Text>
-                            <!--ArcticQ101 Lady Janes Request Hint01-->
+                            <Text>1404000837</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -303,7 +301,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Lady Jane's Arctic Appeal</Text>
+                            <Text>An Invitation from the Sultan</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -313,7 +311,6 @@
                     <RewardAssets>
                         <Item>
                             <Reward>1010017</Reward>
-                            <!--Money-->
                             <Amount>50000</Amount>
                         </Item>
                     </RewardAssets>
@@ -336,7 +333,6 @@
                                 <Values>
                                     <ConditionQuestExpedition>
                                         <RequestedExpedition>804040</RequestedExpedition>
-                                        <!--Discovery Arctic The Passage Singleplayer-->
                                     </ConditionQuestExpedition>
                                     <ConditionQuestObjective>
                                         <TextCombinedContextValue>11950</TextCombinedContextValue>

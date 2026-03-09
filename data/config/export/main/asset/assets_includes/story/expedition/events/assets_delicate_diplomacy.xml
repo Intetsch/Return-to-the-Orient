@@ -1,0 +1,281 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="803518">
+		<Asset>
+			<Template>ExpeditionEvent</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000846</GUID>
+					<Name>Delicate Diplomacy</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Delicate Diplomacy</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionEvent>
+					<EventRegion>NorthAfrica;Africa</EventRegion>
+					<EventThreat>800029</EventThreat>
+					<StartDecision>1404000865</StartDecision>
+					<EventMusicChoice>226706</EventMusicChoice>
+					<EventVideo>data/ui/video/expedition/loading_campaign07.bk2</EventVideo>
+					<EventVideoSounds>
+						<Item>
+							<Event>202342</Event>
+						</Item>
+					</EventVideoSounds>
+				</ExpeditionEvent>
+				<Locked />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000865</GUID>
+					<Name>Delicate Diplomacy 1.</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404000866</Option>
+						</Item>
+						<Item>
+							<Option>1404000867</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;After days crossing deserts and fertile river valleys,&lt;/b&gt; your expedition finally reaches the capital of the Sultanate. White domes and slender minarets rise above bustling bazaars filled with incense, silk, and copper lamps. Word of your arrival spreads quickly, and soon you are summoned to the Sultan’s palace. &lt;b&gt;Before meeting him, you may either prepare a respectful diplomatic approach, or present gifts of industrial craftsmanship to impress the court.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000866</GUID>
+					<Name>Delicate Diplomacy 1.1.</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Prepare a respectful diplomatic audience</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000868</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000868</GUID>
+					<Name>Delicate Diplomacy 1.1.1</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404000869</Option>
+						</Item>
+						<Item>
+							<Option>1404000870</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The palace audience chamber glitters with gold mosaics and carved marble.&lt;/b&gt; The Sultan sits upon a raised throne surrounded by advisors and scholars. His gaze is curious rather than hostile. &lt;b&gt;You may present your intentions diplomatically, or wait for the Sultan to reveal why he summoned you across the seas.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000869</GUID>
+					<Name>Delicate Diplomacy 1.1.1.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Speak respectfully of cooperation</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<OptionAttribute>Diplomacy</OptionAttribute>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000871</Decision>
+							<Threshold>NeutralThreshold</Threshold>
+						</Item>
+						<Item>
+							<Decision>1404000872</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000871</GUID>
+					<Name>Delicate Diplomacy 1.1.1.1.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The Sultan nods thoughtfully as you speak.&lt;/b&gt; "Your cities across the seas are spoken of even here," he says. "Great engines, towering factories, wonders of industry." He leans forward. &lt;b&gt;"I have summoned you because I wish my envoys to learn these marvels. Build for them a city in your lands, where they may study the machines of the Industrial Age."&lt;/b&gt; The court murmurs in approval.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000872</GUID>
+					<Name>Delicate Diplomacy 1.1.1.1.2</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Your speech is somewhat clumsy,&lt;/b&gt; but the Sultan appears amused rather than offended. "You build cities, do you not?" he asks. "Cities with steam engines and iron machines?" He gestures toward his advisors. &lt;b&gt;"Then I have a task for you. Construct a settlement where my envoys may learn the arts of industry."&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000870</GUID>
+					<Name>Delicate Diplomacy 1.1.1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Wait for the Sultan to explain his invitation</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000873</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000873</GUID>
+					<Name>Delicate Diplomacy 1.1.1.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The Sultan studies you carefully.&lt;/b&gt; "The world is changing," he says slowly. "Steam, iron, factories… your people have mastered these things." He gestures to a map of distant lands. &lt;b&gt;"I wish my envoys to learn these secrets. Build for them a city among your people, where knowledge may flow freely."&lt;/b&gt; With this declaration, your expedition gains a new purpose.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000867</GUID>
+					<Name>Delicate Diplomacy 1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Present gifts of industrial craftsmanship</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<OptionAttribute>Crafting</OptionAttribute>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000874</Decision>
+							<Threshold>NeutralThreshold</Threshold>
+						</Item>
+						<Item>
+							<Decision>1404000875</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000874</GUID>
+					<Name>Delicate Diplomacy 1.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Your mechanical gifts fascinate the court.&lt;/b&gt; The Sultan turns the small brass device in his hands, clearly intrigued. "Such ingenuity," he murmurs. &lt;b&gt;"This is why I have invited you. Build a city where my envoys may witness such wonders firsthand."&lt;/b&gt; The proposal is clear — a bridge between two worlds.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000875</GUID>
+					<Name>Delicate Diplomacy 1.2.2</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The gifts seem unimpressive to the court,&lt;/b&gt; yet the Sultan remains interested. "Perhaps these small things do not show your true achievements," he says. &lt;b&gt;"Build a city for my envoys in your lands, where they may witness the full might of industrial progress."&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

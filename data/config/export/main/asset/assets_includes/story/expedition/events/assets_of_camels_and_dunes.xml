@@ -1,0 +1,281 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="803518">
+		<Asset>
+			<Template>ExpeditionEvent</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000847</GUID>
+					<Name>Of Camels and Dunes</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Of Camels and Dunes</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionEvent>
+					<EventRegion>NorthAfrica;Africa</EventRegion>
+					<EventThreat>800028</EventThreat>
+					<StartDecision>1404000876</StartDecision>
+					<EventMusicChoice>226706</EventMusicChoice>
+					<EventVideo>data/ui/video/expedition/generic_a.bk2</EventVideo>
+					<EventVideoSounds>
+						<Item>
+							<Event>202342</Event>
+						</Item>
+					</EventVideoSounds>
+				</ExpeditionEvent>
+				<Locked />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000876</GUID>
+					<Name>Of Camels and Dunes 1.</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404000877</Option>
+						</Item>
+						<Item>
+							<Option>1404000884</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;With the Sultan's blessing and a small delegation of envoys,&lt;/b&gt; your expedition departs the capital. Your destination lies beyond the endless desert — a distant coast where a new settlement may be founded. Yet the desert is vast and unforgiving. Soon the familiar roads vanish beneath shifting dunes. &lt;b&gt;You must either rely on your navigators to chart a course, or search for locals who might guide you through the sands.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000877</GUID>
+					<Name>Of Camels and Dunes 1.1.</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Trust your navigators</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000878</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000878</GUID>
+					<Name>Of Camels and Dunes 1.1.1</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404000879</Option>
+						</Item>
+						<Item>
+							<Option>1404000882</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Your expedition marches deeper into the desert.&lt;/b&gt; Days pass beneath a merciless sun, and the dunes seem endless. Some among the Sultan's envoys begin to worry that the expedition has lost its way. &lt;b&gt;You may press forward using careful navigation, or stop and search for signs of nearby travelers.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000879</GUID>
+					<Name>Of Camels and Dunes 1.1.1.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Navigate by the stars</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<OptionAttribute>Navigation</OptionAttribute>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000880</Decision>
+							<Threshold>NeutralThreshold</Threshold>
+						</Item>
+						<Item>
+							<Decision>1404000881</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000880</GUID>
+					<Name>Of Camels and Dunes 1.1.1.1.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Your navigator studies the night sky carefully.&lt;/b&gt; Guided by the stars and steady judgment, the expedition eventually reaches rocky highlands overlooking a fertile coastal valley. &lt;b&gt;Beyond lies the land where the Sultan's envoys will build their future city.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000881</GUID>
+					<Name>Of Camels and Dunes 1.1.1.1.2</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Despite your efforts, the dunes confuse your course.&lt;/b&gt; Water grows scarce and morale falters. Just as the situation grows dire, distant riders appear across the sands. They are desert nomads who have observed your struggling caravan. &lt;b&gt;They offer to guide you to the fertile lands beyond the desert.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000882</GUID>
+					<Name>Of Camels and Dunes 1.1.1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Search for travelers</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000883</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000883</GUID>
+					<Name>Of Camels and Dunes 1.1.1.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;After hours scanning the horizon,&lt;/b&gt; your crew spots a small encampment nestled among rocky outcrops. Nomadic tribespeople greet you cautiously but not unfriendly. When they hear of the Sultan's mission, they agree to help. &lt;b&gt;Guided by their knowledge of hidden wells and desert paths, your expedition reaches a lush valley beyond the dunes — the perfect place for a new settlement.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000884</GUID>
+					<Name>Of Camels and Dunes 1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Search the desert for local guides</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<OptionAttribute>Diplomacy</OptionAttribute>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404000885</Decision>
+							<Threshold>NeutralThreshold</Threshold>
+						</Item>
+						<Item>
+							<Decision>1404000886</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000885</GUID>
+					<Name>Of Camels and Dunes 1.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;You approach the nomads respectfully,&lt;/b&gt; offering trade goods and explaining the Sultan's mission. They accept your offer and guide the expedition through secret desert routes known only to their people. &lt;b&gt;Soon the sands give way to fertile lands beside the sea — the gateway to the new region where your city may rise.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000886</GUID>
+					<Name>Of Camels and Dunes 1.2.2</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Your first encounter with the nomads is tense.&lt;/b&gt; Suspicious of outsiders, they keep their distance. Yet after observing your struggling caravan, they eventually lead you toward the coast. &lt;b&gt;Beyond the final ridge of dunes, green lands stretch toward the horizon — the destination promised by the Sultan.&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

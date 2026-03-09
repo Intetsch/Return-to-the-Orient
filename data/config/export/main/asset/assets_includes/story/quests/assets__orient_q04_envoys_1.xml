@@ -219,8 +219,7 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>78</QuestGiver>
-                    <StoryText>119743</StoryText>
-                    <!--Campaign_Ketema_StatusQuo_Elder_QuestBook-->
+                    <StoryText>1404000831</StoryText>
                     <MaxCallOut>1</MaxCallOut>
                     <MaxSolveCount>1</MaxSolveCount>
                     <QuestTimeLimit>0</QuestTimeLimit>
@@ -242,7 +241,7 @@
                             <SessionOrRegion>1404000000</SessionOrRegion>
                         </Item>
                     </QuestSessionDependencies>
-                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_questbook_landoflions.png</QuestBookBackground>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_rqatisan.png</QuestBookBackground>
                     <ReputationQuestFail>
                         <ReputationFailList/>
                     </ReputationQuestFail>
@@ -257,8 +256,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Text>128273</Text>
-                            <!--Campaign_Elders_Hint01-->
+                            <Text>1404000839</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>

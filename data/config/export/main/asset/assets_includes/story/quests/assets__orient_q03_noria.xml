@@ -218,13 +218,11 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>78</QuestGiver>
-                    <!--Third_party_13 (Emperor Ketema)-->
-                    <StoryText>119738</StoryText>
-                    <!--Campaign_Ketema_StatusQuo_IrrigationSystem_QuestBook-->
+                    <StoryText>1404000830</StoryText>
                     <MaxCallOut>1</MaxCallOut>
                     <MaxSolveCount>1</MaxSolveCount>
                     <QuestTimeLimit>0</QuestTimeLimit>
-                    <QuestCategory>LandOfLionsQuest</QuestCategory>
+                    <QuestCategory>TutorialQuest</QuestCategory>
                     <QuestActivation>QuestStart</QuestActivation>
                     <IsAbortable>0</IsAbortable>
                     <DelayTimer>3000</DelayTimer>
@@ -242,7 +240,7 @@
                             <SessionOrRegion>1404000000</SessionOrRegion>
                         </Item>
                     </QuestSessionDependencies>
-                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_questbook_landoflions.png</QuestBookBackground>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_rqatisan.png</QuestBookBackground>
                     <ReputationQuestFail>
                         <ReputationFailList/>
                     </ReputationQuestFail>
@@ -258,11 +256,9 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Text>21994</Text>
-                            <!--QuestbookHint_Generic_ConstructionSpecificIsland-->
                         </Item>
                         <Item>
-                            <Text>128265</Text>
-                            <!--IrrigationSystem_Hint01-->
+                            <Text>1404000840</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>

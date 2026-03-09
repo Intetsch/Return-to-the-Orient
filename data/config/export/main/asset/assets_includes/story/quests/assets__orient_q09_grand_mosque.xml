@@ -218,13 +218,11 @@
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>78</QuestGiver>
-                    <!--Third_party_13 (Emperor Ketema)-->
-                    <StoryText>119738</StoryText>
-                    <!--Campaign_Ketema_StatusQuo_IrrigationSystem_QuestBook-->
+                    <StoryText>1404000836</StoryText>
                     <MaxCallOut>1</MaxCallOut>
                     <MaxSolveCount>1</MaxSolveCount>
                     <QuestTimeLimit>0</QuestTimeLimit>
-                    <QuestCategory>LandOfLionsQuest</QuestCategory>
+                    <QuestCategory>TutorialQuest</QuestCategory>
                     <QuestActivation>QuestStart</QuestActivation>
                     <IsAbortable>0</IsAbortable>
                     <DelayTimer>3000</DelayTimer>
@@ -242,7 +240,7 @@
                             <SessionOrRegion>1404000000</SessionOrRegion>
                         </Item>
                     </QuestSessionDependencies>
-                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_questbook_landoflions.png</QuestBookBackground>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_rqatisan.png</QuestBookBackground>
                     <ReputationQuestFail>
                         <ReputationFailList/>
                     </ReputationQuestFail>
@@ -258,11 +256,9 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Text>21994</Text>
-                            <!--QuestbookHint_Generic_ConstructionSpecificIsland-->
                         </Item>
                         <Item>
-                            <Text>128265</Text>
-                            <!--IrrigationSystem_Hint01-->
+                            <Text>1404000843</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -312,6 +308,127 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
+                                        <TemplateName>A7_QuestSelectObject</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Objective>
+                                <Template>StatusQuoObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>105419</TextCombinedContextValue>
+                                        <FakeMinimapPings>
+                                            <Objects>
+                                                <Item>
+                                                    <FakeMinimapObjects>
+                                                        <Template>ObjectFilter</Template>
+                                                        <Values>
+                                                            <ObjectFilter>
+                                                                <ObjectGUID>1404000323</ObjectGUID>
+                                                            </ObjectFilter>
+                                                        </Values>
+                                                    </FakeMinimapObjects>
+                                                </Item>
+                                            </Objects>
+                                        </FakeMinimapPings>
+                                        <JumpToVisibility>ShowOnlyFakePings</JumpToVisibility>
+                                    </ConditionQuestObjective>
+                                    <ConditionPlayerCounter>
+                                        <Context>1404000324</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                        <CounterScope>Session</CounterScope>
+                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                                <CounterScopeContext>1404000000</CounterScopeContext>
+                                    </ConditionPlayerCounter>
+                                    <ConditionQuestStatusQuo/>
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                                    </ConditionPropsExecutionPlaceSettings>
+                                </Values>
+                            </Objective>
+                        </Item>
+                        <Item>
+                            <Objective>
+                                <Template>StatusQuoObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>105420</TextCombinedContextValue>
+                                        <FakeMinimapPings>
+                                            <Objects>
+                                                <Item>
+                                                    <FakeMinimapObjects>
+                                                        <Template>ObjectFilter</Template>
+                                                        <Values>
+                                                            <ObjectFilter>
+                                                                <ObjectGUID>1404000324</ObjectGUID>
+                                                            </ObjectFilter>
+                                                        </Values>
+                                                    </FakeMinimapObjects>
+                                                </Item>
+                                            </Objects>
+                                        </FakeMinimapPings>
+                                        <JumpToVisibility>ShowOnlyFakePings</JumpToVisibility>
+                                    </ConditionQuestObjective>
+                                    <ConditionPlayerCounter>
+                                        <Context>1404000325</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                        <CounterScope>Session</CounterScope>
+                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext><CounterScopeContext>1404000000</CounterScopeContext>
+                                    </ConditionPlayerCounter>
+                                    <ConditionQuestStatusQuo/>
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                                    </ConditionPropsExecutionPlaceSettings>
+                                </Values>
+                            </Objective>
+                        </Item>
+                        <Item>
+                            <Objective>
+                                <Template>StatusQuoObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>105421</TextCombinedContextValue>
+                                        <FakeMinimapPings>
+                                            <Objects>
+                                                <Item>
+                                                    <FakeMinimapObjects>
+                                                        <Template>ObjectFilter</Template>
+                                                        <Values>
+                                                            <ObjectFilter>
+                                                                <ObjectGUID>1404000325</ObjectGUID>
+                                                            </ObjectFilter>
+                                                        </Values>
+                                                    </FakeMinimapObjects>
+                                                </Item>
+                                            </Objects>
+                                        </FakeMinimapPings>
+                                        <JumpToVisibility>ShowOnlyFakePings</JumpToVisibility>
+                                    </ConditionQuestObjective>
+                                    <ConditionPlayerCounter>
+                                        <Context>1404000327</Context>
+                                        <CounterAmount>1</CounterAmount>
+                                        <CounterScope>Session</CounterScope>
+                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                                <CounterScopeContext>1404000000</CounterScopeContext>
+                                    </ConditionPlayerCounter>
+                                    <ConditionQuestStatusQuo/>
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                                    </ConditionPropsExecutionPlaceSettings>
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                    <WinConditionCompletionOrder>Linear</WinConditionCompletionOrder>
+
+                    
+                    <!-- <WinConditions>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
                                         <TemplateName>A7_QuestStatusQuo</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
@@ -335,7 +452,7 @@
                                 </Values>
                             </Objective>
                         </Item>
-                    </WinConditions>
+                    </WinConditions> -->
                 </Objectives>
                 <QuestOptional>
                     <HasStarterObject>None</HasStarterObject>

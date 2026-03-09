@@ -1,0 +1,81 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="803420">
+		<Asset>
+			<Template>Expedition</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000844</GUID>
+					<Name>Discovery Orient Singleplayer</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/expeditions/icon_expedition_exploration.png</IconFilename>
+				</Standard>
+				<Expedition>
+					<ExpeditionCategory>Discovery</ExpeditionCategory>
+					<HasCustomName>1</HasCustomName>
+					<ExpeditionName>22262</ExpeditionName>
+					<!--Sunken treasures Expedition-->
+					<HasCustomDescription>1</HasCustomDescription>
+					<ExpeditionDescription>22263</ExpeditionDescription>
+					<!--Sunken treasures-->
+					<ExpeditionRegion>SouthernEurope</ExpeditionRegion>
+					<IsMandatory>1</IsMandatory>
+					<EventList>
+						<Item>
+							<EventOrEventPool>1404000845</EventOrEventPool>
+						</Item>
+						<Item>
+							<EventOrEventPool>1404000846</EventOrEventPool>
+						</Item>
+						<Item>
+							<EventOrEventPool>1404000847</EventOrEventPool>
+						</Item>
+					</EventList>
+					<Threats>
+						<Item>
+							<Threat>800028</Threat>
+						</Item>
+						<Item>
+							<Threat>800029</Threat>
+						</Item>
+						<Item>
+							<Threat>800033</Threat>
+						</Item>
+					</Threats>
+					<FillThreats>1</FillThreats>
+					<MinPauseBetweenEvents>180000</MinPauseBetweenEvents>
+					<MaxPauseBetweenEvents>360000</MaxPauseBetweenEvents>
+					<MoraleAmounts>
+						<AddHigh>15</AddHigh>
+						<AddMedium>10</AddMedium>
+						<AddFew>5</AddFew>
+						<None>0</None>
+						<RemoveContinue>-10</RemoveContinue>
+						<RemoveFew>-5</RemoveFew>
+						<RemoveMedium>-10</RemoveMedium>
+						<RemoveHigh>-15</RemoveHigh>
+						<RemoveVeryHigh>-20</RemoveVeryHigh>
+					</MoraleAmounts>
+					<OptionThresholds>
+						<UseValue>0</UseValue>
+						<LossHighThreshold>20</LossHighThreshold>
+						<LossMediumThreshold>30</LossMediumThreshold>
+						<LossFewThreshold>40</LossFewThreshold>
+						<NeutralThreshold>50</NeutralThreshold>
+						<RewardFewThreshold>70</RewardFewThreshold>
+						<RewardMediumThreshold>80</RewardMediumThreshold>
+						<RewardHighThreshold>90</RewardHighThreshold>
+					</OptionThresholds>
+					<ExpeditionTargetSession>1404000000</ExpeditionTargetSession>
+					<WorldMapCardBG>500895</WorldMapCardBG>
+					<ExpeditionWorldMapAsset>data/graphics/ui/3d_objects/expedition_marker/expedition_marker_02.cfg</ExpeditionWorldMapAsset>
+					<Reward>801585</Reward>
+					<LastEventNeedsContinue>0</LastEventNeedsContinue>
+					<BackgroundVideo>data/ui/video/expedition/south_america_a.bk2</BackgroundVideo>
+				</Expedition>
+				<Locked/>
+				<WorldMapSound/>
+			</Values>
+		</Asset>
+    </ModOp>
+
+</ModOps>
