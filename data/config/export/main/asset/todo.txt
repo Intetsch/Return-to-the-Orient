@@ -11,29 +11,30 @@ Optional Mods: New Horizons, Noblesse Oblige
 Check these:
     References to "* OLD", "* DONT USE", "* DO NOT USE"
     <Keyword>23481</Keyword>
-    117763 Production2Buildings Africa (FeedbackBuildingGroup)
-    ’ or '
-    farm modules
-    1404000799 sub triggers
-    F:\SteamLibrary\steamapps\common\Anno 1800\mods
+    1404000799 population sub triggers
 
-Bugs:
-    Watered fields not shown as green and unwatered fields are not counted as dry
-        ? irrigation_condition_01 [GUID: 601016]
-    Product icons broken
-    Pilgrimage Reward Subheader 1404000812 not displayed
-    <InfoDescription>131556</InfoDescription>
+TODO:
 
-ToDo:
+ALPHA
     Items -> Satanoy
     NPC Trader
         https://www.youtube.com/watch?v=FopwtN_2iQE
-    Localization secondary languages
+        https://youtu.be/PaoAKGRNCOU?si=1bi2PppRdAWJvAuG&t=254
     Bath house supply irrigation or soap etc.
 
-Backlog:
+BETA
+    Localization secondary languages
     Feedback units
     Building props
+    Bugs
+        Watered fields not shown as green and unwatered fields are not counted as dry
+            ? irrigation_condition_01 [GUID: 601016]
+        Product icons broken
+        Pilgrimage Reward Subheader 1404000812 not displayed
+        <InfoDescription>131556</InfoDescription>
+
+RELEASE / BACKLOG
+    Scholars as semi-new population
     Noria secondary pipe
     Multiple level warehouses / kontors
     Naturally spawning camel herds
@@ -41,10 +42,10 @@ Backlog:
     Population quests
     Festival
     
-
-Not implemented:
-    Coffee house expand model with outdoor seating area
-    Lumberjack
+DEPRECATED:
+    Coffee house
+        expand model with outdoor seating area
+        Coffee recipes
     ornamental
         market_place_element
         jugglers_camp
@@ -52,7 +53,7 @@ Not implemented:
         oriental_gate2
         assassins_fortress
         orient_harbour
-    Recipes for coffee house
+    Lumberjack
     Silver production for sabers, hookahs and chandeliers
     Palace System with a reskinned enbesa palace
     Trains / Oil

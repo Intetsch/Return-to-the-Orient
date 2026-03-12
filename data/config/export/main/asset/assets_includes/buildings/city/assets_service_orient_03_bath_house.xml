@@ -93,7 +93,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/1404_import/buildings/public/south/bath_house/s_bath_house.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/bath_house/s_bath_house.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -159,7 +159,11 @@
                 <Pausable/>
                 <IncidentInfectable/>
                 <Culture/>
-                <Watered />
+                <Watered>
+                    <RequiresWater>1</RequiresWater>
+                    <MissingWaterInfolayer>119857</MissingWaterInfolayer>
+                    <!--MissingCanal-->
+                </Watered>
             </Values>
         </Asset>
     </ModOp>
