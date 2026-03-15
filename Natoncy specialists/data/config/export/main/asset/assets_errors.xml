@@ -1,0 +1,303 @@
+<ModOps>
+
+<!-- Marketstalls are public service -->
+<!-- START Omar ibn Salih al-Tujjar, The Great Importer-->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000922</GUID>
+          <Name>Omar ibn Salih al-Tujjar, The Great Importer</Name>
+          <IconFilename>data/modgraphics/iconspes/Omar_i_a_t.png</IconFilename>
+          <InfoDescription>1404000965</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Aviso Oficial de Observación Estatal</Text>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>TownHall</Allocation>
+          <TradePrice>8799666</TradePrice>
+          <TradePriceOnlineCurrency>879666</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID>1404000016</GUID>              <!-- nomads-->
+            </Item>
+            <Item>
+              <GUID>1404000017</GUID>              <!-- envoys-->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkPolyglot</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <TaxModifierInPercent>4</TaxModifierInPercent>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- anny other good from anothe region-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>
+              <AmountInPercent>-10</AmountInPercent>              <!-- Marketstall: Pocket Watches-->
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Biscuits-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Ice Cream-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Gramophones-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Typewriters-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Fans-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Steam Carriages-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Marketstall: Scooter-->
+              <AmountInPercent>-10</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+<!-- pomegranate is not a product -->
+<!--START Salim al-Masri, Juice Counterfeiter -->
+<ModOp GUID="191388" Type="addNextSibling">
+  <Asset>
+    <Template>GuildhouseItem</Template>
+    <Values>
+      <Standard>
+        <GUID>1404000896</GUID>
+        <Name>Salim al-Masri, Juice Counterfeiter</Name>
+        <IconFilename>data/modgraphics/icons/Salim_a_m.png</IconFilename>
+        <InfoDescription>1404000939</InfoDescription>
+      </Standard>
+      <Text>
+        <LocaText>
+          <English>
+            <Text>Salim al-Masri, Juice Counterfeiter</Text>
+          </English>
+        </LocaText>
+      </Text>
+      <Item>
+        <MaxStackSize>3</MaxStackSize>
+        <Rarity>Epic</Rarity>
+        <ItemType>Specialist</ItemType>
+        <Allocation>GuildHouse</Allocation>
+        <TradePrice>1076000</TradePrice>
+        <TradePriceOnlineCurrency>176000</TradePriceOnlineCurrency>
+      </Item>
+      <FactoryUpgrade>
+        <ProductivityUpgrade>
+          <Value>50</Value>
+          <Percental>1</Percental>
+        </ProductivityUpgrade>
+        <InputAmountUpgrade>
+          <Item>
+            <Product>133097</Product>
+            <Amount>2</Amount>
+          </Item>
+        </InputAmountUpgrade>
+        <AdditionalOutput>
+          <Item>
+            <Product></Product>            <!-- pomegranate juice -->
+            <AdditionalOutputCycle>7</AdditionalOutputCycle>
+            <Amount>3</Amount>
+          </Item>
+        </AdditionalOutput>
+        <ReplaceInputs>
+          <Item>
+            <OldInput></OldInput>            <!-- pomegranate-->
+            <NewInput>133097</NewInput>
+          </Item>
+        </ReplaceInputs>
+      </FactoryUpgrade>
+      <ItemEffect>
+        <EffectTargets>
+          <Item>
+            <GUID></GUID>            <!-- pomegranate juice workshop-->
+          </Item>
+        </EffectTargets>
+      </ItemEffect>
+      <ExpeditionAttribute>
+        <BaseMorale>0</BaseMorale>
+        <ExpeditionAttributes>
+          <Item>
+            <Attribute>PerkMale</Attribute>
+            <Amount>1</Amount>
+          </Item>
+          <Item>
+            <Attribute>Crafting</Attribute>
+            <Amount>55</Amount>
+          </Item>
+          <Item>
+            <Attribute>PerkHypnotist</Attribute>
+            <Amount>1</Amount>
+          </Item>
+          <Item>
+            <Attribute>Faith</Attribute>
+            <Amount>25</Amount>
+          </Item>
+        </ExpeditionAttributes>
+        <ItemDifficulties>Hard</ItemDifficulties>
+      </ExpeditionAttribute>
+    </Values>
+  </Asset>
+</ModOp>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Missing texts -->
+  <!-- START Sheikh al-Qadiri, The Voice of the Minbar-->
+  <ModOp GUID="191388" Type="addNextSibling">
+    <Asset>
+      <Template>TownhallItem</Template>
+      <Values>
+        <Standard>
+          <GUID>55</GUID>
+          <Name>Sheikh al-Qadiri, The Voice of the Minbar</Name>
+          <IconFilename>data/modgraphics/iconspes/Sheikh_i_a_Z.png</IconFilename>
+          <InfoDescription>56</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Sheikh al-Qadiri, The Voice of the Minbar</Text>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <MaxStackSize>1</MaxStackSize>
+          <Rarity>Epic</Rarity>
+          <ItemType>Specialist</ItemType>
+          <Allocation>TownHall</Allocation>
+          <TradePrice>999666</TradePrice>
+          <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+        </Item>
+        <ItemEffect>
+          <EffectTargets>
+            <Item>
+              <GUID></GUID>              <!-- Mosque-->
+            </Item>
+            <Item>
+              <GUID></GUID>              <!-- envoys-->
+            </Item>
+            <Item>
+              <GUID></GUID>              <!-- nomads-->
+            </Item>
+          </EffectTargets>
+        </ItemEffect>
+        <BuildingUpgrade>
+          <MaintenanceUpgrade>
+            <Value>35</Value>
+            <Percental>1</Percental>
+          </MaintenanceUpgrade>
+          <PublicServiceFullSatisfactionDistance>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </PublicServiceFullSatisfactionDistance>
+          <PublicServiceNoSatisfactionDistance>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </PublicServiceNoSatisfactionDistance>
+        </BuildingUpgrade>
+        <ExpeditionAttribute>
+          <BaseMorale>5</BaseMorale>
+          <ExpeditionAttributes>
+            <Item>
+              <Attribute>PerkMale</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Diplomacy</Attribute>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Attribute>PerkHypnotist</Attribute>
+              <Amount>1</Amount>
+            </Item>
+            <Item>
+              <Attribute>Medicine</Attribute>
+              <Amount>60</Amount>
+            </Item>
+            <Item>
+              <Attribute>Faith</Attribute>
+              <Amount>30</Amount>
+            </Item>
+          </ExpeditionAttributes>
+          <ItemDifficulties>Hard</ItemDifficulties>
+        </ExpeditionAttribute>
+        <ResidenceUpgrade>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed></ProvidedNeed>              <!-- Mosque product-->
+              <AmountInPercent>-20</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade>
+          <IncidentRiotIncreaseUpgrade>
+            <Value>-4</Value>
+          </IncidentRiotIncreaseUpgrade>
+        </IncidentInfectableUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>
