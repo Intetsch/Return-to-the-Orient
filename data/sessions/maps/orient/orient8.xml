@@ -1,0 +1,106 @@
+<Content>
+  <MapTemplate>
+    <Size>2048 2048</Size>
+    <PlayableArea>256 256 1792 1792</PlayableArea>
+    <RandomlyPlacedThirdParties />
+    <ElementCount>8</ElementCount>
+    <TemplateElement>
+      <ElementType>2</ElementType>
+      <Element>
+        <Position>1080 1680</Position>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>1072 424</Position>
+        <Size>Large</Size>
+        <Difficulty />
+        <Config>
+          <Type>
+            <id>Starter</id>
+          </Type>
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>960 928</Position>
+        <Size>Small</Size>
+        <Difficulty />
+        <Config>
+          <Type />
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>440 472</Position>
+        <Size>Small</Size>
+        <Difficulty />
+        <Config>
+          <Type />
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>392 824</Position>
+        <Size>Large</Size>
+        <Difficulty />
+        <Config>
+          <Type>
+            <id>Starter</id>
+          </Type>
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>616 1424</Position>
+        <Size>Small</Size>
+        <Difficulty />
+        <Config>
+          <Type />
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <ElementType>1</ElementType>
+      <Element>
+        <Position>704 424</Position>
+        <Size>Small</Size>
+        <Difficulty />
+        <Config>
+          <Type />
+          <Difficulty />
+        </Config>
+      </Element>
+    </TemplateElement>
+    <TemplateElement>
+      <Element>
+        <Position>1464 1488</Position>
+        <MapFilePath>data/sessions/islands/pool/moderate/moderate_3rdparty08_01/moderate_3rdparty08_01.a7m</MapFilePath>
+        <IslandLabel>trader</IslandLabel>
+        <FertilityGuids>
+        </FertilityGuids>
+        <MineSlotMapping />
+        <RandomIslandConfig>
+          <value>
+            <Type />
+            <Difficulty />
+          </value>
+        </RandomIslandConfig>
+      </Element>
+    </TemplateElement>
+  </MapTemplate>
+</Content>

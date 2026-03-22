@@ -284,9 +284,14 @@
                 </Standard>
                 <MapTemplate>
                     <IslandSize>Small;Medium;Large</IslandSize>
-                    <TemplateFilename>data/sessions/maps/orient/orient2.a7t</TemplateFilename>
+                    <TemplateFilename>data/sessions/maps/orient/orient10.a7t</TemplateFilename>
                     <TemplateSize>Large</TemplateSize>
                     <TemplateRegion>Mod3</TemplateRegion>
+                    <FixedPreplacedParticipants>
+                        <Item>
+                            <ParticipantID>Third_party_08_Kahina</ParticipantID>
+                        </Item>
+                    </FixedPreplacedParticipants>
                 </MapTemplate>
             </Values>
         </Asset>
