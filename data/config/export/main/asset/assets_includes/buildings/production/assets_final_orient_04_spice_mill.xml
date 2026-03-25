@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404000170</GUID>
 					<Name>final_orient_04 (Spice Mill)</Name>
-					<IconFilename>data\modgraphics\ui\icon_spice_powder.png</IconFilename>
+					<IconFilename>data/ui\kurila\icon_spice_powder.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -148,7 +148,7 @@
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
-							<Product>1404000277</Product>
+							<Product>1500301148</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>

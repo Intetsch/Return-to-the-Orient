@@ -13,12 +13,10 @@
                     <IslandRegion>Mod3</IslandRegion>
                     <IslandDifficulty>Normal;Hard</IslandDifficulty>
                     <IslandType>ThirdParty</IslandType>
-                    <ThirdPartyParticipant>Third_party_08_Kahina</ThirdPartyParticipant>
+                    <ThirdPartyParticipant>Mod10</ThirdPartyParticipant>
                 </RandomIsland>
             </Values>
         </Asset>
     </ModOp>
-
-    <ModOp Type="Add" GUID="78" Path="Values/ThirdParty/AllowedRegions">;Mod3</ModOp>
 
 </ModOps>

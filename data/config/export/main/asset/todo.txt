@@ -19,8 +19,15 @@ ALPHA
     NPC Trader
         Name of island see New Horizons
     Emergency station irrigation
-    Replace spice powder
-        https://github.com/Qurila/shared-mods
+    Rest Localization
+    Test
+        Expedition
+        Quests
+    Check noria item groups
+    Check item probability at trader
+    Update ProductLists
+    Update modinfo.json
+    Check ModDependencies
 
 BETA
     Localization secondary languages
@@ -32,7 +39,6 @@ BETA
     Multiple level warehouses / kontors
     Naturally spawning camel herds
     Bugs
-        Product icons broken
         Envoy unlocks visible earlier
         Watered fields not shown as green and unwatered fields are not counted as dry
             ? irrigation_condition_01 [GUID: 601016]

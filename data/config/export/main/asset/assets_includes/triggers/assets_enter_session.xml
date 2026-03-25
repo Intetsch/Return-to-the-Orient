@@ -1,0 +1,54 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001001</GUID>
+					<Name>Enter Orient Session</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionActiveSession</Template>
+						<Values>
+							<Condition />
+							<ConditionActiveSession>
+								<ActiveSession>140400000</ActiveSession>
+							</ConditionActiveSession>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionSetIslandName</Template>
+								<Values>
+									<Action />
+									<ActionSetIslandName>
+										<SessionIsland>140400000</SessionIsland>
+										<IslandAsset>1404000973</IslandAsset>
+										<NewIslandName>1404000047</NewIslandName>
+									</ActionSetIslandName>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionDiscoverParticipant</Template>
+								<Values>
+									<Action />
+									<ActionDiscoverParticipant>
+										<UseProcessingSourceParticipant>1</UseProcessingSourceParticipant>
+										<DiscoverTargetParticipant>Mod10</DiscoverTargetParticipant>
+									</ActionDiscoverParticipant>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+    </ModOp>
+
+</ModOps>
