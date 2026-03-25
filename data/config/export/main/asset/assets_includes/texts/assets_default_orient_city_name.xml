@@ -1531,6 +1531,23 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001002</GUID>
+                    <Name>Orient City Name Kahina</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Emporium Oriental</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>
