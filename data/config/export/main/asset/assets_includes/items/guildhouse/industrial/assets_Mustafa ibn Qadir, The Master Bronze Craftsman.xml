@@ -1,0 +1,79 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000913</GUID>
+                    <Name>Mustafa ibn Qadir, The Master Bronze Craftsman</Name>
+                    <IconFilename>data/graphics/icons/items/Mustafa_i_Q.png</IconFilename>
+                    <InfoDescription>1404000956</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Mustafa ibn Qadir, The Master Bronze Craftsman</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>9690349</TradePrice>
+                    <TradePriceOnlineCurrency>94949</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000316</GUID>                            <!-- hooka workshop-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000315</GUID>                            <!-- Chandeliers workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-50</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-40</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

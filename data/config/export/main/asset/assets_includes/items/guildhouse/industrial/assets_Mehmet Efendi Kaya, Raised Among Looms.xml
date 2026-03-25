@@ -1,0 +1,87 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000899</GUID>
+                    <Name>Mehmet Efendi Kaya, Raised Among Looms</Name>
+                    <IconFilename>data/graphics/icons/items/Mehmet_e_k.png</IconFilename>
+                    <InfoDescription>1404000942</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Mehmet Efendi Kaya, Raised Among Looms</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1574500</TradePrice>
+                    <TradePriceOnlineCurrency>17500</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>114404</Product>                            <!--Rugs-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000171</GUID>                            <!-- rug loom-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkPolyglot</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>2</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

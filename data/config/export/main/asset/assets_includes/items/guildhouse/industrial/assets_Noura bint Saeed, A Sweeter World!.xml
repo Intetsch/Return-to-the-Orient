@@ -1,0 +1,82 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000915</GUID>
+                    <Name>Noura bint Saeed, A Sweeter World!</Name>
+                    <IconFilename>data/graphics/icons/items/Noura_b_s.png</IconFilename>
+                    <InfoDescription>1404000958</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Noura bint Saeed, A Sweeter World!</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>8690119</TradePrice>
+                    <TradePriceOnlineCurrency>84919</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>45</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1999005057</Product>                            <!-- Marzipan-->
+                            <AdditionalOutputCycle>5</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1010258</Product>
+                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>133183</Product>
+                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000162</GUID>                            <!-- Marzipan kitchen-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkFemale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

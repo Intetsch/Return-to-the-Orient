@@ -1,0 +1,114 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="100686">
+        <Asset>
+            <Template>HarborWarehouse7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000974</GUID>
+                    <Name>Third_party_08_Orient</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_kontor.png</IconFilename>
+                    <InfoDescription>2979</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Madame Kahina's Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>100686</TextOverride>
+                </Text>
+                <Blocking>
+                    <HidePropsRadius>-20</HidePropsRadius>
+                    <DeletePropsRadius>-20</DeletePropsRadius>
+                    <BlockHarborFeedback>1</BlockHarborFeedback>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                    <HarbourAreaExpand>1</HarbourAreaExpand>
+                </Blocking>
+                <Building>
+                    <BuildingType>Warehouse</BuildingType>
+                    <SnapRadius>10</SnapRadius>
+                </Building>
+                <Cost />
+                <Selection>
+                    <GUIType>Kontor</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <SelectionColorType>PropertySelectionColor</SelectionColorType>
+                        <SelectionColor>-337045</SelectionColor>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/3rd_party/3rd_party_08_kontor/3rd_party_08_kontor.cfg</Filename>
+                        </Item>
+                    </Variations>
+                    <AssignDefaultParticipant>1</AssignDefaultParticipant>
+                    <DefaultParticipant>Mod10</DefaultParticipant>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked />
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse>
+                    <WarehouseStorage>
+                        <StorageMax>150</StorageMax>
+                    </WarehouseStorage>
+                </Warehouse>
+                <LogisticNode>
+                    <QueueConfiguration>
+                        <ProcessingQueueParallelCount>4</ProcessingQueueParallelCount>
+                    </QueueConfiguration>
+                </LogisticNode>
+                <DistributionCenter />
+                <MinimapToken>
+                    <TokenAsset>500497</TokenAsset>
+                </MinimapToken>
+                <AmbientMoodProvider />
+                <LoadingPier>
+                    <NumOfPiers>2</NumOfPiers>
+                    <LoadingSpeed>10</LoadingSpeed>
+                </LoadingPier>
+                <StorageBase />
+                <Attackable>
+                    <AttackableType>HarbourBuilding</AttackableType>
+                    <MaximumHitPoints>5000</MaximumHitPoints>
+                    <HasRuinState>1</HasRuinState>
+                    <ExplosionEffectsMin>1</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>1</ExplosionEffectsMax>
+                </Attackable>
+                <Upgradable>
+                    <CurrentTier>3</CurrentTier>
+                </Upgradable>
+                <Maintenance />
+                <Pausable />
+                <Distribution />
+                <UpgradeList />
+                <Culture />
+                <QuestObject />
+                <Attacker>
+                    <Turrets />
+                </Attacker>
+                <CommandQueue />
+                <BuildingUnique />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

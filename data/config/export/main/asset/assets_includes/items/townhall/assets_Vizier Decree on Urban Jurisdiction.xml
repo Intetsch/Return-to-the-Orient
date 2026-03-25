@@ -1,0 +1,75 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000925</GUID>
+                    <Name>Vizier Decree on Urban Jurisdiction</Name>
+                    <IconFilename>data/graphics/icons/items/v_d_u_j.png</IconFilename>
+                    <InfoDescription>1404000968</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Vizier Decree on Urban Jurisdiction</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>999666</TradePrice>
+                    <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000147</GUID>                            <!-- Marketplace-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000148</GUID>                            <!-- Mosque-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000204</GUID>                            <!-- Consulate-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000149</GUID>                            <!-- Bath House-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000291</GUID>                            <!-- other public servises-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>35</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceFullSatisfactionDistance>
+                    <PublicServiceNoSatisfactionDistance>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

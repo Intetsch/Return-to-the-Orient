@@ -1,0 +1,104 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000907</GUID>
+                    <Name>Jalal ad-Din al-Halabi, Smith of the Royal Armory</Name>
+                    <IconFilename>data/graphics/icons/items/Jalal_a_d_a_h.png</IconFilename>
+                    <InfoDescription>1404000950</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Jalal ad-Din al-Halabi, Smith of the Royal Armory</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>9990349</TradePrice>
+                    <TradePriceOnlineCurrency>99949</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>60</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1404000238</Product>                            <!-- swords-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1010219</Product>
+                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000312</GUID>                            <!-- sword workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-2</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentRiotIncreaseUpgrade>
+                        <Value>-11</Value>
+                        <Percental>1</Percental>
+                    </IncidentRiotIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-25</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

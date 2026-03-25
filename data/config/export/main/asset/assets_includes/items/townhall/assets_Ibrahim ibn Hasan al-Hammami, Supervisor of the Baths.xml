@@ -1,0 +1,78 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000926</GUID>
+                    <Name>Ibrahim ibn Hasan al-Hammami, Supervisor of the Baths</Name>
+                    <IconFilename>data/graphics/icons/items/Ibrahim_I_H_A_H.png</IconFilename>
+                    <InfoDescription>1404000969</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ibrahim ibn Hasan al-Hammami, Supervisor of the Baths</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>999666</TradePrice>
+                    <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000149</GUID>                            <!-- Bath House-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-5</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceFullSatisfactionDistance>
+                    <PublicServiceNoSatisfactionDistance>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>30</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000151</ProvidedNeed>                            <!-- Bath House product-->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

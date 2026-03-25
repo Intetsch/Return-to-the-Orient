@@ -1,0 +1,81 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000918</GUID>
+                    <Name>Nabil ibn Yusuf al-Sarraj, With the Midas Touch</Name>
+                    <IconFilename>data/graphics/icons/items/Nabil_i_Y_a_s.png</IconFilename>
+                    <InfoDescription>1404000961</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nabil ibn Yusuf al-Sarraj, With the Midas Touch</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>10760999</TradePrice>
+                    <TradePriceOnlineCurrency>176987</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1404000262</Product>                            <!-- neckales pearl -->
+                            <AdditionalOutputCycle>7</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1010250</Product>
+                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                    <ReplaceInputs>
+                        <Item>
+                            <OldInput>1010197</OldInput>
+                            <NewInput>1010249</NewInput>
+                        </Item>
+                    </ReplaceInputs>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000161</GUID>                            <!-- Pearl Necklaces workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

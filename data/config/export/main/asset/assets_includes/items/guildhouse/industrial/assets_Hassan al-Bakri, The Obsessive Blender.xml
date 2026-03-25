@@ -1,0 +1,71 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000902</GUID>
+                    <Name>Hassan al-Bakri, The Obsessive Blender</Name>
+                    <IconFilename>data/graphics/icons/items/Hassan_a_b.png</IconFilename>
+                    <InfoDescription>1404000945</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hassan al-Bakri, The Obsessive Blender</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>980000</TradePrice>
+                    <TradePriceOnlineCurrency>98000</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>35</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000170</GUID>                            <!-- spice mill-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

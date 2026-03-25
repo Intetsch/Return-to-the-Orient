@@ -1,0 +1,39 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000991</GUID>
+					<Name>Specialists - Public Buildings Orient - Epic</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+						<Item>
+							<ItemLink>1404000922</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000928</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000930</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000976</ItemLink>
+						</Item>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="123690" Path="Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404000991</Asset>
+		</Item>
+	</ModOp>
+	
+</ModOps>

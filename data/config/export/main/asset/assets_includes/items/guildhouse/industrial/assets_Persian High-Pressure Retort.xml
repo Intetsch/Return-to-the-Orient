@@ -1,0 +1,77 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000910</GUID>
+                    <Name>Persian High-Pressure Retort</Name>
+                    <IconFilename>data/graphics/icons/items/p_h_p_r.png</IconFilename>
+                    <InfoDescription>1404000953</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Persian High-Pressure Retort</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>99903890</TradePrice>
+                    <TradePriceOnlineCurrency>99949</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>90</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1900100125</Product>                            <!-- Rosewatter-->
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Product>135130</Product>
+                            <AdditionalOutputCycle>7</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000294</GUID>                            <!-- rossewater workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

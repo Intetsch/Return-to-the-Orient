@@ -1,0 +1,79 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000911</GUID>
+                    <Name>Karim ibn Nasser, Renowned Hooka Craftsman</Name>
+                    <IconFilename>data/graphics/icons/items/Karim_i_n.png</IconFilename>
+                    <InfoDescription>1404000954</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Karim ibn Nasser, Renowned Hooka Craftsman</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>9990349</TradePrice>
+                    <TradePriceOnlineCurrency>99949</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000316</GUID>                            <!-- Hookah workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

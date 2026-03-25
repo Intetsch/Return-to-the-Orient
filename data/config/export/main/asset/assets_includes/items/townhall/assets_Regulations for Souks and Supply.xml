@@ -1,0 +1,77 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000927</GUID>
+                    <Name>Regulations for Souks and Supply</Name>
+                    <IconFilename>data/graphics/icons/items/r_s_s.png</IconFilename>
+                    <InfoDescription>1404000970</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Regulations for Souks and Supply</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>999666</TradePrice>
+                    <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000147</GUID>                            <!-- market-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000016</GUID>                            <!-- nomads-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceFullSatisfactionDistance>
+                    <PublicServiceNoSatisfactionDistance>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>120020</ProvidedNeed>                            <!-- Market place product-->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

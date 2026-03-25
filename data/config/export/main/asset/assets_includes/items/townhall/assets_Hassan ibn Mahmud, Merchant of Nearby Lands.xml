@@ -1,0 +1,96 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000923</GUID>
+                    <Name>Hassan ibn Mahmud, Merchant of Nearby Lands</Name>
+                    <IconFilename>data/graphics/icons/items/Hassan_I_M_M.png</IconFilename>
+                    <InfoDescription>1404000966</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Aviso Oficial de Observación Estatal</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>8799666</TradePrice>
+                    <TradePriceOnlineCurrency>879666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000016</GUID>                            <!-- nomads-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkPolyglot</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1888999749</ProvidedNeed>                            <!-- Dates-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000235</ProvidedNeed>                            <!-- Camels-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>114404</ProvidedNeed>                            <!-- tapestry-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000277</ProvidedNeed>                            <!-- Spice Powder-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000253</ProvidedNeed>                            <!-- Kaftans-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1900100125</ProvidedNeed>                            <!-- Rose Water-->
+                            <AmountInPercent>-5</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1999005057</ProvidedNeed>                            <!-- Marzipan -->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

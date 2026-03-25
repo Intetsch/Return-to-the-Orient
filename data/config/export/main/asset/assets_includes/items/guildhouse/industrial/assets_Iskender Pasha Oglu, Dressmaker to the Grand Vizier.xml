@@ -1,0 +1,78 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000903</GUID>
+                    <Name>Zayn al-Qadir, Allergic to Spicy Food</Name>
+                    <IconFilename>data/graphics/icons/items/Zayn_a_q.png</IconFilename>
+                    <InfoDescription>1404000946</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Zayn al-Qadir, Allergic to Spicy Food</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1076000</TradePrice>
+                    <TradePriceOnlineCurrency>176000</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1404000277</Product>                            <!-- Spice pulver -->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                    <ReplaceInputs>
+                        <Item>
+                            <OldInput>114369</OldInput>
+                            <NewInput>133093</NewInput>
+                        </Item>
+                    </ReplaceInputs>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000170</GUID>                            <!-- spice millp-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

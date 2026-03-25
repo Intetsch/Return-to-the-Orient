@@ -1,0 +1,68 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000892</GUID>
+                    <Name>Animal Grazing and Breeding Agreement</Name>
+                    <IconFilename>data/graphics/icons/items/a_g_b_a.png</IconFilename>
+                    <InfoDescription>1404000935</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Animal Grazing and Breeding Agreement</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>137500</TradePrice>
+                    <TradePriceOnlineCurrency>13500</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000303</GUID>                            <!--camel breeder-->
+                        </Item>
+                        <Item>
+                            <GUID>114456</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>70</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkZoologist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-10</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

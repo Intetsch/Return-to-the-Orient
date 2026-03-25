@@ -1,0 +1,85 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000900</GUID>
+                    <Name>Layla al-Dimashqi, President of the Royal Silk Guild</Name>
+                    <IconFilename>data/graphics/icons/items/Layla_a_d.png</IconFilename>
+                    <InfoDescription>1404000943</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Layla al-Dimashqi, President of the Royal Silk Guild</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1357500</TradePrice>
+                    <TradePriceOnlineCurrency>1357500</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>45</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1440209</Product>                            <!--Silk-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000171</GUID>                            <!-- silk fabrik loom-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkFemale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkPolyglot</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>8</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

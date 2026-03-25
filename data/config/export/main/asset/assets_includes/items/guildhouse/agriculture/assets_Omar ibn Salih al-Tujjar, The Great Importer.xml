@@ -1,0 +1,101 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000922</GUID>
+                    <Name>Omar ibn Salih al-Tujjar, The Great Importer</Name>
+                    <IconFilename>data/graphics/icons/items/Omar_i_a_t.png</IconFilename>
+                    <InfoDescription>1404000965</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Aviso Oficial de Observación Estatal</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>8799666</TradePrice>
+                    <TradePriceOnlineCurrency>879666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000016</GUID>                            <!-- nomads-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkPolyglot</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <TaxModifierInPercent>4</TaxModifierInPercent>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000361</ProvidedNeed>
+                            <AmountInPercent>-10</AmountInPercent>                            <!-- Marketstall: Pocket Watches-->
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000357</ProvidedNeed>                            <!-- Marketstall: Biscuits-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000360</ProvidedNeed>                            <!-- Marketstall: Ice Cream-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000359</ProvidedNeed>                            <!-- Marketstall: Gramophones-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000364</ProvidedNeed>                            <!-- Marketstall: Typewriters-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000358</ProvidedNeed>                            <!-- Marketstall: Fans-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000363</ProvidedNeed>                            <!-- Marketstall: Steam Carriages-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000362</ProvidedNeed>                            <!-- Marketstall: Scooter-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

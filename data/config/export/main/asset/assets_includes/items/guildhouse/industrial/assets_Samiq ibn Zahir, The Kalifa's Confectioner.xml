@@ -1,0 +1,75 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000916</GUID>
+                    <Name>Samiq ibn Zahir, The Kalifa's Confectioner</Name>
+                    <IconFilename>data/graphics/icons/items/Samiq_i_z.png</IconFilename>
+                    <InfoDescription>1404000959</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Samiq ibn Zahir, The Kalifa's Confectioner</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>4000349</TradePrice>
+                    <TradePriceOnlineCurrency>403349</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000162</GUID>                            <!-- marzipan kitchen-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>15</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentFireIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentFireIncreaseUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

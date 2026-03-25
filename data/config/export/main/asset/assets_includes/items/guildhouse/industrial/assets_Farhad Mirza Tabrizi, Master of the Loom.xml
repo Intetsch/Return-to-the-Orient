@@ -1,0 +1,84 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000898</GUID>
+                    <Name>Farhad Mirza Tabrizi, Master of the Loom</Name>
+                    <IconFilename>data/graphics/icons/items/Farhad_m_t.png</IconFilename>
+                    <InfoDescription>1404000941</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Farhad Mirza Tabrizi, Master of the Loom</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1357500</TradePrice>
+                    <TradePriceOnlineCurrency>1357500</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>60</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000171</GUID>                            <!-- rug loom-->
+                        </Item>
+                        <!-- <Item>
+              <GUID></GUID>              <!- silk fabrik loom->
+            </Item> -->
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkPolyglot</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>4</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

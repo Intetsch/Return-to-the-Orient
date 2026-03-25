@@ -1,0 +1,70 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000924</GUID>
+                    <Name>Farid ibn Yasin, The Gadget Seller</Name>
+                    <IconFilename>data/graphics/icons/items/Farid_i_y.png</IconFilename>
+                    <IconFilename>data/graphics/icons/items/Farid_i_y.png</IconFilename>
+                    <InfoDescription>1404000967</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Farid ibn Yasin, The Gadget Seller</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>6449666</TradePrice>
+                    <TradePriceOnlineCurrency>609666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000238</ProvidedNeed>                            <!-- swords-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000250</ProvidedNeed>                            <!-- hookas-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000241</ProvidedNeed>                            <!-- chandeliers-->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

@@ -1,0 +1,69 @@
+<ModOps>
+
+
+    <!--START Salim al-Masri, Juice Counterfeiter -->
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000896</GUID>
+                    <Name>Salim al-Masri, Juice Counterfeiter</Name>
+                    <IconFilename>data/graphics/icons/items/Salim_a_m.png</IconFilename>
+                    <InfoDescription>1404000939</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Salim al-Masri, Juice Counterfeiter</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1076000</TradePrice>
+                    <TradePriceOnlineCurrency>176000</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000300</GUID>                            <!-- pomegranate juice workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>55</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>25</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

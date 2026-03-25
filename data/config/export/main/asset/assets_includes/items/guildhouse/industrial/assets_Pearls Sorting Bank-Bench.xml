@@ -1,0 +1,65 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000919</GUID>
+                    <Name>Pearls Sorting Bank-Bench</Name>
+                    <IconFilename>data/graphics/icons/items/P_s_B_b.png</IconFilename>
+                    <InfoDescription>1404000962</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Pearls Sorting Bank-Bench</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>3300349</TradePrice>
+                    <TradePriceOnlineCurrency>333349</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>35</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000161</GUID>                            <!-- Pearl Necklaces workshop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>35</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-20</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

@@ -1,0 +1,84 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardItemPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000978</GUID>
+					<Name>Third_party_08 (Madame Kahina) Orient</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+						<Item>
+							<ItemLink>192868</ItemLink>
+							<Weight>20</Weight>
+						</Item>
+						<Item>
+							<ItemLink>192869</ItemLink>
+							<Weight>30</Weight>
+						</Item>
+						<Item>
+							<ItemLink>192870</ItemLink>
+							<Weight>40</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193173</ItemLink>
+							<Weight>10</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193174</ItemLink>
+							<Weight>0</Weight>
+						</Item>
+						<Item>
+							<ItemLink>192925</ItemLink>
+							<Weight>210</Weight>
+						</Item>
+						<Item>
+							<ItemLink>192926</ItemLink>
+							<Weight>300</Weight>
+						</Item>
+						<Item>
+							<ItemLink>192927</ItemLink>
+							<Weight>90</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193175</ItemLink>
+							<Weight>0</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193176</ItemLink>
+							<Weight>0</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193246</ItemLink>
+							<Weight>0</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193247</ItemLink>
+							<Weight>80</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193248</ItemLink>
+							<Weight>100</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193249</ItemLink>
+							<Weight>20</Weight>
+						</Item>
+						<Item>
+							<ItemLink>193250</ItemLink>
+							<Weight>0</Weight>
+						</Item>
+						<Item>
+							<ItemLink>1404000979</ItemLink>
+							<Weight>1000</Weight>
+						</Item>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

@@ -1,0 +1,959 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="78">
+        <Asset>
+            <Template>Profile_3rdParty</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000975</GUID>
+                    <Name>Third_party_08 (Madame Kahina Orient)</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/3rd_party_08.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Madame Kahina</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <TextOverride>78</TextOverride>
+                </Text>
+                <Profile>
+                    <ProfilePicture>data/ui/2kimages/main/profiles/3rd_party_08.png</ProfilePicture>
+                    <Portrait>100673</Portrait>
+                    <CompanyIcon>501296</CompanyIcon>
+                    <InfoCornerInfoTip>25000162</InfoCornerInfoTip>
+                    <InfoCornerDescription>4080</InfoCornerDescription>
+                    <ParticipantID>Mod10</ParticipantID>
+                    <NotificationBackground>data/ui/2kimages/main/assets/character_bg/bgr_character_06.png</NotificationBackground>
+                    <QuestStarterObject>100711</QuestStarterObject>
+                    <QuestPoolList />
+                    <DefaultColor>Color11</DefaultColor>
+                    <BackgroundText>18115</BackgroundText>
+                    <MoodImage>data/ui/2kimages/main/assets/thirdparty_islandbar/bg_islandbar_kahina.png</MoodImage>
+                </Profile>
+                <Diplomacy>
+                    <DiplomacyActionBalancing>
+                        <CancelTraderights>
+                            <AgreementThreshold>-999</AgreementThreshold>
+                            <PartialAgreementThreshold>-999</PartialAgreementThreshold>
+                        </CancelTraderights>
+                        <RequestCeaseFire>
+                            <ActionWeight>120</ActionWeight>
+                            <AgreementThreshold>80</AgreementThreshold>
+                        </RequestCeaseFire>
+                    </DiplomacyActionBalancing>
+                </Diplomacy>
+                <ParticipantMessages>
+                    <MessageTriggers>
+                        <ClickKontor>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>3rdParty_Female</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <Template>CharacterNotification</Template>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <SubtitleGroup>-268877076</SubtitleGroup>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ClickKontor>
+                        <QuestInvitation>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestInvitation>
+                        <QuestStarted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>3rdParty_Female</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <Template>CharacterNotification</Template>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification>
+                                                <NotificationPriority>699</NotificationPriority>
+                                            </BaseNotification>
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestStarted>
+                        <QuestSuccessful>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestSuccessful>
+                        <QuestFailed>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestFailed>
+                        <QuestAborted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestAborted>
+                        <QuestEscortShipSelected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestEscortShipSelected>
+                        <QuestResolveConfirmation>
+                            <Reactions>
+                                <Item>
+                                    <MyRole>Initiator</MyRole>
+                                    <Notification>
+                                        <Template>CharacterNotification</Template>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification>
+                                                <NotificationText>10549</NotificationText>
+                                            </BaseNotification>
+                                            <NotificationSubtitle>
+                                                <SubtitleGroup>2073443041</SubtitleGroup>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </QuestResolveConfirmation>
+                        <ShipTradeConfirmation>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ShipTradeConfirmation>
+                        <SettlePermissionRequest>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionRequest>
+                        <SettlePermissionAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionAccepted>
+                        <SettlePermissionDeclined>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlePermissionDeclined>
+                        <SettlementRightsSeizeIsland>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </SettlementRightsSeizeIsland>
+                        <DiplomacyOffer>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOffer>
+                        <DiplomacyOfferThreat>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreat>
+                        <DiplomacyOfferAccept>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferAccept>
+                        <DiplomacyOfferRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferRejected>
+                        <DiplomacyOfferThreatAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreatAccepted>
+                        <DiplomacyOfferThreatRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferThreatRejected>
+                        <DiplomacyDeclareWar>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclareWar>
+                        <DiplomacyOfferPeaceAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferPeaceAccepted>
+                        <DiplomacyOfferTraderightsAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferTraderightsAccepted>
+                        <DiplomacyCancelTraderights>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyCancelTraderights>
+                        <DiplomacyOfferAllianceAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferAllianceAccepted>
+                        <DiplomacyCancelAlliance>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>1</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyCancelAlliance>
+                        <DiplomacyOfferGiftAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferGiftAccepted>
+                        <DiplomacyOfferGiftRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyOfferGiftRejected>
+                        <DiplomacyAskForQuestRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAskForQuestRejected>
+                        <DiplomacyRequestSupportFleetAccepted>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyRequestSupportFleetAccepted>
+                        <DiplomacyRequestSupportFleetRejected>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyRequestSupportFleetRejected>
+                        <DiplomacyAcceptFlatter>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAcceptFlatter>
+                        <DiplomacyDeclineFlatter>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclineFlatter>
+                        <DiplomacyAcceptInsult>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyAcceptInsult>
+                        <DiplomacyDeclineInsult>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritedIndex>0</InheritedIndex>
+                                    </VectorElement>
+                                    <Notification>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle />
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </DiplomacyDeclineInsult>
+                        <ParticipantDiscovered>
+                            <Reactions>
+                                <Item>
+                                    <VectorElement>
+                                        <InheritanceMapV2>
+                                            <Entry>
+                                                <TemplateName>3rdParty_Female</TemplateName>
+                                                <Index>0</Index>
+                                            </Entry>
+                                        </InheritanceMapV2>
+                                    </VectorElement>
+                                    <Notification>
+                                        <Template>CharacterNotification</Template>
+                                        <Values>
+                                            <CharacterNotification />
+                                            <BaseNotification />
+                                            <NotificationSubtitle>
+                                                <SubtitleGroup>570073247</SubtitleGroup>
+                                            </NotificationSubtitle>
+                                        </Values>
+                                    </Notification>
+                                </Item>
+                            </Reactions>
+                        </ParticipantDiscovered>
+                    </MessageTriggers>
+                </ParticipantMessages>
+                <Object>
+                    <DefaultParticipant>Mod10</DefaultParticipant>
+                </Object>
+                <Trader>
+                    <ShipTrader>0</ShipTrader>
+                    <SellShipCooldown>300000</SellShipCooldown>
+                    <SellShipRequestNotification>500997</SellShipRequestNotification>
+                    <BuyShipRequestNotification>500998</BuyShipRequestNotification>
+                    <Progression>
+                        <EarlyGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>3</MaxItemsToOffer>
+                        </EarlyGame>
+                        <EarlyMidGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>4</MaxItemsToOffer>
+                        </EarlyMidGame>
+                        <MidGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1010196</Good>
+                                    <ProductionPerMinute>4</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>114402</Good>
+                                    <ProductionPerMinute>4</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1010196</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>114402</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
+                            <PreferedGoods>
+                                <Item>
+                                    <Product>1404000253</Product>
+                                    <PriceMultiplier>4</PriceMultiplier>
+                                    <ReputationMultiplier>2</ReputationMultiplier>
+                                </Item>
+                            </PreferedGoods>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>5</MaxItemsToOffer>
+                        </MidGame>
+                        <LateMidGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1010196</Good>
+                                    <ProductionPerMinute>5</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>114402</Good>
+                                    <ProductionPerMinute>5</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000265</Good>
+                                    <ProductionPerMinute>5</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1010196</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>114402</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1404000265</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
+                            <PreferedGoods>
+                                <Item>
+                                    <Product>1404000253</Product>
+                                    <PriceMultiplier>4</PriceMultiplier>
+                                    <ReputationMultiplier>2</ReputationMultiplier>
+                                </Item>
+                            </PreferedGoods>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>6</MaxItemsToOffer>
+                        </LateMidGame>
+                        <LateGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1010196</Good>
+                                    <ProductionPerMinute>6</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>114402</Good>
+                                    <ProductionPerMinute>6</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000265</Good>
+                                    <ProductionPerMinute>6</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000235</Good>
+                                    <ProductionPerMinute>6</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1010256</Good>
+                                    <ProductionPerMinute>6</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1010196</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>114402</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1404000265</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1404000235</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1010256</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
+                            <PreferedGoods>
+                                <Item>
+                                    <Product>1404000253</Product>
+                                    <PriceMultiplier>4</PriceMultiplier>
+                                    <ReputationMultiplier>2</ReputationMultiplier>
+                                </Item>
+                            </PreferedGoods>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>8</MaxItemsToOffer>
+                        </LateGame>
+                        <EndGame>
+                            <TradeFleet>
+                            </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1010196</Good>
+                                    <ProductionPerMinute>7</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>114402</Good>
+                                    <ProductionPerMinute>7</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000265</Good>
+                                    <ProductionPerMinute>7</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000235</Good>
+                                    <ProductionPerMinute>7</ProductionPerMinute>
+                                </Item>
+                                <Item>
+                                    <Good>1404000256</Good>
+                                    <ProductionPerMinute>7</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1010196</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1010196</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1404000265</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1404000235</Good>
+                                        </Item>
+                                        <Item>
+                                            <Good>1010256</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
+                            <PreferedGoods>
+                                <Item>
+                                    <Product>1404000253</Product>
+                                    <PriceMultiplier>4</PriceMultiplier>
+                                    <ReputationMultiplier>2</ReputationMultiplier>
+                                </Item>
+                            </PreferedGoods>
+                            <OfferingItems>1404000978</OfferingItems>
+                            <MaxItemsToOffer>12</MaxItemsToOffer>
+                        </EndGame>
+                    </Progression>
+                </Trader>
+                <ThirdParty>
+                    <AllowedRegions>Mod3</AllowedRegions>
+                    <IslandPlacement>Optional</IslandPlacement>
+                </ThirdParty>
+                <ParticipantMessageObject>
+                    <ParticipantMessages>147</ParticipantMessages>
+                </ParticipantMessageObject>
+                <Interaction />
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

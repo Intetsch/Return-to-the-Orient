@@ -1,0 +1,83 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000891</GUID>
+                    <Name>Hassan ibn Rashid, Breeder of purebred camels</Name>
+                    <IconFilename>data/graphics/icons/items/Hassan_i_R.png</IconFilename>
+                    <InfoDescription>1404000934</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hassan ibn Rashid, Breeder of purebred camels</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1357500</TradePrice>
+                    <TradePriceOnlineCurrency>1357500</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1404000235</Product>                            <!--camels-->
+                            <AdditionalOutputCycle>4</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>114371</Product>
+                            <AdditionalOutputCycle>7</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000303</GUID>                            <!--camel breeder-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkZoologist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ModuleOwnerUpgrade>
+                    <ModuleLimitPercent>-20</ModuleLimitPercent>
+                </ModuleOwnerUpgrade>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

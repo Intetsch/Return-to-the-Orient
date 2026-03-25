@@ -1,0 +1,97 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000901</GUID>
+                    <Name>Abdul Rahman al-Haddad, The Weigher of a Thousand Spices</Name>
+                    <IconFilename>data/graphics/icons/items/Abdul_r_h.png</IconFilename>
+                    <InfoDescription>1404000944</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Abdul Rahman al-Haddad, The Weigher of a Thousand Spices</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>980000</TradePrice>
+                    <TradePriceOnlineCurrency>98000</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>45</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>1404000277</Product>                            <!-- spice pulver-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Product>25506</Product>
+                            <AdditionalOutputCycle>10</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>114408</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>114369</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>114358</Product>
+                            <AdditionalOutputCycle>10</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000170</GUID>                            <!-- spice mill-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>20</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

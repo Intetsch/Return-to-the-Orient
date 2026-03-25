@@ -1,0 +1,54 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000995</GUID>
+					<Name>Specialists - Orient Goods - Epic</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+						<Item>
+							<ItemLink>1404000888</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000891</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000896</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000899</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000900</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000907</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000909</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000915</ItemLink>
+						</Item>
+						<Item>
+							<ItemLink>1404000917</ItemLink>
+						</Item>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="123682" Path="Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404000995</Asset>
+		</Item>
+	</ModOp>
+
+</ModOps>

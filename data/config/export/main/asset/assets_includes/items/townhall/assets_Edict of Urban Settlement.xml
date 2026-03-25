@@ -1,0 +1,68 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000921</GUID>
+                    <Name>Edict of Urban Settlement</Name>
+                    <IconFilename>data/graphics/icons/items/e_o_u_s.png</IconFilename>
+                    <InfoDescription>1404000964</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Edict of Urban Settlement</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>2500000</TradePrice>
+                    <TradePriceOnlineCurrency>5000</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000016</GUID>                            <!-- nomads-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>60</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <WorkforceModifierInPercent>15</WorkforceModifierInPercent>
+                    <TaxModifierInPercent>15</TaxModifierInPercent>
+                    <AdditionalHappiness>-2</AdditionalHappiness>
+                </ResidenceUpgrade>
+                <PopulationUpgrade>
+                    <StressUpgrade>
+                        <Value>5</Value>
+                        <Percental>1</Percental>
+                    </StressUpgrade>
+                </PopulationUpgrade>
+                <IncidentInfectableUpgrade>
+                    <IncidentRiotIncreaseUpgrade>
+                        <Value>-10</Value>
+                    </IncidentRiotIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

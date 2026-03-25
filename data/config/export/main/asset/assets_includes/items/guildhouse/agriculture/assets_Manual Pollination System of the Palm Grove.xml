@@ -1,0 +1,58 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000890</GUID>
+                    <Name>Manual Pollination System of the Palm Grove</Name>
+                    <IconFilename>data/graphics/icons/items/M_P_S_P_G.png</IconFilename>
+                    <InfoDescription>1404000933</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Manual Pollination System of the Palm Grove</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>190000</TradePrice>
+                    <TradePriceOnlineCurrency>1030</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>35</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <NeededAreaPercentUpgrade>
+                        <Value>-10</Value>
+                    </NeededAreaPercentUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000159</GUID>                            <!-- Date orchard-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>20</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,27 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000983</GUID>
+					<Name>Machines - Orient Goods - Epic</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="123550" Path="Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404000983</Asset>
+		</Item>
+	</ModOp>
+
+</ModOps>

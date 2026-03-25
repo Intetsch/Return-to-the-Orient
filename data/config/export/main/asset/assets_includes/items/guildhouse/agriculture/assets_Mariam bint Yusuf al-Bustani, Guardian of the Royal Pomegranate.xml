@@ -1,0 +1,54 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000889</GUID>
+                    <Name>Mariam bint Yusuf al-Bustani, Guardian of the Royal Pomegranate</Name>
+                    <IconFilename>data/graphics/icons/items/Mariam_B_Y.png</IconFilename>
+                    <InfoDescription>1404000932</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Mariam bint Yusuf al-Bustani, Guardian of the Royal Pomegranate</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Common</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>198000</TradePrice>
+                    <TradePriceOnlineCurrency>1090</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>30</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <NeededAreaPercentUpgrade>
+                        <Value>-5</Value>
+                    </NeededAreaPercentUpgrade>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000300</GUID>                            <!-- pomegranate orchard-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-5</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

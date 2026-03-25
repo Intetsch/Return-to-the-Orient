@@ -1,0 +1,67 @@
+<ModOps>
+    
+    <ModOp GUID="191430" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000920</GUID>
+                    <Name>Storage Ordinance of the Diwan</Name>
+                    <IconFilename>data/graphics/icons/S_O_o_t_D.png</IconFilename>
+                    <InfoDescription>1404000963</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Storage Ordinance of the Diwan</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>                    <!-- because no harbour master-->
+                    <TradePrice>85030000</TradePrice>
+                    <TradePriceOnlineCurrency>85030</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000217</GUID>                            <!-- your depots or warehoses-->
+                        </Item>
+                        <Item>
+                            <GUID>101344</GUID>                            <!-- piers if you want-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>Crafting</Attribute>
+                            <Amount>50</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>100</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                </BuildingUpgrade>
+                <WarehouseUpgrade>
+                    <StorageCapacityModifier>300</StorageCapacityModifier>                    <!-- you can change it-->
+                </WarehouseUpgrade>
+                <PierUpgrade>
+                    <PierSpeedUpgrade>                        <!-- I add Piers if you had piers, you can take it out :) -->
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </PierSpeedUpgrade>
+                </PierUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

@@ -1,0 +1,82 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000930</GUID>
+                    <Name>Husayn ibn Tariq al-Qahwaji, Renowned Coffee Master</Name>
+                    <IconFilename>data/graphics/icons/items/Husayn_I_T_A_Q.png</IconFilename>
+                    <InfoDescription>1404000972</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Husayn ibn Tariq al-Qahwaji, Renowned Coffee Master</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>999666</TradePrice>
+                    <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000291</GUID>                            <!-- Coffee House-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>10</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>17</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceFullSatisfactionDistance>
+                    <PublicServiceNoSatisfactionDistance>
+                        <Value>17</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000288</ProvidedNeed>                            <!-- Coffee House product-->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

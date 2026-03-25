@@ -1,0 +1,50 @@
+<ModOps>
+  
+  <Include File="guildhouse/assets__index.xml" />
+  <Include File="townhall/assets__index.xml" />
+
+
+  <!--Specialist Guildhouse Legendary -->
+  <ModOp Type="add" GUID="193963,127456,192737" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Specialist Guildhouse Epic -->
+  <ModOp Type="add" GUID="192731,136949,192736,127829" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Specialist Guildhouse Rare -->
+  <ModOp Type="add" GUID="193974,193977,127825" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Visiting Specialist Legendary-->
+  <ModOp Type="add" GUID="193234,193415" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Visiting Specialist Epic-->
+  <ModOp Type="add" GUID="193233,193414" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Visiting Specialist Rare-->
+  <ModOp Type="add" GUID="193413,193232" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Specialist Townhall Rare-->
+  <ModOp Type="add" GUID="192740,192846,127826" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Specialist Townhall Epic-->
+  <ModOp Type="add" GUID="192741,192848,127831" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Specialist Townhall Legendary-->
+  <ModOp Type="add" GUID="192742,192850,127835" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Old Nate -->
+  <ModOp Type="add" GUID="193451,193452" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Kahina -->
+  <ModOp Type="add" GUID="190367,190387,192578,190387,192068" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!-- Ketema -->
+  <ModOp Type="add" GUID="130313,130314,127476,127479,127480" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Machines-->
+  <ModOp Type="add" GUID="192681,192680,192679" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  <!--Edicts Townhall -->
+  <ModOp Type="add" GUID="134769,193920" Path="/Values/RewardPool/ItemsPool">
+  </ModOp>
+  
+</ModOps>

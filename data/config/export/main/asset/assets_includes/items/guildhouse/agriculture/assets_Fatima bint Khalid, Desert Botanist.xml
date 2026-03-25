@@ -1,0 +1,77 @@
+<ModOps>
+    
+    <ModOp GUID="112574" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000888</GUID>
+                    <Name>Fatima bint Khalid, Desert Botanist</Name>
+                    <IconFilename>data/graphics/icons/items/Fatima_b.png</IconFilename>
+                    <InfoDescription>1404000931</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Fatima bint Khalid, Desert Botanist</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>1980000</TradePrice>
+                    <TradePriceOnlineCurrency>10930</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <NeededAreaPercentUpgrade>
+                        <Value>-10</Value>
+                    </NeededAreaPercentUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <Product>133097</Product>
+                            <AdditionalOutputCycle>8</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1888999749</Product>                            <!-- dates-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>1404000265</Product>                            <!-- pomegranate-->
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000300</GUID>                            <!--pomegraate Orchards-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000159</GUID>                            <!-- date orchard-->
+                        </Item>
+                        <Item>
+                            <GUID>133031</GUID>                            <!-- citrus orchard-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <WorkforceAmountUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </WorkforceAmountUpgrade>
+                </BuildingUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

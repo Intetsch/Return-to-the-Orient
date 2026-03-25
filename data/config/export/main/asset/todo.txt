@@ -16,10 +16,8 @@ Check these:
 TODO:
 
 ALPHA
-    Items -> Satanoy
     NPC Trader
-        https://www.youtube.com/watch?v=FopwtN_2iQE
-        https://youtu.be/PaoAKGRNCOU?si=1bi2PppRdAWJvAuG&t=254
+        Name of island see New Horizons
     Emergency station irrigation
     Replace spice powder
         https://github.com/Qurila/shared-mods
@@ -28,23 +26,23 @@ BETA
     Localization secondary languages
     Feedback units
     Building props
+    Secondary pipe (GroundDecalAsset)
+        Noria
+        Bath house
+    Multiple level warehouses / kontors
+    Naturally spawning camel herds
     Bugs
+        Product icons broken
+        Envoy unlocks visible earlier
         Watered fields not shown as green and unwatered fields are not counted as dry
             ? irrigation_condition_01 [GUID: 601016]
-        Product icons broken
         Pilgrimage Reward Subheader 1404000812 not displayed
         <InfoDescription>131556</InfoDescription>
 
-RELEASE / BACKLOG / MAYBE
-    Scholars as semi-new population
-    Noria secondary pipe
-    Multiple level warehouses / kontors
-    Naturally spawning camel herds
+WILL NOT IMPLEMENT:
     Newspaper events
     Population quests
     Festival
-    
-WILL NOT IMPLEMENT:
     Coffee house
         expand model with outdoor seating area
         Coffee recipes
@@ -58,6 +56,7 @@ WILL NOT IMPLEMENT:
     Lumberjack
     Silver production for sabers, hookahs and chandeliers
     Palace System with a reskinned enbesa palace
+    Scholars as semi-new population
     Trains / Oil
         Orient Express
     Bugs

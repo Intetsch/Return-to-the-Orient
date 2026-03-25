@@ -1,0 +1,92 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000893</GUID>
+                    <Name>Rashid ibn Farouk, Anthophile Floriculturist</Name>
+                    <IconFilename>data/graphics/icons/items/Rashid_i_f.png</IconFilename>
+                    <InfoDescription>1404000936</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rashid ibn Farouk, Anthophile Floriculturist</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>3</MaxStackSize>
+                    <Rarity>Legendary</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>GuildHouse</Allocation>
+                    <TradePrice>120000</TradePrice>
+                    <TradePriceOnlineCurrency>1200</TradePriceOnlineCurrency>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>50</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AdditionalOutput>
+                        <Item>
+                            <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>2</Amount>
+                        </Item>
+                        <Item>
+                            <Product>5386</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>5383</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Product>114364</Product>
+                            <AdditionalOutputCycle>6</AdditionalOutputCycle>
+                            <Amount>1</Amount>
+                        </Item>
+                    </AdditionalOutput>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000292</GUID>                            <!-- rose nursery-->
+                        </Item>
+                        <Item>
+                            <GUID>114451</GUID>                            <!-- indigo crop-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ExpeditionAttribute>
+                    <BaseMorale>0</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Medicine</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade>
+                    <AttractivenessUpgrade>
+                        <Value>5</Value>
+                    </AttractivenessUpgrade>
+                </CultureUpgrade>
+                <ModuleOwnerUpgrade>
+                    <ModuleLimitPercent>-15</ModuleLimitPercent>
+                </ModuleOwnerUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

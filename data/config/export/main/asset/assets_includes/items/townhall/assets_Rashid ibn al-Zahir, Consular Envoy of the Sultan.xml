@@ -1,0 +1,86 @@
+<ModOps>
+    
+    <ModOp GUID="191388" Type="addNextSibling">
+        <Asset>
+            <Template>TownhallItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000928</GUID>
+                    <Name>Rashid ibn al-Zahir, Consular Envoy of the Sultan</Name>
+                    <IconFilename>data/graphics/icons/items/Rashid_i_aZa.png</IconFilename>
+                    <InfoDescription>1404000971</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rashid ibn al-Zahir, Consular Envoy of the Sultan</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <ItemType>Specialist</ItemType>
+                    <Allocation>TownHall</Allocation>
+                    <TradePrice>999666</TradePrice>
+                    <TradePriceOnlineCurrency>999666</TradePriceOnlineCurrency>
+                </Item>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000204</GUID>                            <!-- Consulate-->
+                        </Item>
+                        <Item>
+                            <GUID>1404000017</GUID>                            <!-- envoys-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <BuildingUpgrade>
+                    <MaintenanceUpgrade>
+                        <Value>40</Value>
+                        <Percental>1</Percental>
+                    </MaintenanceUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceFullSatisfactionDistance>
+                    <PublicServiceNoSatisfactionDistance>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </PublicServiceNoSatisfactionDistance>
+                </BuildingUpgrade>
+                <ExpeditionAttribute>
+                    <BaseMorale>5</BaseMorale>
+                    <ExpeditionAttributes>
+                        <Item>
+                            <Attribute>PerkMale</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Diplomacy</Attribute>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>PerkHypnotist</Attribute>
+                            <Amount>1</Amount>
+                        </Item>
+                        <Item>
+                            <Attribute>Faith</Attribute>
+                            <Amount>10</Amount>
+                        </Item>
+                    </ExpeditionAttributes>
+                    <ItemDifficulties>Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000206</ProvidedNeed>                            <!-- Consulate product-->
+                            <AmountInPercent>-30</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

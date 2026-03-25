@@ -9,6 +9,7 @@
     <Include File="fertilities/assets__index.xml" />
     <Include File="islands/assets__index.xml" />
     <Include File="item_effect_target_pools/assets__index.xml" />
+    <Include File="items/assets__index.xml" />
     <Include File="monument_events/assets__index.xml" />
     <Include File="notifications/assets__index.xml" />
     <Include File="population_groups/assets__index.xml" />
@@ -31,6 +32,7 @@
     <Include File="assets_associated_regions.xml" />
     <Include File="assets_feedback_balancing_orient.xml" />
     <Include File="assets_irrigation_feature.xml" />
+    <Include File="assets_profile_kahina_orient.xml" />
     <Include File="assets_region.xml" />
     <Include File="assets_session.xml" />
     <Include File="assets_worldmap.xml" />

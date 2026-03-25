@@ -1,0 +1,27 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000985</GUID>
+					<Name>Edicts - Public Buildings Orient - Common</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+				<Text />
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="123581" Path="Values/AssetPool/AssetList">
+		<Item>
+			<Asset>1404000985</Asset>
+		</Item>
+	</ModOp>
+
+</ModOps>

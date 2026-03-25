@@ -1,0 +1,23 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="190387">
+		<Asset>
+			<Template>RewardItemPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000979</GUID>
+					<Name>Kahina Orient Items</Name>
+				</Standard>
+				<RewardPool>
+					<ItemsPool>
+						<Item>
+							<ItemLink>1404000980</ItemLink>
+						</Item>
+					</ItemsPool>
+				</RewardPool>
+				<Locked />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
