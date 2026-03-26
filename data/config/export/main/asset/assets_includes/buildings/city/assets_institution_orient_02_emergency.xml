@@ -95,7 +95,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/1404_import/buildings/native/south/alchemists_tower/s_alchemists_tower.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/emergency_station/s_emergency_station.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -192,6 +192,10 @@
                 <Culture />
                 <QuestObject />
                 <Upgradable />
+                <Watered>
+                    <RequiresWater>1</RequiresWater>
+                    <MissingWaterInfolayer>119857</MissingWaterInfolayer>
+                </Watered>
             </Values>
         </Asset>
     </ModOp>

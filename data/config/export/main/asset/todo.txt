@@ -14,17 +14,17 @@ Check these:
     1404000799 population sub triggers
 
 TODO:
-    Emergency station irrigation
-    Check noria item groups
-    
+    Localization of missing texts
+    Check item probability at trader
+    Update ProductLists
     Test
         Expedition
         Quests
-    Rest Localization
-    Check item probability at trader
-    Update ProductLists
+    Bugs
+        Envoy unlocks visible earlier
+        <InfoDescription>131556</InfoDescription>
+        Emergency station has heat need in UI
     Update modinfo.json
-    Check ModDependencies
 
 BETA
     Localization secondary languages
@@ -36,11 +36,17 @@ BETA
     Multiple level warehouses / kontors
     Naturally spawning camel herds
     Bugs
-        Envoy unlocks visible earlier
         Watered fields not shown as green and unwatered fields are not counted as dry
             ? irrigation_condition_01 [GUID: 601016]
         Pilgrimage Reward Subheader 1404000812 not displayed
-        <InfoDescription>131556</InfoDescription>
+
+
+
+
+
+
+
+
 
 WILL NOT IMPLEMENT:
     Newspaper events
