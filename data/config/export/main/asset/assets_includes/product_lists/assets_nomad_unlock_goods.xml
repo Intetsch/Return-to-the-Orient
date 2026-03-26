@@ -11,41 +11,29 @@
                 <ProductList>
                     <List>
                         <Item>
-                            <Product>114368</Product>
-                        </Item>
-                        <Item>
-                            <Product>114369</Product>
-                        </Item>
-                        <Item>
-                            <Product>1440209</Product>
-                        </Item>
-                        <Item>
-                            <Product>1010196</Product>
-                        </Item>
-                        <Item>
-                            <Product>114371</Product>
-                        </Item>
-                        <Item>
-                            <Product>1404000235</Product>
-                        </Item>
-                        <Item>
                             <Product>1888999749</Product>
                         </Item>
                         <Item>
                             <Product>1404000265</Product>
                         </Item>
                         <Item>
-                            <Product>114404</Product>
+                            <Product>1404000235</Product>
                         </Item>
                         <Item>
-                            <Product>1500301148</Product>
+                            <Product>114368</Product>
+                        </Item>
+                        <Item>
+                            <Product>1440209</Product>
+                        </Item>
+                        <Item>
+                            <Product>114404</Product>
                         </Item>
                     </List>
                 </ProductList>
             </Values>
         </Asset>
     </ModOp>
-    
+
     <ModOp Type="add" GUID="502016,502065,502027,502067,502028,502068,502078,502080,502220" Path="Values/ProductList/List">
         <Item>
             <Product>1404000029</Product>
