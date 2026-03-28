@@ -1,0 +1,134 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="118750">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001003</GUID>
+					<Name>Ornament Building Fluff Orient</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Decorations that defy the desert, provide shade and distract from heat and thirst.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001004</GUID>
+					<Name>fountain Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The height of decadence to waste precious water in a desert like that, it could be confused for a fata morgana.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001005</GUID>
+					<Name>palm Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Some may call it a waste of water but it is some of the few plants that can survive here.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001006</GUID>
+					<Name>place Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A beautiful mosaic, just make sure you wear shoes otherwise you will burn yourself.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001007</GUID>
+					<Name>ruin_large Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A piece of an old building that invites visitors to speculate about its history.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001008</GUID>
+					<Name>statue Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A monument to the resilience of the nomads.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001009</GUID>
+					<Name>street_canopy_large Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A small break from the scorching heat.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001010</GUID>
+					<Name>tent Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
