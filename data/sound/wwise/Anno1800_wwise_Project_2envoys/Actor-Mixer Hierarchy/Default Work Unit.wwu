@@ -102,6 +102,11 @@
 						<Sound Name="residents_6608650" ID="{171F2574-D69D-4478-8B4E-1CE383A0FB7D}" ShortID="632139292">
 							<PropertyList>
 								<Property Name="IsVoice" Type="bool" Value="True"/>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -115,6 +120,11 @@
 								<AudioFileSource Name="residents_6608650" ID="{C1B08DA3-5D18-44D0-B43D-E88A78223348}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608650.wav</AudioFile>
@@ -143,7 +153,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -172,6 +182,11 @@
 								<AudioFileSource Name="residents_6608650" ID="{0AB650D4-70B6-46B9-A42E-CE735335002A}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608650.wav</AudioFile>
@@ -198,6 +213,11 @@
 								<AudioFileSource Name="residents_6608650" ID="{CF8D8E6F-ECBE-4EBF-A4BC-92008CABFCCE}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608650.wav</AudioFile>
@@ -245,6 +265,11 @@
 								<AudioFileSource Name="residents_6608651" ID="{82FBF7C7-0DB4-4ED7-9AFA-E033803CB913}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608651.wav</AudioFile>
@@ -273,7 +298,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -302,6 +327,11 @@
 								<AudioFileSource Name="residents_6608651" ID="{F0F3B6FB-9F59-4778-A958-033D9459AD9E}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608651.wav</AudioFile>
@@ -328,6 +358,11 @@
 								<AudioFileSource Name="residents_6608651" ID="{73D62AB6-160B-43ED-A565-065FE67FE242}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608651.wav</AudioFile>
@@ -375,6 +410,11 @@
 								<AudioFileSource Name="residents_6608652" ID="{F1A9C0BC-760D-4B51-8185-938ABAC6D5AE}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608652.wav</AudioFile>
@@ -403,7 +443,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -432,6 +472,11 @@
 								<AudioFileSource Name="residents_6608652" ID="{50175FE7-8A68-4A1E-B25B-64959F8BA1F1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608652.wav</AudioFile>
@@ -458,6 +503,11 @@
 								<AudioFileSource Name="residents_6608652" ID="{1BC270B1-6FBB-42A2-B923-73C0CBAA3283}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608652.wav</AudioFile>
@@ -505,6 +555,11 @@
 								<AudioFileSource Name="residents_6608653" ID="{F4D6E903-0D9C-42E0-9D84-1D7047F5CC53}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608653.wav</AudioFile>
@@ -533,7 +588,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -574,6 +629,11 @@
 								<AudioFileSource Name="residents_6608653" ID="{26435AE0-998F-4A35-9212-100D4A3573AD}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608653.wav</AudioFile>
@@ -612,6 +672,11 @@
 								<AudioFileSource Name="residents_6608653" ID="{E0EE89C4-FF95-4E5B-A7D5-2B170C4C06B5}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608653.wav</AudioFile>
@@ -671,6 +736,11 @@
 								<AudioFileSource Name="residents_6608660" ID="{1613AC01-77B6-425F-939C-E571C3157CA1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608660.wav</AudioFile>
@@ -711,7 +781,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -740,6 +810,11 @@
 								<AudioFileSource Name="residents_6608660" ID="{1451B2E4-9E47-424B-B5F8-774AF3A6265E}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608660.wav</AudioFile>
@@ -778,6 +853,11 @@
 								<AudioFileSource Name="residents_6608660" ID="{84FC21D5-575C-448A-A052-36AEB1A55F28}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608660.wav</AudioFile>
@@ -825,6 +905,11 @@
 								<AudioFileSource Name="residents_6608661" ID="{229477A9-AA15-491F-BFE0-4E0119496D85}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608661.wav</AudioFile>
@@ -865,7 +950,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -894,6 +979,11 @@
 								<AudioFileSource Name="residents_6608661" ID="{15C034C6-D266-4A62-ABFA-02A152A7C7F5}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608661.wav</AudioFile>
@@ -920,6 +1010,11 @@
 								<AudioFileSource Name="residents_6608661" ID="{229DBC80-C303-434D-B2C0-B612D718F977}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608661.wav</AudioFile>
@@ -967,6 +1062,11 @@
 								<AudioFileSource Name="residents_6608670" ID="{A0FA5B11-2FB3-4115-BFA6-E0A847B41261}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608670.wav</AudioFile>
@@ -995,7 +1095,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1024,6 +1124,11 @@
 								<AudioFileSource Name="residents_6608670" ID="{CDF2E82D-013A-4595-9EA2-BBCCC2045C07}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608670.wav</AudioFile>
@@ -1050,6 +1155,11 @@
 								<AudioFileSource Name="residents_6608670" ID="{B9710DED-F9E5-45B9-88D7-DEFDE986103E}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608670.wav</AudioFile>
@@ -1097,6 +1207,11 @@
 								<AudioFileSource Name="residents_6608671" ID="{E2CB63DB-60FA-457C-AF29-243B24ECD8B1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608671.wav</AudioFile>
@@ -1125,7 +1240,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1154,6 +1269,11 @@
 								<AudioFileSource Name="residents_6608671" ID="{740FB4DA-BC84-41BA-92D6-CD14D18D3EE6}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608671.wav</AudioFile>
@@ -1192,6 +1312,11 @@
 								<AudioFileSource Name="residents_6608671" ID="{89569FE9-DE4D-4D0C-B235-26C0BD206988}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608671.wav</AudioFile>
@@ -1239,6 +1364,11 @@
 								<AudioFileSource Name="residents_6608680" ID="{678ED13B-C65E-438E-B373-5900CB6BD6DB}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608680.wav</AudioFile>
@@ -1291,7 +1421,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1320,6 +1450,11 @@
 								<AudioFileSource Name="residents_6608680" ID="{AA41C038-ED4C-457F-81E4-4F11D3935699}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608680.wav</AudioFile>
@@ -1346,6 +1481,11 @@
 								<AudioFileSource Name="residents_6608680" ID="{42671587-8E95-45CD-BEAF-7C3EA047E1E9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608680.wav</AudioFile>
@@ -1393,6 +1533,11 @@
 								<AudioFileSource Name="residents_6608681" ID="{D277C1F3-9F65-4064-A91D-348A9E4DC2D5}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608681.wav</AudioFile>
@@ -1433,7 +1578,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1462,6 +1607,11 @@
 								<AudioFileSource Name="residents_6608681" ID="{7EDFF6CE-0667-4804-8C41-96F023CB2355}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608681.wav</AudioFile>
@@ -1488,6 +1638,11 @@
 								<AudioFileSource Name="residents_6608681" ID="{9B8C5B07-3385-4438-A405-2F7E1EFDC101}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608681.wav</AudioFile>
@@ -1535,6 +1690,11 @@
 								<AudioFileSource Name="residents_6608690" ID="{2B6FA779-FC2E-48CC-B938-467EE44321AA}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608690.wav</AudioFile>
@@ -1575,7 +1735,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1616,6 +1776,11 @@
 								<AudioFileSource Name="residents_6608690" ID="{17775389-C6F7-4912-82A9-D3BEA4860644}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608690.wav</AudioFile>
@@ -1654,6 +1819,11 @@
 								<AudioFileSource Name="residents_6608690" ID="{D662B2E5-E2D8-4133-9305-8C0790AC3362}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608690.wav</AudioFile>
@@ -1713,6 +1883,11 @@
 								<AudioFileSource Name="residents_6608691" ID="{4640AF9C-70E2-4035-8549-0BDF6B7E3304}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608691.wav</AudioFile>
@@ -1753,7 +1928,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1782,6 +1957,11 @@
 								<AudioFileSource Name="residents_6608691" ID="{0248CCCB-3C41-4C9E-AB7D-55E9EDF2CBD8}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608691.wav</AudioFile>
@@ -1808,6 +1988,11 @@
 								<AudioFileSource Name="residents_6608691" ID="{67701295-5AC0-42B6-9072-4D8A3D6186E1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608691.wav</AudioFile>
@@ -1867,6 +2052,11 @@
 								<AudioFileSource Name="residents_6608700" ID="{009836CA-6292-4C54-BCC4-73D72F977F8B}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608700.wav</AudioFile>
@@ -1907,7 +2097,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1936,6 +2126,11 @@
 								<AudioFileSource Name="residents_6608700" ID="{3503151C-2980-4628-972D-482A58C47EC9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608700.wav</AudioFile>
@@ -1962,6 +2157,11 @@
 								<AudioFileSource Name="residents_6608700" ID="{22155F91-0F72-4F4D-B983-C6B44E102D3A}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608700.wav</AudioFile>
@@ -2009,6 +2209,11 @@
 								<AudioFileSource Name="residents_6608701" ID="{CFB1F56E-08B1-4528-9FAA-251B3BDBDBC0}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608701.wav</AudioFile>
@@ -2037,7 +2242,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2066,6 +2271,11 @@
 								<AudioFileSource Name="residents_6608701" ID="{A793F59D-1501-435F-AC80-294DE34B9383}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608701.wav</AudioFile>
@@ -2092,6 +2302,11 @@
 								<AudioFileSource Name="residents_6608701" ID="{EA7D8921-075B-4B12-8691-CD89AD00D6DC}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608701.wav</AudioFile>
@@ -2139,6 +2354,11 @@
 								<AudioFileSource Name="residents_6608710" ID="{796170DD-5DE9-4D59-B013-4668E302DF78}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608710.wav</AudioFile>
@@ -2167,7 +2387,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2196,6 +2416,11 @@
 								<AudioFileSource Name="residents_6608710" ID="{21B8018E-CE5A-4E54-A66E-C9E1724DC1F3}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608710.wav</AudioFile>
@@ -2222,6 +2447,11 @@
 								<AudioFileSource Name="residents_6608710" ID="{060B47D2-BA92-420F-8951-7A69E24C05DA}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608710.wav</AudioFile>
@@ -2269,6 +2499,11 @@
 								<AudioFileSource Name="residents_6608711" ID="{606BBF81-2F10-4191-A71F-8C6BEF205063}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608711.wav</AudioFile>
@@ -2297,7 +2532,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2326,6 +2561,11 @@
 								<AudioFileSource Name="residents_6608711" ID="{0DF16FA3-0795-443D-B8F5-674FBCA52978}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608711.wav</AudioFile>
@@ -2352,6 +2592,11 @@
 								<AudioFileSource Name="residents_6608711" ID="{97D81DE7-7748-4E61-86C4-B09DD4B74330}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608711.wav</AudioFile>
@@ -2399,6 +2644,11 @@
 								<AudioFileSource Name="residents_6608712" ID="{FD4029BC-DF09-4F69-B0C7-810ECAD17671}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608712.wav</AudioFile>
@@ -2439,7 +2689,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2468,6 +2718,11 @@
 								<AudioFileSource Name="residents_6608712" ID="{A1338F4D-37E3-4187-A3B4-692CEDE15D49}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608712.wav</AudioFile>
@@ -2494,6 +2749,11 @@
 								<AudioFileSource Name="residents_6608712" ID="{1425D601-2255-49CA-975B-9C44591042DC}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608712.wav</AudioFile>
@@ -2541,6 +2801,11 @@
 								<AudioFileSource Name="residents_6608713" ID="{63FFD39C-ED43-447B-A6EA-653309A400BA}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608713.wav</AudioFile>
@@ -2581,7 +2846,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2622,6 +2887,11 @@
 								<AudioFileSource Name="residents_6608713" ID="{C2B1D368-18C5-4113-BB14-B2C0936E6AF6}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608713.wav</AudioFile>
@@ -2660,6 +2930,11 @@
 								<AudioFileSource Name="residents_6608713" ID="{2B87B482-1B98-4B93-92BB-ECDC41750F76}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608713.wav</AudioFile>
@@ -2719,6 +2994,11 @@
 								<AudioFileSource Name="residents_6608714" ID="{7E67E9DF-4149-4CEB-9A5D-835DFAFCD460}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608714.wav</AudioFile>
@@ -2759,7 +3039,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2800,6 +3080,11 @@
 								<AudioFileSource Name="residents_6608714" ID="{2A17F41D-DFA8-4F63-B677-8A2BD00BCD36}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608714.wav</AudioFile>
@@ -2826,6 +3111,11 @@
 								<AudioFileSource Name="residents_6608714" ID="{C49AE678-AA28-474D-A764-3766B71AC6AF}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608714.wav</AudioFile>
@@ -2873,6 +3163,11 @@
 								<AudioFileSource Name="residents_6608720" ID="{161D80A4-9240-4F2C-AAD6-9E65F25A663A}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608720.wav</AudioFile>
@@ -2913,7 +3208,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2942,6 +3237,11 @@
 								<AudioFileSource Name="residents_6608720" ID="{4D3110C9-15FD-4ACA-9599-ADDEB8286B43}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608720.wav</AudioFile>
@@ -2968,6 +3268,11 @@
 								<AudioFileSource Name="residents_6608720" ID="{843EAE32-AD6F-47D7-9F19-B4C5EE7AEC8C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608720.wav</AudioFile>
@@ -3015,6 +3320,11 @@
 								<AudioFileSource Name="residents_6608721" ID="{E35E3F16-2288-420A-9326-6E3DE729A65C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608721.wav</AudioFile>
@@ -3055,7 +3365,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3084,6 +3394,11 @@
 								<AudioFileSource Name="residents_6608721" ID="{44F85289-1850-4BC5-93C1-72E32928AFE8}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608721.wav</AudioFile>
@@ -3110,6 +3425,11 @@
 								<AudioFileSource Name="residents_6608721" ID="{56CAC392-9716-47E6-A3A4-C0996E3AED04}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608721.wav</AudioFile>
@@ -3157,6 +3477,11 @@
 								<AudioFileSource Name="residents_6608722" ID="{212821F7-EE29-42AB-8328-F1AFD180DFE9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608722.wav</AudioFile>
@@ -3185,7 +3510,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3214,6 +3539,11 @@
 								<AudioFileSource Name="residents_6608722" ID="{F86455DE-AEC1-4149-BA3C-23D4F6BB64D2}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608722.wav</AudioFile>
@@ -3240,6 +3570,11 @@
 								<AudioFileSource Name="residents_6608722" ID="{DFC86E28-505E-4688-8DB6-ADE7D09C96E0}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608722.wav</AudioFile>
@@ -3287,6 +3622,11 @@
 								<AudioFileSource Name="residents_6608723" ID="{AF98E92B-168F-4D0F-9C00-4342AB994C08}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608723.wav</AudioFile>
@@ -3327,7 +3667,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3368,6 +3708,11 @@
 								<AudioFileSource Name="residents_6608723" ID="{2B071CF8-D871-4B6E-AE7F-534F27445E3F}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608723.wav</AudioFile>
@@ -3406,6 +3751,11 @@
 								<AudioFileSource Name="residents_6608723" ID="{B31039CA-F7E9-49C2-8908-DCD3AB1ED588}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608723.wav</AudioFile>
@@ -3465,6 +3815,11 @@
 								<AudioFileSource Name="residents_6608724" ID="{EB15E195-42B4-4DF7-B962-E92A7A69CCBA}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608724.wav</AudioFile>
@@ -3493,7 +3848,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3522,6 +3877,11 @@
 								<AudioFileSource Name="residents_6608724" ID="{DA180DA8-21F5-4124-B3FF-68D33376015F}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608724.wav</AudioFile>
@@ -3548,6 +3908,11 @@
 								<AudioFileSource Name="residents_6608724" ID="{9D3690B0-3A53-4AA9-BA3F-F3D5130909E2}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608724.wav</AudioFile>
@@ -3595,6 +3960,11 @@
 								<AudioFileSource Name="residents_6608730" ID="{8A3C0985-D21B-455A-BC9B-80BEAF1F2B80}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608730.wav</AudioFile>
@@ -3623,7 +3993,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3652,6 +4022,11 @@
 								<AudioFileSource Name="residents_6608730" ID="{206A94CE-2954-488E-AA29-E237C4BB0054}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608730.wav</AudioFile>
@@ -3678,6 +4053,11 @@
 								<AudioFileSource Name="residents_6608730" ID="{5BB688A5-80C7-4A3E-B146-291A44BD8B04}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608730.wav</AudioFile>
@@ -3725,6 +4105,11 @@
 								<AudioFileSource Name="residents_6608731" ID="{8A76A926-FF82-45D2-8C84-627A08E2DC4C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608731.wav</AudioFile>
@@ -3765,7 +4150,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3794,6 +4179,11 @@
 								<AudioFileSource Name="residents_6608731" ID="{303ABC7B-1FDE-41E5-BB06-A69FE1F0706C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608731.wav</AudioFile>
@@ -3820,6 +4210,11 @@
 								<AudioFileSource Name="residents_6608731" ID="{861936CA-B9E5-458D-995A-8520602E8685}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608731.wav</AudioFile>
@@ -3867,6 +4262,11 @@
 								<AudioFileSource Name="residents_6608732" ID="{45FFBB3E-4849-40DD-9A77-B8B472076FB9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608732.wav</AudioFile>
@@ -3907,7 +4307,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3948,6 +4348,11 @@
 								<AudioFileSource Name="residents_6608732" ID="{809D9B1F-32FA-4D69-83F9-1D4ACD96FB16}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608732.wav</AudioFile>
@@ -3974,6 +4379,11 @@
 								<AudioFileSource Name="residents_6608732" ID="{06F13562-2C00-418D-B087-3621759DB8BB}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608732.wav</AudioFile>
@@ -4021,6 +4431,11 @@
 								<AudioFileSource Name="residents_6608733" ID="{42617B8A-3D96-45FE-A579-BC21B192F088}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608733.wav</AudioFile>
@@ -4073,7 +4488,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4102,6 +4517,11 @@
 								<AudioFileSource Name="residents_6608733" ID="{11D29F32-5599-4C99-A446-6B178333B68D}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608733.wav</AudioFile>
@@ -4140,6 +4560,11 @@
 								<AudioFileSource Name="residents_6608733" ID="{989F7CA0-B054-49F1-99AE-08C7D898CFCD}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608733.wav</AudioFile>
@@ -4199,6 +4624,11 @@
 								<AudioFileSource Name="residents_6608734" ID="{347D6494-E925-4E26-ADF4-E8D5CCFC74D1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608734.wav</AudioFile>
@@ -4239,7 +4669,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4268,6 +4698,11 @@
 								<AudioFileSource Name="residents_6608734" ID="{201804CC-383E-4DD1-AA94-28FB91038EF3}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608734.wav</AudioFile>
@@ -4294,6 +4729,11 @@
 								<AudioFileSource Name="residents_6608734" ID="{CF23FA9F-F1F4-4F9A-A553-B55695354B12}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608734.wav</AudioFile>
@@ -4353,6 +4793,11 @@
 								<AudioFileSource Name="residents_6608740" ID="{1DECE57C-2E31-40ED-9699-4FB53B4BF8F9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608740.wav</AudioFile>
@@ -4393,7 +4838,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4422,6 +4867,11 @@
 								<AudioFileSource Name="residents_6608740" ID="{7AA909D4-9D9E-41E2-A74D-8C86221F1A88}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608740.wav</AudioFile>
@@ -4448,6 +4898,11 @@
 								<AudioFileSource Name="residents_6608740" ID="{84BE75C5-8962-497D-A2D9-C5DD5B33190D}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608740.wav</AudioFile>
@@ -4495,6 +4950,11 @@
 								<AudioFileSource Name="residents_6608741" ID="{BBD3447F-958A-4648-AF97-6F277D361A29}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608741.wav</AudioFile>
@@ -4535,7 +4995,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4564,6 +5024,11 @@
 								<AudioFileSource Name="residents_6608741" ID="{8C756350-E364-40E3-81A2-7876400A4546}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608741.wav</AudioFile>
@@ -4590,6 +5055,11 @@
 								<AudioFileSource Name="residents_6608741" ID="{F10030AF-728E-43EB-A9B9-5E1FAD9CF372}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608741.wav</AudioFile>
@@ -4637,6 +5107,11 @@
 								<AudioFileSource Name="residents_6608742" ID="{5B71AF83-1E5B-4605-938D-C94C2AF1F488}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608742.wav</AudioFile>
@@ -4665,7 +5140,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4694,6 +5169,11 @@
 								<AudioFileSource Name="residents_6608742" ID="{9BD9182C-8005-4884-BEDD-AFF27B903057}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608742.wav</AudioFile>
@@ -4720,6 +5200,11 @@
 								<AudioFileSource Name="residents_6608742" ID="{4436EB25-5261-4DBE-882A-186E2BA57D5B}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608742.wav</AudioFile>
@@ -4767,6 +5252,11 @@
 								<AudioFileSource Name="residents_6608743" ID="{7B0EB2C6-722E-456E-9527-AD037C20952B}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608743.wav</AudioFile>
@@ -4795,7 +5285,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4824,6 +5314,11 @@
 								<AudioFileSource Name="residents_6608743" ID="{00BBB2BB-0819-450B-B464-B8268DCB0FDC}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608743.wav</AudioFile>
@@ -4850,6 +5345,11 @@
 								<AudioFileSource Name="residents_6608743" ID="{7F788092-0618-4B8B-A806-0AFB63B663AD}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608743.wav</AudioFile>
@@ -4909,6 +5409,11 @@
 								<AudioFileSource Name="residents_6608744" ID="{C58E202A-A8E4-404C-805A-E78C988A48B9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608744.wav</AudioFile>
@@ -4949,7 +5454,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -4978,6 +5483,11 @@
 								<AudioFileSource Name="residents_6608744" ID="{7D9B31B2-2328-4D17-841B-D889DE23EF36}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608744.wav</AudioFile>
@@ -5004,6 +5514,11 @@
 								<AudioFileSource Name="residents_6608744" ID="{8DAEB778-70F1-4E80-B53F-C443CA31F1D9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608744.wav</AudioFile>
@@ -5051,6 +5566,11 @@
 								<AudioFileSource Name="residents_6608750" ID="{922D7FFE-A0BE-4A23-A851-DA2778F3829B}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608750.wav</AudioFile>
@@ -5091,7 +5611,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5120,6 +5640,11 @@
 								<AudioFileSource Name="residents_6608750" ID="{D42ED8B9-C668-4664-A347-6D9D88EBF603}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608750.wav</AudioFile>
@@ -5158,6 +5683,11 @@
 								<AudioFileSource Name="residents_6608750" ID="{C1A8E6BB-AD93-4370-A7CB-9CCE407AB66F}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608750.wav</AudioFile>
@@ -5217,6 +5747,11 @@
 								<AudioFileSource Name="residents_6608751" ID="{0D3CF70F-CF7D-4BE7-A07A-21C19E65A124}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608751.wav</AudioFile>
@@ -5269,7 +5804,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5298,6 +5833,11 @@
 								<AudioFileSource Name="residents_6608751" ID="{190AC07C-689F-400B-A5B5-E18913CF9ABC}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608751.wav</AudioFile>
@@ -5324,6 +5864,11 @@
 								<AudioFileSource Name="residents_6608751" ID="{1D7386BE-E7BE-4038-9284-C07870D027C6}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608751.wav</AudioFile>
@@ -5371,6 +5916,11 @@
 								<AudioFileSource Name="residents_6608752" ID="{1905F009-7328-4A85-AAB5-8A61D7706118}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608752.wav</AudioFile>
@@ -5411,7 +5961,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5452,6 +6002,11 @@
 								<AudioFileSource Name="residents_6608752" ID="{6884C6DA-0F23-45E0-9907-8E88BCFD0F62}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608752.wav</AudioFile>
@@ -5490,6 +6045,11 @@
 								<AudioFileSource Name="residents_6608752" ID="{58235C94-AD62-45D6-AF63-5397FE300790}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608752.wav</AudioFile>
@@ -5561,6 +6121,11 @@
 								<AudioFileSource Name="residents_6608753" ID="{C41579FA-6F46-46E5-85DC-2B6D96447034}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608753.wav</AudioFile>
@@ -5589,7 +6154,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5618,6 +6183,11 @@
 								<AudioFileSource Name="residents_6608753" ID="{E6CFEBC4-BCE2-40DE-95FC-26CA87CC039B}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608753.wav</AudioFile>
@@ -5644,6 +6214,11 @@
 								<AudioFileSource Name="residents_6608753" ID="{6A39FF7F-C867-4476-9D7D-0A1334418A58}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608753.wav</AudioFile>
@@ -5703,6 +6278,11 @@
 								<AudioFileSource Name="residents_6608754" ID="{DE388014-1C85-4EFF-9106-9905DBFCC771}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608754.wav</AudioFile>
@@ -5743,7 +6323,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5784,6 +6364,11 @@
 								<AudioFileSource Name="residents_6608754" ID="{A77ED09F-90A1-4B3C-A16C-CA6FA7813878}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608754.wav</AudioFile>
@@ -5810,6 +6395,11 @@
 								<AudioFileSource Name="residents_6608754" ID="{027CDF3A-0594-4D87-96BC-532513FC1F71}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608754.wav</AudioFile>
@@ -5869,6 +6459,11 @@
 								<AudioFileSource Name="residents_6608760" ID="{95C50A66-5B15-412F-BFB7-71D3A64EE7E6}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608760.wav</AudioFile>
@@ -5909,7 +6504,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -5938,6 +6533,11 @@
 								<AudioFileSource Name="residents_6608760" ID="{1A21B99E-CFFE-4768-A7C4-881B79A3122C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608760.wav</AudioFile>
@@ -5976,6 +6576,11 @@
 								<AudioFileSource Name="residents_6608760" ID="{4C8E48DB-0CA4-45F3-B78D-C303DF526F69}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608760.wav</AudioFile>
@@ -6035,6 +6640,11 @@
 								<AudioFileSource Name="residents_6608761" ID="{41D61247-E3B0-40F9-8938-D63AE4EA97B5}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608761.wav</AudioFile>
@@ -6063,7 +6673,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6092,6 +6702,11 @@
 								<AudioFileSource Name="residents_6608761" ID="{5C097DA3-B1D3-4704-989E-E0619D55FA23}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608761.wav</AudioFile>
@@ -6118,6 +6733,11 @@
 								<AudioFileSource Name="residents_6608761" ID="{7A44162D-5D12-4B2B-8E57-B7A3D43B0842}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608761.wav</AudioFile>
@@ -6165,6 +6785,11 @@
 								<AudioFileSource Name="residents_6608762" ID="{7D08DBE6-DFEF-408E-86FA-28711EFBF9DD}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608762.wav</AudioFile>
@@ -6205,7 +6830,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6234,6 +6859,11 @@
 								<AudioFileSource Name="residents_6608762" ID="{2B750356-FFD2-48A0-B601-04AEBDB4FB45}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608762.wav</AudioFile>
@@ -6260,6 +6890,11 @@
 								<AudioFileSource Name="residents_6608762" ID="{0DB48E88-EB8C-4623-A5B3-3B6BCF2B0ED2}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608762.wav</AudioFile>
@@ -6319,6 +6954,11 @@
 								<AudioFileSource Name="residents_6608763" ID="{858F9962-359D-4AA9-81F2-DE1A0C7E0EBD}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608763.wav</AudioFile>
@@ -6359,7 +6999,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6400,6 +7040,11 @@
 								<AudioFileSource Name="residents_6608763" ID="{7C7E972A-7192-4370-9554-62CEC7EC9CC9}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608763.wav</AudioFile>
@@ -6438,6 +7083,11 @@
 								<AudioFileSource Name="residents_6608763" ID="{6BBC38A8-53F7-48CB-8A4E-C7F1ACFCD249}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608763.wav</AudioFile>
@@ -6497,6 +7147,11 @@
 								<AudioFileSource Name="residents_6608764" ID="{6CE6C0E0-BF6F-4697-91E3-35E7C8B205A1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608764.wav</AudioFile>
@@ -6537,7 +7192,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6578,6 +7233,11 @@
 								<AudioFileSource Name="residents_6608764" ID="{3D6236D7-FD66-40C9-8C37-E6ACE2BC825C}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608764.wav</AudioFile>
@@ -6616,6 +7276,11 @@
 								<AudioFileSource Name="residents_6608764" ID="{5B5C08D2-6F63-4D18-AE87-A0F7A811EB04}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608764.wav</AudioFile>
@@ -6687,6 +7352,11 @@
 								<AudioFileSource Name="residents_6608765" ID="{141D78AB-2920-4CCD-A325-D3842C6AAC30}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608765.wav</AudioFile>
@@ -6751,7 +7421,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6792,6 +7462,11 @@
 								<AudioFileSource Name="residents_6608765" ID="{35B19D5A-1D26-4230-AB5B-F03A9F27B263}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608765.wav</AudioFile>
@@ -6842,6 +7517,11 @@
 								<AudioFileSource Name="residents_6608765" ID="{D22D9723-44E4-4A09-959B-48232E1AA4D1}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608765.wav</AudioFile>
@@ -6913,6 +7593,11 @@
 								<AudioFileSource Name="residents_6608766" ID="{DB6FA4D2-FFAE-41C0-867D-2E84DDF01FE7}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608766.wav</AudioFile>
@@ -6941,7 +7626,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6982,6 +7667,11 @@
 								<AudioFileSource Name="residents_6608766" ID="{36BD846F-BF38-48ED-82E9-536AE4E4D5C3}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608766.wav</AudioFile>
@@ -7008,6 +7698,11 @@
 								<AudioFileSource Name="residents_6608766" ID="{43D2769D-3419-48BA-8D12-BC6486612334}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608766.wav</AudioFile>
@@ -7079,6 +7774,11 @@
 								<AudioFileSource Name="residents_6608767" ID="{F527F99D-EF09-4947-829C-D1F8555575AF}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608767.wav</AudioFile>
@@ -7107,7 +7807,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7136,6 +7836,11 @@
 								<AudioFileSource Name="residents_6608767" ID="{841E6EC8-9450-432C-8D98-ED8738082291}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608767.wav</AudioFile>
@@ -7174,6 +7879,11 @@
 								<AudioFileSource Name="residents_6608767" ID="{3AA93EBC-2146-4F6E-91CC-64BA50C315DF}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608767.wav</AudioFile>
@@ -7245,6 +7955,11 @@
 								<AudioFileSource Name="residents_6608768" ID="{752D7E52-EE24-4103-889D-1B258CFF5544}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608768.wav</AudioFile>
@@ -7297,7 +8012,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7326,6 +8041,11 @@
 								<AudioFileSource Name="residents_6608768" ID="{B32CD8E4-68B0-4CB0-AA84-40BA20E3FF3D}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608768.wav</AudioFile>
@@ -7364,6 +8084,11 @@
 								<AudioFileSource Name="residents_6608768" ID="{91059471-A3CB-45C4-A658-5E078C111D6D}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608768.wav</AudioFile>
@@ -7435,6 +8160,11 @@
 								<AudioFileSource Name="residents_6608769" ID="{56620170-638A-4902-8323-DD53AA7145D3}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>en_us</Language>
 									<AudioFile>residents_6608769.wav</AudioFile>
@@ -7463,7 +8193,7 @@
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
 										<Property Name="VolumeOffset" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -7492,6 +8222,11 @@
 								<AudioFileSource Name="residents_6608769" ID="{5E810DDE-26C5-4C51-B870-7C38ED4642AC}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>fr_fr</Language>
 									<AudioFile>residents_6608769.wav</AudioFile>
@@ -7518,6 +8253,11 @@
 								<AudioFileSource Name="residents_6608769" ID="{F51DCAB2-B000-4407-BB91-07EA0CE62A67}">
 									<PropertyList>
 										<Property Name="MarkerInputMode" Type="int16" Value="2"/>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<Language>ru_ru</Language>
 									<AudioFile>residents_6608769.wav</AudioFile>
