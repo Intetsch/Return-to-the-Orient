@@ -1,0 +1,40 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="23575">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001011</GUID>
+					<Name>Search Filter - Nomad Needs</Name>
+					<IconFilename>data/graphics/icons/residents/icon_resident_nomad.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Nomad Needs</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001012</GUID>
+					<Name>Search Filter - Envoy Needs</Name>
+					<IconFilename>data/graphics/icons/residents/icon_resident_envoy.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Envoy Needs</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+    </ModOp>
+
+</ModOps>
