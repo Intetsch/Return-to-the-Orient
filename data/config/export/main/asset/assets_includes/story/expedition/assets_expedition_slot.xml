@@ -1,0 +1,23 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="803420">
+		<Asset>
+            <Template>ExpeditionSlot</Template>
+            <Values>
+                <ExpeditionSlot>
+                    <SlotRegion>Africa</SlotRegion>
+                    <SpecialExpeditionsSlot>
+                        <Item>
+                            <Expedition>1404000844</Expedition>
+                        </Item>
+                    </SpecialExpeditionsSlot>
+                </ExpeditionSlot>
+                <Standard>
+                    <GUID>1404001015</GUID>
+                    <Name>Orient_Unlock</Name>
+                </Standard>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

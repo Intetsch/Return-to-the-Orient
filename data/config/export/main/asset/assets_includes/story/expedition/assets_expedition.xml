@@ -12,23 +12,22 @@
 				<Expedition>
 					<ExpeditionCategory>Discovery</ExpeditionCategory>
 					<HasCustomName>1</HasCustomName>
-					<ExpeditionName>22262</ExpeditionName>
-					<!--Sunken treasures Expedition-->
+					<ExpeditionName>1404001013</ExpeditionName>
 					<HasCustomDescription>1</HasCustomDescription>
-					<ExpeditionDescription>22263</ExpeditionDescription>
-					<!--Sunken treasures-->
-					<ExpeditionRegion>SouthernEurope</ExpeditionRegion>
+					<ExpeditionDescription>1404001014</ExpeditionDescription>
+					<ExpeditionRegion>Africa</ExpeditionRegion>
 					<IsMandatory>1</IsMandatory>
 					<EventList>
 						<Item>
 							<EventOrEventPool>1404000845</EventOrEventPool>
 						</Item>
-						<Item>
+						<!-- TODO -->
+						<!-- <Item>
 							<EventOrEventPool>1404000846</EventOrEventPool>
 						</Item>
 						<Item>
 							<EventOrEventPool>1404000847</EventOrEventPool>
-						</Item>
+						</Item> -->
 					</EventList>
 					<Threats>
 						<Item>

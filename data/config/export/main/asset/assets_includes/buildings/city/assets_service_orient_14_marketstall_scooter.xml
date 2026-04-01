@@ -158,7 +158,10 @@
                 </Maintenance>
                 <Industrializable />
                 <IncidentInfectable />
-                <Electrifiable />
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
                 <AmbientMoodProvider>
                     <Murmur>Market</Murmur>
                 </AmbientMoodProvider>

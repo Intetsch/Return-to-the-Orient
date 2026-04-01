@@ -229,6 +229,21 @@
                                             </Values>
                                         </Action>
                                     </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionUnlockAsset</Template>
+                                            <Values>
+                                                <ActionUnlockAsset>
+                                                    <UnhideAssets>
+                                                        <Item>
+                                                            <Asset>1404000000</Asset>
+                                                        </Item>
+                                                    </UnhideAssets>
+                                                </ActionUnlockAsset>
+                                                <Action/>
+                                            </Values>
+                                        </Action>
+                                    </Item>
                                 </Actions>
                             </ActionList>
                         </Values>
@@ -332,7 +347,7 @@
                                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                 <Values>
                                     <ConditionQuestExpedition>
-                                        <RequestedExpedition>804040</RequestedExpedition>
+                                        <RequestedExpedition>1404000844</RequestedExpedition>
                                     </ConditionQuestExpedition>
                                     <ConditionQuestObjective>
                                         <TextCombinedContextValue>11950</TextCombinedContextValue>

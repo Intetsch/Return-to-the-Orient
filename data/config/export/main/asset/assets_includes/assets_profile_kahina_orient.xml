@@ -709,21 +709,14 @@
                             <Reactions>
                                 <Item>
                                     <VectorElement>
-                                        <InheritanceMapV2>
-                                            <Entry>
-                                                <TemplateName>3rdParty_Female</TemplateName>
-                                                <Index>0</Index>
-                                            </Entry>
-                                        </InheritanceMapV2>
+                                        <InheritedIndex>0</InheritedIndex>
                                     </VectorElement>
                                     <Notification>
-                                        <Template>CharacterNotification</Template>
+                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                         <Values>
                                             <CharacterNotification />
                                             <BaseNotification />
-                                            <NotificationSubtitle>
-                                                <SubtitleGroup>570073247</SubtitleGroup>
-                                            </NotificationSubtitle>
+                                            <NotificationSubtitle />
                                         </Values>
                                     </Notification>
                                 </Item>

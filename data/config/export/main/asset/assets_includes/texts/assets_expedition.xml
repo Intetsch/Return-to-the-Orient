@@ -1,0 +1,38 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="118750">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001013</GUID>
+					<Name>Orient Expedition Name</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Into the Desert</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001014</GUID>
+					<Name>Orient Expedition Description</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

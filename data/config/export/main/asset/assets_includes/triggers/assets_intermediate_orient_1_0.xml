@@ -10,12 +10,15 @@
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Template>ConditionUnlocked</Template>
                         <Values>
-                            <Condition/>
-                            <ConditionAlwaysTrue/>
+                          <Condition />
+                          <ConditionUnlocked>
+                            <UnlockNeeded>1404000000</UnlockNeeded>
+                          </ConditionUnlocked>
+                          <ConditionPropsNegatable />
                         </Values>
-                    </TriggerCondition>
+                      </TriggerCondition>
                     <TriggerActions>
                         <Item>
                             <TriggerAction>
@@ -24,9 +27,6 @@
                                     <Action/>
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
-                                            <Item>
-                                                <Asset>1404000000</Asset>
-                                            </Item>
                                             <Item>
                                                 <Asset>1404000218</Asset>
                                             </Item>

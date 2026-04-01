@@ -1,6 +1,6 @@
 Enums:
     RegionID: Mod3 (Orient)
-    ParticipantID: Mod8 (Nomads), Mod9 (Envoys)
+    ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod10 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
 Material set: a_test_rolf (Islands)
 Required DLCs: Land of Lions, New World Rising
@@ -10,20 +10,21 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 Check these:
     References to "* OLD", "* DONT USE", "* DO NOT USE"
-    1404000799 population sub triggers
+    "TODO"    
 
 TODO:
-    Test
-        Expedition
-        Quests
-    Bugs
-        Envoy unlocks visible earlier
-        Emergency station has heat need in UI
-    Update modinfo.json
+    Check Quests
+    Rewrite expedition texts
+    
+    Emergency station has heat need in UI
+    
     Museum items
+    Reskin enbesa islands
 
+    Update modinfo.json
+    Deploy mod / remove unnecessary files
+    
 BETA
-    Wrong kontor model sometimes
     Localization secondary languages
     Feedback units
     Building props
@@ -35,6 +36,7 @@ BETA
     Bugs
         Watered fields not shown as green and unwatered fields are not counted as dry
             ? irrigation_condition_01 [GUID: 601016]
+        Wrong kontor model sometimes
         Pilgrimage Reward Subheader 1404000812 not displayed
 
 

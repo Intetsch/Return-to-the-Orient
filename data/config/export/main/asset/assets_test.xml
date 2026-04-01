@@ -15,7 +15,7 @@
     </ModOp> -->
     
 
-    <ModOp Type="add" Guid="ConstructionCategory" Path="Values/ConstructionCategory/BuildingList">
+    <ModOp Type="add" Guid="1404000014" Path="Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1404000017</Building>
         </Item>
@@ -106,7 +106,7 @@
 
 
     <!-- Unlock all in regular game on start -->
-    <ModOp Type="addNextSibling" GUID="10138">
+    <!-- <ModOp Type="addNextSibling" GUID="10138">
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -356,7 +356,7 @@
                 </TriggerSetup>
             </Values>
         </Asset>
-    </ModOp>
+    </ModOp> -->
 
 
 </ModOps>
