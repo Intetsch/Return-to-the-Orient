@@ -317,7 +317,7 @@
                                 <Template>StatusQuoObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>105419</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001017</TextCombinedContextValue>
                                         <FakeMinimapPings>
                                             <Objects>
                                                 <Item>
@@ -339,7 +339,7 @@
                                         <CounterAmount>1</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
-                                                <CounterScopeContext>1404000000</CounterScopeContext>
+                                        <CounterScopeContext>1404000000</CounterScopeContext>
                                     </ConditionPlayerCounter>
                                     <ConditionQuestStatusQuo/>
                                     <ConditionPropsExecutionPlaceSettings>
@@ -353,7 +353,7 @@
                                 <Template>StatusQuoObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>105420</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001018</TextCombinedContextValue>
                                         <FakeMinimapPings>
                                             <Objects>
                                                 <Item>
@@ -374,7 +374,8 @@
                                         <Context>1404000325</Context>
                                         <CounterAmount>1</CounterAmount>
                                         <CounterScope>Session</CounterScope>
-                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext><CounterScopeContext>1404000000</CounterScopeContext>
+                                        <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                        <CounterScopeContext>1404000000</CounterScopeContext>
                                     </ConditionPlayerCounter>
                                     <ConditionQuestStatusQuo/>
                                     <ConditionPropsExecutionPlaceSettings>
@@ -388,7 +389,7 @@
                                 <Template>StatusQuoObjective</Template>
                                 <Values>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>105421</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001019</TextCombinedContextValue>
                                         <FakeMinimapPings>
                                             <Objects>
                                                 <Item>
@@ -410,7 +411,7 @@
                                         <CounterAmount>1</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
-                                                <CounterScopeContext>1404000000</CounterScopeContext>
+                                        <CounterScopeContext>1404000000</CounterScopeContext>
                                     </ConditionPlayerCounter>
                                     <ConditionQuestStatusQuo/>
                                     <ConditionPropsExecutionPlaceSettings>
