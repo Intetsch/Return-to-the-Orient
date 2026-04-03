@@ -1,5 +1,24 @@
 <ModOps>
 
+    <ModOp Type="addNextSibling" GUID="124919">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>124919</GUID>
+                    <Name>setbufffluff_EnbesasRoots</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The rich and storied history of Enbesa reminds scholars of the brilliant founders of their institution and inspires them in their academic endeavours.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
     <ModOp Type="addNextSibling" GUID="118750">
         <Asset>
             <Template>Text</Template>

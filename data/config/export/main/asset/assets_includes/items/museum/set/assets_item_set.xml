@@ -1,0 +1,41 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="124907">
+        <Asset>
+            <Template>ItemSet</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001020</GUID>
+                    <Name>Desert Treasures</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item1.png</IconFilename>
+                    <InfoDescription>124911</InfoDescription>
+                </Standard>
+                <ItemSocketSet>
+                    <SetBuff>1404001021</SetBuff>
+                    <BuffScope>Area</BuffScope>
+                </ItemSocketSet>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>DESERT TREASURES</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="114152" Path="Values/CultureUpgrade/ItemSetUpgrade">
+        <Item>
+            <Set>1404001020</Set>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="1010471,102283" Path="Values/Culture/Sets">
+        <Item>
+            <Set>1404001020</Set>
+        </Item>
+    </ModOp>
+
+</ModOps>

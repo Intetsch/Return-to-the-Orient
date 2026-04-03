@@ -1,0 +1,44 @@
+<ModOps>
+  
+    <ModOp Type="addNextSibling" GUID="124915">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001021</GUID>
+                    <Name>setbuff_DesertTreasures</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item1.png</IconFilename>
+                    <InfoDescription>124919</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>194026</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Desert Treasures Exhibition</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <AdditionalResearch>1</AdditionalResearch>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

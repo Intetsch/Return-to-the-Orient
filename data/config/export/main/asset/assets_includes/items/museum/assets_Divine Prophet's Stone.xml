@@ -1,0 +1,42 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="124884">
+    <Asset>
+      <Template>CultureItem</Template>
+      <Values>
+        <Standard>
+          <GUID>1404001022</GUID>
+          <Name>Divine Prophet's Stone</Name>
+          <IconFilename>data/graphics/icons/items/museum_item1.png</IconFilename>
+          <InfoDescription>124900</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Divine Prophet's Stone</Text>
+            </English>
+          </LocaText>
+        </Text>
+        <Item>
+          <Allocation>Museum</Allocation>
+          <Rarity>Legendary</Rarity>
+          <ItemType>Normal</ItemType>
+          <ItemSet>1404001020</ItemSet>
+          <TradePrice>223400</TradePrice>
+        </Item>
+        <Cost/>
+        <CultureUpgrade>
+          <ChangeModule>124786</ChangeModule>
+          <AttractivenessUpgrade>
+            <Value>40</Value>
+          </AttractivenessUpgrade>
+        </CultureUpgrade>
+        <BuildingUpgrade/>
+        <ExpeditionAttribute>
+          <FluffText>0</FluffText>
+        </ExpeditionAttribute>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

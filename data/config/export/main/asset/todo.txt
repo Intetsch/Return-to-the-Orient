@@ -13,14 +13,13 @@ Check these:
     "TODO"    
 
 TODO:
-    Check Quests
+    Quest messages from Kahina
     Rewrite expedition texts
-    
-    Emergency station has heat need in UI
-    
-    Museum items
     Reskin enbesa islands
-
+    Bugs
+        Emergency station has heat need in UI
+        Harbor construction menu name empty
+        Hide building in submenues until unlock
     Update modinfo.json
     Deploy mod / remove unnecessary files
     
@@ -47,10 +46,12 @@ BETA
 
 
 
-WILL NOT IMPLEMENT:
+WILL PROBABLY NOT IMPLEMENT:
+    Scholars as semi-new population
     Newspaper events
     Population quests
     Festival
+WILL DEFINITELY NOT IMPLEMENT:
     Coffee house
         expand model with outdoor seating area
         Coffee recipes
@@ -62,15 +63,9 @@ WILL NOT IMPLEMENT:
         assassins_fortress
         orient_harbour
     Lumberjack
-    Silver production for sabers, hookahs and chandeliers
-    Palace System with a reskinned enbesa palace
-    Scholars as semi-new population
-    Trains / Oil
-        Orient Express
     Bugs
         Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
-
-Info:
-    Quests
-        https://a1800.net/a1800/asset/105377
-        https://a1800.net/a1800/asset/113298
+    Silver production for sabers, hookahs and chandeliers
+    Palace System with a reskinned enbesa palace
+    Trains / Oil
+        Orient Express
