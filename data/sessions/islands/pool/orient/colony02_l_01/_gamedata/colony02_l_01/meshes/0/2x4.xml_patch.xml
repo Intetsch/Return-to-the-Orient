@@ -1,0 +1,17 @@
+<ModOps>  
+<ModOp Type="replace" Path="//GroundObjects/None/FileName[text() = 'data\graphics\props\terrain_props\vegetation\grass\flowers_moderate_01.prp']">  
+<FileName>data\graphics\props\terrain_props\vegetation\grass\flowers_jungle_01.prp</FileName>     
+</ModOp> 
+<ModOp Type="replace" Path="//GroundObjects/None/FileName[text() = 'data\graphics\props\terrain_props\vegetation\grass\flowers_moderate_02.prp']">  
+<FileName>data\graphics\props\terrain_props\vegetation\grass\flowers_jungle_02.prp</FileName>      
+</ModOp> 
+<ModOp Type="replace" Path="//GroundObjects/None/FileName[text() = 'data\graphics\props\terrain_props\vegetation\grass\flowers_moderate_03.prp']">  
+<FileName>data\graphics\props\terrain_props\vegetation\grass\flowers_jungle_03.prp</FileName>      
+</ModOp> 
+<ModOp Type="replace" Path="//GroundObjects/None/FileName[text() = 'data\graphics\props\terrain_props\vegetation\grass\flowers_moderate_04.prp']">  
+<FileName>data\graphics\props\terrain_props\vegetation\grass\flowers_jungle_04.prp</FileName>      
+</ModOp> 
+<ModOp Type="replace" Path="//GroundObjects/None/FileName[text() = 'data\graphics\props\terrain_props\vegetation\grass\flowers_moderate_05.prp']">  
+<FileName>data\graphics\props\terrain_props\vegetation\grass\flowers_jungle_01.prp</FileName>    
+</ModOp>      
+</ModOps> 
