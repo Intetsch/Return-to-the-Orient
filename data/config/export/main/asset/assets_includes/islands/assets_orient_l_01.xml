@@ -9,28 +9,13 @@
                     <Name>orient_l_01</Name>
                 </Standard>
                 <RandomIsland>
-                    <FilePath>data/sessions/islands/pool/orient/scenario02_l_01/scenario02_l_01.a7m</FilePath>
+                    <FilePath>data/sessions/islands/pool/orient/colony02_l_01/colony02_l_01.a7m</FilePath>
                     <IslandRegion>Mod3</IslandRegion>
                     <IslandDifficulty>Normal;Hard</IslandDifficulty>
                     <IslandType>Starter</IslandType>
                 </RandomIsland>
             </Values>
         </Asset>
-        <Asset>
-            <Template>RandomIsland</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404000598</GUID>
-                    <Name>orient_l_02</Name>
-                </Standard>
-                <RandomIsland>
-                    <FilePath>data/sessions/islands/pool/orient/scenario02_l_01/scenario02_l_01.a7m</FilePath>
-                    <IslandRegion>Mod3</IslandRegion>
-                    <IslandDifficulty>Normal;Hard</IslandDifficulty>
-                    <IslandType>Starter</IslandType>
-                </RandomIsland>
-            </Values>
-        </Asset>
-    </ModOp>
+	</ModOp>
 
 </ModOps>
