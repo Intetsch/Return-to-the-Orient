@@ -1,7 +1,7 @@
 <ModOps>
+    
+    <Include File="assets_herd_dromedary.xml" />
 
-    <Include File="herds/assets__index.xml" />
-
-
+    <ModOp Type="add" GUID="118221,1003272,101327,102443,112286,1000079" Path="/Values/AnimalBase/AutoSpawn_Regions">;Mod3</ModOp> 
 
 </ModOps>

@@ -27,7 +27,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Asset>1404000256</Asset>
+                            <Asset>1010196</Asset>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -39,17 +39,19 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>2</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Region</TemplateName>
-                                        <Index>2</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
+							<Asset>114402</Asset>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>Region</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Asset>1404000256</Asset>
                         </Item>
                     </ConstructionMaterialList>
                     <CityNames>
@@ -344,7 +346,7 @@
                             </Names>
                         </Test_Doedel>
                     </PredefinedCityNames>
-                    <IrrigationConfig>1404000383</IrrigationConfig>
+					<IrrigationConfig>1404000383</IrrigationConfig>
                     <AllowedFertilities>
                         <Item>
                             <Fertility>1404000008</Fertility>

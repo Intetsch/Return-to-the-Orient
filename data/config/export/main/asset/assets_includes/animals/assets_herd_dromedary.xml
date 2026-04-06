@@ -1,6 +1,6 @@
 <ModOps>
 
-    <ModOp Type="addNextSibling" GUID="118226">
+    <ModOp Type="addNextSibling" GUID="118221">
         <Asset>
             <Template>Herd</Template>
             <Values>
@@ -22,25 +22,24 @@
                 </Object>
                 <SoundEmitter />
                 <Herd>
-                    <LikesToRunAround>1</LikesToRunAround>
-                    <StandTogetherRadius>6</StandTogetherRadius>
-                    <Attackable>1</Attackable>
+                    <StandTogetherRadius>8</StandTogetherRadius>
+                    <GoodDayMilady>
+                        <Distance>1.5</Distance>
+                    </GoodDayMilady>
                 </Herd>
                 <AnimalBase>
                     <AnimalCFGs>
-                        <Item>
-                            <AnimalCFG>data/dlc06/graphics/units/wildlife/dromedary/dromedary.cfg</AnimalCFG>
-                            <RelativeProbability>100</RelativeProbability>
-                        </Item>
+						<Item>
+							<AnimalCFG>data/graphics/units/wildlife/dromedary/dromedary.cfg</AnimalCFG>
+						</Item>
                     </AnimalCFGs>
                     <AutoSpawn_AmbientZones>North;South</AutoSpawn_AmbientZones>
                     <AutoSpawn_Regions>Mod3</AutoSpawn_Regions>
-                    <UnitCountMin>8</UnitCountMin>
-                    <UnitCountMax>16</UnitCountMax>
-                    <AutoSpawn_RelativeProbability>10</AutoSpawn_RelativeProbability>
-                    <Animal_AudioLoop>235602</Animal_AudioLoop>
+                    <UnitCountMax>6</UnitCountMax>
+			        <AutoSpawn_RelativeProbability>5</AutoSpawn_RelativeProbability>
+                    <Animal_AudioLoop>235486</Animal_AudioLoop>
                     <ScaleFactor>0.7</ScaleFactor>
-                    <ScaleDeviationFactorMin>0.5</ScaleDeviationFactorMin>
+                    <ScaleDeviationFactorMin>1</ScaleDeviationFactorMin>
                 </AnimalBase>
             </Values>
         </Asset>
