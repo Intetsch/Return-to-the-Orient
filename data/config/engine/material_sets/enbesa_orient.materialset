@@ -1,6 +1,6 @@
 <MaterialSet>
 	<ShaderType>2</ShaderType>
-	<GritDiffuseTexture>data/dlc10/graphics/landscape/terrain/scenario_02/texture_pool/dlc10_scenario02_mud_03_grit_diff.psd</GritDiffuseTexture>
+	<GritDiffuseTexture>data/dlc06/graphics/landscape/terrain/colony02/colony02_beach_06_diff.psd</GritDiffuseTexture>
 	<GritTiling>8.000000</GritTiling>
 	<GritAlphaSharpness>10.000000</GritAlphaSharpness>
 	<GritSlope>0.100000</GritSlope>
@@ -157,7 +157,7 @@
 	<Material>
 		<ID>12</ID>
 		<Type>0</Type>
-		<FileName>data/dlc06/graphics/landscape/terrain/colony02/colony02_rock_03.xml</FileName>
+		<FileName>data/dlc06/graphics/landscape/terrain/colony02/colony02_beach_06.xml</FileName>
 		<Repetition>4.000000</Repetition>
 		<AlphaSharpness>5.000000</AlphaSharpness>
 		<GroundType></GroundType>
@@ -221,7 +221,7 @@
 	<Material>
 		<ID>27</ID>
 		<Type>0</Type>
-		<FileName>data/dlc06/graphics/landscape/terrain/colony02/colony02_mountain_02.xml</FileName>
+		<FileName>data/dlc06/graphics/landscape/terrain/colony02/colony02_beach_06.xml</FileName>
 		<Repetition>8.000000</Repetition>
 		<AlphaSharpness>5.000000</AlphaSharpness>
 		<GroundType></GroundType>
