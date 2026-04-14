@@ -1,11 +1,12 @@
 <ModOps>
 
 	<ModOp Type="addNextSibling" GUID="803518">
+
 		<Asset>
 			<Template>ExpeditionEvent</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000845</GUID>
+					<GUID>1404001045</GUID>
 					<Name>Crossing the Border</Name>
 				</Standard>
 				<Text>
@@ -18,7 +19,7 @@
 				<ExpeditionEvent>
 					<EventRegion>NorthAfrica;Africa</EventRegion>
 					<EventThreat>800033</EventThreat>
-					<StartDecision>1404000848</StartDecision>
+					<StartDecision>1404001048</StartDecision>
 					<EventMusicChoice>226706</EventMusicChoice>
 					<EventVideo>data/ui/video/expedition/generic_a.bk2</EventVideo>
 					<EventVideoSounds>
@@ -30,20 +31,21 @@
 				<Locked />
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000848</GUID>
-					<Name>Crossing the Border 1.</Name>
+					<GUID>1404001048</GUID>
+					<Name>Orient 1.</Name>
 				</Standard>
 				<ExpeditionDecision>
 					<Options>
 						<Item>
-							<Option>1404000849</Option>
+							<Option>1404001049</Option>
 						</Item>
 						<Item>
-							<Option>1404000857</Option>
+							<Option>1404001050</Option>
 						</Item>
 					</Options>
 				</ExpeditionDecision>
@@ -51,49 +53,79 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;After weeks sailing along the sun-bleached coast of Africa,&lt;/b&gt; your expedition finally reaches a dusty frontier settlement. Traders whisper of a vast and wealthy Sultanate beyond the desert hills — a realm rarely visited by foreigners. &lt;b&gt;You can either attempt to enter the border town openly through its gate, or skirt the settlement and search for a quieter route into the Sultan's domain.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;After days of travel,&lt;/b&gt; your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. &lt;b&gt;You must decide how to cross the border.&lt;/b&gt;</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionOption</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000849</GUID>
-					<Name>Crossing the Border 1.1.</Name>
+					<GUID>1404001049</GUID>
+					<Name>Orient 1.1.</Name>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Enter through the town gate</Text>
+							<Text>Hide with the caravan to enter</Text>
 						</English>
 					</LocaText>
 				</Text>
 				<ExpeditionOption>
 					<FollowupDecisions>
 						<Item>
-							<Decision>1404000850</Decision>
+							<Decision>1404001051</Decision>
+						</Item>
+						<Item>
+							<Decision>1404001054</Decision>
 						</Item>
 					</FollowupDecisions>
 				</ExpeditionOption>
 			</Values>
 		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001050</GUID>
+					<Name>Orient 1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Go to the border checkpoint to officially enter</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001057</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- Caravan success -->
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000850</GUID>
-					<Name>Crossing the Border 1.1.1</Name>
+					<GUID>1404001051</GUID>
+					<Name>Orient 1.1.1</Name>
 				</Standard>
 				<ExpeditionDecision>
 					<Options>
 						<Item>
-							<Option>1404000851</Option>
+							<Option>1404001052</Option>
 						</Item>
 						<Item>
-							<Option>1404000854</Option>
+							<Option>1404001053</Option>
 						</Item>
 					</Options>
 				</ExpeditionDecision>
@@ -101,23 +133,125 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Within the town's mud-brick walls,&lt;/b&gt; caravans of camels crowd the streets, their loads heavy with spices and silks. Guards wearing the Sultan's colors watch every foreigner closely. &lt;b&gt;You may approach the gate captain to request entry into the Sultanate, or attempt to blend into a departing caravan.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;Concealed among merchants and laden camels,&lt;/b&gt; you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. &lt;b&gt;Will you remain with the caravan, or strike out along the main road?&lt;/b&gt;</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionOption</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000851</GUID>
-					<Name>Crossing the Border 1.1.1.1</Name>
+					<GUID>1404001052</GUID>
+					<Name>Orient 1.1.1.1</Name>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Speak with the gate captain</Text>
+							<Text>Stay with the caravan</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001058</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001053</GUID>
+					<Name>Orient 1.1.1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Follow the main road</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001059</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- Caravan fail / arrested -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001054</GUID>
+					<Name>Orient 1.1.2</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404001055</Option>
+						</Item>
+						<Item>
+							<Option>1404001056</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Reward />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;A vigilant guard halts the caravan,&lt;/b&gt; his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. &lt;b&gt;How will you proceed?&lt;/b&gt;</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001055</GUID>
+					<Name>Orient 1.1.2.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Wait for a message from the capital</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001060</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001056</GUID>
+					<Name>Orient 1.1.2.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Let Madame Kahina talk to them</Text>
 						</English>
 					</LocaText>
 				</Text>
@@ -125,153 +259,28 @@
 					<OptionAttribute>Diplomacy</OptionAttribute>
 					<FollowupDecisions>
 						<Item>
-							<Decision>1404000852</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000853</Decision>
+							<Decision>1404001061</Decision>
 						</Item>
 					</FollowupDecisions>
 				</ExpeditionOption>
 			</Values>
 		</Asset>
+
+		<!-- checkpoint leads to arrest -->
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000852</GUID>
-					<Name>Crossing the Border 1.1.1.1.1</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your respectful tone and gifts impress the captain.&lt;/b&gt; With a nod he allows your expedition to pass beyond the gate. "The Sultan welcomes travelers who show proper courtesy," he says. &lt;b&gt;You are granted passage deeper into the Sultanate.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000853</GUID>
-					<Name>Crossing the Border 1.1.1.1.2</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your request is met with suspicion.&lt;/b&gt; The captain narrows his eyes and waves you away. "Foreigners bring trouble," he growls. Though denied the gate, you hear whispers of another path through the desert. &lt;b&gt;Your expedition must find another route into the Sultanate.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000854</GUID>
-					<Name>Crossing the Border 1.1.1.2</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Join a caravan quietly</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<OptionAttribute>Navigation</OptionAttribute>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000855</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000856</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000855</GUID>
-					<Name>Crossing the Border 1.1.1.2.1</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your crew blends perfectly with the caravan.&lt;/b&gt; Days later, guided by experienced desert traders, you cross the dunes safely. Ahead rises a shining city of domes and minarets. &lt;b&gt;You have entered the Sultanate unseen.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000856</GUID>
-					<Name>Crossing the Border 1.1.1.2.2</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your disguise fails quickly.&lt;/b&gt; Suspicious guards question the caravan, and your presence causes unrest among the traders. Though you escape punishment, your expedition must continue cautiously through the desert. &lt;b&gt;The Sultanate lies ahead, but your welcome may be uncertain.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000857</GUID>
-					<Name>Crossing the Border 1.2</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Search for a hidden desert route</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000858</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000858</GUID>
-					<Name>Crossing the Border 1.2.1</Name>
+					<GUID>1404001057</GUID>
+					<Name>Orient 1.2.1</Name>
 				</Standard>
 				<ExpeditionDecision>
 					<Options>
 						<Item>
-							<Option>1404000859</Option>
+							<Option>1404001055</Option>
 						</Item>
 						<Item>
-							<Option>1404000862</Option>
+							<Option>1404001056</Option>
 						</Item>
 					</Options>
 				</ExpeditionDecision>
@@ -279,140 +288,151 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Leaving the town behind,&lt;/b&gt; your expedition travels into the harsh desert. Soon, distant watchtowers mark the frontier of the Sultanate. &lt;b&gt;You may attempt to navigate the desert to avoid patrols, or signal the guards peacefully from afar.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;The border officials examine your papers with suspicion.&lt;/b&gt; Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000859</GUID>
-					<Name>Crossing the Border 1.2.1.1</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Navigate around the patrols</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<OptionAttribute>Navigation</OptionAttribute>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000860</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000861</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
+
+		<!-- endings -->
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000860</GUID>
-					<Name>Crossing the Border 1.2.1.1.1</Name>
+					<GUID>1404001058</GUID>
+					<Name>Orient 1.1.1.1.1</Name>
 				</Standard>
 				<ExpeditionDecision />
 				<Reward />
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Your navigator charts a careful course through the dunes.&lt;/b&gt; Avoiding patrols and hidden pitfalls, your expedition slips across the frontier unnoticed. &lt;b&gt;Ahead lies the heart of the Sultanate.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;The caravan winds along hidden desert tracks,&lt;/b&gt; skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000861</GUID>
-					<Name>Crossing the Border 1.2.1.1.2</Name>
+					<GUID>1404001059</GUID>
+					<Name>Orient 1.1.1.2.1</Name>
 				</Standard>
 				<ExpeditionDecision />
 				<Reward />
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;The desert proves unforgiving.&lt;/b&gt; Lost among dunes, your expedition is eventually spotted by a patrol. Though wary, the guards escort you toward the Sultan's territory. &lt;b&gt;Your arrival will certainly attract attention.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;The imperial road proves swift and well maintained.&lt;/b&gt; Traders and couriers pass in both directions, and before long, the sprawling capital rises before you.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000862</GUID>
-					<Name>Crossing the Border 1.2.1.2</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Signal the frontier guards</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<OptionAttribute>Diplomacy</OptionAttribute>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000863</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000864</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
+
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000863</GUID>
-					<Name>Crossing the Border 1.2.1.2.1</Name>
+					<GUID>1404001060</GUID>
+					<Name>Orient 1.1.2.1.1</Name>
 				</Standard>
 				<ExpeditionDecision />
 				<Reward />
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Your peaceful signal is acknowledged.&lt;/b&gt; Riders approach bearing the Sultan's colors and welcome you formally. &lt;b&gt;Your expedition is invited to enter the Sultanate as honored guests.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;After several tense hours,&lt;/b&gt; a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000864</GUID>
-					<Name>Crossing the Border 1.2.1.2.2</Name>
+					<GUID>1404001061</GUID>
+					<Name>Orient 1.1.2.2.1</Name>
 				</Standard>
 				<ExpeditionDecision />
 				<Reward />
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Your signals are misinterpreted.&lt;/b&gt; The frontier guards assume hostile intent and shadow your expedition from afar. Though you eventually reach the Sultanate, &lt;b&gt;your reception will likely be cold and suspicious.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;Madame Kahina speaks calmly with the guards,&lt;/b&gt; invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</ModOp>
 
 </ModOps>

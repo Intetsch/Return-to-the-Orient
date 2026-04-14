@@ -13,26 +13,28 @@ Check these:
     "TODO"    
 
 TODO:
-    Scholars as semi-new population
-    Rewrite expedition texts
-    Emergency station has heat need in UI
-    Deploy mod / Update modinfo.json / remove unnecessary files
-    
-BETA
-    Localization secondary languages
-    Feedback units
-    Building props
+    Shared Mods localization
+    Update enums on github
+    Expedition background image
     Secondary pipe (GroundDecalAsset)
         Noria
         Bath house
     Multiple level warehouses / kontors
-    Bugs
-        Watered fields not shown as green and unwatered fields are not counted as dry
-            ? irrigation_condition_01 [GUID: 601016]
-        Wrong kontor model sometimes
-        Pilgrimage Reward Subheader 1404000812 not displayed
+    Building props
+    Feedback units
+    Localization secondary languages
+
+BUGS
+    Emergency station has heat need in UI
+    Watered fields not shown as green and unwatered fields are not counted as dry
+        ? irrigation_condition_01 [GUID: 601016]
+    Wrong kontor model sometimes
+    Pilgrimage Reward Subheader 1404000812 not displayed
 
 
+Deploy mod
+Update modinfo.json
+remove unnecessary files
 
 
 
@@ -44,6 +46,7 @@ WILL PROBABLY NOT IMPLEMENT:
     Newspaper events
     Population quests
     Festival
+    Scholars as semi-new population
 WILL DEFINITELY NOT IMPLEMENT:
     Coffee house
         expand model with outdoor seating area

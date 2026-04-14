@@ -1,11 +1,12 @@
 <ModOps>
 
 	<ModOp Type="addNextSibling" GUID="803518">
+
 		<Asset>
 			<Template>ExpeditionEvent</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000847</GUID>
+					<GUID>1404001047</GUID>
 					<Name>Of Camels and Dunes</Name>
 				</Standard>
 				<Text>
@@ -18,7 +19,7 @@
 				<ExpeditionEvent>
 					<EventRegion>NorthAfrica;Africa</EventRegion>
 					<EventThreat>800028</EventThreat>
-					<StartDecision>1404000876</StartDecision>
+					<StartDecision>1404001062</StartDecision>
 					<EventMusicChoice>226706</EventMusicChoice>
 					<EventVideo>data/ui/video/expedition/generic_a.bk2</EventVideo>
 					<EventVideoSounds>
@@ -30,20 +31,21 @@
 				<Locked />
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000876</GUID>
-					<Name>Of Camels and Dunes 1.</Name>
+					<GUID>1404001062</GUID>
+					<Name>Orient 3.</Name>
 				</Standard>
 				<ExpeditionDecision>
 					<Options>
 						<Item>
-							<Option>1404000877</Option>
+							<Option>1404001063</Option>
 						</Item>
-						<Item>
-							<Option>1404000884</Option>
+						<Item>	
+							<Option>1404001064</Option>
 						</Item>
 					</Options>
 				</ExpeditionDecision>
@@ -51,73 +53,416 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;With the Sultan's blessing and a small delegation of envoys,&lt;/b&gt; your expedition departs the capital. Your destination lies beyond the endless desert — a distant coast where a new settlement may be founded. Yet the desert is vast and unforgiving. Soon the familiar roads vanish beneath shifting dunes. &lt;b&gt;You must either rely on your navigators to chart a course, or search for locals who might guide you through the sands.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;You have travelled for days across the desert,&lt;/b&gt; guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. &lt;b&gt;Do you continue on your course, or investigate the oasis?&lt;/b&gt;</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
+		<!-- Continue direction -->
 		<Asset>
 			<Template>ExpeditionOption</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000877</GUID>
-					<Name>Of Camels and Dunes 1.1.</Name>
+					<GUID>1404001063</GUID>
+					<Name>Orient 3.1</Name>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Trust your navigators</Text>
+							<Text>Continue in the direction of the map</Text>
 						</English>
 					</LocaText>
 				</Text>
 				<ExpeditionOption>
 					<FollowupDecisions>
 						<Item>
-							<Decision>1404000878</Decision>
+							<Decision>1404001065</Decision>
+						</Item>
+						<Item>
+							<Decision>1404001068</Decision>
 						</Item>
 					</FollowupDecisions>
 				</ExpeditionOption>
 			</Values>
 		</Asset>
+
+		<!-- Oasis -->
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001064</GUID>
+					<Name>Orient 3.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Go to the oasis</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001074</Decision>
+						</Item>
+						<Item>
+							<Decision>1404001077</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- Road ends -->
 		<Asset>
 			<Template>ExpeditionDecision</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000878</GUID>
-					<Name>Of Camels and Dunes 1.1.1</Name>
+					<GUID>1404001065</GUID>
+					<Name>Orient 3.1.1</Name>
 				</Standard>
 				<ExpeditionDecision>
 					<Options>
 						<Item>
-							<Option>1404000879</Option>
+							<Option>1404001066</Option>
 						</Item>
 						<Item>
-							<Option>1404000882</Option>
+							<Option>1404001067</Option>
 						</Item>
 					</Options>
 				</ExpeditionDecision>
-				<Reward />
 				<Text>
 					<LocaText>
 						<English>
-							<Text>&lt;b&gt;Your expedition marches deeper into the desert.&lt;/b&gt; Days pass beneath a merciless sun, and the dunes seem endless. Some among the Sultan's envoys begin to worry that the expedition has lost its way. &lt;b&gt;You may press forward using careful navigation, or stop and search for signs of nearby travelers.&lt;/b&gt;</Text>
+							<Text>&lt;b&gt;The road ends abruptly,&lt;/b&gt; swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move.</Text>
 						</English>
 					</LocaText>
 				</Text>
 			</Values>
 		</Asset>
+
 		<Asset>
 			<Template>ExpeditionOption</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000879</GUID>
-					<Name>Of Camels and Dunes 1.1.1.1</Name>
+					<GUID>1404001066</GUID>
+					<Name>Orient 3.1.1.1</Name>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Navigate by the stars</Text>
+							<Text>Climb the dunes to take a look around</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001068</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001067</GUID>
+					<Name>Orient 3.1.1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>You go back and find a new path</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001069</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- Nomads -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001069</GUID>
+					<Name>Orient 3.1.1.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;You encounter a small band of nomads,&lt;/b&gt; who listen carefully before pointing you toward a safer route through the desert.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<!-- Coast -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001068</GUID>
+					<Name>Orient 3.1.2</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404001070</Option>
+						</Item>
+						<Item>
+							<Option>1404001071</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;Beyond the dunes you reach the coast,&lt;/b&gt; and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001070</GUID>
+					<Name>Orient 3.1.2.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Follow the coast</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001072</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001071</GUID>
+					<Name>Orient 3.1.2.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ask the fishers in the village</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001073</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- endings -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001072</GUID>
+					<Name>Orient 3.1.2.1.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The coastal path is long,&lt;/b&gt; but eventually you reach your destination.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001073</GUID>
+					<Name>Orient 3.1.2.2.1</Name>
+				</Standard>
+				<ExpeditionDecision />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The fishermen agree to guide you,&lt;/b&gt; and soon deliver you safely to your destination.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<!-- Oasis mirage -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001074</GUID>
+					<Name>Orient 3.2.1</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404001075</Option>
+						</Item>
+						<Item>
+							<Option>1404001076</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;The oasis dissolves into shimmering air,&lt;/b&gt; a mere fata morgana. In the distance, however, you spot nomads crossing the desert.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001075</GUID>
+					<Name>Orient 3.2.1.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ask nomads for help</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001069</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001076</GUID>
+					<Name>Orient 3.2.1.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Go back to the road</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001068</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<!-- real oasis -->
+		<Asset>
+			<Template>ExpeditionDecision</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001077</GUID>
+					<Name>Orient 3.2.2</Name>
+				</Standard>
+				<ExpeditionDecision>
+					<Options>
+						<Item>
+							<Option>1404001078</Option>
+						</Item>
+						<Item>
+							<Option>1404001079</Option>
+						</Item>
+					</Options>
+				</ExpeditionDecision>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>&lt;b&gt;This oasis is real,&lt;/b&gt; and after resting in the shade you feel renewed.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001078</GUID>
+					<Name>Orient 3.2.2.1</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Go back to the road</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ExpeditionOption>
+					<FollowupDecisions>
+						<Item>
+							<Decision>1404001065</Decision>
+						</Item>
+					</FollowupDecisions>
+				</ExpeditionOption>
+			</Values>
+		</Asset>
+
+		<Asset>
+			<Template>ExpeditionOption</Template>
+			<Values>
+				<Standard>
+					<GUID>1404001079</GUID>
+					<Name>Orient 3.2.2.2</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Wait for the night and use the stars to navigate</Text>
 						</English>
 					</LocaText>
 				</Text>
@@ -125,155 +470,10 @@
 					<OptionAttribute>Navigation</OptionAttribute>
 					<FollowupDecisions>
 						<Item>
-							<Decision>1404000880</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000881</Decision>
+							<Decision>1404001068</Decision>
 						</Item>
 					</FollowupDecisions>
 				</ExpeditionOption>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000880</GUID>
-					<Name>Of Camels and Dunes 1.1.1.1.1</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your navigator studies the night sky carefully.&lt;/b&gt; Guided by the stars and steady judgment, the expedition eventually reaches rocky highlands overlooking a fertile coastal valley. &lt;b&gt;Beyond lies the land where the Sultan's envoys will build their future city.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000881</GUID>
-					<Name>Of Camels and Dunes 1.1.1.1.2</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Despite your efforts, the dunes confuse your course.&lt;/b&gt; Water grows scarce and morale falters. Just as the situation grows dire, distant riders appear across the sands. They are desert nomads who have observed your struggling caravan. &lt;b&gt;They offer to guide you to the fertile lands beyond the desert.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000882</GUID>
-					<Name>Of Camels and Dunes 1.1.1.2</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Search for travelers</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000883</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000883</GUID>
-					<Name>Of Camels and Dunes 1.1.1.2.1</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;After hours scanning the horizon,&lt;/b&gt; your crew spots a small encampment nestled among rocky outcrops. Nomadic tribespeople greet you cautiously but not unfriendly. When they hear of the Sultan's mission, they agree to help. &lt;b&gt;Guided by their knowledge of hidden wells and desert paths, your expedition reaches a lush valley beyond the dunes — the perfect place for a new settlement.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionOption</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000884</GUID>
-					<Name>Of Camels and Dunes 1.2</Name>
-				</Standard>
-				<Text>
-					<LocaText>
-						<English>
-							<Text>Search the desert for local guides</Text>
-						</English>
-					</LocaText>
-				</Text>
-				<ExpeditionOption>
-					<OptionAttribute>Diplomacy</OptionAttribute>
-					<FollowupDecisions>
-						<Item>
-							<Decision>1404000885</Decision>
-							<Threshold>NeutralThreshold</Threshold>
-						</Item>
-						<Item>
-							<Decision>1404000886</Decision>
-						</Item>
-					</FollowupDecisions>
-				</ExpeditionOption>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000885</GUID>
-					<Name>Of Camels and Dunes 1.2.1</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;You approach the nomads respectfully,&lt;/b&gt; offering trade goods and explaining the Sultan's mission. They accept your offer and guide the expedition through secret desert routes known only to their people. &lt;b&gt;Soon the sands give way to fertile lands beside the sea — the gateway to the new region where your city may rise.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
-			</Values>
-		</Asset>
-		<Asset>
-			<Template>ExpeditionDecision</Template>
-			<Values>
-				<Standard>
-					<GUID>1404000886</GUID>
-					<Name>Of Camels and Dunes 1.2.2</Name>
-				</Standard>
-				<ExpeditionDecision />
-				<Reward />
-				<Text>
-					<LocaText>
-						<English>
-							<Text>&lt;b&gt;Your first encounter with the nomads is tense.&lt;/b&gt; Suspicious of outsiders, they keep their distance. Yet after observing your struggling caravan, they eventually lead you toward the coast. &lt;b&gt;Beyond the final ridge of dunes, green lands stretch toward the horizon — the destination promised by the Sultan.&lt;/b&gt;</Text>
-						</English>
-					</LocaText>
-				</Text>
 			</Values>
 		</Asset>
 	</ModOp>

@@ -23,14 +23,14 @@
                     <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_ceremonial_sabers.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
-                            <PosX>360</PosX>
-                            <PosY>360</PosY>
-                            <UICirclePointer>NorthWest</UICirclePointer>
+                            <PosX>350</PosX>
+                            <PosY>380</PosY>
+                            <UICirclePointer>West</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>60</PosX>
-                            <PosY>160</PosY>
-                            <UICirclePointer>East</UICirclePointer>
+                            <PosX>160</PosX>
+                            <PosY>70</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                     <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
