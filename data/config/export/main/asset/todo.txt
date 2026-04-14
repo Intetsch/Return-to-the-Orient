@@ -1,6 +1,6 @@
 Enums:
     RegionID: Mod3 (Orient)
-    ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod10 (Kahina)
+    ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
 Material set: a_test_rolf (Islands)
 Required DLCs: Land of Lions, New World Rising
@@ -20,6 +20,11 @@ TODO:
         Noria
         Bath house
     Multiple level warehouses / kontors
+    
+    Update modinfo.json
+    Remove unnecessary files
+    Deploy mod as beta to Mod.io
+    
     Building props
     Feedback units
     Localization secondary languages
@@ -32,12 +37,6 @@ BUGS
     Pilgrimage Reward Subheader 1404000812 not displayed
 
 
-Deploy mod
-Update modinfo.json
-remove unnecessary files
-
-
-
 
 
 
@@ -47,7 +46,7 @@ WILL PROBABLY NOT IMPLEMENT:
     Population quests
     Festival
     Scholars as semi-new population
-WILL DEFINITELY NOT IMPLEMENT:
+        orient_harbour as hacienda-like
     Coffee house
         expand model with outdoor seating area
         Coffee recipes
@@ -57,7 +56,6 @@ WILL DEFINITELY NOT IMPLEMENT:
         oriental_gate
         oriental_gate2
         assassins_fortress
-        orient_harbour
     Lumberjack
     Bugs
         Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)

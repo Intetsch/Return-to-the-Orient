@@ -24,7 +24,7 @@
                     <CompanyIcon>501296</CompanyIcon>
                     <InfoCornerInfoTip>25000162</InfoCornerInfoTip>
                     <InfoCornerDescription>4080</InfoCornerDescription>
-                    <ParticipantID>Mod10</ParticipantID>
+                    <ParticipantID>Mod12</ParticipantID>
                     <NotificationBackground>data/ui/2kimages/main/assets/character_bg/bgr_character_06.png</NotificationBackground>
                     <QuestStarterObject>100711</QuestStarterObject>
                     <QuestPoolList />
@@ -725,7 +725,7 @@
                     </MessageTriggers>
                 </ParticipantMessages>
                 <Object>
-                    <DefaultParticipant>Mod10</DefaultParticipant>
+                    <DefaultParticipant>Mod12</DefaultParticipant>
                 </Object>
                 <Trader>
                     <ShipTrader>0</ShipTrader>
