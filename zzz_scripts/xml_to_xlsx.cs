@@ -217,7 +217,9 @@ using (XLWorkbook workbook = new())
                 if (localizedTexts.TryGetValue(guid, out var langDict) &&
                     langDict.TryGetValue(lang, out var text))
                 {
-                    ws.Cell(row, col + 5).Value = text;
+                    if(!text.StartsWith("??")){
+                        ws.Cell(row, col + 5).Value = text;
+                    }
                 }
             }
 

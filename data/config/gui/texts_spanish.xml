@@ -1,4056 +1,1840 @@
 ﻿<ModOps>
-  <ModOp Type="add" Path="TextExport/Texts">
+  <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000000</GUID>
       <Text>Wadi Al Zahir</Text>
     </Text>
     <Text>
       <GUID>1404000001</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000002</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000003</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000004</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000005</GUID>
-      <Text></Text>
+      <Text>??Enter "The Orient"</Text>
     </Text>
     <Text>
       <GUID>1404000006</GUID>
-      <Text></Text>
+      <Text>??The Orient</Text>
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <Text></Text>
+      <Text>??Dates</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000009</GUID>
-      <Text></Text>
+      <Text>??Almonds</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
-      <Text></Text>
+      <Text>??Nomads</Text>
     </Text>
     <Text>
       <GUID>1404000011</GUID>
-      <Text></Text>
+      <Text>??Envoys</Text>
     </Text>
     <Text>
       <GUID>1404000012</GUID>
-      <Text></Text>
+      <Text>??Nomad Workforce</Text>
     </Text>
     <Text>
       <GUID>1404000013</GUID>
-      <Text></Text>
+      <Text>??Envoy Workforce</Text>
     </Text>
     <Text>
       <GUID>1404000014</GUID>
-      <Text></Text>
+      <Text>??Nomads</Text>
     </Text>
     <Text>
       <GUID>1404000015</GUID>
-      <Text></Text>
+      <Text>??Envoys</Text>
     </Text>
     <Text>
       <GUID>1404000016</GUID>
-      <Text></Text>
+      <Text>??Nomad house</Text>
     </Text>
     <Text>
       <GUID>1404000017</GUID>
-      <Text></Text>
+      <Text>??Envoy house</Text>
     </Text>
     <Text>
       <GUID>1404000018</GUID>
-      <Text></Text>
+      <Text>??Nomads</Text>
     </Text>
     <Text>
       <GUID>1404000019</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000020</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000021</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000022</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000028</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000029</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000030</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000031</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000032</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000033</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000034</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000035</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000036</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000037</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000038</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000039</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000040</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000041</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000042</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000043</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000044</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000045</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000046</GUID>
-      <Text></Text>
+      <Text>??Envoys</Text>
     </Text>
     <Text>
       <GUID>1404000047</GUID>
-      <Text></Text>
+      <Text>??Angry Nomad</Text>
     </Text>
     <Text>
       <GUID>1404000048</GUID>
-      <Text></Text>
+      <Text>??Unhappy Nomad</Text>
     </Text>
     <Text>
       <GUID>1404000049</GUID>
-      <Text></Text>
+      <Text>??Content Nomad</Text>
     </Text>
     <Text>
       <GUID>1404000050</GUID>
-      <Text></Text>
+      <Text>??Happy Nomad</Text>
     </Text>
     <Text>
       <GUID>1404000051</GUID>
-      <Text></Text>
+      <Text>??Euphoric Nomad</Text>
     </Text>
     <Text>
       <GUID>1404000052</GUID>
-      <Text></Text>
+      <Text>??Angry Envoy</Text>
     </Text>
     <Text>
       <GUID>1404000053</GUID>
-      <Text></Text>
+      <Text>??Unhappy Envoy</Text>
     </Text>
     <Text>
       <GUID>1404000054</GUID>
-      <Text></Text>
+      <Text>??Content Envoy</Text>
     </Text>
     <Text>
       <GUID>1404000055</GUID>
-      <Text></Text>
+      <Text>??Happy Envoy</Text>
     </Text>
     <Text>
       <GUID>1404000056</GUID>
-      <Text></Text>
+      <Text>??Euphoric Envoy</Text>
     </Text>
     <Text>
       <GUID>1404000057</GUID>
-      <Text></Text>
+      <Text>??Aschgabad</Text>
     </Text>
     <Text>
       <GUID>1404000058</GUID>
-      <Text></Text>
+      <Text>??Ku'Raast</Text>
     </Text>
     <Text>
       <GUID>1404000059</GUID>
-      <Text></Text>
+      <Text>??Merw</Text>
     </Text>
     <Text>
       <GUID>1404000060</GUID>
-      <Text></Text>
+      <Text>??Kuhrang</Text>
     </Text>
     <Text>
       <GUID>1404000061</GUID>
-      <Text></Text>
+      <Text>??Shiraz</Text>
     </Text>
     <Text>
       <GUID>1404000062</GUID>
-      <Text></Text>
+      <Text>??Yazd</Text>
     </Text>
     <Text>
       <GUID>1404000063</GUID>
-      <Text></Text>
+      <Text>??Azeer</Text>
     </Text>
     <Text>
       <GUID>1404000064</GUID>
-      <Text></Text>
+      <Text>??Isfahan</Text>
     </Text>
     <Text>
       <GUID>1404000065</GUID>
-      <Text></Text>
+      <Text>??Kashan</Text>
     </Text>
     <Text>
       <GUID>1404000066</GUID>
-      <Text></Text>
+      <Text>??Lut Kholein</Text>
     </Text>
     <Text>
       <GUID>1404000067</GUID>
-      <Text></Text>
+      <Text>??Rasha</Text>
     </Text>
     <Text>
       <GUID>1404000068</GUID>
-      <Text></Text>
+      <Text>??Kharazan</Text>
     </Text>
     <Text>
       <GUID>1404000069</GUID>
-      <Text></Text>
+      <Text>??Kerak</Text>
     </Text>
     <Text>
       <GUID>1404000070</GUID>
-      <Text></Text>
+      <Text>??Baktran</Text>
     </Text>
     <Text>
       <GUID>1404000071</GUID>
-      <Text></Text>
+      <Text>??Yatrib</Text>
     </Text>
     <Text>
       <GUID>1404000072</GUID>
-      <Text></Text>
+      <Text>??Tarbuk</Text>
     </Text>
     <Text>
       <GUID>1404000073</GUID>
-      <Text></Text>
+      <Text>??Tabarya</Text>
     </Text>
     <Text>
       <GUID>1404000074</GUID>
-      <Text></Text>
+      <Text>??Wadi Rhun</Text>
     </Text>
     <Text>
       <GUID>1404000075</GUID>
-      <Text></Text>
+      <Text>??Mazar</Text>
     </Text>
     <Text>
       <GUID>1404000076</GUID>
-      <Text></Text>
+      <Text>??Saphra</Text>
     </Text>
     <Text>
       <GUID>1404000077</GUID>
-      <Text></Text>
+      <Text>??Agran</Text>
     </Text>
     <Text>
       <GUID>1404000078</GUID>
-      <Text></Text>
+      <Text>??Ramman</Text>
     </Text>
     <Text>
       <GUID>1404000079</GUID>
-      <Text></Text>
+      <Text>??Bhaka</Text>
     </Text>
     <Text>
       <GUID>1404000080</GUID>
-      <Text></Text>
+      <Text>??Dameseq</Text>
     </Text>
     <Text>
       <GUID>1404000081</GUID>
-      <Text></Text>
+      <Text>??Al-Ghata</Text>
     </Text>
     <Text>
       <GUID>1404000082</GUID>
-      <Text></Text>
+      <Text>??Jumirah</Text>
     </Text>
     <Text>
       <GUID>1404000083</GUID>
-      <Text></Text>
+      <Text>??Khorum</Text>
     </Text>
     <Text>
       <GUID>1404000084</GUID>
-      <Text></Text>
+      <Text>??Safid</Text>
     </Text>
     <Text>
       <GUID>1404000085</GUID>
-      <Text></Text>
+      <Text>??Al-Mhadin</Text>
     </Text>
     <Text>
       <GUID>1404000086</GUID>
-      <Text></Text>
+      <Text>??Wadi Mun</Text>
     </Text>
     <Text>
       <GUID>1404000087</GUID>
-      <Text></Text>
+      <Text>??Pamyrna</Text>
     </Text>
     <Text>
       <GUID>1404000088</GUID>
-      <Text></Text>
+      <Text>??Rakhum</Text>
     </Text>
     <Text>
       <GUID>1404000089</GUID>
-      <Text></Text>
+      <Text>??Mharesh</Text>
     </Text>
     <Text>
       <GUID>1404000090</GUID>
-      <Text></Text>
+      <Text>??Khasbah</Text>
     </Text>
     <Text>
       <GUID>1404000091</GUID>
-      <Text></Text>
+      <Text>??Ar-Jhad</Text>
     </Text>
     <Text>
       <GUID>1404000092</GUID>
-      <Text></Text>
+      <Text>??Thagran</Text>
     </Text>
     <Text>
       <GUID>1404000093</GUID>
-      <Text></Text>
+      <Text>??Rhagas</Text>
     </Text>
     <Text>
       <GUID>1404000094</GUID>
-      <Text></Text>
+      <Text>??Shabbaz</Text>
     </Text>
     <Text>
       <GUID>1404000095</GUID>
-      <Text></Text>
+      <Text>??Talrûn</Text>
     </Text>
     <Text>
       <GUID>1404000096</GUID>
-      <Text></Text>
+      <Text>??Meknas</Text>
     </Text>
     <Text>
       <GUID>1404000097</GUID>
-      <Text></Text>
+      <Text>??Baghari</Text>
     </Text>
     <Text>
       <GUID>1404000098</GUID>
-      <Text></Text>
+      <Text>??El Jahida</Text>
     </Text>
     <Text>
       <GUID>1404000099</GUID>
-      <Text></Text>
+      <Text>??Sidi Bendour</Text>
     </Text>
     <Text>
       <GUID>1404000100</GUID>
-      <Text></Text>
+      <Text>??Jerada</Text>
     </Text>
     <Text>
       <GUID>1404000101</GUID>
-      <Text></Text>
+      <Text>??Tarakous</Text>
     </Text>
     <Text>
       <GUID>1404000102</GUID>
-      <Text></Text>
+      <Text>??Anou Amrad</Text>
     </Text>
     <Text>
       <GUID>1404000103</GUID>
-      <Text></Text>
+      <Text>??Sakoura</Text>
     </Text>
     <Text>
       <GUID>1404000104</GUID>
-      <Text></Text>
+      <Text>??Fraita</Text>
     </Text>
     <Text>
       <GUID>1404000105</GUID>
-      <Text></Text>
+      <Text>??Mazouri</Text>
     </Text>
     <Text>
       <GUID>1404000106</GUID>
-      <Text></Text>
+      <Text>??Ras el-Rahal</Text>
     </Text>
     <Text>
       <GUID>1404000107</GUID>
-      <Text></Text>
+      <Text>??Anisha</Text>
     </Text>
     <Text>
       <GUID>1404000108</GUID>
-      <Text></Text>
+      <Text>??Chemaya</Text>
     </Text>
     <Text>
       <GUID>1404000109</GUID>
-      <Text></Text>
+      <Text>??Khuadra</Text>
     </Text>
     <Text>
       <GUID>1404000110</GUID>
-      <Text></Text>
+      <Text>??Souk el-Shamir</Text>
     </Text>
     <Text>
       <GUID>1404000111</GUID>
-      <Text></Text>
+      <Text>??Beni Idir</Text>
     </Text>
     <Text>
       <GUID>1404000112</GUID>
-      <Text></Text>
+      <Text>??Sefiret</Text>
     </Text>
     <Text>
       <GUID>1404000113</GUID>
-      <Text></Text>
+      <Text>??Najima</Text>
     </Text>
     <Text>
       <GUID>1404000114</GUID>
-      <Text></Text>
+      <Text>??El Heddir</Text>
     </Text>
     <Text>
       <GUID>1404000115</GUID>
-      <Text></Text>
+      <Text>??Thaya</Text>
     </Text>
     <Text>
       <GUID>1404000116</GUID>
-      <Text></Text>
+      <Text>??Khalfala</Text>
     </Text>
     <Text>
       <GUID>1404000117</GUID>
-      <Text></Text>
+      <Text>??Djalfa</Text>
     </Text>
     <Text>
       <GUID>1404000118</GUID>
-      <Text></Text>
+      <Text>??Al Farez</Text>
     </Text>
     <Text>
       <GUID>1404000119</GUID>
-      <Text></Text>
+      <Text>??Mit Yazid</Text>
     </Text>
     <Text>
       <GUID>1404000120</GUID>
-      <Text></Text>
+      <Text>??Abu ash Shuq</Text>
     </Text>
     <Text>
       <GUID>1404000121</GUID>
-      <Text></Text>
+      <Text>??Senjaha</Text>
     </Text>
     <Text>
       <GUID>1404000122</GUID>
-      <Text></Text>
+      <Text>??Kafr Salam</Text>
     </Text>
     <Text>
       <GUID>1404000123</GUID>
-      <Text></Text>
+      <Text>??Izab Difshu</Text>
     </Text>
     <Text>
       <GUID>1404000124</GUID>
-      <Text></Text>
+      <Text>??Abu Qir</Text>
     </Text>
     <Text>
       <GUID>1404000125</GUID>
-      <Text></Text>
+      <Text>??Mit Hashim</Text>
     </Text>
     <Text>
       <GUID>1404000126</GUID>
-      <Text></Text>
+      <Text>??Al Amir</Text>
     </Text>
     <Text>
       <GUID>1404000127</GUID>
-      <Text></Text>
+      <Text>??Buhayrat</Text>
     </Text>
     <Text>
       <GUID>1404000128</GUID>
-      <Text></Text>
+      <Text>??Mahellat</Text>
     </Text>
     <Text>
       <GUID>1404000129</GUID>
-      <Text></Text>
+      <Text>??Al Hamul</Text>
     </Text>
     <Text>
       <GUID>1404000130</GUID>
-      <Text></Text>
+      <Text>??Tunus</Text>
     </Text>
     <Text>
       <GUID>1404000131</GUID>
-      <Text></Text>
+      <Text>??Awlad Salmahi</Text>
     </Text>
     <Text>
       <GUID>1404000132</GUID>
-      <Text></Text>
+      <Text>??Ish Shaykh</Text>
     </Text>
     <Text>
       <GUID>1404000133</GUID>
-      <Text></Text>
+      <Text>??Barekah</Text>
     </Text>
     <Text>
       <GUID>1404000134</GUID>
-      <Text></Text>
+      <Text>??El Hubayl</Text>
     </Text>
     <Text>
       <GUID>1404000135</GUID>
-      <Text></Text>
+      <Text>??Al Halefi</Text>
     </Text>
     <Text>
       <GUID>1404000136</GUID>
-      <Text></Text>
+      <Text>??Awlad Khalif</Text>
     </Text>
     <Text>
       <GUID>1404000137</GUID>
-      <Text></Text>
+      <Text>??Ma’alla</Text>
     </Text>
     <Text>
       <GUID>1404000138</GUID>
-      <Text></Text>
+      <Text>??Mekhasirnah</Text>
     </Text>
     <Text>
       <GUID>1404000139</GUID>
-      <Text></Text>
+      <Text>??Dabud</Text>
     </Text>
     <Text>
       <GUID>1404000140</GUID>
-      <Text></Text>
+      <Text>??Naj’ Kuludul</Text>
     </Text>
     <Text>
       <GUID>1404000141</GUID>
-      <Text></Text>
+      <Text>??Dihmat</Text>
     </Text>
     <Text>
       <GUID>1404000142</GUID>
-      <Text></Text>
+      <Text>??Wadi al ’Arab</Text>
     </Text>
     <Text>
       <GUID>1404000143</GUID>
-      <Text></Text>
+      <Text>??Dahiryah</Text>
     </Text>
     <Text>
       <GUID>1404000144</GUID>
-      <Text></Text>
+      <Text>??Haffir</Text>
     </Text>
     <Text>
       <GUID>1404000145</GUID>
-      <Text></Text>
+      <Text>??Quafas</Text>
     </Text>
     <Text>
       <GUID>1404000146</GUID>
-      <Text></Text>
+      <Text>??Hadar Kash</Text>
     </Text>
     <Text>
       <GUID>1404000147</GUID>
-      <Text></Text>
+      <Text>??Marketplace</Text>
     </Text>
     <Text>
       <GUID>1404000148</GUID>
-      <Text></Text>
+      <Text>??Mosque</Text>
     </Text>
     <Text>
       <GUID>1404000149</GUID>
-      <Text></Text>
+      <Text>??Bath House</Text>
     </Text>
     <Text>
       <GUID>1404000150</GUID>
-      <Text></Text>
+      <Text>??Mosque</Text>
     </Text>
     <Text>
       <GUID>1404000151</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000152</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000153</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000154</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000155</GUID>
-      <Text></Text>
+      <Text>??Bath House</Text>
     </Text>
     <Text>
       <GUID>1404000156</GUID>
-      <Text></Text>
+      <Text>??Oriental Warehouse</Text>
     </Text>
     <Text>
       <GUID>1404000157</GUID>
-      <Text></Text>
+      <Text>??Mosaic Workshop</Text>
     </Text>
     <Text>
       <GUID>1404000158</GUID>
-      <Text></Text>
+      <Text>??Mosaic</Text>
     </Text>
     <Text>
       <GUID>1404000159</GUID>
-      <Text></Text>
+      <Text>??Date Farm</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
-      <Text></Text>
+      <Text>??Almond Farm</Text>
     </Text>
     <Text>
       <GUID>1404000161</GUID>
-      <Text></Text>
+      <Text>??Oriental Workshop: Pearl Necklaces</Text>
     </Text>
     <Text>
       <GUID>1404000162</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000163</GUID>
-      <Text></Text>
+      <Text>??Confectioner's Workshop</Text>
     </Text>
     <Text>
       <GUID>1404000164</GUID>
-      <Text></Text>
+      <Text>??Marzipan</Text>
     </Text>
     <Text>
       <GUID>1404000165</GUID>
-      <Text></Text>
+      <Text>??Pearl Necklace</Text>
     </Text>
     <Text>
       <GUID>1404000169</GUID>
-      <Text></Text>
+      <Text>??Silk Plantation</Text>
     </Text>
     <Text>
       <GUID>1404000170</GUID>
-      <Text></Text>
+      <Text>??Spice Mill</Text>
     </Text>
     <Text>
       <GUID>1404000171</GUID>
-      <Text></Text>
+      <Text>??Carpet Workshop</Text>
     </Text>
     <Text>
       <GUID>1404000172</GUID>
-      <Text></Text>
+      <Text>??Rugs</Text>
     </Text>
     <Text>
       <GUID>1404000173</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000174</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000175</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000176</GUID>
-      <Text></Text>
+      <Text>??Spice Powder</Text>
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <Text></Text>
+      <Text>??Silk</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000179</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000180</GUID>
-      <Text></Text>
+      <Text>??Oriental Statue</Text>
     </Text>
     <Text>
       <GUID>1404000181</GUID>
-      <Text></Text>
+      <Text>??AGE OF</Text>
     </Text>
     <Text>
       <GUID>1404000182</GUID>
-      <Text></Text>
+      <Text>??AGE OF</Text>
     </Text>
     <Text>
       <GUID>1404000183</GUID>
-      <Text></Text>
+      <Text>??SETTLEMENT</Text>
     </Text>
     <Text>
       <GUID>1404000184</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000185</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000186</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000187</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000188</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000189</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000190</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000191</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000192</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000193</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000194</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000195</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000196</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000197</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000198</GUID>
-      <Text></Text>
+      <Text>??DIPLOMACY</Text>
     </Text>
     <Text>
       <GUID>1404000199</GUID>
-      <Text></Text>
+      <Text>??Date Field</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
-      <Text></Text>
+      <Text>??Silk Field</Text>
     </Text>
     <Text>
       <GUID>1404000201</GUID>
-      <Text></Text>
+      <Text>??Almond Field</Text>
     </Text>
     <Text>
       <GUID>1404000202</GUID>
-      <Text></Text>
+      <Text>??Town Hall</Text>
     </Text>
     <Text>
       <GUID>1404000203</GUID>
-      <Text></Text>
+      <Text>??Trade Union</Text>
     </Text>
     <Text>
       <GUID>1404000204</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000205</GUID>
-      <Text></Text>
+      <Text>??Consulate</Text>
     </Text>
     <Text>
       <GUID>1404000206</GUID>
-      <Text></Text>
+      <Text>??Consulate</Text>
     </Text>
     <Text>
       <GUID>1404000207</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000208</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000209</GUID>
-      <Text></Text>
+      <Text>??Sultan's Seals</Text>
     </Text>
     <Text>
       <GUID>1404000210</GUID>
-      <Text></Text>
+      <Text>??PROTECTORATE</Text>
     </Text>
     <Text>
       <GUID>1404000211</GUID>
-      <Text></Text>
+      <Text>??PROVINCE</Text>
     </Text>
     <Text>
       <GUID>1404000212</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000213</GUID>
-      <Text></Text>
+      <Text>??Noria</Text>
     </Text>
     <Text>
       <GUID>1404000214</GUID>
-      <Text></Text>
+      <Text>??Irrigation</Text>
     </Text>
     <Text>
       <GUID>1404000215</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000216</GUID>
-      <Text></Text>
+      <Text>??Harbour</Text>
     </Text>
     <Text>
       <GUID>1404000217</GUID>
-      <Text></Text>
+      <Text>??Depot</Text>
     </Text>
     <Text>
       <GUID>1404000218</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000219</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000220</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000221</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000222</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000223</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000224</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000225</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000226</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000227</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000228</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000229</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000230</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000231</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000232</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000233</GUID>
-      <Text></Text>
+      <Text>??Trading Post</Text>
     </Text>
     <Text>
       <GUID>1404000234</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000235</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000236</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000237</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000238</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000239</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000240</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000241</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000242</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000243</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000244</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000245</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000246</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000247</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000248</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000249</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000250</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000251</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000252</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000253</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000254</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000255</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000256</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000257</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000258</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000259</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000260</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000261</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000262</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000263</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000264</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000265</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000266</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000267</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000269</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000270</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000271</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000272</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000273</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000274</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000275</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000276</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000277</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000278</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000279</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000280</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000281</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000282</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000283</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000284</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000285</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000286</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000287</GUID>
-      <Text></Text>
+      <Text>??Oriental Fountain</Text>
     </Text>
     <Text>
       <GUID>1404000288</GUID>
-      <Text></Text>
+      <Text>??Coffee House</Text>
     </Text>
     <Text>
       <GUID>1404000289</GUID>
-      <Text></Text>
+      <Text>??Kaftans</Text>
     </Text>
     <Text>
       <GUID>1404000290</GUID>
-      <Text></Text>
+      <Text>??Coffee House</Text>
     </Text>
     <Text>
       <GUID>1404000291</GUID>
-      <Text></Text>
+      <Text>??Coffee House</Text>
     </Text>
     <Text>
       <GUID>1404000292</GUID>
-      <Text></Text>
+      <Text>??Rose Nursery</Text>
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <Text></Text>
+      <Text>??Roses</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
-      <Text></Text>
+      <Text>??Perfumery</Text>
     </Text>
     <Text>
       <GUID>1404000295</GUID>
-      <Text></Text>
+      <Text>??Ceremonial Sabers</Text>
     </Text>
     <Text>
       <GUID>1404000296</GUID>
-      <Text></Text>
+      <Text>??Hookahs</Text>
     </Text>
     <Text>
       <GUID>1404000297</GUID>
-      <Text></Text>
+      <Text>??Rose Water</Text>
     </Text>
     <Text>
       <GUID>1404000298</GUID>
-      <Text></Text>
+      <Text>??Chandeliers</Text>
     </Text>
     <Text>
       <GUID>1404000299</GUID>
-      <Text></Text>
+      <Text>??Turbans</Text>
     </Text>
     <Text>
       <GUID>1404000300</GUID>
-      <Text></Text>
+      <Text>??Pomegranate Farm</Text>
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000302</GUID>
-      <Text></Text>
+      <Text>??Pomegranate</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000304</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000305</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000306</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000307</GUID>
-      <Text></Text>
+      <Text>??Camel Farm</Text>
     </Text>
     <Text>
       <GUID>1404000308</GUID>
-      <Text></Text>
+      <Text>??Kaftan Tailor</Text>
     </Text>
     <Text>
       <GUID>1404000309</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000310</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000311</GUID>
-      <Text></Text>
+      <Text>??Turban Weaver</Text>
     </Text>
     <Text>
       <GUID>1404000312</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000313</GUID>
-      <Text></Text>
+      <Text>??Oriental Workshop: Ceremonial Sabers</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
-      <Text></Text>
+      <Text>??Ceremonial Sabers</Text>
     </Text>
     <Text>
       <GUID>1404000315</GUID>
-      <Text></Text>
+      <Text>??Oriental Workshop: Chandeliers</Text>
     </Text>
     <Text>
       <GUID>1404000316</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000317</GUID>
-      <Text></Text>
+      <Text>??Oriental Workshop: Hookahs</Text>
     </Text>
     <Text>
       <GUID>1404000318</GUID>
-      <Text></Text>
+      <Text>??Chandeliers</Text>
     </Text>
     <Text>
       <GUID>1404000319</GUID>
-      <Text></Text>
+      <Text>??Pearl Necklaces</Text>
     </Text>
     <Text>
       <GUID>1404000320</GUID>
-      <Text></Text>
+      <Text>??Hookahs</Text>
     </Text>
     <Text>
       <GUID>1404000321</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000322</GUID>
-      <Text></Text>
+      <Text>??Oriental Workshop</Text>
     </Text>
     <Text>
       <GUID>1404000323</GUID>
-      <Text></Text>
+      <Text>??Grand Mosque: Foundations</Text>
     </Text>
     <Text>
       <GUID>1404000324</GUID>
-      <Text></Text>
+      <Text>??Grand Mosque: Prayer Hall</Text>
     </Text>
     <Text>
       <GUID>1404000325</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000326</GUID>
-      <Text></Text>
+      <Text>??Grand Mosque: Towers</Text>
     </Text>
     <Text>
       <GUID>1404000327</GUID>
-      <Text></Text>
+      <Text>??Grand Mosque</Text>
     </Text>
     <Text>
       <GUID>1404000328</GUID>
-      <Text></Text>
+      <Text>??Pilgrimage</Text>
     </Text>
     <Text>
       <GUID>1404000329</GUID>
-      <Text></Text>
+      <Text>??Small Pilgrimage</Text>
     </Text>
     <Text>
       <GUID>1404000330</GUID>
-      <Text></Text>
+      <Text>??Medium Pilgrimage</Text>
     </Text>
     <Text>
       <GUID>1404000331</GUID>
-      <Text></Text>
+      <Text>??Large Pilgrimage</Text>
     </Text>
     <Text>
       <GUID>1404000332</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000333</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000334</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000335</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000336</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000337</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000338</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000339</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000340</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000341</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000342</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000343</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000344</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000345</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000346</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000347</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000348</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000349</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000350</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000351</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000352</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000353</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000354</GUID>
-      <Text></Text>
+      <Text>??Influence</Text>
     </Text>
     <Text>
       <GUID>1404000355</GUID>
-      <Text></Text>
+      <Text>??Marketstall</Text>
     </Text>
     <Text>
       <GUID>1404000356</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Pocket Watches</Text>
     </Text>
     <Text>
       <GUID>1404000357</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Biscuits</Text>
     </Text>
     <Text>
       <GUID>1404000358</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Fans</Text>
     </Text>
     <Text>
       <GUID>1404000359</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Gramophones</Text>
     </Text>
     <Text>
       <GUID>1404000360</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Ice Cream</Text>
     </Text>
     <Text>
       <GUID>1404000361</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Pocket Watches</Text>
     </Text>
     <Text>
       <GUID>1404000362</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Scooter</Text>
     </Text>
     <Text>
       <GUID>1404000363</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Steam Carriages</Text>
     </Text>
     <Text>
       <GUID>1404000364</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Typewriters</Text>
     </Text>
     <Text>
       <GUID>1404000365</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Fans</Text>
     </Text>
     <Text>
       <GUID>1404000366</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Gramophones</Text>
     </Text>
     <Text>
       <GUID>1404000367</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000368</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Ice Cream</Text>
     </Text>
     <Text>
       <GUID>1404000369</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Scooter</Text>
     </Text>
     <Text>
       <GUID>1404000370</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Steam Carriages</Text>
     </Text>
     <Text>
       <GUID>1404000371</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Typewriters</Text>
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <Text></Text>
+      <Text>??Marketstalls</Text>
     </Text>
     <Text>
       <GUID>1404000373</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000374</GUID>
-      <Text></Text>
+      <Text>??Marketstall: Biscuits</Text>
     </Text>
     <Text>
       <GUID>1404000375</GUID>
-      <Text></Text>
+      <Text>??Police Station</Text>
     </Text>
     <Text>
       <GUID>1404000376</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000377</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000378</GUID>
-      <Text></Text>
+      <Text>??Emergency Station</Text>
     </Text>
     <Text>
       <GUID>1404000379</GUID>
-      <Text></Text>
+      <Text>??Oriental Tent</Text>
     </Text>
     <Text>
       <GUID>1404000380</GUID>
-      <Text></Text>
+      <Text>??Oriental Place</Text>
     </Text>
     <Text>
       <GUID>1404000381</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000382</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000383</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000384</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000385</GUID>
-      <Text></Text>
+      <Text>??Oriental Palm</Text>
     </Text>
     <Text>
       <GUID>1404000386</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000387</GUID>
-      <Text></Text>
+      <Text>??By Allah! Lend us your support!</Text>
     </Text>
     <Text>
       <GUID>1404000388</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000389</GUID>
-      <Text></Text>
+      <Text>??Will you stand by me?</Text>
     </Text>
     <Text>
       <GUID>1404000390</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000391</GUID>
-      <Text></Text>
+      <Text>??I humbly request your help!</Text>
     </Text>
     <Text>
       <GUID>1404000392</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000393</GUID>
-      <Text></Text>
+      <Text>??I am appealing to you for support!</Text>
     </Text>
     <Text>
       <GUID>1404000394</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000395</GUID>
-      <Text></Text>
+      <Text>??You surely wouldn't leave me in the lurch?</Text>
     </Text>
     <Text>
       <GUID>1404000396</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000397</GUID>
-      <Text></Text>
+      <Text>??Is there still hope for our cause?</Text>
     </Text>
     <Text>
       <GUID>1404000398</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000399</GUID>
-      <Text></Text>
+      <Text>??Have you truly taken such efforts on my behalf?</Text>
     </Text>
     <Text>
       <GUID>1404000400</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000401</GUID>
-      <Text></Text>
+      <Text>??My request... Have you actually fulfilled it?</Text>
     </Text>
     <Text>
       <GUID>1404000402</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000403</GUID>
-      <Text></Text>
+      <Text>??Then maybe later, inshallah!</Text>
     </Text>
     <Text>
       <GUID>1404000404</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000405</GUID>
-      <Text></Text>
+      <Text>??I am still pinning my hopes on you...</Text>
     </Text>
     <Text>
       <GUID>1404000406</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000407</GUID>
-      <Text></Text>
+      <Text>??May Allah bless you for your help!</Text>
     </Text>
     <Text>
       <GUID>1404000408</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000409</GUID>
-      <Text></Text>
+      <Text>??We are all greatly indebted to you...</Text>
     </Text>
     <Text>
       <GUID>1404000410</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000411</GUID>
-      <Text></Text>
+      <Text>??It seems Allah has something else in mind...</Text>
     </Text>
     <Text>
       <GUID>1404000412</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000413</GUID>
-      <Text></Text>
+      <Text>??Such a shame it has to end this way...</Text>
     </Text>
     <Text>
       <GUID>1404000414</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000415</GUID>
-      <Text></Text>
+      <Text>??The desert is paradise compared to this Settlement!</Text>
     </Text>
     <Text>
       <GUID>1404000416</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000417</GUID>
-      <Text></Text>
+      <Text>??By Allah! I can't take another day here!</Text>
     </Text>
     <Text>
       <GUID>1404000418</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000419</GUID>
-      <Text></Text>
+      <Text>??I'm going to put my Tent up somewhere else...</Text>
     </Text>
     <Text>
       <GUID>1404000420</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000421</GUID>
-      <Text></Text>
+      <Text>??Nomads will move out if they are unsatisfied…</Text>
     </Text>
     <Text>
       <GUID>1404000422</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000423</GUID>
-      <Text></Text>
+      <Text>??Do you realise that we've never been so uncomfortable!?</Text>
     </Text>
     <Text>
       <GUID>1404000424</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000425</GUID>
-      <Text></Text>
+      <Text>??By Allah! How about these for lean times…?!</Text>
     </Text>
     <Text>
       <GUID>1404000426</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000427</GUID>
-      <Text></Text>
+      <Text>??What did we do to displease Allah so much?!</Text>
     </Text>
     <Text>
       <GUID>1404000428</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000429</GUID>
-      <Text></Text>
+      <Text>??Even the Desert is more hospitable than this City!</Text>
     </Text>
     <Text>
       <GUID>1404000430</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000431</GUID>
-      <Text></Text>
+      <Text>??The People are unhappy with life in this City!</Text>
     </Text>
     <Text>
       <GUID>1404000432</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000433</GUID>
-      <Text></Text>
+      <Text>??I pray to Allah that good times will soon follow the bad...</Text>
     </Text>
     <Text>
       <GUID>1404000434</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000435</GUID>
-      <Text></Text>
+      <Text>??We are but simple Nomads. We don't need much...</Text>
     </Text>
     <Text>
       <GUID>1404000436</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000437</GUID>
-      <Text></Text>
+      <Text>??You were right! It IS better to live here than to move from Town to Town...</Text>
     </Text>
     <Text>
       <GUID>1404000438</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000439</GUID>
-      <Text></Text>
+      <Text>??What could we want besides Food and water for ourselves and our Camels?!</Text>
     </Text>
     <Text>
       <GUID>1404000440</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000441</GUID>
-      <Text></Text>
+      <Text>??Life has changed somewhat since we have been here… but it is good.</Text>
     </Text>
     <Text>
       <GUID>1404000442</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000443</GUID>
-      <Text></Text>
+      <Text>??You can actually get used to life in a House built of Stone…</Text>
     </Text>
     <Text>
       <GUID>1404000444</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000445</GUID>
-      <Text></Text>
+      <Text>??Is there anything finer than sitting in the shade eating Dates?</Text>
     </Text>
     <Text>
       <GUID>1404000446</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000447</GUID>
-      <Text></Text>
+      <Text>??I sold loads of Camels at the bazaar today!</Text>
     </Text>
     <Text>
       <GUID>1404000448</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000449</GUID>
-      <Text></Text>
+      <Text>??Allah is smiling down on this City!</Text>
     </Text>
     <Text>
       <GUID>1404000450</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000451</GUID>
-      <Text></Text>
+      <Text>??I would never have thought that life would be so comfortable here…</Text>
     </Text>
     <Text>
       <GUID>1404000452</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000453</GUID>
-      <Text></Text>
+      <Text>??I don't regret giving up the Nomad life!</Text>
     </Text>
     <Text>
       <GUID>1404000454</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000455</GUID>
-      <Text></Text>
+      <Text>??Allah has heard my prayers! We are enjoying a better life than ever before!</Text>
     </Text>
     <Text>
       <GUID>1404000456</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000457</GUID>
-      <Text></Text>
+      <Text>??An oasis of Peace and prosperity in the middle of the Desert… Allah be praised!</Text>
     </Text>
     <Text>
       <GUID>1404000458</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000459</GUID>
-      <Text></Text>
+      <Text>??Since I came to live here, I've learnt the meaning of the word 'home'!</Text>
     </Text>
     <Text>
       <GUID>1404000460</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000461</GUID>
-      <Text></Text>
+      <Text>??My family and I are truly thankful that we can live here completely free of worry!</Text>
     </Text>
     <Text>
       <GUID>1404000462</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000463</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000464</GUID>
-      <Text></Text>
+      <Text>??We have all been blessed by Allah!</Text>
     </Text>
     <Text>
       <GUID>1404000465</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000466</GUID>
-      <Text></Text>
+      <Text>??I am entrusting this matter to you!</Text>
     </Text>
     <Text>
       <GUID>1404000467</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000468</GUID>
-      <Text></Text>
+      <Text>??I'm approaching you with a special request...</Text>
     </Text>
     <Text>
       <GUID>1404000469</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000470</GUID>
-      <Text></Text>
+      <Text>??Will you support our cause?</Text>
     </Text>
     <Text>
       <GUID>1404000471</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000472</GUID>
-      <Text></Text>
+      <Text>??You certainly could help me with this, inshallah!</Text>
     </Text>
     <Text>
       <GUID>1404000473</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000474</GUID>
-      <Text></Text>
+      <Text>??I trust in Allah and your assistance!</Text>
     </Text>
     <Text>
       <GUID>1404000475</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000476</GUID>
-      <Text></Text>
+      <Text>??Don’t forget that you gave your word!</Text>
     </Text>
     <Text>
       <GUID>1404000477</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000478</GUID>
-      <Text></Text>
+      <Text>??Were you already able to fulfil my request?</Text>
     </Text>
     <Text>
       <GUID>1404000479</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000480</GUID>
-      <Text></Text>
+      <Text>??Would it be possible for you to handle my case?</Text>
     </Text>
     <Text>
       <GUID>1404000481</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000482</GUID>
-      <Text></Text>
+      <Text>??In that case, I shall exercise patience...</Text>
     </Text>
     <Text>
       <GUID>1404000483</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000484</GUID>
-      <Text></Text>
+      <Text>??My question clearly came at an inconvenient time...</Text>
     </Text>
     <Text>
       <GUID>1404000485</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000486</GUID>
-      <Text></Text>
+      <Text>??Shukran! You have my most sincere thanks!</Text>
     </Text>
     <Text>
       <GUID>1404000487</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000488</GUID>
-      <Text></Text>
+      <Text>??Thank you! You take your obligations very seriously...</Text>
     </Text>
     <Text>
       <GUID>1404000489</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000490</GUID>
-      <Text></Text>
+      <Text>??It was the will of Allah…</Text>
     </Text>
     <Text>
       <GUID>1404000491</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000492</GUID>
-      <Text></Text>
+      <Text>??What an unfortunate undertaking...</Text>
     </Text>
     <Text>
       <GUID>1404000493</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000494</GUID>
-      <Text></Text>
+      <Text>??The Sultan would be furious if he heard about this!</Text>
     </Text>
     <Text>
       <GUID>1404000495</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000496</GUID>
-      <Text></Text>
+      <Text>??Living in your Town is simply too much to bear!</Text>
     </Text>
     <Text>
       <GUID>1404000497</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000498</GUID>
-      <Text></Text>
+      <Text>??The way we are forced to live here is outrageous!</Text>
     </Text>
     <Text>
       <GUID>1404000499</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000500</GUID>
-      <Text></Text>
+      <Text>??I am getting out of here immediately; there is nothing more to make me stay!</Text>
     </Text>
     <Text>
       <GUID>1404000501</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000502</GUID>
-      <Text></Text>
+      <Text>??Settle the grievances before this City perishes…</Text>
     </Text>
     <Text>
       <GUID>1404000503</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000504</GUID>
-      <Text></Text>
+      <Text>??This wretched existence here is most depressing…</Text>
     </Text>
     <Text>
       <GUID>1404000505</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000506</GUID>
-      <Text></Text>
+      <Text>??It is undignified for People to live like this...</Text>
     </Text>
     <Text>
       <GUID>1404000507</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000508</GUID>
-      <Text></Text>
+      <Text>??Why does Allah allow us to live here like this?!</Text>
     </Text>
     <Text>
       <GUID>1404000509</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000510</GUID>
-      <Text></Text>
+      <Text>??By Allah! We deserve better than this!</Text>
     </Text>
     <Text>
       <GUID>1404000511</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000512</GUID>
-      <Text></Text>
+      <Text>??Don't you intend to do anything to improve the situation here?</Text>
     </Text>
     <Text>
       <GUID>1404000513</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000514</GUID>
-      <Text></Text>
+      <Text>??It was a good idea to settle here!</Text>
     </Text>
     <Text>
       <GUID>1404000515</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000516</GUID>
-      <Text></Text>
+      <Text>??I must confess that I feel thoroughly at home in your Settlement...</Text>
     </Text>
     <Text>
       <GUID>1404000517</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000518</GUID>
-      <Text></Text>
+      <Text>??You do the best you can for this Settlement; that's plain to see...</Text>
     </Text>
     <Text>
       <GUID>1404000519</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000520</GUID>
-      <Text></Text>
+      <Text>??Life here is simple, but pleasing to Allah!</Text>
     </Text>
     <Text>
       <GUID>1404000521</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000522</GUID>
-      <Text></Text>
+      <Text>??With Allah's help, we'll turn this Settlement into a flourishing oasis...</Text>
     </Text>
     <Text>
       <GUID>1404000523</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000524</GUID>
-      <Text></Text>
+      <Text>??You run this Town with great wisdom!</Text>
     </Text>
     <Text>
       <GUID>1404000525</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000526</GUID>
-      <Text></Text>
+      <Text>??This place is turning into a real jewel!</Text>
     </Text>
     <Text>
       <GUID>1404000527</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000528</GUID>
-      <Text></Text>
+      <Text>??We have your prudent actions to thank for our Wealth!</Text>
     </Text>
     <Text>
       <GUID>1404000529</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000530</GUID>
-      <Text></Text>
+      <Text>??Anyone who complains about this Town must be a liar...</Text>
     </Text>
     <Text>
       <GUID>1404000531</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000532</GUID>
-      <Text></Text>
+      <Text>??Our honourable Sultan would be most impressed by your abilities...</Text>
     </Text>
     <Text>
       <GUID>1404000533</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000534</GUID>
-      <Text></Text>
+      <Text>??It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while...</Text>
     </Text>
     <Text>
       <GUID>1404000535</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000536</GUID>
-      <Text></Text>
+      <Text>??This Town is worthy of a Sultan, no less!</Text>
     </Text>
     <Text>
       <GUID>1404000537</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000538</GUID>
-      <Text></Text>
+      <Text>??By Allah! Our Town is a haven of Satisfaction!</Text>
     </Text>
     <Text>
       <GUID>1404000539</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000540</GUID>
-      <Text></Text>
+      <Text>??We wouldn't be any better off at the Sultan's court!</Text>
     </Text>
     <Text>
       <GUID>1404000541</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000542</GUID>
-      <Text></Text>
+      <Text>??For the first time in my life, I'm perfectly content!</Text>
     </Text>
     <Text>
       <GUID>1404000543</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000544</GUID>
-      <Text></Text>
+      <Text>??Why should more Envoys move here? Without adequate Provisions...</Text>
     </Text>
     <Text>
       <GUID>1404000545</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000546</GUID>
-      <Text></Text>
+      <Text>??Many of us are simply used to the luxury of the Sultan's palace!</Text>
     </Text>
     <Text>
       <GUID>1404000547</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000548</GUID>
-      <Text></Text>
+      <Text>??If you wish to attract more Envoys to your City, you will have to offer them much more!</Text>
     </Text>
     <Text>
       <GUID>1404000549</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000550</GUID>
-      <Text></Text>
+      <Text>??In Envoy circles it is said that the Supplies in your City would be too inadequate to allow one to live here comfortably...</Text>
     </Text>
     <Text>
       <GUID>1404000551</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000552</GUID>
-      <Text></Text>
+      <Text>??A little more affluence, and more Envoys are sure to move in here, inshallah!</Text>
     </Text>
     <Text>
       <GUID>1404000553</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000554</GUID>
-      <Text></Text>
+      <Text>??Many Envoys do not want to come and live in your City; they say it's too provincial… Well…</Text>
     </Text>
     <Text>
       <GUID>1404000555</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000556</GUID>
-      <Text></Text>
+      <Text>??A few Houses won't be enough to attract more Envoys here!</Text>
     </Text>
     <Text>
       <GUID>1404000557</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000558</GUID>
-      <Text></Text>
+      <Text>??Don't you think you should offer People like me something more?</Text>
     </Text>
     <Text>
       <GUID>1404000559</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000560</GUID>
-      <Text></Text>
+      <Text>??I am afraid that Envoys will refuse to move here until you have provided all the necessary comforts!</Text>
     </Text>
     <Text>
       <GUID>1404000561</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000562</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000563</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000564</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000565</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000566</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000567</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000568</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000569</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000570</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000571</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000572</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000573</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000574</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000575</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000576</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000577</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000578</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000579</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000580</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000581</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000582</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000583</GUID>
-      <Text></Text>
+      <Text>??The demands of many Envoys have increased even more…</Text>
     </Text>
     <Text>
       <GUID>1404000584</GUID>
-      <Text></Text>
+      <Text>??Small Ruins</Text>
     </Text>
     <Text>
       <GUID>1404000585</GUID>
-      <Text></Text>
+      <Text>??Large Ruins</Text>
     </Text>
     <Text>
       <GUID>1404000586</GUID>
-      <Text></Text>
+      <Text>??Small Street Canopy</Text>
     </Text>
     <Text>
       <GUID>1404000587</GUID>
-      <Text></Text>
+      <Text>??Large Street Canopy</Text>
     </Text>
     <Text>
       <GUID>1404000588</GUID>
-      <Text></Text>
+      <Text>??Rose Field</Text>
     </Text>
     <Text>
       <GUID>1404000589</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000590</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000591</GUID>
-      <Text></Text>
+      <Text>??Camel Field</Text>
     </Text>
     <Text>
       <GUID>1404000592</GUID>
-      <Text></Text>
+      <Text>??This magnificent blade, crafted from polished steel, serves less for combat than for making a good impression. Its hilt gleams in the torchlight, whispering tales of parades, oaths, and overambitious officers. A swipe of the blade into the air, a saluting step, and one instantly feels enriched by rank and dignity.</Text>
     </Text>
     <Text>
       <GUID>1404000593</GUID>
-      <Text></Text>
+      <Text>??A magnificent sea of ​​light, a display of gold and sheer megalomania. With a single switch-on, it makes even the simplest room look as if royalty is approaching. Its sparkling prisms refract the light into a thousand tiny stars and attract dust like a magnet.</Text>
     </Text>
     <Text>
       <GUID>1404000594</GUID>
-      <Text></Text>
+      <Text>??An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes.</Text>
     </Text>
     <Text>
       <GUID>1404000595</GUID>
-      <Text></Text>
+      <Text>??A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams.</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000597</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000598</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000599</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000600</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000601</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000602</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000603</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000604</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000605</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000606</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000607</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000608</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000609</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000610</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000611</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000612</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000613</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000614</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000615</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000616</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000617</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000618</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000619</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000620</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000621</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000622</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000623</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000624</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000625</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000626</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000627</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000628</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000629</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000630</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000631</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000632</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000633</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000634</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000635</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000636</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000637</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000638</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000639</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000640</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000641</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000642</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000643</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000644</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000645</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000646</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000647</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000648</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000649</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000650</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000651</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000652</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000653</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000654</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000655</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000656</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000657</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000658</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000659</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000660</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000661</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000662</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000663</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000664</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000665</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000666</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000667</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000668</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000669</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000670</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000671</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000672</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000673</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000674</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000675</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000676</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000677</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000678</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000679</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000680</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000681</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000682</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000683</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000684</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000685</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000686</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000687</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000688</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000689</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000690</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000691</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000692</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000693</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000694</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000695</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000696</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000697</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000698</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000699</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000700</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000701</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000702</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000703</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000704</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000705</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000706</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000707</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000708</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000709</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000710</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000711</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000712</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000713</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000714</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000715</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000716</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000717</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000718</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000719</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000720</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000721</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000722</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000723</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000724</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000725</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000726</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000727</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000728</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000729</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000730</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000731</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000732</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000733</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000734</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000735</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000736</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000737</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000738</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000739</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000740</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000741</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000742</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000743</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000744</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000745</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000746</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000747</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000748</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000749</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000750</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000751</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000752</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000753</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000754</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000755</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000756</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000757</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000758</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000759</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000760</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000761</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000762</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000763</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000764</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000765</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000766</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000767</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000768</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000769</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000770</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000771</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000772</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000773</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000774</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000775</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000776</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000777</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000778</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000779</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000780</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000781</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000782</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000783</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000784</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000785</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000786</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000787</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000788</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000789</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000790</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000791</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000792</GUID>
-      <Text></Text>
+      <Text>??Pomegranate Field</Text>
     </Text>
     <Text>
       <GUID>1404000793</GUID>
-      <Text></Text>
+      <Text>??Oriental Ornaments</Text>
     </Text>
     <Text>
       <GUID>1404000794</GUID>
-      <Text></Text>
+      <Text>??With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers.</Text>
     </Text>
     <Text>
       <GUID>1404000795</GUID>
-      <Text></Text>
+      <Text>??Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation.</Text>
     </Text>
     <Text>
       <GUID>1404000796</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000797</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000798</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000799</GUID>
-      <Text></Text>
+      <Text>??With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge.</Text>
     </Text>
     <Text>
       <GUID>1404000800</GUID>
-      <Text></Text>
+      <Text>??An Invitation from the Sultan</Text>
     </Text>
     <Text>
       <GUID>1404000801</GUID>
-      <Text></Text>
+      <Text>??The People of the Desert</Text>
     </Text>
     <Text>
       <GUID>1404000802</GUID>
-      <Text></Text>
+      <Text>??An Oasis out of Nothing</Text>
     </Text>
     <Text>
       <GUID>1404000803</GUID>
-      <Text></Text>
+      <Text>??Making New Contacts</Text>
     </Text>
     <Text>
       <GUID>1404000804</GUID>
-      <Text></Text>
+      <Text>??Diplomacy and Paperwork</Text>
     </Text>
     <Text>
       <GUID>1404000805</GUID>
-      <Text></Text>
+      <Text>??Arrival of Curious Minds</Text>
     </Text>
     <Text>
       <GUID>1404000806</GUID>
-      <Text></Text>
+      <Text>??Cultural Exchange</Text>
     </Text>
     <Text>
       <GUID>1404000807</GUID>
-      <Text></Text>
+      <Text>??A Metropolis Built on Sand</Text>
     </Text>
     <Text>
       <GUID>1404000808</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000809</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000810</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000811</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000812</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000813</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000814</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000815</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000816</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000817</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000818</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000819</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000820</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000821</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000822</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000823</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000824</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000825</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000826</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000827</GUID>
-      <Text></Text>
+      <Text>??A Monument for Eternity</Text>
     </Text>
     <Text>
       <GUID>1404000828</GUID>
-      <Text></Text>
+      <Text>??A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding.</Text>
     </Text>
     <Text>
       <GUID>1404000829</GUID>
-      <Text></Text>
+      <Text>??After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here.</Text>
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <Text></Text>
+      <Text>??With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply.</Text>
     </Text>
     <Text>
       <GUID>1404000831</GUID>
-      <Text></Text>
+      <Text>??You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city.</Text>
     </Text>
     <Text>
       <GUID>1404000832</GUID>
-      <Text></Text>
+      <Text>??The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork.</Text>
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <Text></Text>
+      <Text>??More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World.</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <Text></Text>
+      <Text>??Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away.</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <Text></Text>
+      <Text>??Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years.</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <Text></Text>
+      <Text>??The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you.</Text>
     </Text>
     <Text>
       <GUID>1404000837</GUID>
-      <Text></Text>
+      <Text>??To start the expedition, go to the World Map and select the Orient Expedition.</Text>
     </Text>
     <Text>
       <GUID>1404000838</GUID>
-      <Text></Text>
+      <Text>??Build residences and fulfil your Nomads' needs to grow your settlement.</Text>
     </Text>
     <Text>
       <GUID>1404000839</GUID>
-      <Text></Text>
+      <Text>??Fulfil all your Nomads' needs, and then upgrade any fully-occupied residence to Envoys.</Text>
     </Text>
     <Text>
       <GUID>1404000840</GUID>
-      <Text></Text>
+      <Text>??Norias can only be constructed at a certain distance to each other..</Text>
     </Text>
     <Text>
       <GUID>1404000841</GUID>
-      <Text></Text>
+      <Text>??Consulates with envoys in their radius create Sultan's Seals that can be used as lifestyle need for envoys and more things later.</Text>
     </Text>
     <Text>
       <GUID>1404000842</GUID>
-      <Text></Text>
+      <Text>??If a marketstall is supplied with their ware they start to fulfill luxury needs of envoys, which will generate research points.</Text>
     </Text>
     <Text>
       <GUID>1404000843</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000844</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000845</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000846</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000847</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000848</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000849</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000850</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000851</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000852</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000853</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000854</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000855</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000856</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000857</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000858</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000859</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000860</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000861</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000862</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000863</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000864</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000865</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000866</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000867</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000868</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000869</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000870</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000871</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000872</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000873</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000874</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000875</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000876</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000877</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000878</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000879</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000880</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000881</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000882</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000883</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000884</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000885</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000886</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000887</GUID>
-      <Text></Text>
+      <Text>??This monument allows you to carry out pilgrimages, these will increase your influence in the sultanate.</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
-      <Text></Text>
+      <Text>??Fatima bint Khalid, Desert Botanist</Text>
     </Text>
     <Text>
       <GUID>1404000889</GUID>
-      <Text></Text>
+      <Text>??Mariam bint Yusuf al-Bustani, Guardian of the Royal Pomegranate</Text>
     </Text>
     <Text>
       <GUID>1404000890</GUID>
-      <Text></Text>
+      <Text>??Manual Pollination System of the Palm Grove</Text>
     </Text>
     <Text>
       <GUID>1404000891</GUID>
-      <Text></Text>
+      <Text>??Hassan ibn Rashid, Breeder of purebred camels</Text>
     </Text>
     <Text>
       <GUID>1404000892</GUID>
-      <Text></Text>
+      <Text>??Animal Grazing and Breeding Agreement</Text>
     </Text>
     <Text>
       <GUID>1404000893</GUID>
-      <Text></Text>
+      <Text>??Rashid ibn Farouk, Anthophile Floriculturist</Text>
     </Text>
     <Text>
       <GUID>1404000894</GUID>
-      <Text></Text>
+      <Text>??Rose Garden Pruning and Watering Calendar</Text>
     </Text>
     <Text>
       <GUID>1404000895</GUID>
-      <Text></Text>
+      <Text>??Yusuf ibn Hamdan, Juice Sommelier</Text>
     </Text>
     <Text>
       <GUID>1404000896</GUID>
-      <Text></Text>
+      <Text>??Salim al-Masri, Juice Counterfeiter</Text>
     </Text>
     <Text>
       <GUID>1404000897</GUID>
-      <Text></Text>
+      <Text>??Pomegranate Screw Press</Text>
     </Text>
     <Text>
       <GUID>1404000898</GUID>
-      <Text></Text>
+      <Text>??Farhad Mirza Tabrizi, Master of the Loom</Text>
     </Text>
     <Text>
       <GUID>1404000899</GUID>
-      <Text></Text>
+      <Text>??Mehmet Efendi Kaya, Raised Among Looms</Text>
     </Text>
     <Text>
       <GUID>1404000900</GUID>
-      <Text></Text>
+      <Text>??Layla al-Dimashqi, President of the Royal Silk Guild</Text>
     </Text>
     <Text>
       <GUID>1404000901</GUID>
-      <Text></Text>
+      <Text>??Abdul Rahman al-Haddad, The Weigher of a Thousand Spices</Text>
     </Text>
     <Text>
       <GUID>1404000902</GUID>
-      <Text></Text>
+      <Text>??Hassan al-Bakri, The Obsessive Blender</Text>
     </Text>
     <Text>
       <GUID>1404000903</GUID>
-      <Text></Text>
+      <Text>??Zayn al-Qadir, Allergic to Spicy Food</Text>
     </Text>
     <Text>
       <GUID>1404000904</GUID>
-      <Text></Text>
+      <Text>??Iskender Pasha Oglu, Dressmaker to the Grand Vizier</Text>
     </Text>
     <Text>
       <GUID>1404000905</GUID>
-      <Text></Text>
+      <Text>??Regulations of the Kaftan Workshops of the Main Bazaar</Text>
     </Text>
     <Text>
       <GUID>1404000906</GUID>
-      <Text></Text>
+      <Text>??Amina bint Rashid, Guru of Latest Fashion</Text>
     </Text>
     <Text>
       <GUID>1404000907</GUID>
-      <Text></Text>
+      <Text>??Jalal ad-Din al-Halabi, Smith of the Royal Armory</Text>
     </Text>
     <Text>
       <GUID>1404000908</GUID>
-      <Text></Text>
+      <Text>??Water-Powered Trip Hammer</Text>
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <Text></Text>
+      <Text>??Zahra bint Ismail, Destiladora por tradicion</Text>
     </Text>
     <Text>
       <GUID>1404000910</GUID>
-      <Text></Text>
+      <Text>??Persian High-Pressure Retort</Text>
     </Text>
     <Text>
       <GUID>1404000911</GUID>
-      <Text></Text>
+      <Text>??Karim ibn Nasser, Renowned Hooka Craftsman</Text>
     </Text>
     <Text>
       <GUID>1404000912</GUID>
-      <Text></Text>
+      <Text>??Yahya ibn Suleiman, Royal-Made Candlesticks</Text>
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <Text></Text>
+      <Text>??Mustafa ibn Qadir, The Master Bronze Craftsman</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
-      <Text></Text>
+      <Text>??Charcoal Crucible Furnace</Text>
     </Text>
     <Text>
       <GUID>1404000915</GUID>
-      <Text></Text>
+      <Text>??Noura bint Saeed, A Sweeter World!</Text>
     </Text>
     <Text>
       <GUID>1404000916</GUID>
-      <Text></Text>
+      <Text>??Samiq ibn Zahir, The Kalifa's Confectioner</Text>
     </Text>
     <Text>
       <GUID>1404000917</GUID>
-      <Text></Text>
+      <Text>??Aisha bint Marwan, Pearlsmith of Bahrain</Text>
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <Text></Text>
+      <Text>??Nabil ibn Yusuf al-Sarraj, With the Midas Touch</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
-      <Text></Text>
+      <Text>??Pearl Sorting Bank-Bench</Text>
     </Text>
     <Text>
       <GUID>1404000920</GUID>
-      <Text></Text>
+      <Text>??Storage Ordinance of the Diwan</Text>
     </Text>
     <Text>
       <GUID>1404000921</GUID>
-      <Text></Text>
+      <Text>??Edict of Urban Settlement</Text>
     </Text>
     <Text>
       <GUID>1404000922</GUID>
-      <Text></Text>
+      <Text>??Omar ibn Salih al-Tujjar, The Great Importer</Text>
     </Text>
     <Text>
       <GUID>1404000923</GUID>
-      <Text></Text>
+      <Text>??Hassan ibn Mahmud, Merchant of Nearby Lands</Text>
     </Text>
     <Text>
       <GUID>1404000924</GUID>
-      <Text></Text>
+      <Text>??Farid ibn Yasin, The Gadget Seller</Text>
     </Text>
     <Text>
       <GUID>1404000925</GUID>
-      <Text></Text>
+      <Text>??Vizier Decree on Urban Jurisdiction</Text>
     </Text>
     <Text>
       <GUID>1404000926</GUID>
-      <Text></Text>
+      <Text>??Ibrahim ibn Hasan al-Hammami, Baths Supervisor</Text>
     </Text>
     <Text>
       <GUID>1404000927</GUID>
-      <Text></Text>
+      <Text>??Regulations for Souks and Supply</Text>
     </Text>
     <Text>
       <GUID>1404000928</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000929</GUID>
-      <Text></Text>
+      <Text>??Rashid ibn al-Zahir, Consular Envoy of the Sultan</Text>
     </Text>
     <Text>
       <GUID>1404000930</GUID>
-      <Text></Text>
+      <Text>??Husayn ibn Tariq al-Qahwaji, Renowned Coffee Master</Text>
     </Text>
     <Text>
       <GUID>1404000931</GUID>
-      <Text></Text>
+      <Text>??Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation.</Text>
     </Text>
     <Text>
       <GUID>1404000932</GUID>
-      <Text></Text>
+      <Text>??Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees.</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
-      <Text></Text>
+      <Text>??This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season.</Text>
     </Text>
     <Text>
       <GUID>1404000934</GUID>
-      <Text></Text>
+      <Text>??Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding.</Text>
     </Text>
     <Text>
       <GUID>1404000935</GUID>
-      <Text></Text>
+      <Text>??This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds.</Text>
     </Text>
     <Text>
       <GUID>1404000936</GUID>
-      <Text></Text>
+      <Text>??Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands.</Text>
     </Text>
     <Text>
       <GUID>1404000937</GUID>
-      <Text></Text>
+      <Text>??This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests.</Text>
     </Text>
     <Text>
       <GUID>1404000938</GUID>
-      <Text></Text>
+      <Text>??Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid.</Text>
     </Text>
     <Text>
       <GUID>1404000939</GUID>
-      <Text></Text>
+      <Text>??Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance.</Text>
     </Text>
     <Text>
       <GUID>1404000940</GUID>
-      <Text></Text>
+      <Text>??This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale.</Text>
     </Text>
     <Text>
       <GUID>1404000941</GUID>
-      <Text></Text>
+      <Text>??Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets.</Text>
     </Text>
     <Text>
       <GUID>1404000942</GUID>
-      <Text></Text>
+      <Text>??Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections.</Text>
     </Text>
     <Text>
       <GUID>1404000943</GUID>
-      <Text></Text>
+      <Text>??Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye.</Text>
     </Text>
     <Text>
       <GUID>1404000944</GUID>
-      <Text></Text>
+      <Text>??Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality.</Text>
     </Text>
     <Text>
       <GUID>1404000945</GUID>
-      <Text></Text>
+      <Text>??Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation.</Text>
     </Text>
     <Text>
       <GUID>1404000946</GUID>
-      <Text></Text>
+      <Text>??From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method.</Text>
     </Text>
     <Text>
       <GUID>1404000947</GUID>
-      <Text></Text>
+      <Text>??Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment.</Text>
     </Text>
     <Text>
       <GUID>1404000948</GUID>
-      <Text></Text>
+      <Text>??This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools.</Text>
     </Text>
     <Text>
       <GUID>1404000949</GUID>
-      <Text></Text>
+      <Text>??Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear.</Text>
     </Text>
     <Text>
       <GUID>1404000950</GUID>
-      <Text></Text>
+      <Text>??Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste.</Text>
     </Text>
     <Text>
       <GUID>1404000951</GUID>
-      <Text></Text>
+      <Text>??This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work.</Text>
     </Text>
     <Text>
       <GUID>1404000952</GUID>
-      <Text></Text>
+      <Text>??Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity.</Text>
     </Text>
     <Text>
       <GUID>1404000953</GUID>
-      <Text></Text>
+      <Text>??An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures.</Text>
     </Text>
     <Text>
       <GUID>1404000954</GUID>
-      <Text></Text>
+      <Text>??Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal.</Text>
     </Text>
     <Text>
       <GUID>1404000955</GUID>
-      <Text></Text>
+      <Text>??Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty.</Text>
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <Text></Text>
+      <Text>??Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects.</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
-      <Text></Text>
+      <Text>??A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures.</Text>
     </Text>
     <Text>
       <GUID>1404000958</GUID>
-      <Text></Text>
+      <Text>??Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix."</Text>
     </Text>
     <Text>
       <GUID>1404000959</GUID>
-      <Text></Text>
+      <Text>??Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan.</Text>
     </Text>
     <Text>
       <GUID>1404000960</GUID>
-      <Text></Text>
+      <Text>??Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss.</Text>
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <Text></Text>
+      <Text>??Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials.</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
-      <Text></Text>
+      <Text>??This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character.</Text>
     </Text>
     <Text>
       <GUID>1404000963</GUID>
-      <Text></Text>
+      <Text>??Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction.</Text>
     </Text>
     <Text>
       <GUID>1404000964</GUID>
-      <Text></Text>
+      <Text>??A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection.</Text>
     </Text>
     <Text>
       <GUID>1404000965</GUID>
-      <Text></Text>
+      <Text>??Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting.</Text>
     </Text>
     <Text>
       <GUID>1404000966</GUID>
-      <Text></Text>
+      <Text>??Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes.</Text>
     </Text>
     <Text>
       <GUID>1404000967</GUID>
-      <Text></Text>
+      <Text>??Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers.</Text>
     </Text>
     <Text>
       <GUID>1404000968</GUID>
-      <Text></Text>
+      <Text>??Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts.</Text>
     </Text>
     <Text>
       <GUID>1404000969</GUID>
-      <Text></Text>
+      <Text>??Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption.</Text>
     </Text>
     <Text>
       <GUID>1404000970</GUID>
-      <Text></Text>
+      <Text>??This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings.</Text>
     </Text>
     <Text>
       <GUID>1404000971</GUID>
-      <Text></Text>
+      <Text>??Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate.</Text>
     </Text>
     <Text>
       <GUID>1404000972</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000973</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000974</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000975</GUID>
-      <Text></Text>
+      <Text>??Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment.</Text>
     </Text>
     <Text>
       <GUID>1404000976</GUID>
-      <Text></Text>
+      <Text>??Sheikh al-Qadiri, The Voice of the Minbar</Text>
     </Text>
     <Text>
       <GUID>1404000977</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000978</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000979</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000980</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000981</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000982</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000983</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000984</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000985</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000986</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000987</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000988</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000989</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000990</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000991</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000992</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000993</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000994</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000995</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000996</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000997</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000998</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404000999</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001000</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001001</GUID>
-      <Text></Text>
+      <Text>??Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility.</Text>
     </Text>
     <Text>
       <GUID>1404001002</GUID>
-      <Text></Text>
+      <Text>??Emporium Oriental</Text>
     </Text>
     <Text>
       <GUID>1404001003</GUID>
-      <Text></Text>
+      <Text>??Decorations that defy the desert, provide shade and distract from heat and thirst.</Text>
     </Text>
     <Text>
       <GUID>1404001004</GUID>
-      <Text></Text>
+      <Text>??The height of decadence to waste precious water in a desert like that, it could be confused for a fata morgana.</Text>
     </Text>
     <Text>
       <GUID>1404001005</GUID>
-      <Text></Text>
+      <Text>??Some may call it a waste of water but it is some of the few plants that can survive here.</Text>
     </Text>
     <Text>
       <GUID>1404001006</GUID>
-      <Text></Text>
+      <Text>??A beautiful mosaic, just make sure you wear shoes otherwise you will burn yourself.</Text>
     </Text>
     <Text>
       <GUID>1404001007</GUID>
-      <Text></Text>
+      <Text>??A piece of an old building that invites visitors to speculate about its history.</Text>
     </Text>
     <Text>
       <GUID>1404001008</GUID>
-      <Text></Text>
+      <Text>??A monument to the resilience of the nomads.</Text>
     </Text>
     <Text>
       <GUID>1404001009</GUID>
-      <Text></Text>
+      <Text>??A small break from the scorching heat.</Text>
     </Text>
     <Text>
       <GUID>1404001010</GUID>
-      <Text></Text>
+      <Text>??Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
     </Text>
     <Text>
       <GUID>1404001011</GUID>
-      <Text></Text>
+      <Text>??Nomad Needs</Text>
     </Text>
     <Text>
       <GUID>1404001012</GUID>
-      <Text></Text>
+      <Text>??Envoy Needs</Text>
     </Text>
     <Text>
       <GUID>1404001013</GUID>
-      <Text></Text>
+      <Text>??Into the Desert</Text>
     </Text>
     <Text>
       <GUID>1404001014</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001015</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001016</GUID>
-      <Text></Text>
+      <Text>??Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate.</Text>
     </Text>
     <Text>
       <GUID>1404001017</GUID>
-      <Text></Text>
+      <Text>??Build: &lt;br/&gt;Grand Mosque Phase 1/3</Text>
     </Text>
     <Text>
       <GUID>1404001018</GUID>
-      <Text></Text>
+      <Text>??Build: &lt;br/&gt;Grand Mosque Phase 2/3</Text>
     </Text>
     <Text>
       <GUID>1404001019</GUID>
-      <Text></Text>
+      <Text>??Build: &lt;br/&gt;Grand Mosque Phase 3/3</Text>
     </Text>
     <Text>
       <GUID>1404001020</GUID>
-      <Text></Text>
+      <Text>??DESERT TREASURES</Text>
     </Text>
     <Text>
       <GUID>1404001021</GUID>
-      <Text></Text>
+      <Text>??Desert Treasures Exhibition</Text>
     </Text>
     <Text>
       <GUID>1404001022</GUID>
@@ -4065,272 +1849,244 @@
       <Text>Hoja de palmera del santo mártir</Text>
     </Text>
     <Text>
-      <GUID>1404001025</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001026</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001027</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001028</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001029</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001030</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
-      <GUID>1404001031</GUID>
-      <Text></Text>
-    </Text>
-    <Text>
       <GUID>1404001045</GUID>
-      <Text></Text>
+      <Text>??Crossing the Border</Text>
     </Text>
     <Text>
       <GUID>1404001046</GUID>
-      <Text></Text>
+      <Text>??Delicate Diplomacy</Text>
     </Text>
     <Text>
       <GUID>1404001047</GUID>
-      <Text></Text>
+      <Text>??Of Camels and Dunes</Text>
     </Text>
     <Text>
       <GUID>1404001048</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;After days of travel,&lt;/b&gt; your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. &lt;b&gt;You must decide how to cross the border.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001049</GUID>
-      <Text></Text>
+      <Text>??Hide with the caravan to enter</Text>
     </Text>
     <Text>
       <GUID>1404001050</GUID>
-      <Text></Text>
+      <Text>??Go to the border checkpoint to officially enter</Text>
     </Text>
     <Text>
       <GUID>1404001051</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;Concealed among merchants and laden camels,&lt;/b&gt; you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. &lt;b&gt;Will you remain with the caravan, or strike out along the main road?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001052</GUID>
-      <Text></Text>
+      <Text>??Stay with the caravan</Text>
     </Text>
     <Text>
       <GUID>1404001053</GUID>
-      <Text></Text>
+      <Text>??Follow the main road</Text>
     </Text>
     <Text>
       <GUID>1404001054</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;A vigilant guard halts the caravan,&lt;/b&gt; his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. &lt;b&gt;How will you proceed?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001055</GUID>
-      <Text></Text>
+      <Text>??Wait for a message from the capital</Text>
     </Text>
     <Text>
       <GUID>1404001056</GUID>
-      <Text></Text>
+      <Text>??Let Madame Kahina talk to them</Text>
     </Text>
     <Text>
       <GUID>1404001057</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The border officials examine your papers with suspicion.&lt;/b&gt; Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment.</Text>
     </Text>
     <Text>
       <GUID>1404001058</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The caravan winds along hidden desert tracks,&lt;/b&gt; skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination.</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The imperial road proves swift and well maintained.&lt;/b&gt; Traders and couriers pass in both directions, and before long, the sprawling capital rises before you.</Text>
     </Text>
     <Text>
       <GUID>1404001060</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;After several tense hours,&lt;/b&gt; a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital.</Text>
     </Text>
     <Text>
       <GUID>1404001061</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;Madame Kahina speaks calmly with the guards,&lt;/b&gt; invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital.</Text>
     </Text>
     <Text>
       <GUID>1404001062</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;You have travelled for days across the desert,&lt;/b&gt; guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. &lt;b&gt;Do you continue on your course, or investigate the oasis?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001063</GUID>
-      <Text></Text>
+      <Text>??Continue in the direction of the map</Text>
     </Text>
     <Text>
       <GUID>1404001064</GUID>
-      <Text></Text>
+      <Text>??Go to the oasis</Text>
     </Text>
     <Text>
       <GUID>1404001065</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The road ends abruptly,&lt;/b&gt; swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move.</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
-      <Text></Text>
+      <Text>??Climb the dunes to take a look around</Text>
     </Text>
     <Text>
       <GUID>1404001067</GUID>
-      <Text></Text>
+      <Text>??You go back and find a new path</Text>
     </Text>
     <Text>
       <GUID>1404001068</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;Beyond the dunes you reach the coast,&lt;/b&gt; and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief.</Text>
     </Text>
     <Text>
       <GUID>1404001069</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;You encounter a small band of nomads,&lt;/b&gt; who listen carefully before pointing you toward a safer route through the desert.</Text>
     </Text>
     <Text>
       <GUID>1404001070</GUID>
-      <Text></Text>
+      <Text>??Follow the coast</Text>
     </Text>
     <Text>
       <GUID>1404001071</GUID>
-      <Text></Text>
+      <Text>??Ask the fishers in the village</Text>
     </Text>
     <Text>
       <GUID>1404001072</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The coastal path is long,&lt;/b&gt; but eventually you reach your destination.</Text>
     </Text>
     <Text>
       <GUID>1404001073</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The fishermen agree to guide you,&lt;/b&gt; and soon deliver you safely to your destination.</Text>
     </Text>
     <Text>
       <GUID>1404001074</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The oasis dissolves into shimmering air,&lt;/b&gt; a mere fata morgana. In the distance, however, you spot nomads crossing the desert.</Text>
     </Text>
     <Text>
       <GUID>1404001075</GUID>
-      <Text></Text>
+      <Text>??Ask nomads for help</Text>
     </Text>
     <Text>
       <GUID>1404001076</GUID>
-      <Text></Text>
+      <Text>??Go back to the road</Text>
     </Text>
     <Text>
       <GUID>1404001077</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;This oasis is real,&lt;/b&gt; and after resting in the shade you feel renewed.</Text>
     </Text>
     <Text>
       <GUID>1404001078</GUID>
-      <Text></Text>
+      <Text>??Go back to the road</Text>
     </Text>
     <Text>
       <GUID>1404001079</GUID>
-      <Text></Text>
+      <Text>??Wait for the night and use the stars to navigate</Text>
     </Text>
     <Text>
       <GUID>1404001080</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;At last, you reach the capital of the Sultanate,&lt;/b&gt; a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. &lt;b&gt;How will you find your path?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001081</GUID>
-      <Text></Text>
+      <Text>??Ask a bazaar vendor</Text>
     </Text>
     <Text>
       <GUID>1404001082</GUID>
-      <Text></Text>
+      <Text>??Find a way on your own</Text>
     </Text>
     <Text>
       <GUID>1404001083</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The vendor eagerly shows you his wares,&lt;/b&gt; insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. &lt;b&gt;You now stand before the palace gates.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001084</GUID>
-      <Text></Text>
+      <Text>??Let Madame Kahina talk to the palace guards</Text>
     </Text>
     <Text>
       <GUID>1404001085</GUID>
-      <Text></Text>
+      <Text>??Show the invitation</Text>
     </Text>
     <Text>
       <GUID>1404001086</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The winding streets quickly confuse you,&lt;/b&gt; and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace.</Text>
     </Text>
     <Text>
       <GUID>1404001087</GUID>
-      <Text></Text>
+      <Text>??Let Madame Kahina talk to the palace guards</Text>
     </Text>
     <Text>
       <GUID>1404001088</GUID>
-      <Text></Text>
+      <Text>??Show the invitation to the palace guards</Text>
     </Text>
     <Text>
       <GUID>1404001089</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;Though chaotic, the city reveals its logic to you,&lt;/b&gt; and soon the great palace rises ahead.</Text>
     </Text>
     <Text>
       <GUID>1404001090</GUID>
-      <Text></Text>
+      <Text>??Let Madame Kahina talk to the palace guards</Text>
     </Text>
     <Text>
       <GUID>1404001091</GUID>
-      <Text></Text>
+      <Text>??Show the invitation to the palace guards</Text>
     </Text>
     <Text>
       <GUID>1404001092</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The guards step aside,&lt;/b&gt; and you are led through marble halls into the Sultan’s grand audience chamber.</Text>
     </Text>
     <Text>
       <GUID>1404001093</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;You stand before the Sultan,&lt;/b&gt; seated upon an ornate throne. All eyes are upon you. How will you greet him?</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
-      <Text></Text>
+      <Text>??Attempt to greet him in his language and customs</Text>
     </Text>
     <Text>
       <GUID>1404001095</GUID>
-      <Text></Text>
+      <Text>??Greet him respectfully in your own customs</Text>
     </Text>
     <Text>
       <GUID>1404001096</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The Sultan smiles warmly,&lt;/b&gt; clearly pleased by your effort to honor his traditions.</Text>
     </Text>
     <Text>
       <GUID>1404001097</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;Your attempt falters,&lt;/b&gt; and a murmur spreads through the court as the Sultan regards you coolly.</Text>
     </Text>
     <Text>
       <GUID>1404001098</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The Sultan listens with interest,&lt;/b&gt; intrigued by your foreign customs and manner.</Text>
     </Text>
     <Text>
       <GUID>1404001099</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;A flicker of displeasure crosses the Sultan’s face,&lt;/b&gt; as your unfamiliar etiquette breaks with courtly tradition.</Text>
     </Text>
     <Text>
       <GUID>1404001100</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The Sultan speaks of a vision for the future,&lt;/b&gt; of opening his realm to the world and embracing progress. He tells you of &lt;b&gt;Wadi Al Zahir&lt;/b&gt;, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.&lt;br&gt;&lt;br&gt;In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.&lt;br&gt;&lt;br&gt;&lt;b&gt;With a final gesture, the Sultan presents you with a map and his blessing.&lt;/b&gt; Your next destination is clear: Wadi Al Zahir.</Text>
     </Text>
     <Text>
       <GUID>1404001101</GUID>
-      <Text></Text>
+      <Text>??Hear what the Sultan has to say</Text>
     </Text>
     <Text>
       <GUID>1404001102</GUID>
-      <Text></Text>
+      <Text>??Present your own ambitions for cooperation</Text>
     </Text>
     <Text>
       <GUID>1404001103</GUID>
-      <Text></Text>
+      <Text>??&lt;b&gt;The Sultan listens intently,&lt;/b&gt; weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans.</Text>
     </Text>
     <Text>
       <GUID>1404001104</GUID>
-      <Text></Text>
+      <Text>??Listen to the Sultan’s proposal</Text>
     </Text>
   </ModOp>
 </ModOps>
