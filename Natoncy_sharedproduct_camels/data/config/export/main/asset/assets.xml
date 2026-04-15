@@ -105,5 +105,25 @@
         </Values>
       </Asset>
     </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000236</GUID>
+            <Name>camels fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>camels fluff text</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
   </Group>
 </ModOps>

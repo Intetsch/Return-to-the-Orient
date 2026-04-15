@@ -20,6 +20,7 @@ TODO:
         Noria
         Bath house
     Multiple level warehouses / kontors
+    Refresh shared mods
     
     Update modinfo.json
     Remove unnecessary files
@@ -30,6 +31,7 @@ TODO:
     Localization secondary languages
 
 BUGS
+    Museum set broken in UI
     Emergency station has heat need in UI
     Watered fields not shown as green and unwatered fields are not counted as dry
         ? irrigation_condition_01 [GUID: 601016]
