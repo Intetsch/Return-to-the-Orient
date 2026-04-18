@@ -13,10 +13,8 @@ Check these:
     "TODO"    
 
 TODO:
-    Secondary pipe (GroundDecalAsset)
-        Noria
-        Bath house
-    Multiple level warehouses / kontors
+    Scholars as semi-new population
+    orient_harbour as hacienda-like
     
     Update enums on github
     Refresh shared mods
@@ -29,12 +27,14 @@ TODO:
     Localization secondary languages
 
 BUGS
-    Museum set broken in UI
-    Emergency station has heat need in UI
-    Watered fields not shown as green and unwatered fields are not counted as dry
-        ? irrigation_condition_01 [GUID: 601016]
-    Wrong kontor model sometimes
-    Pilgrimage Reward Subheader 1404000812 not displayed
+    High
+        Emergency station has heat need in UI
+        Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
+    Medium
+        Museum set broken in UI
+        Pilgrimage Reward Subheader 1404000812 not displayed
+    Low
+        Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
 
 
 
@@ -45,8 +45,8 @@ WILL PROBABLY NOT IMPLEMENT:
     Newspaper events
     Population quests
     Festival
-    Scholars as semi-new population
-        orient_harbour as hacienda-like
+
+    Lumberjack
     Coffee house
         expand model with outdoor seating area
         Coffee recipes
@@ -56,9 +56,6 @@ WILL PROBABLY NOT IMPLEMENT:
         oriental_gate
         oriental_gate2
         assassins_fortress
-    Lumberjack
-    Bugs
-        Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
     Silver production for sabers, hookahs and chandeliers
     Palace System with a reskinned enbesa palace
     Trains / Oil

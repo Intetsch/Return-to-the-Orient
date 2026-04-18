@@ -2,14 +2,14 @@
 
     <ModOp Type="addNextSibling" GUID="114509">
         <Asset>
-            <BaseAssetGUID>1010371</BaseAssetGUID>
+            <BaseAssetGUID>100517</BaseAssetGUID>
             <Values>
                 <Standard>
-                    <GUID>1404000156</GUID>
-                    <Name>logistic_orient_01 (Warehouse I)</Name>
+                    <GUID>1404001107</GUID>
+                    <Name>logistic_orient_03 (Warehouse III)</Name>
                 </Standard>
                 <Text>
-                    <TextOverride>1010371</TextOverride>
+                    <TextOverride>100517</TextOverride>
                 </Text>
                 <Blocking/>
                 <Building>
@@ -112,7 +112,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Filename>data/graphics/1404_import/buildings/public/south/oriental_market_building/s_oriental_market_building_01.cfg</Filename>
+                            <Filename>data/graphics/1404_import/buildings/public/south/oriental_market_building/s_oriental_market_building_03.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
@@ -147,78 +147,7 @@
                 <StorageBase/>
                 <Attackable/>
                 <Upgradable>
-                    <NextGUID>1404001106</NextGUID>
-                    <UpgradeCost>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>0</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>0</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>1</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>1</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                            <Ingredient>114356</Ingredient>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>2</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>2</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                            <Amount>10</Amount>
-                            <Ingredient>114402</Ingredient>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>3</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>3</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>4</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>4</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>5</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>5</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                        </Item>
-                    </UpgradeCost>
+                    <NextGUID>0</NextGUID>
                 </Upgradable>
                 <Pausable/>
             </Values>
@@ -228,14 +157,14 @@
     <!-- GlobalBalancing -->
     <ModOp Type="add" GUID="2001270" Path="Values/GlobalConfig/GUIDRegionReplacements/Item[4]/GUIDGroup">
         <Mod3>
-            <AssetGUID>1404000156</AssetGUID>
+            <AssetGUID>1404001107</AssetGUID>
         </Mod3>
     </ModOp>
 
     <!-- all buildings with maintenance DLC11 -->
     <ModOp Type="add" GUID="368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
-            <GUID>1404000156</GUID>
+            <GUID>1404001107</GUID>
         </Item>
     </ModOp>
 

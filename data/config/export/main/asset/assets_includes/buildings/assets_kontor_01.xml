@@ -1,17 +1,20 @@
 <ModOps>
 
-    <ModOp Type="addNextSibling" GUID="114509">
+    <ModOp Type="addNextSibling" GUID="117858">
         <Asset>
-            <BaseAssetGUID>1010371</BaseAssetGUID>
+            <BaseAssetGUID>1010517</BaseAssetGUID>
             <Values>
                 <Standard>
-                    <GUID>1404000156</GUID>
-                    <Name>logistic_orient_01 (Warehouse I)</Name>
+                    <GUID>1404000218</GUID>
+                    <Name>kontor_main_orient_01</Name>
                 </Standard>
                 <Text>
-                    <TextOverride>1010371</TextOverride>
+                    <TextOverride>1010517</TextOverride>
                 </Text>
-                <Blocking/>
+                <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
+                </Blocking>
                 <Building>
                     <AssociatedRegions>Mod3</AssociatedRegions>
                 </Building>
@@ -22,58 +25,58 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>500</Amount>
+                            <Amount>1</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>1</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1010196</Ingredient>
-                            <Amount>6</Amount>
+                            <Amount>2</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>2</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>114402</Ingredient>
-                            <Amount>0</Amount>
+                            <Amount>3</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>3</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>0</Amount>
+                            <Amount>4</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>4</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>4</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -84,7 +87,7 @@
                                 <InheritedIndex>5</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>5</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -96,7 +99,7 @@
                     <OnSelection>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList/>
+                            <ActionList />
                         </Values>
                     </OnSelection>
                 </Selection>
@@ -107,54 +110,49 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Filename>data/graphics/1404_import/buildings/public/south/oriental_market_building/s_oriental_market_building_01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/kontor/kontor_01.cfg</Filename>
                         </Item>
                     </Variations>
+                    <Skins>
+                        <SkinList />
+                    </Skins>
                 </Object>
-                <Constructable/>
-                <Mesh/>
-                <SoundEmitter/>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter />
                 <Locked />
-                <Infolayer/>
-                <FeedbackController/>
-                <Warehouse/>
-                <LogisticNode/>
-                <UpgradeList/>
+                <Infolayer />
+                <FeedbackController />
+                <Warehouse />
+                <LogisticNode />
+                <DistributionCenter>
+                    <KontorUpgrades>
+                        <Main>
+                            <Asset>1404000218</Asset>
+                        </Main>
+                    </KontorUpgrades>
+                </DistributionCenter>
+                <MinimapToken />
                 <AmbientMoodProvider>
-                    <Murmur>Africa_Factories</Murmur>
+                    <Murmur>Africa_Harbour</Murmur>
                 </AmbientMoodProvider>
-                <Maintenance>
-                    <Maintenances>
-                        <Item>
-                            <VectorElement>
-                                <InheritedIndex>0</InheritedIndex>
-                                <InheritanceMapV2>
-                                    <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
-                                        <Index>0</Index>
-                                    </Entry>
-                                </InheritanceMapV2>
-                            </VectorElement>
-                            <Amount>10</Amount>
-                        </Item>
-                    </Maintenances>
-                </Maintenance>
-                <StorageBase/>
-                <Attackable/>
+                <LoadingPier />
+                <StorageBase />
+                <Attackable />
                 <Upgradable>
-                    <NextGUID>1404001106</NextGUID>
+                    <NextGUID>1404001108</NextGUID>
                     <UpgradeCost>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -165,32 +163,34 @@
                                 <InheritedIndex>1</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>114356</Ingredient>
+                            <!--Wanza Wood-->
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>2</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>10</Amount>
+                            <Amount>5</Amount>
                             <Ingredient>114402</Ingredient>
+                            <!--Mud Bricks-->
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>3</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -201,7 +201,7 @@
                                 <InheritedIndex>4</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>4</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -212,7 +212,7 @@
                                 <InheritedIndex>5</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>Warehouse</TemplateName>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
                                         <Index>5</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -220,22 +220,116 @@
                         </Item>
                     </UpgradeCost>
                 </Upgradable>
-                <Pausable/>
+                <Maintenance />
+                <Pausable />
+                <Distribution>
+                    <Deltas>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Product>1404000012</Product>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Product>1404000013</Product>
+                        </Item>
+                    </Deltas>
+                </Distribution>
+                <UpgradeList />
+                <Culture />
+                <QuestObject />
+                <Attacker>
+                    <Turrets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborWarehouse7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <TurretCfg>data/graphics/buildings/special/harbor_05_colony01/harbor_05_colony01_turret.cfg</TurretCfg>
+                        </Item>
+                    </Turrets>
+                </Attacker>
+                <CommandQueue />
+                <BuildingUnique />
             </Values>
         </Asset>
     </ModOp>
 
-    <!-- GlobalBalancing -->
-    <ModOp Type="add" GUID="2001270" Path="Values/GlobalConfig/GUIDRegionReplacements/Item[4]/GUIDGroup">
-        <Mod3>
-            <AssetGUID>1404000156</AssetGUID>
-        </Mod3>
+    <ModOp Type="addNextSibling" GUID="114758">
+        <Asset>
+            <Template>HarborWarehouseSlot7</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000219</GUID>
+                    <Name>Harbour Slot (Ghost) Orient</Name>
+                    <InfoDescription>163049</InfoDescription>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Type>NotSerialized</Type>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/kontor/kontor_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <DistributionCenterMarker />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Unpopulated Island</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44534</LineID>
+                </Text>
+                <QuestObject />
+                <MinimapToken>
+                    <TokenAsset>0</TokenAsset>
+                </MinimapToken>
+                <Blocking />
+                <SoundEmitter />
+                <Constructable />
+                <Building>
+                    <BuildingType>Warehouse</BuildingType>
+                    <HasBorderRectOutline>0</HasBorderRectOutline>
+                    <AssociatedRegions>Meta;Moderate;Colony01;Arctic;Africa;Mod3</AssociatedRegions>
+                </Building>
+            </Values>
+        </Asset>
     </ModOp>
 
-    <!-- all buildings with maintenance DLC11 -->
-    <ModOp Type="add" GUID="368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="141600" Path="Values/SelectionFeature/UpgradeLists/Item/BuildingGroup[Item/BaseBuilding='114629']">
         <Item>
-            <GUID>1404000156</GUID>
+            <BaseBuilding>1404000218</BaseBuilding>
         </Item>
     </ModOp>
 

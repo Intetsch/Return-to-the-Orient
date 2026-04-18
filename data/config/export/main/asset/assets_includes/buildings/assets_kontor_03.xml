@@ -2,17 +2,14 @@
 
     <ModOp Type="addNextSibling" GUID="117858">
         <Asset>
-            <BaseAssetGUID>1010517</BaseAssetGUID>
+            <BaseAssetGUID>100511</BaseAssetGUID>
             <Values>
                 <Standard>
-                    <GUID>1404000218</GUID>
-                    <Name>kontor_main_orient_01</Name>
+                    <GUID>1404001109</GUID>
+                    <Name>kontor_main_orient_03</Name>
                 </Standard>
                 <Text>
-                    <LocaText>
-                        <English />
-                    </LocaText>
-                    <LineID>44470</LineID>
+                    <TextOverride>100511</TextOverride>
                 </Text>
                 <Blocking>
                     <GroundDecalAsset>102460</GroundDecalAsset>
@@ -118,7 +115,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Filename>data/graphics/buildings/orient/kontor_01/kontor_01.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/kontor/kontor_03.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
@@ -203,64 +200,6 @@
                 <BuildingUnique />
             </Values>
         </Asset>
-    </ModOp>
-
-    <ModOp Type="addNextSibling" GUID="114758">
-        <Asset>
-            <Template>HarborWarehouseSlot7</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404000219</GUID>
-                    <Name>Harbour Slot (Ghost) Orient</Name>
-                    <InfoDescription>163049</InfoDescription>
-                </Standard>
-                <Mesh />
-                <Object>
-                    <Type>NotSerialized</Type>
-                    <Variations>
-                        <Item>
-                            <Filename>data/graphics/buildings/orient/kontor_01/kontor_01.cfg</Filename>
-                        </Item>
-                    </Variations>
-                </Object>
-                <DistributionCenterMarker />
-                <Selection>
-                    <OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <ActionList />
-                        </Values>
-                    </OnSelection>
-                </Selection>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Unpopulated Island</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44534</LineID>
-                </Text>
-                <QuestObject />
-                <MinimapToken>
-                    <TokenAsset>0</TokenAsset>
-                </MinimapToken>
-                <Blocking />
-                <SoundEmitter />
-                <Constructable />
-                <Building>
-                    <BuildingType>Warehouse</BuildingType>
-                    <HasBorderRectOutline>0</HasBorderRectOutline>
-                    <AssociatedRegions>Meta;Moderate;Colony01;Arctic;Africa;Mod3</AssociatedRegions>
-                </Building>
-            </Values>
-        </Asset>
-    </ModOp>
-
-    <ModOp Type="add" GUID="141600" Path="Values/SelectionFeature/UpgradeLists/Item/BuildingGroup[Item/BaseBuilding='114629']">
-        <Item>
-            <BaseBuilding>1404000218</BaseBuilding>
-        </Item>
     </ModOp>
 
 </ModOps>
