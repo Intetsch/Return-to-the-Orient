@@ -97,7 +97,7 @@
                 <Mesh />
                 <Object>
                     <Variations>
-                        <Item>
+                        <!-- <Item>
                             <Filename>data/graphics/1404_import/buildings/residence/south/nomad_house/s_nomad_house_01.cfg</Filename>
                         </Item>
                         <Item>
@@ -108,7 +108,19 @@
                         </Item>
                         <Item>
                             <Filename>data/graphics/1404_import/buildings/residence/south/nomad_house/s_nomad_house_04.cfg</Filename>
+                        </Item> -->
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/scholar_residences/residence_tier06_estate01/residence_tier06_estate01.cfg</Filename>
                         </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/scholar_residences/residence_tier06_estate02/residence_tier06_estate02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/scholar_residences/residence_tier06_estate03/residence_tier06_estate03.cfg</Filename>
+                        </Item>
+                        <!-- <Item>
+                            <Filename>data/graphics/1404_import/buildings/native/south/orient_harbour/s_orient_harbour.cfg</Filename>
+                        </Item> -->
                     </Variations>
                     <Skins>
                         <DefaultSkinName>1404000016</DefaultSkinName>
