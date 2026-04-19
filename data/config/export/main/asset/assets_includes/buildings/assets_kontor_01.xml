@@ -168,8 +168,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114356</Ingredient>
-                            <!--Wanza Wood-->
+                            <Amount>20</Amount>
+                            <Ingredient>1010196</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -181,9 +181,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>5</Amount>
+                            <Amount>10</Amount>
                             <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
                         </Item>
                         <Item>
                             <VectorElement>
@@ -195,6 +194,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
+                            <Amount>0</Amount>
+                            <Ingredient>1404000256</Ingredient>
                         </Item>
                         <Item>
                             <VectorElement>
