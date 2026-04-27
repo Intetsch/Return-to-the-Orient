@@ -13,39 +13,36 @@ Check these:
     "TODO"    
 
 TODO:
-    Scholars as semi-new population
-    orient_harbour as hacienda-like
+    Update unlocks
+    Remove rivers and irrigation patches
+    Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
+    Emergency station has heat need in UI
     
-    Update enums on github
+    Update enum Mod12 on github
     Refresh shared mods
-    Update modinfo.json
     Remove unnecessary files
+    Update modinfo.json
     Deploy mod as beta to Mod.io
-    
+
+BETA:
     Building props
     Feedback units
     Localization secondary languages
-
-BUGS
-    High
-        Emergency station has heat need in UI
-        Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
-    Medium
-        Museum set broken in UI
-        Pilgrimage Reward Subheader 1404000812 not displayed
-    Low
-        Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
-
-
-
-
-
-
-WILL PROBABLY NOT IMPLEMENT:
-    Newspaper events
+    Festival: Period of Fasting
     Population quests
-    Festival
 
+BUGS:
+    Museum set broken in UI
+    Pilgrimage Reward Subheader 1404000812 not displayed
+    Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
+
+
+
+
+
+
+WILL NOT IMPLEMENT:
+    Newspaper events
     Lumberjack
     Coffee house
         expand model with outdoor seating area

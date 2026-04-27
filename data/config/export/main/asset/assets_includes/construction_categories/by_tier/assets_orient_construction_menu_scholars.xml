@@ -1,0 +1,60 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="502107">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001114</GUID>
+                    <Name>orient construction menu Scholars (tier)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/workforce/icon_workforce_2d_scholar.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404001115</Building>
+                        </Item>
+                        <Item>
+                            <Building>118737</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000300</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000289</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000299</Building>
+                        </Item>
+                        <Item>
+                            <Building>120286</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000165</Building>
+                        </Item>
+                        <Item>
+                            <Building>120287</Building>
+                        </Item>
+                        <Item>
+                            <Building>120288</Building>
+                        </Item>
+                        <Item>
+                            <Building>120289</Building>
+                        </Item>
+                        <Item>
+                            <Building>118739</Building>
+                        </Item>
+                        <!-- <Item>
+                            <Building>1404000290</Building>
+                        </Item> -->
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>502107</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

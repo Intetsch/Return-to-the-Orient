@@ -1,0 +1,111 @@
+<ModOps>
+    
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001123</GUID>
+                    <Name>Orient_Hacienda_Decree3</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/policies_hacienda/icon_unloading_permits.png</IconFilename>
+                    <InfoDescription>1404001124</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Improved Workflows</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404001125</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001124</GUID>
+                    <Name>Orient_Decree3_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Anything from office layout to reformatting forms can speed up the processing of the mountains of paperwork</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001125</GUID>
+                    <Name>Orient_Hacienda - Decree3 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/policies_hacienda/icon_unloading_permits.png</IconFilename>
+                    <InfoDescription>1404001124</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000204</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404001123</TextOverride>
+                </Text>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                </FactoryUpgrade>
+                <BuildingUpgrade />
+                <Buff/>
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001134</GUID>
+                    <Name>Orient_Decree3_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Increases production of consulates</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

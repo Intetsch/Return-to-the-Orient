@@ -1,0 +1,175 @@
+<ModOps>
+
+    <!-- University -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
+        <Item>
+            <Product>1404001116</Product>
+            <SupplyWeight>12</SupplyWeight>
+            <ResearchValue>1</ResearchValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <!-- Rum -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010257']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010257']">
+        <Item>
+            <Product>1404000265</Product>
+            <Amount>0.0008</Amount>
+            <HappinessValue>2</HappinessValue>
+            <ResearchValue>2</ResearchValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <!-- Tailored Suits -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114430']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114430']">
+        <Item>
+            <Product>1404000253</Product>
+            <Amount>0.00275</Amount>
+            <SupplyWeight>23</SupplyWeight>
+            <ResearchValue>4</ResearchValue>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <!-- Bombins -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120037']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120037']">
+        <Item>
+            <Product>1404000283</Product>
+            <Amount>0.0008</Amount>
+            <HappinessValue>3</HappinessValue>
+            <ResearchValue>2</ResearchValue>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <!-- Electricity -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010354']">
+        <Item>
+            <Product>1404000262</Product>
+            <Amount>0.0008</Amount>
+            <SupplyWeight>12</SupplyWeight>
+            <ResearchValue>1</ResearchValue>
+            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <!-- Radio Station -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114425']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114425']">
+        <Item>
+            <Product>1404000288</Product>
+            <SupplyWeight>12</SupplyWeight>
+            <ResearchValue>1</ResearchValue>
+            <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredBuildings>
+                <Item>
+                    <RequiredBuilding>1404001113</RequiredBuilding>
+                </Item>
+            </RequiredBuildings>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='535']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='536']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='2524']">
+        <RequiredBuildings>
+            <Item>
+                <RequiredBuilding>114445</RequiredBuilding>
+            </Item>
+        </RequiredBuildings>
+    </ModOp>
+
+</ModOps>

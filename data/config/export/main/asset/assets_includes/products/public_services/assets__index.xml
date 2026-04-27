@@ -1,10 +1,9 @@
 <ModOps>
 
-    <Include File="assets_mosque.xml" />
     <Include File="assets_bath_house.xml" />
     <Include File="assets_coffee_house.xml" />
     <Include File="assets_consulate.xml" />
-
+    
     <Include File="assets_marketstall_biscuits.xml" />
     <Include File="assets_marketstall_fans.xml" />
     <Include File="assets_marketstall_gramophones.xml" />
@@ -13,5 +12,8 @@
     <Include File="assets_marketstall_scooter.xml" />
     <Include File="assets_marketstall_steam_carriages.xml" />
     <Include File="assets_marketstall_typewriters.xml" />
+    
+    <Include File="assets_mosque.xml" />
+    <Include File="assets_orient_hacienda_product.xml" />
 
 </ModOps>

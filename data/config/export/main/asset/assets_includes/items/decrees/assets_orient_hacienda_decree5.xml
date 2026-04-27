@@ -1,0 +1,119 @@
+<ModOps>
+    
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001129</GUID>
+                    <Name>Orient_Hacienda_Decree5</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_manufacturing_reform.png</IconFilename>
+                    <InfoDescription>1404001130</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Improved Durability</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404001131</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001130</GUID>
+                    <Name>Orient_Decree5_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The combination of traditional weaving and modern maaterials creats fabric that can moor a ship.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001131</GUID>
+                    <Name>Orient_Hacienda - Decree5 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_manufacturing_reform.png</IconFilename>
+                    <InfoDescription>1404001130</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404001113</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404001129</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff/>
+                <PopulationUpgrade/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000253</ProvidedNeed>
+                            <AmountInPercent>-25</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000283</ProvidedNeed>
+                            <AmountInPercent>-25</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000262</ProvidedNeed>
+                            <AmountInPercent>-25</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade/>
+                <CultureUpgrade/>
+                <InfluenceSourceUpgrade/>
+                <WarehouseUpgrade/>
+                <DistributionUpgrade/>
+                <ItemContainerUpgrade/>
+                <FactoryUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001136</GUID>
+                    <Name>Orient_Decree5_Info</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Reduces the consumption of local wares for scholars</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

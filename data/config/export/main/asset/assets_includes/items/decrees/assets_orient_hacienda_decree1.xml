@@ -1,0 +1,106 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="25622">
+        <Asset>
+            <Template>EffectContainer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001117</GUID>
+                    <Name>Orient_Hacienda_Decree1</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_depot_annex_reform.png</IconFilename>
+                    <InfoDescription>1404001118</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Improved Storage</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <EffectContainer>
+                    <Effects>
+                        <Item>
+                            <Effect>1404001119</Effect>
+                        </Item>
+                    </Effects>
+                </EffectContainer>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001118</GUID>
+                    <Name>Orient_Decree1_Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Standardized and stackable containers not only speeds up delivery but also minimizes needed storage space.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25734">
+        <Asset>
+            <Template>HarbourOfficeBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001119</GUID>
+                    <Name>Orient_Hacienda - Decree1 Buff</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/palace/icon_depot_annex_reform.png</IconFilename>
+                    <InfoDescription>1404001118</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>193866</GUID>
+                            <!--all depots-->
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>1404001117</TextOverride>
+                </Text>
+                <FactoryUpgrade/>
+                <BuildingUpgrade/>
+                <Buff/>
+                <AttackerUpgrade/>
+                <VisitorHarborUpgrade/>
+                <VisitorUpgrade/>
+                <PassiveTradeGoodGenUpgrade/>
+                <KontorUpgrade/>
+                <AttackableUpgrade/>
+                <PierUpgrade/>
+                <CultureUpgrade/>
+                <WarehouseUpgrade>
+                    <StorageCapacityModifier>50</StorageCapacityModifier>
+                </WarehouseUpgrade>
+                <ItemContainerUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="144136">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001132</GUID>
+                    <Name>Orient_Decree1_Info</Name>
+                </Standard>
+                <Text>
+                    <TextOverride>144164</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
