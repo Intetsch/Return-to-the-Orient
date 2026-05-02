@@ -15,8 +15,8 @@ Check these:
 TODO:
     Update unlocks
     Remove rivers and irrigation patches
-    Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
-    Emergency station has heat need in UI
+    Bug: Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
+    Bug: Emergency station has heat need in UI
     
     Update enum Mod12 on github
     Refresh shared mods
@@ -25,20 +25,27 @@ TODO:
     Deploy mod as beta to Mod.io
 
 BETA:
+    Bug: Museum set broken in UI
+    Bug: Pilgrimage Reward Subheader 1404000812 not displayed
     Building props
     Feedback units
     Localization secondary languages
     Festival: Period of Fasting
     Population quests
-
-BUGS:
-    Museum set broken in UI
-    Pilgrimage Reward Subheader 1404000812 not displayed
-    Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
+    Bug: Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
 
 
 
 
+<Item>
+    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building01.cfg</Filename>
+</Item>
+<Item>
+    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building02.cfg</Filename>
+</Item>
+<Item>
+    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building03.cfg</Filename>
+</Item>
 
 
 WILL NOT IMPLEMENT:

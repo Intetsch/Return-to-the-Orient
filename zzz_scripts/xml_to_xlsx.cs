@@ -54,13 +54,19 @@ foreach (string modFolder in modFolders)
                 XDocument doc = XDocument.Load(file);
 
                 return doc.Descendants("Asset")
+                    .Where(a =>
+                    {
+                        var textNode = a.Element("Values")?.Element("Text");
+                        var hasOverride = textNode?.Element("TextOverride") != null;
+                        return !hasOverride;
+                    })
                     .Select(a => (
                         guid: a.Element("Values")?.Element("Standard")?.Element("GUID")?.Value ?? "",
                         text:
                             a.Element("Values")?.Element("Text")?.Element("LocaText")?
                                 .Element("English")?.Element("Text")?.Value
-                            ?? a.Element("Values")?.Element("Standard")?.Element("Name")?.Value
-                            ?? "",
+                        ?? a.Element("Values")?.Element("Standard")?.Element("Name")?.Value
+                        ?? "",
                         template: a.Element("Template")?.Value ?? ""
                     ));
             })

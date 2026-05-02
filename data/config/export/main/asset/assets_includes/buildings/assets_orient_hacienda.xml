@@ -19,9 +19,11 @@
                     </LocaText>
                 </Text>
                 <Blocking>
+                    <GroundDecalAsset>102460</GroundDecalAsset>
+                    <GroundDecalInvisible>102459</GroundDecalInvisible>
                     <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
                 </Blocking>
-                <Building>
+                <Building><TerrainType>Coast</TerrainType>
                     <BuildingType>Logistic</BuildingType>
                     <BuildingCategoryName>11151</BuildingCategoryName>
                     <BuildModeRandomRotation>180</BuildModeRandomRotation>
