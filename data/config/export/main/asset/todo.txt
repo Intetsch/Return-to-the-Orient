@@ -2,7 +2,6 @@ Enums:
     RegionID: Mod3 (Orient)
     ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
-Material set: a_test_rolf (Islands)
 Required DLCs: Land of Lions, New World Rising
 Optional DLCs: Tourist Season
 Optional Mods: New Horizons, Noblesse Oblige
@@ -13,10 +12,8 @@ Check these:
     "TODO"    
 
 TODO:
-    Update unlocks
-    Remove rivers and irrigation patches
-    Bug: Watered fields not shown as green and unwatered fields are not counted as dry; depends on region
-    Bug: Emergency station has heat need in UI
+    Separate scholar production chains like 120286
+    Bug: Fertility sets all the same
     
     Update enum Mod12 on github
     Refresh shared mods
@@ -25,6 +22,8 @@ TODO:
     Deploy mod as beta to Mod.io
 
 BETA:
+    Bug: Watered fields not shown as green; depends on region
+    Bug: Emergency station has heat need in UI
     Bug: Museum set broken in UI
     Bug: Pilgrimage Reward Subheader 1404000812 not displayed
     Building props

@@ -16,7 +16,7 @@
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>3600</CounterAmount>
+                                <CounterAmount>36</CounterAmount> <!-- TODO envoy counter -->
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
@@ -29,20 +29,18 @@
                                     <ActionUnlockAsset>
                                         <UnlockAssets>
                                             <Item>
-                                                <Asset>1404000781</Asset>
+                                                <Asset>1404000766</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404000324</Asset>
+                                                <Asset>1404000327</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404001025</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404001115</Asset>
                                             </Item>
                                         </UnlockAssets>
-                                        <UnhideAssets>
-                                            <Item>
-                                                <Asset>1404000789</Asset>
-                                            </Item>
-                                            <Item>
-                                                <Asset>1404000325</Asset>
-                                            </Item>
-                                        </UnhideAssets>
                                     </ActionUnlockAsset>
                                 </Values>
                             </TriggerAction>

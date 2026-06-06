@@ -16,7 +16,7 @@
                             <ConditionPlayerCounter>
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>300</CounterAmount>
+                                <CounterAmount>3</CounterAmount> <!-- TODO envoy counter -->
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
@@ -41,30 +41,36 @@
                                                 <Asset>1404000202</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404000788</Asset>
-                                            </Item>
-                                            <Item>
                                                 <Asset>1404000584</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404000585</Asset>
                                             </Item>
-                                        </UnlockAssets>
-                                        <UnhideAssets>
                                             <Item>
-                                                <Asset>1404000784</Asset>
+                                                <Asset>1404000765</Asset>
                                             </Item>
                                             <Item>
                                                 <Asset>1404000375</Asset>
                                             </Item>
                                             <Item>
+                                                <Asset>1404001111</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets>
+                                            <Item>
                                                 <Asset>1404000380</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404000777</Asset>
+                                                <Asset>1404000772</Asset>
                                             </Item>
                                             <Item>
-                                                <Asset>1404000773</Asset>
+                                                <Asset>1404000763</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404000381</Asset>
+                                            </Item>
+                                            <Item>
+                                                <Asset>1404001112</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

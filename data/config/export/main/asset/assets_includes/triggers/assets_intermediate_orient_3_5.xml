@@ -1,0 +1,75 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="128215">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>128215</GUID>
+					<Name>Intermediate Africa 3.5</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>118745</Context>
+								<!--Moderate Scholar Population-->
+								<CounterAmount>7000</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                    <TriggerCondition>
+                                        <Template>ConditionPlayerCounter</Template>
+                                        <Values>
+                                            <Condition />
+                                            <ConditionPlayerCounter>
+                                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                <Context>1404000011</Context>
+                                                <CounterAmount>36</CounterAmount> <!-- TODO envoy counter -->
+                                            </ConditionPlayerCounter>
+                                        </Values>
+                                    </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404000767</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+					<ResetTrigger>
+						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+						<Values>
+							<EmptyAutoCreateValue/>
+						</Values>
+					</ResetTrigger>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+    </ModOp>
+
+</ModOps>
