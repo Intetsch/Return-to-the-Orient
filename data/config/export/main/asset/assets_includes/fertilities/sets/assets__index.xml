@@ -1,7 +1,13 @@
 <ModOps>
 
-    <Include File="assets_set_orient_1.xml" />
-    <Include File="assets_set_orient_2.xml" />
+    <Include File="assets_set_orient_L1.xml" />
+    <Include File="assets_set_orient_L2.xml" />
+    
+    <Include File="assets_set_orient_M1.xml" />
+    <Include File="assets_set_orient_M2.xml" />
 
+    <Include File="assets_set_orient_S1.xml" />
+    <Include File="assets_set_orient_S2.xml" />
+    <Include File="assets_set_orient_S3.xml" />
 
 </ModOps>
