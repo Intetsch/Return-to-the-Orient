@@ -39,10 +39,8 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                    <Context>15000000</Context>
-                                                    <!-- TODO 15000004 Investors -->
-                                                    <CounterAmount>5</CounterAmount>
-                                                    <!-- TODO 5000 -->
+                                                    <Context>15000004</Context>
+                                                    <CounterAmount>5000</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
                                         </TriggerCondition>
@@ -58,10 +56,8 @@
                                                                     <Condition />
                                                                     <ConditionPlayerCounter>
                                                                         <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                                        <Context>15000000</Context>
-                                                                        <!-- TODO 5403 Artistas -->
-                                                                        <CounterAmount>6</CounterAmount>
-                                                                        <!-- TODO 6000 -->
+                                                                        <Context>5403</Context>
+                                                                        <CounterAmount>6000</CounterAmount>
                                                                     </ConditionPlayerCounter>
                                                                 </Values>
                                                             </TriggerCondition>
@@ -77,10 +73,8 @@
                                                                                         <Condition />
                                                                                         <ConditionPlayerCounter>
                                                                                             <PlayerCounter>PopulationByLevel</PlayerCounter>
-                                                                                            <Context>15000000</Context>
-                                                                                            <!-- TODO 114330 Elders -->
-                                                                                            <CounterAmount>1</CounterAmount>
-                                                                                            <!-- TODO 1000 -->
+                                                                                            <Context>114330</Context>
+                                                                                            <CounterAmount>1000</CounterAmount>
                                                                                         </ConditionPlayerCounter>
                                                                                     </Values>
                                                                                 </TriggerCondition>

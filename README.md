@@ -32,6 +32,8 @@ No other mods are required but could be useful for the production of shared ware
 Other mods should be compatible, this includes mods that add new regions (New Horizons) and new sessions (Kingsgrove, Mayabeque etc.).
 Recommended optional mods: Noblesse Oblige (Ricky & Taludas) and New Horizons
 
+The mod content starts with a quest to complete an expedition by Madame Kahina.
+To unlock the quest and expedition you need to have 5000 Investors, 6000 Artistas and 1000 Elders.
 
 # Credits 
 
