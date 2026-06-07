@@ -16,6 +16,7 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 - Consulates are central to the bureaucratic work of envoys and create the paper work for special events and buildings that connect the east and west.
 - Introduce your curious envoys with Old and New Word wares via a modular bazaar system for further research.
 - Build a new monument with its own special events for additional influence.
+- Settle Scholars with alternative needs and without build permits.
 - Over 30 new ornaments to distract your population from the desert heat.
 - Madame Kahina joined you on your journey and is willing to help you by trading new wares and new orient-specific items.
 - Use the Foreign Trading Company to import needed wares for the envoys that you might not be able to produce yourself.
