@@ -14,7 +14,6 @@ Check these:
 TODO:
     Bug: Emergency station has heat need in UI
     
-    Refresh shared mods
     Remove unnecessary files
     Update modinfo.json
     Deploy mod as beta to Mod.io
@@ -31,17 +30,6 @@ BETA:
     Bug: Blueprint ghost not visible in orient region (also broken in New Horizons, so probably ok)
 
 
-
-
-<Item>
-    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building01.cfg</Filename>
-</Item>
-<Item>
-    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building02.cfg</Filename>
-</Item>
-<Item>
-    <Filename>data\graphics\1404_import\buildings\native\south\orient_harbour_building\s_orient_harbour_building03.cfg</Filename>
-</Item>
 
 
 WILL NOT IMPLEMENT:

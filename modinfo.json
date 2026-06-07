@@ -27,6 +27,19 @@
     "Spanish": "Return to the Orient",
     "Taiwanese": "Return to the Orient"
   },
+  "Description": {
+    "English": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Chinese": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
   "ModDependencies": [
     "natoncy_sharedproduct_camels",
     "natoncy_sharedproduct_ceremonial_sabers",
@@ -45,12 +58,12 @@
     "natoncy_sharedproduct_spice_powder",
     "natoncy_sharedproduct_sultans_seals",
     "natoncy_sharedproduct_turbans",
+    "spice_powder_kurila",
     "Taludas_sharedproduct_almonds",
     "Taludas_sharedproduct_ebony",
     "Taludas_sharedproduct_honey",
     "Taludas_sharedproduct_marzipan",
-    "Taludas_sharedproduct_silkfabric",
-	"spice_powder_kurila"
+    "Taludas_sharedproduct_silkfabric"
   ],
   "CreatorName": "Natoncy"
 }

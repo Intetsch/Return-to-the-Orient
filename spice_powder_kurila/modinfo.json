@@ -1,9 +1,7 @@
 {
-  "out": "${annoMods}/spice_powder_kurila",
   "Version": "1.0",
   "ModID": "spice_powder_kurila",
-  "LoadAfterIds": [
-  ],
+  "LoadAfterIds": [],
   "Category": {
     "English": "Product",
     "Chinese": "Product",
@@ -31,5 +29,18 @@
     "Taiwanese": "Spice Powder (Kurila)"
   },
   "CreatorName": "Kurila",
-  "CreatorContact": "https://discord.gg/YTQGDFK"
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Description": {
+    "English": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "German": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  }
 }
