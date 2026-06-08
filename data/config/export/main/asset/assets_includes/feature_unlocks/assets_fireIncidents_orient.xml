@@ -1,0 +1,36 @@
+<ModOps>
+    
+    <ModOp Type="addNextSibling" GUID="117662">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001152</GUID>
+                    <Name>FireIncidents_Orient</Name>
+                </Standard>
+                <Locked/>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionUnlocked>
+                                <UnlockNeeded>119892</UnlockNeeded>
+                                <!--institution_colony02_01 (Fire Station)-->
+                            </ConditionUnlocked>
+                            <ConditionPropsNegatable/>
+                        </Values>
+                    </TriggerCondition>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

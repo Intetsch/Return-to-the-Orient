@@ -1,7 +1,8 @@
 <ModOps>
 
     <Include File="assets_institution_orient_01_police.xml" />
-    <Include File="assets_institution_orient_02_emergency.xml" />
+    <Include File="assets_institution_orient_02_fire.xml" />
+    <Include File="assets_institution_orient_03_illness.xml" />
 
     <Include File="assets_service_orient_01_bazaar.xml" />
     <Include File="assets_service_orient_02_mosque.xml" />

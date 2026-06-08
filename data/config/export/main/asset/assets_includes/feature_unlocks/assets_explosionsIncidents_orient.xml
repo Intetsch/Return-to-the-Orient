@@ -1,0 +1,35 @@
+<ModOps>
+    
+    <ModOp Type="addNextSibling" GUID="117662">
+        <Asset>
+            <Template>FeatureUnlock</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001155</GUID>
+                    <Name>ExplosionsIncidents_Orient</Name>
+                </Standard>
+                <Locked/>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionUnlocked</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionUnlocked>
+                                <UnlockNeeded>1404000376</UnlockNeeded>
+                            </ConditionUnlocked>
+                            <ConditionPropsNegatable/>
+                        </Values>
+                    </TriggerCondition>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

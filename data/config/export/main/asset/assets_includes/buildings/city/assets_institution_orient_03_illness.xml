@@ -5,10 +5,10 @@
             <Template>CityInstitutionBuilding</Template>
             <Values>
                 <Standard>
-                    <GUID>1404000376</GUID>
-                    <Name>institution_orient_02 (Emergency Station)</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_ranger_station.png</IconFilename>
-                    <InfoDescription>118032</InfoDescription>
+                    <GUID>1404001151</GUID>
+                    <Name>institution_orient_02 (Hospital)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/city_institution/icon_hospital.png</IconFilename>
+			        <InfoDescription>3789</InfoDescription>
                 </Standard>
                 <Building>
                     <BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -95,11 +95,11 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/emergency_station/s_emergency_station.cfg</Filename>
+                            <Filename>data/graphics/1404_import/buildings/native/south/assassins_fortress/s_assassins_fortress.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
-                        <DefaultSkinName>1404000376</DefaultSkinName>
+                        <DefaultSkinName>1404001151</DefaultSkinName>
                         <DefaultSkinDescription>23853</DefaultSkinDescription>
                         <DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
                         <OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/cosmetic_dlc09/icon_firestation_default.png</OverrideDefaultIcon>
@@ -117,13 +117,7 @@
                     </OnSelection>
                 </Selection>
                 <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Emergency Station</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>3736</LineID>
+                    <TextOverride>1010464</TextOverride>
                 </Text>
                 <Constructable />
                 <Locked />
@@ -150,13 +144,14 @@
                 <Infolayer />
                 <UpgradeList />
                 <IncidentResolver>
-                    <ResolverUnit>100579</ResolverUnit>
-                    <SpecialUnit>100580</SpecialUnit>
-                    <ResolvableIncidents>Fire;Illness</ResolvableIncidents>
-                    <DuringConstructionText>17463</DuringConstructionText>
-                    <DuringIncidentHeadline>3779</DuringIncidentHeadline>
+                    <ResolverUnit>100583</ResolverUnit>
+                    <ResolverUnitCount>2</ResolverUnitCount>
+                    <SpecialUnit>100584</SpecialUnit>
+                    <ResolvableIncidents>Illness</ResolvableIncidents>
+                    <DuringConstructionText>15224</DuringConstructionText>
+                    <DuringIncidentHeadline>3781</DuringIncidentHeadline>
                     <ActionButtonText>3690</ActionButtonText>
-                    <DuringIncidentHeadlineIcon>500323</DuringIncidentHeadlineIcon>
+                    <DuringIncidentHeadlineIcon>501922</DuringIncidentHeadlineIcon>
                 </IncidentResolver>
                 <Maintenance>
                     <Maintenances>
@@ -192,10 +187,6 @@
                 <Culture />
                 <QuestObject />
                 <Upgradable />
-                <Watered>
-                    <RequiresWater>1</RequiresWater>
-                    <MissingWaterInfolayer>119857</MissingWaterInfolayer>
-                </Watered>
             </Values>
         </Asset>
     </ModOp>
