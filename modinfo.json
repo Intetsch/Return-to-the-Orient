@@ -1,6 +1,7 @@
 {
   "Version": "0.1",
   "ModID": "natoncy_return_to_the_orient",
+	"ModioResourceId": 0,
   "Category": {
     "English": "Addon",
     "French": "Addon",
@@ -40,6 +41,16 @@
     "Spanish": "file::README.md",
     "Taiwanese": "file::README.md"
   },
+  "DLCDependencies": [
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"NewWorldRising",
+      "Dependant": "required"
+    }
+  ],
   "ModDependencies": [
     "natoncy_sharedproduct_camels",
     "natoncy_sharedproduct_ceremonial_sabers",
@@ -64,6 +75,17 @@
     "Taludas_sharedproduct_honey",
     "Taludas_sharedproduct_marzipan",
     "Taludas_sharedproduct_silkfabric"
+  ],
+  "KnownIssues":[
+    {
+      "English": "Trading post ghost invisible, will not fix"
+    },
+    {
+      "English": "Irrigated fields not green"
+    },
+    {
+      "English": "Pilgrimage Reward Subheader not displayed correctly"
+    }
   ],
   "CreatorName": "Natoncy"
 }
