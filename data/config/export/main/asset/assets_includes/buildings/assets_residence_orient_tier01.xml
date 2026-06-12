@@ -29,7 +29,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>0</Amount>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>2</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -41,8 +42,6 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
-                            <Amount>1</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -68,7 +67,7 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1404000256</Ingredient>
-                            <Amount>4</Amount>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -137,7 +136,7 @@
                 <Constructable>
                     <DestructionCategory>Residents</DestructionCategory>
                 </Constructable>
-				<Locked />
+                <Locked />
                 <Upgradable>
                     <NextGUID>1404000017</NextGUID>
                     <UpgradeCost>
@@ -151,7 +150,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>1</Amount>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>2</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -163,8 +163,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
-                            <Amount>2</Amount>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>3</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -176,8 +176,8 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
-                            <Amount>3</Amount>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
@@ -189,8 +189,6 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1404000256</Ingredient>
-                            <Amount>4</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
