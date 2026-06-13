@@ -78,7 +78,9 @@
                 <ItemContainerUpgrade/>
                 <IncidentInfluencerUpgrade/>
                 <IrrigationUpgrade>
-                    <PipeCapacityUpgrade>150</PipeCapacityUpgrade>
+                    <PipeCapacityUpgrade>
+                        <Value>150</Value>
+                    </PipeCapacityUpgrade>
                 </IrrigationUpgrade>
                 <EcoSystemProviderUpgrade/>
                 <ResourceUpgrade/>
