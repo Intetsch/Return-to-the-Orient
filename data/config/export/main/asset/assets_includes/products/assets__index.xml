@@ -4,4 +4,30 @@
     <Include File="public_services/assets__index.xml" />
     <Include File="workforce/assets__index.xml" />
 
+    <!-- # Storage List -->
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999005084']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1999005084</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999005093']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1999005093</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1440209']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1440209</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999005351']" Path="/Values/ProductStorageList/ProductList">
+        <Item>
+            <Product>1999005351</Product>
+        </Item>
+    </ModOp>
+        
+
 </ModOps>
