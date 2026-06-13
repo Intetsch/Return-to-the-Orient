@@ -88,7 +88,7 @@
     <!-- DistributionUpgrade / AddDeltas -->
     <ModOp GUID='191303' Type="add" Path="Values/DistributionUpgrade/AddDeltas/">
         <Item>
-            <Product>1404000012</Product>
+            <Product>1404000013</Product>
             <Amount>20</Amount>
         </Item>
     </ModOp>
@@ -102,7 +102,7 @@
 
     <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/WorkforceList">
         <Item>
-            <Factory>1404000013</Factory>
+            <Asset>1404000013</Asset>
         </Item>
     </ModOp>
 
