@@ -15,11 +15,11 @@
                 <CfgFileName>data/dlc06/graphics/effects/street/africa_street_01/africa_street_01.cfg</CfgFileName>
                 <BridgeAsset>1404000846</BridgeAsset>
                 <!--Dirt Bridge Africa-->
-                <InternalID>58</InternalID>
+                <InternalID>69</InternalID>
                 <AdaptToNeighbors>
                     <NeighborsThatMakeUsAdapt>StreetLowQuality;StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetLowQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetLowQuality</NeighborsThatMakeUsAdapt>
                 </AdaptToNeighbors>
-                <UpgradeModeTarget>1404000847</UpgradeModeTarget>
+                <UpgradeModeTarget>119029</UpgradeModeTarget>
                 <!--AF | Fast Street-->
             </Street>
             <Constructable/>
@@ -40,10 +40,10 @@
         </Values>
     </Asset>
     </ModOp>
-    <ModOp Type="addNextSibling" GUID="114523">
+    <!-- <ModOp Type="addNextSibling" GUID="114523">
         <Asset>
             <BaseAssetGUID>1010035</BaseAssetGUID>
-            <!--Stone Street-->
+            tone Stree
             <Values>
                 <Standard>
                     <GUID>1404000847</GUID>
@@ -86,7 +86,7 @@
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
+                            ud Brick
                         </Item>
                         <Item>
                             <VectorElement>
@@ -126,14 +126,14 @@
                 <Street>
                     <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
                     <BridgeAsset>122988</BridgeAsset>
-                    <!--Stone Bridge Africa-->
-                    <InternalID>27</InternalID>
+                    tone Bridge Afric
+                    <InternalID>28</InternalID>
                     <DecalVariation>data/config/street/streetdecal_var_ext.txt</DecalVariation>
                     <AdaptToNeighbors>
                         <NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality</NeighborsThatMakeUsAdapt>
                     </AdaptToNeighbors>
                     <DowngradeModeTarget>1404000845</DowngradeModeTarget>
-                    <!--AF | Dirt Street-->
+                    F | Dirt Stree
                 </Street>
                 <Constructable/>
                 <Locked/>
@@ -142,7 +142,7 @@
                         <InfectedFire>
                             <Item>
                                 <Sound>214659</Sound>
-                                <!--wwe_sfx_bld_inc_burn-->
+                                we_sfx_bld_inc_bur
                             </Item>
                         </InfectedFire>
                     </IncidentSounds>
@@ -156,7 +156,7 @@
                 <Ornament/>
             </Values>
         </Asset>
-    </ModOp>
+    </ModOp> -->
     <ModOp Type="addNextSibling" GUID="114523">
       <Asset>
        <Template>BridgeBuilding</Template>
@@ -325,7 +325,5 @@
 	    </Values>
 	  </Asset>
     </ModOp>
-
-
 
 </ModOps>
