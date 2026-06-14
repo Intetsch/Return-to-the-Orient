@@ -6,6 +6,8 @@ Few foreigners have ever been welcome, yet rumours of unrest spread across the d
 
 Your task is to establish a settlement in this deserted land, build a thriving city and introduce the Sultanate to the wonders of modern industry, while balancing progress with tradition.
 
+https://mod.io/g/anno-1800/m/return-to-the-orient#description
+
 # Feature Overview
 
 - A new hot and dry desert region inspired by the middle east.
