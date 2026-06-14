@@ -21,7 +21,6 @@
                         </English>
                     </LocaText>
                 </Text>
-                <Locked />
             </Values>
         </Asset>
     </ModOp>
@@ -32,7 +31,7 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="1010471,102283" Path="Values/Culture/Sets">
+    <ModOp Type="replace" GUID="1010471,102283" Path="/Values/Culture/Sets/Item[18]">
         <Item>
             <Set>1404001020</Set>
         </Item>
