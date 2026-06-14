@@ -10,6 +10,16 @@
                     <IconFilename>data/ui/2kimages/main/icons/icon_session_landoflions.png</IconFilename>
                 </Standard>
                 <Region>
+                    <CoastGUIDReplacements>
+                        <Item>
+                            <OldGUID>119029</OldGUID>
+                            <NewGUID>131865</NewGUID>
+                        </Item>
+                        <Item>
+                            <OldGUID>1404000845</OldGUID>
+                            <NewGUID>131865</NewGUID>
+                        </Item>
+                    </CoastGUIDReplacements>
                     <Ambiente>Region_map_global</Ambiente>
                     <RegionID>Mod3</RegionID>
                     <FeedbackDescription>1404000231</FeedbackDescription>
@@ -1009,7 +1019,7 @@
         <Item>
             <GUIDGroup>
                 <Mod3>
-                    <AssetGUID>1404000847</AssetGUID>
+                    <AssetGUID>119029</AssetGUID>
                 </Mod3>
             </GUIDGroup>
         </Item>
@@ -1065,7 +1075,7 @@
         <!-- result: 33 -->
         <Mod3>
             <StreetNormal>1404000845</StreetNormal>
-            <StreetFast>1404000847</StreetFast>
+            <StreetFast>119029</StreetFast>
             <Quay>101339</Quay>
             <IrrigationPipe>112842</IrrigationPipe>
             <Crossing_Pipe_StreetNormal>117786</Crossing_Pipe_StreetNormal>
