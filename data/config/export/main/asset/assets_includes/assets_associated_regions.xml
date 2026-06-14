@@ -21,7 +21,7 @@
     <ModOp Type="add" GUID="120020" Path="Values/Product/AssociatedRegion">;Mod3</ModOp>
 
     <ModOp Type="add" GUID="101339" Path="/Values/Building">
-        <AssociatedRegions>Mod3</AssociatedRegions>
+        <AssociatedRegions>Colony01;Mod3</AssociatedRegions>
     </ModOp>
 
 </ModOps>
