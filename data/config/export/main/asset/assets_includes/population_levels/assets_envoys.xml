@@ -61,8 +61,8 @@
                             <Amount>0.0004</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>600</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>0</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -70,16 +70,16 @@
                             <Amount>0.000434783</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
                             <Product>1404000151</Product>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>3</MoneyValue>
-                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -87,8 +87,8 @@
                             <Amount>0.000333333</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -96,8 +96,8 @@
                             <Amount>0.000434783</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>3000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>2399</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -105,8 +105,8 @@
                             <Amount>0.000526316</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>4300</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>3599</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>2399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -114,8 +114,8 @@
                             <Amount>0.001</Amount>
                             <SupplyWeight>3</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>5500</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>4900</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>3599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
@@ -137,12 +137,21 @@
 
                         <!-- Luxury -->
                         <Item>
+                            <Product>1404000238</Product>
+                            <Amount>0.000555556</Amount>
+                            <HappinessValue>8</HappinessValue>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>600</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                        </Item>
+                        <Item>
                             <Product>1404000361</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>2</ResearchValue>
-                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>0</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -150,15 +159,6 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>2</ResearchValue>
-                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>0</NoWeightPopulationCount>
-                            <IsConsideredByAI>1</IsConsideredByAI>
-                        </Item>
-                        <Item>
-                            <Product>1404000238</Product>
-                            <Amount>0.000555556</Amount>
-                            <HappinessValue>8</HappinessValue>
-                            <MoneyValue>12</MoneyValue>
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
@@ -168,8 +168,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>3</ResearchValue>
-                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -177,8 +177,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>3</ResearchValue>
-                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1400</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -186,8 +186,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>3</ResearchValue>
-                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -195,8 +195,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>1900</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -204,8 +204,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>3600</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -213,8 +213,8 @@
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
-                            <FullWeightPopulationCount>3600</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>2400</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
                         <Item>
@@ -222,8 +222,8 @@
                             <Amount>0.000263158</Amount>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <FullWeightPopulationCount>5000</FullWeightPopulationCount>
-                            <NoWeightPopulationCount>4299</NoWeightPopulationCount>
+                            <FullWeightPopulationCount>3600</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
