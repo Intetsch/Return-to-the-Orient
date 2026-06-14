@@ -14,7 +14,7 @@
                     <RegionID>Mod3</RegionID>
                     <FeedbackDescription>1404000231</FeedbackDescription>
                     <AnimalDescription>1404000232</AnimalDescription>
-                    <Street>114523</Street>
+                    <Street>1404000845</Street>
                     <DistributionCenter>1404000218</DistributionCenter>
                     <ConstructionMaterialList>
                         <Item>
@@ -1001,7 +1001,7 @@
         <Item>
             <GUIDGroup>
                 <Mod3>
-                    <AssetGUID>114523</AssetGUID>
+                    <AssetGUID>1404000845</AssetGUID>
                 </Mod3>
             </GUIDGroup>
         </Item>
@@ -1009,7 +1009,7 @@
         <Item>
             <GUIDGroup>
                 <Mod3>
-                    <AssetGUID>119029</AssetGUID>
+                    <AssetGUID>1404000847</AssetGUID>
                 </Mod3>
             </GUIDGroup>
         </Item>
@@ -1064,8 +1064,8 @@
     <ModOp Type="merge" GUID="141032" Path="Values/GlobalConstructionAIBalancing/RegionStreets">
         <!-- result: 33 -->
         <Mod3>
-            <StreetNormal>114523</StreetNormal>
-            <StreetFast>119029</StreetFast>
+            <StreetNormal>1404000845</StreetNormal>
+            <StreetFast>1404000847</StreetFast>
             <Quay>101339</Quay>
             <IrrigationPipe>112842</IrrigationPipe>
             <Crossing_Pipe_StreetNormal>117786</Crossing_Pipe_StreetNormal>
@@ -1163,7 +1163,7 @@
                         <Template>CustomizableButtonConfig</Template>
                         <Values>
                             <CustomizableButtonConfig>
-                                <CustomizableBuilding>114523</CustomizableBuilding>
+                                <CustomizableBuilding>1404000845</CustomizableBuilding>
                                 <BuildingInfotip>500132</BuildingInfotip>
                             </CustomizableButtonConfig>
                         </Values>
