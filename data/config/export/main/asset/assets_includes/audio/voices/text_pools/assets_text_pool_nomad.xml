@@ -6,7 +6,7 @@
       <Values>
         <Standard>
           <GUID>1404000565</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestStarted</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -41,7 +41,7 @@
       <Values>
         <Standard>
           <GUID>1404000566</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestReminder</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -70,7 +70,7 @@
       <Values>
         <Standard>
           <GUID>1404000567</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestInvitation_QuestResolveConfirmation</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -99,7 +99,7 @@
       <Values>
         <Standard>
           <GUID>1404000568</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestAborted</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -128,7 +128,7 @@
       <Values>
         <Standard>
           <GUID>1404000569</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestSuccessful</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -157,7 +157,7 @@
       <Values>
         <Standard>
           <GUID>1404000577</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_QuestFailed</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -186,7 +186,7 @@
       <Values>
         <Standard>
           <GUID>1404000578</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_angry</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -239,7 +239,7 @@
       <Values>
         <Standard>
           <GUID>1404000579</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_neutral</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
@@ -277,7 +277,7 @@
       <Values>
         <Standard>
           <GUID>1404000580</GUID>
-          <Name>TextPool_Orient_Tier01_Residence_</Name>
+          <Name>TextPool_Orient_Tier01_Residence_happy</Name>
         </Standard>
         <TextPool />
         <PreConditionList>
