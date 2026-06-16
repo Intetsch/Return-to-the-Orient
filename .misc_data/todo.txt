@@ -10,11 +10,12 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
-    Building props
-    Feedback units
-    Localization secondary languages
-    Remove green grass patches
-    Replace harbor building models
+- Building props
+- Feedback units
+- Localization secondary languages
+- Remove green grass patches
+- Replace harbor building models
+- Population quests
 
 Bugs:
 - Blueprints are not visible
@@ -22,26 +23,19 @@ Bugs:
 - Workforce does not show up in the orient, does show up in NW/OW
 - Watered fields not shown as green fields when placing canals or farm fields
 - Pilgrimage reward subheader not displayed correctly (1404000812)
+- Blueprint ghost for Trading Post when settling a new island not visible (also broken in New Horizons, so probably ok)
 
 
 
 
 WILL NOT IMPLEMENT:
-    Festival: Period of Fasting
-    Population quests
-    Bug: Blueprint ghost for Trading Post when settling a new island not visible (also broken in New Horizons, so probably ok)
-    Newspaper events
-    Lumberjack
-    Coffee house
-        expand model with outdoor seating area
-        Coffee recipes
-    ornamental
-        market_place_element
-        jugglers_camp
-        oriental_gate
-        oriental_gate2
-        assassins_fortress
-    Silver production for sabers, hookahs and chandeliers
-    Palace System with a reskinned enbesa palace
-    Trains / Oil
-        Orient Express
+- Festival: Period of Fasting
+- Newspaper events
+- Lumberjack
+- Coffee house
+    expand model with outdoor seating area
+    Coffee recipes
+- Silver production for sabers, hookahs and chandeliers
+- Palace System with a reskinned enbesa palace
+- Trains / Oil
+    Orient Express
