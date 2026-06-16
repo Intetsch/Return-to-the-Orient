@@ -43,6 +43,8 @@ To unlock the quest and expedition you need to have 5000 Investors, 6000 Artista
 ### Development
 
 - Natoncy
+- Satanoy (Item development)
+- Intetsch
 
 ### Shared Mods 
 
