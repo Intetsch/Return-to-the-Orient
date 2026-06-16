@@ -148,23 +148,30 @@
             </RequiredBuildings>
         </Item>
     </ModOp>
-
-
-    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='535']">
+    
+    
+    <!-- Local Mail -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='535']">
         <RequiredBuildings>
             <Item>
                 <RequiredBuilding>114445</RequiredBuilding>
             </Item>
         </RequiredBuildings>
     </ModOp>
-    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='536']">
+    
+
+    <!-- Regional Mail -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='536']">
         <RequiredBuildings>
             <Item>
                 <RequiredBuilding>114445</RequiredBuilding>
             </Item>
         </RequiredBuildings>
     </ModOp>
-    <ModOp Type="remove" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='2524']">
+    
+    
+    <!-- Overseas Mail -->
+    <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='2524']">
         <RequiredBuildings>
             <Item>
                 <RequiredBuilding>114445</RequiredBuilding>
