@@ -1,0 +1,92 @@
+<ModOps>
+
+  <ModOp Type="replace" GUID="141893" Path="/Values/IncidentFestival/FestivalTypes/Stadium13">
+    <Stadium13>
+        <StartNotification>501208</StartNotification>
+        <!--FestivalStarted-->
+        <EndNotification>501210</EndNotification>
+        <!--FestivalEnded-->
+        <AboutToEndNotification>501211</AboutToEndNotification>
+        <!--FestivalAboutToEnd-->
+        <EstimatedRemainingTimeForAboutToEndNotification>150000</EstimatedRemainingTimeForAboutToEndNotification>
+        <BonusAttractiveness>250</BonusAttractiveness>
+        <IncidentProtection/>
+        <Effects>
+            <Item>
+                <Effect>1404000849</Effect>
+                <!--SpiritualFestivalAfricaResBuff-->
+            </Item>
+        </Effects>
+        <Weight>100</Weight>
+        <FestivalName>1404000847</FestivalName>
+        <!--Spiritual Festival Africa Name-->
+        <FestivalIcon>1404000847</FestivalIcon>
+        <!--Spiritual Festival Africa Name-->
+        <ParadeWagons>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDancer</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDancer</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeDrums</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+            <Item>
+                <Wagon>ParadeTrumpets</Wagon>
+            </Item>
+        </ParadeWagons>
+        <MinParadeDistance>20</MinParadeDistance>
+        <MaxParadeDistance>40</MaxParadeDistance>
+        <ParadeSoundEvent>279129</ParadeSoundEvent>
+        <!--wwe_sfx_inc_festival_music_africa-->
+        <CrowdSoundEvent>200733</CrowdSoundEvent>
+        <!--wwe_sfx_inc_festival_cheer_voice-->
+        <FestivalDecoration>142641</FestivalDecoration>
+        <!--DefaultFestivalEffectConfig-->
+        </Stadium13>
+  </ModOp>
+
+  <ModOp Type="add" GUID="141893" Path="/Values/IncidentFestival/FestivalsPerRegion">
+    <Mod3>
+      <AllowedFestivals>Stadium13;Stadium14</AllowedFestivals>
+    </Mod3>
+  </ModOp>
+
+</ModOps>
