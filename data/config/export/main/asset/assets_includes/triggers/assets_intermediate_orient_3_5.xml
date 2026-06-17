@@ -5,8 +5,8 @@
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
-					<GUID>128215</GUID>
-					<Name>Intermediate Africa 3.5</Name>
+					<GUID>1404001161</GUID>
+					<Name>Intermediate Orient 3.5</Name>
 				</Standard>
 				<Trigger>
 					<TriggerCondition>
@@ -16,7 +16,6 @@
 							<ConditionPlayerCounter>
 								<PlayerCounter>PopulationByLevel</PlayerCounter>
 								<Context>118745</Context>
-								<!--Moderate Scholar Population-->
 								<CounterAmount>7000</CounterAmount>
 							</ConditionPlayerCounter>
 						</Values>

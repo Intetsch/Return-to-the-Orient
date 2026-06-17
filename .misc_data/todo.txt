@@ -10,21 +10,22 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
-- Building props
-- Feedback units
+- Add feedback units to the monument construction sites
+- Replace Enbesa feedback units with custom population and worker model textures
 - Localization secondary languages
 - Remove green grass patches
 - Cover ocean water that is visible through islands
 - Replace harbor building models
+- Seed items
 - Population quests
 - Festival of Fast Breaking Auto Trigger
 
 Bugs:
-- Monument event cooldown not visible
+- Festival Icon not showing
+- Unable to load items onto a ship/airship again from an island
 - Workforce does not show up in the orient, does show up in NW/OW
-- Watered fields not shown as green fields when placing canals or farm fields
-- Pilgrimage reward subheader not displayed correctly (1404000812)
+- Monument event cooldown not visible
 - Blueprints are not visible
 - Blueprint ghost for Trading Post when settling a new island not visible (also broken in New Horizons, so probably ok)
-- Unable to load items onto a ship/airship again from an island
-- Festival Icon not showing
+- Pilgrimage reward subheader not displayed correctly (1404000812)
+- Watered fields not shown as green fields when placing canals or farm fields
