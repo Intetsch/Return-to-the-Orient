@@ -856,13 +856,6 @@
         </Mod3>
     </ModOp>
 
-    <ModOp Type="merge" GUID="141893" Path="Values/IncidentFestival/FestivalsPerRegion">
-        <!-- result: 17 -->
-        <Mod3>
-            <AllowedFestivals>SpiritualFestivalAfrica;HarvestFestivalAfrica;TradeFestivalAfrica</AllowedFestivals>
-        </Mod3>
-    </ModOp>
-
     <ModOp Type="merge" GUID="2001023" Path="Values/GeneralIncidentConfiguration/PerRegionUnlocks">
         <!-- result: 18 -->
         <Mod3>
