@@ -45,7 +45,16 @@
     <ModOp Type="add" GUID="25000231" Path="Values/ObjectmenuKontorScene/Regions">
         <Mod3>
             <ProductFilter>1404000034</ProductFilter>
+            <ItemFilter>501516</ItemFilter>
         </Mod3>
+    </ModOp>
+    
+    <ModOp Type="add" GUID="25000231" Path="Values/ObjectmenuKontorScene/RegionGoodFilter">
+        <Item>
+            <Icon>1404000000</Icon>
+            <InfoTip>1404000000</InfoTip>
+            <Region>Mod3</Region>
+        </Item>
     </ModOp>
 
     <!-- SessionTradeRoutesScene -->
@@ -54,14 +63,5 @@
             <Filter>1404000034</Filter>
         </Mod3>
     </ModOp>
-
-
-
-
-
-
-
-
-
 
 </ModOps>

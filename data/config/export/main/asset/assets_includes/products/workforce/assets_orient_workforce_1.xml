@@ -83,14 +83,6 @@
         </Item>
     </ModOp>
 
-    <!-- DistributionUpgrade / AddDeltas -->
-    <ModOp GUID='191303' Type="add" Path="Values/DistributionUpgrade/AddDeltas/">
-        <Item>
-            <Product>1404000012</Product>
-            <Amount>20</Amount>
-        </Item>
-    </ModOp>
-
     <!-- IslandBarScene/WorkforceOrder -->
     <!-- <ModOp Type="addNextSibling" GUID="25000121" Path="/Values/IslandBarScene/WorkforceOrder/Item[WorkforceEntry='5406']">
         <Item>
