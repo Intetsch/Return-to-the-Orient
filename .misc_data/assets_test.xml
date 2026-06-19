@@ -1,4 +1,57 @@
 <ModOps>
+    
+    
+    
+    
+    <!-- # Reset Trigger for new Items; 114336 includes 129504 which includes the items-->
+    <!-- <ModOp Type="addNextSibling" GUID="114336">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2100119233</GUID>
+                    <Name>Rerun TriggerItems Intermediate Africa 2.0</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>114330</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>114336</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+     -->
+    
+    
+    
+    
+    
+    
+    
+    
     <!--     
     <ModOp Type="add" Path="//Assets/Asset/Values/Building/AssociatedRegions">;Mod3</ModOp>
     <ModOp Type="add" Path="//Assets/Asset/Values/Product/AssociatedRegion">;Mod3</ModOp>
