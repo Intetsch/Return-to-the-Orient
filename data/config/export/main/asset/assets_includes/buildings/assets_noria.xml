@@ -116,10 +116,8 @@
 					<LocaText>
 						<English>
 							<Text>Basin</Text>
-							<Status>Exported</Status>
 						</English>
 					</LocaText>
-					<LineID>54958</LineID>
 				</Text>
 				<Constructable />
 				<Locked />
@@ -146,7 +144,7 @@
 						</Item>
 						<Item>
 							<Product>1404000012</Product>
-							<Amount>0</Amount>
+							<Amount>10</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -175,17 +173,17 @@
 				<Pausable />
                 <ItemContainer>
                     <SocketScope>Radius</SocketScope>
-                    <SocketScopeRadius>30</SocketScopeRadius>
+                    <SocketScopeRadius>25</SocketScopeRadius>
                     <SocketScopeRadiusOverlapCategory>Mod1</SocketScopeRadiusOverlapCategory>
                 </ItemContainer>
 				<Culture />
 				<QuestObject />
 				<IrrigationSource>
 					<AutoWaterBaseTile>Source_Canal</AutoWaterBaseTile>
-					<PipeFillCapacity>100</PipeFillCapacity>
+					<PipeFillCapacity>200</PipeFillCapacity>
 					<TooManyPipesInfolayerIcon>125037</TooManyPipesInfolayerIcon>
 					<CanBeFilledDynamically>1</CanBeFilledDynamically>
-					<MaxDynamicFillCapacity>150</MaxDynamicFillCapacity>
+					<MaxDynamicFillCapacity>250</MaxDynamicFillCapacity>
 				</IrrigationSource>
 			</Values>
 		</Asset>
