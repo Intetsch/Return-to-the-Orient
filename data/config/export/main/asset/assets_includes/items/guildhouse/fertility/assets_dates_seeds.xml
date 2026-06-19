@@ -1,0 +1,235 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001168</GUID>
+                    <Name>Mixed Date Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_dates.png</IconFilename>
+                    <InfoDescription>1404001169</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Date Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Uncommon</Rarity>
+                    <TradePrice>18600</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404000007</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000159</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001169</GUID>
+                    <Name>item fluff Mixed Date Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings can help you grow a few groves of Dates in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001170</GUID>
+                    <Name>Date Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_dates.png</IconFilename>
+                    <InfoDescription>1404001171</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Quality Date Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <TradePrice>64000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <AddedFertility>1404000007</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000159</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>10</BaseMorale>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001171</GUID>
+                    <Name>item fluff Date Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings can help you grow plentiful groves of Dates in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001172</GUID>
+                    <Name>Selected Date Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_dates.png</IconFilename>
+                    <InfoDescription>1404001173</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hybrid Date Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>192000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404000007</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000159</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>15</BaseMorale>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001173</GUID>
+                    <Name>item fluff Selected Date Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield!</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

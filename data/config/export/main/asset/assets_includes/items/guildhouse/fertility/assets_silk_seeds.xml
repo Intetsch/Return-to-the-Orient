@@ -1,0 +1,235 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001186</GUID>
+                    <Name>Mixed Silk Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_silk.png</IconFilename>
+                    <InfoDescription>1404001187</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Silk Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Uncommon</Rarity>
+                    <TradePrice>18600</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404000177</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000169</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001187</GUID>
+                    <Name>item fluff Mixed Silk Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings can help you grow a few groves of Mulberry Trees for Silk production in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001188</GUID>
+                    <Name>Silk Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_silk.png</IconFilename>
+                    <InfoDescription>1404001189</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Quality Silk Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <TradePrice>64000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <AddedFertility>1404000177</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000169</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>10</BaseMorale>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001189</GUID>
+                    <Name>item fluff Silk Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings can help you grow plentiful groves of Mulberry Trees for Silk production in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001190</GUID>
+                    <Name>Selected Silk Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_silk.png</IconFilename>
+                    <InfoDescription>1404001191</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hybrid Silk Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>192000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404000177</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000169</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>15</BaseMorale>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001191</GUID>
+                    <Name>item fluff Selected Silk Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These saplings have been adapted to grow in a very wide range of soils, and with increased Silk yield!</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>
