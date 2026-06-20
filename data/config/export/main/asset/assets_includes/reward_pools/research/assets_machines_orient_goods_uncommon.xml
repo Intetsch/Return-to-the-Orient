@@ -1,0 +1,42 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="118226">
+        <Asset>
+            <Template>RewardPool</Template>
+            <Values>
+            <Standard>
+                <GUID>1404000851</GUID>
+                <Name>Machines - Orient Goods - Uncommon</Name>
+            </Standard>
+            <RewardPool>
+                <ItemsPool>
+                    <Item>
+                        <ItemLink>1404001162</ItemLink>
+                    </Item>
+                    <Item>
+                        <ItemLink>1404001168</ItemLink>
+                    </Item>
+                    <Item>
+                        <ItemLink>1404001174</ItemLink>
+                    </Item>
+                    <Item>
+                        <ItemLink>1404001180</ItemLink>
+                    </Item>
+                    <Item>
+                        <ItemLink>1404001186</ItemLink>
+                    </Item>
+                </ItemsPool>
+            </RewardPool>
+            <Locked/>
+            <Text/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="123548" Type="add" Path="Values/AssetPool/AssetList">
+        <Item>
+            <Asset>1404000851</Asset>
+        </Item>
+    </ModOp>
+
+</ModOps>
