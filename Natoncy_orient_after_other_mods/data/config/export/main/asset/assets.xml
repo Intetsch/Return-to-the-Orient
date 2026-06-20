@@ -1,6 +1,6 @@
 <ModOps>
 
-  <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404000265' and Product!='1404000253' and Product!='1404000283' and Product!='1404000262' and Product!='1404000288' and Product!='1010217' and Product!='114410' and Product!='114431' and Product!='114428' and Product!='114404' and Product!='114414' and Product!='1010248' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
+  <ModOp Type="add" GUID="118745" Path="Values/PopulationLevel7/PopulationInputs/Item[Product!='1404001116' and Product!='1404000265' and Product!='1404000253' and Product!='1404000283' and Product!='1404000262' and Product!='1404000288' and Product!='1010217' and Product!='114410' and Product!='114431' and Product!='114428' and Product!='114390' and Product!='114404' and Product!='114414' and Product!='1010248' and Product!='1010232' and Product!='5392' and Product!='5395' and Product!='5391']">
     <RequiredBuildings>
       <Item>
         <RequiredBuilding>114445</RequiredBuilding>
