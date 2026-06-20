@@ -205,7 +205,9 @@
 				<Industrializable>
 					<BoostedByIndustrialization>0</BoostedByIndustrialization>
 				</Industrializable>
-				<Culture/>
+				<Culture>
+					<Attractiveness>0</Attractiveness>
+				</Culture>
 				<QuestObject/>
 				<Electrifiable/>
 				<EcoSystemProvider/>
