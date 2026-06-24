@@ -2,8 +2,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "TARGET=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sessions\islands\pool\orient"
-set "SOURCE=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sessions\islands\pool\original"
+set "TARGET=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\.misc_data\data\sessions\islands\pool\orient"
+set "SOURCE=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\.misc_data\data\sessions\islands\pool\original"
 
 rd /s /q "%TARGET%"
 mkdir "%TARGET%"
