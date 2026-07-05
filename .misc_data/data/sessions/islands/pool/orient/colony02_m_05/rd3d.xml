@@ -429,8 +429,80 @@
       <None>data/graphics/props/orient/empty/empty.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_01.prp</None>
       <None>data/graphics/props/terrain_props/vegetation/water/underwater_plant_02.prp</None>
+      <None>data/graphics/props/orient/rocks/rocks_decoration_03.prp</None>
+      <None>data/graphics/props/orient/rocks/rocks_decoration_08.prp</None>
+      <!-- 55 56 -->
     </FileNames>
     <Instances>
+      <None>
+        <Index>56</Index>
+        <Position>192 -0.4 158</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>56</Index>
+        <Position>188 -0.4 162</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>56</Index>
+        <Position>188 -0.4 158</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>56</Index>
+        <Position>188 -0.4 150</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>56</Index>
+        <Position>180 -0.4 158</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>56</Index>
+        <Position>180 -0.4 150</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      
+      
+      
+
+      <None>
+        <Index>55</Index>
+        <Position>80 -0.9 98</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      <None>
+        <Index>55</Index>
+        <Position>90 -0.9 93</Position>
+        <Rotation>0 0 0 1</Rotation>
+        <Scale>5 2 5</Scale>
+        <Color>1 1 1 1</Color>
+      </None>
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <None>
         <Index>54</Index>
         <Position>92,47477 -2,993612 38,403576</Position>
