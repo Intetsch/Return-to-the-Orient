@@ -5,6 +5,519 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
+                    <GUID>1404001192</GUID>
+                    <Name>Pilgrimage Event Description</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A monumental display of faith.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001193</GUID>
+                    <Name>Pilgrimage SelectionText</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A once in a lifetime event.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001194</GUID>
+                    <Name>Pilgrimage SelectionText</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Continuing on the journey of faith.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        
+        
+        
+        
+        
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001195</GUID>
+                    <Name>A bit of plain food</Name>
+                    <IconFilename>data/graphics/icons/monument_products/small_food.png</IconFilename>
+                    <InfoDescription>1404001196</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Nibbles and canapés</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001196</GUID>
+                    <Name>A bit of plain food Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001197</GUID>
+                    <Name>A lot of tasty food</Name>
+                    <IconFilename>data/graphics/icons/monument_products/medium_food.png</IconFilename>
+                    <InfoDescription>1404001198</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A sizeable banquet</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001198</GUID>
+                    <Name>A lot of tasty food Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Large displays of savoury meals are essential to welcoming many visitors.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001199</GUID>
+                    <Name>Tons of delicious main courses</Name>
+                    <IconFilename>data/graphics/icons/monument_products/large_food.png</IconFilename>
+                    <InfoDescription>1404001200</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A banquet of great extravagance</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001200</GUID>
+                    <Name>Tons of delicious main courses Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>High society visitors expect nothing less than delicious and plentiful meals when they visit your event.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        
+        
+
+
+
+
+
+
+
+
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001201</GUID>
+                    <Name>A lot of standard alcohol</Name>
+                    <IconFilename>data/graphics/icons/monument_products/small_drinks.png</IconFilename>
+                    <InfoDescription>1404001202</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A modest drink selection</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001202</GUID>
+                    <Name>A lot of standard alcohol Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>An event without enough drinks will lose a lot of its attractiveness.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001203</GUID>
+                    <Name>Gallons of popular alcohol</Name>
+                    <IconFilename>data/graphics/icons/monument_products/medium_drinks.png</IconFilename>
+                    <InfoDescription>1404001204</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A generous drink selection</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001204</GUID>
+                    <Name>Gallons of popular alcohol Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>There is no better way to please demanding visitors than giving them access to quality alcoholic drinks.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001205</GUID>
+                    <Name>Gallons of luxury alcohol</Name>
+                    <IconFilename>data/graphics/icons/monument_products/large_drinks.png</IconFilename>
+                    <InfoDescription>1404001206</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>An exquisite selection of drinks</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001206</GUID>
+                    <Name>Gallons of luxury alcohol Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The best ceremonies come with gallons of luxury drinks.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        
+        
+        
+        
+        
+        
+        
+        
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001207</GUID>
+                    <Name>Carnival Goods Small</Name>
+                    <IconFilename>data/graphics/icons/monument_products/small_carnival_goods.png</IconFilename>
+                    <InfoDescription>1404001208</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Life's little delights</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001208</GUID>
+                    <Name>Carnival Goods Fluff Small</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. </Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001209</GUID>
+                    <Name>Carnival Goods Medium</Name>
+                    <IconFilename>data/graphics/icons/monument_products/medium_carnival_goods.png</IconFilename>
+                    <InfoDescription>1404001210</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Life's many delights</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001210</GUID>
+                    <Name>Carnival Goods Fluff Medium</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. </Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001211</GUID>
+                    <Name>Carnival Goods Large</Name>
+                    <IconFilename>data/graphics/icons/monument_products/large_carnival_goods.png</IconFilename>
+                    <InfoDescription>1404001212</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The greatest delights</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001212</GUID>
+                    <Name>Carnival Goods Fluff Large</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+
+
+
+
+
+
+
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001213</GUID>
+                    <Name>A few decorative articles</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/monument_products/monument_correct_decoration.png</IconFilename>
+                    <InfoDescription>1404001214</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A few decorations</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001214</GUID>
+                    <Name>A few decorative articles Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Some decorations are necessary when you organise large events.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001215</GUID>
+                    <Name>A lot of exquisite decoration</Name>
+                    <IconFilename>data/graphics/icons/monument_products/large_decorations.png</IconFilename>
+                    <InfoDescription>1404001216</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Many fabulous decorations</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001216</GUID>
+                    <Name>A lot of exquisite decoration Fluff</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The pomp and circumstance of an event highly depends on refined decorations.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        
+        
+        
+
+        
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001218</GUID>
+                    <Name>ShortName Small Pilgrimage</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Small</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+        <Template>Text</Template>
+        <Values>
+            <Standard>
+                <GUID>1404001219</GUID>
+                <Name>ShortName Medium Pilgrimage</Name>
+            </Standard>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Medium</Text>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+    <Asset>
+        <Template>Text</Template>
+        <Values>
+            <Standard>
+                <GUID>1404001220</GUID>
+                <Name>ShortName Large Pilgrimage</Name>
+            </Standard>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Large</Text>
+                    </English>
+                </LocaText>
+            </Text>
+        </Values>
+    </Asset>
+
+        
+        
+        
+        
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
                     <GUID>1404000812</GUID>
                     <Name>Pilgrimage Reward Subheader</Name>
                 </Standard>
@@ -33,6 +546,66 @@
                 </Text>
             </Values>
         </Asset>
+        
+        
+        
+        
+        
+        
+        
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001221</GUID>
+                    <Name>Access Grand Mosque</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Access Grand Mosque</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001222</GUID>
+                    <Name>PilgrimageRewardConclusion</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Your residents are celebrating their pilgrimage.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+                <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001223</GUID>
+                    <Name>Current Investment Grand Mosque</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Contributions</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        
+        
+        
+        
+
     </ModOp>
 
 </ModOps>

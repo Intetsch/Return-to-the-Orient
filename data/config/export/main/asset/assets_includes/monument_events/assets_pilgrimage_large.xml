@@ -23,15 +23,15 @@
                     <PreparationTime>2400000</PreparationTime>
                     <EventDuration>600000</EventDuration>
                     <NeededWorkforce>1404000012</NeededWorkforce>
-                    <NeededWorkforceAmount>10000</NeededWorkforceAmount>
-                    <MaxUsableWorkforceAmount>20000</MaxUsableWorkforceAmount>
-                    <DescriptionFluff>6508</DescriptionFluff>
+                    <NeededWorkforceAmount>6000</NeededWorkforceAmount>
+                    <MaxUsableWorkforceAmount>12000</MaxUsableWorkforceAmount>
+                    <DescriptionFluff>1404001192</DescriptionFluff>
                     <BackgroundPreparation>data/ui/2kimages/main/assets/monument_event/monument_event_preparation_mosque.png</BackgroundPreparation>
                     <BackgroundRunning>data/ui/2kimages/main/assets/monument_event/monument_event_mosque_pilgrimage.png</BackgroundRunning>
                     <BackgroundReward>data/ui/2kimages/main/assets/monument_event/monument_event_mosque_pilgrimage.png</BackgroundReward>
-                    <SelectionText>8768</SelectionText>
-                    <RunningText>8769</RunningText>
-                    <RewardText>8770</RewardText>
+                    <SelectionText>1404001193</SelectionText>
+                    <RunningText>1404001194</RunningText>
+                    <RewardText>1404000812</RewardText>
                     <PotentialEventReward>6765</PotentialEventReward>
                     <MaxPreparationAttractiveness>800</MaxPreparationAttractiveness>
                     <MinPreparationAttractiveness>500</MinPreparationAttractiveness>
@@ -54,10 +54,10 @@
                         <Item>
                             <MinAmount>50</MinAmount>
                             <MaxAmount>100</MaxAmount>
-                            <GoodsOrPool>17039</GoodsOrPool>
+                            <GoodsOrPool>1404001217</GoodsOrPool>
                         </Item>
                     </PreparationGoods>
-                    <ShortSizeName>6511</ShortSizeName>
+                    <ShortSizeName>1404001220</ShortSizeName>
                     <RewardThresholds>
                         <Item>
                             <Reward>1404000342</Reward>
@@ -80,20 +80,19 @@
                             <NeededAttractiveness>800</NeededAttractiveness>
                         </Item>
                     </RewardThresholds>
-                    <MinAttractiveness>400</MinAttractiveness>
-                    <ReduceAttractivenessPerMinute>30</ReduceAttractivenessPerMinute>
+                    <ReduceAttractivenessPerMinute>0</ReduceAttractivenessPerMinute>
                     <RequirementText>
                         <Item>
-                            <Requirement>14713</Requirement>
+                            <Requirement>1404001199</Requirement>
                         </Item>
                         <Item>
-                            <Requirement>14718</Requirement>
+                            <Requirement>1404001205</Requirement>
                         </Item>
                         <Item>
-                            <Requirement>14131</Requirement>
+                            <Requirement>1404001211</Requirement>
                         </Item>
                         <Item>
-                            <Requirement>14720</Requirement>
+                            <Requirement>1404001215</Requirement>
                         </Item>
                     </RequirementText>
                     <FeedbackTexts>

@@ -122,8 +122,18 @@
 						<EventSelection>data/ui/2kimages/main/assets/monument_event/bg_monument_grand_mosque.png</EventSelection>
 					</BackgroundImage>
 					<ProgressbarHeight>150</ProgressbarHeight>
-					<AccessEventText>23465</AccessEventText>
-					<PhaseCompletedNotification/>
+					<AccessEventText>1404001221</AccessEventText>
+					<EventUITexts>
+						<MissingElectricityDescription>6750</MissingElectricityDescription>
+						<SelectEventTheme>6751</SelectEventTheme>
+						<SelectEventSize>6752</SelectEventSize>
+						<PreparationAttractivenessHeader>6753</PreparationAttractivenessHeader>
+						<RewardHeader>6754</RewardHeader>
+						<CooldownText>6870</CooldownText>
+						<EventConclusionText>1404001222</EventConclusionText>
+						<InvestmentContribution>1404001223</InvestmentContribution>
+					</EventUITexts>
+					<RandomIdleVariations />
 				</Monument>
 				<Culture>
 					<Attractiveness>0</Attractiveness>
@@ -150,6 +160,15 @@
 					</Uniques>
 				</BuildingUnique>
 				<UpgradeList />
+				<PublicService>
+					<FullSatisfactionDistance>60</FullSatisfactionDistance>
+					<NoSatisfactionDistance>100</NoSatisfactionDistance>
+					<PublicServiceOutputs>
+						<Item>
+							<Product>1404000150</Product>
+						</Item>
+					</PublicServiceOutputs>
+				</PublicService>
 				<Industrializable>
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>

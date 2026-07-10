@@ -1,0 +1,29 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="7170">
+        <Asset>
+            <Template>RewardPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001217</GUID>
+                    <Name>Luxury Orient Decoration</Name>
+                    <IconFilename>data/graphics/icons/monument_products/large_decorations.png</IconFilename>
+                    <InfoDescription>19641</InfoDescription>
+                </Standard>
+                <RewardPool>
+                    <ItemsPool>
+                        <Item>
+                            <ItemLink>118724</ItemLink>
+                        </Item>
+                        <Item>
+                            <ItemLink>117699</ItemLink>
+                        </Item>
+                    </ItemsPool>
+                </RewardPool>
+                <Locked />
+                <Text />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

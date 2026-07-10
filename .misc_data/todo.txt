@@ -10,27 +10,18 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
+- Localization secondary languages
 - Add feedback units to the monument construction sites
 - Replace Enbesa feedback units with custom population and worker model textures
-- Localization secondary languages
-- Cover ocean water that is visible through islands
 - Replace harbor building models
 - Population quests
 - Music
-- Revise Lifestyle needs Consumption
 - Revise Consumption
+    - Lifestyle needs
+    - hookahs and marzipan have more demand than rosewater which is unlocked earlier.
 - Pearl Diver (?)
-- Grand Mosque provide mosque need (seemingly not possible)
 
 Bugs:
-- +50 storage the consulate adds to the island storage is only applied for the first consulate/island
 - Festival Icon not showing
-- Monument event cooldown not visible
 - Blueprints are not visible
-- Blueprint ghost for Trading Post when settling a new island not visible (also broken in New Horizons, so probably ok)
-- Pilgrimage reward subheader not displayed correctly (1404000812)
 - Watered fields not shown as green fields when placing canals or farm fields
-- Sometimes crash when loading a savegame with White & Cold already added
-- +50 storage the consulate adds to the island storage is only applied for the first consulate/island
-- hookahs and marzipan have more demand than rosewater which is unlocked earlier.
-- replace need (hacienda) icon with the research station icon 
