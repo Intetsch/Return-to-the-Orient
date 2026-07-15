@@ -6,22 +6,30 @@
 
     <!-- # Storage List -->
     <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1440209']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1440209</Product>
-      </Item>
+        <Item>
+            <Product>1440209</Product>
+        </Item>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999005084']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1999005084</Product>
-      </Item>
+        <Item>
+            <Product>1999005084</Product>
+        </Item>
     </ModOp>
 
     <!-- # Storage List -->
     <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1999005093']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
-      <Item>
-        <Product>1999005093</Product>
-      </Item>
+        <Item>
+            <Product>1999005093</Product>
+        </Item>
+    </ModOp>
+
+
+    <ModOp Type="add" GUID="1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351" Path="Values/Product/AssociatedRegion">;Mod3</ModOp>
+    <ModOp Type="add" GUID="1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351" Path="Values/Product/ProductionRegions">
+        <Item>
+            <RegionType>Mod3</RegionType>
+        </Item>
     </ModOp>
 
 </ModOps>

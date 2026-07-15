@@ -17,12 +17,8 @@
             <ProductCategory>11702</ProductCategory>
             <BasePrice>100</BasePrice>
             <CivLevel>1</CivLevel>
-            <AssociatedRegion>Moderate</AssociatedRegion>
-            <ProductionRegions>
-              <Item>
-                <RegionType>Moderate</RegionType>
-              </Item>
-            </ProductionRegions>
+            <AssociatedRegion>Meta</AssociatedRegion>
+            <ProductionRegions />
           </Product>
           <ExpeditionAttribute>
             <BaseMorale>0</BaseMorale>
