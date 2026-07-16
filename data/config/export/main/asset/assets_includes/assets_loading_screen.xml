@@ -1,0 +1,89 @@
+<ModOps>
+
+    <ModOp GUID="501477" Path="Values/LoadingScene/LoadingTips/Item[0]/Texts" Type="add">
+        <Item>
+            <Text>1404001224</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+        <Item>
+            <Text>1404001225</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+        <Item>
+            <Text>1404001226</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+        <Item>
+            <Text>1404001227</Text>
+            <RelevantGameMode>Regular</RelevantGameMode>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001224</GUID>
+                    <Name>LoadingTip Orient Noria</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001225</GUID>
+                    <Name>LoadingTip Orient Consulate</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001226</GUID>
+                    <Name>LoadingTip Orient Grand Mosque</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001227</GUID>
+                    <Name>LoadingTip Orient Marketstalls</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
