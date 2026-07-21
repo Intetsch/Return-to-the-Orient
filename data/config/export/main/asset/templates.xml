@@ -1,0 +1,11 @@
+<ModOps>
+
+    <ModOp Template="ColorConfig" Type="add" Path="/Properties/ColorConfig/BlueprintColorPerRegion">
+        <Mod3>
+            <BlueprintColor>1713274088</BlueprintColor>
+            <ConsoleBlueprintColor>1713274088</ConsoleBlueprintColor>
+            <ConsoleDecalColor>1713274088</ConsoleDecalColor>
+        </Mod3>
+    </ModOp>
+
+</ModOps>
