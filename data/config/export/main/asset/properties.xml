@@ -1,0 +1,7 @@
+<ModOps>
+    <ModOp Type="add" Path="//MultiSession/RegionPriorities">
+        <Mod3>
+            <Priority>70</Priority>
+        </Mod3>
+    </ModOp>
+</ModOps>
