@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000265</GUID>
-      <Text>??Pomegranate Juice</Text>
+      <!-- Product | pomegranate juice | Pomegranate Juice -->
+      <Text>ザクロジュース</Text>
     </Text>
     <Text>
       <GUID>1404000266</GUID>
-      <Text>??A perfect, refreshing drink for the hot desert.</Text>
+      <!-- Text | pomegranate juice fluff text | A perfect, refreshing drink for the hot desert. -->
+      <Text>暑い砂漠にぴったりの爽やかなドリンクです。</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000283</GUID>
-      <Text>??Turbans</Text>
+      <!-- Product | turbans | Turbans -->
+      <Text>터번</Text>
     </Text>
     <Text>
       <GUID>1404000284</GUID>
-      <Text>??Great for keeping a cool head.</Text>
+      <!-- Text | turbans fluff text | Great for keeping a cool head. -->
+      <Text>머리를 시원하게 유지하는 데 좋습니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

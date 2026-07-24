@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000235</GUID>
-      <Text>??Camels</Text>
+      <!-- Product | camels | Camels -->
+      <Text>Cammelli</Text>
     </Text>
     <Text>
       <GUID>1404000236</GUID>
-      <Text>??Built for the desert.</Text>
+      <!-- Text | camels fluff text | Built for the desert. -->
+      <Text>Costruito per il deserto.</Text>
     </Text>
   </ModOp>
 </ModOps>

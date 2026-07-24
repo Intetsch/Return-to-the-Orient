@@ -56,6 +56,8 @@ var rows = Enumerable.Range(2, lastRow - 1)
     {
         ModFolder = worksheet.Cell(r, 1).GetString(),
         Guid = worksheet.Cell(r, 2).GetString(),
+        Template = worksheet.Cell(r, 3).GetString(),
+        Name = worksheet.Cell(r, 4).GetString(),
         Row = r
     })
     .Where(x => !string.IsNullOrWhiteSpace(x.ModFolder))
@@ -90,37 +92,33 @@ foreach (var mod in mods)
         foreach (var row in mod)
         {
             string textRaw = worksheet.Cell(row.Row, colIndex).GetString();
-
+            // Try get english column safely
+            string englishText = "";
+            if (languageColumns.TryGetValue("english", out int englishCol))
+            {
+                englishText = worksheet.Cell(row.Row, englishCol).GetString();
+            }
             string finalText = null;
 
             if (!string.IsNullOrWhiteSpace(textRaw))
             {
-                finalText = textRaw.Trim();
+                finalText = textRaw;
+            }
+            else if (!string.IsNullOrWhiteSpace(englishText))
+            {
+                finalText = "??" + (await GetTranslatedText(englishText.Trim(), language));
             }
             else
             {
-                // Try get english column safely
-                string englishText = "";
-                if (languageColumns.TryGetValue("english", out int englishCol))
-                {
-                    englishText = worksheet.Cell(row.Row, englishCol).GetString();
-                }
-
-                if (!string.IsNullOrWhiteSpace(englishText))
-                {
-                    finalText = "??" + (await GetTranslatedText(englishText.Trim(), language));
-                }
-                else
-                {
-                    // 🚫 Skip completely if both are empty
-                    continue;
-                }
+                // 🚫 Skip completely if both are empty
+                continue;
             }
 
             modOp.Add(
                 new XElement("Text",
-                    new XElement("GUID", row.Guid),
-                    new XElement("Text", finalText)
+                    new XElement("GUID", row.Guid.Trim()),
+                    new XComment($" {row.Template} | {row.Name} | {englishText} "),
+                    new XElement("Text", finalText.Trim())
                 )
             );
         }

@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000253</GUID>
-      <Text>??Kaftans</Text>
+      <!-- Product | kaftans | Kaftans -->
+      <Text>カフタン</Text>
     </Text>
     <Text>
       <GUID>1404000254</GUID>
-      <Text>??Flowing garments suited to both comfort and status.</Text>
+      <!-- Text | kaftans fluff text | Flowing garments suited to both comfort and status. -->
+      <Text>快適さとステータスの両方に適した、流れるような衣服。</Text>
     </Text>
   </ModOp>
 </ModOps>

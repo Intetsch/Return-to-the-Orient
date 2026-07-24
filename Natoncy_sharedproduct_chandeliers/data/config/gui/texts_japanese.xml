@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000241</GUID>
-      <Text>??Chandeliers</Text>
+      <!-- Product | chandeliers | Chandeliers -->
+      <Text>シャンデリア</Text>
     </Text>
     <Text>
       <GUID>1404000242</GUID>
-      <Text>??Lights that turn any hall into a palace.</Text>
+      <!-- Text | chandeliers fluff text | Lights that turn any hall into a palace. -->
+      <Text>あらゆるホールを宮殿に変える照明。</Text>
     </Text>
   </ModOp>
 </ModOps>

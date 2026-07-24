@@ -2,11 +2,13 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1404000283</GUID>
-      <Text>??Turbans</Text>
+      <!-- Product | turbans | Turbans -->
+      <Text>turbantes</Text>
     </Text>
     <Text>
       <GUID>1404000284</GUID>
-      <Text>??Great for keeping a cool head.</Text>
+      <!-- Text | turbans fluff text | Great for keeping a cool head. -->
+      <Text>Genial para mantener la cabeza fría.</Text>
     </Text>
   </ModOp>
 </ModOps>
