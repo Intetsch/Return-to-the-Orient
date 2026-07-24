@@ -3,6 +3,14 @@
 using ClosedXML.Excel;
 using System.Xml;
 using System.Xml.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Net;
+
+HttpClient http = new();
+http.DefaultRequestHeaders.UserAgent.ParseAdd("Mozilla/5.0");
+var translationCache = new Dictionary<(string, string), string>();
 
 string basePath = Directory.GetCurrentDirectory().Replace("\\gui", "");
 string guiFolder = Path.Combine(basePath, "gui");
@@ -83,27 +91,30 @@ foreach (var mod in mods)
         {
             string textRaw = worksheet.Cell(row.Row, colIndex).GetString();
 
-            // Try get english column safely
-            string englishText = "";
-            if (languageColumns.TryGetValue("english", out int englishCol))
-            {
-                englishText = worksheet.Cell(row.Row, englishCol).GetString();
-            }
-
             string finalText = null;
 
             if (!string.IsNullOrWhiteSpace(textRaw))
             {
                 finalText = textRaw.Trim();
             }
-            else if (!string.IsNullOrWhiteSpace(englishText))
-            {
-                finalText = "??" + englishText.Trim();
-            }
             else
             {
-                // 🚫 Skip completely if both are empty
-                continue;
+                // Try get english column safely
+                string englishText = "";
+                if (languageColumns.TryGetValue("english", out int englishCol))
+                {
+                    englishText = worksheet.Cell(row.Row, englishCol).GetString();
+                }
+
+                if (!string.IsNullOrWhiteSpace(englishText))
+                {
+                    finalText = "??" + (await GetTranslatedText(englishText.Trim(), language));
+                }
+                else
+                {
+                    // 🚫 Skip completely if both are empty
+                    continue;
+                }
             }
 
             modOp.Add(
@@ -128,5 +139,68 @@ foreach (var mod in mods)
         root.Save(writer);
 
         Console.WriteLine($"Created: {outputPath}");
+    }
+}
+
+async Task<string> GetTranslatedText(string text, string language)
+{
+    if (translationCache.TryGetValue((text, language), out var cachedTranslation))
+    {
+        Console.WriteLine($"Cached value found for {text} in {language}");
+        return cachedTranslation;
+    }
+
+    var langMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
+    {
+            // ["english"] = "en",
+            ["german"] = "de",
+            ["french"] = "fr",
+            ["spanish"] = "es",
+            ["italian"] = "it",
+            ["polish"] = "pl",
+            ["russian"] = "ru",
+            ["portuguese"] = "pt",
+            ["brazilian"] = "pt",
+            ["japanese"] = "ja",
+            ["korean"] = "ko",
+            ["chinese"] = "zh-CN",
+            ["taiwanese"] = "zh-TW"
+    };
+
+    if (!langMap.TryGetValue(language, out var target))
+    {
+        Console.WriteLine($"No language found for {language}");
+        return $"?{text}";
+    }
+
+    try
+    {
+        string url =
+            $"https://translate.googleapis.com/translate_a/single" +
+            $"?client=gtx" +
+            $"&sl=en" +
+            $"&tl={target}" +
+            $"&dt=t" +
+            $"&q={WebUtility.UrlEncode(text)}";
+
+        string json = await http.GetStringAsync(url);
+
+        using JsonDocument doc = JsonDocument.Parse(json);
+
+        // Response format:
+        // [[[translated,original,null,null,...]],null,"en",...]
+
+        var translation = doc.RootElement[0][0][0].GetString() ?? $"?{text}";
+        
+        Console.WriteLine($"Translated {text} to {language} / {target}: {translation} / {json}");
+
+        translationCache.Add((text, language), translation);
+
+        return translation;
+    }
+    catch (Exception e)
+    {
+        Console.WriteLine($"Failed translating {text} to {language} / {target}: {e.Message}");
+        return $"?{text}";
     }
 }
