@@ -1,12 +1,12 @@
 <ModOps>
 
-    <ModOp Type="addNextSibling" GUID="1010519">
+    <ModOp Type="addNextSibling" GUID="117864">
         <Asset>
-            <BaseAssetGUID>1010519</BaseAssetGUID>
+            <BaseAssetGUID>1010525</BaseAssetGUID>
             <Values>
                 <Standard>
-                    <GUID>1404000217</GUID>
-                    <Name>harbor_orient_01 (Depot)</Name>
+                    <GUID>1404001231</GUID>
+                    <Name>harbor_orient_03 (Repair Crane)</Name>
                 </Standard>
                 <Building>
                     <AssociatedRegions>Mod3</AssociatedRegions>
@@ -15,26 +15,26 @@
                     <GroundDecalAsset>102460</GroundDecalAsset>
                     <GroundDecalInvisible>102459</GroundDecalInvisible>
                 </Blocking>
-                <Mesh />
+                <Mesh/>
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/harbor_01_orient/harbor_01_orient.cfg</Filename>
+                            <Filename>data/dlc06/graphics/buildings/special/harbor_07_colony02/harbor_07_colony_02.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
-                <AmbientMoodProvider />
-                <Constructable />
+                <AmbientMoodProvider/>
+                <Constructable/>
                 <Selection>
                     <OnSelection>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList />
+                            <ActionList/>
                         </Values>
                     </OnSelection>
                 </Selection>
                 <Text>
-                    <LineID>8506</LineID>
+                    <TextOverride>117864</TextOverride>
                 </Text>
                 <Cost>
                     <Costs>
@@ -43,50 +43,50 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>3000</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>1</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>1010196</Ingredient>
-                            <Amount>12</Amount>
+                            <!--Wanza Wood-->
+                            <Amount>30</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>2</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
                             <Ingredient>114402</Ingredient>
-                            <Amount>0</Amount>
+                            <!--Mud Bricks-->
+                            <Amount>40</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>3</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1404000256</Ingredient>
                             <Amount>0</Amount>
                         </Item>
                         <Item>
@@ -94,7 +94,7 @@
                                 <InheritedIndex>4</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>4</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -105,7 +105,7 @@
                                 <InheritedIndex>5</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>HarborDepot</TemplateName>
+                                        <TemplateName>RepairCrane</TemplateName>
                                         <Index>5</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -113,34 +113,21 @@
                         </Item>
                     </Costs>
                 </Cost>
-                <Attackable />
-                <Warehouse />
-                <StorageBase />
-                <Locked />
-                <Maintenance>
-                    <Maintenances>
-                        <Item>
-                            <Product>1010017</Product>
-                            <Amount>20</Amount>
-                            <InactiveAmount>10</InactiveAmount>
-                        </Item>
-                        <Item>
-                            <Product>1404000012</Product>
-                            <Amount>0</Amount>
-                        </Item>
-                    </Maintenances>
-                </Maintenance>
-                <Pausable />
-                <SoundEmitter />
-                <Infolayer />
-                <UpgradeList />
-                <LogisticNode />
-                <FeedbackController />
+                <Attackable/>
+                <Infolayer/>
+                <Maintenance/>
+                <Locked/>
+                <RepairCrane/>
+                <Pausable/>
+                <DelayedConstruction/>
+                <SoundEmitter/>
+                <UpgradeList/>
+                <FeedbackController/>
             </Values>
         </Asset>
     </ModOp>
     
-    <ModOp Type="add" GUID="191508,193866" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    <ModOp Type="add" GUID="191508,191887" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1404000217</GUID>
         </Item>
