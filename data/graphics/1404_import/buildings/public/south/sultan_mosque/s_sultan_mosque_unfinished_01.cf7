@@ -5,1208 +5,6 @@
 		<Name />
 		<Groups>
 			<i>
-				<Name>carriage_01</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>102</Id>
-				<Dummies>
-					<i>
-						<Name>carriage_01_0</Name>
-						<hasValue>1</hasValue>
-						<Id>103</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.692912</w>
-							<x>0.000000</x>
-							<y>-0.721022</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.790462</x>
-							<y>0.000000</y>
-							<z>5.512558</z>
-						</Position>
-						<RotationY>1.610553</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_1</Name>
-						<hasValue>1</hasValue>
-						<Id>104</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.704577</w>
-							<x>0.000000</x>
-							<y>-0.709627</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.037117</x>
-							<y>0.000000</y>
-							<z>6.209171</z>
-						</Position>
-						<RotationY>1.577938</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_10</Name>
-						<hasValue>1</hasValue>
-						<Id>113</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.579758</w>
-							<x>-0.000000</x>
-							<y>0.814789</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.978580</x>
-							<y>0.000000</y>
-							<z>8.838552</z>
-						</Position>
-						<RotationY>4.378456</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_11</Name>
-						<hasValue>1</hasValue>
-						<Id>114</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.704190</w>
-							<x>-0.000000</x>
-							<y>0.710011</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.208969</x>
-							<y>0.000000</y>
-							<z>8.200672</z>
-						</Position>
-						<RotationY>4.704157</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_12</Name>
-						<hasValue>1</hasValue>
-						<Id>115</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.709177</w>
-							<x>-0.000000</x>
-							<y>0.705030</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.123737</x>
-							<y>0.000000</y>
-							<z>8.054384</z>
-						</Position>
-						<RotationY>4.718254</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_13</Name>
-						<hasValue>1</hasValue>
-						<Id>116</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.714227</w>
-							<x>-0.000000</x>
-							<y>0.699914</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.134312</x>
-							<y>0.000000</y>
-							<z>7.285835</z>
-						</Position>
-						<RotationY>4.732631</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_14</Name>
-						<hasValue>1</hasValue>
-						<Id>117</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.722993</w>
-							<x>-0.000000</x>
-							<y>0.690856</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.123672</x>
-							<y>0.000000</y>
-							<z>6.012558</z>
-						</Position>
-						<RotationY>4.757842</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_15</Name>
-						<hasValue>1</hasValue>
-						<Id>118</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.987551</w>
-							<x>-0.000000</x>
-							<y>0.157302</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.000519</x>
-							<y>0.000000</y>
-							<z>4.542596</z>
-						</Position>
-						<RotationY>5.967269</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_16</Name>
-						<hasValue>1</hasValue>
-						<Id>119</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.977949</w>
-							<x>0.000000</x>
-							<y>-0.208845</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.435631</x>
-							<y>0.000000</y>
-							<z>4.239384</z>
-						</Position>
-						<RotationY>0.420787</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_17</Name>
-						<hasValue>1</hasValue>
-						<Id>120</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.779450</w>
-							<x>0.000000</x>
-							<y>-0.626464</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.016850</x>
-							<y>0.000000</y>
-							<z>4.577144</z>
-						</Position>
-						<RotationY>1.354017</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_2</Name>
-						<hasValue>1</hasValue>
-						<Id>105</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.831786</w>
-							<x>0.000000</x>
-							<y>-0.555096</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.074638</x>
-							<y>0.000000</y>
-							<z>6.500000</z>
-						</Position>
-						<RotationY>1.176957</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_3</Name>
-						<hasValue>1</hasValue>
-						<Id>106</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.999790</w>
-							<x>0.000000</x>
-							<y>-0.020493</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.290462</x>
-							<y>0.000000</y>
-							<z>7.500000</z>
-						</Position>
-						<RotationY>0.040989</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_4</Name>
-						<hasValue>1</hasValue>
-						<Id>107</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.978130</w>
-							<x>0.000000</x>
-							<y>-0.207994</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-39.498146</x>
-							<y>0.000000</y>
-							<z>7.682446</z>
-						</Position>
-						<RotationY>0.419047</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_5</Name>
-						<hasValue>1</hasValue>
-						<Id>108</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.896713</w>
-							<x>0.000000</x>
-							<y>-0.442613</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-38.787464</x>
-							<y>0.000000</y>
-							<z>7.908440</z>
-						</Position>
-						<RotationY>0.917021</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_6</Name>
-						<hasValue>1</hasValue>
-						<Id>109</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.327312</w>
-							<x>0.000000</x>
-							<y>-0.944916</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-38.646393</x>
-							<y>0.000000</y>
-							<z>8.383901</z>
-						</Position>
-						<RotationY>2.474678</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_7</Name>
-						<hasValue>1</hasValue>
-						<Id>110</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.110417</w>
-							<x>0.000000</x>
-							<y>-0.993885</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-39.128525</x>
-							<y>0.000000</y>
-							<z>8.716921</z>
-						</Position>
-						<RotationY>2.920307</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_8</Name>
-						<hasValue>1</hasValue>
-						<Id>111</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.003103</w>
-							<x>0.000000</x>
-							<y>-0.999995</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-39.824181</x>
-							<y>0.000000</y>
-							<z>8.789551</z>
-						</Position>
-						<RotationY>3.135387</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>carriage_01_9</Name>
-						<hasValue>1</hasValue>
-						<Id>112</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.001932</w>
-							<x>-0.000000</x>
-							<y>0.999998</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-40.603401</x>
-							<y>0.000000</y>
-							<z>8.788853</z>
-						</Position>
-						<RotationY>3.145457</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Carrier_01</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>163</Id>
-				<Dummies>
-					<i>
-						<Name>Carrier_01_0</Name>
-						<hasValue>1</hasValue>
-						<Id>164</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.002759</w>
-							<x>0.000000</x>
-							<y>-0.999996</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-46.302158</x>
-							<y>-0.262165</y>
-							<z>-9.600431</z>
-						</Position>
-						<RotationY>3.136075</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_1</Name>
-						<hasValue>1</hasValue>
-						<Id>165</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>1.000000</w>
-							<x>0.000000</x>
-							<y>0.000000</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-46.133778</x>
-							<y>-0.276118</y>
-							<z>-10.195992</z>
-						</Position>
-						<RotationY>0.000000</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_2</Name>
-						<hasValue>1</hasValue>
-						<Id>166</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.985261</w>
-							<x>-0.000000</x>
-							<y>0.171057</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-45.401051</x>
-							<y>-0.213690</y>
-							<z>-10.404041</z>
-						</Position>
-						<RotationY>5.939381</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_3</Name>
-						<hasValue>1</hasValue>
-						<Id>167</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>1.000000</w>
-							<x>0.000000</x>
-							<y>0.000000</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-44.784523</x>
-							<y>-0.120186</y>
-							<z>-10.615604</z>
-						</Position>
-						<RotationY>0.000000</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_4</Name>
-						<hasValue>1</hasValue>
-						<Id>168</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.863308</w>
-							<x>0.000000</x>
-							<y>-0.504677</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.678978</x>
-							<y>0.006989</y>
-							<z>-9.848639</z>
-						</Position>
-						<RotationY>1.058016</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_5</Name>
-						<hasValue>1</hasValue>
-						<Id>169</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.972562</w>
-							<x>0.000000</x>
-							<y>-0.232644</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.608685</x>
-							<y>0.019420</y>
-							<z>-9.443891</z>
-						</Position>
-						<RotationY>0.469591</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_6</Name>
-						<hasValue>1</hasValue>
-						<Id>170</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.026936</w>
-							<x>-0.000000</x>
-							<y>0.999637</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-43.193970</x>
-							<y>0.025345</y>
-							<z>-9.741549</z>
-						</Position>
-						<RotationY>3.195471</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_7</Name>
-						<hasValue>1</hasValue>
-						<Id>171</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.185412</w>
-							<x>-0.000000</x>
-							<y>0.982661</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-44.377243</x>
-							<y>0.041329</y>
-							<z>-9.043497</z>
-						</Position>
-						<RotationY>3.514575</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_8</Name>
-						<hasValue>1</hasValue>
-						<Id>172</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.009474</w>
-							<x>-0.000000</x>
-							<y>0.999955</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-45.165428</x>
-							<y>-0.006187</y>
-							<z>-9.336467</z>
-						</Position>
-						<RotationY>3.160541</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Carrier_01_9</Name>
-						<hasValue>1</hasValue>
-						<Id>173</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.168517</w>
-							<x>-0.000000</x>
-							<y>0.985699</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-45.738155</x>
-							<y>-0.231861</y>
-							<z>-9.450201</z>
-						</Position>
-						<RotationY>3.480243</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Crane_Crew</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>194</Id>
-				<Dummies>
-					<i>
-						<Name>Crane_Crew_0</Name>
-						<hasValue>1</hasValue>
-						<Id>198</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.988951</w>
-							<x>-0.000000</x>
-							<y>0.148240</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-37.120255</x>
-							<y>3.402489</y>
-							<z>-1.072602</z>
-						</Position>
-						<RotationY>5.985610</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Crane_Crew_1</Name>
-						<hasValue>1</hasValue>
-						<Id>200</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.711223</w>
-							<x>0.000000</x>
-							<y>-0.702966</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-37.177368</x>
-							<y>2.215916</y>
-							<z>2.183587</z>
-						</Position>
-						<RotationY>1.559120</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Crane_Crew_2</Name>
-						<hasValue>1</hasValue>
-						<Id>201</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>1.000000</w>
-							<x>0.000000</x>
-							<y>0.000000</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-37.148682</x>
-							<y>3.402489</y>
-							<z>-1.333315</z>
-						</Position>
-						<RotationY>0.000000</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
 				<Name>Crowd_01</Name>
 				<Groups />
 				<hasValue>1</hasValue>
@@ -1239,11 +37,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.640690</x>
+							<x>0.246549</x>
 							<y>0.015917</y>
-							<z>1.282476</z>
+							<z>1.964057</z>
 						</Position>
-						<RotationY>3.446770</RotationY>
+						<RotationY>2.032316</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1277,11 +75,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.375544</x>
+							<x>0.415072</x>
 							<y>0.009505</y>
-							<z>1.494873</z>
+							<z>2.259040</z>
 						</Position>
-						<RotationY>3.728239</RotationY>
+						<RotationY>2.313785</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1315,11 +113,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.644094</x>
+							<x>-0.516116</x>
 							<y>0.006836</y>
-							<z>0.509858</z>
+							<z>1.840394</z>
 						</Position>
-						<RotationY>2.780433</RotationY>
+						<RotationY>1.365979</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1353,11 +151,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.355997</x>
+							<x>-0.530609</x>
 							<y>0.015823</y>
-							<z>0.540598</z>
+							<z>2.129761</z>
 						</Position>
-						<RotationY>2.703813</RotationY>
+						<RotationY>1.289359</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1391,11 +189,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.008022</x>
+							<x>0.115629</x>
 							<y>0.006101</y>
-							<z>1.249665</z>
+							<z>2.583901</z>
 						</Position>
-						<RotationY>3.728590</RotationY>
+						<RotationY>2.314136</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1429,11 +227,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.738670</x>
+							<x>0.146144</x>
 							<y>-0.005617</y>
-							<z>1.323015</z>
+							<z>2.861388</z>
 						</Position>
-						<RotationY>4.235346</RotationY>
+						<RotationY>2.820892</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1467,11 +265,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.886282</x>
+							<x>0.343954</x>
 							<y>-0.015708</y>
-							<z>1.500000</z>
+							<z>2.743134</z>
 						</Position>
-						<RotationY>4.168015</RotationY>
+						<RotationY>2.753561</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1505,11 +303,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.827295</x>
+							<x>0.617646</x>
 							<y>-0.045676</y>
-							<z>1.786368</z>
+							<z>2.845990</z>
 						</Position>
-						<RotationY>4.410007</RotationY>
+						<RotationY>2.995553</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1543,11 +341,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.669394</x>
+							<x>0.418995</x>
 							<y>-0.032530</y>
-							<z>1.610155</z>
+							<z>2.974527</z>
 						</Position>
-						<RotationY>4.542633</RotationY>
+						<RotationY>3.128179</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1581,11 +379,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.023813</x>
+							<x>-0.500728</x>
 							<y>0.031613</y>
-							<z>0.623208</z>
+							<z>2.470759</z>
 						</Position>
-						<RotationY>2.601710</RotationY>
+						<RotationY>1.187256</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1619,11 +417,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.144934</x>
+							<x>0.543239</x>
 							<y>-0.020144</y>
-							<z>1.660975</z>
+							<z>2.512699</z>
 						</Position>
-						<RotationY>4.023560</RotationY>
+						<RotationY>2.609106</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1657,11 +455,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.993809</x>
+							<x>0.368279</x>
 							<y>-0.017411</y>
-							<z>1.507675</z>
+							<z>2.638114</z>
 						</Position>
-						<RotationY>4.048280</RotationY>
+						<RotationY>2.633825</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1695,11 +493,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.215195</x>
+							<x>0.096095</x>
 							<y>0.022375</y>
-							<z>1.197232</z>
+							<z>2.371091</z>
 						</Position>
-						<RotationY>3.508235</RotationY>
+						<RotationY>2.093781</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1733,11 +531,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.413027</x>
+							<x>0.192966</x>
 							<y>0.020807</y>
-							<z>1.264117</z>
+							<z>2.186085</z>
 						</Position>
-						<RotationY>3.499589</RotationY>
+						<RotationY>2.085135</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1771,11 +569,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.548122</x>
+							<x>-0.135204</x>
 							<y>0.020885</y>
-							<z>0.910601</z>
+							<z>1.997593</z>
 						</Position>
-						<RotationY>3.122704</RotationY>
+						<RotationY>1.708250</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1809,11 +607,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.368946</x>
+							<x>-0.298509</x>
 							<y>0.020286</y>
-							<z>0.773523</z>
+							<z>2.153240</z>
 						</Position>
-						<RotationY>2.959162</RotationY>
+						<RotationY>1.544708</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1847,11 +645,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.248034</x>
+							<x>-0.250981</x>
 							<y>0.024721</y>
-							<z>0.840697</z>
+							<z>2.283137</z>
 						</Position>
-						<RotationY>3.020316</RotationY>
+						<RotationY>1.605862</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1885,11 +683,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>20.063103</x>
+							<x>-0.194565</x>
 							<y>0.031209</y>
-							<z>0.926959</z>
+							<z>2.479242</z>
 						</Position>
-						<RotationY>3.137491</RotationY>
+						<RotationY>1.723037</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1931,11 +729,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.853085</x>
+							<x>-1.371328</x>
 							<y>-0.001792</y>
-							<z>-3.352524</z>
+							<z>-3.653653</z>
 						</Position>
-						<RotationY>3.702362</RotationY>
+						<RotationY>5.408187</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -1969,11 +767,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.925158</x>
+							<x>-1.148458</x>
 							<y>0.001099</y>
-							<z>-3.587234</z>
+							<z>-3.550634</z>
 						</Position>
-						<RotationY>3.504639</RotationY>
+						<RotationY>5.210464</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2007,11 +805,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.483770</x>
+							<x>-0.977018</x>
 							<y>-0.038232</y>
-							<z>-3.700283</z>
+							<z>-3.972787</z>
 						</Position>
-						<RotationY>3.569623</RotationY>
+						<RotationY>5.275448</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2045,11 +843,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.449959</x>
+							<x>-0.677118</x>
 							<y>-0.041569</y>
-							<z>-3.998344</z>
+							<z>-3.966166</z>
 						</Position>
-						<RotationY>3.157011</RotationY>
+						<RotationY>4.862836</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2083,11 +881,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.466105</x>
+							<x>-0.420835</x>
 							<y>-0.025445</y>
-							<z>-4.259175</z>
+							<z>-3.915055</z>
 						</Position>
-						<RotationY>2.783088</RotationY>
+						<RotationY>4.488913</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2121,11 +919,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>24.039055</x>
+							<x>-0.956522</x>
 							<y>0.001099</y>
-							<z>-3.796407</z>
+							<z>-3.409615</z>
 						</Position>
-						<RotationY>3.316439</RotationY>
+						<RotationY>5.022264</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2159,11 +957,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.878836</x>
+							<x>-0.863641</x>
 							<y>0.000750</y>
-							<z>-3.868375</z>
+							<z>-3.558691</z>
 						</Position>
-						<RotationY>3.277002</RotationY>
+						<RotationY>4.982827</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2197,11 +995,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.985783</x>
+							<x>-0.703453</x>
 							<y>0.001099</y>
-							<z>-4.044559</z>
+							<z>-3.428997</z>
 						</Position>
-						<RotationY>3.117438</RotationY>
+						<RotationY>4.823263</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2235,11 +1033,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.808983</x>
+							<x>-0.551939</x>
 							<y>-0.002003</y>
-							<z>-4.173449</z>
+							<z>-3.586836</z>
 						</Position>
-						<RotationY>2.986429</RotationY>
+						<RotationY>4.692254</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2273,11 +1071,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.806751</x>
+							<x>-0.357498</x>
 							<y>-0.002097</y>
-							<z>-4.369372</z>
+							<z>-3.562674</z>
 						</Position>
-						<RotationY>2.804050</RotationY>
+						<RotationY>4.509875</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2311,11 +1109,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>24.000511</x>
+							<x>-0.278507</x>
 							<y>0.001099</y>
-							<z>-4.475412</z>
+							<z>-3.356400</z>
 						</Position>
-						<RotationY>2.776826</RotationY>
+						<RotationY>4.482651</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2349,11 +1147,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.729385</x>
+							<x>-0.131866</x>
 							<y>-0.005365</y>
-							<z>-4.586567</z>
+							<z>-3.610096</z>
 						</Position>
-						<RotationY>2.590603</RotationY>
+						<RotationY>4.296428</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2387,11 +1185,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>23.917299</x>
+							<x>0.001557</x>
 							<y>0.001099</y>
-							<z>-4.746746</z>
+							<z>-3.402331</z>
 						</Position>
-						<RotationY>2.563532</RotationY>
+						<RotationY>4.269357</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2433,11 +1231,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>19.588320</x>
+							<x>-0.239954</x>
 							<y>0.013132</y>
-							<z>0.955849</z>
+							<z>2.952733</z>
 						</Position>
-						<RotationY>0.361895</RotationY>
+						<RotationY>-1.052559</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2471,11 +1269,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>22.931286</x>
+							<x>-0.618326</x>
 							<y>-0.092746</y>
-							<z>-3.987211</z>
+							<z>-4.481616</z>
 						</Position>
-						<RotationY>0.000000</RotationY>
+						<RotationY>1.705825</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2509,11 +1307,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>24.225664</x>
+							<x>-3.312708</x>
 							<y>0.024222</y>
-							<z>-0.584853</z>
+							<z>2.579206</z>
 						</Position>
-						<RotationY>4.891418</RotationY>
+						<RotationY>10.391918</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2547,11 +1345,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>22.486626</x>
+							<x>-0.680744</x>
 							<y>0.045207</y>
-							<z>-1.750702</z>
+							<z>-1.639854</z>
 						</Position>
-						<RotationY>0.982190</RotationY>
+						<RotationY>-0.568136</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2593,11 +1391,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>13.448141</x>
-							<y>0.977051</y>
-							<z>24.148912</z>
+							<x>-3.370355</x>
+							<y>3.516958</y>
+							<z>0.824067</z>
 						</Position>
-						<RotationY>2.750658</RotationY>
+						<RotationY>1.617682</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2631,277 +1429,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>13.969607</x>
-							<y>0.114440</y>
-							<z>24.651825</z>
+							<x>2.295924</x>
+							<y>3.759088</y>
+							<z>4.406092</z>
 						</Position>
-						<RotationY>4.814147</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_10</Name>
-						<hasValue>1</hasValue>
-						<Id>142</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.833556</w>
-							<x>0.000000</x>
-							<y>-0.552436</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>15.212273</x>
-							<y>2.097656</y>
-							<z>26.083244</z>
-						</Position>
-						<RotationY>1.170567</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_11</Name>
-						<hasValue>1</hasValue>
-						<Id>143</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.838117</w>
-							<x>0.000000</x>
-							<y>-0.545490</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>15.208490</x>
-							<y>2.097656</y>
-							<z>22.159817</z>
-						</Position>
-						<RotationY>1.153948</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_12</Name>
-						<hasValue>1</hasValue>
-						<Id>144</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.785440</w>
-							<x>0.000000</x>
-							<y>-0.618937</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>15.233501</x>
-							<y>0.649903</y>
-							<z>22.782314</z>
-						</Position>
-						<RotationY>1.334778</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_13</Name>
-						<hasValue>1</hasValue>
-						<Id>145</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.479428</w>
-							<x>0.000000</x>
-							<y>-0.877581</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.396867</x>
-							<y>1.452889</y>
-							<z>22.237656</z>
-						</Position>
-						<RotationY>2.141587</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_14</Name>
-						<hasValue>1</hasValue>
-						<Id>146</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.639220</w>
-							<x>-0.000000</x>
-							<y>0.769024</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.403692</x>
-							<y>0.649902</y>
-							<z>22.989990</z>
-						</Position>
-						<RotationY>4.528560</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_15</Name>
-						<hasValue>1</hasValue>
-						<Id>147</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.785341</w>
-							<x>0.000000</x>
-							<y>-0.619063</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.343176</x>
-							<y>2.828125</y>
-							<z>22.697168</z>
-						</Position>
-						<RotationY>1.335099</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_16</Name>
-						<hasValue>1</hasValue>
-						<Id>148</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.870714</w>
-							<x>-0.000000</x>
-							<y>0.491790</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.388610</x>
-							<y>2.828125</y>
-							<z>23.044804</z>
-						</Position>
-						<RotationY>5.254897</RotationY>
+						<RotationY>5.674336</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2935,11 +1467,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>14.027737</x>
-							<y>0.114441</y>
-							<z>23.264668</z>
+							<x>-0.183705</x>
+							<y>3.010432</y>
+							<z>-6.975461</z>
 						</Position>
-						<RotationY>1.784497</RotationY>
+						<RotationY>0.196337</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -2973,11 +1505,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>13.402384</x>
-							<y>0.026947</y>
-							<z>21.506834</z>
+							<x>-0.883040</x>
+							<y>3.594944</y>
+							<z>4.595169</z>
 						</Position>
-						<RotationY>3.191808</RotationY>
+						<RotationY>3.023457</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3011,11 +1543,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>13.493786</x>
-							<y>0.026947</y>
-							<z>22.118700</z>
+							<x>1.306191</x>
+							<y>3.644149</y>
+							<z>0.824970</z>
 						</Position>
-						<RotationY>1.260921</RotationY>
+						<RotationY>-1.161143</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3049,11 +1581,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>14.436142</x>
-							<y>-0.000000</y>
-							<z>21.934055</z>
+							<x>-2.381235</x>
+							<y>2.797995</y>
+							<z>5.932759</z>
 						</Position>
-						<RotationY>4.155411</RotationY>
+						<RotationY>6.461745</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3087,125 +1619,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>14.436140</x>
-							<y>-0.000000</y>
-							<z>25.677425</z>
+							<x>3.204628</x>
+							<y>2.227361</y>
+							<z>-2.001186</z>
 						</Position>
-						<RotationY>1.554066</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_7</Name>
-						<hasValue>1</hasValue>
-						<Id>138</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.981986</w>
-							<x>-0.000000</x>
-							<y>0.188955</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.427720</x>
-							<y>2.101563</y>
-							<z>25.232151</z>
-						</Position>
-						<RotationY>5.902990</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_8</Name>
-						<hasValue>1</hasValue>
-						<Id>139</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.208499</w>
-							<x>-0.000000</x>
-							<y>0.978023</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>15.079000</x>
-							<y>2.101563</y>
-							<z>25.239960</z>
-						</Position>
-						<RotationY>3.561673</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_Down_9</Name>
-						<hasValue>1</hasValue>
-						<Id>141</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.959566</w>
-							<x>0.000000</x>
-							<y>-0.281485</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>13.788095</x>
-							<y>2.101563</y>
-							<z>20.911337</z>
-						</Position>
-						<RotationY>0.570682</RotationY>
+						<RotationY>-0.034094</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3247,11 +1665,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>6.463549</x>
+							<x>-3.439210</x>
 							<y>0.003522</y>
-							<z>31.811796</z>
+							<z>-2.111926</z>
 						</Position>
-						<RotationY>1.580042</RotationY>
+						<RotationY>-1.568413</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3285,201 +1703,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>7.670287</x>
+							<x>0.883586</x>
 							<y>-0.003031</y>
-							<z>31.919197</z>
+							<z>-6.065037</z>
 						</Position>
-						<RotationY>1.278169</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_10</Name>
-						<hasValue>1</hasValue>
-						<Id>133</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.216753</w>
-							<x>-0.000000</x>
-							<y>0.976227</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>6.344465</x>
-							<y>1.446159</y>
-							<z>32.647228</z>
-						</Position>
-						<RotationY>3.578567</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_11</Name>
-						<hasValue>1</hasValue>
-						<Id>134</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.851798</w>
-							<x>0.000000</x>
-							<y>-0.523870</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>5.894209</x>
-							<y>2.101563</y>
-							<z>30.741747</z>
-						</Position>
-						<RotationY>1.102776</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_12</Name>
-						<hasValue>1</hasValue>
-						<Id>135</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.913929</w>
-							<x>-0.000000</x>
-							<y>0.405874</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>6.633693</x>
-							<y>2.097656</y>
-							<z>32.979301</z>
-						</Position>
-						<RotationY>5.447316</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_13</Name>
-						<hasValue>1</hasValue>
-						<Id>136</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.984441</w>
-							<x>-0.000000</x>
-							<y>0.175716</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>6.544282</x>
-							<y>2.095323</y>
-							<z>32.972813</z>
-						</Position>
-						<RotationY>5.929919</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_14</Name>
-						<hasValue>1</hasValue>
-						<Id>137</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.298383</w>
-							<x>0.000000</x>
-							<y>-0.954446</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>8.134928</x>
-							<y>1.451447</y>
-							<z>30.762814</z>
-						</Position>
-						<RotationY>2.535596</RotationY>
+						<RotationY>3.053874</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3513,11 +1741,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>6.727857</x>
-							<y>-0.242947</y>
-							<z>32.661366</z>
+							<x>4.159788</x>
+							<y>-0.051603</y>
+							<z>4.363215</z>
 						</Position>
-						<RotationY>1.162318</RotationY>
+						<RotationY>-3.198427</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3551,11 +1779,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>5.510186</x>
-							<y>-1.152816</y>
-							<z>32.660641</z>
+							<x>0.968914</x>
+							<y>-0.041639</y>
+							<z>4.404726</z>
 						</Position>
-						<RotationY>3.815418</RotationY>
+						<RotationY>6.185347</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3589,11 +1817,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>6.189272</x>
-							<y>-1.145074</y>
-							<z>33.725510</z>
+							<x>-0.998855</x>
+							<y>-0.033897</y>
+							<z>0.319712</z>
 						</Position>
-						<RotationY>5.836684</RotationY>
+						<RotationY>3.197334</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3627,11 +1855,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>6.430572</x>
-							<y>-1.190001</y>
-							<z>34.498337</z>
+							<x>4.125948</x>
+							<y>-0.078824</y>
+							<z>-2.466958</z>
 						</Position>
-						<RotationY>4.954700</RotationY>
+						<RotationY>3.143396</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -3665,863 +1893,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>6.356450</x>
+							<x>-3.144923</x>
 							<y>0.001099</y>
-							<z>33.446220</z>
+							<z>4.279373</z>
 						</Position>
-						<RotationY>3.267197</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_7</Name>
-						<hasValue>1</hasValue>
-						<Id>130</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.158373</w>
-							<x>0.000000</x>
-							<y>-0.987379</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>6.495414</x>
-							<y>2.101563</y>
-							<z>32.553894</z>
-						</Position>
-						<RotationY>2.823507</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_8</Name>
-						<hasValue>1</hasValue>
-						<Id>131</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.911012</w>
-							<x>-0.000000</x>
-							<y>0.412380</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>8.602249</x>
-							<y>2.101563</y>
-							<z>32.854874</z>
-						</Position>
-						<RotationY>5.433055</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Hammerer_UP_9</Name>
-						<hasValue>1</hasValue>
-						<Id>132</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.893122</w>
-							<x>0.000000</x>
-							<y>-0.449815</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>5.875430</x>
-							<y>0.649903</y>
-							<z>33.332058</z>
-						</Position>
-						<RotationY>0.933116</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Object_Movers_01</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>42</Id>
-				<Dummies>
-					<i>
-						<Name>Object_Movers_01_0</Name>
-						<hasValue>1</hasValue>
-						<Id>43</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.005441</w>
-							<x>-0.000000</x>
-							<y>0.999985</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-40.658550</x>
-							<y>-0.004594</y>
-							<z>23.087870</z>
-						</Position>
-						<RotationY>3.152475</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_1</Name>
-						<hasValue>1</hasValue>
-						<Id>44</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.011205</w>
-							<x>0.000000</x>
-							<y>-0.999937</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.193096</x>
-							<y>-0.030834</y>
-							<z>23.111414</z>
-						</Position>
-						<RotationY>3.119182</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_10</Name>
-						<hasValue>1</hasValue>
-						<Id>53</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.950980</w>
-							<x>-0.000000</x>
-							<y>0.309251</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.017780</x>
-							<y>0.001110</y>
-							<z>21.254887</z>
-						</Position>
-						<RotationY>5.654375</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_11</Name>
-						<hasValue>1</hasValue>
-						<Id>54</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.997175</w>
-							<x>0.000000</x>
-							<y>-0.075111</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.483421</x>
-							<y>0.003657</y>
-							<z>21.213501</z>
-						</Position>
-						<RotationY>0.150364</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_2</Name>
-						<hasValue>1</hasValue>
-						<Id>45</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.018108</w>
-							<x>0.000000</x>
-							<y>-0.999836</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-40.899857</x>
-							<y>-0.037122</y>
-							<z>23.092800</z>
-						</Position>
-						<RotationY>3.105375</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_3</Name>
-						<hasValue>1</hasValue>
-						<Id>46</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.316216</w>
-							<x>-0.000000</x>
-							<y>0.948687</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.052345</x>
-							<y>-0.051838</y>
-							<z>22.761553</z>
-						</Position>
-						<RotationY>3.785069</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_4</Name>
-						<hasValue>1</hasValue>
-						<Id>47</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.708161</w>
-							<x>-0.000000</x>
-							<y>0.706051</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.395596</x>
-							<y>-0.029695</y>
-							<z>21.414146</z>
-						</Position>
-						<RotationY>4.715373</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_5</Name>
-						<hasValue>1</hasValue>
-						<Id>48</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.346923</w>
-							<x>-0.000000</x>
-							<y>0.937894</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-38.789078</x>
-							<y>0.019380</y>
-							<z>22.458370</z>
-						</Position>
-						<RotationY>3.850169</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_6</Name>
-						<hasValue>1</hasValue>
-						<Id>49</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.252110</w>
-							<x>-0.000000</x>
-							<y>0.967699</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-40.183193</x>
-							<y>0.011525</y>
-							<z>21.689110</z>
-						</Position>
-						<RotationY>3.651313</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_7</Name>
-						<hasValue>1</hasValue>
-						<Id>50</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.018707</w>
-							<x>0.000000</x>
-							<y>-0.999825</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.848045</x>
-							<y>0.001099</y>
-							<z>21.749884</z>
-						</Position>
-						<RotationY>3.104177</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_8</Name>
-						<hasValue>1</hasValue>
-						<Id>51</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.028588</w>
-							<x>0.000000</x>
-							<y>-0.999591</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-41.631046</x>
-							<y>0.002552</y>
-							<z>21.748901</z>
-						</Position>
-						<RotationY>3.084409</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Object_Movers_01_9</Name>
-						<hasValue>1</hasValue>
-						<Id>52</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.029605</w>
-							<x>0.000000</x>
-							<y>-0.999562</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-42.149078</x>
-							<y>-0.001156</y>
-							<z>21.786793</z>
-						</Position>
-						<RotationY>3.082374</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Scaffold_Worker_01</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>150</Id>
-				<Dummies>
-					<i>
-						<Name>Scaffold_Worker_01_0</Name>
-						<hasValue>1</hasValue>
-						<Id>151</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.926473</w>
-							<x>0.000000</x>
-							<y>-0.376360</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-27.936537</x>
-							<y>2.101563</y>
-							<z>36.321854</z>
-						</Position>
-						<RotationY>0.771729</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_1</Name>
-						<hasValue>1</hasValue>
-						<Id>152</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.686121</w>
-							<x>-0.000000</x>
-							<y>0.727488</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-28.234449</x>
-							<y>2.101562</y>
-							<z>36.216122</z>
-						</Position>
-						<RotationY>4.653879</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_2</Name>
-						<hasValue>1</hasValue>
-						<Id>153</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.722364</w>
-							<x>-0.000000</x>
-							<y>0.691513</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-28.219820</x>
-							<y>2.103266</y>
-							<z>35.959953</z>
-						</Position>
-						<RotationY>4.756022</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_3</Name>
-						<hasValue>1</hasValue>
-						<Id>154</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.730257</w>
-							<x>-0.000000</x>
-							<y>0.683172</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-28.266100</x>
-							<y>2.107143</y>
-							<z>35.137333</z>
-						</Position>
-						<RotationY>4.778990</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_4</Name>
-						<hasValue>1</hasValue>
-						<Id>155</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.003124</w>
-							<x>0.000000</x>
-							<y>-0.999995</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-28.256557</x>
-							<y>2.101563</y>
-							<z>34.070065</z>
-						</Position>
-						<RotationY>3.135345</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_5</Name>
-						<hasValue>1</hasValue>
-						<Id>156</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.697623</w>
-							<x>-0.000000</x>
-							<y>0.716465</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-29.128340</x>
-							<y>2.101563</y>
-							<z>34.103939</z>
-						</Position>
-						<RotationY>4.685742</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Scaffold_Worker_01_6</Name>
-						<hasValue>1</hasValue>
-						<Id>157</Id>
-						<HeightAdaptationMode>0</HeightAdaptationMode>
-						<Orientation>
-							<w>0.959130</w>
-							<x>-0.000000</x>
-							<y>0.282967</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-29.141056</x>
-							<y>2.088166</y>
-							<z>33.172791</z>
-						</Position>
-						<RotationY>5.709414</RotationY>
+						<RotationY>3.090491</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4536,158 +1912,6 @@
 				<hasValue>1</hasValue>
 				<Id>1</Id>
 				<Dummies>
-					<i>
-						<Name>Shoveler_0</Name>
-						<hasValue>1</hasValue>
-						<Id>6</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.302592</w>
-							<x>-0.000000</x>
-							<y>0.953120</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.642679</x>
-							<y>0.016739</y>
-							<z>39.133701</z>
-						</Position>
-						<RotationY>3.756415</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Shoveler_1</Name>
-						<hasValue>1</hasValue>
-						<Id>7</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.943339</w>
-							<x>-0.000000</x>
-							<y>0.331829</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-11.217393</x>
-							<y>0.002962</y>
-							<z>38.823410</z>
-						</Position>
-						<RotationY>5.606701</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Shoveler_10</Name>
-						<hasValue>1</hasValue>
-						<Id>93</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.874362</w>
-							<x>0.000000</x>
-							<y>-0.485273</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.288377</x>
-							<y>0.049634</y>
-							<z>39.801899</z>
-						</Position>
-						<RotationY>1.013351</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Shoveler_11</Name>
-						<hasValue>1</hasValue>
-						<Id>94</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.854278</w>
-							<x>0.000000</x>
-							<y>-0.519817</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.860003</x>
-							<y>0.051151</y>
-							<z>39.550640</z>
-						</Position>
-						<RotationY>1.093273</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
 					<i>
 						<Name>Shoveler_12</Name>
 						<hasValue>1</hasValue>
@@ -4715,11 +1939,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-12.420616</x>
+							<x>4.221734</x>
 							<y>0.044597</y>
-							<z>39.300430</z>
+							<z>-5.434083</z>
 						</Position>
-						<RotationY>0.969403</RotationY>
+						<RotationY>2.614373</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4753,11 +1977,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-11.921152</x>
+							<x>0.973926</x>
 							<y>0.022490</y>
-							<z>39.049675</z>
+							<z>-3.422594</z>
 						</Position>
-						<RotationY>1.054913</RotationY>
+						<RotationY>-0.557816</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4791,11 +2015,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-14.901176</x>
+							<x>-2.340714</x>
 							<y>0.018616</y>
-							<z>41.564041</z>
+							<z>-5.513962</z>
 						</Position>
-						<RotationY>4.787628</RotationY>
+						<RotationY>9.900331</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4829,11 +2053,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-13.374659</x>
-							<y>-1.172253</y>
-							<z>39.586174</z>
+							<x>3.564428</x>
+							<y>0.000000</y>
+							<z>-3.712696</z>
 						</Position>
-						<RotationY>4.706458</RotationY>
+						<RotationY>10.139751</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4867,11 +2091,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-13.685537</x>
-							<y>-1.147446</y>
-							<z>40.544834</z>
+							<x>-3.912511</x>
+							<y>0.000000</y>
+							<z>-7.169865</z>
 						</Position>
-						<RotationY>4.191533</RotationY>
+						<RotationY>1.207059</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4905,49 +2129,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-13.615305</x>
-							<y>-1.098439</y>
-							<z>41.088593</z>
+							<x>-2.425721</x>
+							<y>0.000000</y>
+							<z>-6.803216</z>
 						</Position>
-						<RotationY>2.725156</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Shoveler_6</Name>
-						<hasValue>1</hasValue>
-						<Id>12</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.864050</w>
-							<x>-0.000000</x>
-							<y>0.503406</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.177088</x>
-							<y>-1.127418</y>
-							<z>40.632874</z>
-						</Position>
-						<RotationY>5.228113</RotationY>
+						<RotationY>2.737481</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -4981,11 +2167,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-13.455448</x>
+							<x>2.245150</x>
 							<y>0.001098</y>
-							<z>41.991432</z>
+							<z>-2.684519</z>
 						</Position>
-						<RotationY>5.527582</RotationY>
+						<RotationY>4.402072</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5019,11 +2205,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-14.078151</x>
-							<y>0.017277</y>
-							<z>40.589310</z>
+							<x>-3.778602</x>
+							<y>0.017278</y>
+							<z>-4.299148</z>
 						</Position>
-						<RotationY>0.781559</RotationY>
+						<RotationY>-1.871786</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5057,11 +2243,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-13.670789</x>
+							<x>1.779044</x>
 							<y>0.024197</y>
-							<z>40.183952</z>
+							<z>-6.300400</z>
 						</Position>
-						<RotationY>0.826337</RotationY>
+						<RotationY>1.137606</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5103,11 +2289,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-29.430481</x>
+							<x>4.474799</x>
 							<y>0.000000</y>
-							<z>-30.179028</z>
+							<z>2.215050</z>
 						</Position>
-						<RotationY>0.867531</RotationY>
+						<RotationY>-0.720629</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5141,125 +2327,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-29.655731</x>
+							<x>19.161268</x>
 							<y>0.000000</y>
-							<z>-30.567963</z>
+							<z>6.168789</z>
 						</Position>
-						<RotationY>2.250207</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_10</Name>
-						<hasValue>1</hasValue>
-						<Id>24</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.033300</w>
-							<x>-0.000000</x>
-							<y>0.999445</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-30.875809</x>
-							<y>0.000000</y>
-							<z>-32.298210</z>
-						</Position>
-						<RotationY>3.208205</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_11</Name>
-						<hasValue>1</hasValue>
-						<Id>25</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.963228</w>
-							<x>-0.000000</x>
-							<y>0.268687</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-29.295166</x>
-							<y>0.000000</y>
-							<z>-32.163109</z>
-						</Position>
-						<RotationY>5.739126</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_12</Name>
-						<hasValue>1</hasValue>
-						<Id>26</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.802787</w>
-							<x>-0.000000</x>
-							<y>0.596266</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-30.583687</x>
-							<y>0.000000</y>
-							<z>-30.799414</z>
-						</Position>
-						<RotationY>5.005502</RotationY>
+						<RotationY>0.662047</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5293,11 +2365,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-29.244434</x>
-							<y>0.000000</y>
-							<z>-30.621367</z>
+							<x>4.574008</x>
+							<y>-0.000000</y>
+							<z>-2.720144</z>
 						</Position>
-						<RotationY>0.118978</RotationY>
+						<RotationY>-1.469182</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5331,11 +2403,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-30.338848</x>
+							<x>-1.648445</x>
 							<y>0.000000</y>
-							<z>-30.765749</z>
+							<z>3.286196</z>
 						</Position>
-						<RotationY>2.163677</RotationY>
+						<RotationY>0.575517</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5369,11 +2441,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-30.987631</x>
+							<x>-2.968609</x>
 							<y>0.000000</y>
-							<z>-30.432842</z>
+							<z>-3.642298</z>
 						</Position>
-						<RotationY>3.794677</RotationY>
+						<RotationY>2.206517</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
@@ -5407,1175 +2479,11 @@
 							</BBoxZExtents>
 						</Transformer>
 						<Position>
-							<x>-30.023090</x>
+							<x>-2.161894</x>
 							<y>0.000000</y>
-							<z>-32.815342</z>
+							<z>5.155131</z>
 						</Position>
-						<RotationY>4.060100</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_6</Name>
-						<hasValue>1</hasValue>
-						<Id>20</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.867074</w>
-							<x>0.000000</x>
-							<y>-0.498180</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-29.517002</x>
-							<y>0.000000</y>
-							<z>-28.219875</z>
-						</Position>
-						<RotationY>1.042997</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_7</Name>
-						<hasValue>1</hasValue>
-						<Id>21</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.224807</w>
-							<x>-0.000000</x>
-							<y>0.974403</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-31.824623</x>
-							<y>0.000000</y>
-							<z>-32.272694</z>
-						</Position>
-						<RotationY>3.595083</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_8</Name>
-						<hasValue>1</hasValue>
-						<Id>22</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.275416</w>
-							<x>-0.000000</x>
-							<y>0.961325</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-31.059273</x>
-							<y>0.000000</y>
-							<z>-32.520576</z>
-						</Position>
-						<RotationY>3.699638</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Sweeper_9</Name>
-						<hasValue>1</hasValue>
-						<Id>23</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.754605</w>
-							<x>-0.000000</x>
-							<y>0.656180</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-30.324623</x>
-							<y>0.000000</y>
-							<z>-32.222988</z>
-						</Position>
-						<RotationY>4.851696</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Unload_Barrier_0</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>121</Id>
-				<Dummies>
-					<i>
-						<Name>Unload_Barrier_0_0</Name>
-						<hasValue>1</hasValue>
-						<Id>122</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.106482</w>
-							<x>-0.000000</x>
-							<y>0.994315</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>4.505648</x>
-							<y>0.000000</y>
-							<z>-30.393339</z>
-						</Position>
-						<RotationY>3.354961</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Unload_Barrier_0_1</Name>
-						<hasValue>1</hasValue>
-						<Id>123</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.999917</w>
-							<x>0.000000</x>
-							<y>-0.012872</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>5.001827</x>
-							<y>0.000000</y>
-							<z>-30.466997</z>
-						</Position>
-						<RotationY>0.025745</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Unload_Barrier_0_2</Name>
-						<hasValue>1</hasValue>
-						<Id>124</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.928790</w>
-							<x>-0.000000</x>
-							<y>0.370606</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>6.157914</x>
-							<y>0.000000</y>
-							<z>-30.453768</z>
-						</Position>
-						<RotationY>5.523862</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Unload_Barrier_1</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>125</Id>
-				<Dummies>
-					<i>
-						<Name>Unload_Barrier_1_0</Name>
-						<hasValue>1</hasValue>
-						<Id>126</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.345418</w>
-							<x>0.000000</x>
-							<y>-0.938449</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>17.821312</x>
-							<y>0.000000</y>
-							<z>-25.374546</z>
-						</Position>
-						<RotationY>2.436224</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Unload_Barrier_1_1</Name>
-						<hasValue>1</hasValue>
-						<Id>127</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.801320</w>
-							<x>-0.000000</x>
-							<y>0.598236</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>18.353712</x>
-							<y>-0.049634</y>
-							<z>-25.846075</z>
-						</Position>
-						<RotationY>5.000589</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Unload_Barrier_1_2</Name>
-						<hasValue>1</hasValue>
-						<Id>128</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.724090</w>
-							<x>-0.000000</x>
-							<y>0.689705</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>18.482487</x>
-							<y>0.014976</y>
-							<z>-26.672264</z>
-						</Position>
-						<RotationY>4.761022</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Unload_Barrier_1_3</Name>
-						<hasValue>1</hasValue>
-						<Id>129</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.734077</w>
-							<x>-0.000000</x>
-							<y>0.679067</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>18.483669</x>
-							<y>0.040621</y>
-							<z>-27.874546</z>
-						</Position>
-						<RotationY>4.790205</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-				</Dummies>
-			</i>
-			<i>
-				<Name>Wheelbarrow</Name>
-				<Groups />
-				<hasValue>1</hasValue>
-				<Id>174</Id>
-				<Dummies>
-					<i>
-						<Name>Wheelbarrow_0</Name>
-						<hasValue>1</hasValue>
-						<Id>175</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.935483</w>
-							<x>-0.000000</x>
-							<y>0.353372</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.565634</x>
-							<y>0.001099</y>
-							<z>-37.301987</z>
-						</Position>
-						<RotationY>5.560839</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_1</Name>
-						<hasValue>1</hasValue>
-						<Id>176</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.718405</w>
-							<x>-0.000000</x>
-							<y>0.695625</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.928237</x>
-							<y>0.000000</y>
-							<z>-38.274479</z>
-						</Position>
-						<RotationY>4.744606</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_10</Name>
-						<hasValue>1</hasValue>
-						<Id>185</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.896645</w>
-							<x>0.000000</x>
-							<y>-0.442751</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.543257</x>
-							<y>0.000000</y>
-							<z>-38.910046</z>
-						</Position>
-						<RotationY>0.917329</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_11</Name>
-						<hasValue>1</hasValue>
-						<Id>186</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.777448</w>
-							<x>0.000000</x>
-							<y>-0.628947</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-11.726385</x>
-							<y>0.000000</y>
-							<z>-38.112457</z>
-						</Position>
-						<RotationY>1.360396</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_12</Name>
-						<hasValue>1</hasValue>
-						<Id>187</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.565372</w>
-							<x>0.000000</x>
-							<y>-0.824836</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-11.497687</x>
-							<y>0.000000</y>
-							<z>-36.910046</z>
-						</Position>
-						<RotationY>1.939824</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_13</Name>
-						<hasValue>1</hasValue>
-						<Id>188</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.046562</w>
-							<x>0.000000</x>
-							<y>-0.998915</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.262486</x>
-							<y>0.000000</y>
-							<z>-35.910046</z>
-						</Position>
-						<RotationY>3.048435</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_14</Name>
-						<hasValue>1</hasValue>
-						<Id>189</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.290970</w>
-							<x>-0.000000</x>
-							<y>0.956732</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.141100</x>
-							<y>0.009238</y>
-							<z>-35.846832</z>
-						</Position>
-						<RotationY>3.732074</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_15</Name>
-						<hasValue>1</hasValue>
-						<Id>190</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.634069</w>
-							<x>-0.000000</x>
-							<y>0.773276</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.714542</x>
-							<y>0.016572</y>
-							<z>-36.344936</z>
-						</Position>
-						<RotationY>4.515202</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_16</Name>
-						<hasValue>1</hasValue>
-						<Id>191</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.988559</w>
-							<x>0.000000</x>
-							<y>-0.150835</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.259669</x>
-							<y>0.000000</y>
-							<z>-44.318470</z>
-						</Position>
-						<RotationY>0.302826</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_17</Name>
-						<hasValue>1</hasValue>
-						<Id>192</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.863470</w>
-							<x>0.000000</x>
-							<y>-0.504400</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.593420</x>
-							<y>0.000000</y>
-							<z>-44.037014</z>
-						</Position>
-						<RotationY>1.057374</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_18</Name>
-						<hasValue>1</hasValue>
-						<Id>193</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.700831</w>
-							<x>0.000000</x>
-							<y>-0.713327</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-12.361986</x>
-							<y>0.000000</y>
-							<z>-43.515018</z>
-						</Position>
-						<RotationY>1.588469</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_2</Name>
-						<hasValue>1</hasValue>
-						<Id>177</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.227106</w>
-							<x>-0.000000</x>
-							<y>0.973870</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.071635</x>
-							<y>0.000000</y>
-							<z>-43.560444</z>
-						</Position>
-						<RotationY>3.599803</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_3</Name>
-						<hasValue>1</hasValue>
-						<Id>178</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.014599</w>
-							<x>0.000000</x>
-							<y>-0.999893</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-13.740467</x>
-							<y>0.000000</y>
-							<z>-44.013474</z>
-						</Position>
-						<RotationY>3.112394</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_4</Name>
-						<hasValue>1</hasValue>
-						<Id>179</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.447843</w>
-							<x>0.000000</x>
-							<y>-0.894112</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-14.861111</x>
-							<y>0.000000</y>
-							<z>-40.883121</z>
-						</Position>
-						<RotationY>2.212890</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_5</Name>
-						<hasValue>1</hasValue>
-						<Id>180</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.000563</w>
-							<x>0.000000</x>
-							<y>-1.000000</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-15.587751</x>
-							<y>0.000000</y>
-							<z>-40.732346</z>
-						</Position>
-						<RotationY>3.140467</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_6</Name>
-						<hasValue>1</hasValue>
-						<Id>181</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.507212</w>
-							<x>-0.000000</x>
-							<y>0.861822</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-16.141466</x>
-							<y>0.000000</y>
-							<z>-41.134052</z>
-						</Position>
-						<RotationY>4.205485</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_7</Name>
-						<hasValue>1</hasValue>
-						<Id>182</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.903321</w>
-							<x>-0.000000</x>
-							<y>0.428965</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-15.969984</x>
-							<y>0.000000</y>
-							<z>-41.634052</z>
-						</Position>
-						<RotationY>5.396492</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_8</Name>
-						<hasValue>1</hasValue>
-						<Id>183</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>1.000000</w>
-							<x>0.000000</x>
-							<y>0.000000</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-15.222277</x>
-							<y>0.000000</y>
-							<z>-42.008400</z>
-						</Position>
-						<RotationY>0.000000</RotationY>
-						<Extents>
-							<x>0.100000</x>
-							<y>0.100000</y>
-							<z>0.100000</z>
-						</Extents>
-					</i>
-					<i>
-						<Name>Wheelbarrow_9</Name>
-						<hasValue>1</hasValue>
-						<Id>184</Id>
-						<HeightAdaptationMode>1</HeightAdaptationMode>
-						<Orientation>
-							<w>0.940571</w>
-							<x>0.000000</x>
-							<y>-0.339598</y>
-							<z>0.000000</z>
-						</Orientation>
-						<Transformer>
-							<Flags>8</Flags>
-							<BBoxCenter>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxCenter>
-							<BBoxXExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxXExtents>
-							<BBoxZExtents>
-								<xf>0.000000</xf>
-								<zf>0.000000</zf>
-							</BBoxZExtents>
-						</Transformer>
-						<Position>
-							<x>-14.262487</x>
-							<y>0.000000</y>
-							<z>-45.311905</z>
-						</Position>
-						<RotationY>0.692979</RotationY>
+						<RotationY>2.471941</RotationY>
 						<Extents>
 							<x>0.100000</x>
 							<y>0.100000</y>
