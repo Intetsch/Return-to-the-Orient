@@ -1,0 +1,198 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="963">
+        <Asset>
+            <Template>AirshipPlatform</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001234</GUID>
+                    <Name>Orient airship landing platform</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/airship_platform/icon_airship_platform_southamerica.png</IconFilename>
+                    <InfoDescription>2977</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>962</TextOverride>
+                </Text>
+                <Blocking />
+                <Building>
+                    <BuildModeStartVariation>0</BuildModeStartVariation>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                    <AllowChangeDirection>1</AllowChangeDirection>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>60</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>838</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <StaticHelpEntryPoint>EmpireOfTheSkies_Post_AirMailRoute</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc11/graphics/buildings/special/airship_landing_platform/airship_landing_platform_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh>
+                    <DefaultSequence>work01</DefaultSequence>
+                    <LogoMode>CorporationLogoFromPlayer</LogoMode>
+                    <SetCompanyLogo>1</SetCompanyLogo>
+                </Mesh>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>201006</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>9818759</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item />
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item />
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item />
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item />
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI />
+                    </ProductionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRuined>
+                        <Item>
+                            <Sound>203848</Sound>
+                        </Item>
+                    </BuildingRuined>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                </SoundEmitter>
+                <Locked>
+                    <DLCDependency>24962</DLCDependency>
+                </Locked>
+                <Infolayer />
+                <FeedbackController>
+                    <DefaultFeedbackSequence>Work</DefaultFeedbackSequence>
+                </FeedbackController>
+                <Warehouse />
+                <LogisticNode />
+                <MinimapToken>
+                    <TokenAsset>2001805</TokenAsset>
+                </MinimapToken>
+                <AmbientMoodProvider>
+                    <Murmur>DLC11_AirshipPlatform</Murmur>
+                </AmbientMoodProvider>
+                <LoadingPier>
+                    <NumOfPiers>1</NumOfPiers>
+                    <LoadingSpeed>2</LoadingSpeed>
+                    <MinLoadingTime>5</MinLoadingTime>
+                </LoadingPier>
+                <StorageBase />
+                <Attackable>
+                    <MaximumHitPoints>9000</MaximumHitPoints>
+                    <PausedTimeIfAttacked>0</PausedTimeIfAttacked>
+                    <HPBarOffset>7</HPBarOffset>
+                    <DefenseByAIFactor>9994</DefenseByAIFactor>
+                    <MilitaryDefensePoints>5</MilitaryDefensePoints>
+                    <HasRuinState>1</HasRuinState>
+                    <ExplosionEffects>
+                        <Item />
+                        <Item>
+                            <ExplosionEffectFilePath>data/graphics/effects/military/explosions/harbor_generic_xpl_02.cfg</ExplosionEffectFilePath>
+                        </Item>
+                    </ExplosionEffects>
+                    <ExplosionEffectsMin>2</ExplosionEffectsMin>
+                    <ExplosionEffectsMax>3</ExplosionEffectsMax>
+                    <SelfHealPerHealTick>5</SelfHealPerHealTick>
+                </Attackable>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>450</Amount>
+                            <InactiveAmount>225</InactiveAmount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Pausable />
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <PlatformItem>
+                            <Limit>1</Limit>
+                        </PlatformItem>
+                        <PlatformPost>
+                            <Limit>1</Limit>
+                        </PlatformPost>
+                        <PlatformWorkforceTransfer>
+                            <Limit>1</Limit>
+                        </PlatformWorkforceTransfer>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                            <ModuleGUID>1404001238</ModuleGUID>
+                        </Item>
+                        <Item>
+                            <ModuleGUID>1404001237</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <BlueprintModuleOption>
+                        <ModuleButtonIcon>962</ModuleButtonIcon>
+                        <ModuleButtonInfotip>1253</ModuleButtonInfotip>
+                    </BlueprintModuleOption>
+                    <ModuleBuildRadius>20</ModuleBuildRadius>
+                </ModuleOwner>
+                <UpgradeList />
+                <BuildingUnique />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID='4278' Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404001234</GUID>
+        </Item>
+    </ModOp>
+
+</ModOps>

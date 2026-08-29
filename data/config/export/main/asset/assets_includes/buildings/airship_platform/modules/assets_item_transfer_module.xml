@@ -1,0 +1,115 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="963">
+        <Asset>
+            <Template>AirshipPlatformModuleItemTransfer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001238</GUID>
+                    <Name>Orient Item Transfer Module</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/airship_platform/icon_airship_platform_items.png</IconFilename>
+                    <InfoDescription>1272</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildModeStartVariation>0</BuildModeStartVariation>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>5000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>30</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc11/graphics/buildings/special/airship_landing_platform_modules/platform_module_colony_item_storage.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>ItemTransfer</GUIType>
+                    <StaticHelpEntryPoint>EmpireOfTheSkies_ItemTransfer</StaticHelpEntryPoint>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>964</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24962</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item />
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item />
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildFailed>
+                            <Item />
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item />
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item />
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item />
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI />
+                    </ProductionSounds>
+                </SoundEmitter>
+                <BuildingModule>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_castle.png</ModuleMoodImage>
+                </BuildingModule>
+                <Attackable>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <MetaItemStorageAccess>
+                    <ProvidedStorageAmount>2</ProvidedStorageAmount>
+                </MetaItemStorageAccess>
+                <Pausable />
+                <UpgradeList />
+                <FeedbackController />
+                <BuildingUnique>
+                    <Uniques>
+                        <Item>
+                            <UniqueType>AirshipPlatformItemTransferModule</UniqueType>
+                            <UniqueScope>Area</UniqueScope>
+                        </Item>
+                    </Uniques>
+                </BuildingUnique>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

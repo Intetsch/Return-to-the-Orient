@@ -1,0 +1,133 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="963">
+        <Asset>
+            <Template>AirshipPlatformModuleWorkforceTransfer</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001237</GUID>
+                    <Name>Orient Airship Commuter Station</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/airship_platform/icon_airship_platform_workforce.png</IconFilename>
+                    <InfoDescription>1576</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildModeStartVariation>0</BuildModeStartVariation>
+                    <BuildingCategoryName>11151</BuildingCategoryName>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <AllowChangeVariation>1</AllowChangeVariation>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>15000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114356</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc11/graphics/buildings/special/airship_landing_platform_modules/platform_module_colony_transfer.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <GUIType>WorkforceConnector</GUIType>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Human0</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>967</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked>
+                    <DLCDependency>24962</DLCDependency>
+                </Locked>
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item />
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item />
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildFailed>
+                            <Item />
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item />
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item />
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item />
+                        </BuildMoveEnd>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI />
+                    </ProductionSounds>
+                </SoundEmitter>
+                <BuildingModule>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_castle.png</ModuleMoodImage>
+                </BuildingModule>
+                <Attackable>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <WorkforceConnector />
+                <FeedbackController />
+                <Pausable>
+                    <CanPauseManually>1</CanPauseManually>
+                </Pausable>
+                <Infolayer />
+                <UpgradeList />
+                <BuildingUnique>
+                    <Uniques>
+                        <Item>
+                            <UniqueType>AirshipPlatformWorkforceTransferModule</UniqueType>
+                            <UniqueScope>Area</UniqueScope>
+                        </Item>
+                    </Uniques>
+                </BuildingUnique>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- # Paloma to commuter station -->
+    <ModOp Type="add" GUID='501065' Path="/Values/ObjectmenuCommuterHarbourScene/BuildingSpecificData">
+        <Item>
+            <Building>1404001237</Building>
+            <PortraitParticipant>Paloma</PortraitParticipant>
+            <PauseText>1577</PauseText>
+            <NoOtherHarborText>1576</NoOtherHarborText>
+        </Item>
+    </ModOp>
+
+    <!-- # Airship visual feedback for the commuter stations -->
+    <ModOp Type="add" GUID='141647' Path="/Values/WorkforceTransferFeature/TransferShipForRegion">
+        <Mod3>
+            <WorkforceTransferShip>328</WorkforceTransferShip>
+        </Mod3>
+    </ModOp>
+
+</ModOps>

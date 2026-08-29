@@ -1,0 +1,30 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID='3357'>
+		<Asset>
+			<BaseAssetGUID>3357</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404001252</GUID>
+					<Name>DLC11 Cafe Tables Orient</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/airport/icon_airport_cafetables_nw.png</IconFilename>
+				</Standard>
+				<Text>
+					<TextOverride>3357</TextOverride>
+				</Text>
+				<Building>
+					<BuildingCategoryName>6567</BuildingCategoryName>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/dlc11/graphics/buildings/ornaments/airport/airport_aircafe_seats_colony.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

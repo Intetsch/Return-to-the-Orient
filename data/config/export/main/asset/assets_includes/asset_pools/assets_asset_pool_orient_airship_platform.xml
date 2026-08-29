@@ -1,0 +1,52 @@
+<ModOps>
+
+    <ModOp GUID='4532' Type="addNextSibling">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001242</GUID>
+                    <Name>asset pool orient airship platform</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404001234</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001238</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001237</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001251</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001252</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001253</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001254</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001255</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001256</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001257</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404001258</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+
+    </ModOp>
+</ModOps>

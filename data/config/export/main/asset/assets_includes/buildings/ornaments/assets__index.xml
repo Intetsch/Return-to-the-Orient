@@ -1,5 +1,14 @@
 <ModOps>
 
+    <Include File="assets_dlc11_benches_large.xml"/>
+    <Include File="assets_dlc11_benches_small.xml" />
+    <Include File="assets_dlc11_cafe.xml" />
+    <Include File="assets_dlc11_cafe_tables.xml" />
+    <Include File="assets_dlc11_clock.xml" />
+    <Include File="assets_dlc11_flagpole.xml" />
+    <Include File="assets_dlc11_gate.xml" />
+    <Include File="assets_dlc11_sign.xml" />
+    
     <Include File="assets_fountain.xml" />
     <Include File="assets_palm.xml" />
     <Include File="assets_place.xml" />

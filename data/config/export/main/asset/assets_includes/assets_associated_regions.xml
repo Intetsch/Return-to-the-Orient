@@ -17,11 +17,16 @@
     <ModOp Type="add" GUID="13919,13920,13915,13976,13979,13990,13991,13992,13995" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative fields -->
     <ModOp Type="add" GUID="13916,13917,13928,13930,13934,13935,13940,13942,13943,13944,13948,13957,14179,13993,13994,16233,16605,16604,16603,16602" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
-
+    <!-- Airship platform ornaments -->
+    <ModOp Type="add" GUID="3357,3358,3360,3361,3362,3363,3368" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Market product -->
     <ModOp Type="add" GUID="120020" Path="Values/Product/AssociatedRegion">;Mod3</ModOp>
-
-    <ModOp Type="add" GUID="101339" Path="/Values/Building">
+    
+    <!-- Quay system with fallback if a region is already added -->
+    <ModOp Type="add" GUID="101339" Path="/Values/Building" Condition="!/Values/Building/AssociatedRegions">
         <AssociatedRegions>Colony01;Mod3</AssociatedRegions>
     </ModOp>
+    <ModOp Type="add" GUID="101339" Path="/Values/Building/AssociatedRegions" Condition="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+
 
 </ModOps>
