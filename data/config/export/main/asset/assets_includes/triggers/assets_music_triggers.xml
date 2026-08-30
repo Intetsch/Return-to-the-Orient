@@ -125,6 +125,38 @@
 				</TriggerSetup>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000860</GUID>
+					<Name>Exit to Menu Register</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionAlwaysTrue</Template>
+						<Values>
+							<Condition />
+							<ConditionAlwaysTrue />
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>data/script/music/exit_to_menu.lua</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
     </ModOp>
 
 </ModOps>
