@@ -1,0 +1,147 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "Z:\\Wwise\\RttOMusic\\",
+   "SourceFilesRoot": "Z:\\Wwise\\RttOMusic\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\Wwise\\RttOMusic\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\RttOMusic\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "626769978",
+    "GUID": "{D1DBDC4E-4F77-4D3D-9713-215D3F01B901}",
+    "Language": "SFX",
+    "Hash": "940517952",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BackgroundMusic",
+    "ShortName": "BackgroundMusic",
+    "Path": "BackgroundMusic.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "65769146",
+      "Name": "Play_Background_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Background_Music",
+      "GUID": "{AEA007B9-FF9E-4DB9-AED7-DCCF41F831A9}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "60308355",
+        "Language": "SFX",
+        "ShortName": "a410_or_sands_of_dreams.wav",
+        "Path": "SFX\\a410_or_sands_of_dreams_D8C07C79.wem"
+       },
+       {
+        "Id": "99504090",
+        "Language": "SFX",
+        "ShortName": "a413_ge_our_honoured_guests.wav",
+        "Path": "SFX\\a413_ge_our_honoured_guests_D8C07C79.wem"
+       },
+       {
+        "Id": "238507971",
+        "Language": "SFX",
+        "ShortName": "a439_ge_the_orient_sun.wav",
+        "Path": "SFX\\a439_ge_the_orient_sun_D8C07C79.wem"
+       },
+       {
+        "Id": "514389528",
+        "Language": "SFX",
+        "ShortName": "a408_or_golden_shores.wav",
+        "Path": "SFX\\a408_or_golden_shores_D8C07C79.wem"
+       },
+       {
+        "Id": "527974693",
+        "Language": "SFX",
+        "ShortName": "a432_or_vast_and_quiet.wav",
+        "Path": "SFX\\a432_or_vast_and_quiet_D8C07C79.wem"
+       },
+       {
+        "Id": "675888719",
+        "Language": "SFX",
+        "ShortName": "a403_oriental_mysteries.wav",
+        "Path": "SFX\\a403_oriental_mysteries_D8C07C79.wem"
+       },
+       {
+        "Id": "707294638",
+        "Language": "SFX",
+        "ShortName": "a440_ge_magic_carpet_ride.wav",
+        "Path": "SFX\\a440_ge_magic_carpet_ride_D8C07C79.wem"
+       }
+      ]
+     },
+     {
+      "Id": "467769552",
+      "Name": "Stop_Background_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Background_Music",
+      "GUID": "{C01A8E03-E060-4F88-B509-E0177409762D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "60308355",
+      "Language": "SFX",
+      "ShortName": "a410_or_sands_of_dreams.wav",
+      "Path": "SFX\\a410_or_sands_of_dreams_D8C07C79.wem"
+     },
+     {
+      "Id": "99504090",
+      "Language": "SFX",
+      "ShortName": "a413_ge_our_honoured_guests.wav",
+      "Path": "SFX\\a413_ge_our_honoured_guests_D8C07C79.wem"
+     },
+     {
+      "Id": "238507971",
+      "Language": "SFX",
+      "ShortName": "a439_ge_the_orient_sun.wav",
+      "Path": "SFX\\a439_ge_the_orient_sun_D8C07C79.wem"
+     },
+     {
+      "Id": "514389528",
+      "Language": "SFX",
+      "ShortName": "a408_or_golden_shores.wav",
+      "Path": "SFX\\a408_or_golden_shores_D8C07C79.wem"
+     },
+     {
+      "Id": "527974693",
+      "Language": "SFX",
+      "ShortName": "a432_or_vast_and_quiet.wav",
+      "Path": "SFX\\a432_or_vast_and_quiet_D8C07C79.wem"
+     },
+     {
+      "Id": "675888719",
+      "Language": "SFX",
+      "ShortName": "a403_oriental_mysteries.wav",
+      "Path": "SFX\\a403_oriental_mysteries_D8C07C79.wem"
+     },
+     {
+      "Id": "707294638",
+      "Language": "SFX",
+      "ShortName": "a440_ge_magic_carpet_ride.wav",
+      "Path": "SFX\\a440_ge_magic_carpet_ride_D8C07C79.wem"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1322396954",
+      "Name": "Menu_Volume_Master",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_Master",
+      "GUID": "{C1474486-9436-4F86-BD72-CC101657D161}"
+     },
+     {
+      "Id": "3299253673",
+      "Name": "Menu_Volume_Music",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_Music",
+      "GUID": "{E4B5DFBC-A294-485D-81BD-259108840689}"
+     }
+    ]
+   }
+  ]
+ }
+}

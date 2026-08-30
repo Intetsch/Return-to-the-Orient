@@ -429,6 +429,9 @@
                         <Item>
                             <Bank>1404000463</Bank>
                         </Item>
+                        <Item>
+                            <Bank>1404000853</Bank>
+                        </Item>
                     </SoundBanks>
                 </RequiredSoundBanks>
             </Values>
@@ -1077,10 +1080,9 @@
     </ModOp>
 
     <ModOp Type="merge" GUID="9899005" Path="Values/MetaSoundConfig/STRegionConfig">
-        <!-- result: 34 -->
-        <Mod3>
-            <!-- <State>1404000221</State>            Sets the background music -->
-            <State>203334</State>
+        <!-- Breaks the default music --> <!-- DO NOT DELETE-->
+        <Mod3> 
+            <State>1404000856</State> 
         </Mod3>
     </ModOp>
 
