@@ -45,6 +45,65 @@
 								</Values>
 							</TriggerAction>
 						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionDiscoverParticipant</Template>
+								<Values>
+									<Action />
+									<ActionDiscoverParticipant>
+										<UseProcessingSourceParticipant>1</UseProcessingSourceParticipant>
+										<DiscoverTargetParticipant>Mod12</DiscoverTargetParticipant>
+                                        <DiscoverParticipantOmitWelcomeMessage>1</DiscoverParticipantOmitWelcomeMessage>
+									</ActionDiscoverParticipant>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionDelayedActions</Template>
+								<Values>
+									<Action/>
+									<ActionDelayedActions>
+										<ExecutionDelay>4000</ExecutionDelay>
+										<DelayedActions>
+											<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+											<Values>
+												<ActionList>
+													<Actions>
+														<Item>
+															<Action>
+															<Template>ActionPlaySound</Template>
+																<Values>
+																	<Action />
+																	<ActionPlaySound>
+																	<Sound>1404000854</Sound>
+																	</ActionPlaySound>
+																</Values>
+															</Action>
+														</Item>
+													</Actions>
+												</ActionList>
+											</Values>
+										</DelayedActions>
+									</ActionDelayedActions>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action />
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1404000859</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup />
