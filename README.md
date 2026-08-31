@@ -12,6 +12,7 @@ https://mod.io/g/anno-1800/m/return-to-the-orient#description
 
 - A new hot and dry desert region inspired by the middle east.
 - A new questline from Madame Kahina that leads you on an expedition deep into the sultanate and to the new session Wadi Al Zahir.
+- Music from 1404 imported and playing in the Background!
 - Nomads and Envoys can settle there with their own buildings, needs and public services, just like 400 years ago.
 - Use norias to water your fields in the desert in a new irrigation system.
 - New production chains require resources from all across the rest of your empire to produce the required new wares.
