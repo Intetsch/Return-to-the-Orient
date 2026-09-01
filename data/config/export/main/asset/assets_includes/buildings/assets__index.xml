@@ -1,5 +1,6 @@
 <ModOps>
-
+    
+    <Include File="airship_platform/assets__index.xml" />
     <Include File="city/assets__index.xml" />
     <Include File="monument/assets__index.xml" />
     <Include File="ornaments/assets__index.xml" />

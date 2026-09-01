@@ -3,4 +3,17 @@
     <Include File="assets_orient_workforce_1.xml" />
     <Include File="assets_orient_workforce_2.xml" />
 
+    <ModOp Type="add" GUID='501065' Path="/Values/ObjectmenuCommuterHarbourScene/WorkforceToRegion">
+        <Mod3>
+            <WorkforceList>
+                <Item>
+                    <Workforce>1404000012</Workforce>
+                </Item>
+                <Item>
+                    <Workforce>1404000013</Workforce>
+                </Item>
+            </WorkforceList>
+        </Mod3>
+    </ModOp>
+
 </ModOps>
