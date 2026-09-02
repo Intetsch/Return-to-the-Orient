@@ -89,7 +89,7 @@
 				<TriggerSetup />
 			</Values>
 		</Asset>
-		<Asset>
+		<!-- <Asset>
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
@@ -124,7 +124,7 @@
 					<AutoRegisterTrigger>0</AutoRegisterTrigger>
 				</TriggerSetup>
 			</Values>
-		</Asset>
+		</Asset> -->
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
