@@ -16,7 +16,7 @@
     "Id": "626769978",
     "GUID": "{D1DBDC4E-4F77-4D3D-9713-215D3F01B901}",
     "Language": "SFX",
-    "Hash": "1304258525",
+    "Hash": "347115344",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BackgroundMusic",
     "ShortName": "BackgroundMusic",
     "Path": "BackgroundMusic.bnk",
@@ -47,6 +47,36 @@
         "Path": "SFX\\a439_ge_the_orient_sun_D8C07C79.wem"
        },
        {
+        "Id": "261362865",
+        "Language": "SFX",
+        "ShortName": "a421_or_glittering_waters.wav",
+        "Path": "SFX\\a421_or_glittering_waters_D8C07C79.wem"
+       },
+       {
+        "Id": "263637926",
+        "Language": "SFX",
+        "ShortName": "a434_or_sands_of_dreams_var.wav",
+        "Path": "SFX\\a434_or_sands_of_dreams_var_D8C07C79.wem"
+       },
+       {
+        "Id": "274003877",
+        "Language": "SFX",
+        "ShortName": "a441_ge_our_honored_guests_var.wav",
+        "Path": "SFX\\a441_ge_our_honored_guests_var_D8C07C79.wem"
+       },
+       {
+        "Id": "281644493",
+        "Language": "SFX",
+        "ShortName": "a451_the_orient_sun_var.wav",
+        "Path": "SFX\\a451_the_orient_sun_var_D8C07C79.wem"
+       },
+       {
+        "Id": "376285457",
+        "Language": "SFX",
+        "ShortName": "a433_or_glittering_waters_var.wav",
+        "Path": "SFX\\a433_or_glittering_waters_var_D8C07C79.wem"
+       },
+       {
         "Id": "514389528",
         "Language": "SFX",
         "ShortName": "a408_or_golden_shores.wav",
@@ -63,12 +93,6 @@
         "Language": "SFX",
         "ShortName": "a403_oriental_mysteries.wav",
         "Path": "SFX\\a403_oriental_mysteries_D8C07C79.wem"
-       },
-       {
-        "Id": "707294638",
-        "Language": "SFX",
-        "ShortName": "a440_ge_magic_carpet_ride.wav",
-        "Path": "SFX\\a440_ge_magic_carpet_ride_D8C07C79.wem"
        }
       ]
      },
@@ -103,6 +127,36 @@
       "Path": "SFX\\a439_ge_the_orient_sun_D8C07C79.wem"
      },
      {
+      "Id": "261362865",
+      "Language": "SFX",
+      "ShortName": "a421_or_glittering_waters.wav",
+      "Path": "SFX\\a421_or_glittering_waters_D8C07C79.wem"
+     },
+     {
+      "Id": "263637926",
+      "Language": "SFX",
+      "ShortName": "a434_or_sands_of_dreams_var.wav",
+      "Path": "SFX\\a434_or_sands_of_dreams_var_D8C07C79.wem"
+     },
+     {
+      "Id": "274003877",
+      "Language": "SFX",
+      "ShortName": "a441_ge_our_honored_guests_var.wav",
+      "Path": "SFX\\a441_ge_our_honored_guests_var_D8C07C79.wem"
+     },
+     {
+      "Id": "281644493",
+      "Language": "SFX",
+      "ShortName": "a451_the_orient_sun_var.wav",
+      "Path": "SFX\\a451_the_orient_sun_var_D8C07C79.wem"
+     },
+     {
+      "Id": "376285457",
+      "Language": "SFX",
+      "ShortName": "a433_or_glittering_waters_var.wav",
+      "Path": "SFX\\a433_or_glittering_waters_var_D8C07C79.wem"
+     },
+     {
       "Id": "514389528",
       "Language": "SFX",
       "ShortName": "a408_or_golden_shores.wav",
@@ -119,12 +173,6 @@
       "Language": "SFX",
       "ShortName": "a403_oriental_mysteries.wav",
       "Path": "SFX\\a403_oriental_mysteries_D8C07C79.wem"
-     },
-     {
-      "Id": "707294638",
-      "Language": "SFX",
-      "ShortName": "a440_ge_magic_carpet_ride.wav",
-      "Path": "SFX\\a440_ge_magic_carpet_ride_D8C07C79.wem"
      }
     ],
     "GameParameters": [
