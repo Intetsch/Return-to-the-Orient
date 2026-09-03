@@ -32,6 +32,17 @@
 							</TriggerAction>
 						</Item>
 						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>data/script/music/exit_to_menu.lua</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
                           <TriggerAction>
                             <Template>ActionResetTrigger</Template>
                             <Values>
@@ -89,7 +100,7 @@
 				<TriggerSetup />
 			</Values>
 		</Asset>
-		<Asset>
+		<!-- <Asset>
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
@@ -124,8 +135,8 @@
 					<AutoRegisterTrigger>0</AutoRegisterTrigger>
 				</TriggerSetup>
 			</Values>
-		</Asset>
-		<Asset>
+		</Asset> -->
+		<!-- <Asset>
 			<Template>Trigger</Template>
 			<Values>
 				<Standard>
@@ -152,11 +163,20 @@
 								</Values>
 							</TriggerAction>
 						</Item>
+						<Item>
+                          <TriggerAction>
+                            <Template>ActionResetTrigger</Template>
+                            <Values>
+                              <Action />
+                              <ActionResetTrigger />
+                            </Values>
+                          </TriggerAction>
+                        </Item>
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup/>
 			</Values>
-		</Asset>
+		</Asset> -->
     </ModOp>
 
 </ModOps>
