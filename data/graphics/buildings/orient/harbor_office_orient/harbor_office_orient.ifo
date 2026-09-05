@@ -52,56 +52,6 @@
 			<zf>1</zf>
 		</Position>
 	</InvisibleQuayArea>
-	<PriorityFeedbackBlocker>
-		<Position>
-			<zf>1</zf>
-			<xf>-1.000000</xf>
-		</Position>
-		<Position>
-			<xf>-1.000000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.250000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<xf>1.750000</xf>
-			<zf>1.500000</zf>
-		</Position>
-		<Position>
-			<zf>1</zf>
-			<xf>1.750000</xf>
-		</Position>
-		<Position>
-			<xf>1.750000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<xf>1.250000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<xf>1.250000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.250000</xf>
-			<zf>-1.500000</zf>
-		</Position>
-		<Position>
-			<xf>-1.250000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<xf>-1.750000</xf>
-			<zf>-1.000000</zf>
-		</Position>
-		<Position>
-			<zf>1</zf>
-			<xf>-1.750000</xf>
-		</Position>
-	</PriorityFeedbackBlocker>
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
@@ -310,6 +260,68 @@
 			<zf>0.100000</zf>
 		</Extents>
 	</Dummy>
+	<FeedbackBlocker>
+		<Position>
+			<xf>1.547848</xf>
+			<zf>1.205761</zf>
+		</Position>
+		<Position>
+			<xf>0.276833</xf>
+			<zf>1.205761</zf>
+		</Position>
+		<Position>
+			<xf>0.276833</xf>
+			<zf>-1.159614</zf>
+		</Position>
+		<Position>
+			<xf>1.547848</xf>
+			<zf>-1.159614</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-0.248613</xf>
+			<zf>1.423290</zf>
+		</Position>
+		<Position>
+			<xf>-1.500065</xf>
+			<zf>1.423290</zf>
+		</Position>
+		<Position>
+			<xf>-1.500065</xf>
+			<zf>-0.283344</zf>
+		</Position>
+		<Position>
+			<xf>-0.248613</xf>
+			<zf>0.254626</zf>
+		</Position>
+		<Position>
+			<xf>-0.797204</xf>
+			<zf>0.254626</zf>
+		</Position>
+		<Position>
+			<xf>-1.110067</xf>
+			<zf>-0.283344</zf>
+		</Position>
+	</FeedbackBlocker>
+	<FeedbackBlocker>
+		<Position>
+			<xf>-1.031777</xf>
+			<zf>-1.103548</zf>
+		</Position>
+		<Position>
+			<xf>-1.031777</xf>
+			<zf>-0.418993</zf>
+		</Position>
+		<Position>
+			<xf>-0.177720</xf>
+			<zf>-0.418993</zf>
+		</Position>
+		<Position>
+			<xf>-0.177720</xf>
+			<zf>-1.103548</zf>
+		</Position>
+	</FeedbackBlocker>
 	<IntersectBox>
 		<Name>Hitbox10175</Name>
 		<Position>
