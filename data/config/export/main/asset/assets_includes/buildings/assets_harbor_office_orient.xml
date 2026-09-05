@@ -1,12 +1,12 @@
 <ModOps>
 
-    <ModOp Type="addNextSibling" GUID="117864">
+    <ModOp Type="addNextSibling" GUID="101286">
         <Asset>
-            <BaseAssetGUID>1010525</BaseAssetGUID>
+            <BaseAssetGUID>100586</BaseAssetGUID>
             <Values>
                 <Standard>
-                    <GUID>1404001231</GUID>
-                    <Name>harbor_orient_03 (Repair Crane)</Name>
+                    <GUID>1404001259</GUID>
+                    <Name>harbor_office_orient</Name>
                 </Standard>
                 <Building>
                     <AssociatedRegions>Mod3</AssociatedRegions>
@@ -15,27 +15,6 @@
                     <GroundDecalAsset>102460</GroundDecalAsset>
                     <GroundDecalInvisible>102459</GroundDecalInvisible>
                 </Blocking>
-                <Mesh/>
-                <Object>
-                    <Variations>
-                        <Item>
-                            <Filename>data/dlc06/graphics/buildings/special/harbor_07_colony02/harbor_07_colony_02.cfg</Filename>
-                        </Item>
-                    </Variations>
-                </Object>
-                <AmbientMoodProvider/>
-                <Constructable/>
-                <Selection>
-                    <OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <ActionList/>
-                        </Values>
-                    </OnSelection>
-                </Selection>
-                <Text>
-                    <TextOverride>117864</TextOverride>
-                </Text>
                 <Cost>
                     <Costs>
                         <Item>
@@ -43,7 +22,7 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -54,47 +33,43 @@
                                 <InheritedIndex>1</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
-                            <!--Wanza Wood-->
-                            <Amount>30</Amount>
+                            <Amount>25</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>2</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>2</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>114402</Ingredient>
-                            <!--Mud Bricks-->
-                            <Amount>40</Amount>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>3</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>3</Index>
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <VectorElement>
                                 <InheritedIndex>4</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>4</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -105,7 +80,7 @@
                                 <InheritedIndex>5</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>RepairCrane</TemplateName>
+                                        <TemplateName>HarborOffice</TemplateName>
                                         <Index>5</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -113,23 +88,56 @@
                         </Item>
                     </Costs>
                 </Cost>
-                <Attackable/>
-                <Infolayer/>
-                <Maintenance/>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>HarborOffice</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/buildings/orient/harbor_office_orient/harbor_office_orient.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                </Selection>
+                <Text>
+                    <TextOverride>100586</TextOverride>
+                </Text>
+                <Constructable/>
                 <Locked/>
-                <RepairCrane/>
-                <Pausable/>
-                <DelayedConstruction/>
                 <SoundEmitter/>
-                <UpgradeList/>
                 <FeedbackController/>
+                <Infolayer/>
+                <ItemContainer/>
+                <UpgradeList/>
+                <Attackable/>
+                <Pausable/>
+                <Maintenance/>
+                <Culture/>
+                <Warehouse/>
+                <LogisticNode/>
+                <StorageBase/>
+                <Distribution/>
             </Values>
         </Asset>
     </ModOp>
-    
-    <ModOp Type="add" GUID="191508,191887" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+
+    <ModOp Type="add" GUID="191508,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
-            <GUID>1404001231</GUID>
+            <GUID>1404001259</GUID>
         </Item>
     </ModOp>
 
