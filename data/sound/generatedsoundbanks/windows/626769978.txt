@@ -6,6 +6,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	1322396954	Menu_Volume_Master			\Default Work Unit\Menu_Volume_Master	
 	3299253673	Menu_Volume_Music			\Default Work Unit\Menu_Volume_Music	
 
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
+	3472939855	Voice Bus			\Default Work Unit\Master Audio Bus\Voice Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	60308355	a410_or_sands_of_dreams	Z:\Wwise\RttOMusic\.cache\Windows\SFX\a410_or_sands_of_dreams_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixxer\Background Music\a410_or_sands_of_dreams		2752640
 	99504090	a413_ge_our_honoured_guests	Z:\Wwise\RttOMusic\.cache\Windows\SFX\a413_ge_our_honoured_guests_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX Mixxer\Background Music\a413_ge_our_honoured_guests		3219871

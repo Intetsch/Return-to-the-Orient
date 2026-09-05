@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_1nomads\\",
-   "SourceFilesRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_1nomads\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_1nomads\\GeneratedSoundBanks\\Windows\\de_de\\",
+   "ProjectRoot": "Z:\\Wwise\\Anno1800_wwise_Project_1nomads\\",
+   "SourceFilesRoot": "Z:\\Wwise\\Anno1800_wwise_Project_1nomads\\.cache\\Windows\\",
+   "SoundBanksRoot": "Z:\\Wwise\\Anno1800_wwise_Project_1nomads\\GeneratedSoundBanks\\Windows\\de_de\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\Max\\Documents\\Anno 1800\\mods\\[Addon] Return to the Orient\\data\\sound\\wwise\\Anno1800_wwise_Project_1nomads\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "Z:\\Wwise\\Anno1800_wwise_Project_1nomads\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1318901147",
     "GUID": "{F9D46B8C-0917-481B-82B2-017AB84098C8}",
     "Language": "de_de",
-    "Hash": "2396292273",
+    "Hash": "1288072227",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Natoncy_Orient_Nomad",
     "ShortName": "Natoncy_Orient_Nomad",
     "Path": "de_de\\Natoncy_Orient_Nomad.bnk",
@@ -34,7 +34,7 @@
         "Id": "110378740",
         "Language": "de_de",
         "ShortName": "residents_6607250.wav",
-        "Path": "Voices\\de_de\\residents_6607250_407B823A.wem"
+        "Path": "Voices\\de_de\\residents_6607250_D8C07C79.wem"
        }
       ]
      },
@@ -51,7 +51,7 @@
         "Id": "672588474",
         "Language": "de_de",
         "ShortName": "residents_6607251.wav",
-        "Path": "Voices\\de_de\\residents_6607251_DBEA3BA3.wem"
+        "Path": "Voices\\de_de\\residents_6607251_D8C07C79.wem"
        }
       ]
      },
@@ -68,7 +68,7 @@
         "Id": "880494846",
         "Language": "de_de",
         "ShortName": "residents_6607252.wav",
-        "Path": "Voices\\de_de\\residents_6607252_260C2D12.wem"
+        "Path": "Voices\\de_de\\residents_6607252_D8C07C79.wem"
        }
       ]
      },
@@ -85,7 +85,7 @@
         "Id": "491882896",
         "Language": "de_de",
         "ShortName": "residents_6607253.wav",
-        "Path": "Voices\\de_de\\residents_6607253_263F49FB.wem"
+        "Path": "Voices\\de_de\\residents_6607253_D8C07C79.wem"
        }
       ]
      },
@@ -102,7 +102,7 @@
         "Id": "837608205",
         "Language": "de_de",
         "ShortName": "residents_6607260.wav",
-        "Path": "Voices\\de_de\\residents_6607260_64B73BA7.wem"
+        "Path": "Voices\\de_de\\residents_6607260_D8C07C79.wem"
        }
       ]
      },
@@ -119,7 +119,7 @@
         "Id": "108423542",
         "Language": "de_de",
         "ShortName": "residents_6607261.wav",
-        "Path": "Voices\\de_de\\residents_6607261_85B41E05.wem"
+        "Path": "Voices\\de_de\\residents_6607261_D8C07C79.wem"
        }
       ]
      },
@@ -136,7 +136,7 @@
         "Id": "1051811027",
         "Language": "de_de",
         "ShortName": "residents_6607270.wav",
-        "Path": "Voices\\de_de\\residents_6607270_B1BF0FF9.wem"
+        "Path": "Voices\\de_de\\residents_6607270_D8C07C79.wem"
        }
       ]
      },
@@ -153,7 +153,7 @@
         "Id": "130696178",
         "Language": "de_de",
         "ShortName": "residents_6607271.wav",
-        "Path": "Voices\\de_de\\residents_6607271_ECFCA6F2.wem"
+        "Path": "Voices\\de_de\\residents_6607271_D8C07C79.wem"
        }
       ]
      },
@@ -170,7 +170,7 @@
         "Id": "1065533209",
         "Language": "de_de",
         "ShortName": "residents_6607280.wav",
-        "Path": "Voices\\de_de\\residents_6607280_76C754B7.wem"
+        "Path": "Voices\\de_de\\residents_6607280_D8C07C79.wem"
        }
       ]
      },
@@ -187,7 +187,7 @@
         "Id": "1066716356",
         "Language": "de_de",
         "ShortName": "residents_6607281.wav",
-        "Path": "Voices\\de_de\\residents_6607281_D6C3E388.wem"
+        "Path": "Voices\\de_de\\residents_6607281_D8C07C79.wem"
        }
       ]
      },
@@ -204,7 +204,7 @@
         "Id": "632723864",
         "Language": "de_de",
         "ShortName": "residents_6607290.wav",
-        "Path": "Voices\\de_de\\residents_6607290_69478D62.wem"
+        "Path": "Voices\\de_de\\residents_6607290_D8C07C79.wem"
        }
       ]
      },
@@ -221,7 +221,7 @@
         "Id": "95216621",
         "Language": "de_de",
         "ShortName": "residents_6607291.wav",
-        "Path": "Voices\\de_de\\residents_6607291_6216E55C.wem"
+        "Path": "Voices\\de_de\\residents_6607291_D8C07C79.wem"
        }
       ]
      },
@@ -238,7 +238,7 @@
         "Id": "754489244",
         "Language": "de_de",
         "ShortName": "residents_6607300.wav",
-        "Path": "Voices\\de_de\\residents_6607300_522909C4.wem"
+        "Path": "Voices\\de_de\\residents_6607300_D8C07C79.wem"
        }
       ]
      },
@@ -255,7 +255,7 @@
         "Id": "1027282445",
         "Language": "de_de",
         "ShortName": "residents_6607301.wav",
-        "Path": "Voices\\de_de\\residents_6607301_DED7EB15.wem"
+        "Path": "Voices\\de_de\\residents_6607301_D8C07C79.wem"
        }
       ]
      },
@@ -272,7 +272,7 @@
         "Id": "1050660844",
         "Language": "de_de",
         "ShortName": "residents_6607310.wav",
-        "Path": "Voices\\de_de\\residents_6607310_BD64CEDB.wem"
+        "Path": "Voices\\de_de\\residents_6607310_D8C07C79.wem"
        }
       ]
      },
@@ -289,7 +289,7 @@
         "Id": "973112929",
         "Language": "de_de",
         "ShortName": "residents_6607311.wav",
-        "Path": "Voices\\de_de\\residents_6607311_32E8DCEE.wem"
+        "Path": "Voices\\de_de\\residents_6607311_D8C07C79.wem"
        }
       ]
      },
@@ -306,7 +306,7 @@
         "Id": "666210359",
         "Language": "de_de",
         "ShortName": "residents_6607312.wav",
-        "Path": "Voices\\de_de\\residents_6607312_8ED9C3FD.wem"
+        "Path": "Voices\\de_de\\residents_6607312_D8C07C79.wem"
        }
       ]
      },
@@ -323,7 +323,7 @@
         "Id": "931138233",
         "Language": "de_de",
         "ShortName": "residents_6607313.wav",
-        "Path": "Voices\\de_de\\residents_6607313_8E17A8B6.wem"
+        "Path": "Voices\\de_de\\residents_6607313_D8C07C79.wem"
        }
       ]
      },
@@ -340,7 +340,7 @@
         "Id": "699249080",
         "Language": "de_de",
         "ShortName": "residents_6607314.wav",
-        "Path": "Voices\\de_de\\residents_6607314_2E288EED.wem"
+        "Path": "Voices\\de_de\\residents_6607314_D8C07C79.wem"
        }
       ]
      },
@@ -357,7 +357,7 @@
         "Id": "96392798",
         "Language": "de_de",
         "ShortName": "residents_6607320.wav",
-        "Path": "Voices\\de_de\\residents_6607320_317A564D.wem"
+        "Path": "Voices\\de_de\\residents_6607320_D8C07C79.wem"
        }
       ]
      },
@@ -374,7 +374,7 @@
         "Id": "945959458",
         "Language": "de_de",
         "ShortName": "residents_6607321.wav",
-        "Path": "Voices\\de_de\\residents_6607321_8FB07FCC.wem"
+        "Path": "Voices\\de_de\\residents_6607321_D8C07C79.wem"
        }
       ]
      },
@@ -391,7 +391,7 @@
         "Id": "662868350",
         "Language": "de_de",
         "ShortName": "residents_6607322.wav",
-        "Path": "Voices\\de_de\\residents_6607322_E5AA1CD7.wem"
+        "Path": "Voices\\de_de\\residents_6607322_D8C07C79.wem"
        }
       ]
      },
@@ -408,7 +408,7 @@
         "Id": "928266062",
         "Language": "de_de",
         "ShortName": "residents_6607323.wav",
-        "Path": "Voices\\de_de\\residents_6607323_8DD32944.wem"
+        "Path": "Voices\\de_de\\residents_6607323_D8C07C79.wem"
        }
       ]
      },
@@ -425,7 +425,7 @@
         "Id": "187668982",
         "Language": "de_de",
         "ShortName": "residents_6607324.wav",
-        "Path": "Voices\\de_de\\residents_6607324_4437B21E.wem"
+        "Path": "Voices\\de_de\\residents_6607324_D8C07C79.wem"
        }
       ]
      },
@@ -442,7 +442,7 @@
         "Id": "547956689",
         "Language": "de_de",
         "ShortName": "residents_6607330.wav",
-        "Path": "Voices\\de_de\\residents_6607330_720A920C.wem"
+        "Path": "Voices\\de_de\\residents_6607330_D8C07C79.wem"
        }
       ]
      },
@@ -459,7 +459,7 @@
         "Id": "898246022",
         "Language": "de_de",
         "ShortName": "residents_6607331.wav",
-        "Path": "Voices\\de_de\\residents_6607331_CE9B110D.wem"
+        "Path": "Voices\\de_de\\residents_6607331_D8C07C79.wem"
        }
       ]
      },
@@ -476,7 +476,7 @@
         "Id": "491524697",
         "Language": "de_de",
         "ShortName": "residents_6607332.wav",
-        "Path": "Voices\\de_de\\residents_6607332_036EB27A.wem"
+        "Path": "Voices\\de_de\\residents_6607332_D8C07C79.wem"
        }
       ]
      },
@@ -493,7 +493,7 @@
         "Id": "414383426",
         "Language": "de_de",
         "ShortName": "residents_6607333.wav",
-        "Path": "Voices\\de_de\\residents_6607333_E2A504F7.wem"
+        "Path": "Voices\\de_de\\residents_6607333_D8C07C79.wem"
        }
       ]
      },
@@ -510,7 +510,7 @@
         "Id": "463187003",
         "Language": "de_de",
         "ShortName": "residents_6607334.wav",
-        "Path": "Voices\\de_de\\residents_6607334_471BDC27.wem"
+        "Path": "Voices\\de_de\\residents_6607334_D8C07C79.wem"
        }
       ]
      },
@@ -527,7 +527,7 @@
         "Id": "429139916",
         "Language": "de_de",
         "ShortName": "residents_6607340.wav",
-        "Path": "Voices\\de_de\\residents_6607340_8F72222B.wem"
+        "Path": "Voices\\de_de\\residents_6607340_D8C07C79.wem"
        }
       ]
      },
@@ -544,7 +544,7 @@
         "Id": "545138408",
         "Language": "de_de",
         "ShortName": "residents_6607341.wav",
-        "Path": "Voices\\de_de\\residents_6607341_F027EEDC.wem"
+        "Path": "Voices\\de_de\\residents_6607341_D8C07C79.wem"
        }
       ]
      },
@@ -561,7 +561,7 @@
         "Id": "331068265",
         "Language": "de_de",
         "ShortName": "residents_6607342.wav",
-        "Path": "Voices\\de_de\\residents_6607342_2BE52462.wem"
+        "Path": "Voices\\de_de\\residents_6607342_D8C07C79.wem"
        }
       ]
      },
@@ -578,7 +578,7 @@
         "Id": "315830814",
         "Language": "de_de",
         "ShortName": "residents_6607343.wav",
-        "Path": "Voices\\de_de\\residents_6607343_06840714.wem"
+        "Path": "Voices\\de_de\\residents_6607343_D8C07C79.wem"
        }
       ]
      },
@@ -595,7 +595,7 @@
         "Id": "611806462",
         "Language": "de_de",
         "ShortName": "residents_6607344.wav",
-        "Path": "Voices\\de_de\\residents_6607344_5F6B53B1.wem"
+        "Path": "Voices\\de_de\\residents_6607344_D8C07C79.wem"
        }
       ]
      },
@@ -612,7 +612,7 @@
         "Id": "51448501",
         "Language": "de_de",
         "ShortName": "residents_6607350.wav",
-        "Path": "Voices\\de_de\\residents_6607350_475AAFDF.wem"
+        "Path": "Voices\\de_de\\residents_6607350_D8C07C79.wem"
        }
       ]
      },
@@ -629,7 +629,7 @@
         "Id": "584709135",
         "Language": "de_de",
         "ShortName": "residents_6607351.wav",
-        "Path": "Voices\\de_de\\residents_6607351_2087CF69.wem"
+        "Path": "Voices\\de_de\\residents_6607351_D8C07C79.wem"
        }
       ]
      },
@@ -646,7 +646,7 @@
         "Id": "272374263",
         "Language": "de_de",
         "ShortName": "residents_6607352.wav",
-        "Path": "Voices\\de_de\\residents_6607352_DB140D3E.wem"
+        "Path": "Voices\\de_de\\residents_6607352_D8C07C79.wem"
        }
       ]
      },
@@ -663,7 +663,7 @@
         "Id": "466368990",
         "Language": "de_de",
         "ShortName": "residents_6607353.wav",
-        "Path": "Voices\\de_de\\residents_6607353_9DF498B3.wem"
+        "Path": "Voices\\de_de\\residents_6607353_D8C07C79.wem"
        }
       ]
      },
@@ -680,9 +680,245 @@
         "Id": "304366327",
         "Language": "de_de",
         "ShortName": "residents_6607354.wav",
-        "Path": "Voices\\de_de\\residents_6607354_CF8051D9.wem"
+        "Path": "Voices\\de_de\\residents_6607354_D8C07C79.wem"
        }
       ]
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "51448501",
+      "Language": "de_de",
+      "ShortName": "residents_6607350.wav",
+      "Path": "Voices\\de_de\\residents_6607350_D8C07C79.wem"
+     },
+     {
+      "Id": "95216621",
+      "Language": "de_de",
+      "ShortName": "residents_6607291.wav",
+      "Path": "Voices\\de_de\\residents_6607291_D8C07C79.wem"
+     },
+     {
+      "Id": "96392798",
+      "Language": "de_de",
+      "ShortName": "residents_6607320.wav",
+      "Path": "Voices\\de_de\\residents_6607320_D8C07C79.wem"
+     },
+     {
+      "Id": "108423542",
+      "Language": "de_de",
+      "ShortName": "residents_6607261.wav",
+      "Path": "Voices\\de_de\\residents_6607261_D8C07C79.wem"
+     },
+     {
+      "Id": "110378740",
+      "Language": "de_de",
+      "ShortName": "residents_6607250.wav",
+      "Path": "Voices\\de_de\\residents_6607250_D8C07C79.wem"
+     },
+     {
+      "Id": "130696178",
+      "Language": "de_de",
+      "ShortName": "residents_6607271.wav",
+      "Path": "Voices\\de_de\\residents_6607271_D8C07C79.wem"
+     },
+     {
+      "Id": "187668982",
+      "Language": "de_de",
+      "ShortName": "residents_6607324.wav",
+      "Path": "Voices\\de_de\\residents_6607324_D8C07C79.wem"
+     },
+     {
+      "Id": "272374263",
+      "Language": "de_de",
+      "ShortName": "residents_6607352.wav",
+      "Path": "Voices\\de_de\\residents_6607352_D8C07C79.wem"
+     },
+     {
+      "Id": "304366327",
+      "Language": "de_de",
+      "ShortName": "residents_6607354.wav",
+      "Path": "Voices\\de_de\\residents_6607354_D8C07C79.wem"
+     },
+     {
+      "Id": "315830814",
+      "Language": "de_de",
+      "ShortName": "residents_6607343.wav",
+      "Path": "Voices\\de_de\\residents_6607343_D8C07C79.wem"
+     },
+     {
+      "Id": "331068265",
+      "Language": "de_de",
+      "ShortName": "residents_6607342.wav",
+      "Path": "Voices\\de_de\\residents_6607342_D8C07C79.wem"
+     },
+     {
+      "Id": "414383426",
+      "Language": "de_de",
+      "ShortName": "residents_6607333.wav",
+      "Path": "Voices\\de_de\\residents_6607333_D8C07C79.wem"
+     },
+     {
+      "Id": "429139916",
+      "Language": "de_de",
+      "ShortName": "residents_6607340.wav",
+      "Path": "Voices\\de_de\\residents_6607340_D8C07C79.wem"
+     },
+     {
+      "Id": "463187003",
+      "Language": "de_de",
+      "ShortName": "residents_6607334.wav",
+      "Path": "Voices\\de_de\\residents_6607334_D8C07C79.wem"
+     },
+     {
+      "Id": "466368990",
+      "Language": "de_de",
+      "ShortName": "residents_6607353.wav",
+      "Path": "Voices\\de_de\\residents_6607353_D8C07C79.wem"
+     },
+     {
+      "Id": "491524697",
+      "Language": "de_de",
+      "ShortName": "residents_6607332.wav",
+      "Path": "Voices\\de_de\\residents_6607332_D8C07C79.wem"
+     },
+     {
+      "Id": "491882896",
+      "Language": "de_de",
+      "ShortName": "residents_6607253.wav",
+      "Path": "Voices\\de_de\\residents_6607253_D8C07C79.wem"
+     },
+     {
+      "Id": "545138408",
+      "Language": "de_de",
+      "ShortName": "residents_6607341.wav",
+      "Path": "Voices\\de_de\\residents_6607341_D8C07C79.wem"
+     },
+     {
+      "Id": "547956689",
+      "Language": "de_de",
+      "ShortName": "residents_6607330.wav",
+      "Path": "Voices\\de_de\\residents_6607330_D8C07C79.wem"
+     },
+     {
+      "Id": "584709135",
+      "Language": "de_de",
+      "ShortName": "residents_6607351.wav",
+      "Path": "Voices\\de_de\\residents_6607351_D8C07C79.wem"
+     },
+     {
+      "Id": "611806462",
+      "Language": "de_de",
+      "ShortName": "residents_6607344.wav",
+      "Path": "Voices\\de_de\\residents_6607344_D8C07C79.wem"
+     },
+     {
+      "Id": "632723864",
+      "Language": "de_de",
+      "ShortName": "residents_6607290.wav",
+      "Path": "Voices\\de_de\\residents_6607290_D8C07C79.wem"
+     },
+     {
+      "Id": "662868350",
+      "Language": "de_de",
+      "ShortName": "residents_6607322.wav",
+      "Path": "Voices\\de_de\\residents_6607322_D8C07C79.wem"
+     },
+     {
+      "Id": "666210359",
+      "Language": "de_de",
+      "ShortName": "residents_6607312.wav",
+      "Path": "Voices\\de_de\\residents_6607312_D8C07C79.wem"
+     },
+     {
+      "Id": "672588474",
+      "Language": "de_de",
+      "ShortName": "residents_6607251.wav",
+      "Path": "Voices\\de_de\\residents_6607251_D8C07C79.wem"
+     },
+     {
+      "Id": "699249080",
+      "Language": "de_de",
+      "ShortName": "residents_6607314.wav",
+      "Path": "Voices\\de_de\\residents_6607314_D8C07C79.wem"
+     },
+     {
+      "Id": "754489244",
+      "Language": "de_de",
+      "ShortName": "residents_6607300.wav",
+      "Path": "Voices\\de_de\\residents_6607300_D8C07C79.wem"
+     },
+     {
+      "Id": "837608205",
+      "Language": "de_de",
+      "ShortName": "residents_6607260.wav",
+      "Path": "Voices\\de_de\\residents_6607260_D8C07C79.wem"
+     },
+     {
+      "Id": "880494846",
+      "Language": "de_de",
+      "ShortName": "residents_6607252.wav",
+      "Path": "Voices\\de_de\\residents_6607252_D8C07C79.wem"
+     },
+     {
+      "Id": "898246022",
+      "Language": "de_de",
+      "ShortName": "residents_6607331.wav",
+      "Path": "Voices\\de_de\\residents_6607331_D8C07C79.wem"
+     },
+     {
+      "Id": "928266062",
+      "Language": "de_de",
+      "ShortName": "residents_6607323.wav",
+      "Path": "Voices\\de_de\\residents_6607323_D8C07C79.wem"
+     },
+     {
+      "Id": "931138233",
+      "Language": "de_de",
+      "ShortName": "residents_6607313.wav",
+      "Path": "Voices\\de_de\\residents_6607313_D8C07C79.wem"
+     },
+     {
+      "Id": "945959458",
+      "Language": "de_de",
+      "ShortName": "residents_6607321.wav",
+      "Path": "Voices\\de_de\\residents_6607321_D8C07C79.wem"
+     },
+     {
+      "Id": "973112929",
+      "Language": "de_de",
+      "ShortName": "residents_6607311.wav",
+      "Path": "Voices\\de_de\\residents_6607311_D8C07C79.wem"
+     },
+     {
+      "Id": "1027282445",
+      "Language": "de_de",
+      "ShortName": "residents_6607301.wav",
+      "Path": "Voices\\de_de\\residents_6607301_D8C07C79.wem"
+     },
+     {
+      "Id": "1050660844",
+      "Language": "de_de",
+      "ShortName": "residents_6607310.wav",
+      "Path": "Voices\\de_de\\residents_6607310_D8C07C79.wem"
+     },
+     {
+      "Id": "1051811027",
+      "Language": "de_de",
+      "ShortName": "residents_6607270.wav",
+      "Path": "Voices\\de_de\\residents_6607270_D8C07C79.wem"
+     },
+     {
+      "Id": "1065533209",
+      "Language": "de_de",
+      "ShortName": "residents_6607280.wav",
+      "Path": "Voices\\de_de\\residents_6607280_D8C07C79.wem"
+     },
+     {
+      "Id": "1066716356",
+      "Language": "de_de",
+      "ShortName": "residents_6607281.wav",
+      "Path": "Voices\\de_de\\residents_6607281_D8C07C79.wem"
      }
     ],
     "GameParameters": [
@@ -691,6 +927,12 @@
       "Name": "Menu_Volume_Master",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_Master",
       "GUID": "{75985DEF-F0E6-45E1-8B90-BF008EE66803}"
+     },
+     {
+      "Id": "1363744781",
+      "Name": "Menu_Volume_SFX",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Menu_Volume_SFX",
+      "GUID": "{A5E9CB08-F3B1-479D-9E3C-AA6213631F27}"
      },
      {
       "Id": "3305957125",

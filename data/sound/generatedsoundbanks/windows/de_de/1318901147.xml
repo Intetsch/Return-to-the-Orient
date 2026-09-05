@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows\de_de\</SoundBanksRoot>
+		<ProjectRoot>Z:\Wwise\Anno1800_wwise_Project_1nomads\</ProjectRoot>
+		<SourceFilesRoot>Z:\Wwise\Anno1800_wwise_Project_1nomads\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>Z:\Wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows\de_de\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sound\wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>Z:\Wwise\Anno1800_wwise_Project_1nomads\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="de_de" Hash="2396292273">
+		<SoundBank Id="1318901147" GUID="{F9D46B8C-0917-481B-82B2-017AB84098C8}" Language="de_de" Hash="1288072227">
 			<ObjectPath>\SoundBanks\Default Work Unit\Natoncy_Orient_Nomad</ObjectPath>
 			<ShortName>Natoncy_Orient_Nomad</ShortName>
 			<Path>de_de\Natoncy_Orient_Nomad.bnk</Path>
@@ -17,7 +17,7 @@
 					<IncludedMemoryFiles>
 						<File Id="110378740" Language="de_de">
 							<ShortName>residents_6607250.wav</ShortName>
-							<Path>Voices\de_de\residents_6607250_407B823A.wem</Path>
+							<Path>Voices\de_de\residents_6607250_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -25,7 +25,7 @@
 					<IncludedMemoryFiles>
 						<File Id="672588474" Language="de_de">
 							<ShortName>residents_6607251.wav</ShortName>
-							<Path>Voices\de_de\residents_6607251_DBEA3BA3.wem</Path>
+							<Path>Voices\de_de\residents_6607251_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="880494846" Language="de_de">
 							<ShortName>residents_6607252.wav</ShortName>
-							<Path>Voices\de_de\residents_6607252_260C2D12.wem</Path>
+							<Path>Voices\de_de\residents_6607252_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="491882896" Language="de_de">
 							<ShortName>residents_6607253.wav</ShortName>
-							<Path>Voices\de_de\residents_6607253_263F49FB.wem</Path>
+							<Path>Voices\de_de\residents_6607253_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="837608205" Language="de_de">
 							<ShortName>residents_6607260.wav</ShortName>
-							<Path>Voices\de_de\residents_6607260_64B73BA7.wem</Path>
+							<Path>Voices\de_de\residents_6607260_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="108423542" Language="de_de">
 							<ShortName>residents_6607261.wav</ShortName>
-							<Path>Voices\de_de\residents_6607261_85B41E05.wem</Path>
+							<Path>Voices\de_de\residents_6607261_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +65,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1051811027" Language="de_de">
 							<ShortName>residents_6607270.wav</ShortName>
-							<Path>Voices\de_de\residents_6607270_B1BF0FF9.wem</Path>
+							<Path>Voices\de_de\residents_6607270_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +73,7 @@
 					<IncludedMemoryFiles>
 						<File Id="130696178" Language="de_de">
 							<ShortName>residents_6607271.wav</ShortName>
-							<Path>Voices\de_de\residents_6607271_ECFCA6F2.wem</Path>
+							<Path>Voices\de_de\residents_6607271_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +81,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1065533209" Language="de_de">
 							<ShortName>residents_6607280.wav</ShortName>
-							<Path>Voices\de_de\residents_6607280_76C754B7.wem</Path>
+							<Path>Voices\de_de\residents_6607280_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -89,7 +89,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1066716356" Language="de_de">
 							<ShortName>residents_6607281.wav</ShortName>
-							<Path>Voices\de_de\residents_6607281_D6C3E388.wem</Path>
+							<Path>Voices\de_de\residents_6607281_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,7 +97,7 @@
 					<IncludedMemoryFiles>
 						<File Id="632723864" Language="de_de">
 							<ShortName>residents_6607290.wav</ShortName>
-							<Path>Voices\de_de\residents_6607290_69478D62.wem</Path>
+							<Path>Voices\de_de\residents_6607290_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -105,7 +105,7 @@
 					<IncludedMemoryFiles>
 						<File Id="95216621" Language="de_de">
 							<ShortName>residents_6607291.wav</ShortName>
-							<Path>Voices\de_de\residents_6607291_6216E55C.wem</Path>
+							<Path>Voices\de_de\residents_6607291_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -113,7 +113,7 @@
 					<IncludedMemoryFiles>
 						<File Id="754489244" Language="de_de">
 							<ShortName>residents_6607300.wav</ShortName>
-							<Path>Voices\de_de\residents_6607300_522909C4.wem</Path>
+							<Path>Voices\de_de\residents_6607300_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,7 +121,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1027282445" Language="de_de">
 							<ShortName>residents_6607301.wav</ShortName>
-							<Path>Voices\de_de\residents_6607301_DED7EB15.wem</Path>
+							<Path>Voices\de_de\residents_6607301_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +129,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1050660844" Language="de_de">
 							<ShortName>residents_6607310.wav</ShortName>
-							<Path>Voices\de_de\residents_6607310_BD64CEDB.wem</Path>
+							<Path>Voices\de_de\residents_6607310_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -137,7 +137,7 @@
 					<IncludedMemoryFiles>
 						<File Id="973112929" Language="de_de">
 							<ShortName>residents_6607311.wav</ShortName>
-							<Path>Voices\de_de\residents_6607311_32E8DCEE.wem</Path>
+							<Path>Voices\de_de\residents_6607311_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -145,7 +145,7 @@
 					<IncludedMemoryFiles>
 						<File Id="666210359" Language="de_de">
 							<ShortName>residents_6607312.wav</ShortName>
-							<Path>Voices\de_de\residents_6607312_8ED9C3FD.wem</Path>
+							<Path>Voices\de_de\residents_6607312_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -153,7 +153,7 @@
 					<IncludedMemoryFiles>
 						<File Id="931138233" Language="de_de">
 							<ShortName>residents_6607313.wav</ShortName>
-							<Path>Voices\de_de\residents_6607313_8E17A8B6.wem</Path>
+							<Path>Voices\de_de\residents_6607313_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -161,7 +161,7 @@
 					<IncludedMemoryFiles>
 						<File Id="699249080" Language="de_de">
 							<ShortName>residents_6607314.wav</ShortName>
-							<Path>Voices\de_de\residents_6607314_2E288EED.wem</Path>
+							<Path>Voices\de_de\residents_6607314_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -169,7 +169,7 @@
 					<IncludedMemoryFiles>
 						<File Id="96392798" Language="de_de">
 							<ShortName>residents_6607320.wav</ShortName>
-							<Path>Voices\de_de\residents_6607320_317A564D.wem</Path>
+							<Path>Voices\de_de\residents_6607320_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -177,7 +177,7 @@
 					<IncludedMemoryFiles>
 						<File Id="945959458" Language="de_de">
 							<ShortName>residents_6607321.wav</ShortName>
-							<Path>Voices\de_de\residents_6607321_8FB07FCC.wem</Path>
+							<Path>Voices\de_de\residents_6607321_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -185,7 +185,7 @@
 					<IncludedMemoryFiles>
 						<File Id="662868350" Language="de_de">
 							<ShortName>residents_6607322.wav</ShortName>
-							<Path>Voices\de_de\residents_6607322_E5AA1CD7.wem</Path>
+							<Path>Voices\de_de\residents_6607322_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -193,7 +193,7 @@
 					<IncludedMemoryFiles>
 						<File Id="928266062" Language="de_de">
 							<ShortName>residents_6607323.wav</ShortName>
-							<Path>Voices\de_de\residents_6607323_8DD32944.wem</Path>
+							<Path>Voices\de_de\residents_6607323_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -201,7 +201,7 @@
 					<IncludedMemoryFiles>
 						<File Id="187668982" Language="de_de">
 							<ShortName>residents_6607324.wav</ShortName>
-							<Path>Voices\de_de\residents_6607324_4437B21E.wem</Path>
+							<Path>Voices\de_de\residents_6607324_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -209,7 +209,7 @@
 					<IncludedMemoryFiles>
 						<File Id="547956689" Language="de_de">
 							<ShortName>residents_6607330.wav</ShortName>
-							<Path>Voices\de_de\residents_6607330_720A920C.wem</Path>
+							<Path>Voices\de_de\residents_6607330_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -217,7 +217,7 @@
 					<IncludedMemoryFiles>
 						<File Id="898246022" Language="de_de">
 							<ShortName>residents_6607331.wav</ShortName>
-							<Path>Voices\de_de\residents_6607331_CE9B110D.wem</Path>
+							<Path>Voices\de_de\residents_6607331_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -225,7 +225,7 @@
 					<IncludedMemoryFiles>
 						<File Id="491524697" Language="de_de">
 							<ShortName>residents_6607332.wav</ShortName>
-							<Path>Voices\de_de\residents_6607332_036EB27A.wem</Path>
+							<Path>Voices\de_de\residents_6607332_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -233,7 +233,7 @@
 					<IncludedMemoryFiles>
 						<File Id="414383426" Language="de_de">
 							<ShortName>residents_6607333.wav</ShortName>
-							<Path>Voices\de_de\residents_6607333_E2A504F7.wem</Path>
+							<Path>Voices\de_de\residents_6607333_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -241,7 +241,7 @@
 					<IncludedMemoryFiles>
 						<File Id="463187003" Language="de_de">
 							<ShortName>residents_6607334.wav</ShortName>
-							<Path>Voices\de_de\residents_6607334_471BDC27.wem</Path>
+							<Path>Voices\de_de\residents_6607334_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -249,7 +249,7 @@
 					<IncludedMemoryFiles>
 						<File Id="429139916" Language="de_de">
 							<ShortName>residents_6607340.wav</ShortName>
-							<Path>Voices\de_de\residents_6607340_8F72222B.wem</Path>
+							<Path>Voices\de_de\residents_6607340_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -257,7 +257,7 @@
 					<IncludedMemoryFiles>
 						<File Id="545138408" Language="de_de">
 							<ShortName>residents_6607341.wav</ShortName>
-							<Path>Voices\de_de\residents_6607341_F027EEDC.wem</Path>
+							<Path>Voices\de_de\residents_6607341_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -265,7 +265,7 @@
 					<IncludedMemoryFiles>
 						<File Id="331068265" Language="de_de">
 							<ShortName>residents_6607342.wav</ShortName>
-							<Path>Voices\de_de\residents_6607342_2BE52462.wem</Path>
+							<Path>Voices\de_de\residents_6607342_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -273,7 +273,7 @@
 					<IncludedMemoryFiles>
 						<File Id="315830814" Language="de_de">
 							<ShortName>residents_6607343.wav</ShortName>
-							<Path>Voices\de_de\residents_6607343_06840714.wem</Path>
+							<Path>Voices\de_de\residents_6607343_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -281,7 +281,7 @@
 					<IncludedMemoryFiles>
 						<File Id="611806462" Language="de_de">
 							<ShortName>residents_6607344.wav</ShortName>
-							<Path>Voices\de_de\residents_6607344_5F6B53B1.wem</Path>
+							<Path>Voices\de_de\residents_6607344_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -289,7 +289,7 @@
 					<IncludedMemoryFiles>
 						<File Id="51448501" Language="de_de">
 							<ShortName>residents_6607350.wav</ShortName>
-							<Path>Voices\de_de\residents_6607350_475AAFDF.wem</Path>
+							<Path>Voices\de_de\residents_6607350_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -297,7 +297,7 @@
 					<IncludedMemoryFiles>
 						<File Id="584709135" Language="de_de">
 							<ShortName>residents_6607351.wav</ShortName>
-							<Path>Voices\de_de\residents_6607351_2087CF69.wem</Path>
+							<Path>Voices\de_de\residents_6607351_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -305,7 +305,7 @@
 					<IncludedMemoryFiles>
 						<File Id="272374263" Language="de_de">
 							<ShortName>residents_6607352.wav</ShortName>
-							<Path>Voices\de_de\residents_6607352_DB140D3E.wem</Path>
+							<Path>Voices\de_de\residents_6607352_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -313,7 +313,7 @@
 					<IncludedMemoryFiles>
 						<File Id="466368990" Language="de_de">
 							<ShortName>residents_6607353.wav</ShortName>
-							<Path>Voices\de_de\residents_6607353_9DF498B3.wem</Path>
+							<Path>Voices\de_de\residents_6607353_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -321,13 +321,172 @@
 					<IncludedMemoryFiles>
 						<File Id="304366327" Language="de_de">
 							<ShortName>residents_6607354.wav</ShortName>
-							<Path>Voices\de_de\residents_6607354_CF8051D9.wem</Path>
+							<Path>Voices\de_de\residents_6607354_D8C07C79.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="51448501" Language="de_de">
+					<ShortName>residents_6607350.wav</ShortName>
+					<Path>Voices\de_de\residents_6607350_D8C07C79.wem</Path>
+				</File>
+				<File Id="95216621" Language="de_de">
+					<ShortName>residents_6607291.wav</ShortName>
+					<Path>Voices\de_de\residents_6607291_D8C07C79.wem</Path>
+				</File>
+				<File Id="96392798" Language="de_de">
+					<ShortName>residents_6607320.wav</ShortName>
+					<Path>Voices\de_de\residents_6607320_D8C07C79.wem</Path>
+				</File>
+				<File Id="108423542" Language="de_de">
+					<ShortName>residents_6607261.wav</ShortName>
+					<Path>Voices\de_de\residents_6607261_D8C07C79.wem</Path>
+				</File>
+				<File Id="110378740" Language="de_de">
+					<ShortName>residents_6607250.wav</ShortName>
+					<Path>Voices\de_de\residents_6607250_D8C07C79.wem</Path>
+				</File>
+				<File Id="130696178" Language="de_de">
+					<ShortName>residents_6607271.wav</ShortName>
+					<Path>Voices\de_de\residents_6607271_D8C07C79.wem</Path>
+				</File>
+				<File Id="187668982" Language="de_de">
+					<ShortName>residents_6607324.wav</ShortName>
+					<Path>Voices\de_de\residents_6607324_D8C07C79.wem</Path>
+				</File>
+				<File Id="272374263" Language="de_de">
+					<ShortName>residents_6607352.wav</ShortName>
+					<Path>Voices\de_de\residents_6607352_D8C07C79.wem</Path>
+				</File>
+				<File Id="304366327" Language="de_de">
+					<ShortName>residents_6607354.wav</ShortName>
+					<Path>Voices\de_de\residents_6607354_D8C07C79.wem</Path>
+				</File>
+				<File Id="315830814" Language="de_de">
+					<ShortName>residents_6607343.wav</ShortName>
+					<Path>Voices\de_de\residents_6607343_D8C07C79.wem</Path>
+				</File>
+				<File Id="331068265" Language="de_de">
+					<ShortName>residents_6607342.wav</ShortName>
+					<Path>Voices\de_de\residents_6607342_D8C07C79.wem</Path>
+				</File>
+				<File Id="414383426" Language="de_de">
+					<ShortName>residents_6607333.wav</ShortName>
+					<Path>Voices\de_de\residents_6607333_D8C07C79.wem</Path>
+				</File>
+				<File Id="429139916" Language="de_de">
+					<ShortName>residents_6607340.wav</ShortName>
+					<Path>Voices\de_de\residents_6607340_D8C07C79.wem</Path>
+				</File>
+				<File Id="463187003" Language="de_de">
+					<ShortName>residents_6607334.wav</ShortName>
+					<Path>Voices\de_de\residents_6607334_D8C07C79.wem</Path>
+				</File>
+				<File Id="466368990" Language="de_de">
+					<ShortName>residents_6607353.wav</ShortName>
+					<Path>Voices\de_de\residents_6607353_D8C07C79.wem</Path>
+				</File>
+				<File Id="491524697" Language="de_de">
+					<ShortName>residents_6607332.wav</ShortName>
+					<Path>Voices\de_de\residents_6607332_D8C07C79.wem</Path>
+				</File>
+				<File Id="491882896" Language="de_de">
+					<ShortName>residents_6607253.wav</ShortName>
+					<Path>Voices\de_de\residents_6607253_D8C07C79.wem</Path>
+				</File>
+				<File Id="545138408" Language="de_de">
+					<ShortName>residents_6607341.wav</ShortName>
+					<Path>Voices\de_de\residents_6607341_D8C07C79.wem</Path>
+				</File>
+				<File Id="547956689" Language="de_de">
+					<ShortName>residents_6607330.wav</ShortName>
+					<Path>Voices\de_de\residents_6607330_D8C07C79.wem</Path>
+				</File>
+				<File Id="584709135" Language="de_de">
+					<ShortName>residents_6607351.wav</ShortName>
+					<Path>Voices\de_de\residents_6607351_D8C07C79.wem</Path>
+				</File>
+				<File Id="611806462" Language="de_de">
+					<ShortName>residents_6607344.wav</ShortName>
+					<Path>Voices\de_de\residents_6607344_D8C07C79.wem</Path>
+				</File>
+				<File Id="632723864" Language="de_de">
+					<ShortName>residents_6607290.wav</ShortName>
+					<Path>Voices\de_de\residents_6607290_D8C07C79.wem</Path>
+				</File>
+				<File Id="662868350" Language="de_de">
+					<ShortName>residents_6607322.wav</ShortName>
+					<Path>Voices\de_de\residents_6607322_D8C07C79.wem</Path>
+				</File>
+				<File Id="666210359" Language="de_de">
+					<ShortName>residents_6607312.wav</ShortName>
+					<Path>Voices\de_de\residents_6607312_D8C07C79.wem</Path>
+				</File>
+				<File Id="672588474" Language="de_de">
+					<ShortName>residents_6607251.wav</ShortName>
+					<Path>Voices\de_de\residents_6607251_D8C07C79.wem</Path>
+				</File>
+				<File Id="699249080" Language="de_de">
+					<ShortName>residents_6607314.wav</ShortName>
+					<Path>Voices\de_de\residents_6607314_D8C07C79.wem</Path>
+				</File>
+				<File Id="754489244" Language="de_de">
+					<ShortName>residents_6607300.wav</ShortName>
+					<Path>Voices\de_de\residents_6607300_D8C07C79.wem</Path>
+				</File>
+				<File Id="837608205" Language="de_de">
+					<ShortName>residents_6607260.wav</ShortName>
+					<Path>Voices\de_de\residents_6607260_D8C07C79.wem</Path>
+				</File>
+				<File Id="880494846" Language="de_de">
+					<ShortName>residents_6607252.wav</ShortName>
+					<Path>Voices\de_de\residents_6607252_D8C07C79.wem</Path>
+				</File>
+				<File Id="898246022" Language="de_de">
+					<ShortName>residents_6607331.wav</ShortName>
+					<Path>Voices\de_de\residents_6607331_D8C07C79.wem</Path>
+				</File>
+				<File Id="928266062" Language="de_de">
+					<ShortName>residents_6607323.wav</ShortName>
+					<Path>Voices\de_de\residents_6607323_D8C07C79.wem</Path>
+				</File>
+				<File Id="931138233" Language="de_de">
+					<ShortName>residents_6607313.wav</ShortName>
+					<Path>Voices\de_de\residents_6607313_D8C07C79.wem</Path>
+				</File>
+				<File Id="945959458" Language="de_de">
+					<ShortName>residents_6607321.wav</ShortName>
+					<Path>Voices\de_de\residents_6607321_D8C07C79.wem</Path>
+				</File>
+				<File Id="973112929" Language="de_de">
+					<ShortName>residents_6607311.wav</ShortName>
+					<Path>Voices\de_de\residents_6607311_D8C07C79.wem</Path>
+				</File>
+				<File Id="1027282445" Language="de_de">
+					<ShortName>residents_6607301.wav</ShortName>
+					<Path>Voices\de_de\residents_6607301_D8C07C79.wem</Path>
+				</File>
+				<File Id="1050660844" Language="de_de">
+					<ShortName>residents_6607310.wav</ShortName>
+					<Path>Voices\de_de\residents_6607310_D8C07C79.wem</Path>
+				</File>
+				<File Id="1051811027" Language="de_de">
+					<ShortName>residents_6607270.wav</ShortName>
+					<Path>Voices\de_de\residents_6607270_D8C07C79.wem</Path>
+				</File>
+				<File Id="1065533209" Language="de_de">
+					<ShortName>residents_6607280.wav</ShortName>
+					<Path>Voices\de_de\residents_6607280_D8C07C79.wem</Path>
+				</File>
+				<File Id="1066716356" Language="de_de">
+					<ShortName>residents_6607281.wav</ShortName>
+					<Path>Voices\de_de\residents_6607281_D8C07C79.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1322396954" Name="Menu_Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_Master" GUID="{75985DEF-F0E6-45E1-8B90-BF008EE66803}"/>
+				<GameParameter Id="1363744781" Name="Menu_Volume_SFX" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_SFX" GUID="{A5E9CB08-F3B1-479D-9E3C-AA6213631F27}"/>
 				<GameParameter Id="3305957125" Name="Menu_Volume_VO" ObjectPath="\Game Parameters\Default Work Unit\Menu_Volume_VO" GUID="{964F2AAE-50A9-48DB-AD20-50838773A2C5}"/>
 			</GameParameters>
 		</SoundBank>
