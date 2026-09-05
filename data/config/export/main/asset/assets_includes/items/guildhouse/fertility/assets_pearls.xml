@@ -1,70 +1,7 @@
 <ModOps>
-	<ModOp GUID="191900" Type="addNextSibling">
-		<Asset>
-            <BaseAssetGUID>191900</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1404000862</GUID>
-                    <Name>Mixed Pearl Seed</Name>
-				</Standard>
-				<Item>
-					<Allocation>GuildHouse</Allocation>
-				</Item>
-				<Text>
-					<TextOverride>191900</TextOverride>
-				</Text>
-				<ItemEffect>
-					<EffectTargets>
-						<Item>
-							<GUID>1404000861</GUID>
-						</Item>
-					</EffectTargets>
-				</ItemEffect>
-			</Values>
-		</Asset>
-        <Asset>
-            <BaseAssetGUID>191901</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1404000863</GUID>
-                    <Name>Pearl Seed</Name>
-				</Standard>
-				<Item>
-					<Allocation>GuildHouse</Allocation>
-				</Item>
-				<Text>
-					<TextOverride>191901</TextOverride>
-				</Text>
-				<ItemEffect>
-					<EffectTargets>
-						<Item>
-							<GUID>1404000861</GUID>
-						</Item>
-					</EffectTargets>
-				</ItemEffect>
-			</Values>
-		</Asset>
-        <Asset>
-            <BaseAssetGUID>191902</BaseAssetGUID>
-			<Values>
-				<Standard>
-					<GUID>1404000864</GUID>
-                    <Name>Selected Pearl Seed</Name>
-				</Standard>
-				<Item>
-					<Allocation>GuildHouse</Allocation>
-				</Item>
-				<Text>
-					<TextOverride>191902</TextOverride>
-				</Text>
-				<ItemEffect>
-					<EffectTargets>
-						<Item>
-							<GUID>1404000861</GUID>
-						</Item>
-					</EffectTargets>
-				</ItemEffect>
-			</Values>
-		</Asset>
+	<ModOp GUID="191900,191901,191902" Type="add" Path="Values/ItemEffect/EffectTargets">
+		<Item>
+			<GUID>1404000861</GUID>
+		</Item>
 	</ModOp>
 </ModOps>
