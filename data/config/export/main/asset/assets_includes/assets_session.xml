@@ -151,15 +151,12 @@
                         </Item>
                     </TransferData>
                     <SpawnStartShipAndKontor>0</SpawnStartShipAndKontor>
-                    <SecondPartiesMaySettleHere>0</SecondPartiesMaySettleHere>
+                    <SecondPartiesMaySettleHere>1</SecondPartiesMaySettleHere>
                     <WorldMapCardBackground>1404000005</WorldMapCardBackground>
                     <WorldMapAsset>data/graphics/ui/3d_objects/world_map/clickable_orient.cfg</WorldMapAsset>
                     <SecondPartyReferenceUnlock>0</SecondPartyReferenceUnlock>
-                    <SecondPartyForceFollowPlayer>0</SecondPartyForceFollowPlayer>
-                    <SecondPartyMotivation>
-                        <TargetPopulation>1404000011</TargetPopulation>
-                        <TargetAmount>300</TargetAmount>
-                    </SecondPartyMotivation>
+                    <SecondPartyForceFollowPlayer>1</SecondPartyForceFollowPlayer>
+                    <SecondPartyMotivation/>
                 </Session>
                 <Text>
                     <LocaText>
@@ -393,5 +390,5 @@
             </Values>
         </Asset>
     </ModOp>
-    
+
 </ModOps>
