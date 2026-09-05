@@ -37,7 +37,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/production/coastal_colony01_01/coastal_colony01_01.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/coastal_orient_01/coastal_orient_01.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -58,9 +58,7 @@
 						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 					</Colors>
 				</Selection>
-				<Text>
-					<TextOverride>1010339</TextOverride>
-				</Text>
+				<Text/>
 				<Constructable/>
 				<Locked/>
 				<SoundEmitter>
@@ -120,7 +118,7 @@
 							<StorageAmount>1</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>90</CycleTime>
+					<CycleTime>60</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
