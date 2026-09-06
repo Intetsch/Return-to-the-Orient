@@ -52,7 +52,7 @@
     </ModOp>
 
     <!-- # Fake MainFactory -->
-    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1999005093']/IsMainFactory[text()='1']">
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1400201040']/IsMainFactory[text()='1']">
       <Asset>
         <Template>FactoryBuilding7</Template>
         <Values>
