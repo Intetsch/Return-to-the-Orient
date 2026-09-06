@@ -1,0 +1,106 @@
+<ModOps>
+
+  <Group>
+    <!-- # Product: Ebony -->
+    <ModOp Type="addNextSibling" GUID="1010217">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1400201040</GUID>
+            <Name>Palm Planks</Name>
+            <IconFilename>data\modgraphics\ui\icon_palm_planks.png</IconFilename>
+            <InfoDescription>1400201041</InfoDescription>
+          </Standard>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>1250</BasePrice>
+            <CivLevel>3</CivLevel>
+            <AssociatedRegion>Moderate</AssociatedRegion>
+            <ProductionRegions>
+              <Item>
+                <RegionType>Moderate</RegionType>
+              </Item>
+            </ProductionRegions>
+          </Product>
+          <ExpeditionAttribute>
+            <BaseMorale>0</BaseMorale>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Crafting</Attribute>
+                <Amount>30</Amount>
+              </Item>
+            </ExpeditionAttributes>
+            <FluffText>1400201042</FluffText>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+
+    <!-- # Expeditions -->
+    <!-- None -->
+
+    <!-- # Docklands: NONE -->
+
+    <!-- # Storage List -->
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201040']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+      <Item>
+        <Product>1400201040</Product>
+      </Item>
+    </ModOp>
+
+    <!-- # Fake MainFactory -->
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1999005093']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1400201043</GUID>
+            <Name>IsMainfactory_Fake: Palm Planks</Name>
+            <IconFilename>data\modgraphics\ui\icon_palm_planks.png</IconFilename>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Moderate</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryOutputs>
+              <Item>
+                <Product>1999005093</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>30</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>1010017</Product>
+                <Amount>500</Amount>
+                <InactiveAmount>250</InactiveAmount>
+              </Item>
+              <Item>
+                <Product>1010116</Product>
+                <Amount>100</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+</ModOps>
