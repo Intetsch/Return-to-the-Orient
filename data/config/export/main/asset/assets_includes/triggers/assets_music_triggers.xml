@@ -32,6 +32,17 @@
 							</TriggerAction>
 						</Item>
 						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>data/script/music/exit_to_menu.lua</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
                           <TriggerAction>
                             <Template>ActionResetTrigger</Template>
                             <Values>
