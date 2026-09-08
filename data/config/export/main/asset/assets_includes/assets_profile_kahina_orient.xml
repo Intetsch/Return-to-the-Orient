@@ -739,9 +739,18 @@
                             <GoodsProduction>
                                 <Item>
                                     <Good>1400201040</Good>
-                                    <ProductionPerMinute>4</ProductionPerMinute>
+                                    <ProductionPerMinute>2</ProductionPerMinute>
                                 </Item>
                             </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1400201040</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
                             <OfferingItems>1404000978</OfferingItems>
                             <MaxItemsToOffer>3</MaxItemsToOffer>
                         </EarlyGame>
@@ -751,9 +760,18 @@
                             <GoodsProduction>
                                 <Item>
                                     <Good>1400201040</Good>
-                                    <ProductionPerMinute>4</ProductionPerMinute>
+                                    <ProductionPerMinute>3</ProductionPerMinute>
                                 </Item>
                             </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1400201040</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
                             <OfferingItems>1404000978</OfferingItems>
                             <MaxItemsToOffer>4</MaxItemsToOffer>
                         </EarlyMidGame>
