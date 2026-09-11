@@ -14,7 +14,9 @@
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
 				</Building>
-				<Blocking />
+				<Blocking>
+					<GroundDecalAsset>1404001271</GroundDecalAsset>
+				</Blocking>
 				<Cost />
 				<Object>
 					<Variations>
