@@ -123,6 +123,7 @@
 					</BackgroundImage>
 					<ProgressbarHeight>150</ProgressbarHeight>
 					<AccessEventText>1404001221</AccessEventText>
+					<PhaseCompletedNotification/>
 					<EventUITexts>
 						<MissingElectricityDescription>6750</MissingElectricityDescription>
 						<SelectEventTheme>6751</SelectEventTheme>
@@ -160,15 +161,6 @@
 					</Uniques>
 				</BuildingUnique>
 				<UpgradeList />
-				<PublicService>
-					<FullSatisfactionDistance>60</FullSatisfactionDistance>
-					<NoSatisfactionDistance>100</NoSatisfactionDistance>
-					<PublicServiceOutputs>
-						<Item>
-							<Product>1404000150</Product>
-						</Item>
-					</PublicServiceOutputs>
-				</PublicService>
 				<Industrializable>
 					<MandatoryIndustrialization>0</MandatoryIndustrialization>
 				</Industrializable>
