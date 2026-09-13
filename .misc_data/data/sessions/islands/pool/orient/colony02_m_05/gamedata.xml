@@ -21,110 +21,110 @@
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
       </EditorSavedCameraStates>
@@ -16444,8 +16444,8 @@
                     <ID>-9222246132652965880</ID>
                     <Variation>1</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>85,956314 0,45799255 53,373672</Position>
-                    <Direction>1,2262527</Direction>
+                    <Position>85.956314 0.45799255 53.373672</Position>
+                    <Direction>1.2262527</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16457,14 +16457,14 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5626891</Scale>
-                      <Orientation>0 0,5754271 0 -0,817853</Orientation>
+                      <Scale>1.5626891</Scale>
+                      <Orientation>0 0.5754271 0 -0.817853</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>1003910</guid>
                     <ID>-9222246132652965887</ID>
-                    <Position>108,4982 0,5363178 45,647945</Position>
+                    <Position>108.4982 0.5363178 45.647945</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16480,43 +16480,43 @@
                     </Mesh>
                     <BezierPath>
                       <Path>
-                        <Minimum>73,2658 0,31090927 45,647945</Minimum>
-                        <Maximum>108,4982 0,5786476 55,198467</Maximum>
+                        <Minimum>73.2658 0.31090927 45.647945</Minimum>
+                        <Maximum>108.4982 0.5786476 55.198467</Maximum>
                         <BezierCurve>
                           <None>
-                            <p>108,4982 0,5363178 45,647945</p>
-                            <i>1,2421621 -0,007054965 -0,23528227</i>
-                            <o>-1,2421621 0,007054965 0,23528227</o>
+                            <p>108.4982 0.5363178 45.647945</p>
+                            <i>1.2421621 -0.007054965 -0.23528227</i>
+                            <o>-1.2421621 0.007054965 0.23528227</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>101,04523 0,5786476 47,05964</p>
-                            <i>1,2299201 0,0012041565 -0,29269353</i>
-                            <o>-0,97877055 -0,0009582679 0,23292555</o>
+                            <p>101.04523 0.5786476 47.05964</p>
+                            <i>1.2299201 0.0012041565 -0.29269353</i>
+                            <o>-0.97877055 -0.0009582679 0.23292555</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>95,264366 0,5233612 48,797302</p>
-                            <i>0,9403695 0,011443223 -0,357521</i>
-                            <o>-1,2366258 -0,015048324 0,47015527</o>
+                            <p>95.264366 0.5233612 48.797302</p>
+                            <i>0.9403695 0.011443223 -0.357521</i>
+                            <o>-1.2366258 -0.015048324 0.47015527</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>88,00852 0,4200058 52,01609</p>
-                            <i>1,2070113 0,019893145 -0,5415198</i>
-                            <o>-0,94142956 -0,0155160045 0,42236784</o>
+                            <p>88.00852 0.4200058 52.01609</p>
+                            <i>1.2070113 0.019893145 -0.5415198</i>
+                            <o>-0.94142956 -0.0155160045 0.42236784</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>82,3739 0,31090927 54,580547</p>
-                            <i>1,0087177 0,0013141698 -0,21774268</i>
-                            <o>-1,4873219 -0,0019377015 0,3210546</o>
+                            <p>82.3739 0.31090927 54.580547</p>
+                            <i>1.0087177 0.0013141698 -0.21774268</i>
+                            <o>-1.4873219 -0.0019377015 0.3210546</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>73,2658 0,4007988 55,198467</p>
-                            <i>1,5180168 -0,014981588 -0,102986656</i>
-                            <o>-1,5180168 0,014981588 0,102986656</o>
+                            <p>73.2658 0.4007988 55.198467</p>
+                            <i>1.5180168 -0.014981588 -0.102986656</i>
+                            <o>-1.5180168 0.014981588 0.102986656</o>
                             <d>1 0</d>
                           </None>
                         </BezierCurve>
@@ -16528,8 +16528,8 @@
                     <guid>117689</guid>
                     <ID>-9222246132652965881</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>99,73144 0,45799255 48,620724</Position>
-                    <Direction>1,407044</Direction>
+                    <Position>99.73144 0.45799255 48.620724</Position>
+                    <Direction>1.407044</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16541,15 +16541,15 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 0,64690745 0 -0,7625684</Orientation>
+                      <Orientation>0 0.64690745 0 -0.7625684</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>117687</guid>
                     <ID>-9222246132652965885</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>86,51518 0 45,812878</Position>
-                    <Direction>1,1522336</Direction>
+                    <Position>86.51518 0 45.812878</Position>
+                    <Direction>1.1522336</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16561,14 +16561,14 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,7486661</Scale>
-                      <Orientation>-0 0,54477155 0 -0,8385843</Orientation>
+                      <Scale>0.7486661</Scale>
+                      <Orientation>-0 0.54477155 0 -0.8385843</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>1003910</guid>
                     <ID>-9204231734143483903</ID>
-                    <Position>204,27911 0,2651825 237,24648</Position>
+                    <Position>204.27911 0.2651825 237.24648</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16584,67 +16584,67 @@
                     </Mesh>
                     <BezierPath>
                       <Path>
-                        <Minimum>161,49644 1,335144E-05 227,3008</Minimum>
-                        <Maximum>204,27911 0,32473755 237,24648</Maximum>
+                        <Minimum>161.49644 1.335144E-05 227.3008</Minimum>
+                        <Maximum>204.27911 0.32473755 237.24648</Maximum>
                         <BezierCurve>
                           <None>
-                            <p>204,27911 0,2651825 237,24648</p>
-                            <i>0,39964804 0,00097147626 0,15713501</i>
-                            <o>-0,39964804 -0,00097147626 -0,15713501</o>
+                            <p>204.27911 0.2651825 237.24648</p>
+                            <i>0.39964804 0.00097147626 0.15713501</i>
+                            <o>-0.39964804 -0.00097147626 -0.15713501</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>201,88123 0,25935364 236,30367</p>
-                            <i>0,4059541 0,00066575606 0,14004211</i>
-                            <o>-0,5968064 -0,0009787497 -0,2058805</o>
+                            <p>201.88123 0.25935364 236.30367</p>
+                            <i>0.4059541 0.00066575606 0.14004211</i>
+                            <o>-0.5968064 -0.0009787497 -0.2058805</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>198,26624 0,2553215 235,17221</p>
-                            <i>0,6156332 -0,0041222945 0,1398011</i>
-                            <o>-1,0149912 0,0067964047 -0,23048933</o>
+                            <p>198.26624 0.2553215 235.17221</p>
+                            <i>0.6156332 -0.0041222945 0.1398011</i>
+                            <o>-1.0149912 0.0067964047 -0.23048933</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>192,11664 0,32473755 234,08627</p>
-                            <i>1,0355057 -0,0018715466 0,10537115</i>
-                            <o>-0,8042311 0,0014535469 -0,08183707</o>
+                            <p>192.11664 0.32473755 234.08627</p>
+                            <i>1.0355057 -0.0018715466 0.10537115</i>
+                            <o>-0.8042311 0.0014535469 -0.08183707</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>187,2667 0,2752018 234,05292</p>
-                            <i>0,7992904 0,005776347 0,12078337</i>
-                            <o>-0,95358455 -0,0068914066 -0,14409927</o>
+                            <p>187.2667 0.2752018 234.05292</p>
+                            <i>0.7992904 0.005776347 0.12078337</i>
+                            <o>-0.95358455 -0.0068914066 -0.14409927</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>181,68947 0,24938202 232,51059</p>
-                            <i>0,9180432 0,009740011 0,2953597</i>
-                            <o>-0,8521815 -0,009041249 -0,2741702</o>
+                            <p>181.68947 0.24938202 232.51059</p>
+                            <i>0.9180432 0.009740011 0.2953597</i>
+                            <o>-0.8521815 -0.009041249 -0.2741702</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>176,65536 0,16262054 230,63896</p>
-                            <i>0,8390013 0,013367844 0,31202966</i>
-                            <o>-0,57673365 -0,009189122 -0,21449073</o>
+                            <p>176.65536 0.16262054 230.63896</p>
+                            <i>0.8390013 0.013367844 0.31202966</i>
+                            <o>-0.57673365 -0.009189122 -0.21449073</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>173,19507 0,114040375 229,35147</p>
-                            <i>0,5748866 0,00733252 0,2194631</i>
-                            <o>-0,6268369 -0,007995131 -0,23929513</o>
+                            <p>173.19507 0.114040375 229.35147</p>
+                            <i>0.5748866 0.00733252 0.2194631</i>
+                            <o>-0.6268369 -0.007995131 -0.23929513</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>169,44527 0,07065773 227,8865</p>
-                            <i>0,66089916 0,006441815 0,1158503</i>
-                            <o>-1,308436 -0,012753387 -0,22935832</o>
+                            <p>169.44527 0.07065773 227.8865</p>
+                            <i>0.66089916 0.006441815 0.1158503</i>
+                            <o>-1.308436 -0.012753387 -0.22935832</o>
                             <d>0 1</d>
                           </None>
                           <None>
-                            <p>161,49644 1,335144E-05 227,3008</p>
-                            <i>1,3248037 0,011774063 0,0976181</i>
-                            <o>-1,3248037 -0,011774063 -0,0976181</o>
+                            <p>161.49644 1.335144E-05 227.3008</p>
+                            <i>1.3248037 0.011774063 0.0976181</i>
+                            <o>-1.3248037 -0.011774063 -0.0976181</o>
                             <d>1 0</d>
                           </None>
                         </BezierCurve>
@@ -16657,8 +16657,8 @@
                     <ID>-9222246132652965884</ID>
                     <Variation>7</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>91,05612 0 43,02823</Position>
-                    <Direction>4,035187</Direction>
+                    <Position>91.05612 0 43.02823</Position>
+                    <Direction>4.035187</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16670,8 +16670,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,7486661</Scale>
-                      <Orientation>0 -0,9018352 -0 -0,43207875</Orientation>
+                      <Scale>0.7486661</Scale>
+                      <Orientation>0 -0.9018352 -0 -0.43207875</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -16679,8 +16679,8 @@
                     <ID>-9222246132652965883</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>104,08649 0 35,659508</Position>
-                    <Direction>0,61953247</Direction>
+                    <Position>104.08649 0 35.659508</Position>
+                    <Direction>0.61953247</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16692,8 +16692,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,7486661</Scale>
-                      <Orientation>-0 0,3048358 0 -0,95240414</Orientation>
+                      <Scale>0.7486661</Scale>
+                      <Orientation>-0 0.3048358 0 -0.95240414</Orientation>
                     </Mesh>
                   </None>
                 </objects>
@@ -16758,8 +16758,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798652</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>277,4271 0 247,27815</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>277.4271 0 247.27815</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16771,7 +16771,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16780,8 +16780,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798654</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>284,41522 0 217,25821</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>284.41522 0 217.25821</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16793,7 +16793,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16802,8 +16802,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798651</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>260,92365 0 254,34744</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>260.92365 0 254.34744</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16815,7 +16815,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16824,8 +16824,8 @@
                     <guid>102416</guid>
                     <ID>-9207609433864011774</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>265,16626 0 175,95813</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>265.16626 0 175.95813</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16837,7 +16837,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16846,8 +16846,8 @@
                     <guid>102416</guid>
                     <ID>-9207609433864011775</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>260,84268 0 162,99823</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>260.84268 0 162.99823</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16859,7 +16859,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16868,8 +16868,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798655</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>283,18784 0 198,24052</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>283.18784 0 198.24052</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16881,7 +16881,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16890,8 +16890,8 @@
                     <guid>102416</guid>
                     <ID>-9203105834236641278</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>218,29395 0 255,77042</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>218.29395 0 255.77042</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16903,7 +16903,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16912,8 +16912,8 @@
                     <guid>102416</guid>
                     <ID>-9208735333770854396</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>250,90793 7,6293945E-06 149,32268</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>250.90793 7.6293945E-06 149.32268</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16925,7 +16925,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16934,8 +16934,8 @@
                     <guid>102416</guid>
                     <ID>-9204231734143483900</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>136,76608 0 229,0576</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>136.76608 0 229.0576</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16947,7 +16947,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16956,8 +16956,8 @@
                     <guid>102416</guid>
                     <ID>-9205357634050326527</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>121,99563 0 217,01115</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>121.99563 0 217.01115</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16969,7 +16969,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -16978,8 +16978,8 @@
                     <guid>102416</guid>
                     <ID>-9197476334702428159</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>241,98897 0 261,22003</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>241.98897 0 261.22003</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -16991,7 +16991,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17000,8 +17000,8 @@
                     <guid>102416</guid>
                     <ID>-9205357634050326526</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>108,07866 0 201,76425</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>108.07866 0 201.76425</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17013,7 +17013,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17022,8 +17022,8 @@
                     <guid>102416</guid>
                     <ID>-9207609433864011773</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>278,53427 0 185,84271</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>278.53427 0 185.84271</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17035,7 +17035,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17044,8 +17044,8 @@
                     <guid>102416</guid>
                     <ID>-9208735333770854397</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>226,44305 0 142,40616</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>226.44305 0 142.40616</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17057,7 +17057,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17066,8 +17066,8 @@
                     <guid>102416</guid>
                     <ID>-9210987133584539633</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>105,639275 0 182,30789</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>105.639275 0 182.30789</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17079,7 +17079,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17088,8 +17088,8 @@
                     <guid>102416</guid>
                     <ID>-9217742533025595391</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>36,94365 0 117,93399</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>36.94365 0 117.93399</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17101,7 +17101,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17110,8 +17110,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798653</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>295,47495 0 238,85783</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>295.47495 0 238.85783</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17123,7 +17123,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17132,8 +17132,8 @@
                     <guid>102416</guid>
                     <ID>-9217742533025595390</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>38,201626 -7,6293945E-06 97,1653</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>38.201626 -7.6293945E-06 97.1653</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17145,7 +17145,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17154,8 +17154,8 @@
                     <guid>102416</guid>
                     <ID>-9210987133584539632</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>82,00468 0 170,35443</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>82.00468 0 170.35443</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17167,7 +17167,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17176,8 +17176,8 @@
                     <guid>102416</guid>
                     <ID>-9217742533025595389</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>43,98053 0 71,0267</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>43.98053 0 71.0267</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17189,7 +17189,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -17206,8 +17206,8 @@
                     <ID>-9215490733211910135</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>142,37186 0,9418535 80,137184</Position>
-                    <Direction>4,712389</Direction>
+                    <Position>142.37186 0.9418535 80.137184</Position>
+                    <Direction>4.712389</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17219,8 +17219,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,30791962</Scale>
-                      <Orientation>0 0,7071067 0 0,7071067</Orientation>
+                      <Scale>0.30791962</Scale>
+                      <Orientation>0 0.7071067 0 0.7071067</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -17228,8 +17228,8 @@
                     <ID>-9215490733211910136</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>137,08498 0,9418535 77,862564</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>137.08498 0.9418535 77.862564</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17241,8 +17241,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,30791962</Scale>
-                      <Orientation>0 -0,70710677 0 0,70710677</Orientation>
+                      <Scale>0.30791962</Scale>
+                      <Orientation>0 -0.70710677 0 0.70710677</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -17250,8 +17250,8 @@
                     <ID>-9215490733211910138</ID>
                     <Variation>6</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>147,06491 1,9073486E-06 75,740746</Position>
-                    <Direction>2,0536518</Direction>
+                    <Position>147.06491 1.9073486E-06 75.740746</Position>
+                    <Direction>2.0536518</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17263,8 +17263,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,6264638</Scale>
-                      <Orientation>0 -0,85566056 0 0,5175374</Orientation>
+                      <Scale>0.6264638</Scale>
+                      <Orientation>0 -0.85566056 0 0.5175374</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -17272,8 +17272,8 @@
                     <ID>-9215490733211910139</ID>
                     <Variation>6</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>138,78426 1,9073486E-06 70,876564</Position>
-                    <Direction>5,2405896</Direction>
+                    <Position>138.78426 1.9073486E-06 70.876564</Position>
+                    <Direction>5.2405896</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17285,7 +17285,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 0,4980061 0 0,8671736</Orientation>
+                      <Orientation>0 0.4980061 0 0.8671736</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -17293,8 +17293,8 @@
                     <ID>-9215490733211910140</ID>
                     <Variation>7</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>132,88658 1,9073486E-06 67,50034</Position>
-                    <Direction>2,3463302</Direction>
+                    <Position>132.88658 1.9073486E-06 67.50034</Position>
+                    <Direction>2.3463302</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -17306,7 +17306,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,92198086 0 0,38723546</Orientation>
+                      <Orientation>0 -0.92198086 0 0.38723546</Orientation>
                     </Mesh>
                   </None>
                 </objects>
@@ -17317,13 +17317,13 @@
                     <guid>117665</guid>
                     <ID>-4595923415436623864</ID>
                     <Variation>8</Variation>
-                    <Position>269,41098 1,8754306 190,21434</Position>
-                    <Direction>2,8019905</Direction>
+                    <Position>269.41098 1.8754306 190.21434</Position>
+                    <Direction>2.8019905</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>269,41098 1,8754306 190,21434</Position>
+                      <Position>269.41098 1.8754306 190.21434</Position>
                       <Rotation>93D4803DCCD97B3F2479CB3A97F02BBE</Rotation>
                       <Scale>FCFA933FF51C943F4B806B3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17334,13 +17334,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253275</ID>
                     <Variation>3</Variation>
-                    <Position>232,50967 1,5109372 228,70325</Position>
-                    <Direction>2,1381679</Direction>
+                    <Position>232.50967 1.5109372 228.70325</Position>
+                    <Direction>2.1381679</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>232,50967 1,5109372 228,70325</Position>
+                      <Position>232.50967 1.5109372 228.70325</Position>
                       <Rotation>8AF4073E0E7D5FBFEF3D093DC1AAEF3E</Rotation>
                       <Scale>B0B3253FB0B3253FB0B3253F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17351,13 +17351,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253276</ID>
                     <Variation>3</Variation>
-                    <Position>233,5332 1,7395177 228,89067</Position>
-                    <Direction>4,0734673</Direction>
+                    <Position>233.5332 1.7395177 228.89067</Position>
+                    <Direction>4.0734673</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>233,5332 1,7395177 228,89067</Position>
+                      <Position>233.5332 1.7395177 228.89067</Position>
                       <Rotation>AE99403E727B62BF524C5EBD109DD8BE</Rotation>
                       <Scale>ABDF293FABDF293FABDF293F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17368,13 +17368,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253277</ID>
                     <Variation>1</Variation>
-                    <Position>234,78712 1,8292413 225,14043</Position>
-                    <Direction>4,4228296</Direction>
+                    <Position>234.78712 1.8292413 225.14043</Position>
+                    <Direction>4.4228296</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>234,78712 1,8292413 225,14043</Position>
+                      <Position>234.78712 1.8292413 225.14043</Position>
                       <Rotation>045BE53D0BC54ABFA879FDBDA95016BF</Rotation>
                       <Scale>8EB5843E8EB5843E8EB5843E</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17385,13 +17385,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253280</ID>
                     <Variation>3</Variation>
-                    <Position>233,84528 1,7715611 227,50897</Position>
-                    <Direction>3,1967332</Direction>
+                    <Position>233.84528 1.7715611 227.50897</Position>
+                    <Direction>3.1967332</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>233,84528 1,7715611 227,50897</Position>
+                      <Position>233.84528 1.7715611 227.50897</Position>
                       <Rotation>0616AB3D54DD7EBFBAA612BDD60AC7BC</Rotation>
                       <Scale>5505843F5505843F5505843F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17402,13 +17402,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253284</ID>
                     <Variation>2</Variation>
-                    <Position>242,4828 3,2765584 217,2881</Position>
-                    <Direction>0,6258459</Direction>
+                    <Position>242.4828 3.2765584 217.2881</Position>
+                    <Direction>0.6258459</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>242,4828 3,2765584 217,2881</Position>
+                      <Position>242.4828 3.2765584 217.2881</Position>
                       <Rotation>8065863A5BEF8CBE58B4893E6F486C3F</Rotation>
                       <Scale>B0F0093FB0F0093FB0F0093F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17419,13 +17419,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253286</ID>
                     <Variation>2</Variation>
-                    <Position>242,15977 2,730744 216,05814</Position>
-                    <Direction>3,2672958</Direction>
+                    <Position>242.15977 2.730744 216.05814</Position>
+                    <Direction>3.2672958</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>242,15977 2,730744 216,05814</Position>
+                      <Position>242.15977 2.730744 216.05814</Position>
                       <Rotation>F74CA23D0AE379BF1FFA3E3ED449A0BD</Rotation>
                       <Scale>117C163F117C163F117C163F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17436,13 +17436,13 @@
                     <guid>117665</guid>
                     <ID>-4591419815809253293</ID>
                     <Variation>8</Variation>
-                    <Position>252,89983 7,5080824 221,0558</Position>
-                    <Direction>1,7378638</Direction>
+                    <Position>252.89983 7.5080824 221.0558</Position>
+                    <Direction>1.7378638</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>252,89983 7,5080824 221,0558</Position>
+                      <Position>252.89983 7.5080824 221.0558</Position>
                       <Rotation>16BD68BD1B2B43BF1E490E3D53C9243F</Rotation>
                       <Scale>AEBEAB3F0235C33FAEBEAB3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17453,13 +17453,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253288</ID>
                     <Variation>2</Variation>
-                    <Position>246,2985 3,328898 209,66296</Position>
-                    <Direction>5,561241</Direction>
+                    <Position>246.2985 3.328898 209.66296</Position>
+                    <Direction>5.561241</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>246,2985 3,328898 209,66296</Position>
+                      <Position>246.2985 3.328898 209.66296</Position>
                       <Rotation>8C77A43CA60BAEBE4C541ABE82966DBF</Rotation>
                       <Scale>5C7A2C3F5C7A2C3F5C7A2C3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17469,13 +17469,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4591419815809253289</ID>
-                    <Position>245,52646 3,1644053 210,4583</Position>
-                    <Direction>3,7989044</Direction>
+                    <Position>245.52646 3.1644053 210.4583</Position>
+                    <Direction>3.7989044</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>245,52646 3,1644053 210,4583</Position>
+                      <Position>245.52646 3.1644053 210.4583</Position>
                       <Rotation>03CEE13D569A70BF24ECB5BD41279FBE</Rotation>
                       <Scale>31377B3F31377B3F31377B3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17486,13 +17486,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253290</ID>
                     <Variation>2</Variation>
-                    <Position>245,06194 3,0274024 210,03632</Position>
-                    <Direction>0,5333847</Direction>
+                    <Position>245.06194 3.0274024 210.03632</Position>
+                    <Direction>0.5333847</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>245,06194 3,0274024 210,03632</Position>
+                      <Position>245.06194 3.0274024 210.03632</Position>
                       <Rotation>427D583DED0284BE2643A53DCB1B763F</Rotation>
                       <Scale>6B48B53E6B48B53E6B48B53E</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17503,13 +17503,13 @@
                     <guid>117665</guid>
                     <ID>-4597049315343466312</ID>
                     <Variation>8</Variation>
-                    <Position>226,38403 -2,2851198 145,47313</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>226.38403 -2.2851198 145.47313</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>226,38403 -2,2851198 145,47313</Position>
+                      <Position>226.38403 -2.2851198 145.47313</Position>
                       <Rotation>00000000FFFF7FBF000000802EBDBBB3</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17520,13 +17520,13 @@
                     <guid>117669</guid>
                     <ID>-4592545715716095900</ID>
                     <Variation>3</Variation>
-                    <Position>155,882 2,835777 212,99394</Position>
-                    <Direction>0,5648108</Direction>
+                    <Position>155.882 2.835777 212.99394</Position>
+                    <Direction>0.5648108</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>155,882 2,835777 212,99394</Position>
+                      <Position>155.882 2.835777 212.99394</Position>
                       <Rotation>194D17BEC23486BED7C3E9BD8D61723F</Rotation>
                       <Scale>D96C633FD96C633FD96C633F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17537,13 +17537,13 @@
                     <guid>117647</guid>
                     <ID>-4592545715716095901</ID>
                     <Variation>1</Variation>
-                    <Position>155,8331 2,7304428 212,3133</Position>
-                    <Direction>3,984637</Direction>
+                    <Position>155.8331 2.7304428 212.3133</Position>
+                    <Direction>3.984637</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>155,8331 2,7304428 212,3133</Position>
+                      <Position>155.8331 2.7304428 212.3133</Position>
                       <Rotation>00000000739769BF00000080197CD1BE</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17554,13 +17554,13 @@
                   <None>
                     <guid>117647</guid>
                     <ID>-4592545715716095902</ID>
-                    <Position>154,37329 1,7712669 209,81767</Position>
-                    <Direction>2,2864683</Direction>
+                    <Position>154.37329 1.7712669 209.81767</Position>
+                    <Direction>2.2864683</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>154,37329 1,7712669 209,81767</Position>
+                      <Position>154.37329 1.7712669 209.81767</Position>
                       <Rotation>0000000067F468BF000000807C4DD43E</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17571,13 +17571,13 @@
                   <None>
                     <guid>117647</guid>
                     <ID>-4592545715716095903</ID>
-                    <Position>158,05339 1,5512323 211,20302</Position>
-                    <Direction>2,158377</Direction>
+                    <Position>158.05339 1.5512323 211.20302</Position>
+                    <Direction>2.158377</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>158,05339 1,5512323 211,20302</Position>
+                      <Position>158.05339 1.5512323 211.20302</Position>
                       <Rotation>00000000E6AE61BF00000080BDAFF13E</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17589,13 +17589,13 @@
                     <guid>117647</guid>
                     <ID>-4592545715716095904</ID>
                     <Variation>1</Variation>
-                    <Position>157,25537 2,4959097 214,0381</Position>
-                    <Direction>5,881462</Direction>
+                    <Position>157.25537 2.4959097 214.0381</Position>
+                    <Direction>5.881462</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>157,25537 2,4959097 214,0381</Position>
+                      <Position>157.25537 2.4959097 214.0381</Position>
                       <Rotation>00000000514D4CBE0000008068DA7ABF</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17606,13 +17606,13 @@
                   <None>
                     <guid>117647</guid>
                     <ID>-4592545715716095905</ID>
-                    <Position>156,43442 2,837399 214,2063</Position>
-                    <Direction>1,11217</Direction>
+                    <Position>156.43442 2.837399 214.2063</Position>
+                    <Direction>1.11217</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>156,43442 2,837399 214,2063</Position>
+                      <Position>156.43442 2.837399 214.2063</Position>
                       <Rotation>000000002B2207BF00000080926D593F</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17623,13 +17623,13 @@
                   <None>
                     <guid>101748</guid>
                     <ID>-4592545715716095909</ID>
-                    <Position>156,79411 2,3798132 214,32355</Position>
-                    <Direction>5,6166506</Direction>
+                    <Position>156.79411 2.3798132 214.32355</Position>
+                    <Direction>5.6166506</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>156,79411 2,3798132 214,32355</Position>
+                      <Position>156.79411 2.3798132 214.32355</Position>
                       <Rotation>00000000E47DA7BE000000801EEA71BF</Rotation>
                       <Scale>9A99193F9A99193F9A99193F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17639,13 +17639,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4592545715716095899</ID>
-                    <Position>148,67094 1,6658168 208,58458</Position>
-                    <Direction>3,7303712</Direction>
+                    <Position>148.67094 1.6658168 208.58458</Position>
+                    <Direction>3.7303712</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>148,67094 1,6658168 208,58458</Position>
+                      <Position>148.67094 1.6658168 208.58458</Position>
                       <Rotation>B7E661BD637774BFEECC543D16EA92BE</Rotation>
                       <Scale>551D8E3F551D8E3F551D8E3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17656,13 +17656,13 @@
                     <guid>117665</guid>
                     <ID>-4591419815809253291</ID>
                     <Variation>9</Variation>
-                    <Position>135,33286 3,56712 192,45392</Position>
-                    <Direction>1,7868015</Direction>
+                    <Position>135.33286 3.56712 192.45392</Position>
+                    <Direction>1.7868015</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>135,33286 3,56712 192,45392</Position>
+                      <Position>135.33286 3.56712 192.45392</Position>
                       <Rotation>0DB8F93DBA6446BFDD0860BDA5211E3F</Rotation>
                       <Scale>0000803F884D973F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17672,13 +17672,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4598175215250308820</ID>
-                    <Position>142,10413 2,340876 191,96153</Position>
-                    <Direction>4,7906656</Direction>
+                    <Position>142.10413 2.340876 191.96153</Position>
+                    <Direction>4.7906656</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>142,10413 2,340876 191,96153</Position>
+                      <Position>142.10413 2.340876 191.96153</Position>
                       <Rotation>073645BEA6AE2DBFBE911C3DA43A35BF</Rotation>
                       <Scale>D457EC3ED457EC3ED457EC3E</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17689,13 +17689,13 @@
                     <guid>117669</guid>
                     <ID>-4598175215250308821</ID>
                     <Variation>3</Variation>
-                    <Position>142,94469 2,0289817 191,2224</Position>
-                    <Direction>5,6755915</Direction>
+                    <Position>142.94469 2.0289817 191.2224</Position>
+                    <Direction>5.6755915</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>142,94469 2,0289817 191,2224</Position>
+                      <Position>142.94469 2.0289817 191.2224</Position>
                       <Rotation>64ACE0BC865999BE5203D9BC7A0D74BF</Rotation>
                       <Scale>EF291D3FEF291D3FEF291D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17706,13 +17706,13 @@
                     <guid>117669</guid>
                     <ID>-4598175215250308816</ID>
                     <Variation>3</Variation>
-                    <Position>129,4989 2,3419442 186,95462</Position>
-                    <Direction>0,90766954</Direction>
+                    <Position>129.4989 2.3419442 186.95462</Position>
+                    <Direction>0.90766954</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>129,4989 2,3419442 186,95462</Position>
+                      <Position>129.4989 2.3419442 186.95462</Position>
                       <Rotation>5D877BBC4380E0BEF179F53B4A09663F</Rotation>
                       <Scale>7AC78D3F7AC78D3F7AC78D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17723,13 +17723,13 @@
                     <guid>117665</guid>
                     <ID>-4598175215250308774</ID>
                     <Variation>2</Variation>
-                    <Position>180,9464 -0,132893 160,99373</Position>
-                    <Direction>3,5810378</Direction>
+                    <Position>180.9464 -0.132893 160.99373</Position>
+                    <Direction>3.5810378</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>180,9464 -0,132893 160,99373</Position>
+                      <Position>180.9464 -0.132893 160.99373</Position>
                       <Rotation>660CB7BC6287783FEAE8CC3D8B035E3E</Rotation>
                       <Scale>4A61C43F7C08863F4A61C43F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17740,13 +17740,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253283</ID>
                     <Variation>3</Variation>
-                    <Position>242,15918 3,4164844 218,71803</Position>
-                    <Direction>1,3132833</Direction>
+                    <Position>242.15918 3.4164844 218.71803</Position>
+                    <Direction>1.3132833</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>242,15918 3,4164844 218,71803</Position>
+                      <Position>242.15918 3.4164844 218.71803</Position>
                       <Rotation>A055A93B594D15BFC0FF483E87C9493F</Rotation>
                       <Scale>91029B3F91029B3F91029B3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17757,13 +17757,13 @@
                     <guid>117665</guid>
                     <ID>-4603804714784521752</ID>
                     <Variation>8</Variation>
-                    <Position>169,16373 -2,2333684 117,70328</Position>
-                    <Direction>4,550017</Direction>
+                    <Position>169.16373 -2.2333684 117.70328</Position>
+                    <Direction>4.550017</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>169,16373 -2,2333684 117,70328</Position>
+                      <Position>169.16373 -2.2333684 117.70328</Position>
                       <Rotation>1176F4BB75BC40BF6355E9BD58EF25BF</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17774,13 +17774,13 @@
                     <guid>117665</guid>
                     <ID>-4603804714784521750</ID>
                     <Variation>2</Variation>
-                    <Position>170,71939 -0,17835903 110,77999</Position>
-                    <Direction>4,536428</Direction>
+                    <Position>170.71939 -0.17835903 110.77999</Position>
+                    <Direction>4.536428</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>170,71939 -0,17835903 110,77999</Position>
+                      <Position>170.71939 -0.17835903 110.77999</Position>
                       <Rotation>C52C72BD1032423F6825E03DCFBC233F</Rotation>
                       <Scale>2B64F83F2B64F83F2B64F83F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17791,13 +17791,13 @@
                     <guid>117665</guid>
                     <ID>-4599301115157151547</ID>
                     <Variation>8</Variation>
-                    <Position>124,60333 -1,3486958 189,4564</Position>
-                    <Direction>1,7810266</Direction>
+                    <Position>124.60333 -1.3486958 189.4564</Position>
+                    <Direction>1.7810266</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>124,60333 -1,3486958 189,4564</Position>
+                      <Position>124.60333 -1.3486958 189.4564</Position>
                       <Rotation>00000000530347BF00000000FD06213F</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17808,13 +17808,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151563</ID>
                     <Variation>2</Variation>
-                    <Position>122,295654 1,920032 177,82097</Position>
-                    <Direction>3,1787596</Direction>
+                    <Position>122.295654 1.920032 177.82097</Position>
+                    <Direction>3.1787596</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>122,295654 1,920032 177,82097</Position>
+                      <Position>122.295654 1.920032 177.82097</Position>
                       <Rotation>816F0FBD4B777FBFAEEF4DBD7593A6BC</Rotation>
                       <Scale>E1942F3FE1942F3FE1942F3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17825,13 +17825,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151565</ID>
                     <Variation>2</Variation>
-                    <Position>119,40399 1,6294999 178,96336</Position>
-                    <Direction>2,3934183</Direction>
+                    <Position>119.40399 1.6294999 178.96336</Position>
+                    <Direction>2.3934183</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>119,40399 1,6294999 178,96336</Position>
+                      <Position>119.40399 1.6294999 178.96336</Position>
                       <Rotation>4C3E0C3ECA7861BF0A9072BE7AE8C53E</Rotation>
                       <Scale>1AD41C3F1AD41C3F1AD41C3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17842,13 +17842,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151566</ID>
                     <Variation>3</Variation>
-                    <Position>119,63109 1,3891711 179,48029</Position>
-                    <Direction>0,2917776</Direction>
+                    <Position>119.63109 1.3891711 179.48029</Position>
+                    <Direction>0.2917776</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>119,63109 1,3891711 179,48029</Position>
+                      <Position>119.63109 1.3891711 179.48029</Position>
                       <Rotation>FF53943D964B00BE516E3D3EBBD6783F</Rotation>
                       <Scale>A3BC9D3FA3BC9D3FA3BC9D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17859,13 +17859,13 @@
                     <guid>117665</guid>
                     <ID>-4599301115157151548</ID>
                     <Variation>8</Variation>
-                    <Position>87,46456 -1,5370467 172,68822</Position>
-                    <Direction>0,48137617</Direction>
+                    <Position>87.46456 -1.5370467 172.68822</Position>
+                    <Direction>0.48137617</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>87,46456 -1,5370467 172,68822</Position>
+                      <Position>87.46456 -1.5370467 172.68822</Position>
                       <Rotation>E2FC6FBDB3A573BEC49D6BBCEF2A783F</Rotation>
                       <Scale>0000803F8437543F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17875,13 +17875,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4599301115157151595</ID>
-                    <Position>93,868416 15,459667 151,3025</Position>
-                    <Direction>3,3126779</Direction>
+                    <Position>93.868416 15.459667 151.3025</Position>
+                    <Direction>3.3126779</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>93,868416 15,459667 151,3025</Position>
+                      <Position>93.868416 15.459667 151.3025</Position>
                       <Rotation>3F0FE63C865D7EBF011F90BDE636ABBD</Rotation>
                       <Scale>EED7043FEED7043FEED7043F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17892,13 +17892,13 @@
                     <guid>117665</guid>
                     <ID>-4597049315343466310</ID>
                     <Variation>8</Variation>
-                    <Position>214,41122 -2,6479366 158,71141</Position>
-                    <Direction>2,7167404</Direction>
+                    <Position>214.41122 -2.6479366 158.71141</Position>
+                    <Direction>2.7167404</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>214,41122 -2,6479366 158,71141</Position>
+                      <Position>214.41122 -2.6479366 158.71141</Position>
                       <Rotation>00000080E93E7A3F0000000062E457BE</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17909,13 +17909,13 @@
                     <guid>117669</guid>
                     <ID>-4598175215250308817</ID>
                     <Variation>2</Variation>
-                    <Position>129,80551 2,5844102 187,82254</Position>
-                    <Direction>1,0367541</Direction>
+                    <Position>129.80551 2.5844102 187.82254</Position>
+                    <Direction>1.0367541</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>129,80551 2,5844102 187,82254</Position>
+                      <Position>129.80551 2.5844102 187.82254</Position>
                       <Rotation>2C5336BED77F00BFACAD493DCF4D583F</Rotation>
                       <Scale>EA088D3FEA088D3FEA088D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17926,13 +17926,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151596</ID>
                     <Variation>2</Variation>
-                    <Position>83,831345 1,2193379 128,84938</Position>
-                    <Direction>3,9374645</Direction>
+                    <Position>83.831345 1.2193379 128.84938</Position>
+                    <Direction>3.9374645</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>83,831345 1,2193379 128,84938</Position>
+                      <Position>83.831345 1.2193379 128.84938</Position>
                       <Rotation>54F9633E162E68BF2AAF15BDCB20B6BE</Rotation>
                       <Scale>9957553F9957553F9957553F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17942,13 +17942,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4599301115157151594</ID>
-                    <Position>104,25205 9,2089615 163,83737</Position>
-                    <Direction>4,0778217</Direction>
+                    <Position>104.25205 9.2089615 163.83737</Position>
+                    <Direction>4.0778217</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>104,25205 9,2089615 163,83737</Position>
+                      <Position>104.25205 9.2089615 163.83737</Position>
                       <Rotation>E78E2BBD243B60BF32462C3EEC88E6BE</Rotation>
                       <Scale>0C1FF73E0C1FF73E0C1FF73E</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17959,13 +17959,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151564</ID>
                     <Variation>3</Variation>
-                    <Position>120,268425 1,5419135 179,09471</Position>
-                    <Direction>4,857078</Direction>
+                    <Position>120.268425 1.5419135 179.09471</Position>
+                    <Direction>4.857078</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>120,268425 1,5419135 179,09471</Position>
+                      <Position>120.268425 1.5419135 179.09471</Position>
                       <Rotation>CC3E16BDA20023BFE49B23BED3E240BF</Rotation>
                       <Scale>F79E873FF79E873FF79E873F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17976,13 +17976,13 @@
                     <guid>117665</guid>
                     <ID>-4603804714784521754</ID>
                     <Variation>8</Variation>
-                    <Position>174,15863 -0,74909043 98,59241</Position>
-                    <Direction>3,3625412</Direction>
+                    <Position>174.15863 -0.74909043 98.59241</Position>
+                    <Direction>3.3625412</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>174,15863 -0,74909043 98,59241</Position>
+                      <Position>174.15863 -0.74909043 98.59241</Position>
                       <Rotation>000000007D707EBF0000000090CAE1BD</Rotation>
                       <Scale>0000803FEFF73F3F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -17993,13 +17993,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151598</ID>
                     <Variation>2</Variation>
-                    <Position>118,52719 1,8130096 159,12263</Position>
-                    <Direction>4,3575363</Direction>
+                    <Position>118.52719 1.8130096 159.12263</Position>
+                    <Direction>4.3575363</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>118,52719 1,8130096 159,12263</Position>
+                      <Position>118.52719 1.8130096 159.12263</Position>
                       <Rotation>E000093C867751BF7ADB763D725812BF</Rotation>
                       <Scale>61A65C3F61A65C3F61A65C3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18010,13 +18010,13 @@
                     <guid>117665</guid>
                     <ID>-4604930614691364623</ID>
                     <Variation>6</Variation>
-                    <Position>78,33135 -0,6254387 90,52323</Position>
-                    <Direction>2,2200482</Direction>
+                    <Position>78.33135 -0.6254387 90.52323</Position>
+                    <Direction>2.2200482</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>78,33135 -0,6254387 90,52323</Position>
+                      <Position>78.33135 -0.6254387 90.52323</Position>
                       <Rotation>F2A1763E34FD5EBFB541353E3591C73E</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18027,13 +18027,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253285</ID>
                     <Variation>2</Variation>
-                    <Position>242,14758 3,1718822 217,81723</Position>
-                    <Direction>3,1904233</Direction>
+                    <Position>242.14758 3.1718822 217.81723</Position>
+                    <Direction>3.1904233</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>242,14758 3,1718822 217,81723</Position>
+                      <Position>242.14758 3.1718822 217.81723</Position>
                       <Rotation>2957633EAF4479BF9C1B243D93DD01BD</Rotation>
                       <Scale>A9971C3FA9971C3FA9971C3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18044,12 +18044,12 @@
                     <guid>117669</guid>
                     <ID>-4604930614691364622</ID>
                     <Variation>3</Variation>
-                    <Position>112,78241 1,0011444 112,08402</Position>
+                    <Position>112.78241 1.0011444 112.08402</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>112,78241 1,0011444 112,08402</Position>
+                      <Position>112.78241 1.0011444 112.08402</Position>
                       <Rotation>0000000000000000000000000000803F</Rotation>
                       <Scale>D3FC9F3FD3FC9F3FD3FC9F3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18059,13 +18059,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4591419815809253287</ID>
-                    <Position>246,62819 3,4528012 210,11536</Position>
-                    <Direction>2,9529743</Direction>
+                    <Position>246.62819 3.4528012 210.11536</Position>
+                    <Direction>2.9529743</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>246,62819 3,4528012 210,11536</Position>
+                      <Position>246.62819 3.4528012 210.11536</Position>
                       <Rotation>93B41B3E3D537ABF0967FE3DF0FA943D</Rotation>
                       <Scale>E928333FE928333FE928333F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18075,13 +18075,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4604930614691364621</ID>
-                    <Position>91,80605 -0,20264982 86,73805</Position>
-                    <Direction>4,9430285</Direction>
+                    <Position>91.80605 -0.20264982 86.73805</Position>
+                    <Direction>4.9430285</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>91,80605 -0,20264982 86,73805</Position>
+                      <Position>91.80605 -0.20264982 86.73805</Position>
                       <Rotation>3CF94ABE82711DBF2BF910BEBFFC3FBF</Rotation>
                       <Scale>D5AB313FD5AB313FD5AB313F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18092,13 +18092,13 @@
                     <guid>117665</guid>
                     <ID>-4597049315343466306</ID>
                     <Variation>7</Variation>
-                    <Position>219,79324 -1,3851718 154,03249</Position>
-                    <Direction>2,6544793</Direction>
+                    <Position>219.79324 -1.3851718 154.03249</Position>
+                    <Direction>2.6544793</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>219,79324 -1,3851718 154,03249</Position>
+                      <Position>219.79324 -1.3851718 154.03249</Position>
                       <Rotation>95AC093E2786763F574B1A3D7E1C6CBE</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18108,13 +18108,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4604930614691364616</ID>
-                    <Position>81,41148 0,34026572 111,83314</Position>
-                    <Direction>3,1487837</Direction>
+                    <Position>81.41148 0.34026572 111.83314</Position>
+                    <Direction>3.1487837</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>81,41148 0,34026572 111,83314</Position>
+                      <Position>81.41148 0.34026572 111.83314</Position>
                       <Rotation>0000000093FF7FBF0000008057A56BBB</Rotation>
                       <Scale>8193213F8193213F8193213F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18125,13 +18125,13 @@
                     <guid>117669</guid>
                     <ID>-4604930614691364619</ID>
                     <Variation>3</Variation>
-                    <Position>93,03176 0,3085544 85,92858</Position>
-                    <Direction>2,9454007</Direction>
+                    <Position>93.03176 0.3085544 85.92858</Position>
+                    <Direction>2.9454007</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>93,03176 0,3085544 85,92858</Position>
+                      <Position>93.03176 0.3085544 85.92858</Position>
                       <Rotation>2BF49F3D12AE7ABF2D271BBE9008E13D</Rotation>
                       <Scale>2D9F293F2D9F293F2D9F293F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18142,13 +18142,13 @@
                     <guid>117669</guid>
                     <ID>-4604930614691364618</ID>
                     <Variation>3</Variation>
-                    <Position>72,536606 0,1744077 97,86107</Position>
-                    <Direction>5,612596</Direction>
+                    <Position>72.536606 0.1744077 97.86107</Position>
+                    <Direction>5.612596</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>72,536606 0,1744077 97,86107</Position>
+                      <Position>72.536606 0.1744077 97.86107</Position>
                       <Rotation>333EDBBB9966A8BE3585583C19BA71BF</Rotation>
                       <Scale>C1B7823FC1B7823FC1B7823F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18159,13 +18159,13 @@
                     <guid>117669</guid>
                     <ID>-4599301115157151593</ID>
                     <Variation>2</Variation>
-                    <Position>95,652824 10,011127 163,32678</Position>
-                    <Direction>2,1599467</Direction>
+                    <Position>95.652824 10.011127 163.32678</Position>
+                    <Direction>2.1599467</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>95,652824 10,011127 163,32678</Position>
+                      <Position>95.652824 10.011127 163.32678</Position>
                       <Rotation>1404003D823159BF8B286E3EBDEEF23E</Rotation>
                       <Scale>27763C3F27763C3F27763C3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18176,13 +18176,13 @@
                     <guid>117665</guid>
                     <ID>-4590293915902410720</ID>
                     <Variation>8</Variation>
-                    <Position>278,08008 1,0055423 204,71039</Position>
-                    <Direction>4,514138</Direction>
+                    <Position>278.08008 1.0055423 204.71039</Position>
+                    <Direction>4.514138</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>278,08008 1,0055423 204,71039</Position>
+                      <Position>278.08008 1.0055423 204.71039</Position>
                       <Rotation>0E67883C7C03463F48695FBC4429223F</Rotation>
                       <Scale>FAE4B93FFAE4B93FFAE4B93F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18193,13 +18193,13 @@
                     <guid>117669</guid>
                     <ID>-4598175215250308819</ID>
                     <Variation>2</Variation>
-                    <Position>129,12329 2,3793283 187,27252</Position>
-                    <Direction>0,8486825</Direction>
+                    <Position>129.12329 2.3793283 187.27252</Position>
+                    <Direction>0.8486825</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>129,12329 2,3793283 187,27252</Position>
+                      <Position>129.12329 2.3793283 187.27252</Position>
                       <Rotation>99BAB6BDA21CD2BEACC109BDCB2B683F</Rotation>
                       <Scale>17AC073F17AC073F17AC073F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18210,13 +18210,13 @@
                     <guid>101747</guid>
                     <ID>-4592545715716095912</ID>
                     <Variation>1</Variation>
-                    <Position>155,60426 2,786097 212,39873</Position>
-                    <Direction>2,0899196</Direction>
+                    <Position>155.60426 2.786097 212.39873</Position>
+                    <Direction>2.0899196</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>155,60426 2,786097 212,39873</Position>
+                      <Position>155.60426 2.786097 212.39873</Position>
                       <Rotation>473FB9BDE06D5CBF6DC82B3DC14EFF3E</Rotation>
                       <Scale>FDE2363FFDE2363FFDE2363F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18226,13 +18226,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4591419815809253281</ID>
-                    <Position>235,73471 2,4295306 228,90106</Position>
-                    <Direction>4,120477</Direction>
+                    <Position>235.73471 2.4295306 228.90106</Position>
+                    <Direction>4.120477</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>235,73471 2,4295306 228,90106</Position>
+                      <Position>235.73471 2.4295306 228.90106</Position>
                       <Rotation>8E6CD93D504A60BF51C9693D9AFAEEBE</Rotation>
                       <Scale>386E9D3E386E9D3E386E9D3E</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18243,13 +18243,13 @@
                     <guid>117669</guid>
                     <ID>-4604930614691364617</ID>
                     <Variation>3</Variation>
-                    <Position>82,10285 0,6288017 106,18942</Position>
-                    <Direction>1,9319942</Direction>
+                    <Position>82.10285 0.6288017 106.18942</Position>
+                    <Direction>1.9319942</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>82,10285 0,6288017 106,18942</Position>
+                      <Position>82.10285 0.6288017 106.18942</Position>
                       <Rotation>62843C3C285F52BFAEBA163D9D8A113F</Rotation>
                       <Scale>44302D3F44302D3F44302D3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18260,13 +18260,13 @@
                     <guid>117665</guid>
                     <ID>-4595923415436623865</ID>
                     <Variation>8</Variation>
-                    <Position>256,59802 -3,9242344 160,04747</Position>
-                    <Direction>3,6565619</Direction>
+                    <Position>256.59802 -3.9242344 160.04747</Position>
+                    <Direction>3.6565619</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>256,59802 -3,9242344 160,04747</Position>
+                      <Position>256.59802 -3.9242344 160.04747</Position>
                       <Rotation>000000007D8F77BF00000000526182BE</Rotation>
                       <Scale>DC65B23FDC65B23FDC65B23F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18277,13 +18277,13 @@
                     <guid>117665</guid>
                     <ID>-4604930614691364627</ID>
                     <Variation>6</Variation>
-                    <Position>76,13611 -0,37695813 107,21029</Position>
-                    <Direction>1,5707964</Direction>
+                    <Position>76.13611 -0.37695813 107.21029</Position>
+                    <Direction>1.5707964</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>76,13611 -0,37695813 107,21029</Position>
+                      <Position>76.13611 -0.37695813 107.21029</Position>
                       <Rotation>00000000F30435BF00000080F304353F</Rotation>
                       <Scale>A4394F3FA4394F3FA4394F3F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18294,13 +18294,13 @@
                     <guid>117669</guid>
                     <ID>-4598175215250308818</ID>
                     <Variation>1</Variation>
-                    <Position>129,17981 2,461574 187,6537</Position>
-                    <Direction>3,3132951</Direction>
+                    <Position>129.17981 2.461574 187.6537</Position>
+                    <Direction>3.3132951</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>129,17981 2,461574 187,6537</Position>
+                      <Position>129.17981 2.461574 187.6537</Position>
                       <Rotation>2AB0EA3CA9A37CBF2D16063EA880B8BD</Rotation>
                       <Scale>E3AFAF3DE3AFAF3DE3AFAF3D</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18311,13 +18311,13 @@
                     <guid>117665</guid>
                     <ID>-4604930614691364625</ID>
                     <Variation>6</Variation>
-                    <Position>70,327415 -0,72652626 95,54654</Position>
-                    <Direction>5,9909267</Direction>
+                    <Position>70.327415 -0.72652626 95.54654</Position>
+                    <Direction>5.9909267</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>70,327415 -0,72652626 95,54654</Position>
+                      <Position>70.327415 -0.72652626 95.54654</Position>
                       <Rotation>E1896DBDBA490BBE368FF63D874D7BBF</Rotation>
                       <Scale>2409A33F2409A33F2409A33F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18328,13 +18328,13 @@
                     <guid>117665</guid>
                     <ID>-4597049315343466308</ID>
                     <Variation>9</Variation>
-                    <Position>226,43506 3,1961966 158,93384</Position>
-                    <Direction>4,8379946</Direction>
+                    <Position>226.43506 3.1961966 158.93384</Position>
+                    <Direction>4.8379946</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>226,43506 3,1961966 158,93384</Position>
+                      <Position>226.43506 3.1961966 158.93384</Position>
                       <Rotation>000000002C4D293F000000000206403F</Rotation>
                       <Scale>0000803F0000803F0000803F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18345,13 +18345,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253282</ID>
                     <Variation>3</Variation>
-                    <Position>235,82341 2,563048 229,57689</Position>
-                    <Direction>2,9351134</Direction>
+                    <Position>235.82341 2.563048 229.57689</Position>
+                    <Direction>2.9351134</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>235,82341 2,563048 229,57689</Position>
+                      <Position>235.82341 2.563048 229.57689</Position>
                       <Rotation>0B8F3E3EE3C879BF422CA43DD240AA3D</Rotation>
                       <Scale>0E43863F0E43863F0E43863F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18361,13 +18361,13 @@
                   <None>
                     <guid>117669</guid>
                     <ID>-4599301115157151597</ID>
-                    <Position>107,932236 3,585599 157,17961</Position>
-                    <Direction>4,637124</Direction>
+                    <Position>107.932236 3.585599 157.17961</Position>
+                    <Direction>4.637124</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>107,932236 3,585599 157,17961</Position>
+                      <Position>107.932236 3.585599 157.17961</Position>
                       <Rotation>0D8BA83DEB5F38BF1251063EBD1E2DBF</Rotation>
                       <Scale>153A553F153A553F153A553F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18378,13 +18378,13 @@
                     <guid>117669</guid>
                     <ID>-4591419815809253279</ID>
                     <Variation>3</Variation>
-                    <Position>234,36505 1,9563489 228,36932</Position>
-                    <Direction>3,9155133</Direction>
+                    <Position>234.36505 1.9563489 228.36932</Position>
+                    <Direction>3.9155133</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>234,36505 1,9563489 228,36932</Position>
+                      <Position>234.36505 1.9563489 228.36932</Position>
                       <Rotation>58227B3D333A6BBF7AEBEABD68BDBEBE</Rotation>
                       <Scale>E7FC433FE7FC433FE7FC433F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>
@@ -18395,13 +18395,13 @@
                     <guid>117669</guid>
                     <ID>-4604930614691364620</ID>
                     <Variation>3</Variation>
-                    <Position>92,14928 0,15724081 86,1189</Position>
-                    <Direction>0,08614961</Direction>
+                    <Position>92.14928 0.15724081 86.1189</Position>
+                    <Direction>0.08614961</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
                     <Prop>
-                      <Position>92,14928 0,15724081 86,1189</Position>
+                      <Position>92.14928 0.15724081 86.1189</Position>
                       <Rotation>852C543E17D122BD8398A43C472F7A3F</Rotation>
                       <Scale>5EC6173F5EC6173F5EC6173F</Scale>
                       <Color>0000803F0000803F0000803F0000803F</Color>

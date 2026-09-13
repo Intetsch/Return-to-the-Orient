@@ -21,110 +21,110 @@
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
         <None>
           <View>
             <From>100 100 0</From>
             <Up>0 1 0</Up>
-            <Direction>-0,70710677 -0,70710677 0</Direction>
+            <Direction>-0.70710677 -0.70710677 0</Direction>
           </View>
           <Projection>
             <Flags>1</Flags>
-            <NearClip>0,5</NearClip>
+            <NearClip>0.5</NearClip>
           </Projection>
         </None>
       </EditorSavedCameraStates>
@@ -23276,7 +23276,7 @@
                     <ID>-9198602234609270783</ID>
                     <Variation>7</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>319,29758 0 203,77264</Position>
+                    <Position>319.29758 0 203.77264</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23294,7 +23294,7 @@
                   <None>
                     <guid>1003910</guid>
                     <ID>-9205357634050326527</ID>
-                    <Position>306,7037 0,48432732 166,49364</Position>
+                    <Position>306.7037 0.48432732 166.49364</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23310,37 +23310,37 @@
                     </Mesh>
                     <BezierPath>
                       <Path>
-                        <Minimum>304,899 0,4645424 166,49364</Minimum>
-                        <Maximum>312,66455 0,50392914 210,35054</Maximum>
+                        <Minimum>304.899 0.4645424 166.49364</Minimum>
+                        <Maximum>312.66455 0.50392914 210.35054</Maximum>
                         <BezierCurve>
                           <None>
-                            <p>306,7037 0,48432732 166,49364</p>
-                            <i>0,30078635 -0,0014829636 -1,8285167</i>
-                            <o>-0,30078635 0,0014829636 1,8285167</o>
+                            <p>306.7037 0.48432732 166.49364</p>
+                            <i>0.30078635 -0.0014829636 -1.8285167</i>
+                            <o>-0.30078635 0.0014829636 1.8285167</o>
                             <d>1 0</d>
                           </None>
                           <None>
-                            <p>304,899 0,4932251 177,46474</p>
-                            <i>0,088916585 0,0016249678 -1,8509562</i>
-                            <o>-0,092670254 -0,0016935668 1,9290955</o>
+                            <p>304.899 0.4932251 177.46474</p>
+                            <i>0.088916585 0.0016249678 -1.8509562</i>
+                            <o>-0.092670254 -0.0016935668 1.9290955</o>
                             <d>1 0</d>
                           </None>
                           <None>
-                            <p>305,6211 0,4645424 189,0301</p>
-                            <i>-0,27224642 -0,0009258152 -1,9120361</i>
-                            <o>0,25412586 0,00086419354 1,7847722</o>
+                            <p>305.6211 0.4645424 189.0301</p>
+                            <i>-0.27224642 -0.0009258152 -1.9120361</i>
+                            <o>0.25412586 0.00086419354 1.7847722</o>
                             <d>1 0</d>
                           </None>
                           <None>
-                            <p>308,04663 0,50392914 199,57121</p>
-                            <i>-0,5655067 -0,0018800709 -1,71178</i>
-                            <o>0,61309433 0,0020382795 1,855827</o>
+                            <p>308.04663 0.50392914 199.57121</p>
+                            <i>-0.5655067 -0.0018800709 -1.71178</i>
+                            <o>0.61309433 0.0020382795 1.855827</o>
                             <d>1 0</d>
                           </None>
                           <None>
-                            <p>312,66455 0,4879589 210,35054</p>
-                            <i>-0,7696533 0,002661705 -1,7965546</i>
-                            <o>0,7696533 -0,002661705 1,7965546</o>
+                            <p>312.66455 0.4879589 210.35054</p>
+                            <i>-0.7696533 0.002661705 -1.7965546</i>
+                            <o>0.7696533 -0.002661705 1.7965546</o>
                             <d>1 0</d>
                           </None>
                         </BezierCurve>
@@ -23353,8 +23353,8 @@
                     <ID>-9218868432932438015</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>319,0186 0 186,01558</Position>
-                    <Direction>5,7737827</Direction>
+                    <Position>319.0186 0 186.01558</Position>
+                    <Direction>5.7737827</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23366,14 +23366,14 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5175127</Scale>
-                      <Orientation>0 0,25195646 0 0,9677384</Orientation>
+                      <Scale>1.5175127</Scale>
+                      <Orientation>0 0.25195646 0 0.9677384</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>1003910</guid>
                     <ID>-9214364833305067518</ID>
-                    <Position>193,90025 0,4361763 85,729774</Position>
+                    <Position>193.90025 0.4361763 85.729774</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23389,43 +23389,43 @@
                     </Mesh>
                     <BezierPath>
                       <Path>
-                        <Minimum>193,90025 0,42533875 74,81354</Minimum>
-                        <Maximum>243,72813 0,4984665 85,729774</Maximum>
+                        <Minimum>193.90025 0.42533875 74.81354</Minimum>
+                        <Maximum>243.72813 0.4984665 85.729774</Maximum>
                         <BezierCurve>
                           <None>
-                            <p>193,90025 0,4361763 85,729774</p>
-                            <i>-1,77034 0,00024477643 0,110588074</i>
-                            <o>1,77034 -0,00024477643 -0,110588074</o>
+                            <p>193.90025 0.4361763 85.729774</p>
+                            <i>-1.77034 0.00024477643 0.110588074</i>
+                            <o>1.77034 -0.00024477643 -0.110588074</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>204,5223 0,43470764 85,066246</p>
-                            <i>-1,7675294 0,0009124665 0,14890578</i>
-                            <o>1,732195 -0,00089422555 -0,14592904</o>
+                            <p>204.5223 0.43470764 85.066246</p>
+                            <i>-1.7675294 0.0009124665 0.14890578</i>
+                            <o>1.732195 -0.00089422555 -0.14592904</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>214,89357 0,42533875 83,96119</p>
-                            <i>-1,7170879 -0,0019284802 0,27092698</i>
-                            <o>1,4752858 0,0016569097 -0,23277478</o>
+                            <p>214.89357 0.42533875 83.96119</p>
+                            <i>-1.7170879 -0.0019284802 0.27092698</i>
+                            <o>1.4752858 0.0016569097 -0.23277478</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>223,64824 0,4561882 82,0485</p>
-                            <i>-1,4462326 -0,0057378355 0,3728719</i>
-                            <o>1,6276591 0,006457634 -0,4196478</o>
+                            <p>223.64824 0.4561882 82.0485</p>
+                            <i>-1.4462326 -0.0057378355 0.3728719</i>
+                            <o>1.6276591 0.006457634 -0.4196478</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>233,32556 0,4984665 79,209</p>
-                            <i>-1,5813792 -0,0022510772 0,5697848</i>
-                            <o>1,7707446 0,002520637 -0,6380148</o>
+                            <p>233.32556 0.4984665 79.209</p>
+                            <i>-1.5813792 -0.0022510772 0.5697848</i>
+                            <o>1.7707446 0.002520637 -0.6380148</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>243,72813 0,48477173 74,81354</p>
-                            <i>-1,7337621 0,0022824607 0,732577</i>
-                            <o>1,7337621 -0,0022824607 -0,732577</o>
+                            <p>243.72813 0.48477173 74.81354</p>
+                            <i>-1.7337621 0.0022824607 0.732577</i>
+                            <o>1.7337621 -0.0022824607 -0.732577</o>
                             <d>1 0</d>
                           </None>
                         </BezierCurve>
@@ -23438,8 +23438,8 @@
                     <ID>-9207609433864011770</ID>
                     <Variation>4</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>137,16995 0 177,77612</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>137.16995 0 177.77612</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23451,8 +23451,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,4449884</Scale>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Scale>1.4449884</Scale>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -23460,8 +23460,8 @@
                     <ID>-9198602234609270782</ID>
                     <Variation>7</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>316,06152 0 170,51625</Position>
-                    <Direction>5,875481</Direction>
+                    <Position>316.06152 0 170.51625</Position>
+                    <Direction>5.875481</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23473,8 +23473,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5330857</Scale>
-                      <Orientation>0 -0,20244333 0 -0,97929394</Orientation>
+                      <Scale>1.5330857</Scale>
+                      <Orientation>0 -0.20244333 0 -0.97929394</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -23482,8 +23482,8 @@
                     <ID>-9213238933398224895</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>228,80222 0 63,95276</Position>
-                    <Direction>5,3907685</Direction>
+                    <Position>228.80222 0 63.95276</Position>
+                    <Direction>5.3907685</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23495,7 +23495,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 0,43154845 0 0,9020899</Orientation>
+                      <Orientation>0 0.43154845 0 0.9020899</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -23503,8 +23503,8 @@
                     <ID>-9207609433864011769</ID>
                     <Variation>4</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>157,93817 0 167,26797</Position>
-                    <Direction>1,192093E-07</Direction>
+                    <Position>157.93817 0 167.26797</Position>
+                    <Direction>1.192093E-07</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23516,8 +23516,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,4449884</Scale>
-                      <Orientation>0 -5,9604645E-08 0 0,9999999</Orientation>
+                      <Scale>1.4449884</Scale>
+                      <Orientation>0 -5.9604645E-08 0 0.9999999</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -23525,8 +23525,8 @@
                     <ID>-9213238933398224893</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>191,35542 0 78,104774</Position>
-                    <Direction>1,1651294</Direction>
+                    <Position>191.35542 0 78.104774</Position>
+                    <Direction>1.1651294</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23538,14 +23538,14 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5175127</Scale>
-                      <Orientation>-0 0,5501674 0 -0,83505434</Orientation>
+                      <Scale>1.5175127</Scale>
+                      <Orientation>-0 0.5501674 0 -0.83505434</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>1003910</guid>
                     <ID>-9201979934329798655</ID>
-                    <Position>122,59172 0,4678278 193,68973</Position>
+                    <Position>122.59172 0.4678278 193.68973</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23561,49 +23561,49 @@
                     </Mesh>
                     <BezierPath>
                       <Path>
-                        <Minimum>122,59172 0,421772 184,30482</Minimum>
-                        <Maximum>163,46707 0,4678278 193,68973</Maximum>
+                        <Minimum>122.59172 0.421772 184.30482</Minimum>
+                        <Maximum>163.46707 0.4678278 193.68973</Maximum>
                         <BezierCurve>
                           <None>
-                            <p>122,59172 0,4678278 193,68973</p>
-                            <i>-2,120196 0,0039528213 0,07626343</i>
-                            <o>2,120196 -0,0039528213 -0,07626343</o>
+                            <p>122.59172 0.4678278 193.68973</p>
+                            <i>-2.120196 0.0039528213 0.07626343</i>
+                            <o>2.120196 -0.0039528213 -0.07626343</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>135,3129 0,44411087 193,23215</p>
-                            <i>-2,1169631 0,0034296066 0,13971044</i>
-                            <o>0,8752372 -0,0014179364 -0,057761885</o>
+                            <p>135.3129 0.44411087 193.23215</p>
+                            <i>-2.1169631 0.0034296066 0.13971044</i>
+                            <o>0.8752372 -0.0014179364 -0.057761885</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>140,52544 0,4387741 192,50618</p>
-                            <i>-0,8649959 0,0019114749 0,14545488</i>
-                            <o>0,82053983 -0,0018132356 -0,1379793</o>
+                            <p>140.52544 0.4387741 192.50618</p>
+                            <i>-0.8649959 0.0019114749 0.14545488</i>
+                            <o>0.82053983 -0.0018132356 -0.1379793</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>145,42186 0,421772 191,53226</p>
-                            <i>-0,8056825 -0,0005936937 0,20785226</i>
-                            <o>0,9714318 0,0007158315 -0,25061274</o>
+                            <p>145.42186 0.421772 191.53226</p>
+                            <i>-0.8056825 -0.0005936937 0.20785226</i>
+                            <o>0.9714318 0.0007158315 -0.25061274</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>151,17412 0,44662094 189,759</p>
-                            <i>-0,9449589 -0,0028870823 0,33694384</i>
-                            <o>0,9407217 0,0028741364 -0,33543298</o>
+                            <p>151.17412 0.44662094 189.759</p>
+                            <i>-0.9449589 -0.0028870823 0.33694384</i>
+                            <o>0.9407217 0.0028741364 -0.33543298</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>156,72519 0,45630646 187,50183</p>
-                            <i>-0,9129169 -0,0011805507 0,40504596</i>
-                            <o>1,1367197 0,0014699642 -0,5043435</o>
+                            <p>156.72519 0.45630646 187.50183</p>
+                            <i>-0.9129169 -0.0011805507 0.40504596</i>
+                            <o>1.1367197 0.0014699642 -0.5043435</o>
                             <d>0 -1</d>
                           </None>
                           <None>
-                            <p>163,46707 0,46251774 184,30482</p>
-                            <i>-1,1236471 -0,0010352135 0,5328344</i>
-                            <o>1,1236471 0,0010352135 -0,5328344</o>
+                            <p>163.46707 0.46251774 184.30482</p>
+                            <i>-1.1236471 -0.0010352135 0.5328344</i>
+                            <o>1.1236471 0.0010352135 -0.5328344</o>
                             <d>1 0</d>
                           </None>
                         </BezierCurve>
@@ -23695,8 +23695,8 @@
                     <guid>102416</guid>
                     <ID>-9190720935261372414</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>347,0944 0 257,3902</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>347.0944 0 257.3902</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23708,7 +23708,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23717,8 +23717,8 @@
                     <guid>102416</guid>
                     <ID>-9191846835168215035</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>311,82385 0 294,19907</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>311.82385 0 294.19907</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23730,7 +23730,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23739,8 +23739,8 @@
                     <guid>102416</guid>
                     <ID>-9191846835168215037</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>265,4929 0 269,42267</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>265.4929 0 269.42267</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23752,7 +23752,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23761,8 +23761,8 @@
                     <guid>102416</guid>
                     <ID>-9205357634050326520</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>299,72485 0 137,50682</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>299.72485 0 137.50682</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23774,7 +23774,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23783,8 +23783,8 @@
                     <guid>102416</guid>
                     <ID>-9212113033491382265</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>311,62833 0 108,86461</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>311.62833 0 108.86461</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23796,7 +23796,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23805,8 +23805,8 @@
                     <guid>102416</guid>
                     <ID>-9192972735075057661</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>196,19722 0 297,22485</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>196.19722 0 297.22485</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23818,7 +23818,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23827,8 +23827,8 @@
                     <guid>102416</guid>
                     <ID>-9192972735075057659</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>241,79103 0 277,84567</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>241.79103 0 277.84567</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23840,7 +23840,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23849,8 +23849,8 @@
                     <guid>100962</guid>
                     <ID>-9199728134516113402</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>215,1401 8,998461 234,44829</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>215.1401 8.998461 234.44829</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23870,8 +23870,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>0,48047414</Scale>
-                      <Orientation>0 -0,99999994 -0 -8,742278E-08</Orientation>
+                      <Scale>0.48047414</Scale>
+                      <Orientation>0 -0.99999994 -0 -8.742278E-08</Orientation>
                     </Mesh>
                     <SoundEmitter />
                   </None>
@@ -23879,8 +23879,8 @@
                     <guid>102416</guid>
                     <ID>-9218868432932438014</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>269,07922 0 62,100647</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>269.07922 0 62.100647</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23892,7 +23892,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23901,8 +23901,8 @@
                     <guid>102416</guid>
                     <ID>-9212113033491382264</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>307,84555 0 79,58971</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>307.84555 0 79.58971</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23914,7 +23914,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23923,8 +23923,8 @@
                     <guid>102416</guid>
                     <ID>-9192972735075057660</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>222,80383 0 302,33078</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>222.80383 0 302.33078</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23936,7 +23936,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23945,8 +23945,8 @@
                     <guid>102416</guid>
                     <ID>-9190720935261372415</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>349,72818 0 284,8548</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>349.72818 0 284.8548</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23958,7 +23958,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23967,8 +23967,8 @@
                     <guid>102416</guid>
                     <ID>-9194098634981900286</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>158,05481 0 318,73212</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>158.05481 0 318.73212</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -23980,7 +23980,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -23989,8 +23989,8 @@
                     <guid>102416</guid>
                     <ID>-9194098634981900285</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>186,3137 0 310,93503</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>186.3137 0 310.93503</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24002,7 +24002,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24011,8 +24011,8 @@
                     <guid>102416</guid>
                     <ID>-9191846835168215036</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>292,557 0 274,0323</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>292.557 0 274.0323</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24024,7 +24024,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24033,8 +24033,8 @@
                     <guid>102416</guid>
                     <ID>-9194098634981900287</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>134,15115 0 274,36078</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>134.15115 0 274.36078</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24046,7 +24046,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24055,8 +24055,8 @@
                     <guid>102416</guid>
                     <ID>-9195224534888742910</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>111,05606 0 258,27032</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>111.05606 0 258.27032</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24068,7 +24068,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24077,8 +24077,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798652</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>89,18614 0 246,81992</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>89.18614 0 246.81992</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24090,7 +24090,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24099,8 +24099,8 @@
                     <guid>102416</guid>
                     <ID>-9201979934329798653</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>82,80414 3,8146973E-06 200,43967</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>82.80414 3.8146973E-06 200.43967</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24112,7 +24112,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24121,8 +24121,8 @@
                     <guid>102416</guid>
                     <ID>-9203105834236641278</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>62,193382 0 237,17554</Position>
-                    <Direction>3,1415927</Direction>
+                    <Position>62.193382 0 237.17554</Position>
+                    <Direction>3.1415927</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24134,7 +24134,7 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Orientation>0 -0,99999994 0 -8,742278E-08</Orientation>
+                      <Orientation>0 -0.99999994 0 -8.742278E-08</Orientation>
                     </Mesh>
                     <AmbientMoodProvider />
                     <SoundEmitter />
@@ -24151,8 +24151,8 @@
                     <ID>-9191846835168215039</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>292,62402 -0,9773921 284,42737</Position>
-                    <Direction>4,8422236</Direction>
+                    <Position>292.62402 -0.9773921 284.42737</Position>
+                    <Direction>4.8422236</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24164,8 +24164,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,2536775</Scale>
-                      <Orientation>0 0,65974605 0 0,75148845</Orientation>
+                      <Scale>1.2536775</Scale>
+                      <Orientation>0 0.65974605 0 0.75148845</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24173,8 +24173,8 @@
                     <ID>-9197476334702428158</ID>
                     <Variation>9</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>280,09186 -0,9773921 275,87808</Position>
-                    <Direction>0,9785771</Direction>
+                    <Position>280.09186 -0.9773921 275.87808</Position>
+                    <Direction>0.9785771</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24186,8 +24186,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5046219</Scale>
-                      <Orientation>0 0,46999803 0 -0,8826675</Orientation>
+                      <Scale>1.5046219</Scale>
+                      <Orientation>0 0.46999803 0 -0.8826675</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24195,8 +24195,8 @@
                     <ID>-9214364833305067517</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>258,2979 0 60,29686</Position>
-                    <Direction>1,1651294</Direction>
+                    <Position>258.2979 0 60.29686</Position>
+                    <Direction>1.1651294</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24208,8 +24208,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,5175127</Scale>
-                      <Orientation>-0 0,5501674 0 -0,83505434</Orientation>
+                      <Scale>1.5175127</Scale>
+                      <Orientation>-0 0.5501674 0 -0.83505434</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24217,8 +24217,8 @@
                     <ID>-9192972735075057663</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>255,5137 -0,9773921 282,00467</Position>
-                    <Direction>1,5282053</Direction>
+                    <Position>255.5137 -0.9773921 282.00467</Position>
+                    <Direction>1.5282053</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24230,8 +24230,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,0101355</Scale>
-                      <Orientation>0 -0,69188875 0 0,7220029</Orientation>
+                      <Scale>1.0101355</Scale>
+                      <Orientation>0 -0.69188875 0 0.7220029</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24239,8 +24239,8 @@
                     <ID>-9191846835168215038</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>249,86526 -0,9773921 280,91455</Position>
-                    <Direction>2,0382552</Direction>
+                    <Position>249.86526 -0.9773921 280.91455</Position>
+                    <Direction>2.0382552</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24252,15 +24252,15 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,0101355</Scale>
-                      <Orientation>0 0,8516505 0 -0,5241087</Orientation>
+                      <Scale>1.0101355</Scale>
+                      <Orientation>0 0.8516505 0 -0.5241087</Orientation>
                     </Mesh>
                   </None>
                   <None>
                     <guid>117687</guid>
                     <ID>-9198602234609270781</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>328,12347 -0,9773921 232,80292</Position>
+                    <Position>328.12347 -0.9773921 232.80292</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24280,8 +24280,8 @@
                     <ID>-9192972735075057662</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>117,961075 -0,9773921 281,96997</Position>
-                    <Direction>5,4703894</Direction>
+                    <Position>117.961075 -0.9773921 281.96997</Position>
+                    <Direction>5.4703894</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24293,8 +24293,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>2,519004</Scale>
-                      <Orientation>0 -0,39530298 -0 -0,9185498</Orientation>
+                      <Scale>2.519004</Scale>
+                      <Orientation>0 -0.39530298 -0 -0.9185498</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24302,8 +24302,8 @@
                     <ID>-9195224534888742911</ID>
                     <Variation>8</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>44,27497 0,12634468 221,0313</Position>
-                    <Direction>2,3287966</Direction>
+                    <Position>44.27497 0.12634468 221.0313</Position>
+                    <Direction>2.3287966</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24315,8 +24315,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,0632246</Scale>
-                      <Orientation>0 -0,9185497 0 0,39530295</Orientation>
+                      <Scale>1.0632246</Scale>
+                      <Orientation>0 -0.9185497 0 0.39530295</Orientation>
                     </Mesh>
                   </None>
                   <None>
@@ -24324,8 +24324,8 @@
                     <ID>-9203105834236641279</ID>
                     <Variation>5</Variation>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>63,964832 0,12634468 203,45457</Position>
-                    <Direction>1,1612532</Direction>
+                    <Position>63.964832 0.12634468 203.45457</Position>
+                    <Direction>1.1612532</Direction>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24337,8 +24337,8 @@
                       <SequenceData>
                         <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
                       </SequenceData>
-                      <Scale>1,8663546</Scale>
-                      <Orientation>-0 0,54854745 0 -0,83611834</Orientation>
+                      <Scale>1.8663546</Scale>
+                      <Orientation>-0 0.54854745 0 -0.83611834</Orientation>
                     </Mesh>
                   </None>
                 </objects>
