@@ -1,0 +1,109 @@
+<ModOps>
+	<ModOp GUID="270172" Type="addNextSibling" Path="/">
+		<Asset>
+			<BaseAssetGUID>270172</BaseAssetGUID>
+			<!--harbor_14d (Oil Harbor IV)-->
+			<Values>
+				<Standard>
+					<GUID>1404000870</GUID>
+					<Name>harbor_orient_04 (Oil Harbor IV)</Name>
+				</Standard>
+				<Text>
+					<TextOverride>270172</TextOverride>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>102460</GroundDecalAsset>
+					<!--Quay System Base Africa-->
+					<GroundDecalInvisible>102459</GroundDecalInvisible>
+					<!--Quay System Base Invisible (Africa)-->
+				</Blocking>
+				<Building>
+					<PickingAsset>1404000867</PickingAsset>
+					<!--harbor_africa_14a (Oil Harbor I)-->
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>114356</Ingredient>
+							<!--Wanza Wood-->
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>114402</Ingredient>
+							<!--Mud Bricks-->
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborWarehouseStrategic</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Constructable/>
+				<Mesh/>
+				<SoundEmitter/>
+				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
