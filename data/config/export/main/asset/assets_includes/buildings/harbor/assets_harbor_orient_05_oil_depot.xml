@@ -1,0 +1,113 @@
+<ModOps>
+	<ModOp GUID="119034" Type="addNextSibling" Path="/">
+		<Asset>
+			<BaseAssetGUID>119034</BaseAssetGUID>
+			<!--harbor_15 (Oil Storage)-->
+			<Values>
+				<Standard>
+					<GUID>1404000873</GUID>
+					<Name>harbor_orient_05 (Oil Storage)</Name>
+				</Standard>
+				<Text>
+					<TextOverride>119034</TextOverride>
+				</Text>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>102460</GroundDecalAsset>
+					<!--Quay System Base Africa-->
+					<GroundDecalInvisible>102459</GroundDecalInvisible>
+					<!--Quay System Base Invisible (Africa)-->
+				</Blocking>
+				<Cost>
+					<Costs>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>0</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>0</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>1</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>1</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>30</Amount>
+							<!--Wanza Wood-->
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>2</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>2</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Ingredient>114402</Ingredient>
+							<Amount>20</Amount>
+							<!--Mud Bricks-->
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>3</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>3</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>4</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>4</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+						<Item>
+							<VectorElement>
+								<InheritedIndex>5</InheritedIndex>
+								<InheritanceMapV2>
+									<Entry>
+										<TemplateName>HarborDepot</TemplateName>
+										<Index>5</Index>
+									</Entry>
+								</InheritanceMapV2>
+							</VectorElement>
+							<Amount>0</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<ModOp Type="add" GUID="191508,368" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000873</GUID>
+        </Item>
+    </ModOp>
+
+</ModOps>
