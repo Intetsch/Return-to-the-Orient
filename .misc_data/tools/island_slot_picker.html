@@ -1,0 +1,1241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Island Slot Picker</title>
+<style>
+  :root{
+    color-scheme: dark;
+    --bg:#14171c; --panel:#1b1f26; --panel2:#232833; --line:#333b47;
+    --fg:#dde3ec; --dim:#8b95a5; --accent:#6fb3ff; --warn:#ffb648; --bad:#ff6b6b; --ok:#63d68a;
+    --mono:ui-monospace,"Cascadia Mono",Consolas,monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;height:100vh;display:flex;flex-direction:column;background:var(--bg);color:var(--fg);
+       font:13px/1.45 system-ui,"Segoe UI",sans-serif;overflow:hidden}
+  button,select,input{font:inherit;color:inherit}
+  button{background:var(--panel2);border:1px solid var(--line);border-radius:5px;padding:4px 10px;cursor:pointer}
+  button:hover{border-color:var(--accent)}
+  button:disabled{opacity:.4;cursor:default;border-color:var(--line)}
+  button.primary{background:#2b5c99;border-color:#3d7fd1;font-weight:600}
+  button.primary:hover{background:#336cb0;border-color:var(--accent)}
+  button.primary:disabled{background:var(--panel2);border-color:var(--line);font-weight:400}
+  details{margin-top:10px;border:1px solid var(--line);border-radius:5px;padding:0 8px}
+  details[open]{padding-bottom:8px}
+  summary{cursor:pointer;color:var(--dim);padding:6px 2px;font-size:11.5px;user-select:none}
+  summary:hover{color:var(--fg)}
+  input[type=number],input[type=text]{background:#11141a;border:1px solid var(--line);border-radius:4px;padding:3px 6px;width:78px}
+  select{background:#11141a;border:1px solid var(--line);border-radius:4px;padding:3px 6px}
+  label{user-select:none}
+  code{font-family:var(--mono);font-size:11.5px;color:var(--accent)}
+
+  #bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:7px 10px;background:var(--panel);
+       border-bottom:1px solid var(--line);flex:0 0 auto}
+  #bar .sep{width:1px;height:20px;background:var(--line);margin:0 2px}
+  #bar .tag{color:var(--dim)}
+  #bar b{font-weight:600}
+  #main{flex:1;display:flex;min-height:0}
+  #stage{flex:1;position:relative;min-width:0;background:#0d1014}
+  #cv{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:crosshair}
+  #drop{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;
+        color:var(--dim);pointer-events:none;padding:40px}
+  #drop.hide{display:none}
+  #drop .box{border:2px dashed var(--line);border-radius:12px;padding:28px 34px;max-width:600px;background:#0d1014cc;
+             text-align:left;line-height:1.7}
+  #stage.dragover #drop .box{border-color:var(--accent);color:var(--fg)}
+
+  aside{width:370px;flex:0 0 370px;background:var(--panel);border-left:1px solid var(--line);
+        display:flex;flex-direction:column;overflow:hidden}
+  #sideScroll{flex:1;min-height:0;overflow-y:auto;padding:10px 12px 16px}
+  #saveBar{flex:0 0 auto;border-top:1px solid var(--line);background:var(--panel2);padding:9px 12px}
+  #saveBar .hint{margin:5px 0 0}
+  aside h3{margin:16px 0 6px;font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--dim);
+           border-bottom:1px solid var(--line);padding-bottom:4px}
+  aside h3:first-child{margin-top:2px}
+  .row{display:flex;align-items:center;gap:8px;margin:5px 0;flex-wrap:wrap}
+  .row.sp{justify-content:space-between}
+  .slot{display:flex;align-items:center;gap:8px;padding:4px 6px;border:1px solid transparent;border-radius:5px;cursor:pointer}
+  .slot:hover{background:var(--panel2)}
+  .slot.on{border-color:var(--accent);background:#22303f}
+  .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;border:1px solid #0006}
+  .slot .g{color:var(--dim);font-family:var(--mono);font-size:11px;margin-left:auto}
+
+  table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:11px}
+  th{text-align:left;color:var(--dim);font-weight:500;padding:3px 4px;position:sticky;top:0;background:var(--panel)}
+  td{padding:2px 4px;border-top:1px solid #2a303a;white-space:nowrap}
+  tr{cursor:pointer}
+  tr.sel td{background:#22303f}
+  tr.bad td{color:var(--bad)}
+  td.x{color:var(--dim);text-align:right}
+  td.x:hover{color:var(--bad)}
+  #mkwrap{max-height:250px;overflow:auto;border:1px solid var(--line);border-radius:5px}
+
+  textarea{width:100%;height:140px;background:#11141a;color:var(--fg);border:1px solid var(--line);
+           border-radius:5px;font-family:var(--mono);font-size:11px;padding:6px;resize:vertical;white-space:pre}
+  .hint{color:var(--dim);font-size:11.5px;margin:4px 0}
+  .warn{color:var(--warn)} .bad{color:var(--bad)} .ok{color:var(--ok)}
+
+  #status{flex:0 0 auto;display:flex;gap:20px;align-items:center;padding:5px 12px;background:var(--panel);
+          border-top:1px solid var(--line);font-family:var(--mono);font-size:12px;white-space:nowrap;overflow:hidden}
+  #status .k{color:var(--dim)}
+  #status .v{min-width:62px;display:inline-block}
+  #legend{position:absolute;left:10px;bottom:10px;background:#0d1014dd;border:1px solid var(--line);
+          border-radius:6px;padding:6px 9px;font-size:11px;pointer-events:none}
+  #legend div{display:flex;align-items:center;gap:6px;margin:1px 0}
+</style>
+</head>
+<body>
+
+<div id="bar">
+  <button id="btnWritable" onclick="openWritableFolder()" hidden>Open island folder…</button>
+  <button id="btnReadonly" onclick="folderIn.click()">Open island folder…</button>
+  <input id="folderIn" type="file" webkitdirectory directory hidden>
+  <span class="sep"></span>
+  <button onclick="fileIn.click()">Add file(s)…</button>
+  <input id="fileIn" type="file" multiple hidden accept=".png,.xml">
+  <span class="sep"></span>
+  <span class="tag">island</span><b id="tIsland">—</b>
+  <span class="tag">world</span><b id="tWorld">—</b>
+  <span class="tag">image</span><b id="tImg">—</b>
+  <span class="tag">heights</span><b id="tHm">—</b>
+  <span class="sep"></span>
+  <button onclick="fitView()">Fit</button>
+  <span class="tag" id="tZoom"></span>
+</div>
+
+<div id="main">
+  <div id="stage">
+    <canvas id="cv"></canvas>
+    <div id="drop"><div class="box">
+      <b>Drop an island folder's files here</b><br>
+      <code>mapimage.png</code> — the picture you click on<br>
+      <code>gamedata.xml</code> — exact world size, terrain height (Y), existing objects<br>
+      <code>&lt;island&gt;.xml</code> — the decompressed <code>.a7minfo</code>, for the SlotObjects patch<br>
+      <span style="color:#8b95a5">Or hit <b>Open island folder…</b> and it picks those three out of the folder itself.</span>
+    </div></div>
+    <div id="legend"></div>
+  </div>
+
+  <aside>
+   <div id="sideScroll">
+    <h3>Slot to place</h3>
+    <div id="slots"></div>
+    <div class="row"><label><input type="checkbox" id="snap" checked> snap to tile centre (x.5)</label></div>
+    <div class="row"><span class="tag">rotation</span>
+      <select id="rot">
+        <option value="0">0°</option><option value="90">90°</option>
+        <option value="180">180°</option><option value="270">270°</option>
+      </select>
+      <span class="hint" style="margin:0">vanilla clay/oil use 0°</span></div>
+    <div class="row"><label title="Vanilla pairs 98% of ore nodes with both a cave and a mountain work area"><input type="checkbox" id="autoWa" checked> add work areas with an ore mine</label></div>
+    <div class="hint">An ore node is generic — the region's mine set decides what it becomes. In Mod3 that is <b>silver ore</b>.</div>
+
+    <h3>View</h3>
+    <div class="row"><label><input type="checkbox" id="lyImg" checked> map image</label>
+      <label title="mapimage.png is stored upside down: row 0 is the high-z edge"><input type="checkbox" id="lyFlip" checked> flipped</label>
+      <label><input type="checkbox" id="lyTer" checked> terrain</label>
+      <span class="tag">blend</span><input type="range" id="blend" min="0" max="100" value="55" style="width:80px"></div>
+    <div class="row"><label><input type="checkbox" id="lyWater" checked> waterline</label>
+      <label><input type="checkbox" id="lySlope" checked> no-build ground</label>
+      <label><input type="checkbox" id="lyGrid"> grid</label></div>
+    <div class="row"><label><input type="checkbox" id="lyObj" checked> existing objects</label>
+      <span class="tag">slope &gt;</span><input type="number" id="slopeMax" value="0.15" step="0.05" min="0.02" style="width:56px"></div>
+    <div class="hint">Every vanilla clay, oil and ore slot sits on ground with slope ≤ 0.12, flat for a tile around it. Red is everything too steep for one.</div>
+
+    <h3>Picked slots <span id="mkCount" style="text-transform:none;letter-spacing:0"></span></h3>
+    <div id="mkwrap"><table><thead><tr>
+      <th>type</th><th>x</th><th>y</th><th>z</th><th>object id</th><th></th></tr></thead>
+      <tbody id="mkbody"></tbody></table></div>
+    <div class="row">
+      <button onclick="clearMarkers()">Clear all</button>
+      <button onclick="renumber()">Renumber ids</button>
+      <button onclick="restoreY()">Re-read Y</button>
+    </div>
+    <div class="hint">Left-click places · drag pans · wheel zooms · right-click removes · click a row to centre on it.</div>
+
+    <details>
+      <summary>Copy/paste the XML by hand instead</summary>
+      <div class="row"><span class="tag">decimals</span>
+        <select id="dec"><option value=".">1.5 (dot)</option><option value=",">1,5 (comma)</option></select>
+        <span class="hint" id="decNote" style="margin:0"></span></div>
+
+      <div class="row sp"><b>gamedata.xml records</b><button onclick="copyBox('outGd')">Copy</button></div>
+      <textarea id="outGd" readonly spellcheck="false"></textarea>
+      <div class="hint">Paste inside the <b>first</b> <code>&lt;GameObject&gt;&lt;objects&gt;</code> (map area 8193).</div>
+
+      <div class="row sp"><b>a7minfo SlotObjects</b><button onclick="copyBox('outMi')">Copy</button></div>
+      <textarea id="outMi" readonly spellcheck="false"></textarea>
+      <div class="hint">Paste inside <code>&lt;SlotObjects&gt;</code>; merge into a key group that is already there rather than repeating the key.</div>
+    </details>
+   </div>
+
+   <div id="saveBar">
+    <div class="row">
+      <button id="btnSaveBack" class="primary" onclick="saveBack()" disabled
+              title="Overwrite gamedata.xml and the a7minfo XML in the island folder">Write both files back</button>
+      <button id="btnDownload" onclick="downloadBoth()" disabled
+              title="Download both patched files instead of writing them in place">Download both</button>
+    </div>
+    <div class="hint" id="saveHint"></div>
+    <div class="hint" id="patchNote"></div>
+   </div>
+  </aside>
+</div>
+
+<div id="status">
+  <span><span class="k">x</span> <span class="v" id="sx">—</span></span>
+  <span><span class="k">z</span> <span class="v" id="sz">—</span></span>
+  <span><span class="k">y</span> <span class="v" id="sy">—</span></span>
+  <span><span class="k">ground</span> <span class="v" id="sg" style="min-width:170px">—</span></span>
+  <span><span class="k">nearest</span> <span class="v" id="sn" style="min-width:230px">—</span></span>
+</div>
+
+<script>
+"use strict";
+
+/* ------------------------------------------------------------------ *
+ *  Anno 1800 island slot picker
+ *
+ *  Coordinate facts this relies on, all checked against the vanilla
+ *  moderate pool and the DLC06 Enbesa pool:
+ *
+ *  - mapimage.png always covers the whole island square, but it is stored
+ *    upside down: image row 0 is the HIGH z edge of the map.
+ *        x_tile = px / img.width  * WorldSize.x
+ *        z_tile = (1 - py / img.height) * WorldSize.y
+ *    So the image is drawn vertically flipped and everything else is left
+ *    in true world coordinates. Checked by overlaying the heightmap's
+ *    waterline on the image both ways, on moderate and on DLC06 Enbesa
+ *    islands: flipped traces every inlet, unflipped drifts off the coast.
+ *    gamemapimage.png and activemapimage.png are cropped to something
+ *    else and are NOT usable this way.
+ *  - gamedata.xml TerrainManager/HeightMap is a (2*World+1)^2 grid of
+ *    uint16 that are really int16. World Y = value / 128, sampled
+ *    bilinearly. Against the 19 vanilla clay and oil slots on
+ *    moderate_l_01 that reproduces the stored Y to an RMS of 0.002.
+ *  - A GameObject's <ID> and the a7minfo <ObjectId> are the same int64;
+ *    the a7minfo stores it little-endian as hex. Its high dword is a
+ *    spatial chunk id shared by neighbouring objects and the low dword a
+ *    running index, so new ids copy the nearest object's high dword.
+ *  - SlotObjects is a key -> list map keyed by SlotType:
+ *        1 = Random (clay / oil / ore), 3 = WorkAreaMountain,
+ *        4 = River, 15 = WorkAreaCave
+ * ------------------------------------------------------------------ */
+
+const SLOTS = [
+  {guid:100417,  name:"Clay deposit",        slotType:1,  color:"#ff6b4a"},
+  {guid:100849,  name:"Oil pump",            slotType:1,  color:"#d074ff"},
+  {guid:1000029, name:"Ore mine",            slotType:1,  color:"#ffd23c"},
+  {guid:1000253, name:"Work area, mountain", slotType:3,  color:"#3ce8d0"},
+  {guid:100419,  name:"Work area, cave",     slotType:15, color:"#4aa8ff"},
+];
+const SLOT_BY_GUID = Object.fromEntries(SLOTS.map(s => [s.guid, s]));
+
+/* only used to label what is already on the island */
+const KNOWN = {
+  100417:"random slot clay", 100849:"random slot oil pump", 1000029:"random slot mining",
+  1000253:"work area mountain", 100419:"work area cave",
+  117741:"Riverslot", 117742:"Riverslot work area",
+  1404001281:"Silver Ore Deposit (this mod)",
+  102416:"Spot_Cliff", 1003910:"Coastline", 100961:"waterfall", 100585:"water plant",
+  101242:"rock_cracks", 101243:"rock", 101244:"rock", 101245:"rock",
+  102191:"rock", 102192:"rock", 102193:"rock", 117687:"underwater corals",
+};
+
+/* set when the folder was opened through the File System Access API, which is
+   what lets us write the patched XML straight back over the originals */
+let dirHandle = null;
+const fileHandles = {gd:null, mi:null};
+
+const S = {
+  islandName:"", worldW:0, worldH:0,
+  hm:null, hmW:0, hmH:0, spt:2,
+  img:null, terrain:null,
+  gdText:null, gdName:"", miText:null, miName:"",
+  objects:[], usedIds:new Set(),
+  markers:[], selected:-1,
+  view:{s:2, tx:0, ty:0},
+  hover:null,
+};
+
+const $ = id => document.getElementById(id);
+
+/* ---------------- binary / number helpers ---------------- */
+const H2 = n => n.toString(16).padStart(2,"0").toUpperCase();
+const bytesHex = b => [...b].map(H2).join("");
+const i16hex = n => { const d=new DataView(new ArrayBuffer(2)); d.setInt16(0,n,true); return bytesHex(new Uint8Array(d.buffer)); };
+const i32hex = n => { const d=new DataView(new ArrayBuffer(4)); d.setInt32(0,n|0,true); return bytesHex(new Uint8Array(d.buffer)); };
+const f32hex = v => { const d=new DataView(new ArrayBuffer(4)); d.setFloat32(0,v,true); return bytesHex(new Uint8Array(d.buffer)); };
+const id64hex = v => { const d=new DataView(new ArrayBuffer(8)); d.setBigInt64(0,v,true); return bytesHex(new Uint8Array(d.buffer)); };
+const hex2i32 = h => { const b=new Uint8Array(h.match(/../g).map(x=>parseInt(x,16))); return new DataView(b.buffer).getInt32(0,true); };
+
+const round4 = v => Math.round(v*1e4)/1e4;
+const num = v => { const s=String(round4(v)); return $("dec").value === "," ? s.replace(".",",") : s; };
+
+/* ---------------- file intake ---------------- */
+$("folderIn").addEventListener("change", e => takeFiles([...e.target.files]));
+$("fileIn").addEventListener("change", e => takeFiles([...e.target.files]));
+
+const stage = $("stage");
+stage.addEventListener("dragover", e => { e.preventDefault(); stage.classList.add("dragover"); });
+stage.addEventListener("dragleave", () => stage.classList.remove("dragover"));
+stage.addEventListener("drop", e => {
+  e.preventDefault(); stage.classList.remove("dragover");
+  takeFiles([...e.dataTransfer.files]);
+});
+
+/** open a folder we can also write to; only offered when the browser has the API */
+async function openWritableFolder(){
+  let handle;
+  try{
+    handle = await window.showDirectoryPicker({mode:"readwrite", id:"annoIsland"});
+  }catch(err){
+    if(err && err.name === "AbortError") return;     /* user cancelled */
+    note("Could not open the folder for writing: " + err.message, "bad");
+    return;
+  }
+  const files = [], found = {gd:null, mi:null};
+  for await (const [name, h] of handle.entries()){
+    if(h.kind !== "file" || !/\.xml$/i.test(name) || /^rd3d\.xml$/i.test(name)) continue;
+    files.push(await h.getFile());
+    if(/^gamedata\.xml$/i.test(name)) found.gd = h; else found.mi = h;
+  }
+  try{                                                /* _gamedata/<island>/mapimage.png */
+    const inner = await handle.getDirectoryHandle("_gamedata");
+    for await (const [, sub] of inner.entries()){
+      if(sub.kind !== "directory") continue;
+      try{ files.push(await (await sub.getFileHandle("mapimage.png")).getFile()); break; }catch(e){}
+    }
+  }catch(e){}
+
+  if(!files.length){ note("No gamedata.xml / a7minfo XML in " + handle.name + ".", "bad"); return; }
+
+  /* load first: switching island clears the handles, so claim them afterwards */
+  await takeFiles(files, handle.name);
+  dirHandle = handle;
+  fileHandles.gd = found.gd;
+  fileHandles.mi = found.mi;
+  updateSaveButtons();
+  note("Opened " + handle.name + " for writing — “Write both files back” overwrites these files in place.", "ok");
+}
+
+/** a different island must not inherit the previous one's slots or overlays */
+function resetIsland(){
+  S.markers = []; S.selected = -1;
+  S.objects = []; S.usedIds = new Set();
+  S.hm = null; S.terrain = null; S.img = null;
+  S.gdText = S.miText = null; S.gdName = S.miName = "";
+  S.worldW = S.worldH = 0;
+  slopeCache = null; waterCache = null;
+  /* critical: never keep a write handle pointing at the island we just left */
+  dirHandle = null; fileHandles.gd = fileHandles.mi = null;
+}
+
+async function takeFiles(files, folderName){
+  const path = f => f.webkitRelativePath || f.name;
+  const png = files.filter(f => /\.png$/i.test(f.name));
+  const xml = files.filter(f => /\.xml$/i.test(f.name));
+
+  const map = png.find(f => /(^|[\\/])mapimage\.png$/i.test(path(f)))
+           || (png.length === 1 ? png[0] : null);
+  const gd  = xml.find(f => /(^|[\\/])gamedata\.xml$/i.test(path(f)));
+  const mi  = xml.find(f => f !== gd && !/^rd3d\.xml$/i.test(f.name));
+
+  const incoming = folderName
+    || (gd && (gd.webkitRelativePath||"").split(/[\\/]/).slice(-2)[0])
+    || (mi && mi.name.replace(/\.xml$/i, ""))
+    || "";
+  if(incoming && S.islandName && incoming !== S.islandName) resetIsland();
+  if(incoming) S.islandName = incoming;
+
+  if(gd) await loadGamedata(gd);
+  if(mi) await loadA7minfo(mi);
+  if(map) await loadImage(map);
+
+  if(!S.worldW && S.img){                         /* png only: guess a square map */
+    const guess = [192,256,320,384].find(w => Number.isInteger(S.img.width/w)) || 320;
+    S.worldW = S.worldH = guess;
+    note("No gamedata.xml loaded — assuming a "+guess+"x"+guess+" map and Y is unavailable.", "warn");
+  }
+  if(S.worldW){ $("drop").classList.add("hide"); fitView(); }
+  refreshHeader(); loadStored(); render(); rebuildOutput(); updateSaveButtons();
+}
+
+function note(msg, cls){ const n = $("patchNote"); n.className = "hint " + (cls||""); n.textContent = msg; }
+
+async function loadImage(file){
+  const im = new Image();
+  const url = URL.createObjectURL(file);
+  await new Promise((ok,err) => { im.onload = ok; im.onerror = err; im.src = url; });
+  S.img = im;
+  S.islandName = S.islandName || (file.webkitRelativePath||"").split(/[\\/]/).slice(-2)[0] || "";
+}
+
+async function loadGamedata(file){
+  const txt = await file.text();
+  S.gdText = txt; S.gdName = file.name;
+  S.islandName = S.islandName || (file.webkitRelativePath||"").split(/[\\/]/).slice(-2)[0] || "";
+
+  const ws = txt.match(/<WorldSize>(\d+)\s+(\d+)<\/WorldSize>/);
+  if(ws){ S.worldW = +ws[1]; S.worldH = +ws[2]; }
+
+  const hm = txt.match(/<HeightMap>\s*<Width>(\d+)<\/Width>\s*<Height>(\d+)<\/Height>\s*<HeightMap>([^<]*)<\/HeightMap>/);
+  if(hm && S.worldW){
+    S.hmW = +hm[1]; S.hmH = +hm[2];
+    S.hm = parseInts(hm[3], S.hmW*S.hmH);
+    S.spt = (S.hmW-1)/S.worldW;
+  }
+
+  S.objects = []; S.usedIds = new Set();
+  const re = /<guid>(\d+)<\/guid>\s*<ID>(-?\d+)<\/ID>[\s\S]{0,300}?<Position>([-\d.,\s]+?)<\/Position>/g;
+  let m;
+  while((m = re.exec(txt))){
+    const p = m[3].trim().replace(/,(\d)/g, ".$1").split(/\s+/).map(Number);
+    if(p.length < 3 || p.some(Number.isNaN)) continue;
+    S.objects.push({guid:+m[1], id:BigInt(m[2]), x:p[0], y:p[1], z:p[2]});
+    S.usedIds.add(m[2]);
+  }
+
+  /* does this file write 1.5 or 1,5 ? FileDBReader follows the machine locale */
+  $("dec").value = /<Position>-?\d+\.\d/.test(txt) ? "." : ",";
+  $("decNote").textContent = "detected in " + file.name;
+
+  slopeCache = null; waterCache = null;
+  buildTerrain();
+  updateSaveButtons();
+}
+
+async function loadA7minfo(file){
+  const txt = await file.text();
+  if(!/<SlotObjects>/.test(txt)) return;           /* not an a7minfo after all */
+  S.miText = txt; S.miName = file.name;
+  S.islandName = S.islandName || file.name.replace(/\.xml$/i, "");
+  if(!S.worldW){
+    const ms = txt.match(/<MapSize>([0-9A-Fa-f]{16})<\/MapSize>/);
+    if(ms){ S.worldW = hex2i32(ms[1].slice(0,8)); S.worldH = hex2i32(ms[1].slice(8,16)); }
+  }
+  updateSaveButtons();
+}
+
+/** whitespace-separated ints into an Int16Array — uint16 wraps to the signed value we want */
+function parseInts(s, n){
+  const out = new Int16Array(n);
+  let i = 0, k = 0; const len = s.length;
+  while(i < len && k < n){
+    let c = s.charCodeAt(i);
+    while(i < len && (c === 32 || c === 10 || c === 13 || c === 9)){ i++; c = s.charCodeAt(i); }
+    if(i >= len) break;
+    let neg = false;
+    if(c === 45){ neg = true; i++; c = s.charCodeAt(i); }
+    let v = 0;
+    while(i < len && c >= 48 && c <= 57){ v = v*10 + (c-48); i++; c = s.charCodeAt(i); }
+    out[k++] = neg ? -v : v;
+  }
+  return out;
+}
+
+/* ---------------- terrain ---------------- */
+function rawH(i, j){
+  if(i < 0) i = 0; else if(i >= S.hmW) i = S.hmW-1;
+  if(j < 0) j = 0; else if(j >= S.hmH) j = S.hmH-1;
+  return S.hm[j*S.hmW + i];
+}
+/** world height at tile coordinates, bilinear */
+function heightAt(tx, tz){
+  if(!S.hm) return null;
+  const fx = tx*S.spt, fz = tz*S.spt;
+  const i = Math.floor(fx), j = Math.floor(fz), u = fx-i, w = fz-j;
+  const a = rawH(i,j), b = rawH(i+1,j), c = rawH(i,j+1), d = rawH(i+1,j+1);
+  return ((a*(1-u) + b*u)*(1-w) + (c*(1-u) + d*u)*w) / 128;
+}
+function slopeAt(tx, tz){
+  if(!S.hm) return 0;
+  const gx = heightAt(tx+0.5,tz) - heightAt(tx-0.5,tz);
+  const gz = heightAt(tx,tz+0.5) - heightAt(tx,tz-0.5);
+  return Math.hypot(gx, gz);
+}
+
+const TPX = 4;                                      /* terrain render resolution, px per tile */
+function buildTerrain(){
+  if(!S.hm){ S.terrain = null; return; }
+  const W = S.worldW*TPX, H = S.worldH*TPX;
+  const cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+  const cx = cv.getContext("2d");
+  const im = cx.createImageData(W, H), px = im.data;
+  const lx = -0.55, ly = 0.72, lz = -0.42;          /* light from the north-west */
+  for(let y = 0; y < H; y++){
+    const tz = (y+0.5)/TPX;
+    for(let x = 0; x < W; x++){
+      const tx = (x+0.5)/TPX;
+      const h = heightAt(tx, tz);
+      const o = (y*W + x)*4;
+      px[o+3] = 255;
+      if(h <= 0){
+        const t = Math.min(1, -h/9);
+        px[o] = 12 + 10*(1-t); px[o+1] = 38 + 42*(1-t); px[o+2] = 74 + 52*(1-t);
+        continue;
+      }
+      const gx = (heightAt(tx+0.25,tz) - heightAt(tx-0.25,tz))*2;
+      const gz = (heightAt(tx,tz+0.25) - heightAt(tx,tz-0.25))*2;
+      const nl = Math.hypot(gx, 1, gz);
+      let sh = (-gx*lx + ly - gz*lz)/nl;
+      sh = Math.max(0.3, Math.min(1.3, 0.45 + sh*0.85));
+      let r, g, b;
+      if(h < 1.2){ r = 214; g = 198; b = 150; }                                   /* beach */
+      else if(h < 14){ const t = (h-1.2)/12.8; r = 126+40*t; g = 150-14*t; b = 86-16*t; }
+      else if(h < 32){ const t = (h-14)/18;    r = 166-26*t; g = 136-26*t; b = 70+16*t; }
+      else { const t = Math.min(1,(h-32)/22);  r = 140+95*t; g = 110+110*t; b = 86+120*t; }
+      px[o] = Math.min(255, r*sh); px[o+1] = Math.min(255, g*sh); px[o+2] = Math.min(255, b*sh);
+    }
+  }
+  cx.putImageData(im, 0, 0);
+  S.terrain = cv;
+}
+
+/* ---------------- view ---------------- */
+const cv = $("cv"), ctx = cv.getContext("2d");
+let dpr = 1;
+function resize(){
+  dpr = window.devicePixelRatio || 1;
+  cv.width  = Math.max(1, Math.round(stage.clientWidth*dpr));
+  cv.height = Math.max(1, Math.round(stage.clientHeight*dpr));
+  /* files loaded while the window had no layout leave the view unusable */
+  if(S.worldW && stage.clientWidth > 0 && !(S.view.s > 0)) fitView();
+  else render();
+}
+new ResizeObserver(resize).observe(stage);
+
+function fitView(){
+  if(!S.worldW) return;
+  const s = Math.min(stage.clientWidth/S.worldW, stage.clientHeight/S.worldH)*0.94;
+  S.view.s = s;
+  S.view.tx = (stage.clientWidth  - S.worldW*s)/2;
+  S.view.ty = (stage.clientHeight - S.worldH*s)/2;
+  render();
+}
+const t2s = (tx, tz) => [tx*S.view.s + S.view.tx, tz*S.view.s + S.view.ty];
+const s2t = (sx, sy) => [(sx - S.view.tx)/S.view.s, (sy - S.view.ty)/S.view.s];
+
+/* ---------------- rendering ---------------- */
+function render(){
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = "#0d1014";
+  ctx.fillRect(0, 0, stage.clientWidth, stage.clientHeight);
+  if(!S.worldW) return;
+
+  const [x0, y0] = t2s(0, 0);
+  const w = S.worldW*S.view.s, h = S.worldH*S.view.s;
+  const showImg = $("lyImg").checked && S.img;
+  const showTer = $("lyTer").checked && S.terrain;
+
+  ctx.imageSmoothingEnabled = S.view.s < 6;
+  if(showImg){
+    ctx.globalAlpha = 1;
+    if($("lyFlip").checked){          /* mapimage.png row 0 is the high-z edge */
+      ctx.save();
+      ctx.translate(x0, y0 + h);
+      ctx.scale(1, -1);
+      ctx.drawImage(S.img, 0, 0, w, h);
+      ctx.restore();
+    }else{
+      ctx.drawImage(S.img, x0, y0, w, h);
+    }
+  }
+  if(showTer){ ctx.globalAlpha = showImg ? +$("blend").value/100 : 1; ctx.drawImage(S.terrain, x0, y0, w, h); }
+  ctx.globalAlpha = 1;
+
+  if(S.hm && $("lySlope").checked) drawOverlay(slopeLayer(), x0, y0, w, h);
+  if(S.hm && $("lyWater").checked) drawOverlay(waterLayer(), x0, y0, w, h);
+  if($("lyGrid").checked) drawGrid();
+  if($("lyObj").checked) drawObjects();
+  drawMarkers();
+  drawHover();
+
+  $("tZoom").textContent = S.view.s.toFixed(2) + " px/tile";
+}
+
+function drawOverlay(c, x0, y0, w, h){
+  if(!c) return;
+  ctx.imageSmoothingEnabled = true;
+  ctx.drawImage(c, x0, y0, w, h);
+}
+
+let slopeCache = null, slopeCacheThr = null;
+function slopeLayer(){
+  const thr = +$("slopeMax").value;
+  if(slopeCache && slopeCacheThr === thr) return slopeCache;
+  const W = S.worldW*2, H = S.worldH*2;
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const cx = c.getContext("2d");
+  const im = cx.createImageData(W, H), p = im.data;
+  for(let y = 0; y < H; y++) for(let x = 0; x < W; x++){
+    const tx = (x+0.5)/2, tz = (y+0.5)/2;
+    if(heightAt(tx, tz) <= 0) continue;
+    const s = slopeAt(tx, tz);
+    if(s > thr){
+      const o = (y*W + x)*4, t = Math.min(1, (s-thr)/0.6);
+      p[o] = 255; p[o+1] = 70; p[o+2] = 40; p[o+3] = 26 + 64*t;
+    }
+  }
+  cx.putImageData(im, 0, 0);
+  slopeCache = c; slopeCacheThr = thr;
+  return c;
+}
+
+let waterCache = null;
+function waterLayer(){
+  if(waterCache) return waterCache;
+  const W = S.worldW*2, H = S.worldH*2;
+  const c = document.createElement("canvas"); c.width = W; c.height = H;
+  const cx = c.getContext("2d");
+  const im = cx.createImageData(W, H), p = im.data;
+  for(let y = 0; y < H; y++) for(let x = 0; x < W; x++){
+    const tx = (x+0.5)/2, tz = (y+0.5)/2;
+    const a = heightAt(tx,tz) > 0, b = heightAt(tx+0.5,tz) > 0, d = heightAt(tx,tz+0.5) > 0;
+    if(a !== b || a !== d){ const o = (y*W + x)*4; p[o] = p[o+1] = p[o+2] = 255; p[o+3] = 180; }
+  }
+  cx.putImageData(im, 0, 0);
+  waterCache = c;
+  return c;
+}
+
+function drawGrid(){
+  const step = S.view.s >= 8 ? 1 : S.view.s >= 2 ? 8 : 32;
+  const top = t2s(0,0)[1], bot = t2s(0,S.worldH)[1];
+  const left = t2s(0,0)[0], right = t2s(S.worldW,0)[0];
+  ctx.lineWidth = 1;
+  for(let t = 0; t <= S.worldW; t += step){
+    const x = t2s(t,0)[0];
+    ctx.strokeStyle = t % 64 === 0 ? "#ffffff44" : "#ffffff14";
+    ctx.beginPath(); ctx.moveTo(x+0.5, top); ctx.lineTo(x+0.5, bot); ctx.stroke();
+  }
+  for(let t = 0; t <= S.worldH; t += step){
+    const y = t2s(0,t)[1];
+    ctx.strokeStyle = t % 64 === 0 ? "#ffffff44" : "#ffffff14";
+    ctx.beginPath(); ctx.moveTo(left, y+0.5); ctx.lineTo(right, y+0.5); ctx.stroke();
+  }
+}
+
+function drawObjects(){
+  const r = Math.max(2.5, Math.min(5, S.view.s*0.9));
+  ctx.lineWidth = 1;
+  for(const o of S.objects){
+    const [x, y] = t2s(o.x, o.z);
+    if(x < -20 || y < -20 || x > stage.clientWidth+20 || y > stage.clientHeight+20) continue;
+    const known = SLOT_BY_GUID[o.guid];
+    ctx.beginPath(); ctx.arc(x, y, r, 0, 7);
+    ctx.fillStyle = known ? known.color + "cc" : "#ffffff55";
+    ctx.fill();
+    ctx.strokeStyle = "#00000088"; ctx.stroke();
+  }
+}
+
+function drawMarkers(){
+  const r = Math.max(4, Math.min(11, S.view.s*1.6));
+  S.markers.forEach((m, i) => {
+    const sl = SLOT_BY_GUID[m.guid];
+    const [x, y] = t2s(m.x, m.z);
+    ctx.beginPath(); ctx.arc(x, y, r, 0, 7);
+    ctx.globalAlpha = 0.85; ctx.fillStyle = sl.color; ctx.fill(); ctx.globalAlpha = 1;
+    ctx.lineWidth = i === S.selected ? 3 : 1.5;
+    ctx.strokeStyle = i === S.selected ? "#ffffff" : "#000000aa";
+    ctx.stroke();
+    if(m.warn){
+      ctx.beginPath(); ctx.arc(x, y, r+3.5, 0, 7);
+      ctx.strokeStyle = "#ff5252"; ctx.lineWidth = 2; ctx.stroke();
+    }
+    if(S.view.s >= 4){
+      ctx.font = "10px system-ui, sans-serif";
+      ctx.lineWidth = 3; ctx.strokeStyle = "#000";
+      ctx.strokeText(String(i+1), x+r+2, y+3);
+      ctx.fillStyle = "#fff"; ctx.fillText(String(i+1), x+r+2, y+3);
+    }
+  });
+}
+
+function drawHover(){
+  if(!S.hover) return;
+  const [x, y] = t2s(Math.floor(S.hover[0]), Math.floor(S.hover[1]));
+  ctx.strokeStyle = "#ffffffaa"; ctx.lineWidth = 1;
+  ctx.strokeRect(x+0.5, y+0.5, Math.max(2, S.view.s), Math.max(2, S.view.s));
+}
+
+/* ---------------- mouse ---------------- */
+let drag = null;
+cv.addEventListener("mousedown", e => {
+  if(e.button !== 0) return;
+  drag = {x:e.clientX, y:e.clientY, tx:S.view.tx, ty:S.view.ty, moved:false};
+});
+window.addEventListener("mousemove", e => {
+  if(drag){
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if(Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
+    if(drag.moved){ S.view.tx = drag.tx + dx; S.view.ty = drag.ty + dy; render(); }
+  }
+  const r = cv.getBoundingClientRect();
+  if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom){
+    if(S.hover){ S.hover = null; updateStatus(); render(); }
+    return;
+  }
+  S.hover = s2t(e.clientX - r.left, e.clientY - r.top);
+  updateStatus();
+  if(!drag) render();
+});
+window.addEventListener("mouseup", e => {
+  if(drag && !drag.moved && e.button === 0){
+    const r = cv.getBoundingClientRect();
+    if(e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom)
+      placeOrSelect(...s2t(e.clientX - r.left, e.clientY - r.top));
+  }
+  drag = null;
+});
+cv.addEventListener("contextmenu", e => {
+  e.preventDefault();
+  const r = cv.getBoundingClientRect();
+  const i = hitMarker(...s2t(e.clientX - r.left, e.clientY - r.top));
+  if(i >= 0){ S.markers.splice(i, 1); S.selected = -1; afterChange(); }
+});
+cv.addEventListener("wheel", e => {
+  e.preventDefault();
+  const r = cv.getBoundingClientRect();
+  const mx = e.clientX - r.left, my = e.clientY - r.top;
+  const [tx, tz] = s2t(mx, my);
+  S.view.s = Math.max(0.3, Math.min(80, S.view.s*Math.exp(-e.deltaY*0.0014)));
+  S.view.tx = mx - tx*S.view.s;
+  S.view.ty = my - tz*S.view.s;
+  render();
+}, {passive:false});
+
+function hitMarker(tx, tz){
+  const r = Math.max(4, Math.min(11, S.view.s*1.6))/S.view.s;
+  for(let i = S.markers.length-1; i >= 0; i--){
+    const m = S.markers[i];
+    if((m.x-tx)**2 + (m.z-tz)**2 <= r*r) return i;
+  }
+  return -1;
+}
+
+function addMarker(guid, x, z, rot){
+  const y = heightAt(x, z);
+  S.markers.push({guid, x:round4(x), z:round4(z), y:round4(y === null ? 0 : y), rot:rot || 0, id:allocId(x, z)});
+  return S.markers.length - 1;
+}
+
+/**
+ * Where a mine's work areas go, measured over the 416 ore nodes in the
+ * moderate and colony01 pools: 98% carry both, and they sit very
+ * consistently —
+ *   cave      3.8-6.4 tiles away, level with the mine (dy -0.6..+0.7)
+ *   mountain  7.6-22 tiles away, uphill (dy +2.4..+8.9, median +4.6)
+ * so the cave entrance sits beside the node and the mountain work area
+ * climbs the slope behind it.
+ */
+const WA_SPEC = {
+  100419:  {rMin:3.8, rMax: 6.4, dyMin:-0.6, dyMax:0.7, dyIdeal:0.1},   // cave
+  1000253: {rMin:7.6, rMax:22.1, dyMin: 2.4, dyMax:8.9, dyIdeal:4.6},   // mountain
+};
+function findWorkArea(x, z, guid){
+  const s = WA_SPEC[guid], y0 = heightAt(x, z);
+  if(y0 === null) return null;
+  let best = null, bestScore = Infinity;
+  for(let a = 0; a < Math.PI*2; a += Math.PI/48)
+    for(let r = s.rMin; r <= s.rMax; r += 0.4){
+      const px = x + Math.cos(a)*r, pz = z + Math.sin(a)*r;
+      if(px < 1 || pz < 1 || px > S.worldW - 1 || pz > S.worldH - 1) continue;
+      const y = heightAt(px, pz);
+      if(y === null || y <= 0) continue;
+      const dy = y - y0;
+      if(dy < s.dyMin || dy > s.dyMax) continue;
+      const score = Math.abs(dy - s.dyIdeal) + r*0.02;   // nudge towards the nearer fit
+      if(score < bestScore){ bestScore = score; best = {x:px, z:pz}; }
+    }
+  return best;
+}
+
+function placeOrSelect(tx, tz){
+  if(!S.worldW) return;
+  const hit = hitMarker(tx, tz);
+  if(hit >= 0){ S.selected = hit; afterChange(); return; }
+  if(tx < 0 || tz < 0 || tx > S.worldW || tz > S.worldH) return;
+  if($("snap").checked){ tx = Math.floor(tx) + 0.5; tz = Math.floor(tz) + 0.5; }
+
+  const guid = +document.querySelector(".slot.on").dataset.guid;
+  S.selected = addMarker(guid, tx, tz, +$("rot").value);
+
+  if(guid === 1000029 && $("autoWa").checked && S.hm){
+    const missing = [];
+    for(const wa of [100419, 1000253]){
+      const p = findWorkArea(tx, tz, wa);
+      if(p) addMarker(wa, p.x, p.z, 0);          // work areas are never tile-snapped
+      else missing.push(SLOT_BY_GUID[wa].name.toLowerCase());
+    }
+    note(missing.length
+      ? "Ore node placed, but no " + missing.join(" or ") + " fits here — the ground nearby "
+        + "does not rise the 2.4-8.9 a mountain work area needs. Flat islands often have none, "
+        + "and a cave mine does not use one."
+      : "Ore node placed with its cave and mountain work areas.",
+      missing.length ? "warn" : "ok");
+  }
+  afterChange();
+}
+
+/* ---------------- object ids ---------------- */
+function nearestPrefix(tx, tz){
+  let hi = 0x80000001, best = Infinity;
+  for(const o of S.objects){
+    const d = (o.x-tx)**2 + (o.z-tz)**2;
+    if(d < best){ best = d; hi = Number(BigInt.asUintN(64, o.id) >> 32n); }
+  }
+  return hi;
+}
+function freeId(hi, taken){
+  for(let lo = 1n; lo < 0x7fffffn; lo++){
+    const id = BigInt.asIntN(64, (BigInt(hi) << 32n) | lo);
+    if(!taken.has(id.toString())){ taken.add(id.toString()); return id; }
+  }
+  throw new Error("no free object id under prefix " + hi.toString(16));
+}
+function allocId(tx, tz){
+  const taken = new Set(S.usedIds);
+  for(const m of S.markers) taken.add(m.id.toString());
+  return freeId(nearestPrefix(tx, tz), taken);
+}
+function renumber(){
+  const taken = new Set(S.usedIds);
+  for(const m of S.markers) m.id = freeId(nearestPrefix(m.x, m.z), taken);
+  afterChange();
+}
+function restoreY(){
+  for(const m of S.markers){ const y = heightAt(m.x, m.z); if(y !== null) m.y = round4(y); }
+  afterChange();
+}
+
+/* ---------------- status bar ---------------- */
+function updateStatus(){
+  if(!S.hover || !S.worldW){
+    for(const id of ["sx","sz","sy","sg","sn"]) $(id).textContent = "—";
+    return;
+  }
+  let [tx, tz] = S.hover;
+  if($("snap").checked){ tx = Math.floor(tx) + 0.5; tz = Math.floor(tz) + 0.5; }
+  const inside = tx >= 0 && tz >= 0 && tx <= S.worldW && tz <= S.worldH;
+  $("sx").textContent = inside ? tx.toFixed(1) : "—";
+  $("sz").textContent = inside ? tz.toFixed(1) : "—";
+
+  const y = inside ? heightAt(tx, tz) : null;
+  $("sy").textContent = y === null ? "n/a" : y.toFixed(3);
+  if(y === null){
+    $("sg").textContent = S.hm ? "—" : "load gamedata.xml for heights";
+  }else{
+    const sl = slopeAt(tx, tz);
+    const flat = sl <= +$("slopeMax").value;
+    $("sg").innerHTML = (y > 0 ? "<span class='ok'>land</span>" : "<span class='bad'>water</span>")
+      + "  slope " + sl.toFixed(2)
+      + (y > 0 ? (flat ? "  <span class='ok'>ok</span>" : "  <span class='warn'>steep</span>") : "");
+  }
+
+  let bd = Infinity, bo = null;
+  for(const o of S.objects){
+    const d = Math.hypot(o.x-tx, o.z-tz);
+    if(d < bd){ bd = d; bo = o; }
+  }
+  $("sn").textContent = bo ? bd.toFixed(1) + " tiles — " + (KNOWN[bo.guid] || ("guid " + bo.guid)) : "—";
+}
+
+/* ---------------- sidebar ---------------- */
+(function buildSlotList(){
+  const el = $("slots");
+  el.innerHTML = SLOTS.map((s, i) =>
+    '<div class="slot' + (i === 0 ? " on" : "") + '" data-guid="' + s.guid + '">' +
+    '<span class="dot" style="background:' + s.color + '"></span>' + s.name +
+    '<span class="g">' + s.guid + '</span></div>').join("");
+  el.querySelectorAll(".slot").forEach(d => d.onclick = () => {
+    el.querySelectorAll(".slot").forEach(x => x.classList.remove("on"));
+    d.classList.add("on");
+  });
+  $("legend").innerHTML =
+    SLOTS.map(s => '<div><span class="dot" style="background:' + s.color + '"></span>' + s.name + '</div>').join("") +
+    '<div><span class="dot" style="background:#ffffff55"></span>other existing object</div>';
+})();
+
+function rebuildTable(){
+  $("mkbody").innerHTML = S.markers.map((m, i) => {
+    const sl = SLOT_BY_GUID[m.guid];
+    return '<tr class="' + (i === S.selected ? "sel " : "") + (m.warn ? "bad" : "") + '" data-i="' + i + '">' +
+      '<td><span class="dot" style="display:inline-block;background:' + sl.color + '"></span> ' + sl.name.split(",")[0] + '</td>' +
+      '<td>' + m.x.toFixed(1) + '</td><td>' + m.y.toFixed(2) + '</td><td>' + m.z.toFixed(1) + '</td>' +
+      '<td>' + id64hex(m.id) + '</td><td class="x" data-del="' + i + '">&#10005;</td></tr>';
+  }).join("");
+  $("mkbody").querySelectorAll("tr").forEach(tr => {
+    tr.onclick = e => {
+      const del = e.target.dataset.del;
+      if(del !== undefined){ S.markers.splice(+del, 1); S.selected = -1; afterChange(); return; }
+      S.selected = +tr.dataset.i;
+      const m = S.markers[S.selected];
+      S.view.tx = stage.clientWidth/2  - m.x*S.view.s;
+      S.view.ty = stage.clientHeight/2 - m.z*S.view.s;
+      afterChange();
+    };
+  });
+  $("mkCount").textContent = S.markers.length ? "(" + S.markers.length + ")" : "";
+}
+
+/**
+ * Flag slots that will not work: anything under water, plus buildable slots
+ * (clay / oil / ore) whose surroundings are not flat. Vanilla puts all of
+ * those on ground that stays under slope 0.12 for a tile in every direction;
+ * work-area slots are exempt because they belong on a hillside.
+ */
+function checkWarnings(){
+  const thr = +$("slopeMax").value;
+  for(const m of S.markers){
+    const y = heightAt(m.x, m.z);
+    let bad = y !== null && y <= 0;
+    if(!bad && S.hm && SLOT_BY_GUID[m.guid].slotType === 1){
+      outer:
+      for(let dz = -1; dz <= 1; dz += 0.5)
+        for(let dx = -1; dx <= 1; dx += 0.5)
+          if(slopeAt(m.x+dx, m.z+dz) > thr){ bad = true; break outer; }
+    }
+    m.warn = bad;
+  }
+}
+
+function clearMarkers(){
+  if(S.markers.length && !confirm("Remove all " + S.markers.length + " picked slots?")) return;
+  S.markers = []; S.selected = -1; afterChange();
+}
+
+function afterChange(){ checkWarnings(); rebuildTable(); rebuildOutput(); updateSaveButtons(); render(); store(); }
+
+/* ---------------- export ---------------- */
+function gamedataRecords(indent){
+  const p = " ".repeat(indent), q = p + "  ", r = q + "  ", t = r + "  ";
+  return S.markers.map(m => {
+    const rad = m.rot*Math.PI/180;
+    const dir = m.rot ? q + "<Direction>" + num(rad) + "</Direction>\n" : "";
+    const quat = m.rot ? [0, Math.sin(rad/2), 0, Math.cos(rad/2)].map(num).join(" ") : "0 0 0 1";
+    return p + "<None>\n" +
+      q + "<guid>" + m.guid + "</guid>\n" +
+      q + "<ID>" + m.id.toString() + "</ID>\n" +
+      q + "<ObjectFolderID>0</ObjectFolderID>\n" +
+      q + "<Position>" + num(m.x) + " " + num(m.y) + " " + num(m.z) + "</Position>\n" +
+      dir +
+      q + "<ParticipantID>\n" + r + "<id>8</id>\n" + q + "</ParticipantID>\n" +
+      q + "<Blocking />\n" +
+      q + "<Building />\n" +
+      q + "<QuestObject>\n" +
+        r + "<QuestIDs />\n" +
+        r + "<ObjectWasVisible>\n" + t + "<None>False</None>\n" + t + "<None>False</None>\n" + r + "</ObjectWasVisible>\n" +
+        r + "<OverwriteVisualParticipant />\n" +
+      q + "</QuestObject>\n" +
+      q + "<Infolayer>\n" + r + "<Icons>\n" + t + "<None />\n" + r + "</Icons>\n" + q + "</Infolayer>\n" +
+      q + "<Mesh>\n" +
+        r + "<Flags>\n" + t + "<flags>1</flags>\n" + r + "</Flags>\n" +
+        r + "<DyeColor>-1</DyeColor>\n" +
+        r + "<SequenceData>\n" + t + "<CurrentSequenceStartTime>0</CurrentSequenceStartTime>\n" + r + "</SequenceData>\n" +
+        r + "<Orientation>" + quat + "</Orientation>\n" +
+      q + "</Mesh>\n" +
+      q + "<RandomMapObject />\n" +
+      q + "<Selection>\n" + r + "<Detected>12336 12336 12336 12336</Detected>\n" + q + "</Selection>\n" +
+      q + "<SoundEmitter />\n" +
+      p + "</None>";
+  }).join("\n");
+}
+
+/** picked slots bucketed by the SlotType key the a7minfo map uses */
+function slotGroups(){
+  const by = new Map();
+  for(const m of S.markers){
+    const k = SLOT_BY_GUID[m.guid].slotType;
+    if(!by.has(k)) by.set(k, []);
+    by.get(k).push(m);
+  }
+  return by;
+}
+
+function a7minfoEntries(indent){
+  const p = " ".repeat(indent), q = p + "  ", r = q + "  ";
+  const out = [];
+  for(const [key, list] of slotGroups()){
+    out.push(p + "<None>\n" + q + "<value>\n" + r + "<id>" + i16hex(key) + "</id>\n" + q + "</value>\n" + p + "</None>");
+    out.push(p + "<None>\n" + list.map(m =>
+      q + "<None>\n" +
+      r + "<ObjectId>" + id64hex(m.id) + "</ObjectId>\n" +
+      r + "<ObjectGuid>" + i32hex(m.guid) + "</ObjectGuid>\n" +
+      r + "<Position>" + f32hex(round4(m.x)) + f32hex(round4(m.y)) + f32hex(round4(m.z)) + "</Position>\n" +
+      q + "</None>").join("\n") + "\n" + p + "</None>");
+  }
+  return out.join("\n");
+}
+
+function rebuildOutput(){
+  $("outGd").value = S.markers.length ? gamedataRecords(18) : "";
+  $("outMi").value = S.markers.length ? a7minfoEntries(6) : "";
+}
+
+function copyBox(id){
+  const el = $(id);
+  el.select();
+  document.execCommand("copy");
+  window.getSelection().removeAllRanges();
+}
+
+/* ---------------- writing the patched XML out ---------------- */
+
+/** both patched files, or an explanatory throw */
+function buildPatched(){
+  if(!S.markers.length) throw new Error("no slots are picked, so there is nothing to add");
+  const out = [];
+  if(S.gdText) out.push({name:S.gdName || "gamedata.xml", text:patchGamedata(S.gdText), handle:fileHandles.gd, which:"gd"});
+  if(S.miText) out.push({name:S.miName || "island.xml",   text:patchA7minfo(S.miText),  handle:fileHandles.mi, which:"mi"});
+  if(!out.length) throw new Error("no gamedata.xml or a7minfo XML is loaded");
+  return out;
+}
+
+function updateSaveButtons(){
+  const haveXml = !!(S.gdText || S.miText);
+  const ready = S.markers.length > 0 && haveXml;
+  $("btnSaveBack").disabled = !ready;
+  $("btnDownload").disabled = !ready;
+  $("btnSaveBack").textContent = dirHandle ? "Write both files back" : "Save both files as…";
+
+  /* a greyed-out button with no reason given is its own trap */
+  const hint = $("saveHint");
+  if(ready)          hint.textContent = dirHandle
+                       ? "Writes " + S.markers.length + " slot" + (S.markers.length>1?"s":"") +
+                         " into " + dirHandle.name + ", keeping a .bak of each original."
+                       : "Opened read-only — saving will ask where to put each file.";
+  else if(!haveXml)  hint.textContent = "Load an island first (gamedata.xml and the a7minfo XML).";
+  else               hint.textContent = "Click the map to place a slot, then this turns on.";
+}
+
+/** keep one pristine copy of a file before we ever overwrite it */
+async function backupOnce(name){
+  const bak = name + ".bak";
+  try{ await dirHandle.getFileHandle(bak); return false; }   /* already have one, leave it */
+  catch(e){}
+  const src = await (await dirHandle.getFileHandle(name)).getFile();
+  const w = await (await dirHandle.getFileHandle(bak, {create:true})).createWritable();
+  await w.write(await src.arrayBuffer());
+  await w.close();
+  return true;
+}
+
+async function saveBack(){
+  let targets;
+  try{ targets = buildPatched(); }
+  catch(err){ return note("Cannot build the patch: " + err.message, "bad"); }
+
+  /* straight back over the originals, when the folder was opened writable */
+  if(dirHandle && targets.every(t => t.handle)){
+    const names = targets.map(t => "    " + t.name).join("\n");
+    if(!confirm("Overwrite these files in " + dirHandle.name + "?\n\n" + names +
+                "\n\nA .bak copy of each original is kept alongside."))
+      return;
+    try{
+      if(await dirHandle.queryPermission({mode:"readwrite"}) !== "granted" &&
+         await dirHandle.requestPermission({mode:"readwrite"}) !== "granted")
+        return note("Write permission was refused — use “Save both files as…” instead.", "bad");
+
+      const made = [];
+      for(const t of targets){
+        if(await backupOnce(t.name)) made.push(t.name + ".bak");
+        const w = await t.handle.createWritable();
+        await w.write(t.text);
+        await w.close();
+      }
+      commitMarkers(targets);
+      note("Wrote " + targets.map(t => t.name).join(" and ") + " in place" +
+           (made.length ? " (backed up as " + made.join(", ") + ")" : "") +
+           ". Now re-compress both with FileDBReader and repack the .a7m.", "ok");
+    }catch(err){
+      note("Write failed: " + err.message + " — nothing further was changed.", "bad");
+    }
+    return;
+  }
+
+  /* otherwise ask once per file, falling back to plain downloads */
+  if(window.showSaveFilePicker){
+    try{
+      for(const t of targets){
+        const h = await window.showSaveFilePicker({
+          suggestedName: t.name,
+          types: [{description:"XML", accept:{"application/xml":[".xml"]}}],
+        });
+        const w = await h.createWritable();
+        await w.write(t.text);
+        await w.close();
+      }
+      commitMarkers(targets);
+      return note("Saved " + targets.map(t => t.name).join(" and ") +
+                  ". Re-compress both with FileDBReader and repack the .a7m.", "ok");
+    }catch(err){
+      if(err && err.name === "AbortError") return;
+      /* gesture expired or picker unavailable — fall through to downloading */
+    }
+  }
+  downloadBoth();
+}
+
+function downloadBoth(){
+  let targets;
+  try{ targets = buildPatched(); }
+  catch(err){ return note("Cannot build the patch: " + err.message, "bad"); }
+  for(const t of targets) save(t.text, t.name);
+  commitMarkers(targets);
+  note("Downloaded " + targets.map(t => t.name).join(" and ") +
+       " — copy them over the originals, re-compress with FileDBReader and repack the .a7m.", "ok");
+}
+
+/**
+ * Once the slots are in the file, they are part of the island: adopt the patched
+ * text as the new baseline and turn the markers into ordinary existing objects.
+ * Without this, a second save would insert the same slots all over again.
+ */
+function commitMarkers(targets){
+  for(const t of targets){
+    if(t.which === "gd") S.gdText = t.text;
+    else S.miText = t.text;
+  }
+  for(const m of S.markers){
+    S.objects.push({guid:m.guid, id:m.id, x:m.x, y:m.y, z:m.z});
+    S.usedIds.add(m.id.toString());
+  }
+  S.markers = []; S.selected = -1;
+  try{ localStorage.removeItem(storeKey()); }catch(e){}
+  checkWarnings(); rebuildTable(); rebuildOutput(); updateSaveButtons(); render();
+}
+function save(text, name){
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], {type:"application/xml"}));
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 5000);
+}
+
+/** insert the records into the first <GameObject><objects> — that is map area 8193 */
+function patchGamedata(txt){
+  const go = txt.indexOf("<GameObject>");
+  if(go < 0) throw new Error("no <GameObject> in this file");
+  const selfClose = txt.indexOf("<objects />", go);
+  const open = txt.indexOf("<objects>", go);
+  const useSelf = selfClose >= 0 && (open < 0 || selfClose < open);
+  const anchor = useSelf ? selfClose : open;
+  if(anchor < 0) throw new Error("no <objects> under the first <GameObject>");
+  const indent = anchor - (txt.lastIndexOf("\n", anchor) + 1);
+  const body = gamedataRecords(indent + 2);
+  if(useSelf){
+    return txt.slice(0, anchor) + "<objects>\n" + body + "\n" + " ".repeat(indent) + "</objects>"
+         + txt.slice(anchor + "<objects />".length);
+  }
+  const close = txt.indexOf("</objects>", open);
+  if(close < 0) throw new Error("unclosed <objects>");
+  const closeLine = txt.lastIndexOf("\n", close) + 1;
+  return txt.slice(0, closeLine) + body + "\n" + txt.slice(closeLine);
+}
+
+/** merge the entries into <SlotObjects>, reusing a key group when one is already there */
+function patchA7minfo(txt){
+  const a = txt.indexOf("<SlotObjects>");
+  const b = txt.indexOf("</SlotObjects>", a);
+  if(a < 0 || b < 0) throw new Error("no <SlotObjects> in this file");
+
+  const doc = new DOMParser().parseFromString(txt.slice(a, b + "</SlotObjects>".length), "application/xml");
+  if(doc.querySelector("parsererror")) throw new Error("could not parse SlotObjects");
+  const root = doc.documentElement;
+
+  for(const [key, list] of slotGroups()){
+    const keyHex = i16hex(key);
+    const kids = [...root.children];
+    let listEl = null;
+    for(let i = 0; i < kids.length; i++){
+      const idEl = kids[i].querySelector(":scope > value > id");
+      if(idEl && idEl.textContent.trim().toUpperCase() === keyHex){ listEl = kids[i+1] || null; break; }
+    }
+    if(!listEl){
+      const k = doc.createElement("None"), v = doc.createElement("value"), id = doc.createElement("id");
+      id.textContent = keyHex; v.appendChild(id); k.appendChild(v); root.appendChild(k);
+      listEl = doc.createElement("None"); root.appendChild(listEl);
+    }
+    for(const m of list){
+      const e = doc.createElement("None");
+      const add = (n, v) => { const c = doc.createElement(n); c.textContent = v; e.appendChild(c); };
+      add("ObjectId", id64hex(m.id));
+      add("ObjectGuid", i32hex(m.guid));
+      add("Position", f32hex(round4(m.x)) + f32hex(round4(m.y)) + f32hex(round4(m.z)));
+      listEl.appendChild(e);
+    }
+  }
+
+  const baseIndent = a - (txt.lastIndexOf("\n", a) + 1);
+  return txt.slice(0, a) + serialize(root, baseIndent).slice(baseIndent) + txt.slice(b + "</SlotObjects>".length);
+}
+
+/** FileDBReader-style 2-space indented XML */
+function serialize(el, indent){
+  const p = " ".repeat(indent);
+  const children = [...el.children];
+  if(!children.length){
+    const t = el.textContent;
+    return t.length ? p + "<" + el.tagName + ">" + t + "</" + el.tagName + ">"
+                    : p + "<" + el.tagName + " />";
+  }
+  return p + "<" + el.tagName + ">\n" +
+         children.map(c => serialize(c, indent + 2)).join("\n") + "\n" +
+         p + "</" + el.tagName + ">";
+}
+
+/* ---------------- persistence ---------------- */
+const storeKey = () => "annoSlotPicker:" + (S.islandName || "unnamed");
+function store(){
+  try{
+    localStorage.setItem(storeKey(), JSON.stringify(
+      S.markers.map(m => ({g:m.guid, x:m.x, y:m.y, z:m.z, r:m.rot, i:m.id.toString()}))));
+  }catch(e){}
+}
+function loadStored(){
+  if(S.markers.length) return;
+  try{
+    const raw = localStorage.getItem(storeKey());
+    if(!raw) return;
+    S.markers = JSON.parse(raw).map(o => ({guid:o.g, x:o.x, y:o.y, z:o.z, rot:o.r||0, id:BigInt(o.i)}));
+    afterChange();
+  }catch(e){}
+}
+
+/* ---------------- wiring ---------------- */
+for(const id of ["lyImg","lyFlip","lyTer","lyWater","lySlope","lyGrid","lyObj","blend"])
+  $(id).addEventListener("input", render);
+$("slopeMax").addEventListener("input", () => { slopeCache = null; checkWarnings(); rebuildTable(); render(); });
+$("dec").addEventListener("change", rebuildOutput);
+$("snap").addEventListener("change", updateStatus);
+window.addEventListener("keydown", e => {
+  if((e.key === "Delete" || e.key === "Backspace") && S.selected >= 0 && e.target === document.body){
+    S.markers.splice(S.selected, 1); S.selected = -1; afterChange();
+  }
+});
+
+function refreshHeader(){
+  $("tIsland").textContent = S.islandName || "—";
+  $("tWorld").textContent  = S.worldW ? S.worldW + "x" + S.worldH : "—";
+  $("tImg").textContent    = S.img ? S.img.width + "x" + S.img.height : "—";
+  $("tHm").textContent     = S.hm ? S.hmW + "x" + S.hmH : "none";
+  if(S.hm && !$("patchNote").textContent)
+    note("Y is read from the terrain heightmap — it reproduces vanilla clay/oil slot heights to ~0.002.", "ok");
+}
+
+/* Writing back in place needs the File System Access API. Chrome and Edge have
+   it; Firefox and Safari do not, and a page opened straight off disk may not
+   either — in that case the same button falls back to a save dialog or a
+   download and you copy the two files over yourself. */
+if(window.showDirectoryPicker){
+  $("btnWritable").hidden = false;
+  $("btnReadonly").hidden = true;
+}
+updateSaveButtons();
+resize();
+</script>
+</body>
+</html>
