@@ -1,0 +1,116 @@
+<ModOps>
+	<ModOp GUID="1010561" Type="addNextSibling" Path="/">
+		<Asset>
+			<BaseAssetGUID>1010561</BaseAssetGUID>
+			<!--heavy_10 (Oil Heavy Industry)-->
+			<Values>
+				<Standard>
+					<GUID>1404000874</GUID>
+					<Name>heavy_orient_01 (Oil Heavy Industry)</Name>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <!--Money-->
+                            <Amount>25000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <!--timber-->
+                            <Amount>8</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                            <!--bricks-->
+                            <Amount>15</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <!--beams-->
+                            <Amount>12</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                            <!--window-->
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                            <!--concrete-->
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+				<Mesh/>
+				<Text>
+					<TextOverride>1010561</TextOverride>
+				</Text>
+				<Locked/>
+				<FactoryBase>
+					<IsMainFactory>0</IsMainFactory>
+				</FactoryBase>
+				<LogisticNode/>
+				<ModuleOwner>
+					<ConstructionOptions>
+						<Item>
+							<ModuleGUID>1404000875</ModuleGUID>
+							<!--heavy_colony01_01_field (Oil Pump)-->
+						</Item>
+					</ConstructionOptions>
+				</ModuleOwner>
+				<AmbientMoodProvider/>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<!--Money-->
+							<Amount>250</Amount>
+							<InactiveAmount>125</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<!--colony workforce 2-->
+							<Amount>75</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+			</Values>
+		</Asset>
+	</ModOp>
+
+    <ModOp Type="add" GUID="6000018,193856,368,191042,190842" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404000874</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- GlobalBalancing -->
+    <ModOp Type="add" GUID="2001270" Path="Values/GlobalConfig/GUIDRegionReplacements/Item[5]/GUIDGroup">
+        <Mod3>
+            <AssetGUID>1404000874</AssetGUID>
+        </Mod3>
+    </ModOp>
+
+    <ModOp GUID="100524" Type="addNextSibling" Path="/">
+		<Asset>
+			<BaseAssetGUID>100524</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404000875</GUID>
+					<Name>heavy_orient_01_field (Oil Pump)</Name>
+				</Standard>
+				<Building>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Text>
+					<TextOverride>100524</TextOverride>
+				</Text>
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
