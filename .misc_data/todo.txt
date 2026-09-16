@@ -14,19 +14,22 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 TODO:
 - Population quests
+- Clay mine
+
 
 Bugs:
-- Festival icon not showing
+
+
 
 
 Backlog:
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Camera sequence when entering region for the first time
-- Clay mine
+- Adding "efficient smelters" that use oil and make more ingots
 
 
 
 Not fixable:
 - Watered fields not shown as green fields when placing canals or farm fields: Setting RegionID in the Region asset to Africa makes it visible, seems to be hardcoded to Africa region enum
-- Fix music colliding with voice lines: Would require changing vanilla banks
-
+- Fix music colliding with voice lines/other special music (monument completed): Would require changing vanilla soundbanks
+- Festival icon not showing: Not working in New Horizon either, no idea why
