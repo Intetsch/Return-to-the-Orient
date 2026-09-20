@@ -1,0 +1,105 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="101267">
+        <Asset>
+            <BaseAssetGUID>100416</BaseAssetGUID>
+            <!--factory_11 (Clay Pit), Moderate-->
+            <Values>
+                <Standard>
+                    <GUID>1404001285</GUID>
+                    <Name>factory_orient_01 (Clay Pit)</Name>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>2500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1400201040</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>SlotFactoryBuilding7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Filename>data/graphics/buildings/production/factory_colony_01_04/factory_colony_01_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <TextOverride>100416</TextOverride>
+                </Text>
+                <FactoryBase>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>SlotFactoryBuilding7</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>SlotFactoryBuilding7</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Product>1404000012</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- item effect target pools and workforce menu -->
+    <ModOp Type="add" GUID="6000018,193856,368,190886,191592" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404001285</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- WorkforceMenu/BoostableFactories -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1404001285</Factory>
+        </Item>
+    </ModOp>
+
+</ModOps>

@@ -11,6 +11,8 @@
 
     <Include File="assets_coastal_orient_01_pearl_diver.xml" /> 
 
+    <Include File="assets_factory_orient_01_clay_pit.xml" /> 
+
     <Include File="assets_final_orient_01_mosaic_workshop.xml" />
     <Include File="assets_final_orient_03_confectioners_workshop.xml" />
     <Include File="assets_final_orient_04_spice_mill.xml" />
@@ -20,11 +22,14 @@
     <Include File="assets_final_orient_08_turban_weaver.xml" />
 
     <Include File="assets_heavy_orient_01_oil_plant.xml" />
+    <Include File="assets_heavy_orient_02_silver_smelter.xml" />
 
     <Include File="assets_manufacturer_orient_00_base.xml" />
     <Include File="assets_manufacturer_orient_01_ceremonial_sabers.xml" />
     <Include File="assets_manufacturer_orient_02_chandeliers.xml" />
     <Include File="assets_manufacturer_orient_03_hookahs.xml" />
     <Include File="assets_manufacturer_orient_04_pearl_necklaces.xml" />
+
+    <Include File="assets_mining_orient_01_silver_ore_mine.xml" />
 
 </ModOps>

@@ -1,0 +1,17 @@
+<ModOps>
+
+    <ModOp Type="add" GUID="1957006101" Path="/Values/Product/AssociatedRegion">;Mod3</ModOp>
+
+    <ModOp Type="add" GUID="1957006151" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Mod3</AssociatedRegion>
+    </ModOp>
+    <ModOp Type="add" GUID="1957006151" Path="/Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod3</ModOp>
+
+    <ModOp Type="add" GUID="1957006101,1957006151" Path="/Values/Product/ProductionRegions">
+        <Item>
+            <RegionType>Mod3</RegionType>
+        </Item>
+    </ModOp>
+
+
+</ModOps>

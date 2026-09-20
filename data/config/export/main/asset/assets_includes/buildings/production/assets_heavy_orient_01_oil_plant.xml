@@ -19,33 +19,31 @@
                             <Amount>25000</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010196</Ingredient>
-                            <!--timber-->
+                            <Ingredient>1400201040</Ingredient>
                             <Amount>8</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010205</Ingredient>
-                            <!--bricks-->
-                            <Amount>15</Amount>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>35</Amount>
                         </Item>
                         <Item>
-                            <Ingredient>1010218</Ingredient>
-                            <!--beams-->
-                            <Amount>12</Amount>
+                            <Ingredient>1404000256</Ingredient>
+                            <Amount>5</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010207</Ingredient>
-                            <!--window-->
-                            <Amount>10</Amount>
+                            <Amount>0</Amount>
                         </Item>
                         <Item>
                             <Ingredient>1010202</Ingredient>
-                            <!--concrete-->
-                            <Amount>10</Amount>
+                            <Amount>0</Amount>
                         </Item>
                     </Costs>
                 </Cost>
 				<Mesh/>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
 				<Text>
 					<TextOverride>1010561</TextOverride>
 				</Text>

@@ -26,9 +26,14 @@
     <ModOp Type="add" GUID="101339" Path="/Values/Building" Condition="!/Values/Building/AssociatedRegions">
         <AssociatedRegions>Colony01;Mod3</AssociatedRegions>
     </ModOp>
-    
-    <ModOp Type="add" GUID="101339" Path="/Values/Building/AssociatedRegions" Condition="/Values/Building/AssociatedRegions">;Mod3</ModOp>
 
+	<!-- Mine deposits -->
+	<ModOp Type="add" GUID="101061,101062" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+
+	<!-- Quay system -->
+	<ModOp Type="add" GUID="101339" Path="/Values/Building/AssociatedRegions" Condition="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+
+	<!-- Rails -->
     <ModOp Type="replace" GUID="119035" Path="Values/Locked">
         <Locked/>
     </ModOp>

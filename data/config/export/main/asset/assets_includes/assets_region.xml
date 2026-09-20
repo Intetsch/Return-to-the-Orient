@@ -987,6 +987,127 @@
         </Mod3>
     </ModOp>
 
+    <ModOp Type="add" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Low/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>1</Min>
+                    <Max>3</Max>
+                </Small>
+                <Medium>
+                    <Min>2</Min>
+                    <Max>4</Max>
+                </Medium>
+                <Large>
+                    <Min>3</Min>
+                    <Max>5</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+    <ModOp Type="add" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Medium/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>2</Min>
+                    <Max>4</Max>
+                </Small>
+                <Medium>
+                    <Min>3</Min>
+                    <Max>5</Max>
+                </Medium>
+                <Large>
+                    <Min>4</Min>
+                    <Max>6</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+    <ModOp Type="add" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/High/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>3</Min>
+                    <Max>5</Max>
+                </Small>
+                <Medium>
+                    <Min>4</Min>
+                    <Max>6</Max>
+                </Medium>
+                <Large>
+                    <Min>5</Min>
+                    <Max>7</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+
+    <!-- Oil does NOT come out of the mine budget above. "random slot oil pump"
+         (100849) carries UseMapGeneratorSlotCountOverride, so its count is read
+         from its own table and Mod3 needs an entry here or no oil spawns at all.
+         Values are Colony01's, which are tuned for the 27 / 18 / 9 oil
+         candidates a large / medium / small island carries. -->
+    <ModOp Type="add" GUID="100849" Path="/Values/RandomMapObject/MapGeneratorSlotCountOverride/Low/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>3</Min>
+                    <Max>6</Max>
+                </Small>
+                <Medium>
+                    <Min>4</Min>
+                    <Max>9</Max>
+                </Medium>
+                <Large>
+                    <Min>9</Min>
+                    <Max>17</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+    <ModOp Type="add" GUID="100849" Path="/Values/RandomMapObject/MapGeneratorSlotCountOverride/Medium/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>4</Min>
+                    <Max>9</Max>
+                </Small>
+                <Medium>
+                    <Min>6</Min>
+                    <Max>13</Max>
+                </Medium>
+                <Large>
+                    <Min>10</Min>
+                    <Max>19</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+    <ModOp Type="add" GUID="100849" Path="/Values/RandomMapObject/MapGeneratorSlotCountOverride/High/Region">
+        <Mod3>
+            <IslandSize>
+                <Small>
+                    <Min>6</Min>
+                    <Max>12</Max>
+                </Small>
+                <Medium>
+                    <Min>8</Min>
+                    <Max>15</Max>
+                </Medium>
+                <Large>
+                    <Min>12</Min>
+                    <Max>22</Max>
+                </Large>
+            </IslandSize>
+        </Mod3>
+    </ModOp>
+
+
     <ModOp Type="merge" GUID="140951" Path="Values/IslandSettledNewsTracker/RegionSettledArticles">
         <!-- result: 21 -->
         <Mod3>

@@ -1,0 +1,152 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="1010311">
+        <Asset>
+            <BaseAssetGUID>1010311</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404001300</GUID>
+                    <Name>mining_orient_01 (Silver Ore Mine)</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_iron_ore.png</IconFilename>
+                    <InfoDescription>11143</InfoDescription>
+                </Standard>
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                </Building>
+                <Blocking/>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>2500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1400201040</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>25</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/dlc10/graphics/buildings/production/mining_colony01_05/mining_colony01_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh/>
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList/>
+                        </Values>
+                    </OnSelection>
+                    <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+                </Selection>
+                <Text>
+                    <TextOverride>1957006102</TextOverride>
+                </Text>
+                <Constructable/>
+                <Locked/>
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>202274</Sound>
+                        </Item>
+                    </ActiveSounds>
+                </SoundEmitter>
+                <FeedbackController/>
+                <Infolayer/>
+                <UpgradeList/>
+                <Factory7/>
+                <FactoryBase>
+                    <FactoryInputs>
+                        <Item>
+                            <Product>1591</Product>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryInputs>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1957006101</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>6</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>90</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode/>
+                <Slot>
+                    <SlotType>GoldOre</SlotType>
+                    <WorkArea>1404001301</WorkArea>
+                </Slot>
+                <AmbientMoodProvider/>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>250</Amount>
+                            <InactiveAmount>125</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>1404000012</Product>
+                            <Amount>100</Amount>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable/>
+                <Pausable/>
+                <IncidentInfectable/>
+                <Culture/>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                </Industrializable>
+                <Electrifiable>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                </Electrifiable>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="1010549">
+        <Asset>
+            <BaseAssetGUID>1010549</BaseAssetGUID>
+            <!--mining_08_workarea (Gold Ore)-->
+            <Values>
+                <Standard>
+                    <GUID>1404001301</GUID>
+                    <Name>mining_orient_01_workarea (Silver Ore)</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/mining_colony01_silver_slot_01/mining_colony01_silver_slot_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- item effect target pools and workforce menu -->
+    <ModOp Type="add" GUID="6000018,193856,368,190786,190882" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>1404001300</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- WorkforceMenu/BoostableFactories -->
+    <ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
+        <Item>
+            <Factory>1404001300</Factory>
+        </Item>
+    </ModOp>
+
+</ModOps>
