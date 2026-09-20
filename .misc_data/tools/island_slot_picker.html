@@ -145,14 +145,14 @@
 
     <h3>Picked slots <span id="mkCount" style="text-transform:none;letter-spacing:0"></span></h3>
     <div id="mkwrap"><table><thead><tr>
-      <th>type</th><th>x</th><th>y</th><th>z</th><th>object id</th><th></th></tr></thead>
+      <th>type</th><th>x</th><th>y</th><th>z</th><th>rot</th><th>object id</th><th></th></tr></thead>
       <tbody id="mkbody"></tbody></table></div>
     <div class="row">
       <button onclick="clearMarkers()">Clear all</button>
       <button onclick="renumber()">Renumber ids</button>
       <button onclick="restoreY()">Re-read Y</button>
     </div>
-    <div class="hint">Left-click places · drag pans · wheel zooms · right-click removes · click a row to centre on it.</div>
+    <div class="hint">Left-click places · drag a slot to move it, <b>shift-drag to aim it</b> (an ore node takes its work areas along either way) · <b>[</b> and <b>]</b> turn the selected slot — a quarter turn for clay/oil/ore, 5&deg; (15&deg; with shift) for a work area · drag the map to pan · wheel zooms · right-click removes.</div>
 
     <details>
       <summary>Copy/paste the XML by hand instead</summary>
@@ -253,7 +253,7 @@ const S = {
   hm:null, hmW:0, hmH:0, spt:2,
   img:null, terrain:null,
   gdText:null, gdName:"", miText:null, miName:"",
-  objects:[], usedIds:new Set(),
+  objects:[], usedIds:new Set(), managedIds:new Set(),
   markers:[], selected:-1,
   view:{s:2, tx:0, ty:0},
   hover:null,
@@ -323,7 +323,7 @@ async function openWritableFolder(){
 /** a different island must not inherit the previous one's slots or overlays */
 function resetIsland(){
   S.markers = []; S.selected = -1;
-  S.objects = []; S.usedIds = new Set();
+  S.objects = []; S.usedIds = new Set(); S.managedIds = new Set();
   S.hm = null; S.terrain = null; S.img = null;
   S.gdText = S.miText = null; S.gdName = S.miName = "";
   S.worldW = S.worldH = 0;
@@ -387,15 +387,45 @@ async function loadGamedata(file){
     S.spt = (S.hmW-1)/S.worldW;
   }
 
-  S.objects = []; S.usedIds = new Set();
-  const re = /<guid>(\d+)<\/guid>\s*<ID>(-?\d+)<\/ID>[\s\S]{0,300}?<Position>([-\d.,\s]+?)<\/Position>/g;
+  /*
+   * Slots this tool knows about are adopted as editable markers; everything
+   * else (cliffs, corals, coastline) stays as read-only context. Because the
+   * managed set is then rewritten wholesale on export rather than appended to,
+   * an existing node can be moved, turned or deleted, and saving twice is
+   * idempotent.
+   */
+  S.objects = []; S.usedIds = new Set(); S.markers = []; S.managedIds = new Set();
+
+  /* Reserve every id in the file before parsing anything, because the loop
+     below gives up on a record the moment it cannot read a <Position> - and an
+     object with no readable position still owns its id. Reserving only the ones
+     that parsed left, on colony02_l_03 alone, 3 of 88 ids free for the taking,
+     and a newly placed slot duly got handed one of them. */
+  for(const im of txt.matchAll(/<ID>(-?\d+)<\/ID>/g)) S.usedIds.add(im[1]);
+
+  const re = /<guid>(\d+)<\/guid>\s*<ID>(-?\d+)<\/ID>([\s\S]{0,320}?)<ParticipantID>/g;
   let m;
   while((m = re.exec(txt))){
-    const p = m[3].trim().replace(/,(\d)/g, ".$1").split(/\s+/).map(Number);
+    const body = m[3];
+    const pm = body.match(/<Position>([-\d.,\s]+?)<\/Position>/);
+    if(!pm) continue;
+    const p = pm[1].trim().replace(/,(\d)/g, ".$1").split(/\s+/).map(Number);
     if(p.length < 3 || p.some(Number.isNaN)) continue;
-    S.objects.push({guid:+m[1], id:BigInt(m[2]), x:p[0], y:p[1], z:p[2]});
-    S.usedIds.add(m[2]);
+    const guid = +m[1], id = m[2];
+    S.usedIds.add(id);
+    if(SLOT_BY_GUID[guid]){
+      const dm = body.match(/<Direction>([-\d.eE+]+)<\/Direction>/);
+      const fm = body.match(/<ObjectFolderID>(\d+)<\/ObjectFolderID>/);
+      const folder = fm ? +fm[1] : 0;
+      S.markers.push({guid, id:BigInt(id), x:round4(p[0]), y:round4(p[1]), z:round4(p[2]),
+                      rot: dm ? ((parseFloat(dm[1])*DEG % 360) + 360) % 360 : 0,
+                      group: folder, folder});
+      S.managedIds.add(id);
+    }else{
+      S.objects.push({guid, id:BigInt(id), x:p[0], y:p[1], z:p[2]});
+    }
   }
+  S.selected = -1;
 
   /* does this file write 1.5 or 1,5 ? FileDBReader follows the machine locale */
   $("dec").value = /<Position>-?\d+\.\d/.test(txt) ? "." : ",";
@@ -514,8 +544,25 @@ function fitView(){
   S.view.ty = (stage.clientHeight - S.worldH*s)/2;
   render();
 }
-const t2s = (tx, tz) => [tx*S.view.s + S.view.tx, tz*S.view.s + S.view.ty];
-const s2t = (sx, sy) => [(sx - S.view.tx)/S.view.s, (sy - S.view.ty)/S.view.s];
+/*
+ * The viewer draws world z growing UP the screen, so the island reads the way
+ * it does in game. Coordinates themselves are untouched — only this transform
+ * and the full-map layers below know about it.
+ */
+const t2s = (tx, tz) => [tx*S.view.s + S.view.tx, (S.worldH - tz)*S.view.s + S.view.ty];
+const s2t = (sx, sy) => [(sx - S.view.tx)/S.view.s, S.worldH - (sy - S.view.ty)/S.view.s];
+
+/** a layer covering the whole island square; `mirror` when its row 0 is z = 0 */
+function drawFullMap(img, mirror){
+  const x0 = t2s(0, 0)[0], yTop = t2s(0, S.worldH)[1];
+  const w = S.worldW*S.view.s, h = S.worldH*S.view.s;
+  if(mirror){
+    ctx.save(); ctx.translate(x0, yTop + h); ctx.scale(1, -1);
+    ctx.drawImage(img, 0, 0, w, h); ctx.restore();
+  }else{
+    ctx.drawImage(img, x0, yTop, w, h);
+  }
+}
 
 /* ---------------- rendering ---------------- */
 function render(){
@@ -524,29 +571,20 @@ function render(){
   ctx.fillRect(0, 0, stage.clientWidth, stage.clientHeight);
   if(!S.worldW) return;
 
-  const [x0, y0] = t2s(0, 0);
-  const w = S.worldW*S.view.s, h = S.worldH*S.view.s;
   const showImg = $("lyImg").checked && S.img;
   const showTer = $("lyTer").checked && S.terrain;
 
   ctx.imageSmoothingEnabled = S.view.s < 6;
-  if(showImg){
-    ctx.globalAlpha = 1;
-    if($("lyFlip").checked){          /* mapimage.png row 0 is the high-z edge */
-      ctx.save();
-      ctx.translate(x0, y0 + h);
-      ctx.scale(1, -1);
-      ctx.drawImage(S.img, 0, 0, w, h);
-      ctx.restore();
-    }else{
-      ctx.drawImage(S.img, x0, y0, w, h);
-    }
-  }
-  if(showTer){ ctx.globalAlpha = showImg ? +$("blend").value/100 : 1; ctx.drawImage(S.terrain, x0, y0, w, h); }
+  /* mapimage.png stores row 0 at the high-z edge, which is the top of a
+     z-grows-up viewer, so it needs no mirror; the layers built here run z = 0
+     first and do */
+  if(showImg){ ctx.globalAlpha = 1; drawFullMap(S.img, !$("lyFlip").checked); }
+  if(showTer){ ctx.globalAlpha = showImg ? +$("blend").value/100 : 1; drawFullMap(S.terrain, true); }
   ctx.globalAlpha = 1;
 
-  if(S.hm && $("lySlope").checked) drawOverlay(slopeLayer(), x0, y0, w, h);
-  if(S.hm && $("lyWater").checked) drawOverlay(waterLayer(), x0, y0, w, h);
+  ctx.imageSmoothingEnabled = true;
+  if(S.hm && $("lySlope").checked) drawFullMap(slopeLayer(), true);
+  if(S.hm && $("lyWater").checked) drawFullMap(waterLayer(), true);
   if($("lyGrid").checked) drawGrid();
   if($("lyObj").checked) drawObjects();
   drawMarkers();
@@ -602,7 +640,7 @@ function waterLayer(){
 
 function drawGrid(){
   const step = S.view.s >= 8 ? 1 : S.view.s >= 2 ? 8 : 32;
-  const top = t2s(0,0)[1], bot = t2s(0,S.worldH)[1];
+  const top = t2s(0,S.worldH)[1], bot = t2s(0,0)[1];
   const left = t2s(0,0)[0], right = t2s(S.worldW,0)[0];
   ctx.lineWidth = 1;
   for(let t = 0; t <= S.worldW; t += step){
@@ -636,6 +674,17 @@ function drawMarkers(){
   S.markers.forEach((m, i) => {
     const sl = SLOT_BY_GUID[m.guid];
     const [x, y] = t2s(m.x, m.z);
+
+    /* facing tick — Direction is a yaw measured like atan2(dz, dx), but the
+       viewer draws z growing UP the screen, so the vertical part is negated */
+    const a = (m.rot || 0)*Math.PI/180;
+    const len = r*2.1;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    ctx.lineTo(x + Math.cos(a)*len, y - Math.sin(a)*len);
+    ctx.lineWidth = 3; ctx.strokeStyle = "#000000aa"; ctx.stroke();
+    ctx.lineWidth = 1.5; ctx.strokeStyle = sl.color; ctx.stroke();
+
     ctx.beginPath(); ctx.arc(x, y, r, 0, 7);
     ctx.globalAlpha = 0.85; ctx.fillStyle = sl.color; ctx.fill(); ctx.globalAlpha = 1;
     ctx.lineWidth = i === S.selected ? 3 : 1.5;
@@ -656,7 +705,7 @@ function drawMarkers(){
 
 function drawHover(){
   if(!S.hover) return;
-  const [x, y] = t2s(Math.floor(S.hover[0]), Math.floor(S.hover[1]));
+  const [x, y] = t2s(Math.floor(S.hover[0]), Math.floor(S.hover[1]) + 1);
   ctx.strokeStyle = "#ffffffaa"; ctx.lineWidth = 1;
   ctx.strokeRect(x+0.5, y+0.5, Math.max(2, S.view.s), Math.max(2, S.view.s));
 }
@@ -665,9 +714,91 @@ function drawHover(){
 let drag = null;
 cv.addEventListener("mousedown", e => {
   if(e.button !== 0) return;
+  const r = cv.getBoundingClientRect();
+  const [tx, tz] = s2t(e.clientX - r.left, e.clientY - r.top);
+  const hit = hitMarker(tx, tz);
+  if(hit >= 0){
+    /* grabbing the ore node carries its work areas along, so the layout keeps
+       the spacing and bearing it was placed with; a work area moves alone */
+    const m = S.markers[hit];
+    const members = (m.guid === 1000029 && m.group)
+      ? S.markers.map((o, i) => ({i, o})).filter(({o}) => o.group === m.group)
+      : [{i:hit, o:m}];
+    if(e.shiftKey){
+      /* shift-drag aims: the slot turns to face the cursor. Grabbing the ore
+         node turns its whole group about the mine, keeping the three on one
+         axis the way vanilla lays them out. */
+      drag = {marker:true, rotate:true, i:hit, moved:false,
+              members: members.map(({i, o}) => ({i, dx:o.x - m.x, dz:o.z - m.z, rot:o.rot || 0})),
+              pivot:[m.x, m.z], rot0:m.rot || 0, from:[tx, tz]};
+      S.selected = hit;
+      render();
+      return;
+    }
+    /* offsets are stored against the grabbed marker, not the cursor, so that
+       snapping it to a tile centre shifts the whole group rather than sliding
+       the work areas out of the spacing they were placed with */
+    drag = {marker:true, i:hit, moved:false,
+            grabDx: m.x - tx, grabDz: m.z - tz,
+            members: members.map(({i, o}) => ({i, dx:o.x - m.x, dz:o.z - m.z})),
+            from:[tx, tz]};
+    S.selected = hit;
+    render();
+    return;
+  }
   drag = {x:e.clientX, y:e.clientY, tx:S.view.tx, ty:S.view.ty, moved:false};
 });
 window.addEventListener("mousemove", e => {
+  if(drag && drag.rotate){
+    const r = cv.getBoundingClientRect();
+    const [tx, tz] = s2t(e.clientX - r.left, e.clientY - r.top);
+    const aim = Math.atan2(tz - drag.pivot[1], tx - drag.pivot[0])*DEG;
+    if(Math.hypot(tx - drag.from[0], tz - drag.from[1])*S.view.s > 3) drag.moved = true;
+    if(drag.moved){
+      const turn = aim - drag.rot0;                       // how far the grab has swung
+      const rad = turn/DEG, cos = Math.cos(rad), sin = Math.sin(rad);
+      for(const mem of drag.members){
+        const m = S.markers[mem.i];
+        m.rot = snapRot(m.guid, mem.rot + turn);
+        /* members other than the pivot orbit it, so the axis stays a line */
+        const nx = drag.pivot[0] + mem.dx*cos - mem.dz*sin;
+        const nz = drag.pivot[1] + mem.dx*sin + mem.dz*cos;
+        m.x = round4(Math.max(0, Math.min(S.worldW, nx)));
+        m.z = round4(Math.max(0, Math.min(S.worldH, nz)));
+        const y = heightAt(m.x, m.z);
+        if(y !== null) m.y = round4(y);
+      }
+      checkWarnings(); rebuildTable(); rebuildOutput(); render();
+    }
+    S.hover = [tx, tz]; updateStatus();
+    return;
+  }
+  if(drag && drag.marker){
+    const r = cv.getBoundingClientRect();
+    let [tx, tz] = s2t(e.clientX - r.left, e.clientY - r.top);
+    if(Math.hypot(tx - drag.from[0], tz - drag.from[1])*S.view.s > 3) drag.moved = true;
+    if(drag.moved){
+      const anchor = S.markers[drag.i];
+      let ax = tx + drag.grabDx, az = tz + drag.grabDz;
+      /* only a buildable slot snaps to a tile centre; work areas never do */
+      if($("snap").checked && SLOT_BY_GUID[anchor.guid].slotType === 1){
+        ax = Math.floor(ax) + 0.5; az = Math.floor(az) + 0.5;
+      }
+      ax = Math.max(0, Math.min(S.worldW, ax));
+      az = Math.max(0, Math.min(S.worldH, az));
+      for(const mem of drag.members){
+        const m = S.markers[mem.i];
+        const nx = Math.max(0, Math.min(S.worldW, ax + mem.dx));
+        const nz = Math.max(0, Math.min(S.worldH, az + mem.dz));
+        m.x = round4(nx); m.z = round4(nz);
+        const y = heightAt(nx, nz);
+        if(y !== null) m.y = round4(y);
+      }
+      checkWarnings(); rebuildTable(); rebuildOutput(); render();
+    }
+    S.hover = [tx, tz]; updateStatus();
+    return;
+  }
   if(drag){
     const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
     if(Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
@@ -683,6 +814,12 @@ window.addEventListener("mousemove", e => {
   if(!drag) render();
 });
 window.addEventListener("mouseup", e => {
+  if(drag && drag.marker){
+    if(drag.moved) afterChange();          // persist the move
+    else { S.selected = drag.i; afterChange(); }
+    drag = null;
+    return;
+  }
   if(drag && !drag.moved && e.button === 0){
     const r = cv.getBoundingClientRect();
     if(e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom)
@@ -703,11 +840,14 @@ cv.addEventListener("wheel", e => {
   const [tx, tz] = s2t(mx, my);
   S.view.s = Math.max(0.3, Math.min(80, S.view.s*Math.exp(-e.deltaY*0.0014)));
   S.view.tx = mx - tx*S.view.s;
-  S.view.ty = my - tz*S.view.s;
+  S.view.ty = my - (S.worldH - tz)*S.view.s;
   render();
 }, {passive:false});
 
 function hitMarker(tx, tz){
+  /* a zero scale (files loaded while the window had no layout) would make the
+     radius infinite and every click land on an existing marker */
+  if(!(S.view.s > 0)) return -1;
   const r = Math.max(4, Math.min(11, S.view.s*1.6))/S.view.s;
   for(let i = S.markers.length-1; i >= 0; i--){
     const m = S.markers[i];
@@ -716,10 +856,31 @@ function hitMarker(tx, tz){
   return -1;
 }
 
-function addMarker(guid, x, z, rot){
+function addMarker(guid, x, z, rot, group){
   const y = heightAt(x, z);
-  S.markers.push({guid, x:round4(x), z:round4(z), y:round4(y === null ? 0 : y), rot:rot || 0, id:allocId(x, z)});
+  S.markers.push({guid, x:round4(x), z:round4(z), y:round4(y === null ? 0 : y),
+                  rot:snapRot(guid, rot || 0), id:allocId(x, z), group:group || 0});
   return S.markers.length - 1;
+}
+
+/**
+ * A mine is bound to its entrance and work area by an authored group, not by
+ * proximity — on colony01_l_01's "Mining Slot 3" the grouped mountain work area
+ * sits 13.0 tiles out while a different one sits at 10.6, so nearest-wins would
+ * pair it wrongly. Across both vanilla pools every one of the 415 mine groups
+ * also shares a single ObjectFolderID that holds nothing else.
+ *
+ * So each ore node placed here gets its own group number, and on export that
+ * becomes both an ObjectGroupCollection entry and a fresh ObjectFolderID.
+ */
+function nextFreeFolder(){
+  let max = 1;
+  if(S.gdText){
+    for(const m of S.gdText.matchAll(/<(?:ObjectFolderID|FolderID)>(\d+)</g))
+      max = Math.max(max, +m[1]);
+  }
+  for(const m of S.markers) if(m.folder) max = Math.max(max, m.folder);
+  return max + 1;
 }
 
 /**
@@ -731,15 +892,32 @@ function addMarker(guid, x, z, rot){
  * so the cave entrance sits beside the node and the mountain work area
  * climbs the slope behind it.
  */
+/* min/max are the observed vanilla range, ideal the observed median */
 const WA_SPEC = {
-  100419:  {rMin:3.8, rMax: 6.4, dyMin:-0.6, dyMax:0.7, dyIdeal:0.1},   // cave
-  1000253: {rMin:7.6, rMax:22.1, dyMin: 2.4, dyMax:8.9, dyIdeal:4.6},   // mountain
+  100419:  {rMin:3.8, rMax: 6.4, rIdeal: 5.4, dyMin:-0.6, dyMax:0.7, dyIdeal:0.1},   // cave
+  1000253: {rMin:7.6, rMax:22.1, rIdeal:11.3, dyMin: 2.4, dyMax:8.9, dyIdeal:4.6},   // mountain
 };
-function findWorkArea(x, z, guid){
+
+/**
+ * The two work areas are not independent. Over the 403 vanilla mine groups that
+ * carry both, the cave and the mountain sit on the same bearing from the mine —
+ * median 12.6 degrees apart, 99% within 45, every single one within 90 — with
+ * the cave nearer (5.4 tiles) than the mountain (11.3). The layout is a line:
+ * mine, then the cave entrance, then the work area further up the slope.
+ *
+ * So the mountain is placed first, because it is the constrained one, and its
+ * bearing is then handed to the cave.  `bearing` restricts the angular search
+ * to +/- `ARC` around it.
+ */
+const ARC = 25*Math.PI/180;
+function findWorkArea(x, z, guid, bearing){
   const s = WA_SPEC[guid], y0 = heightAt(x, z);
   if(y0 === null) return null;
+  const from = bearing === undefined ? 0 : bearing - ARC;
+  const to   = bearing === undefined ? Math.PI*2 : bearing + ARC;
+  const step = Math.PI/96;
   let best = null, bestScore = Infinity;
-  for(let a = 0; a < Math.PI*2; a += Math.PI/48)
+  for(let a = from; a <= to; a += step)
     for(let r = s.rMin; r <= s.rMax; r += 0.4){
       const px = x + Math.cos(a)*r, pz = z + Math.sin(a)*r;
       if(px < 1 || pz < 1 || px > S.worldW - 1 || pz > S.worldH - 1) continue;
@@ -747,9 +925,59 @@ function findWorkArea(x, z, guid){
       if(y === null || y <= 0) continue;
       const dy = y - y0;
       if(dy < s.dyMin || dy > s.dyMax) continue;
-      const score = Math.abs(dy - s.dyIdeal) + r*0.02;   // nudge towards the nearer fit
+      /* aim for the median vanilla offset rather than simply the nearest fit,
+         otherwise every cave pins to rMin and the spacing reads too tight */
+      let score = Math.abs(dy - s.dyIdeal) + Math.abs(r - s.rIdeal)*0.25;
+      if(bearing !== undefined) score += Math.abs(a - bearing)*1.2;   // and hold the bearing
       if(score < bestScore){ bestScore = score; best = {x:px, z:pz}; }
     }
+  return best;
+}
+
+/**
+ * Which way the three face. `Direction` is a yaw measured the same way as
+ * atan2(dz, dx), so a bearing can be written straight into it. Measured over
+ * the vanilla mine groups that carry one:
+ *   mine     faces along the bearing to its cave  (|median| off 6.9 deg)
+ *   cave     faces the same way, on up the slope  (|median| 12.1)
+ *   mountain faces back down towards the mine     (|median| 11.2)
+ * so all three share one axis, with the mountain reversed. 15% of vanilla
+ * mines carry no Direction at all and simply default to 0.
+ */
+const DEG = 180/Math.PI;
+
+/**
+ * A buildable slot only ever sits on a quarter turn: across both vanilla pools
+ * every clay (316), oil (603) and ore (416) node is exactly on 0/90/180/270,
+ * while the work areas are free — only about 4% of them land on a step.
+ */
+const freeAngle = guid => SLOT_BY_GUID[guid] && SLOT_BY_GUID[guid].slotType !== 1;
+function snapRot(guid, deg){
+  const d = ((deg % 360) + 360) % 360;
+  return freeAngle(guid) ? d : (Math.round(d/90)*90) % 360;
+}
+
+
+const waFacing = (guid, bearing) =>
+  snapRot(guid, (guid === 1000253 ? bearing + Math.PI : bearing)*DEG);
+function faceGroup(i, bearing){
+  const m = S.markers[i];
+  m.rot = snapRot(m.guid, bearing*DEG);
+}
+
+/** on ground too flat for a mountain work area, still head for whatever rise there is */
+function uphillBearing(x, z){
+  const y0 = heightAt(x, z);
+  if(y0 === null) return 0;
+  let best = 0, bestGain = -Infinity;
+  for(let a = 0; a < Math.PI*2; a += Math.PI/48){
+    let gain = 0;
+    for(let r = 4; r <= 12; r += 2){
+      const y = heightAt(x + Math.cos(a)*r, z + Math.sin(a)*r);
+      if(y !== null && y > 0) gain += y - y0;
+    }
+    if(gain > bestGain){ bestGain = gain; best = a; }
+  }
   return best;
 }
 
@@ -761,21 +989,31 @@ function placeOrSelect(tx, tz){
   if($("snap").checked){ tx = Math.floor(tx) + 0.5; tz = Math.floor(tz) + 0.5; }
 
   const guid = +document.querySelector(".slot.on").dataset.guid;
-  S.selected = addMarker(guid, tx, tz, +$("rot").value);
+  const grouping = guid === 1000029 && $("autoWa").checked && S.hm;
+  const group = grouping ? nextFreeFolder() : 0;
+  S.selected = addMarker(guid, tx, tz, +$("rot").value, group);
+  if(group) S.markers[S.selected].folder = group;
 
-  if(guid === 1000029 && $("autoWa").checked && S.hm){
-    const missing = [];
-    for(const wa of [100419, 1000253]){
-      const p = findWorkArea(tx, tz, wa);
-      if(p) addMarker(wa, p.x, p.z, 0);          // work areas are never tile-snapped
-      else missing.push(SLOT_BY_GUID[wa].name.toLowerCase());
+  if(grouping){
+    /* Cave only. Vanilla usually pairs a mine with a mountain work area as well,
+       but that one needs ground rising 2.4 to 8.9 within 7.6 to 21.3 of the
+       node, which this region does not offer. A one-sided group is not an
+       invention: 11 of vanilla's 416 mine slots carry a cave and no mountain.
+
+       With no mountain to aim at, the bearing comes from whatever rise is
+       nearby, so the cave still sits on the uphill side. */
+    const bearing = uphillBearing(tx, tz);
+    const cave = findWorkArea(tx, tz, 100419, bearing);
+    faceGroup(S.selected, bearing);
+    if(cave){                                    // work areas are never tile-snapped
+      const i = addMarker(100419, cave.x, cave.z, waFacing(100419, bearing), group);
+      S.markers[i].folder = group;
     }
-    note(missing.length
-      ? "Ore node placed, but no " + missing.join(" or ") + " fits here — the ground nearby "
-        + "does not rise the 2.4-8.9 a mountain work area needs. Flat islands often have none, "
-        + "and a cave mine does not use one."
-      : "Ore node placed with its cave and mountain work areas.",
-      missing.length ? "warn" : "ok");
+    note(cave
+      ? "Ore node placed with its cave work area."
+      : "Ore node placed, but no cave work area fits here — nothing within 3.8-6.4 "
+        + "of it is level enough. Nudge the node and try again.",
+      cave ? "ok" : "warn");
   }
   afterChange();
 }
@@ -865,6 +1103,7 @@ function rebuildTable(){
     return '<tr class="' + (i === S.selected ? "sel " : "") + (m.warn ? "bad" : "") + '" data-i="' + i + '">' +
       '<td><span class="dot" style="display:inline-block;background:' + sl.color + '"></span> ' + sl.name.split(",")[0] + '</td>' +
       '<td>' + m.x.toFixed(1) + '</td><td>' + m.y.toFixed(2) + '</td><td>' + m.z.toFixed(1) + '</td>' +
+      '<td>' + Math.round(m.rot || 0) + '&deg;</td>' +
       '<td>' + id64hex(m.id) + '</td><td class="x" data-del="' + i + '">&#10005;</td></tr>';
   }).join("");
   $("mkbody").querySelectorAll("tr").forEach(tr => {
@@ -874,7 +1113,7 @@ function rebuildTable(){
       S.selected = +tr.dataset.i;
       const m = S.markers[S.selected];
       S.view.tx = stage.clientWidth/2  - m.x*S.view.s;
-      S.view.ty = stage.clientHeight/2 - m.z*S.view.s;
+      S.view.ty = stage.clientHeight/2 - (S.worldH - m.z)*S.view.s;
       afterChange();
     };
   });
@@ -910,16 +1149,48 @@ function clearMarkers(){
 function afterChange(){ checkWarnings(); rebuildTable(); rebuildOutput(); updateSaveButtons(); render(); store(); }
 
 /* ---------------- export ---------------- */
+/**
+ * A slot's facing rides on two fields, and vanilla does not give both to
+ * everything. Counted over the 55 moderate islands:
+ *
+ *   clay 100417 / oil 100849 / mine 1000029   847 records, <Mesh> on 0 of them
+ *   work area 1000253 / 100419                598 records, <Mesh> on all 598
+ *
+ * So a buildable slot is steered by <Direction> alone, and the mesh block
+ * belongs to work areas. Writing one on a buildable slot handed the deposit a
+ * second, independent facing, which is how a vertical slot ended up with its
+ * rocks pointing one way and the mine built on it the other.
+ *
+ * Where vanilla does write both they wind against each other: Orientation is
+ * quat(-Direction) in 584 of 588 records and quat(+Direction) in none, so the
+ * work-area quaternion is built from the negated yaw. (The four odd ones out
+ * carry a little pitch or roll as well.)
+ */
+const isWorkArea = guid => guid === 1000253 || guid === 100419;
+
 function gamedataRecords(indent){
   const p = " ".repeat(indent), q = p + "  ", r = q + "  ", t = r + "  ";
   return S.markers.map(m => {
     const rad = m.rot*Math.PI/180;
     const dir = m.rot ? q + "<Direction>" + num(rad) + "</Direction>\n" : "";
-    const quat = m.rot ? [0, Math.sin(rad/2), 0, Math.cos(rad/2)].map(num).join(" ") : "0 0 0 1";
+    /* CurrentSequenceID and IdleSequenceID are 1000 on all 598 vanilla work
+       areas; only CurrentSequenceStartTime varies, and it is a runtime clock. */
+    const mesh = !isWorkArea(m.guid) ? "" :
+      q + "<Mesh>\n" +
+        r + "<Flags>\n" + t + "<flags>1</flags>\n" + r + "</Flags>\n" +
+        r + "<SequenceData>\n" +
+          t + "<CurrentSequenceID>1000</CurrentSequenceID>\n" +
+          t + "<CurrentSequenceStartTime>100</CurrentSequenceStartTime>\n" +
+          t + "<IdleSequenceID>1000</IdleSequenceID>\n" +
+        r + "</SequenceData>\n" +
+        r + "<Orientation>" +
+          [0, Math.sin(-rad/2), 0, Math.cos(rad/2)].map(num).join(" ") +
+        "</Orientation>\n" +
+      q + "</Mesh>\n";
     return p + "<None>\n" +
       q + "<guid>" + m.guid + "</guid>\n" +
       q + "<ID>" + m.id.toString() + "</ID>\n" +
-      q + "<ObjectFolderID>0</ObjectFolderID>\n" +
+      q + "<ObjectFolderID>" + (m.folder || 0) + "</ObjectFolderID>\n" +
       q + "<Position>" + num(m.x) + " " + num(m.y) + " " + num(m.z) + "</Position>\n" +
       dir +
       q + "<ParticipantID>\n" + r + "<id>8</id>\n" + q + "</ParticipantID>\n" +
@@ -931,12 +1202,7 @@ function gamedataRecords(indent){
         r + "<OverwriteVisualParticipant />\n" +
       q + "</QuestObject>\n" +
       q + "<Infolayer>\n" + r + "<Icons>\n" + t + "<None />\n" + r + "</Icons>\n" + q + "</Infolayer>\n" +
-      q + "<Mesh>\n" +
-        r + "<Flags>\n" + t + "<flags>1</flags>\n" + r + "</Flags>\n" +
-        r + "<DyeColor>-1</DyeColor>\n" +
-        r + "<SequenceData>\n" + t + "<CurrentSequenceStartTime>0</CurrentSequenceStartTime>\n" + r + "</SequenceData>\n" +
-        r + "<Orientation>" + quat + "</Orientation>\n" +
-      q + "</Mesh>\n" +
+      mesh +
       q + "<RandomMapObject />\n" +
       q + "<Selection>\n" + r + "<Detected>12336 12336 12336 12336</Detected>\n" + q + "</Selection>\n" +
       q + "<SoundEmitter />\n" +
@@ -1099,13 +1365,10 @@ function commitMarkers(targets){
     if(t.which === "gd") S.gdText = t.text;
     else S.miText = t.text;
   }
-  for(const m of S.markers){
-    S.objects.push({guid:m.guid, id:m.id, x:m.x, y:m.y, z:m.z});
-    S.usedIds.add(m.id.toString());
-  }
-  S.markers = []; S.selected = -1;
-  try{ localStorage.removeItem(storeKey()); }catch(e){}
-  checkWarnings(); rebuildTable(); rebuildOutput(); updateSaveButtons(); render();
+  /* the markers stay editable: the export replaces the managed slots rather
+     than appending, so what is on screen already matches what was written */
+  for(const m of S.markers){ S.usedIds.add(m.id.toString()); S.managedIds.add(m.id.toString()); }
+  checkWarnings(); rebuildTable(); rebuildOutput(); updateSaveButtons(); render(); store();
 }
 function save(text, name){
   const a = document.createElement("a");
@@ -1116,6 +1379,37 @@ function save(text, name){
 }
 
 /** insert the records into the first <GameObject><objects> — that is map area 8193 */
+/**
+ * Walk the direct <None> children of an <objects> body. Records contain nested
+ * <None> of their own (ObjectWasVisible, Icons), so depth has to be tracked;
+ * self-closing <None /> is a leaf and does not change it.
+ */
+function eachRecord(body, fn){
+  const re = /<None\s*\/>|<None>|<\/None>/g;
+  let depth = 0, start = -1, m;
+  while((m = re.exec(body))){
+    if(m[0][m[0].length-2] === "/") continue;            // <None />
+    if(m[0] === "<None>"){ if(depth === 0) start = m.index; depth++; }
+    else if(--depth === 0 && start >= 0){ fn(start, m.index + m[0].length); start = -1; }
+  }
+}
+
+/** drop every record for a slot type this tool owns, so markers can replace them */
+function stripManaged(body){
+  const keep = [];
+  let last = 0;
+  eachRecord(body, (a, b) => {
+    const gm = body.slice(a, a + 200).match(/<guid>(\d+)<\/guid>/);
+    if(gm && SLOT_BY_GUID[+gm[1]]){
+      keep.push(body.slice(last, a).replace(/\s*$/, "\n"));
+      last = b;
+      while(last < body.length && (body[last] === "\n" || body[last] === "\r")) last++;
+    }
+  });
+  keep.push(body.slice(last));
+  return keep.join("");
+}
+
 function patchGamedata(txt){
   const go = txt.indexOf("<GameObject>");
   if(go < 0) throw new Error("no <GameObject> in this file");
@@ -1127,13 +1421,103 @@ function patchGamedata(txt){
   const indent = anchor - (txt.lastIndexOf("\n", anchor) + 1);
   const body = gamedataRecords(indent + 2);
   if(useSelf){
-    return txt.slice(0, anchor) + "<objects>\n" + body + "\n" + " ".repeat(indent) + "</objects>"
-         + txt.slice(anchor + "<objects />".length);
+    txt = txt.slice(0, anchor) + "<objects>\n" + body + "\n" + " ".repeat(indent) + "</objects>"
+        + txt.slice(anchor + "<objects />".length);
+  }else{
+    const close = txt.indexOf("</objects>", open);
+    if(close < 0) throw new Error("unclosed <objects>");
+    const inner = txt.slice(open + "<objects>".length, close);
+    const cleaned = stripManaged(inner);                 // replace, never append
+    const closeLine = cleaned.lastIndexOf("\n") + 1;
+    txt = txt.slice(0, open + "<objects>".length)
+        + cleaned.slice(0, closeLine) + body + "\n" + cleaned.slice(closeLine)
+        + txt.slice(close);
   }
-  const close = txt.indexOf("</objects>", open);
-  if(close < 0) throw new Error("unclosed <objects>");
-  const closeLine = txt.lastIndexOf("\n", close) + 1;
-  return txt.slice(0, closeLine) + body + "\n" + txt.slice(closeLine);
+  return patchGroups(txt);
+}
+
+/**
+ * Remove the ObjectGroups whose every member is a slot this tool owns, so the
+ * current groups replace them. A group holding anything else — decoration, an
+ * Enbesa riverslot pair — is left alone.
+ */
+function stripManagedGroups(txt){
+  const a = txt.indexOf("<ObjectGroups>");
+  if(a < 0) return txt;
+  const b = txt.indexOf("</ObjectGroups>", a);
+  if(b < 0) return txt;
+  const body = txt.slice(a + "<ObjectGroups>".length, b);
+  const ours = new Set([...S.managedIds || [], ...S.markers.map(m => m.id.toString())]);
+  /* entries alternate: a name element, then one holding <GameObjects> */
+  const re = /<None>([^<]*)<\/None>\s*<None>\s*<GameObjects>([\s\S]*?)<\/GameObjects>\s*<\/None>/g;
+  let out = body, m;
+  const drop = [];
+  while((m = re.exec(body))){
+    const ids = [...m[2].matchAll(/<None>(-?\d+)<\/None>/g)].map(x => x[1]);
+    if(ids.length && ids.every(id => ours.has(id))) drop.push(m[0]);
+  }
+  for(const d of drop) out = out.replace(d, "").replace(/\n\s*\n\s*\n/g, "\n");
+  return txt.slice(0, a + "<ObjectGroups>".length) + out + txt.slice(b);
+}
+
+/** the groups each placed mine forms with its entrance and work area */
+function markerGroups(){
+  const by = new Map();
+  for(const m of S.markers){
+    if(!m.group) continue;
+    if(!by.has(m.group)) by.set(m.group, []);
+    by.get(m.group).push(m);
+  }
+  return [...by.entries()].filter(([, ms]) => ms.length > 1);   // a lone node is not a group
+}
+
+/**
+ * Register each mine group twice, the way every vanilla island does it:
+ * once in ObjectGroupCollection (name + the member object ids) and once as a
+ * folder in ObjectGroupFilterCollection, matching the ObjectFolderID the
+ * records carry. Both live in the first AreaObjectManager, the same area 8193
+ * the objects went into.
+ */
+function patchGroups(txt){
+  txt = stripManagedGroups(txt);
+  const groups = markerGroups();
+  if(!groups.length) return txt;
+
+  /* --- ObjectGroupCollection/ObjectGroups --- */
+  const gcOpen = txt.indexOf("<ObjectGroups>");
+  const gcSelf = txt.indexOf("<ObjectGroups />");
+  if(gcOpen < 0 && gcSelf < 0) throw new Error("no <ObjectGroups> to add the mine groups to");
+  const useSelfG = gcSelf >= 0 && (gcOpen < 0 || gcSelf < gcOpen);
+  const gAnchor = useSelfG ? gcSelf : gcOpen;
+  const gIndent = gAnchor - (txt.lastIndexOf("\n", gAnchor) + 1);
+  const gp = " ".repeat(gIndent + 2), gq = gp + "  ", gr = gq + "  ";
+  const entries = groups.map(([grp, ms]) =>
+    gp + "<None>Mining Slot " + grp + "</None>\n" +
+    gp + "<None>\n" + gq + "<GameObjects>\n" +
+    ms.map(m => gr + "<None>" + m.id.toString() + "</None>").join("\n") + "\n" +
+    gq + "</GameObjects>\n" + gp + "</None>").join("\n");
+
+  if(useSelfG){
+    txt = txt.slice(0, gAnchor) + "<ObjectGroups>\n" + entries + "\n" + " ".repeat(gIndent) + "</ObjectGroups>"
+        + txt.slice(gAnchor + "<ObjectGroups />".length);
+  }else{
+    const gClose = txt.indexOf("</ObjectGroups>", gcOpen);
+    if(gClose < 0) throw new Error("unclosed <ObjectGroups>");
+    const line = txt.lastIndexOf("\n", gClose) + 1;
+    txt = txt.slice(0, line) + entries + "\n" + txt.slice(line);
+  }
+
+  /* --- ObjectGroupFilterCollection: one folder per group, at root level --- */
+  const fOpen = txt.indexOf("<Filter>");
+  if(fOpen < 0) return txt;                  // no folder tree: groups alone still work
+  const fIndent = fOpen - (txt.lastIndexOf("\n", fOpen) + 1);
+  const fp = " ".repeat(fIndent + 2), fq = fp + "  ";
+  const folders = groups.map(([grp]) =>
+    fp + "<None>\n" + fq + "<FolderID>" + grp + "</FolderID>\n" + fq + "<Filter />\n" + fp + "</None>").join("\n");
+  const fClose = txt.indexOf("</Filter>", fOpen);
+  if(fClose < 0) return txt;
+  const fLine = txt.lastIndexOf("\n", fClose) + 1;
+  return txt.slice(0, fLine) + folders + "\n" + txt.slice(fLine);
 }
 
 /** merge the entries into <SlotObjects>, reusing a key group when one is already there */
@@ -1145,6 +1529,16 @@ function patchA7minfo(txt){
   const doc = new DOMParser().parseFromString(txt.slice(a, b + "</SlotObjects>".length), "application/xml");
   if(doc.querySelector("parsererror")) throw new Error("could not parse SlotObjects");
   const root = doc.documentElement;
+
+  /* clear out the entries this tool owns first — riverslots and anything else
+     sharing the same SlotType key are matched by guid, so they survive */
+  const ourHex = new Set(SLOTS.map(s => i32hex(s.guid)));
+  for(const listEl of [...root.children]){
+    for(const rec of [...listEl.children]){
+      const g = rec.querySelector(":scope > ObjectGuid");
+      if(g && ourHex.has(g.textContent.trim().toUpperCase())) rec.remove();
+    }
+  }
 
   for(const [key, list] of slotGroups()){
     const keyHex = i16hex(key);
@@ -1192,7 +1586,8 @@ const storeKey = () => "annoSlotPicker:" + (S.islandName || "unnamed");
 function store(){
   try{
     localStorage.setItem(storeKey(), JSON.stringify(
-      S.markers.map(m => ({g:m.guid, x:m.x, y:m.y, z:m.z, r:m.rot, i:m.id.toString()}))));
+      S.markers.map(m => ({g:m.guid, x:m.x, y:m.y, z:m.z, r:m.rot, i:m.id.toString(),
+                           gr:m.group || 0, f:m.folder || 0}))));
   }catch(e){}
 }
 function loadStored(){
@@ -1200,7 +1595,8 @@ function loadStored(){
   try{
     const raw = localStorage.getItem(storeKey());
     if(!raw) return;
-    S.markers = JSON.parse(raw).map(o => ({guid:o.g, x:o.x, y:o.y, z:o.z, rot:o.r||0, id:BigInt(o.i)}));
+    S.markers = JSON.parse(raw).map(o => ({guid:o.g, x:o.x, y:o.y, z:o.z, rot:o.r||0, id:BigInt(o.i),
+                                           group:o.gr || 0, folder:o.f || 0}));
     afterChange();
   }catch(e){}
 }
@@ -1212,8 +1608,20 @@ $("slopeMax").addEventListener("input", () => { slopeCache = null; checkWarnings
 $("dec").addEventListener("change", rebuildOutput);
 $("snap").addEventListener("change", updateStatus);
 window.addEventListener("keydown", e => {
-  if((e.key === "Delete" || e.key === "Backspace") && S.selected >= 0 && e.target === document.body){
+  if(S.selected < 0 || e.target !== document.body) return;
+  if(e.key === "Delete" || e.key === "Backspace"){
     S.markers.splice(S.selected, 1); S.selected = -1; afterChange();
+    return;
+  }
+  /* [ and ] turn the selected slot: a quarter turn for a buildable slot, which
+     is all the game allows one, and 5 (15 with shift) for a free work area */
+  const turn = e.key === "[" ? -1 : e.key === "]" ? 1 : 0;
+  if(turn){
+    e.preventDefault();
+    const m = S.markers[S.selected];
+    const step = freeAngle(m.guid) ? (e.shiftKey ? 15 : 5)*turn : 90*turn;
+    m.rot = snapRot(m.guid, (m.rot || 0) + step);
+    afterChange();
   }
 });
 

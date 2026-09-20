@@ -23222,6 +23222,86 @@
                           <FolderID>5</FolderID>
                           <Filter />
                         </None>
+                    <None>
+                      <FolderID>6</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>7</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>8</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>9</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>10</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>11</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>12</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>13</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>14</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>15</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>6</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>7</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>8</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>9</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>10</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>11</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>12</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>13</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>14</FolderID>
+                      <Filter />
+                    </None>
+                    <None>
+                      <FolderID>15</FolderID>
+                      <Filter />
+                    </None>
                       </Filter>
                     </None>
                     <None>
@@ -23261,10 +23341,135 @@
                       <None>-9205357634050326524</None>
                     </GameObjects>
                   </None>
+                  <None>Mining Slot 6</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9218868432932438012</None>
+                      <None>-9218868432932438011</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 7</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9191846835168215028</None>
+                      <None>-9191846835168215027</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 8</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9201979934329798650</None>
+                      <None>-9201979934329798649</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 9</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9199728134516113397</None>
+                      <None>-9199728134516113396</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 10</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9214364833305067514</None>
+                      <None>-9214364833305067513</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 11</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9198602234609270778</None>
+                      <None>-9198602234609270777</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 12</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9199728134516113395</None>
+                      <None>-9199728134516113394</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 13</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9207609433864011774</None>
+                      <None>-9207609433864011773</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 14</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9205357634050326522</None>
+                      <None>-9205357634050326521</None>
+                    </GameObjects>
+                  </None>
+                  <None>Mining Slot 15</None>
+                  <None>
+                    <GameObjects>
+                      <None>-9213238933398224894</None>
+                      <None>-9214364833305067512</None>
+                    </GameObjects>
+                  </None>
                 </ObjectGroups>
               </ObjectGroupCollection>
               <GameObject>
                 <objects>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                   <None>
                     <guid>100849</guid>
                     <ID>-9199728134516113407</ID>
@@ -23288,16 +23493,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23327,16 +23522,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23366,16 +23551,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23405,16 +23580,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23444,16 +23609,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23483,16 +23638,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23522,16 +23667,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23561,16 +23696,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23600,16 +23725,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23639,16 +23754,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23678,16 +23783,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23717,16 +23812,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23756,16 +23841,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23795,16 +23870,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23834,16 +23899,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23873,16 +23928,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23912,16 +23957,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23951,16 +23986,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -23990,16 +24015,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24029,16 +24044,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24068,16 +24073,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24107,16 +24102,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24146,16 +24131,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24185,16 +24160,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24224,16 +24189,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24263,16 +24218,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24302,16 +24247,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24341,16 +24276,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24380,16 +24305,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24419,16 +24334,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24458,16 +24363,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24476,9 +24371,9 @@
                   </None>
                   <None>
                     <guid>100417</guid>
-                    <ID>-9201979934329798653</ID>
+                    <ID>-9201979934329798651</ID>
                     <ObjectFolderID>0</ObjectFolderID>
-                    <Position>138.5 0.6172 206.5</Position>
+                    <Position>193.5 2.0234 210.5</Position>
                     <ParticipantID>
                       <id>8</id>
                     </ParticipantID>
@@ -24497,16 +24392,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24536,16 +24421,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24575,16 +24450,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24614,16 +24479,6 @@
                         <None />
                       </Icons>
                     </Infolayer>
-                    <Mesh>
-                      <Flags>
-                        <flags>1</flags>
-                      </Flags>
-                      <DyeColor>-1</DyeColor>
-                      <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
-                      </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
-                    </Mesh>
                     <RandomMapObject />
                     <Selection>
                       <Detected>12336 12336 12336 12336</Detected>
@@ -24653,15 +24508,712 @@
                         <None />
                       </Icons>
                     </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9218868432932438012</ID>
+                    <ObjectFolderID>6</ObjectFolderID>
+                    <Position>264.5 2.4531 225.5</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9218868432932438011</ID>
+                    <ObjectFolderID>6</ObjectFolderID>
+                    <Position>268.4003 2.3699 225.5808</Position>
+                    <Direction>0.0279</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
                     <Mesh>
                       <Flags>
                         <flags>1</flags>
                       </Flags>
-                      <DyeColor>-1</DyeColor>
                       <SequenceData>
-                        <CurrentSequenceStartTime>0</CurrentSequenceStartTime>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
                       </SequenceData>
-                      <Orientation>0 0 0 1</Orientation>
+                      <Orientation>0 -0.0139 0 0.9999</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9191846835168215028</ID>
+                    <ObjectFolderID>7</ObjectFolderID>
+                    <Position>239.5 3.3828 233.5</Position>
+                    <Direction>1.5708</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9191846835168215027</ID>
+                    <ObjectFolderID>7</ObjectFolderID>
+                    <Position>239.5287 3.4594 236.4678</Position>
+                    <Direction>1.6079</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.7201 0 0.6939</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9201979934329798650</ID>
+                    <ObjectFolderID>8</ObjectFolderID>
+                    <Position>128.5 0.6172 210.5</Position>
+                    <Direction>1.5708</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9201979934329798649</ID>
+                    <ObjectFolderID>8</ObjectFolderID>
+                    <Position>128.3431 1.3374 214.4606</Position>
+                    <Direction>1.5588</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.7029 0 0.7113</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9199728134516113397</ID>
+                    <ObjectFolderID>9</ObjectFolderID>
+                    <Position>151.5 1.3438 220.5</Position>
+                    <Direction>1.5708</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9199728134516113396</ID>
+                    <ObjectFolderID>9</ObjectFolderID>
+                    <Position>151.4383 1.6594 224.3968</Position>
+                    <Direction>1.9635</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.8315 0 0.5556</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9214364833305067514</ID>
+                    <ObjectFolderID>10</ObjectFolderID>
+                    <Position>184.5 1.6797 125.5</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9214364833305067513</ID>
+                    <ObjectFolderID>10</ObjectFolderID>
+                    <Position>188.6679 1.736 125.7122</Position>
+                    <Direction>6.2433</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.0199 0 -0.9998</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9198602234609270778</ID>
+                    <ObjectFolderID>11</ObjectFolderID>
+                    <Position>278.5 1.625 209.5</Position>
+                    <Direction>1.5708</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9198602234609270777</ID>
+                    <ObjectFolderID>11</ObjectFolderID>
+                    <Position>278.6118 1.7701 213.3699</Position>
+                    <Direction>1.5413</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.6966 0 0.7175</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9199728134516113395</ID>
+                    <ObjectFolderID>12</ObjectFolderID>
+                    <Position>211.5 2.6719 215.5</Position>
+                    <Direction>1.5708</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9199728134516113394</ID>
+                    <ObjectFolderID>12</ObjectFolderID>
+                    <Position>211.4171 2.7068 218.8179</Position>
+                    <Direction>1.6072</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.7198 0 0.6941</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9207609433864011774</ID>
+                    <ObjectFolderID>13</ObjectFolderID>
+                    <Position>198.5 1.9922 137.5</Position>
+                    <Direction>4.7124</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9207609433864011773</ID>
+                    <ObjectFolderID>13</ObjectFolderID>
+                    <Position>198.5316 1.9811 133.9747</Position>
+                    <Direction>4.9087</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.6344 0 -0.773</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9205357634050326522</ID>
+                    <ObjectFolderID>14</ObjectFolderID>
+                    <Position>289.5 2.7188 256.5</Position>
+                    <Direction>3.1416</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9205357634050326521</ID>
+                    <ObjectFolderID>14</ObjectFolderID>
+                    <Position>285.6045 2.7618 256.3565</Position>
+                    <Direction>3.211</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.9994 0 -0.0347</Orientation>
+                    </Mesh>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>1000029</guid>
+                    <ID>-9213238933398224894</ID>
+                    <ObjectFolderID>15</ObjectFolderID>
+                    <Position>257.5 2.2031 124.5</Position>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <RandomMapObject />
+                    <Selection>
+                      <Detected>12336 12336 12336 12336</Detected>
+                    </Selection>
+                    <SoundEmitter />
+                  </None>
+                  <None>
+                    <guid>100419</guid>
+                    <ID>-9214364833305067512</ID>
+                    <ObjectFolderID>15</ObjectFolderID>
+                    <Position>260.8482 2.5067 124.509</Position>
+                    <Direction>6.1345</Direction>
+                    <ParticipantID>
+                      <id>8</id>
+                    </ParticipantID>
+                    <Blocking />
+                    <Building />
+                    <QuestObject>
+                      <QuestIDs />
+                      <ObjectWasVisible>
+                        <None>False</None>
+                        <None>False</None>
+                      </ObjectWasVisible>
+                      <OverwriteVisualParticipant />
+                    </QuestObject>
+                    <Infolayer>
+                      <Icons>
+                        <None />
+                      </Icons>
+                    </Infolayer>
+                    <Mesh>
+                      <Flags>
+                        <flags>1</flags>
+                      </Flags>
+                      <SequenceData>
+                        <CurrentSequenceID>1000</CurrentSequenceID>
+                        <CurrentSequenceStartTime>100</CurrentSequenceStartTime>
+                        <IdleSequenceID>1000</IdleSequenceID>
+                      </SequenceData>
+                      <Orientation>0 -0.0743 0 -0.9972</Orientation>
                     </Mesh>
                     <RandomMapObject />
                     <Selection>

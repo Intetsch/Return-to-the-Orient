@@ -43,11 +43,11 @@
   },
   "DLCDependencies": [
     {
-      "DLC":"LandOfLions",
+      "DLC": "LandOfLions",
       "Dependant": "required"
     },
     {
-      "DLC":"NewWorldRising",
+      "DLC": "NewWorldRising",
       "Dependant": "required"
     }
   ],
@@ -83,7 +83,7 @@
     "Taludas_sharedproduct_silkfabric",
     "natoncy_return_to_the_orient_after_other_mods"
   ],
-  "KnownIssues":[
+  "KnownIssues": [
     {
       "English": "Trading post ghost invisible, will not fix"
     },
@@ -94,5 +94,8 @@
       "English": "Pilgrimage Reward Subheader not displayed correctly"
     }
   ],
-  "CreatorName": "Natoncy"
+  "CreatorName": "Natoncy",
+  "LoadAfterIds": [
+    "shared_production_silver_bars"
+  ]
 }
