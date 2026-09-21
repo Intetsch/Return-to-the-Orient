@@ -26,6 +26,19 @@
                     <AnimalDescription>1404000232</AnimalDescription>
                     <Street>1404000845</Street>
                     <DistributionCenter>1404000218</DistributionCenter>
+                    <!-- Drives the "build X here" button on a selected deposit.
+                         No Oil entry on purpose: neither the Region template default nor
+                         Colony01 has one, so vanilla oil fields only offer "move deposit" -
+                         the pump 1404000875 is a module of the oil plant 1404000874 and is
+                         placed from there. Listing it here added a stray "Build Mine". -->
+                    <SlotBuildings>
+                        <GoldOre>
+                            <Building>1404001300</Building>
+                        </GoldOre>
+                        <Clay>
+                            <Building>1404001285</Building>
+                        </Clay>
+                    </SlotBuildings>
                     <ConstructionMaterialList>
                         <Item>
                             <VectorElement>

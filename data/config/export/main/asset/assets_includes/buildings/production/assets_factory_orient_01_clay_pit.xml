@@ -36,7 +36,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Filename>data/graphics/buildings/production/factory_colony_01_04/factory_colony_01_04.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/factory_orient_01/factory_orient_01.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
@@ -84,6 +84,10 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                </Industrializable>
             </Values>
         </Asset>
     </ModOp>

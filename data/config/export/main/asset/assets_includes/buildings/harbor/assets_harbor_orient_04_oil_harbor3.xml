@@ -99,6 +99,14 @@
 						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/harbor_orient_04/harbor_orient_04_03.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Upgradable>
 					<NextGUID>1404000870</NextGUID>
 					<!--harbor_africa_14d (Oil Harbor IV)-->

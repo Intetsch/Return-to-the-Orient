@@ -40,8 +40,9 @@
                 </MinimapToken>
                 <RandomMapObject />
                 <Building>
-                    <Movable>1</Movable>
-                    <MoveRequiredGodlike>MoveClay</MoveRequiredGodlike>
+                    <!-- No Movable/MoveRequiredGodlike: mirrors the arctic and moderate gold
+                         deposits (116038 / 1010507), which keep the Slot template default of
+                         Movable=0 and therefore show no "move deposit" button. -->
                     <AssociatedRegions>Mod3</AssociatedRegions>
                 </Building>
                 <SoundEmitter>

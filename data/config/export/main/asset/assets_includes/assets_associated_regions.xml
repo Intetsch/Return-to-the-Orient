@@ -27,8 +27,8 @@
         <AssociatedRegions>Colony01;Mod3</AssociatedRegions>
     </ModOp>
 
-	<!-- Mine deposits -->
-	<ModOp Type="add" GUID="101061,101062" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- Clay slot -->
+	<ModOp Type="add" GUID="101061" Path="/Values/Building/AssociatedRegions">;Mod3</ModOp>
 
 	<!-- Quay system -->
 	<ModOp Type="add" GUID="101339" Path="/Values/Building/AssociatedRegions" Condition="/Values/Building/AssociatedRegions">;Mod3</ModOp>

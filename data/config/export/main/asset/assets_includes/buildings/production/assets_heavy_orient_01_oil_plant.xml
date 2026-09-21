@@ -40,6 +40,13 @@
                         </Item>
                     </Costs>
                 </Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/heavy_orient_01/heavy_orient_01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
 				<Mesh/>
 				<Selection>
 					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
@@ -108,6 +115,14 @@
 				<Text>
 					<TextOverride>100524</TextOverride>
 				</Text>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/heavy_orient_01/heavy_orient_01_field.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 			</Values>
 		</Asset>
 	</ModOp>
