@@ -1,0 +1,34 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="120022">
+    <Asset>
+        <Template>Product</Template>
+        <Values>
+            <Standard>
+                <GUID>1404000880</GUID>
+                <Name>FakeProduct CanalWater</Name>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_water_drop.png</IconFilename>
+                <InfoDescription>12473</InfoDescription>
+                <!--Product Description Electricity-->
+            </Standard>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Electricity</Text>
+                        <Status>Exported</Status>
+                    </English>
+                </LocaText>
+                <LineID>5395</LineID>
+            </Text>
+            <Locked/>
+            <Product>
+                <StorageLevel>Area</StorageLevel>
+                <DeltaOnly>1</DeltaOnly>
+                <IsAbstract>1</IsAbstract>
+            </Product>
+            <ExpeditionAttribute/>
+        </Values>
+    </Asset>
+    </ModOp>
+
+</ModOps>
