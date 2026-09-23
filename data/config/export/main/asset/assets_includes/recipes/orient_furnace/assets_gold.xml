@@ -1,0 +1,48 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000882</GUID>
+                    <Name>Recipe_Gold</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_gold.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ceremonial Sabers</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404000879</RecipeBuilding>
+                    <RecipeDescriptionText>1404000592</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_ceremonial_sabers.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>350</PosX>
+                            <PosY>380</PosY>
+                            <UICirclePointer>West</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>160</PosX>
+                            <PosY>70</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>80</PosX>
+                            <PosY>70</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

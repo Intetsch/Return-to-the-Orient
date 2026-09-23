@@ -1,0 +1,76 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000877</GUID>
+					<Name>asset pool orient Furnace</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404000876</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000878</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000879</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000880</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000881</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000882</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000883</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000884</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000885</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000886</Asset>
+						</Item>
+						<Item>
+							<Asset>1404000887</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005001</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005002</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005003</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005004</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005005</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005006</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005007</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005008</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>
