@@ -5,9 +5,9 @@
 			<Template>Multifactory</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000883</GUID>
-					<Name>furnace_orient_01 (silver)</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_silver_smelter.png</IconFilename>
+					<GUID>1404000879</GUID>
+					<Name>furnace_orient_02 (gold)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_gold.png</IconFilename>
 					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
@@ -98,33 +98,28 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1957006101</Product>
-                            <Amount>1</Amount>
-							<StorageAmount>3</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1957006121</Product>
-                            <Amount>1</Amount>
-							<StorageAmount>3</StorageAmount>
+							<Product>1010233</Product>
+							<Amount>1</Amount>
+							<StorageAmount>10</StorageAmount>
 						</Item>
 						<Item>
 							<Product>1404000880</Product>
 							<StorageAmount>3</StorageAmount>
 						</Item>
-						<Item>
+                        <Item>
 							<Product>1010566</Product>
-							<Amount>2</Amount>
+                            <Amount>6</Amount>
 							<StorageAmount>200</StorageAmount>
 						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
-							<Product>1957006151</Product>
-							<Amount>2</Amount>
-							<StorageAmount>12</StorageAmount>
+							<Product>1010249</Product>
+							<Amount>3</Amount>
+							<StorageAmount>21</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>120</CycleTime>
+					<CycleTime>60</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode>
@@ -193,14 +188,14 @@
 
 	<ModOp Type="add" GUID="6000018,193856,368,193875,193771" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
-			<GUID>1404000883</GUID>
+			<GUID>1404000879</GUID>
 		</Item>
 	</ModOp>
 
 	<!-- WorkforceMenu/BoostableFactories -->
 	<ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
 		<Item>
-			<Factory>1404000883</Factory>
+			<Factory>1404000879</Factory>
 		</Item>
 	</ModOp>
 
