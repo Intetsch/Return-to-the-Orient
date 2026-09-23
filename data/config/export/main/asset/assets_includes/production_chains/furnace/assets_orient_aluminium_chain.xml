@@ -1,0 +1,52 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005007</GUID>
+                    <Name>orient aluminium chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_aluminium.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005001</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1308</Building>
+                        </Item>
+                        <Item>
+                            <Building>112842</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000212</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>119035</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000874</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked>
+					<DLCDependency>24962</DLCDependency>
+				</Locked>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Ceremonial Sabers</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

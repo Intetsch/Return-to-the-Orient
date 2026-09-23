@@ -1,0 +1,41 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135415">
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000878</GUID>
+                    <Name>RecipeList_Orient_Furnace</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_multifactory_assembly_line.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1404000313</TextOverride>
+                </Text>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>1404000881</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404000882</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404000885</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404000887</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404005002</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>AssemblyLine</RecipeListType>
+                    <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_assembly_line.png</RecipeListMoodImage>
+                    <RecipeListDescription>135974</RecipeListDescription>
+                </RecipeList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
