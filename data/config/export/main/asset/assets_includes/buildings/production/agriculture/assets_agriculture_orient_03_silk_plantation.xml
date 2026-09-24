@@ -5,9 +5,9 @@
 			<Template>FarmBuilding</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000292</GUID>
-					<Name>agriculture_orient_04 (Rose Nursery)</Name>
-					<IconFilename>data/ui/Icons/icon_rosenfarm.png</IconFilename>
+					<GUID>1404000169</GUID>
+					<Name>agriculture_orient_03 (Silk Plantation)</Name>
+					<IconFilename>data\modgraphics\ui\icon_silk.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -26,7 +26,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Amount>2000</Amount>
+							<Amount>1000</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -39,7 +39,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
-							<Amount>10</Amount>
+							<Amount>8</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -52,7 +52,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>114402</Ingredient>
-							<Amount>2</Amount>
+							<Amount>0</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -65,7 +65,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
-							<Amount>1</Amount>
+							<Amount>0</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -93,9 +93,9 @@
 				</Cost>
 				<Object>
 					<Variations>
-                        <Item>
-                            <Filename>data/graphics/1404_import/buildings/farm/south/rose_nursery/s_rose_nursery.cfg</Filename>
-                        </Item>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/farm/south/silk_plantation/s_silk_plantation.cfg</Filename>
+						</Item>
 					</Variations>
 					<Skins>
 						<DefaultSkinName>1404000169</DefaultSkinName>
@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Rose Nursery</Text>
+							<Text>Silk Plantation</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -138,17 +138,19 @@
 				<Infolayer/>
 				<UpgradeList/>
 				<Factory7>
-					<NeededFertility>1404000293</NeededFertility>
+					<NeededFertility>1404000177</NeededFertility>
 				</Factory7>
 				<FactoryBase>
+					<FactoryInputs>
+					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
-							<Product>1900100099</Product>
+							<Product>1440209</Product>
 							<Amount>1</Amount>
-							<StorageAmount>6</StorageAmount>
+							<StorageAmount>2</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>90</CycleTime>
+					<CycleTime>120</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
@@ -160,9 +162,10 @@
 					</ModuleLimits>
 					<ConstructionOptions>
 						<Item>
-							<ModuleGUID>1404000588</ModuleGUID>
+							<ModuleGUID>1404000200</ModuleGUID>
 						</Item>
 					</ConstructionOptions>
+					<AdditionalModule>1404005010</AdditionalModule>
 					<ModuleBuildRadius>0</ModuleBuildRadius>
 					<EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
 					<IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
@@ -223,14 +226,14 @@
 
 	<ModOp Type="add" GUID="6000018,193856,190011,190865,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
-			<GUID>1404000292</GUID>
+			<GUID>1404000169</GUID>
 		</Item>
 	</ModOp>
 
 	<!-- WorkforceMenu/BoostableFactories -->
 	<ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
 		<Item>
-			<Factory>1404000292</Factory>
+			<Factory>1404000169</Factory>
 		</Item>
 	</ModOp>
 

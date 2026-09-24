@@ -5,9 +5,9 @@
 			<Template>FarmBuilding</Template>
 			<Values>
 				<Standard>
-					<GUID>1404000300</GUID>
-					<Name>agriculture_orient_05 (Pomegranate Farm)</Name>
-					<IconFilename>data\modgraphics\ui\icon_pomegranate_juice.png</IconFilename>
+					<GUID>1404000160</GUID>
+					<Name>agriculture_orient_02 (Almond Plantation)</Name>
+					<IconFilename>data\modgraphics\ui\icon_almonds.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
@@ -26,7 +26,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Amount>2500</Amount>
+							<Amount>6000</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -39,7 +39,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
-							<Amount>10</Amount>
+							<Amount>12</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -52,7 +52,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>114402</Ingredient>
-							<Amount>0</Amount>
+							<Amount>6</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -65,7 +65,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
-							<Amount>0</Amount>
+							<Amount>1</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -93,12 +93,12 @@
 				</Cost>
 				<Object>
 					<Variations>
-                        <Item>
-                            <Filename>data/graphics/1404_import/buildings/farm/south/coffee_plantation/s_coffee_plantation.cfg</Filename>
-                        </Item>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/farm/south/almond_grove/s_almond_grove.cfg</Filename>
+						</Item>
 					</Variations>
 					<Skins>
-						<DefaultSkinName>1404000300</DefaultSkinName>
+						<DefaultSkinName>1404000160</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
 					</Skins>
@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Pomegranate Farm</Text>
+							<Text>Mosaic Workshop</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -138,17 +138,17 @@
 				<Infolayer/>
 				<UpgradeList/>
 				<Factory7>
-					<NeededFertility>1404000301</NeededFertility>
+					<NeededFertility>1404000008</NeededFertility>
 				</Factory7>
 				<FactoryBase>
 					<FactoryOutputs>
 						<Item>
-							<Product>1404000265</Product>
+							<Product>1999005084</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>30</CycleTime>
+					<CycleTime>60</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
@@ -160,9 +160,10 @@
 					</ModuleLimits>
 					<ConstructionOptions>
 						<Item>
-							<ModuleGUID>1404000596</ModuleGUID>
+							<ModuleGUID>1404000201</ModuleGUID>
 						</Item>
 					</ConstructionOptions>
+					<AdditionalModule>1404005010</AdditionalModule>
 					<ModuleBuildRadius>0</ModuleBuildRadius>
 					<EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
 					<IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
@@ -177,12 +178,12 @@
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>8</Amount>
-							<InactiveAmount>5</InactiveAmount>
+							<Amount>75</Amount>
+							<InactiveAmount>40</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1404000012</Product>
-							<Amount>25</Amount>
+							<Amount>40</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -223,14 +224,14 @@
 
 	<ModOp Type="add" GUID="6000018,193856,190011,190865,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
-			<GUID>1404000300</GUID>
+			<GUID>1404000160</GUID>
 		</Item>
 	</ModOp>
 
 	<!-- WorkforceMenu/BoostableFactories -->
 	<ModOp Type="add" GUID="25000087" Path="/Values/WorkforceMenu/BoostableFactories">
 		<Item>
-			<Factory>1404000300</Factory>
+			<Factory>1404000160</Factory>
 		</Item>
 	</ModOp>
 
