@@ -32,7 +32,9 @@
                     <!-- 190846 or 7106 or 5749 -->
                     <TextOverride>5749</TextOverride>
                 </Text>
-                <Locked />
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
             </Values>
         </Asset>
     </ModOp>
