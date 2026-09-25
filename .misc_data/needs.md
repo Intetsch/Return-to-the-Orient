@@ -68,9 +68,53 @@
     - Marketstall: Steam Carriages
     - Marketstall: Scooter
 
-- Coffee House (Public service)
-  - Coffee Beans (New World)
+  - Coffee House (Public service)
+    - Coffee Beans (New World)
 
-- Pearl Necklaces (Orient)
-  - Pearls (New World)
-  - Wool (Old World)
+  - Pearl Necklaces (Orient)
+    - Pearls (New World)
+    - Wool (Old World)
+
+# Needs in other Regions
+
+- OW
+  - Pearl Necklaces
+  - (Seidenschals)
+  - Rose Water
+  - Hookahs
+  - (Elfenbein Zeug)
+  - (Baklava)
+  - (Safran)
+- Enbesa:
+  - Chandeliers
+  - (Gewürztee)
+  - (Palmenhonig)
+- NW:
+  - (Räucherwerk)
+  - (kandierte Datteln)
+  - (Halva)
+
+## possible distribution
+
+- OW:
+  - Engineers:
+    - Pearl Necklaces
+    - (Baklava)
+  - Investors:
+    - (Seidenschals)
+    - Hookahs
+  - Magnates:
+    - (Elfenbein Zeug)
+    - Rose Water
+    - (Safran)
+- Enbesa:
+  - Elders:
+    - Chandeliers
+    - (Gewürztee)
+    - (Palmenhonig)
+- NW:
+  - Artista:
+    - (Räucherwerk)
+    - (Lokum)
+  - Obrera:
+    - (kandierte Datteln)
