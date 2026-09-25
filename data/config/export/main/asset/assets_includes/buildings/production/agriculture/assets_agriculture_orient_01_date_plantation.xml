@@ -163,8 +163,12 @@
 							<ModuleGUID>1404000199</ModuleGUID>
 						</Item>
 					</ConstructionOptions>
+					<AdditionalModule>1404005010</AdditionalModule>
 					<ModuleBuildRadius>0</ModuleBuildRadius>
 					<EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+					<FertilizerModuleData>
+						<Module>1404005007</Module>
+					</FertilizerModuleData>
 					<IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
 					<FarmType>PlantFarm</FarmType>
 					<AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>

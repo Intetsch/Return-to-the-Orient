@@ -1,0 +1,52 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="118750">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005002</GUID>
+					<Name>Debuff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ramadan</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005003</GUID>
+					<Name>Buff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ramadan</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005006</GUID>
+					<Name>Buff Fluff Moderate</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ramadan</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+    </ModOp>
+</ModOps>

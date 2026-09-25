@@ -1,0 +1,50 @@
+<ModOps>
+	<ModOp GUID="119026" Type="addNextSibling" Path="/">
+		<Asset>
+			<BaseAssetGUID>119026</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404005010</GUID>
+					<Name>orient_agriculture_tractor_module (Tractor)</Name>
+					<IconFilename>data/ui/2kimages/main/3dicons/icon_tractor.png</IconFilename>
+					<InfoDescription>269959</InfoDescription>
+				</Standard>
+				<Text>
+					<TextOverride>119026</TextOverride>
+				</Text>
+				<Building>
+					<BuildingType>BuildingModule</BuildingType>
+					<BuildingCategoryName>269960</BuildingCategoryName>
+					<SkipUnlockMessage>1</SkipUnlockMessage>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>5000</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1400201040</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>114402</Ingredient>
+                            <Amount>10</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010224</Ingredient>
+                            <!--steam motors-->
+                            <Amount>10</Amount>
+                        </Item>
+                    </Costs>
+                </Cost>
+			</Values>
+		</Asset>
+	</ModOp>
+</ModOps>
