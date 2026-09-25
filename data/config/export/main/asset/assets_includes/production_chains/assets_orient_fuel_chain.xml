@@ -29,7 +29,10 @@
 					  </Item>
 					</Tier1>
 				</ProductionChain>
-				<Locked/>
+				<Locked>
+					<DLCDependency>410070</DLCDependency>
+					<!--Anno 1800 DLC - Bright Harvest-->
+				</Locked>
                 <Text>
 					<TextOverride>119030</TextOverride>
 				</Text>

@@ -164,6 +164,9 @@
 						</Item>
 					</ConstructionOptions>
 					<AdditionalModule>1404005010</AdditionalModule>
+					<FertilizerModuleData>
+						<Module>1404005007</Module>
+					</FertilizerModuleData>
 					<ModuleBuildRadius>0</ModuleBuildRadius>
 					<EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
 					<IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
