@@ -9,10 +9,10 @@
 - 1404000879
   - Elmore-Gemisch
 - 1404005002
-  - Die Erz-Trommeln sind leer und müssen aufgefüllt werden
-- 1404000882 ICON ERSETZEN
+  - Die Erztrommeln sind leer und müssen aufgefüllt werden
+- 1404000882
   - Leere Trommeln
-- 1404000881 ICON ERSETZEN
+- 1404000881
   - Gemisch bereitgestellt
 - 1404005003
   - Das fertige Elmore-Gemisch ist bereit und die Trommeln sind voll
@@ -20,5 +20,5 @@
   - Dieses Modul verdoppelt den Ertrag aus Erzen durch spezielle Raffination in Erztrommeln nach dem Elmore-Prozess
 - 1404005004
   - = 1404000878
-- 1404005005 ICON ERSETZEN
+- 1404005005
   - Elmore-Erztrommeln

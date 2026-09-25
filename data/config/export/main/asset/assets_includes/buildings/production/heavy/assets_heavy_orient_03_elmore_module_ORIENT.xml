@@ -28,13 +28,12 @@
         <FactoryBase>
           <FactoryInputs>
             <Item>
-              <Product>1957006101</Product>
-              <!-- Silver ore-->
+              <Product>1404000879</Product>
               <Amount>1</Amount>
               <StorageAmount>3</StorageAmount>
             </Item>
           </FactoryInputs>
-          <CycleTime>180</CycleTime>
+          <CycleTime>120</CycleTime>
           <IsMainFactory>0</IsMainFactory>
         </FactoryBase>
         <FeedbackController/>
@@ -111,13 +110,11 @@
         <Infolayer/>
         <UpgradeList/>
         <BuffFactory>
-            <ProductionBuffDistance>10</ProductionBuffDistance>
             <ProductionBuffs>
                 <Item>
                     <ProductivityBuff>1404000881</ProductivityBuff>
                 </Item>
             </ProductionBuffs>
-            <ProductionBuffScope>Radius</ProductionBuffScope>
         </BuffFactory>
       </Values>
     </Asset>
@@ -130,7 +127,7 @@
             <Standard>
                 <GUID>1404000881</GUID>
                 <Name>Elmore Module ORIENT Buff</Name>
-                <IconFilename>data/ui/2kimages/main/3dicons/icon_flotsam.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/3dicons/icon_waschtrommel.png</IconFilename>
                 <InfoDescription>1404005003</InfoDescription>
             </Standard>
             <ItemEffect>
@@ -152,7 +149,7 @@
             </Text>
            <FactoryUpgrade>
                 <ProductivityUpgrade>
-                    <Value>100</Value>
+                    <Value>1000</Value>
                     <Percental>1</Percental>
                 </ProductivityUpgrade>
             </FactoryUpgrade>
@@ -176,7 +173,7 @@
             <Standard>
                 <GUID>1404000882</GUID>
                 <Name>Silver Smelter DEBuff</Name>
-                <IconFilename>data/ui/2kimages/main/3dicons/icon_oil.png</IconFilename>
+                <IconFilename>data/ui/2kimages/main/icons/icon_missing_fluid.png</IconFilename>
                 <InfoDescription>1404005002</InfoDescription>
             </Standard>
             <ItemEffect>
@@ -198,7 +195,7 @@
             </Text>
            <FactoryUpgrade>
                 <ProductivityUpgrade>
-                    <Value>-100</Value>
+                    <Value>-1000</Value>
                     <Percental>1</Percental>
                 </ProductivityUpgrade>
             </FactoryUpgrade>

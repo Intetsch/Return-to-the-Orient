@@ -156,12 +156,21 @@
                 <Electrifiable/>
                 <EcoSystemProvider/>
                 <ModuleOwner>
-                    <ModuleLimits>
-                        <Elmore>
-                            <Limit>1</Limit>
-                        </Elmore>
-                    </ModuleLimits>
-                    <AdditionalModule>1404000878</AdditionalModule>
+                <ModuleLimits>
+                    <Main>
+                    <Limit>0</Limit>
+                    </Main>
+                </ModuleLimits>
+                <ConstructionOptions>
+                    <Item>
+                    <ModuleGUID>0</ModuleGUID>
+                    </Item>
+                </ConstructionOptions>
+                <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+                <FertilizerModuleData>
+                    <Module>1404000878</Module>
+                </FertilizerModuleData>
+                <ModuleBuildRadius>0</ModuleBuildRadius>
                 </ModuleOwner>
             </Values>
         </Asset>
