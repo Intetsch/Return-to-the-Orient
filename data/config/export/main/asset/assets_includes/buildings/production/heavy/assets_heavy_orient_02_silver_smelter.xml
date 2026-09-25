@@ -2,7 +2,7 @@
 
     <ModOp Type="addNextSibling" GUID="1010284">
         <Asset>
-            <Template>FactoryBuilding7</Template>
+            <Template>FarmBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1404001302</GUID>
@@ -92,7 +92,9 @@
                 </SoundEmitter>
                 <FeedbackController/>
                 <Infolayer/>
-                <UpgradeList/>
+                <UpgradeList>
+                    <DefaultBuff>1404000882</DefaultBuff>
+                </UpgradeList>
                 <Factory7/>
                 <FactoryBase>
                     <FactoryInputs>
@@ -153,6 +155,23 @@
                 <QuestObject/>
                 <Electrifiable/>
                 <EcoSystemProvider/>
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Main>
+                        <Limit>0</Limit>
+                        </Main>
+                    </ModuleLimits>
+                    <ConstructionOptions>
+                        <Item>
+                        <ModuleGUID>0</ModuleGUID>
+                        </Item>
+                    </ConstructionOptions>
+                    <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>
+                    <FertilizerModuleData>
+                        <Module>1404000878</Module>
+                    </FertilizerModuleData>
+                    <ModuleBuildRadius>0</ModuleBuildRadius>
+                </ModuleOwner>
             </Values>
         </Asset>
     </ModOp>

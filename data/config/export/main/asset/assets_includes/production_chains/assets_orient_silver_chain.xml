@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000877</GUID>
+                    <Name>orient silver chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_silver_smelter.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404001302</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1404001300</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000878</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000886</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1957006151</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

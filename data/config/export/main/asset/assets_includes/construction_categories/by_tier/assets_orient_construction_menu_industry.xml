@@ -1,0 +1,40 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000884</GUID>
+                    <Name>orient construction menu industry (tier)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_pollution.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000872</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005008</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000885</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000877</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000887</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <!-- 190846 or 7106 or 5749 -->
+                    <TextOverride>5749</TextOverride>
+                </Text>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
