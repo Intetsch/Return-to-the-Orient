@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000885</GUID>
+                    <Name>orient cyanide chain</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/scenario/goods/icon_ammonia.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000883</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>112842</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000212</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1404000303</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1957006121</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

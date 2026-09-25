@@ -2,7 +2,7 @@
 
     <ModOp Type="addNextSibling" GUID="1010284">
         <Asset>
-            <Template>FactoryBuilding7</Template>
+            <Template>FarmBuilding</Template>
             <Values>
                 <Standard>
                     <GUID>1404001302</GUID>
@@ -92,7 +92,9 @@
                 </SoundEmitter>
                 <FeedbackController/>
                 <Infolayer/>
-                <UpgradeList/>
+                <UpgradeList>
+                    <DefaultBuff>1404000882</DefaultBuff>
+                </UpgradeList>
                 <Factory7/>
                 <FactoryBase>
                     <FactoryInputs>
@@ -150,12 +152,17 @@
                 <Industrializable>
                     <BoostedByIndustrialization>0</BoostedByIndustrialization>
                 </Industrializable>
-                <Culture>
-                    <CultureType>Culture</CultureType>
-                </Culture>
                 <QuestObject/>
                 <Electrifiable/>
                 <EcoSystemProvider/>
+                <ModuleOwner>
+                    <ModuleLimits>
+                        <Elmore>
+                            <Limit>1</Limit>
+                        </Elmore>
+                    </ModuleLimits>
+                    <AdditionalModule>1404000878</AdditionalModule>
+                </ModuleOwner>
             </Values>
         </Asset>
     </ModOp>

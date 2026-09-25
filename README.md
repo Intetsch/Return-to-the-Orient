@@ -21,11 +21,12 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 - Over 30 new ornaments to distract your population from the desert heat.
 - Madame Kahina joined you on your journey and is willing to help you by trading new wares and new orient-specific items.
 - Use the Foreign Trading Company to import needed wares for the envoys that you might not be able to produce yourself.
+- Produce special mixtures due refine more ores and boost your Old World Smelters.
 
 # Requirements & Compatibility
 
 Required DLCs: Land of Lions and New World Rising
-Optional DLCs: Tourist Season
+Optional DLCs: Tourist Season, Bright Harvest and Empire of the Skies
 
 The mod is compatible with new and existing saves, regular and creative modes. Campaign and multiplayer were not tested but should work.
 It does not change anything in the other regions, except some optional lifestyle needs in the old world.
@@ -42,16 +43,18 @@ To unlock the quest and expedition you need to have 5000 Investors, 6000 Artista
 ### Development
 
 - Natoncy
-- Satanoy (Item development)
 - Intetsch
+- Satanoy (Item development)
 
 ### Shared Mods 
 
 - Shared_Rosenwasser water by fridhmyr
 - Shared_Date by Satanoy
 - Shared_Roses by fridhmyr
+- Palm Wood by Intetsch
 - Neutral Hacienda Base (Genshi) by Genshi
 - Spice Powder (Kurila) by Kurila
+- General Modules (Kurila) by Kurila
 - shared_importdock_ebony_taludas (Taludas) by Taludas
 - shared_tradingcompany_taludas (Taludas) by Taludas, Drakkam & Taubenangriff
 - shared_tradingcompany_allimportpiers_taludas (Taludas) by Taludas & Taubenangriff
