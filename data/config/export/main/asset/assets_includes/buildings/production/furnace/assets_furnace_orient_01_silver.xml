@@ -60,7 +60,7 @@
 							<ActionList/>
 						</Values>
 					</OnSelection>
-					<ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
 					<Colors>
 						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
 					</Colors>
@@ -98,30 +98,30 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1957006101</Product>
-                            <Amount>1</Amount>
-							<StorageAmount>3</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1957006121</Product>
-                            <Amount>1</Amount>
+							<Product>1010566</Product>
+							<Amount>2</Amount>
 							<StorageAmount>3</StorageAmount>
 						</Item>
 						<Item>
 							<Product>1404000880</Product>
 							<StorageAmount>3</StorageAmount>
 						</Item>
-						<Item>
-							<Product>1010566</Product>
-							<Amount>2</Amount>
-							<StorageAmount>200</StorageAmount>
+                        <Item>
+							<Product>1957006121</Product>
+                            <Amount>1</Amount>
+							<StorageAmount>3</StorageAmount>
+						</Item>
+                        <Item>
+							<Product>1957006101</Product>
+                            <Amount>1</Amount>
+							<StorageAmount>3</StorageAmount>
 						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
 							<Product>1957006151</Product>
 							<Amount>2</Amount>
-							<StorageAmount>12</StorageAmount>
+							<StorageAmount>6</StorageAmount>
 						</Item>
 					</FactoryOutputs>
 					<CycleTime>120</CycleTime>

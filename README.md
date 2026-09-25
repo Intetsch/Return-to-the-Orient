@@ -25,7 +25,7 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 # Requirements & Compatibility
 
 Required DLCs: Land of Lions and New World Rising
-Optional DLCs: Tourist Season, Empire of the Skies and Bright Harvest
+Optional DLCs: Tourist Season
 
 The mod is compatible with new and existing saves, regular and creative modes. Campaign and multiplayer were not tested but should work.
 It does not change anything in the other regions, except some optional lifestyle needs in the old world.
