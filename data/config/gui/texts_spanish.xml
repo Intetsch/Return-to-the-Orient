@@ -2263,7 +2263,27 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??Buceador de perlas</Text>
+      <Text>Buceador de perlas</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>Módulo de tambor de mineral</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>Concentrado de flotación</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Mixture Supplied | Mixture Supplied -->
+      <Text>Mezcla suministrada</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>Tambores vacíos</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -3509,6 +3529,31 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
       <Text>Los enviados sienten curiosidad por los nuevos productos e inventos de la era industrial.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>Los tambores de mineral están vacíos y es necesario rellenarlos.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>El concentrado de flotación terminado está listo y los tambores están llenos.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>Módulo de tambor de mineral</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>Tambor de mineral</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>Este módulo duplica el rendimiento de los minerales mediante un refinado especial en tambores de mineral mediante un proceso de flotación de petróleo.</Text>
     </Text>
   </ModOp>
 </ModOps>

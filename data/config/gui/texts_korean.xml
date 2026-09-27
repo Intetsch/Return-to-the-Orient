@@ -2263,7 +2263,27 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??진주 잠수부</Text>
+      <Text>진주 잠수부</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>광석 드럼 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>부양 농축액</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Mixture Supplied | Mixture Supplied -->
+      <Text>공급되는 혼합물</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>빈 드럼</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -3509,6 +3529,31 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
       <Text>사절은 산업 시대의 새로운 상품과 발명품에 호기심이 많습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>광석 드럼이 비어 있으므로 다시 채워야 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>완성된 부양 농축액이 준비되고 드럼이 가득 찼습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>광석 드럼 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>광석 드럼</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>이 모듈은 오일 부유 공정을 사용하여 광석 드럼에서 특수 정제를 통해 광석 생산량을 두 배로 늘립니다.</Text>
     </Text>
   </ModOp>
 </ModOps>

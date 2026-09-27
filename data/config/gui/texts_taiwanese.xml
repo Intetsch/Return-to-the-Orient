@@ -2263,7 +2263,27 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??珍珠潛水員</Text>
+      <Text>珍珠潛水員</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>浮選精礦</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Mixture Supplied | Mixture Supplied -->
+      <Text>提供混合物</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>空鼓</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -3509,6 +3529,31 @@
       <GUID>1404001227</GUID>
       <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
       <Text>使節們對工業時代的新商品和發明感到好奇。市場攤位是展示它們並讓使節嘗試的好方法。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>礦石桶已空，需要重新裝滿。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>Ore Drum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>該模組透過使用油浮選製程在礦桶中進行特殊精煉，使礦石產量翻倍。</Text>
     </Text>
   </ModOp>
 </ModOps>

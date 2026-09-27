@@ -229,4 +229,10 @@
         </Item>
     </ModOp>
 
+    <ModOp Type="add" GUID="125266" Path="Values/BuildPermitGroup/Group">
+        <Item>
+            <BuildPermit>1404001232</BuildPermit>
+        </Item>
+    </ModOp>
+
 </ModOps>

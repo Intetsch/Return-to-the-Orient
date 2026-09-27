@@ -232,24 +232,7 @@
                 </Residence7>
                 <LogisticNode />
                 <AmbientMoodProvider>
-                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
-                    <HappinessDependentMurmur>
-                        <Angry>
-                            <Murmur>Africa_ShepherdUnhappy</Murmur>
-                        </Angry>
-                        <Unhappy>
-                            <Murmur>Africa_ShepherdUnhappy</Murmur>
-                        </Unhappy>
-                        <Neutral>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Neutral>
-                        <Happy>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Happy>
-                        <Euphoric>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Euphoric>
-                    </HappinessDependentMurmur>
+                    <DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
                 </AmbientMoodProvider>
                 <UpgradeList />
                 <Attackable>
