@@ -99,22 +99,21 @@
 - OW:
   - Engineers:
     - Pearl Necklaces
-    - (Baklava)
   - Investors:
-    - (Seidenschals)
+    - (Seidenschals): Seide + Baumwolle
     - Hookahs
   - Magnates:
-    - (Elfenbein Zeug)
+    - (Elfenbein Zeug): Elfenbein aus Enbesa + Holzfurniere aus OW
     - Rose Water
-    - (Safran)
+    - (Safran): Eine Farm, einfach extrem langsam, sonst nichts
 - Enbesa:
   - Elders:
     - Chandeliers
-    - (Gewürztee)
-    - (Palmenhonig)
+    - (Gewürztee): Gewürze + Kräuter aus NW, dann nur mit DLC
+    - (Palmenhonig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
 - NW:
   - Artista:
-    - (Räucherwerk)
-    - (Lokum)
+    - (Räucherwerk): Gewürze + Harzmodul was Palmenfarmen Harz produzieren lässt (wie Bienenmodul) + Gold 
+    - (Lokum): Mehl aus OW + Rosenwasser + Zucker aus NW
   - Obrera:
-    - (kandierte Datteln)
+    - (kandierte Datteln): Datteln + Zucker aus NW
