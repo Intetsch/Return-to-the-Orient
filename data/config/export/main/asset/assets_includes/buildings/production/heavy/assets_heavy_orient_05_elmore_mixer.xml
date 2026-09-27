@@ -47,7 +47,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/heavy_orient_02/heavy_orient_02.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/heavy_orient_05/heavy_orient_05.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
@@ -64,7 +64,13 @@
                         <WeakSelectionColorType>NoColor</WeakSelectionColorType>
                     </Colors>
                 </Selection>
-                <Text/>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Flotation Plant</Text>
+                        </English>
+                    </LocaText>
+                </Text>
                 <Constructable/>
                 <Locked/>
                 <SoundEmitter>
