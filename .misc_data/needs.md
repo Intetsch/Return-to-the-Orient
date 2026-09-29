@@ -75,45 +75,22 @@
     - Pearls (New World)
     - Wool (Old World)
 
-# Needs in other Regions
-
-- OW
-  - Pearl Necklaces
-  - (Seidenschals)
-  - Rose Water
-  - Hookahs
-  - (Elfenbein Zeug)
-  - (Baklava)
-  - (Safran)
-- Enbesa:
-  - Chandeliers
-  - (Gewürztee)
-  - (Palmenhonig)
-- NW:
-  - (Räucherwerk)
-  - (kandierte Datteln)
-  - (Halva)
-
-## possible distribution
+# Needs in other Worlds
 
 - OW:
   - Engineers:
-    - Pearl Necklaces
+    - Hookahs
   - Investors:
     - (Seidenschals): Seide + Baumwolle
-    - Hookahs
   - Magnates:
-    - (Elfenbein Zeug): Elfenbein aus Enbesa + Holzfurniere aus OW
-    - Rose Water
-    - (Safran): Eine Farm, einfach extrem langsam, sonst nichts
+    - (Elfenbein Zeug): Elfenbein aus Enbesa + Holzfurniere aus OW + Gold
 - Enbesa:
   - Elders:
-    - Chandeliers
-    - (Gewürztee): Gewürze + Kräuter aus NW, dann nur mit DLC
-    - (Palmenhonig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
+    - (Gewürztee): Gewürze + Kräuter aus NW, dann nur mit DLC + Papier + Honig (siehe Bienenmodul)
+    - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
 - NW:
   - Artista:
-    - (Räucherwerk): Gewürze + Harzmodul was Palmenfarmen Harz produzieren lässt (wie Bienenmodul) + Gold 
-    - (Lokum): Mehl aus OW + Rosenwasser + Zucker aus NW
+    - (Räucherwerk): Gewürze + Harzmodul was Palmenfarmen Harz produzieren lässt (wie Bienenmodul) + Messing + Tabak
+    - (Lokum): Mehl aus OW + Rosenwasser + Zucker aus NW (+ Nüsse)
   - Obrera:
-    - (kandierte Datteln): Datteln + Zucker aus NW
+    - (kandierte Datteln): Datteln + Zucker + Rum
