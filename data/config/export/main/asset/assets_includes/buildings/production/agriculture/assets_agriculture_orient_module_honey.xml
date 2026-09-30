@@ -5,10 +5,10 @@
       <Template>BuffFactoryModule</Template>
       <Values>
         <Standard>
-          <GUID>1404000878</GUID>
-          <Name>heavy_orient_03 (elmore module ORIENT)</Name>
-          <IconFilename>data/ui/2kimages/main/modgraphics/icon_waschtrommel.png</IconFilename>
-          <InfoDescription>1404005006</InfoDescription>
+          <GUID>1404005012</GUID>
+          <Name>agriculture_orient_module_honey</Name>
+          <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
+          <InfoDescription>1404005014</InfoDescription>
         </Standard>
         <Text>
           <LocaText>
@@ -26,17 +26,7 @@
         <Blocking/>
         <Mesh/>
         <BuffFactory/>
-        <FactoryBase>
-          <FactoryInputs>
-            <Item>
-              <Product>1404000879</Product>
-              <Amount>1</Amount>
-              <StorageAmount>3</StorageAmount>
-            </Item>
-          </FactoryInputs>
-          <CycleTime>120</CycleTime>
-          <IsMainFactory>0</IsMainFactory>
-        </FactoryBase>
+        <FactoryBase/>
         <FeedbackController/>
         <Pausable/>
         <Selection>
@@ -46,7 +36,7 @@
               <ActionList/>
             </Values>
           </OnSelection>
-          <ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+          <ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
         </Selection>
         <Attackable>
           <AttackableType>IslandBuilding</AttackableType>
@@ -55,12 +45,12 @@
           <Maintenances>
             <Item>
               <Product>1010017</Product>
-              <Amount>200</Amount>
-              <InactiveAmount>100</InactiveAmount>
+              <Amount>100</Amount>
+              <InactiveAmount>50</InactiveAmount>
             </Item>
             <Item>
-              <Product>1010366</Product>
-              <Amount>10</Amount>
+              <Product>1404000013</Product>
+              <Amount>20</Amount>
             </Item>
           </Maintenances>
         </Maintenance>
@@ -72,13 +62,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/graphics/buildings/orient/heavy_orient_03/heavy_orient_03_01.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/graphics/buildings/orient/heavy_orient_03/heavy_orient_03_02.cfg</Filename>
-            </Item>
-            <Item>
-              <Filename>data/graphics/buildings/orient/heavy_orient_03/heavy_orient_03_03.cfg</Filename>
+              <Filename>data/dlc10/graphics/buildings/production/agriculture_silo_02/agriculture_silo_colony_02_01.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -93,68 +77,75 @@
           <Costs>
             <Item>
               <Ingredient>1010017</Ingredient>
-              <Amount>200</Amount>
+              <Amount>5000</Amount>
             </Item>
             <Item>
-              <Ingredient>1010196</Ingredient>
+              <Ingredient>1400201040</Ingredient>
               <Amount>10</Amount>
             </Item>
             <Item>
-              <Ingredient>1010205</Ingredient>
-              <Amount>10</Amount>
+              <Ingredient>114402</Ingredient>
+              <Amount>3</Amount>
             </Item>
           </Costs>
         </Cost>
-        <BuildingModule>
-            <ModuleType>Elmore</ModuleType>
-        </BuildingModule>
+        <BuildingModule/>
         <Infolayer/>
         <UpgradeList/>
         <BuffFactory>
-            <ProductionBuffs>
-                <Item>
-                    <ProductivityBuff>1404000881</ProductivityBuff>
-                </Item>
-            </ProductionBuffs>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1404005013</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>12</ProductionBuffDistance>
+          <BaseBuff>1404005017</BaseBuff>
+          <BaseBuffScope>Radius</BaseBuffScope>
+          <BaseBuffDistance>12</BaseBuffDistance>
         </BuffFactory>
       </Values>
     </Asset>
   </ModOp>
+
 
   <ModOp Type="addNextSibling" GUID="112297">
     <Asset>
         <Template>GuildhouseBuff</Template>
         <Values>
             <Standard>
-                <GUID>1404000881</GUID>
-                <Name>Elmore Module ORIENT Buff</Name>
-                <IconFilename>data/ui/2kimages/main/modgraphics/icon_waschtrommel.png</IconFilename>
-                <InfoDescription>1404005003</InfoDescription>
+                <GUID>1404005013</GUID>
+                <Name>Honey Buff</Name>
+                <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
+                <InfoDescription>1404005015</InfoDescription>
             </Standard>
             <ItemEffect>
                 <EffectTargets>
                     <Item>
-                        <GUID>1404001302</GUID>
+                        <GUID>1404000159</GUID>
                     </Item>
                 </EffectTargets>
                 <AllowStacking>0</AllowStacking>
             </ItemEffect>
             <Text>
-                <LocaText>
-                    <English>
-                        <Text>Concentrate Supplied</Text>
-                        <Status>Exported</Status>
-                    </English>
-                </LocaText>
-                <LineID>55228</LineID>
+              <LocaText>
+                <English>
+                  <Text>Ore Drum</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>55287</LineID>
             </Text>
-           <FactoryUpgrade>
-                <ProductivityUpgrade>
-                    <Value>1000</Value>
-                    <Percental>1</Percental>
-                </ProductivityUpgrade>
+            <FactoryUpgrade>
+              <AdditionalOutput>
+                <Item>
+                  <Product>1440218</Product>
+                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
             </FactoryUpgrade>
-            <BuildingUpgrade />
+            <BuildingUpgrade/>
             <Buff />
             <CultureUpgrade />
             <ModuleOwnerUpgrade />
@@ -172,35 +163,40 @@
         <Template>GuildhouseBuff</Template>
         <Values>
             <Standard>
-                <GUID>1404000882</GUID>
-                <Name>Silver Smelter DEBuff</Name>
-                <IconFilename>data/ui/2kimages/main/icons/icon_missing_fluid.png</IconFilename>
-                <InfoDescription>1404005002</InfoDescription>
+                <GUID>1404005017</GUID>
+                <Name>Bee Buff</Name>
+                <IconFilename>data/ui/2kimages/main/modgraphics/icon_biene.png</IconFilename>
+                <InfoDescription>1404005019</InfoDescription>
             </Standard>
             <ItemEffect>
                 <EffectTargets>
                     <Item>
-                        <GUID>1404001302</GUID>
+                        <GUID>1404005018</GUID>
                     </Item>
                 </EffectTargets>
                 <AllowStacking>0</AllowStacking>
             </ItemEffect>
             <Text>
-                <LocaText>
-                    <English>
-                        <Text>Empty Drums</Text>
-                        <Status>Exported</Status>
-                    </English>
-                </LocaText>
-                <LineID>55228</LineID>
+              <LocaText>
+                <English>
+                  <Text>Ore Drum</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>55287</LineID>
             </Text>
-           <FactoryUpgrade>
-                <ProductivityUpgrade>
-                    <Value>-1000</Value>
-                    <Percental>1</Percental>
-                </ProductivityUpgrade>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>30</Value>
+				        <Percental>1</Percental>
+              </ProductivityUpgrade>
             </FactoryUpgrade>
-            <BuildingUpgrade />
+            <BuildingUpgrade>
+              <WorkforceAmountUpgrade>
+                <Value>-20</Value>
+                <Percental>1</Percental>
+              </WorkforceAmountUpgrade>
+            </BuildingUpgrade>
             <Buff />
             <CultureUpgrade />
             <ModuleOwnerUpgrade />

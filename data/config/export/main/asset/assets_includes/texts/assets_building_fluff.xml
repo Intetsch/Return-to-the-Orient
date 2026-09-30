@@ -129,6 +129,54 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005014</GUID>
+					<Name>Honey Module Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005015</GUID>
+					<Name>Honey Buff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005019</GUID>
+					<Name>Bee Buff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
 	</ModOp>
 
 </ModOps>
