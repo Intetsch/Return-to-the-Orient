@@ -1,0 +1,22 @@
+<!-- Add Happiness Needs to different population -->
+
+<ModOps>
+
+    <!-- ## Elders: Spiced Tea ## -->
+    <ModOp Type="addNextSibling" GUID="114330" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114362']">
+        <Item>
+            <Product>1400201044</Product>
+            <Amount>0.00002</Amount>
+            <HappinessValue>8</HappinessValue>
+            <MoneyValue>120</MoneyValue>
+            <FullWeightPopulationCount>2500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>1299</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+    </ModOp>
+
+</ModOps>
