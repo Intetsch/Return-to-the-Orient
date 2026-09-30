@@ -15,8 +15,8 @@ Optional Mods: New Horizons, Noblesse Oblige
 TODO:
 - Silver
     Add building models to
-        Silberschmelzhütte
-        Flotationsanlage
+        heavy_orient_02 (Silver Smelter)
+        heavy_orient_05 (elmore mixer)
     Add Irrigation and oil to elmore Mixer
     Add Irrigation to Ammonia Plant
 - Add happiness needs for OW/NW/Enbesa tiers
@@ -33,6 +33,10 @@ Bugs:
 Backlog:
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Camera sequence when entering region for the first time
+- Coffee house recipes with buffs per recipe
+    Regular coffee: coffee beans => Nothing
+    Milk coffee: coffee beans + goat milk => Lowers consumption
+    etc
 
 
 
