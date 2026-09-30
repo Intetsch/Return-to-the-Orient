@@ -13,4 +13,4 @@
 - 1404005019:
   - Durch die Hilfe der Bienen bei der Bestäubung werden unsere Farmen noch effizienter
 - 1404005018:
-  - alle orientalischen Nutzpflanz-Farmen
+  - alle Nutzpflanzenfarmen des Orients

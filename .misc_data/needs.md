@@ -86,11 +86,11 @@
     - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
 - Enbesa:
   - Elders:
-    - (Gewürztee): Gewürze + Kräuter + Papier + Honig (siehe Bienenmodul)
+    - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
     - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
 - NW:
   - Artista:
     - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
     - (Lokum): Mehl + Rosenwasser + Zucker + Kartoffeln (Stärke) (+ Nüsse)
   - Obrera:
-    - (kandierte Datteln): Datteln + Zucker + Rum
+    - (kandierte Datteln): Datteln + Zucker + Rum + Honig (siehe Bienenmodul)
