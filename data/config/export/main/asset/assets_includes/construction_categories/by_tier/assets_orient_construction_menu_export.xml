@@ -6,19 +6,13 @@
             <Values>
                 <Standard>
                     <GUID>1404000884</GUID>
-                    <Name>orient construction menu industry (tier)</Name>
-                    <IconFilename>data/ui/2kimages/main/icons/icon_pollution.png</IconFilename>
+                    <Name>orient construction menu export (tier)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_globe.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
                         <Item>
                             <Building>1404000872</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404005008</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000885</Building>
                         </Item>
                         <Item>
                             <Building>1404000877</Building>
@@ -35,8 +29,13 @@
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>
-                    <!-- 190846 or 7106 or 5749 -->
-                    <TextOverride>5749</TextOverride>
+                    <LocaText>
+                        <English>
+                            <Text>Nomads</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122007</LineID>
                 </Text>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>
