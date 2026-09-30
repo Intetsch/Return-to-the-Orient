@@ -7,10 +7,10 @@
 - 1404005014:
   - Einige Bienenstöcke produzieren Honig und machen Farmen effizienter.
 - 1404005015:
-  - Der Honig der Bienen, gewonnen aus den Dattelpalmen, ist ein sehr begehrter Rohstoff
+  - Der Honig der Bienen, gewonnen aus den Dattelpalmen, ist ein sehr begehrter Rohstoff.
 - 1404005017:
   - Bestäubung
 - 1404005019:
-  - Durch die Hilfe der Bienen bei der Bestäubung werden unsere Farmen noch effizienter
+  - Durch die Hilfe der Bienen bei der Bestäubung werden unsere Farmen noch effizienter.
 - 1404005018:
   - alle Nutzpflanzenfarmen des Orients
