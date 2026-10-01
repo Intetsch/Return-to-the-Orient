@@ -135,7 +135,7 @@
     <!-- # Expeditions: NONE -->
 
     <!-- # Storage List -->
-    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201044']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
+    <ModOp Type="addNextSibling" GUID="120055" Condition="!~/Values/ProductStorageList/ProductList/Item[Product='1400201049']" Path="/Values/ProductStorageList/ProductList/Item[Product = '1010200']">
       <Item>
         <Product>1400201049</Product>
       </Item>
@@ -144,7 +144,7 @@
     <!-- # Docklands: NONE -->
 
     <!-- # Fake MainFactory -->
-    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1400201044']/IsMainFactory[text()='1']">
+    <ModOp Type="addNextSibling" GUID="1010295" Condition="!//FactoryBase[FactoryOutputs/Item/Product='1400201049']/IsMainFactory[text()='1']">
       <Asset>
         <Template>FactoryBuilding7</Template>
         <Values>
