@@ -1,0 +1,24 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201047</GUID>
+      <!-- Product | pistachio fruits | Pistachio Fruits -->
+      <Text>开心果果实</Text>
+    </Text>
+    <Text>
+      <GUID>1400201048</GUID>
+      <!-- Text | pistachio fruits fluff text | Fresh fruit straight from the pistachio tree, albeit still inedible. -->
+      <Text>刚从开心果树上采下的新鲜果实，不过还不能食用。</Text>
+    </Text>
+    <Text>
+      <GUID>1400201049</GUID>
+      <!-- Product | roasted pistachios | Roasted Pistachios -->
+      <Text>烤开心果</Text>
+    </Text>
+    <Text>
+      <GUID>1400201050</GUID>
+      <!-- Text | roasted pistachios fluff text | A tasty Oriental nut to which mystical properties are attributed. -->
+      <Text>一种美味的东方坚果，据说具有神秘的特性。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,24 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201047</GUID>
+      <!-- Product | pistachio fruits | Pistachio Fruits -->
+      <Text>피스타치오 열매</Text>
+    </Text>
+    <Text>
+      <GUID>1400201048</GUID>
+      <!-- Text | pistachio fruits fluff text | Fresh fruit straight from the pistachio tree, albeit still inedible. -->
+      <Text>피스타치오 나무에서 갓 딴 신선한 열매입니다. 아직은 먹을 수 없습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1400201049</GUID>
+      <!-- Product | roasted pistachios | Roasted Pistachios -->
+      <Text>구운 피스타치오</Text>
+    </Text>
+    <Text>
+      <GUID>1400201050</GUID>
+      <!-- Text | roasted pistachios fluff text | A tasty Oriental nut to which mystical properties are attributed. -->
+      <Text>신비로운 힘이 깃들어 있다고 여겨지는 맛있는 동양의 견과류입니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,24 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201047</GUID>
+      <!-- Product | pistachio fruits | Pistachio Fruits -->
+      <Text>Owoce pistacji</Text>
+    </Text>
+    <Text>
+      <GUID>1400201048</GUID>
+      <!-- Text | pistachio fruits fluff text | Fresh fruit straight from the pistachio tree, albeit still inedible. -->
+      <Text>Świeże owoce prosto z drzewa pistacjowego, choć jeszcze niejadalne.</Text>
+    </Text>
+    <Text>
+      <GUID>1400201049</GUID>
+      <!-- Product | roasted pistachios | Roasted Pistachios -->
+      <Text>Prażone pistacje</Text>
+    </Text>
+    <Text>
+      <GUID>1400201050</GUID>
+      <!-- Text | roasted pistachios fluff text | A tasty Oriental nut to which mystical properties are attributed. -->
+      <Text>Smaczny orzech orientalny, któremu przypisuje się mistyczne właściwości.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
