@@ -14,3 +14,13 @@
   - Durch die Hilfe der Bienen bei der Bestäubung werden unsere Farmen noch effizienter.
 - 1404005018:
   - alle Nutzpflanzenfarmen des Orients
+- 1404005020:
+  - Teebrauerei
+- 1404005023:
+  - Lokumbäcker
+- 1404005025:
+  - Pistazienfarm
+- 1404005026:
+  - Pistazienbaumfeld
+- 1404005027:
+  - Pistazienrösterei

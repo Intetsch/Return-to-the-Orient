@@ -91,6 +91,6 @@
 - NW:
   - Artista:
     - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
-    - (Lokum): Mehl + Rosenwasser + Zucker + Kartoffeln (Stärke) (+ Nüsse)
+    - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
   - Obrera:
-    - (kandierte Datteln): Datteln + Zucker + Rum + Honig (siehe Bienenmodul)
+    - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)
