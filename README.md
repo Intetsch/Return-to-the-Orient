@@ -80,6 +80,9 @@ To unlock the quest and expedition you need to have 5000 Investors, 6000 Artista
 - [sharedproduct_turbans by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_turbans)
 - [sharedproduct_palm_wood by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_palm_wood)
 - [sharedproduct_spiced_tea by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_spiced_tea)
+- [sharedproduct_lokum by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_lokum)
+- [sharedproduct_candied_dates by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_candied_dates)
+- [sharedproduct_pistachios by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_pistachios)
 
 ## Translation
 
