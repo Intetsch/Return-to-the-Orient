@@ -35,6 +35,23 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005038</GUID>
+					<Name>Search Filter - Envoy Needs</Name>
+					<IconFilename>data/graphics/icons/residents/icon_resident_envoy.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Envoy Needs</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
     </ModOp>
 
 </ModOps>
