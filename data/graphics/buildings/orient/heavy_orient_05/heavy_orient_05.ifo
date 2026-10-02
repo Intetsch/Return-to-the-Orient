@@ -133,6 +133,25 @@
 		</Extents>
 	</Dummy>
 	<Dummy>
+		<Name>watersupply_connector</Name>
+		<Position>
+			<xf>-3</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1</xf>
+			<yf>0.1</yf>
+			<zf>0.1</zf>
+		</Extents>
+	</Dummy>
+	<Dummy>
 		<Name>railroad01</Name>
 		<Position>
 			<xf>0.000000</xf>

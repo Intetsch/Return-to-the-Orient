@@ -2277,13 +2277,28 @@
     </Text>
     <Text>
       <GUID>1404000881</GUID>
-      <!-- GuildhouseBuff | Mixture Supplied | Mixture Supplied -->
+      <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
       <Text>Dostarczona mieszanina</Text>
     </Text>
     <Text>
       <GUID>1404000882</GUID>
       <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
       <Text>Puste Bębny</Text>
+    </Text>
+    <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>Fabryka kwasu</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>Towary eksportowe</Text>
+    </Text>
+    <Text>
+      <GUID>1404000886</GUID>
+      <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
+      <Text>Zakład flotacyjny</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -3554,6 +3569,21 @@
       <GUID>1404005006</GUID>
       <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
       <Text>Moduł ten podwaja uzysk rudy poprzez specjalną rafinację w beczkach rudy z wykorzystaniem procesu flotacji oleju.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>Można zbudować tylko w Wadi Al Zahir</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>Kwas siarkowy</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>Lepiej nie dotykać gołymi rękami. Znany również jako olej witriolowy.</Text>
     </Text>
   </ModOp>
 </ModOps>

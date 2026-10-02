@@ -2286,6 +2286,16 @@
       <Text>Empty Drums</Text>
     </Text>
     <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>Acid Plant</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>Export Goods</Text>
+    </Text>
+    <Text>
       <GUID>1404000886</GUID>
       <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
       <Text>Flotation Plant</Text>
@@ -3559,6 +3569,21 @@
       <GUID>1404005006</GUID>
       <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
       <Text>This module doubles the yield from ores through special refining in ore drums using an oil flotation process.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>Can only be built in Wadi Al Zahir</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>Sulfuric Acid</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>Perhaps best not touched with bare hands. Also known as oil of vitriol.</Text>
     </Text>
   </ModOp>
 </ModOps>
