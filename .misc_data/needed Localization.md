@@ -24,3 +24,15 @@
   - Pistazienbaumfeld
 - 1404005027:
   - Pistazienrösterei
+- 1404005028:
+  - Pistaziensetzlinge
+- 1404005029:
+  - Qualitäts-Pistaziensetzlinge
+- 1404005030:
+  - Gekreuztes Pistaziensetzlinge
+- 1404005032:
+  - Diese Setzlinge erlauben es, einen kleinen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
+- 1404005033:
+  - Diese Setzlinge erlauben es, einen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
+- 1404005034:
+  - Diese Setzlinge erlauben es, einen prächtigen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
