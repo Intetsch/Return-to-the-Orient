@@ -147,4 +147,10 @@
         </PinButtonRegions>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="114554" Path="Values/ConstructionCategory/BuildingList/Item[Building='114619']">
+        <Item>
+            <Building>1500302570</Building>
+        </Item>
+    </ModOp>
+
 </ModOps>
