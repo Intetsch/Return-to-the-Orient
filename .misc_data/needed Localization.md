@@ -40,3 +40,6 @@
   - Diese Setzlinge erlauben es, einen prächtigen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
 - 1404005035:
   - Früchtemanufaktur
+
+- 1404005038:
+  - Kann nur in Wadi Al-Zahir gebaut werden
