@@ -48,5 +48,21 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005040</GUID>
+					<Name>Acid Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>This module doubles the yield from ores through special refining in ore drums using the Elmore process.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
     </ModOp>
 </ModOps>
