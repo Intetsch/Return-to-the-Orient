@@ -36,4 +36,21 @@
         </Item>
     </ModOp>
 
+    <!-- ## Obreras: Candied Dates ## -->
+    <ModOp Type="addNextSibling" GUID="15000006" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010259']">
+        <Item>
+            <Product>1400201056</Product>
+            <Amount>0.00001</Amount>
+            <HappinessValue>6</HappinessValue>
+            <MoneyValue>80</MoneyValue>
+            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>2499</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+    </ModOp>
+
 </ModOps>
