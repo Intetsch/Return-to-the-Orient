@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201059</GUID>
+      <!-- Product | ivory | Ivory -->
+      <Text>상아</Text>
+    </Text>
+    <Text>
+      <GUID>1400201061</GUID>
+      <!-- Text | ivory fluff text | A material obtained in a manner that is not exactly ethical, yet highly popular among the refined folk of the Old World. -->
+      <Text>그리 윤리적이라고는 할 수 없는 방식으로 얻지만, 구세계의 세련된 사람들에게는 큰 인기를 끄는 소재입니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
