@@ -30,9 +30,13 @@
   - Qualitäts-Pistaziensetzlinge
 - 1404005030:
   - Gekreuztes Pistaziensetzlinge
+- 1404005031:
+  - Pistazienfruchtbarkeit
 - 1404005032:
   - Diese Setzlinge erlauben es, einen kleinen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
 - 1404005033:
   - Diese Setzlinge erlauben es, einen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
 - 1404005034:
   - Diese Setzlinge erlauben es, einen prächtigen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.
+- 1404005035:
+  - Früchtemanufaktur
