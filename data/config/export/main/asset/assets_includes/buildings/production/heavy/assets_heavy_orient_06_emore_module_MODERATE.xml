@@ -166,6 +166,10 @@
               <LineID>55287</LineID>
             </Text>
             <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>-50</Value>
+                <Percental>1</Percental>
+              </ProductivityUpgrade>
               <AdditionalOutput>
                 <Item>
                   <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
@@ -195,7 +199,7 @@
     </Asset>
   </ModOp>
 
-  <!-- Add Pool and Mixer to all production Chains -->
+  <!-- Add Mixer to all production Chains -->
 
 
   <ModOp Type="addPrevSibling" GUID="500005,500145,500003,500016,500023,500012,500029,501254" Path="/Values/ProductionChain/Tier1/Item[Building='1010297']/Tier2/Item[Building='1010305']">
