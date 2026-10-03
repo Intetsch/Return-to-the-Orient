@@ -1,0 +1,227 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="132759">
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003330</GUID>
+                    <Name>Buff_CoffeeHouse_black</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_black.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Black Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <!-- no effect: only here so the recipe book shows the Black Coffee icon -->
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003331</GUID>
+                    <Name>Buff_CoffeeHouse_milk</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_milk.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Milk Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <ResidenceUpgrade>
+                    <AdditionalHappiness>3</AdditionalHappiness>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1404000265</ProvidedNeed>                            <!-- Pomegranate Juice -->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003332</GUID>
+                    <Name>Buff_CoffeeHouse_cardamom</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_cardamom.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cardamom Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1500301148</ProvidedNeed>                            <!-- Spice Powder -->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <TaxModifierInPercent>10</TaxModifierInPercent>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003333</GUID>
+                    <Name>Buff_CoffeeHouse_dates</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_dates.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Date Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1888999749</ProvidedNeed>                            <!-- Dates -->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000265</ProvidedNeed>                            <!-- Pomegranate Juice -->
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003334</GUID>
+                    <Name>Buff_CoffeeHouse_rose</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_rose.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rose Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1900100125</ProvidedNeed>                            <!-- Rose Water -->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                    <TaxModifierInPercent>20</TaxModifierInPercent>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003335</GUID>
+                    <Name>Buff_CoffeeHouse_honey</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_honey.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000022</GUID>                            <!-- all residences orient -->
+                        </Item>
+                    </EffectTargets>
+                    <AllowStacking>0</AllowStacking>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Honey Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <BuildingUpgrade/>
+                <Buff/>
+                <PopulationUpgrade>
+                    <ResidentsUpgrade>
+                        <Value>2</Value>
+                    </ResidentsUpgrade>
+                </PopulationUpgrade>
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1999005057</ProvidedNeed>                            <!-- Marzipan -->
+                            <AmountInPercent>-20</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

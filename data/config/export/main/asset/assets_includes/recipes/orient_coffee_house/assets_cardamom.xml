@@ -1,0 +1,42 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="132757">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003304</GUID>
+                    <Name>Recipe_CoffeeHouse_cardamom</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_cardamom.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Cardamom Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404003322</RecipeBuilding>
+                    <RecipeDescriptionText>1404003312</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_coffee_house/recipebook_orient_coffee_house_cardamom.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>390</PosX>
+                            <PosY>115</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>9</PosX>
+                            <PosY>170</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

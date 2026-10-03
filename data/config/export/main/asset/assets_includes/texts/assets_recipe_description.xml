@@ -67,4 +67,119 @@
         </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="118750">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003301</GUID>
+                    <Name>Orient_CoffeeHouse_RecipeList_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003310</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_black_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003311</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_milk_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003312</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_cardamom_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003313</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_dates_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003314</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_rose_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003315</GUID>
+                    <Name>Orient_CoffeeHouse_Recipe_honey_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
 </ModOps>

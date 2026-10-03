@@ -1,0 +1,49 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="133556">
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003300</GUID>
+                    <Name>RecipeList_Orient_CoffeeHouse</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Coffee House Menu</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>1404003302</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404003305</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404003303</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404003304</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404003306</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404003307</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>Cafe</RecipeListType>
+                    <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_orient_coffee_house.png</RecipeListMoodImage>
+                    <RecipeListDescription>1404003301</RecipeListDescription>
+                </RecipeList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

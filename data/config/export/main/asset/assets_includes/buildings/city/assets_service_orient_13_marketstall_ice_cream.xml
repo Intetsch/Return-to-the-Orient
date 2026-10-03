@@ -12,12 +12,16 @@
                 </Standard>
                 <Building>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<AllowChangeVariation>1</AllowChangeVariation>
 				</Building>
                 <Blocking />
                 <Object>
                     <Variations>
                         <Item>
                             <Filename>data/graphics/buildings/orient/market_stalls/market_stand_05/market_stand_05.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/market_stalls/market_stand_05/market_stand_05_props.cfg</Filename>
                         </Item>
                     </Variations>
                     <Skins>
