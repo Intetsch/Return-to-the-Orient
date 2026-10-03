@@ -44,6 +44,14 @@
                         </Item>
                     </Costs>
                 </Cost>
+				<Mesh/>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/tractor_module_orient/tractor_module_orient.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
 			</Values>
 		</Asset>
 	</ModOp>
