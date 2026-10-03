@@ -1,0 +1,41 @@
+<ModOps>
+
+    <!-- Orient trading company group in the Envoy (by tier) and harbor (by type) menus; unlocked with the
+         ceremonial sabers pool 1404000765. -->
+    <ModOp GUID="4532" Type="addNextSibling">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003204</GUID>
+                    <Name>orient construction menu trading company</Name>
+                    <IconFilename>data/ui/icon_trading_company_main.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404003200</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404003201</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404003202</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404003203</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>1999005235</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1999005648</TextOverride>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

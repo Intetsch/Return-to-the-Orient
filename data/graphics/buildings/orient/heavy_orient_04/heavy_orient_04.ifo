@@ -113,6 +113,25 @@
 			<zf>0.100000</zf>
 		</Extents>
 	</Dummy>
+	<Dummy>
+		<Name>watersupply_connector</Name>
+		<Position>
+			<xf>-0.5</xf>
+			<yf>0</yf>
+			<zf>2</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0</yf>
+			<zf>0</zf>
+			<wf>1</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.1</xf>
+			<yf>0.1</yf>
+			<zf>0.1</zf>
+		</Extents>
+	</Dummy>
 	<FeedbackBlocker>
 		<Position>
 			<xf>-2.000000</xf>

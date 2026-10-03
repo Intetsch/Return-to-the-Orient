@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000885</GUID>
+                    <Name>orient acid chain</Name>
+                    <IconFilename>data/graphics/icons/products/icon_sulfuric_acid.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000883</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>112842</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000212</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1500302570</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404005039</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

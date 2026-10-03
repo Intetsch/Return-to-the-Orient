@@ -1,0 +1,42 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="132757">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003307</GUID>
+                    <Name>Recipe_CoffeeHouse_honey</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_honey.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Honey Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404003325</RecipeBuilding>
+                    <RecipeDescriptionText>1404003315</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_coffee_house/recipebook_orient_coffee_house_honey.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>0</PosX>
+                            <PosY>145</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>397</PosX>
+                            <PosY>10</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>
