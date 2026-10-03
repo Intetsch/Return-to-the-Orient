@@ -1,0 +1,69 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005024</GUID>
+                    <Name>orient lokum chain</Name>
+                    <IconFilename>data\modgraphics\ui\icon_lokum.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005023</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010313</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010262</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1404005027</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404005025</Building>
+                                </Item>
+                                <Item>
+                                    <Building>114440</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1010317</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010329</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1404000294</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000292</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010319</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010560</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                   <TextOverride>1400201053</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

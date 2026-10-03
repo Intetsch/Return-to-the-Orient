@@ -81,16 +81,16 @@
   - Engineers:
     - Hookahs
   - Investors:
-    - (Seidenschals): Seide + Baumwolle
+    - (Seidenschals): Seide + Baumwolle + Pigmente
   - Magnates:
-    - (Elfenbein Zeug): Elfenbein aus Enbesa + Holzfurniere aus OW + Gold
+    - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
 - Enbesa:
   - Elders:
-    - (Gewürztee): Gewürze + Kräuter aus NW, dann nur mit DLC + Papier + Honig (siehe Bienenmodul)
+    - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
     - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
 - NW:
   - Artista:
-    - (Räucherwerk): Gewürze + Harzmodul was Palmenfarmen Harz produzieren lässt (wie Bienenmodul) + Messing + Tabak
-    - (Lokum): Mehl aus OW + Rosenwasser + Zucker aus NW (+ Nüsse)
+    - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
+    - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
   - Obrera:
-    - (kandierte Datteln): Datteln + Zucker + Rum
+    - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)

@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201062</GUID>
+      <!-- Product | incense | Incense -->
+      <Text>熏香</Text>
+    </Text>
+    <Text>
+      <GUID>1400201064</GUID>
+      <!-- Text | incense fluff text | An intense concentration of aromas—some love it, others hate it. Either way, it is something new. -->
+      <Text>浓郁香气的集合体，有人爱它，有人恨它。无论如何，这都是件新鲜事物。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

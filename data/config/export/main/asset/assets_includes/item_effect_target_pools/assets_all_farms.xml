@@ -1,0 +1,45 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="125110">
+		<Asset>
+			<Template>ItemEffectTargetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005018</GUID>
+					<Name>all farms orient</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>All Oriental Marketstalls</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<ItemEffectTargetPool>
+					<EffectTargetGUIDs>
+						<Item>
+                            <GUID>1404000159</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1404000160</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1404000169</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1404000292</GUID>
+                        </Item>
+                        <Item>
+                            <GUID>1404000300</GUID>
+                        </Item>
+						<Item>
+                            <GUID>1404005025</GUID>
+						</Item>
+					</EffectTargetGUIDs>
+				</ItemEffectTargetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

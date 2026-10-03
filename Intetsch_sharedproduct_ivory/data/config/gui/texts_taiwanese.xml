@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201059</GUID>
+      <!-- Product | ivory | Ivory -->
+      <Text>象牙</Text>
+    </Text>
+    <Text>
+      <GUID>1400201061</GUID>
+      <!-- Text | ivory fluff text | A material obtained in a manner that is not exactly ethical, yet highly popular among the refined folk of the Old World. -->
+      <Text>一種取得方式不太道德的材料，卻深受舊世界上流人士的喜愛。</Text>
+    </Text>
+  </ModOp>
+</ModOps>

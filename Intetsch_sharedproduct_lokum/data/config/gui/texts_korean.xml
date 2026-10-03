@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201053</GUID>
+      <!-- Product | lokum | Lokum -->
+      <Text>Lokum</Text>
+    </Text>
+    <Text>
+      <GUID>1400201055</GUID>
+      <!-- Text | lokum fluff text | A sticky situation, also known as turkish delight. -->
+      <Text>끈적끈적한 문제, 터키시 딜라이트라고도 불립니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

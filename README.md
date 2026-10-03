@@ -21,11 +21,12 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 - Over 30 new ornaments to distract your population from the desert heat.
 - Madame Kahina joined you on your journey and is willing to help you by trading new wares and new orient-specific items.
 - Use the Foreign Trading Company to import needed wares for the envoys that you might not be able to produce yourself.
-- Produce special mixtures due refine more ores and boost your Old World Smelters.
+- Produce special mixtures to refine more ores and boost your Old World Smelters.
 
 # Requirements & Compatibility
 
 Required DLCs: Land of Lions and New World Rising
+
 Optional DLCs: Tourist Season, Bright Harvest and Empire of the Skies
 
 The mod is compatible with new and existing saves, regular and creative modes. Campaign and multiplayer were not tested but should work.
@@ -40,32 +41,50 @@ To unlock the quest and expedition you need to have 5000 Investors, 6000 Artista
 
 # Credits 
 
-### Development
+## Development
 
-- Natoncy
-- Intetsch
+- [Natoncy](https://github.com/Natoncy)
+- [Intetsch](https://github.com/Intetsch)
 - Satanoy (Item development)
 
-### Shared Mods 
+## Shared Mods 
 
-- Shared_Rosenwasser water by fridhmyr
-- Shared_Date by Satanoy
-- Shared_Roses by fridhmyr
-- Palm Wood by Intetsch
-- Neutral Hacienda Base (Genshi) by Genshi
-- Spice Powder (Kurila) by Kurila
-- General Modules (Kurila) by Kurila
-- shared_importdock_ebony_taludas (Taludas) by Taludas
-- shared_tradingcompany_taludas (Taludas) by Taludas, Drakkam & Taubenangriff
-- shared_tradingcompany_allimportpiers_taludas (Taludas) by Taludas & Taubenangriff
-- shared_tradingcompany_packaging_taludas (Taludas) by Taludas
-- sharedproduct_almonds (Taludas) by Taludas
-- sharedproduct_ebony (Taludas) by Taludas
-- sharedproduct_honey (Taludas) by Taludas
-- sharedproduct_marzipan (Taludas) by Taludas
-- sharedproduct_silkfabric (Taludas) by Taludas
+- [Shared_Rosenwasser water by fridhmyr](https://github.com/Natoncy/Return-to-the-Orient/tree/master/%5BProduct%5D%20Shared__rosenwasser_fridhmyr)
+- [Shared_Date by Satanoy](https://github.com/Natoncy/Return-to-the-Orient/tree/master/%5BProduct%5D%20Shared_Date_Satanoy)
+- [Shared_Roses by fridhmyr](https://github.com/Natoncy/Return-to-the-Orient/tree/master/%5BProduct%5D%20Shared_Roses_fridhmyr)
+- [Neutral Hacienda Base (Genshi) by Genshi](https://github.com/Taludas/SharedMods/tree/main/neutral_hacienda_genshi)
+- [Spice Powder (Kurila) by Kurila](https://github.com/Qurila/shared-mods/tree/main/shared_products_kurila/spice_powder_kurila)
+- [General Modules (Kurila) by Kurila](https://github.com/Qurila/shared-mods/tree/main/shared_general_modules_kurila)
+- [shared_importdock_ebony_taludas (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_shared_importdock_ebony)
+- [shared_tradingcompany_taludas (Taludas) by Taludas, Drakkam & Taubenangriff](https://github.com/Taludas/SharedMods/tree/main/Taludas_shared_tradingcompany)
+- [shared_tradingcompany_allimportpiers_taludas (Taludas) by Taludas & Taubenangriff](https://github.com/Taludas/SharedMods/tree/main/Taludas_shared_tradingcompany_allimportpiers)
+- [shared_tradingcompany_packaging_taludas (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_shared_tradingcompany_packaging)
+- [sharedproduct_almonds (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_sharedproduct_almonds)
+- [sharedproduct_ebony (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_sharedproduct_ebony)
+- [sharedproduct_honey (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_sharedproduct_honey)
+- [sharedproduct_marzipan (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_sharedproduct_marzipan)
+- [sharedproduct_silkfabric (Taludas) by Taludas](https://github.com/Taludas/SharedMods/tree/main/Taludas_sharedproduct_silkfabric)
 
-### Translation
+### Developed for Return to the Orient:
+
+- [shared_importdock_honey by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_shared_importdock_honey)
+- [sharedproduct_camels by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_camels)
+- [sharedproduct_ceremonial_sabers by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_ceremonial_sabers)
+- [sharedproduct_chandeliers by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_chandeliers)
+- [sharedproduct_hookahs by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_hookahs)
+- [sharedproduct_kaftans by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_kaftans)
+- [sharedproduct_mosaic by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_mosaic)
+- [sharedproduct_pearl_necklaces by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_pearl_necklaces)
+- [sharedproduct_pomegranate_juice by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_pomegranate_juice)
+- [sharedproduct_rugs by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_rugs)
+- [sharedproduct_turbans by Natoncy](https://github.com/Natoncy/Shared-Mods-Natoncy/tree/master/Natoncy_sharedproduct_turbans)
+- [sharedproduct_palm_wood by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_palm_wood)
+- [sharedproduct_spiced_tea by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_spiced_tea)
+- [sharedproduct_lokum by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_lokum)
+- [sharedproduct_candied_dates by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_candied_dates)
+- [sharedproduct_pistachios by Intetsch](https://github.com/Intetsch/shared-mods-Intetsch/tree/main/Intetsch_sharedproduct_pistachios)
+
+## Translation
 
 - German: Natoncy
 - French: TBD
