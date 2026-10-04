@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>日付</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>ナツメヤシの生産力</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>アーモンド</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>アーモンドの生産力</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>浴場</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>人口: 東洋</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>モザイクワークショップ</Text>
@@ -618,7 +623,7 @@
     <Text>
       <GUID>1404000159</GUID>
       <!-- FarmBuilding | Mosaic Workshop | Date Farm -->
-      <Text>伊達農園</Text>
+      <Text>ナツメヤシ農園</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>シルク</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>シルクの生産力</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>日付フィールド</Text>
+      <Text>ナツメヤシ畑</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>デポ</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>無人島</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>オリエンタルファウンテン</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>バラ</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>バラの生産力</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>ザクロ</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>ザクロの生産力</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>オリエンタルワークショップ：儀式用サーベル</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>東洋の工房の特許リスト</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>露店</Text>
     </Text>
     <Text>
@@ -1128,7 +1143,7 @@
     <Text>
       <GUID>1404000386</GUID>
       <!-- AudioText | AudioText Play_residents_6607250: By Allah! Lend us your support! | By Allah! Lend us your support! -->
-      <Text>アッラーにかけて！</Text>
+      <Text>アッラーにかけて！どうか私たちにお力添えを！</Text>
     </Text>
     <Text>
       <GUID>1404000388</GUID>
@@ -1203,7 +1218,7 @@
     <Text>
       <GUID>1404000416</GUID>
       <!-- AudioText | AudioText Play_residents_6607311: By Allah! I can't take another day here! | By Allah! I can't take another day here! -->
-      <Text>アッラーにかけて！</Text>
+      <Text>アッラーにかけて！ここではもう一日も耐えられません！</Text>
     </Text>
     <Text>
       <GUID>1404000418</GUID>
@@ -1223,7 +1238,7 @@
     <Text>
       <GUID>1404000424</GUID>
       <!-- AudioText | AudioText Play_residents_6607320: By Allah! How about these for lean times…?! | By Allah! How about these for lean times…?! -->
-      <Text>アッラーにかけて！</Text>
+      <Text>アッラーにかけて！なんという貧しい時代でしょう…？！</Text>
     </Text>
     <Text>
       <GUID>1404000426</GUID>
@@ -1253,7 +1268,7 @@
     <Text>
       <GUID>1404000436</GUID>
       <!-- AudioText | AudioText Play_residents_6607331: You were right! It IS better to live here than to move from Town to Town... | You were right! It IS better to live here than to move from Town to Town... -->
-      <Text>あなたは正しかったです！</Text>
+      <Text>あなたの言う通りでした！町から町へと渡り歩くより、ここで暮らす方がずっと良いのです…</Text>
     </Text>
     <Text>
       <GUID>1404000438</GUID>
@@ -1298,7 +1313,7 @@
     <Text>
       <GUID>1404000454</GUID>
       <!-- AudioText | AudioText Play_residents_6607350: Allah has heard my prayers! We are enjoying a better life than ever before! | Allah has heard my prayers! We are enjoying a better life than ever before! -->
-      <Text>アッラーは私の祈りを聞いてくださいました！</Text>
+      <Text>アッラーが私の祈りを聞き届けてくださった！これまでにないほど良い暮らしです！</Text>
     </Text>
     <Text>
       <GUID>1404000456</GUID>
@@ -1373,7 +1388,7 @@
     <Text>
       <GUID>1404000485</GUID>
       <!-- AudioText | AudioText Play_residents_6608690: Shukran! You have my most sincere thanks! | Shukran! You have my most sincere thanks! -->
-      <Text>シュクラン！</Text>
+      <Text>シュクラン！心より感謝申し上げます！</Text>
     </Text>
     <Text>
       <GUID>1404000487</GUID>
@@ -1408,7 +1423,7 @@
     <Text>
       <GUID>1404000499</GUID>
       <!-- AudioText | AudioText Play_residents_6608713: I am getting out of here immediately; there is nothing more to make me stay! | I am getting out of here immediately; there is nothing more to make me stay! -->
-      <Text>私はすぐにここから出ます。</Text>
+      <Text>すぐにここを出て行きます。もう私を引き止めるものは何もありません！</Text>
     </Text>
     <Text>
       <GUID>1404000501</GUID>
@@ -1433,7 +1448,7 @@
     <Text>
       <GUID>1404000509</GUID>
       <!-- AudioText | AudioText Play_residents_6608723: By Allah! We deserve better than this! | By Allah! We deserve better than this! -->
-      <Text>アッラーにかけて！</Text>
+      <Text>アッラーにかけて！私たちはもっと良い扱いを受けるべきです！</Text>
     </Text>
     <Text>
       <GUID>1404000511</GUID>
@@ -1493,7 +1508,7 @@
     <Text>
       <GUID>1404000533</GUID>
       <!-- AudioText | AudioText Play_residents_6608750: It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... | It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... -->
-      <Text>ここは素晴らしいですね！</Text>
+      <Text>ここは素晴らしい！しばらく巡礼を先延ばしにしても、アッラーはきっとお許しくださるでしょう…</Text>
     </Text>
     <Text>
       <GUID>1404000535</GUID>
@@ -1503,7 +1518,7 @@
     <Text>
       <GUID>1404000537</GUID>
       <!-- AudioText | AudioText Play_residents_6608752: By Allah! Our Town is a haven of Satisfaction! | By Allah! Our Town is a haven of Satisfaction! -->
-      <Text>アッラーにかけて！</Text>
+      <Text>アッラーにかけて！私たちの町は満足に満ちた楽園です！</Text>
     </Text>
     <Text>
       <GUID>1404000539</GUID>
@@ -1598,22 +1613,22 @@
     <Text>
       <GUID>1404000592</GUID>
       <!-- Text | Dieser prunkvolle Klingenstreich aus poliertem Stahl dient weniger dem Kampf als dem guten Eindruck. Sein Griff glänzt im Fackelschein und erzählt Geschichten von Paraden, Gelöbnissen und überambitionierten Offizieren. Ein Hieb in die Luft, ein salutierender Schritt und schon fühlt man sich um Rang und Würde reicher. | This magnificent blade, crafted from polished steel, serves less for combat than for making a good impression. Its hilt gleams in the torchlight, whispering tales of parades, oaths, and overambitious officers. A swipe of the blade into the air, a saluting step, and one instantly feels enriched by rank and dignity. -->
-      <Text>磨かれた鋼から作られたこの素晴らしい刃は、戦闘というよりはむしろ好印象を与えるために役立ちます。</Text>
+      <Text>磨き上げられた鋼で作られたこの見事な刀身は、戦いよりも見栄えのためにあります。柄は松明の光にきらめき、パレードや誓い、野心過剰な将校たちの物語をささやきます。空を切るひと振り、敬礼の一歩で、たちまち位も威厳も増したような気分になれます。</Text>
     </Text>
     <Text>
       <GUID>1404000593</GUID>
       <!-- Text | Ein grandioses Lichtermeer aus Gold und purem Größenwahn. Mit einem einzigen Einschalten lässt er selbst den schlichtesten Raum aussehen, als seien Könige im Anmarsch. Seine funkelnden Prismen brechen das Licht in tausend kleine Sterne und ziehen Staub an wie ein Magnet. Doch wer würde das bemerken, geblendet von so viel Glorie? | A magnificent sea of ​​light, a display of gold and sheer megalomania. With a single switch-on, it makes even the simplest room look as if royalty is approaching. Its sparkling prisms refract the light into a thousand tiny stars and attract dust like a magnet. -->
-      <Text>壮大な光の海、黄金と純粋な誇大妄想の展示。</Text>
+      <Text>光の海、黄金と純然たる誇大妄想の見本。灯をひとつともすだけで、どんなに質素な部屋もまるで王族が訪れるかのように見えます。きらめくプリズムは光を千の小さな星に分け、磁石のように埃を引き寄せます。</Text>
     </Text>
     <Text>
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
-      <Text>芸術的に装飾された喫煙具。そのゴロゴロ音は、最も疲れた心をも陽気な気分にさせます。</Text>
+      <Text>精巧に飾られた喫煙具で、そのゴボゴボという音はどんなに疲れた心も和やかな気分にしてくれます。火皿に香り高いタバコを詰め、炭火を灯せば、甘く芳しい煙が広がり、何時間も数分のように感じられるでしょう。</Text>
     </Text>
     <Text>
       <GUID>1404000595</GUID>
       <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>小さくて完璧な宝物のきらめきの配列は、夜にお互いにささやき合っているのではないかと思うほど完璧に丸いです。</Text>
+      <Text>小さく完璧な宝石がきらめきながら連なり、あまりに見事な丸さに、夜にはささやき合っているのではと思えるほどです。優雅さと富、そして時に下心のある贈り物の象徴。身に着ければ、どの一歩も優美に、どの仕草も洗練されて見えます。少なくとも留め金が引っかかるまでは。</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -1878,7 +1893,7 @@
     <Text>
       <GUID>1404000678</GUID>
       <!-- Text | Truly overwhelming. I will carry this moment forever. | Truly overwhelming. I will carry this moment forever. -->
-      <Text>本当に圧倒的です。</Text>
+      <Text>本当に圧倒されました。この瞬間を一生忘れません。</Text>
     </Text>
     <Text>
       <GUID>1404000679</GUID>
@@ -2043,7 +2058,7 @@
     <Text>
       <GUID>1404000732</GUID>
       <!-- Text | A colossal waste of hype. Nothing lived up to the billing. | A colossal waste of hype. Nothing lived up to the billing. -->
-      <Text>誇大広告の巨大な無駄。</Text>
+      <Text>とんだ大げさな宣伝倒れです。何ひとつ評判通りではありませんでした。</Text>
     </Text>
     <Text>
       <GUID>1404000733</GUID>
@@ -2103,17 +2118,17 @@
     <Text>
       <GUID>1404000794</GUID>
       <!-- Text | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. -->
-      <Text>注意深く敬意を持って、壮大なモスクの最初の石が置かれます。</Text>
+      <Text>細心の注意と敬意をもって、壮麗なモスクの最初の石が据えられます。この神聖な礎は、思索と祈りの場の始まりであり、何世代もの信徒を迎え入れる永遠の聖域となるでしょう。</Text>
     </Text>
     <Text>
       <GUID>1404000795</GUID>
       <!-- Text | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. -->
-      <Text>優美なアーチがそびえ立ち、礼拝堂は静かな荘厳さの中に広がります。</Text>
+      <Text>優美なアーチがそびえ立ち、礼拝堂が静かな荘厳さの中に広がります。精緻な装飾を通して光が差し込み、空間は増えゆく会衆の静かな祈りと集う心を迎える準備を整えます。</Text>
     </Text>
     <Text>
       <GUID>1404000796</GUID>
       <!-- Text | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. -->
-      <Text>そびえ立つミナレットとほぼ完成した輝くドームが、モスクのシルエットを飾り立てています。</Text>
+      <Text>そびえ立つミナレットとほぼ完成した輝くドームが、モスクのシルエットを飾ります。信仰と芸術の調和が、畏敬と安らぎ、そして時を超えた心の拠り所をもたらそうとしています。</Text>
     </Text>
     <Text>
       <GUID>1404000800</GUID>
@@ -2161,49 +2176,59 @@
       <Text>永遠の記念碑</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>巡礼者の称賛</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>スルタン国の各地から巡礼者たちが、一生に一度の行事に参加するために集まりました。</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
-      <Text>奇妙な形の手紙がマダム・カヒナから届けられました。</Text>
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
+      <Text>マダム・カヒーナが奇妙な見た目の手紙を届けてくれました。それはスルタンからの招待状で、スルタンは既知の世界で最も過酷な土地にさえ入植してきたあなたの評判を耳にしたようです。スルタン国の首都へ来てほしいとのことです。マダム・カヒーナは、これが儲かる商機であり、あなたの交易帝国を広げる好機になると考えています。エンベサの彼方にある未知への新たな冒険は、困難であると同時に大きな見返りをもたらすかもしれません。</Text>
     </Text>
     <Text>
       <GUID>1404000829</GUID>
       <!-- Text | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. -->
-      <Text>長く困難な旅を経て、あなたはついに約束の諸島に到着しました。</Text>
+      <Text>長く過酷な旅の末、あなたはついに約束の群島にたどり着きました。島々には砂と岩、そしてわずかな枯れかけたヤシの木しかありません。ここに定住して都市を築くには、何世紀にもわたってこのような砂漠で暮らし、生き抜く知恵を持つ遊牧民が必要です。</Text>
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
-      <Text>非常に多くの遊牧民がここに滞在しているため、食料の生産を開始する必要がありますが、乾燥した熱い砂の上ではほとんど何も成長していません。</Text>
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
+      <Text>これほど多くの遊牧民が滞在しているからには、食料の生産を始めなければなりませんが、乾いた灼熱の砂ではほとんど何も育ちません。遊牧民は昔から、ノリアを使って地下深くから水をくみ上げ、畑を潤してきました。しかし、一か所にノリアが多すぎると帯水層が枯れ、くみ上げる水がなくなってしまいます。それを防ぐため、遊牧民は途切れることのない持続的な水の供給を保証する、ノリア同士の最小距離を見いだしました。</Text>
     </Text>
     <Text>
       <GUID>1404000831</GUID>
       <!-- Text | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. -->
-      <Text>あなたは、間もなく到着するスルタン国の最初の特使を受け入れるに値することを証明しました。</Text>
+      <Text>あなたは、まもなく到着するスルタン国の最初の使節を迎えるにふさわしいことを証明しました。彼らはスルタンとつながりがあり、あなたの成功も失敗もすべて報告するでしょう。スルタンの宮廷に仕える者として東洋の数々の贅沢に慣れており、あなたの都市でもそれを期待するはずです。</Text>
     </Text>
     <Text>
       <GUID>1404000832</GUID>
       <!-- Text | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. -->
-      <Text>特使の仕事は長くて大変で、外交業務は多くの官僚的な仕事で構成されています。</Text>
+      <Text>使節の仕事は長く骨の折れるもので、外交の任務は多くの場合、膨大な事務作業から成り立っています。領事館は多くの使節に人員の整った安全な職場を提供し、その効率を高めます。これらの建物で作られる書類は、記念建造物の建設や特別な催しの開催、そしてさらに書類仕事をこなす使節の移住に使うことができます。</Text>
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
-      <Text>より多くの特使があなたの新興都市への移住を望んでおり、彼らのためにもっと家を建てるよう要求しています。</Text>
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
+      <Text>さらに多くの使節があなたの新興都市への移住を望み、家を増やすよう求めています。この都市が文化交流の一大拠点となるには、発展を続け、多彩な地元の品々だけでなく、旧世界と新世界の新しい品々も生産しなければなりません。</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
-      <Text>バザールは文化の不可欠な部分であり、これらの市場は伝統と現代性を組み合わせて、使節が工業化時代の新しい商品を試食できるようにしています。</Text>
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
+      <Text>バザールは昔から文化に欠かせないものであり、これらの露店は伝統と近代を融合させ、使節たちに産業時代の新しい品々を試す機会を与えます。使節たちはそれらを研究することに強い関心を持ち、スルタン国に報告するため、あなたの品々に新たな市場が開かれるかもしれません。唯一の問題は、遠く離れた地から製品を供給しなければならないことです。</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
-      <Text>噂によると、あなたの都市は特使の間で非常に人気があり、その規模と設備の点で国会議事堂に匹敵する方向にあるとのことです。</Text>
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
+      <Text>あなたの都市は使節たちの間で大変な人気となり、規模も設備も首都に匹敵しつつあると噂されています。国内最高位の使節たちが新たに押し寄せてきており、東洋と西洋はこの400年で最も近づいています。</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
-      <Text>スルタンはあなたの成長に非常に満足しており、この砂漠での最高の成果となる記念碑の設計図へのアクセスを許可しました。</Text>
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
+      <Text>スルタンはあなたの発展に大変満足し、この砂漠におけるあなたの最高傑作となる記念碑の設計図を授けてくださいました。このような大モスクはこれまでに、何世紀も前にひとつ建てられたきりで、二つ目を建てることは、急速に変わりゆく産業時代にも伝統が受け継がれうることの象徴となるでしょう。この都市への巡礼や、それがもたらす政治的影響力は言うまでもありません。</Text>
     </Text>
     <Text>
       <GUID>1404000837</GUID>
@@ -2241,6 +2266,16 @@
       <Text>この記念碑を使用すると巡礼を行うことができ、スルタン国における影響力が高まります。</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>砂漠の道</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>木製の橋</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>断食月</Text>
@@ -2259,6 +2294,11 @@
       <GUID>1404000850</GUID>
       <!-- FestivalBuff | Ramadan | Time of breaking the Fast -->
       <Text>断食明けの時間</Text>
+    </Text>
+    <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>すべての東洋の住居</Text>
     </Text>
     <Text>
       <GUID>1404000861</GUID>
@@ -2427,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>ムスタファ・イブン・カディール、青銅の名工</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>ムスタファ・イブン・カディール、銀の名工</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2452,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>ナビル・ブン・ユスフ・アル・サラージ、ミダスタッチとともに</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>ナビル・ブン・ユスフ・アル・サラージ、シルバータッチとともに</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2513,37 +2553,37 @@
     <Text>
       <GUID>1404000931</GUID>
       <!-- Text | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. -->
-      <Text>オアシスや古代の果樹園の中で育ったファティマは、幼い頃から、他の人が星を読むように木のリズムを読むことを学びました。</Text>
+      <Text>オアシスと古い果樹園に囲まれて育ったファティマは、他の人が星を読むように、幼い頃から木々のリズムを読むことを学びました。彼女の知識は、正確な剪定、根気強い水やり、選び抜いた若枝の正しい扱いを組み合わせたもので、代々受け継がれてきた技です。</Text>
     </Text>
     <Text>
       <GUID>1404000932</GUID>
       <!-- Text | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. -->
-      <Text>マリアムは、ザクロの木がまるで儀式のように丁寧に扱われる果樹園の中で育ちました。</Text>
+      <Text>マリアムは、ザクロの木がまるで儀式のように丁寧に扱われる果樹園で育ちました。彼女は、より豊かで安定した実りをもたらす剪定、灌漑、開花の周期を熟知しています。彼女が畑にいるだけで、木々を疲弊させることなく収穫量が向上します。</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
       <!-- Text | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. -->
-      <Text>この方法は、果樹園で伝統的に行われているナツメヤシの手作業による受粉を組織化したものです。</Text>
+      <Text>この方法は、果樹園で伝統的に行われているナツメヤシの手作業による受粉を体系化したものです。日程と熟練の人手を調整することで、より高い結実率が確保されます。不規則な受粉や遅れた受粉による損失は減りますが、繁忙期には計画と追加の作業が必要です。</Text>
     </Text>
     <Text>
       <GUID>1404000934</GUID>
       <!-- Text | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. -->
-      <Text>ハッサンは砂漠の道をたどり、暑さや長旅に強いラクダを育てながら生涯をかけてきました。</Text>
+      <Text>ハッサンは砂漠の道をたどりながら、暑さと長旅に強いラクダを育てることに生涯を捧げてきました。歩き方、息づかい、脚の力強さで一頭一頭の価値を見抜き、繁殖用の個体を慎重に選び抜きます。</Text>
     </Text>
     <Text>
       <GUID>1404000935</GUID>
       <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
-      <Text>この協定は、家畜の放牧路と水源の共同使用を規制するものです。</Text>
+      <Text>この協定は、家畜のための放牧路と水場の共同利用を定めたものです。氏族と飼育者の調整によって家畜の損失が減り、繁殖も向上します。これにより、より大きく安定した群れを維持できるようになります。</Text>
     </Text>
     <Text>
       <GUID>1404000936</GUID>
       <!-- Text | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. -->
-      <Text>ラシッドは、香りと染料の両方で珍重される植物の世話に人生を捧げてきました。</Text>
+      <Text>ラシードは、香りと染料の両方で珍重される植物の世話に生涯を捧げてきました。最適な収穫と剪定の時期を熟知しているため、農園の収穫量を高めるだけでなく、異国の花や他の土地の花も育てることができます。</Text>
     </Text>
     <Text>
       <GUID>1404000937</GUID>
       <!-- Text | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. -->
-      <Text>このシステムは、明確に定義された季節サイクルに従って、バラの剪定、水やり、収穫を組織化します。</Text>
+      <Text>この制度は、明確に定められた季節の周期に従って、バラの剪定、水やり、収穫を管理するものです。庭師たちの作業をそろえることで、より豊かで均一な花が咲きます。病気や土壌の疲弊による損失も減ります。規律と計画が必要ですが、より安定した収穫で報われます。</Text>
     </Text>
     <Text>
       <GUID>1404000938</GUID>
@@ -2553,42 +2593,42 @@
     <Text>
       <GUID>1404000939</GUID>
       <!-- Text | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. -->
-      <Text>サリムは、ザクロが不足していたり​​、作業場に傷が入っていたりした場合でも、果汁の流れを維持する能力で名声を博しました。</Text>
+      <Text>サリムは、ザクロが不足していたり、傷んだ状態で工房に届いたりしても果汁を途切れさせない手腕で名を上げました。彼は素早く、しかし疑わしい判断で、似た酸味の柑橘類を代わりに使い、一見したところもっともらしい液体を作り上げたのです。</Text>
     </Text>
     <Text>
       <GUID>1404000940</GUID>
       <!-- Text | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. -->
-      <Text>このプレス機には手動スクリュー システムが導入されており、ザクロ果汁を抽出する際の圧力と制御が向上します。</Text>
+      <Text>この搾り機は手動のねじ式機構を導入し、ザクロ果汁を搾る際により強い圧力と制御を可能にします。力を均等にかけることで果肉の損失が減り、果実一つあたりの搾汁量が向上します。その導入は、家内生産から半工業的な規模への移行を示しています。</Text>
     </Text>
     <Text>
       <GUID>1404000941</GUID>
       <!-- Text | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. -->
-      <Text>タブリーズ出身のファルハドは、幼少の頃から織物生産の技術を学び、文字が読めるようになる前から結び目を数えていました。</Text>
+      <Text>タブリーズ出身のファルハードは、文字を読めるようになる前から結び目を数え、幼い頃から織物の技を学んできました。確かな手さばきと図案を見る目によって、作業を手早く進めることができます。彼の指導のもと、工房はより多くの均一な品を生み出し、それらは地元のバザールでも遠方の市場でも珍重されています。</Text>
     </Text>
     <Text>
       <GUID>1404000942</GUID>
       <!-- Text | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. -->
-      <Text>メフメットは、カーペットが日常使用と旅行の両方に耐えなければならない中央アナトリアの工房でその名声を築きました。</Text>
+      <Text>メフメトは、絨毯が日々の使用にも旅にも耐えなければならない中央アナトリアの工房で名声を築きました。その経験によって織り手を的確にまとめ、模様の誤りを防ぎ、修正に費やす時間を減らすことができます。</Text>
     </Text>
     <Text>
       <GUID>1404000943</GUID>
       <!-- Text | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. -->
-      <Text>レイラは、シルクがほぼ神聖な商品として扱われる王室の織機の中で訓練を受けました。</Text>
+      <Text>ライラは、絹がほとんど神聖な品として扱われる王室の織機のもとで修行しました。糸切れや無駄を防ぐための正確な張りと適切なリズムを心得ています。商人も職人も、彼女の確かな仕事ぶりと鋭い目を高く評価しています。</Text>
     </Text>
     <Text>
       <GUID>1404000944</GUID>
       <!-- Text | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. -->
-      <Text>アブドゥルは、最も貴重なスパイスとなる植物の栽培と選択に熟達していることで知られています。</Text>
+      <Text>アブドゥルは、最も珍重される香辛料のための植物を栽培し選び抜く腕前で知られています。工房で作る香辛料のひと粒ひと粒の風味と香りを、どの材料が引き立てて高めるのかを正確に知っており、最高品質の品に仕上げます。</Text>
     </Text>
     <Text>
       <GUID>1404000945</GUID>
       <!-- Text | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. -->
-      <Text>ハッサンは、ほとんど執拗なまでの正確さでスパイスをブレンドし、乾燥させ、保存する技術を習得しました。</Text>
+      <Text>ハッサンは、香辛料の調合、乾燥、保存の技をほとんど執念に近い正確さで極めています。袋を開ける前から香りのわずかな違いを嗅ぎ分けられると言われています。彼の手法は、香りの強さと保存性の釣り合いを何より重んじています。</Text>
     </Text>
     <Text>
       <GUID>1404000946</GUID>
       <!-- Text | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. -->
-      <Text>ゼインは幼い頃から辛い食べ物に対して伝説的な不耐症を患っており、匂いだけで一日を台無しにしてしまうほどだった。</Text>
+      <Text>ザインは幼い頃から辛い食べ物に伝説的なほど弱く、その匂いだけで一日が台無しになるほどでした。代わりを探さざるを得なくなった彼は、辛味をシナモンの温かみに置き換え、よりまろやかで驚くほど人気のある調合を見いだしました。やがて、彼の個人的な嫌悪は生産的な手法へと変わったのです。</Text>
     </Text>
     <Text>
       <GUID>1404000947</GUID>
@@ -2598,127 +2638,127 @@
     <Text>
       <GUID>1404000948</GUID>
       <!-- Text | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. -->
-      <Text>この条例は、カフタン製作における裁断、縫製、染色に関する明確な基準を定めています。</Text>
+      <Text>この条例は、カフタン作りにおける裁断、縫製、染色の明確な基準を定めるものです。監督された工房に生産を集中させることで布の無駄が減り、毎日の作業がより効率的になります。仕立ての親方たちは多少の自主性を失いますが、より良い材料と共用の道具を使えるようになります。</Text>
     </Text>
     <Text>
       <GUID>1404000949</GUID>
       <!-- Text | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. -->
-      <Text>アミナは生地の巻き方と張力の技術を習得しました。</Text>
+      <Text>アミナは布を巻き、張りを整える技を極めています。彼女の指導のもと、工場は標準化された近代的な折り方を取り入れ、失敗を減らし生産を早めています。その結果、どのターバンも形がしっかりと整い、すぐに身に着けられる仕上がりになります。</Text>
     </Text>
     <Text>
       <GUID>1404000950</GUID>
       <!-- Text | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. -->
-      <Text>ジャラールはダマスカス鋼の熟練で有名で、その波打つ木目には正確な熱と正確な打撃が必要です。</Text>
+      <Text>ジャラールはダマスカス鋼を極めた名匠として知られています。その波打つ木目模様には、正確な熱と的確な打撃が求められます。彼の鍛冶場では儀式のような忍耐をもって金属が鍛えられ、より強くしなやかな刃が生まれます。彼の指導のもと、工房はより均一なサーベルを、材料の無駄を抑えて作り上げます。</Text>
     </Text>
     <Text>
       <GUID>1404000951</GUID>
       <!-- Text | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. -->
-      <Text>この機械式ハンマーは、水の一定の力を利用して、手作業では不可能な規則性で材料を叩き、形を整え、圧縮します。</Text>
+      <Text>この機械式ハンマーは水の絶え間ない力を利用し、人の手では不可能な規則正しさで材料を打ち、形づくり、締め固めます。人の労力を減らし、かつては長い時間を要した手工業の工程を速めます。特に、繰り返しの多い重労働にたいへん重宝します。</Text>
     </Text>
     <Text>
       <GUID>1404000952</GUID>
       <!-- Text | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. -->
-      <Text>ザーラは、新鮮な花と忍耐強い火を必要とするプロセスであるローズウォーター蒸留の熟達者として知られています。</Text>
+      <Text>ザフラは、新鮮な花と根気強い火加減を要するローズウォーター蒸留の名人として知られています。香りと純度を保つために蒸気を集める正確な瞬間を心得ています。彼女の蒸留器は、香りも透明度も損なうことなく、より多くの量を生み出します。</Text>
     </Text>
     <Text>
       <GUID>1404000953</GUID>
       <!-- Text | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. -->
-      <Text>密閉された高熱蒸発によりローズウォーターをより大量に抽出するために使用される先進的な蒸留装置。</Text>
+      <Text>密閉した容器で高温気化させることで、より多くのローズウォーターを抽出する高度な蒸留装置です。内部の圧力を高めることで、レトルトは新鮮な花びらからの収量と効率を向上させます。ただし、取り扱いを誤ったり加熱しすぎたりすると、危険な破裂を招くおそれがあります。</Text>
     </Text>
     <Text>
       <GUID>1404000954</GUID>
       <!-- Text | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. -->
-      <Text>カリムは、非常に美しくバランスのとれた耐久性のある、並外れた品質の水ギセルを作る卓越したスキルと専門知識で知られています。</Text>
+      <Text>カリームは、最も美しく、釣り合いがとれ、長持ちする極上の水タバコを作る類まれな腕前と知識で知られています。ガラスと金属細工の名人であり、安定した空気の流れと確かな密閉を保証します。</Text>
     </Text>
     <Text>
       <GUID>1404000955</GUID>
       <!-- Text | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. -->
-      <Text>Yahya は、豪華で精巧に作られた燭台を作るための青銅の鋳造と成形の専門知識で知られています。</Text>
+      <Text>ヤフヤーは、豪華で精巧な燭台のための青銅の鋳造と成形に長けていることで知られています。鋭い目と確かな手で、最も緻密な模様を生み出し、貴族や王族の広間にふさわしい最高に美しい品を作り上げます。</Text>
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>ムスタファは、日常品と装飾品の両方に使用される青銅、真鍮、その他の金属を数十年にわたって扱ってきました。</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>ムスタファは何十年にもわたり、日用品にも装飾品にも使われる銀やその他の金属を扱ってきました。その経験により、燭台や水タバコをより均一に、欠陥を少なく生産する工房を組織することができます。</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
       <!-- Text | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. -->
-      <Text>木炭と密封るつぼを使用し、金属をより強力に溶解および精製するための高熱炉。</Text>
+      <Text>木炭と密閉したるつぼを使い、金属をより強力に溶かして精錬する高温炉です。この工程によって、より強い鋼と加工しやすい青銅が得られ、多くの工房の生産が向上します。ただし、極端な高温は材料や構造に大きな負担をかけます。</Text>
     </Text>
     <Text>
       <GUID>1404000958</GUID>
       <!-- Text | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." -->
-      <Text>ヌーラは、滑らかなアーモンド ペーストと高品質のチョコレートを作る技術で有名です。</Text>
+      <Text>ヌーラは、なめらかなアーモンドペーストと上質なチョコレート作りの腕前で知られています。この地方で最もおいしいマジパンを作るための正確な配合を心得ており、彼女のモットーは昔から「チョコレートで解決できないことはない」です。</Text>
     </Text>
     <Text>
       <GUID>1404000959</GUID>
       <!-- Text | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. -->
-      <Text>サミクさんは、小さな工房でナッツと甘いペーストのさまざまな混合物を何年も試した後、カリファの菓子店にたどり着きました。</Text>
+      <Text>サミクは、小さな工房で木の実と甘いペーストのさまざまな配合を何年も試した末に、カリフの菓子店にやって来ました。そこで彼は、よりゆっくり挽き、休ませる時間を管理する方法を編み出し、均一で扱いやすいマジパンを作り上げたのです。</Text>
     </Text>
     <Text>
       <GUID>1404000960</GUID>
       <!-- Text | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. -->
-      <Text>アイシャは、故郷の湾の温かい海で採れる最高級の真珠を扱う熟練の真珠細工師としての評判を築きました。</Text>
+      <Text>アイシャは、故郷の湾の温かい海で採れた最高級の真珠を扱う真珠細工の名人として名を上げました。真珠に穴を開け、選り分け、糸を通す技術により、割れを防ぎ、真珠を余すことなく生かして損失を避けます。</Text>
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>ナビルは、伝統的な真珠の紐を、細心の注意を払って組み立てられた細い金のチェーンに置き換えることで知られています。</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>ナビルは、伝統的な真珠の糸を、丹念に組み上げた細い銀の鎖に置き換えることで知られています。彼の手法は一つひとつの品の価値を高めますが、より高い精度と高価な材料を必要とします。</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
       <!-- Text | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. -->
-      <Text>この作業台では、セッティングする前に真珠を選択、研磨、照合するための体系的なシステムが導入されています。</Text>
+      <Text>この作業台は、真珠を留める前に選別、研磨、組み合わせを行うための整った仕組みを導入します。大きさ、光沢、色合いで分けることで、職人は組み立ての際の失敗を減らします。生産は手仕事の味わいを失うことなく、より予測しやすく効率的になります。</Text>
     </Text>
     <Text>
       <GUID>1404000963</GUID>
       <!-- Text | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. -->
-      <Text>バザールや隊商宿の物流混乱を終わらせるためにディワンが発行したこの条例は、商品の積み重ね、回転、保管に関する厳格な規則を定めています。</Text>
+      <Text>バザールと隊商宿の物流の混乱を終わらせるためにディーワーンが発したこの条例は、商品の積み上げ、入れ替え、保管について厳格な規則を定めています。倉庫は今や行政の監督下で運営され、新たな建設なしに実質的な容量が拡大します。</Text>
     </Text>
     <Text>
       <GUID>1404000964</GUID>
       <!-- Text | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. -->
-      <Text>規制された定住と市民の義務を通じて人口増加を奨励する正式な法令。</Text>
+      <Text>規制された入植と市民の義務によって人口増加を促す正式な布告です。居住と労働の登録を推進することで、課税対象となる住民の数を増やします。この勅令は家庭と商業に対する国の監督を強め、税収の徴収を改善します。</Text>
     </Text>
     <Text>
       <GUID>1404000965</GUID>
       <!-- Text | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. -->
-      <Text>オマルは、海と陸を越えて外国商品を輸入するための信頼できるルートを組織することで名声を築きました。</Text>
+      <Text>オマルは、海路と陸路で外国の品を輸入する信頼できる経路を整えることで名声を築きました。関税、保管、時機を熟知しており、物資が安定した量で届くようにします。商人たちは彼の人脈と几帳面な帳簿づけを高く評価しています。</Text>
     </Text>
     <Text>
       <GUID>1404000966</GUID>
       <!-- Text | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. -->
-      <Text>ハッサンはスークや倉庫を巡り、地元で作られた商品を集めます。</Text>
+      <Text>ハッサンはスークや倉庫を巡り、地元で作られた品を集めています。職人や農民、小さな工房を知り尽くし、それぞれの品をいつどこで売るべきかを心得ています。彼の働きによって、遠距離の交易路に頼ることなく地元の商いが円滑に回ります。</Text>
     </Text>
     <Text>
       <GUID>1404000967</GUID>
       <!-- Text | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. -->
-      <Text>ファリドは、燭台から日用品に至るまで、精巧に作られた金属製品を取引することで市場での地位を獲得しました。</Text>
+      <Text>ファリードは、燭台から日用品まで、出来の良い金属製品を商うことで市場に居場所を築きました。良い青銅は、その重さ、色合い、そして軽く叩いたときの音で見分けます。彼の露店には職人も目の肥えた客も集まってきます。</Text>
     </Text>
     <Text>
       <GUID>1404000968</GUID>
       <!-- Text | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. -->
-      <Text>宰相の権限によって発布されたこの法令は、統一された指揮の下で公共サービスの監督を再編するものである。</Text>
+      <Text>宰相の権限で発せられたこの布告は、公共サービスの監督をひとつの指揮系統のもとに再編するものです。監察官と行政官の管轄を広げることで、モスク、井戸、浴場、役所がより遠くの地区まで役目を果たせるようになります。</Text>
     </Text>
     <Text>
       <GUID>1404000969</GUID>
       <!-- Text | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. -->
-      <Text>イブラヒムは、単一の管理下で複数の公衆浴場の運営を調整する責任を負っています。</Text>
+      <Text>イブラーヒームは、複数の公衆浴場の運営をひとつの管理のもとでまとめる責任者です。勤務の割り振りを組み、水の供給を見張り、浴場がすぐ近くの地域を越えて営業し続けられるようにします。彼の采配のおかげで、浴場はより遠くの地区にも途切れることなく役立っています。</Text>
     </Text>
     <Text>
       <GUID>1404000970</GUID>
       <!-- Text | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. -->
-      <Text>この条例は、市内のスークと両替所に対する中央当局を確立します。</Text>
+      <Text>この規則は、都市のスークと交易所を統括する中央機関を設けるものです。販売規則、度量衡、営業時間を統一することで、市場がより遠くの地区まで役立つようになります。商人は、すぐ近くの地域を越えて商いを広げられる許可証を受け取ります。</Text>
     </Text>
     <Text>
       <GUID>1404000971</GUID>
       <!-- Text | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. -->
-      <Text>ラシードは、スルタンの高位の使用人として長く名高い家系の出身です。</Text>
+      <Text>ラシードは、スルタンに仕える高官を代々輩出してきた由緒ある家系の出身です。商人、旅人、外国の当局の間を取り持つ役目を担っています。彼の職務は、領事館の直接の管轄を越える案件の登録、認証、解決です。</Text>
     </Text>
     <Text>
       <GUID>1404000972</GUID>
       <!-- Text | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. -->
-      <Text>フセインはコーヒーの準備と提供の技術を熟知しています。</Text>
+      <Text>フサインはコーヒーを淹れ、ふるまう技を心得ています。焙煎、挽き方、給仕の速さを調整し、品質を損なうことなくより多くの客をもてなします。彼の采配のもと、コーヒーハウスは最も遠い地区の人々までもが集う場所となります。旅人も地元の人も、彼の店に立ち寄るために道筋を変えるほどです。</Text>
     </Text>
     <Text>
       <GUID>1404000976</GUID>
@@ -2728,7 +2768,7 @@
     <Text>
       <GUID>1404000977</GUID>
       <!-- Text | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. -->
-      <Text>シェイク・アル・カディリはミンバールでの心に響く説教で名声を博し、その言葉は商人、労働者、役人の間で同等の重みを持っている。</Text>
+      <Text>シャイフ・アル＝カーディリーは、ミンバルから語られる力強い説教で名声を得ました。その言葉は商人、労働者、役人の間で等しく重んじられています。法と伝統に通じた彼は、節度ある威厳をもって語り、秩序、勤勉、共同体への責任を説きます。</Text>
     </Text>
     <Text>
       <GUID>1404001002</GUID>
@@ -2793,7 +2833,7 @@
     <Text>
       <GUID>1404001014</GUID>
       <!-- Text | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. -->
-      <Text>マダム・カヒナがスルタンからの招待状をあなたに渡しました。</Text>
+      <Text>マダム・カヒーナがスルタンからの招待状をあなたに手渡しました。スルタン国に入ることを許される外国人はほとんどいないため、これはまたとない機会です。</Text>
     </Text>
     <Text>
       <GUID>1404001017</GUID>
@@ -2853,7 +2893,7 @@
     <Text>
       <GUID>1404001048</GUID>
       <!-- ExpeditionDecision | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> -->
-      <Text>&lt;b&gt;数日の旅の後&lt;/b&gt;、遠征隊はスルタン国の端にある埃っぽい国境の町に到着します。</Text>
+      <Text>&lt;b&gt;数日の旅の末、&lt;/b&gt;遠征隊はスルタン国の外れにある埃っぽい国境の町にたどり着きます。砂岩の見張り塔が道を見下ろし、ゆったりとした衣をまとった衛兵が旅人を一人ひとり念入りに調べています。マダム・カヒーナは、外国人がここより先へ通されることはめったにないが、新しいスルタンの招待状があれば通れるかもしれないとささやきます。&lt;b&gt;どうやって国境を越えるか決めなければなりません。&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001049</GUID>
@@ -2868,7 +2908,7 @@
     <Text>
       <GUID>1404001051</GUID>
       <!-- ExpeditionDecision | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> -->
-      <Text>あなたは&lt;b&gt;商人や荷物を積んだラクダの間に隠れ&lt;/b&gt;て、警備員の疑いの視線の下を通り抜けます。</Text>
+      <Text>&lt;b&gt;商人と荷を積んだラクダの中に紛れて、&lt;/b&gt;あなたは衛兵の疑わしげな視線の下を通り抜けます。門を越えると、隊商の長がさらに内陸まで案内しようと申し出ます。首都へは広い帝国街道も延びています。&lt;b&gt;隊商と共に行きますか、それとも大通りを進みますか？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001052</GUID>
@@ -2883,7 +2923,7 @@
     <Text>
       <GUID>1404001054</GUID>
       <!-- ExpeditionDecision | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> -->
-      <Text>&lt;b&gt;警戒している警備員がキャラバンを止め&lt;/b&gt;、見慣れない顔を認識して目を細めます。</Text>
+      <Text>&lt;b&gt;用心深い衛兵が隊商を止め、&lt;/b&gt;見慣れない顔に気づいて目を細めます。間もなくあなたは取り囲まれ、日陰の中庭へと連行されます。ここでは明らかに歓迎されていません。&lt;b&gt;どうしますか？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001055</GUID>
@@ -2898,12 +2938,12 @@
     <Text>
       <GUID>1404001057</GUID>
       <!-- ExpeditionDecision | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. -->
-      <Text>&lt;b&gt;国境職員はあなたの書類を疑いの目で調べます。&lt;/b&gt; あな​​たが丁寧かつしっかりと拘束される前に、国境職員の間でざわめきが交わされます。</Text>
+      <Text>&lt;b&gt;国境の役人たちは疑わしげにあなたの書類を調べます。&lt;/b&gt;彼らは小声で言葉を交わした後、丁重ながらもきっぱりとあなたを引き留めます。ここでは外国からの訪問者は明らかに珍しいようです。あなたは裁きを待つため中庭へと連れて行かれます。</Text>
     </Text>
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;キャラバンは隠れた砂漠の道に沿って曲がりくねり&lt;/b&gt;、砂丘や古代遺跡を迂回し、大通りに戻ります。</Text>
+      <Text>&lt;b&gt;隊商は人目につかない砂漠の道をくねくねと進み、&lt;/b&gt;砂丘や古代の遺跡を迂回してから大通りに合流します。日没の頃には、首都のドームが地平線にきらめいています。隊商はあなたを無事に目的地へ送り届けました。</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2913,17 +2953,17 @@
     <Text>
       <GUID>1404001060</GUID>
       <!-- ExpeditionDecision | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. -->
-      <Text>&lt;b&gt;緊張した数時間の後&lt;/b&gt;、スルタンの印章を持った宅配便が到着します。</Text>
+      <Text>&lt;b&gt;数時間の緊張の後、&lt;/b&gt;スルタンの印章を携えた使者が到着します。拘束は解かれ、首都への道を教えてもらえました。</Text>
     </Text>
     <Text>
       <GUID>1404001061</GUID>
       <!-- ExpeditionDecision | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. -->
-      <Text>&lt;b&gt;マダム・カヒナは警備員と穏やかに会話&lt;/b&gt;し、馴染みのない名前や習慣を持ち出します。</Text>
+      <Text>&lt;b&gt;マダム・カヒーナは衛兵たちと落ち着いて話し、&lt;/b&gt;あなたの知らない名や慣習を持ち出します。彼らの険しい表情は和らぎ、まもなく首都へ進むことが許されます。</Text>
     </Text>
     <Text>
       <GUID>1404001062</GUID>
       <!-- ExpeditionDecision | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> -->
-      <Text>&lt;b&gt;あなたは、スルタンの指示と風化した地図だけを頼りに、何日もかけて砂漠を旅しました。&lt;/b&gt;</Text>
+      <Text>&lt;b&gt;あなたはスルタンの指示と古びた地図だけを頼りに、&lt;/b&gt;何日も砂漠を旅してきました。熱気が砂の上にゆらめき、左手にはオアシスらしきものが見えます。そこで一息つけるかもしれませんし、危険な寄り道になるかもしれません。&lt;b&gt;このまま進みますか、それともオアシスを調べますか？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001063</GUID>
@@ -2938,7 +2978,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;道は突然終わり&lt;/b&gt;、そびえ立つ砂丘に飲み込まれます。</Text>
+      <Text>&lt;b&gt;道は突然途切れ、&lt;/b&gt;そびえ立つ砂丘に飲み込まれます。風が砂の上を吹き荒れ、方角の手がかりをすべて消し去ります。次にどうするか決めなければなりません。</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -2983,7 +3023,7 @@
     <Text>
       <GUID>1404001074</GUID>
       <!-- ExpeditionDecision | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. -->
-      <Text>&lt;b&gt;オアシスはきらめく空気に溶ける&lt;/b&gt;単なるファタモルガーナ。</Text>
+      <Text>&lt;b&gt;オアシスは揺らめく空気の中に消えていきます。&lt;/b&gt;ただの蜃気楼でした。しかし遠くに、砂漠を横切る遊牧民の姿が見えます。</Text>
     </Text>
     <Text>
       <GUID>1404001075</GUID>
@@ -3013,7 +3053,7 @@
     <Text>
       <GUID>1404001080</GUID>
       <!-- ExpeditionDecision | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> -->
-      <Text>&lt;b&gt;ついに、 スルタン国の首都&lt;/b&gt;に到着します。この都市は、にぎやかなバザール、そびえ立つミナレット、曲がりくねった通りが立ち並ぶ広大な都市です。</Text>
+      <Text>&lt;b&gt;ついにスルタン国の首都にたどり着きました。&lt;/b&gt;賑やかなバザール、そびえ立つミナレット、入り組んだ路地が広がる大都市です。どこかにスルタンの宮殿があるはずですが、道はまったくわかりません。&lt;b&gt;どうやって道を見つけますか？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001081</GUID>
@@ -3028,7 +3068,7 @@
     <Text>
       <GUID>1404001083</GUID>
       <!-- ExpeditionDecision | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> -->
-      <Text>&lt;b&gt;ベンダーは熱心に商品を見せ、 サポートを申し出る前に販売を要求します&lt;/b&gt;。</Text>
+      <Text>&lt;b&gt;商人は熱心に自分の品を見せ、&lt;/b&gt;何か買わなければ手助けはしないと言い張ります。しつこく頼み込んだ末、彼はようやく丘の上へと続く大通りを指さしました。&lt;b&gt;あなたは今、宮殿の門の前に立っています。&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001084</GUID>
@@ -3043,7 +3083,7 @@
     <Text>
       <GUID>1404001086</GUID>
       <!-- ExpeditionDecision | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. -->
-      <Text>&lt;b&gt;曲がりくねった道はあなたをすぐに混乱させます&lt;/b&gt;が、やがて財布の集団があなたをいくつかの持ち物から解放します。</Text>
+      <Text>&lt;b&gt;入り組んだ路地にすぐ迷ってしまい、&lt;/b&gt;間もなくスリの一団に持ち物をいくつか奪われます。幸い、厳格な警官が割って入り、宮殿まで付き添ってくれました。</Text>
     </Text>
     <Text>
       <GUID>1404001087</GUID>
@@ -3078,7 +3118,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;あなたは華麗な玉座に座るスルタンの前に立ちます&lt;/b&gt;。</Text>
+      <Text>&lt;b&gt;あなたはスルタンの前に立っています。&lt;/b&gt;スルタンは豪華な玉座に座り、すべての視線があなたに注がれています。どのように挨拶しますか？</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3113,7 +3153,7 @@
     <Text>
       <GUID>1404001100</GUID>
       <!-- ExpeditionDecision | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. -->
-      <Text>&lt;b&gt;スルタンは、自分の領土を世界に開き、進歩を受け入れるという将来のビジョンについて語ります&lt;/b&gt;。</Text>
+      <Text>&lt;b&gt;スルタンは未来への展望を語ります。&lt;/b&gt;王国を世界に開き、進歩を受け入れるという展望です。彼は領土の果てにある辺境の砂漠地帯、&lt;b&gt;ワディ・アル・ザーヒル&lt;/b&gt;について話します。そこには遊牧の部族が暮らしており、スルタンは自国の民と西洋の工業国との交流を育む新たな入植地を望んでいます。&lt;br&gt;&lt;br&gt;その見返りとして、あなたにはこの地方を開発し、資源を集め、その繁栄を分かち合う独占的な権利が与えられます。いつも機転の利くマダム・カヒーナには、あなたの事業を支える交易拠点となる島が授けられます。&lt;br&gt;&lt;br&gt;&lt;b&gt;最後の身振りとともに、スルタンはあなたに地図と祝福を授けます。&lt;/b&gt;次の目的地は明らかです。ワディ・アル・ザーヒルです。</Text>
     </Text>
     <Text>
       <GUID>1404001101</GUID>
@@ -3128,12 +3168,17 @@
     <Text>
       <GUID>1404001103</GUID>
       <!-- ExpeditionDecision | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. -->
-      <Text>&lt;b&gt;スルタンはあなたの言葉と意図を考慮しながら、 熱心に耳を傾け&lt;/b&gt;ます。</Text>
+      <Text>&lt;b&gt;スルタンは注意深く耳を傾け、&lt;/b&gt;あなたの言葉と意図を吟味します。しばし考え込んだ後、彼は廷臣たちに静まるよう合図し、自らの計画を明かそうとします。</Text>
     </Text>
     <Text>
       <GUID>1404001104</GUID>
       <!-- ExpeditionOption | Listen to the Sultan’s proposal | Listen to the Sultan’s proposal -->
       <Text>スルタンの提案を聞いてください</Text>
+    </Text>
+    <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>砂漠の砂から掘り出された財宝は、遠方から学者たちを引き寄せ、新たな研究を促します。</Text>
     </Text>
     <Text>
       <GUID>1404001115</GUID>
@@ -3207,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>露店の範囲を拡大します</Text>
     </Text>
     <Text>
@@ -3216,14 +3261,19 @@
       <Text>学者向けの地元産品の消費を削減します。</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>すべての東洋の露店</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>アーモンドの種</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>高品質のアーモンドの種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのアーモンドの木立を育てるのに役立ちます。</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3232,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>デーツの種</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>これらの苗木は、異国の土壌で豊かなアーモンドの木立を育てるのに役立ちます。</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3242,8 +3292,8 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>ハイブリッドナツメヤシの種</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、アーモンドの収量も増加しています！</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
@@ -3252,8 +3302,8 @@
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>高品質のザクロジュースの種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのナツメヤシの木立を育てるのに役立ちます。</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
@@ -3262,8 +3312,8 @@
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>バラの種</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>これらの苗木は、異国の土壌で豊かなナツメヤシの木立を育てるのに役立ちます。</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
@@ -3272,8 +3322,8 @@
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>ハイブリッドバラの種子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、ナツメヤシの収量も増加しています！</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3282,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>高品質のシルク種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのザクロの木立を育てるのに役立ちます。</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3527,23 +3577,28 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
-      <Text>ノリアは互いに距離を置いて構築する必要があります。</Text>
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
+      <Text>ノリアは互いに距離を置いて建てる必要があります。ノリアは地下の帯水層から水をくみ上げますが、そうしなければ帯水層はいずれ枯れてしまいます。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
-      <Text>領事館はスルタンとの主な連絡手段です。</Text>
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
+      <Text>領事館はスルタンと連絡を取るための主要な手段です。高度な建物の建設許可を得るために必要な書類を作成します。</Text>
     </Text>
     <Text>
       <GUID>1404001226</GUID>
       <!-- Text | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. -->
-      <Text>グランド モスクは、スルタン国に対するあなたの献身の象徴です。</Text>
+      <Text>大モスクは、スルタン国へのあなたの献身の象徴です。巡礼のたびに、スルタンの宮廷での寵愛と影響力が得られます。</Text>
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
-      <Text>使節たちは新しい製品や産業時代の発明に興味を持っています。</Text>
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
+      <Text>使節たちは、産業時代の新しい品物や発明に興味津々です。露店は、それらを披露して使節たちに試してもらうのにうってつけです。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>モスク</Text>
     </Text>
     <Text>
       <GUID>1404003300</GUID>
@@ -3701,6 +3756,106 @@
       <Text>このモジュールは、浮遊選鉱プロセスを使用した鉱石ドラム内での特別な精製により、鉱石からの収量を 2 倍にします。</Text>
     </Text>
     <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>蜂の庭</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>蜂蜜生産</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>いくつかの巣箱が蜂蜜を生み出し、農園の効率を高めます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>ナツメヤシから集められた蜂蜜は、非常に人気のある品です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>受粉</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>東洋のすべての農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>ミツバチの受粉の助けにより、私たちの農園はさらに効率的になります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>茶醸造所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>ロクム菓子店</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>ピスタチオ農園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>ピスタチオ果樹園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>ピスタチオ焙煎所</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>ピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>高品質のピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>ハイブリッドピスタチオの種</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>ピスタチオの生産力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>これらの苗木は、異国の土壌でいくつかのピスタチオの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>これらの苗木は、異国の土壌で豊かなピスタチオの木立を育てるのに役立ちます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>これらの苗木は非常に幅広い土壌で生育するように改良されており、ピスタチオの収量も増加しています！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>果物工房</Text>
+    </Text>
+    <Text>
       <GUID>1404005038</GUID>
       <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
       <Text>Wadi Al Zahirでのみ建設可能</Text>
@@ -3714,6 +3869,11 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>素手で触らない方がよいだろう。緑礬油とも呼ばれる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>象狩りの小屋</Text>
     </Text>
   </ModOp>
 </ModOps>

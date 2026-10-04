@@ -13,7 +13,7 @@
         <Text>
           <LocaText>
             <English>
-              <Text>Ore Drum Module</Text>
+              <Text>Bee Garden</Text>
               <Status>Exported</Status>
             </English>
           </LocaText>
@@ -62,7 +62,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/dlc10/graphics/buildings/production/agriculture_silo_02/agriculture_silo_colony_02_01.cfg</Filename>
+              <Filename>data/graphics/buildings/orient/honey_module_orient/honey_module_orient.cfg</Filename>
             </Item>
           </Variations>
         </Object>
@@ -130,7 +130,7 @@
             <Text>
               <LocaText>
                 <English>
-                  <Text>Ore Drum</Text>
+                  <Text>Honey Production</Text>
                   <Status>Exported</Status>
                 </English>
               </LocaText>
@@ -165,7 +165,7 @@
             <Standard>
                 <GUID>1404005017</GUID>
                 <Name>Bee Buff</Name>
-                <IconFilename>data/ui/2kimages/main/modgraphics/icon_biene.png</IconFilename>
+                <IconFilename>data/ui/modgraphics/icon_biene.png</IconFilename>
                 <InfoDescription>1404005019</InfoDescription>
             </Standard>
             <ItemEffect>
@@ -179,7 +179,7 @@
             <Text>
               <LocaText>
                 <English>
-                  <Text>Ore Drum</Text>
+                  <Text>Pollination</Text>
                   <Status>Exported</Status>
                 </English>
               </LocaText>

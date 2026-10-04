@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>Datteln</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>Dattel-Fruchtbarkeit</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>Mandeln</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>Mandel-Fruchtbarkeit</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>Badehaus</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>Bevölkerung: Der Orient</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>Mosaikmacherei</Text>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>Seide</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>Seiden-Fruchtbarkeit</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -766,6 +771,11 @@
       <Text>Depot</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>Unbewohnte Insel</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>Orientalischer Brunnen</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>Rosen</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>Rosen-Fruchtbarkeit</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>Granatäpfel</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>Granatapfel-Fruchtbarkeit</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>Orientalische Manufaktur: Zeremonielle Säbel</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>Patentliste der orientalischen Werkstatt</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>Marktstände</Text>
     </Text>
     <Text>
@@ -1668,7 +1683,7 @@
     <Text>
       <GUID>1404000631</GUID>
       <!-- Text | I've endured markets, sieges, and plagues, but this rivals them all. | I've endured markets, sieges, and plagues, but this rivals them all. -->
-      <Text>Ich habe schon Märkte, Belagerungen und Seuchen durchgestanden, aber das hier steht ihnen in nichts nach...</Text>
+      <Text>Ich habe schon Märkte, Belagerungen und Seuchen durchgestanden, aber das hier steht ihnen in nichts nach.</Text>
     </Text>
     <Text>
       <GUID>1404000632</GUID>
@@ -1973,7 +1988,7 @@
     <Text>
       <GUID>1404000704</GUID>
       <!-- Text | It’s modest, but there’s a quiet sense of purpose here. | It’s modest, but there’s a quiet sense of purpose here. -->
-      <Text>Es ist bescheiden, aber da...</Text>
+      <Text>Es ist bescheiden, aber hier herrscht ein stilles Gefühl von Bestimmung.</Text>
     </Text>
     <Text>
       <GUID>1404000705</GUID>
@@ -2161,8 +2176,18 @@
       <Text>Ein Monument für die Ewigkeit</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>Lob der Pilger</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>Pilger aus dem ganzen Sultanat sind gekommen, um an einem einmaligen Ereignis teilzunehmen.</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
       <Text>Ein seltsam aussehender Brief wurde soeben von Madame Kahina überbracht. Es handelt sich um eine Einladung des Sultans, der von Ihrem Ruf gehört hat, sich selbst an den schwierigsten Orten der bekannten Welt anzusiedeln. Er bittet Sie, ihn in der Hauptstadt des Sultanats zu besuchen; Madame Kahina sieht darin eine lukrative Geschäftsmöglichkeit und eine Chance, Ihr Handelsimperium zu erweitern. Dieses neue Abenteuer ins Unbekannte jenseits von Enbesa scheint ebenso schwierig wie lohnend zu sein.</Text>
     </Text>
     <Text>
@@ -2172,7 +2197,7 @@
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
       <Text>Da sich nun so viele Nomaden hier aufhalten, müssen Sie mit der Nahrungsmittelproduktion beginnen, doch im trockenen und heißen Sand wächst kaum etwas. Traditionell nutzen Nomaden Norias, um Wasser aus der Tiefe zu pumpen und ihre Felder zu bewässern. Zu viele Norias an einem Ort würden die Grundwasserleiter jedoch so weit austrocknen, dass nichts mehr gepumpt werden kann. Um dies zu verhindern, ermittelten Nomaden einen Mindestabstand zwischen den Norias, der eine kontinuierliche und nachhaltige Wasserversorgung gewährleistet.</Text>
     </Text>
     <Text>
@@ -2187,22 +2212,22 @@
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
       <Text>Immer mehr Gesandte möchten in eure aufstrebende Stadt ziehen und fordern, dass ihr mehr Häuser für sie baut. Damit die Stadt zu einem bedeutenden Zentrum des kulturellen Austauschs wird, muss sie wachsen und nicht nur eine breite Palette lokaler Waren, sondern auch neue Produkte aus der Alten und Neuen Welt anbieten.</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
       <Text>Basare sind seit jeher fester Bestandteil der Kultur. An diesen Marktständen vereinen sich Tradition und Moderne, sodass Gesandte die neuen Waren des Industriezeitalters kennenlernen können. Die Gesandten sind sehr daran interessiert, diese zu erforschen und berichten dem Sultanat darüber, wodurch sich möglicherweise neue Märkte für Ihre Waren erschließen. Die einzige Herausforderung für Sie besteht darin, die Produkte aus so großer Entfernung zu liefern.</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
       <Text>Ihre Stadt erfreut sich großer Beliebtheit in Gesandtenkreisen. Man munkelt, sie sei auf dem besten Weg, der Hauptstadt in Größe und Ausstattung Konkurrenz zu machen. Eine neue Welle hochrangiger Gesandter des Landes ist im Anmarsch. Ost und West rücken näher zusammen als je zuvor in den letzten 400 Jahren.</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
       <Text>Der Sultan ist sehr zufrieden mit Ihrer Entwicklung und hat Ihnen Zugang zu den Bauplänen für ein Monument gewährt, das Ihr Meisterwerk in dieser Wüste sein wird. Nur eine weitere Große Moschee dieser Art wurde jemals erbaut, und zwar vor Jahrhunderten. Der Bau einer zweiten symbolisiert, dass Traditionen im sich rasant verändernden Industriezeitalter fortbestehen können. Ganz zu schweigen von den Pilgerfahrten in die Stadt und dem damit verbundenen politischen Einfluss.</Text>
     </Text>
     <Text>
@@ -2241,6 +2266,16 @@
       <Text>Dieses Monument ermöglicht es Ihnen, Pilgerfahrten durchzuführen, die Ihren Einfluss im Sultanat erhöhen.</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>Wüstenweg</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>Holzbrücke</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>Fastenmonat</Text>
@@ -2259,6 +2294,11 @@
       <GUID>1404000850</GUID>
       <!-- FestivalBuff | Ramadan | Time of breaking the Fast -->
       <Text>Zeit des Fastenbrechens</Text>
+    </Text>
+    <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>Alle orientalischen Wohnhäuser</Text>
     </Text>
     <Text>
       <GUID>1404000861</GUID>
@@ -2427,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>Mustafa ibn Qadir, Der Meister der Bronzekunst</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>Mustafa ibn Qadir, Der Meister der Silberkunst</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2452,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>Nabil ibn Yusuf al-Sarraj, Mit der Midas-Hand</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>Nabil ibn Yusuf al-Sarraj, Mit der Silberhand</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2518,7 +2558,7 @@
     <Text>
       <GUID>1404000932</GUID>
       <!-- Text | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. -->
-      <Text>Mariam wuchs inmitten von Obstgärten auf, in denen Granatapfelbäume mit fast ritueller Sorgfalt gepflegt wurden. Sie kennt die Schnitt-, Bewässerungs- und Blütezyklen, die für mehr...</Text>
+      <Text>Mariam wuchs inmitten von Obstgärten auf, in denen Granatapfelbäume mit fast ritueller Sorgfalt gepflegt wurden. Sie kennt die Schnitt-, Bewässerungs- und Blütezyklen, die für eine reichere und gleichmäßigere Fruchtbildung sorgen. Ihre Anwesenheit auf den Feldern steigert den Ertrag, ohne die Bäume zu erschöpfen.</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
@@ -2637,8 +2677,8 @@
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>Mustafa arbeitet seit Jahrzehnten mit Bronze, Messing und anderen Metallen, die sowohl für Alltagsgegenstände als auch für Zierobjekte verwendet werden. Dank seiner Erfahrung ist er in der Lage, Werkstätten zu leiten, in denen Kerzenständer und Wasserpfeifen mit höherer Gleichmäßigkeit und weniger Mängeln hergestellt werden.</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>Mustafa arbeitet seit Jahrzehnten mit Silber und anderen Metallen, die sowohl für Alltagsgegenstände als auch für Zierobjekte verwendet werden. Dank seiner Erfahrung ist er in der Lage, Werkstätten zu leiten, in denen Kerzenständer und Wasserpfeifen mit höherer Gleichmäßigkeit und weniger Mängeln hergestellt werden.</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
@@ -2662,8 +2702,8 @@
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil ist dafür bekannt, dass er die traditionelle Perlenkette durch feine, sorgfältig gefertigte Goldketten ersetzt. Seine Methode steigert den wahrgenommenen Wert jedes einzelnen Stücks, erfordert jedoch größere Präzision und teure Materialien.</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>Nabil ist dafür bekannt, dass er die traditionelle Perlenkette durch feine, sorgfältig gefertigte Silberketten ersetzt. Seine Methode steigert den wahrgenommenen Wert jedes einzelnen Stücks, erfordert jedoch größere Präzision und teure Materialien.</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
@@ -3136,6 +3176,11 @@
       <Text>Hören Sie sich den Vorschlag des Sultans an</Text>
     </Text>
     <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>Schätze aus dem Wüstensand locken Gelehrte von nah und fern an und inspirieren neue Forschung.</Text>
+    </Text>
+    <Text>
       <GUID>1404001115</GUID>
       <!-- Hacienda | Research Station | Research Station -->
       <Text>Forschungsstation</Text>
@@ -3207,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>Erweitert die Reichweite der Marktstände</Text>
     </Text>
     <Text>
@@ -3216,14 +3261,19 @@
       <Text>Verringert den Verbrauch an lokalen Waren für Gelehrte</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>Alle orientalischen Marktstände</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>Mandelsaatgut</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>Mit diesen Setzlingen können Sie einige Mandelhaine auf fremdem Boden anlegen.</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>Mit diesen Setzlingen kannst du ein paar Mandelhaine auf fremdem Boden anlegen.</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3232,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>Mit diesen Setzlingen können Sie reichlich Mandelhaine auf fremdem Boden anlegen.</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>Mit diesen Setzlingen kannst du üppige Mandelhaine auf fremdem Boden anlegen.</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3242,8 +3292,8 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>Diese Setzlinge wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Mandelertrag liefern!</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>Diese Setzlinge wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Mandel-Ertrag liefern!</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
@@ -3252,8 +3302,8 @@
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>Mit diesen Setzlingen können Sie auf fremdem Boden einige Dattelhaine anlegen.</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>Mit diesen Setzlingen kannst du ein paar Dattelhaine auf fremdem Boden anlegen.</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
@@ -3262,8 +3312,8 @@
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>Mit diesen Setzlingen können Sie auf fremdem Boden üppige Dattelhaine anlegen.</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>Mit diesen Setzlingen kannst du üppige Dattelhaine auf fremdem Boden anlegen.</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
@@ -3272,8 +3322,8 @@
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>Diese Setzlinge wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Dattelertrag liefern...</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>Diese Setzlinge wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Dattel-Ertrag liefern!</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3282,7 +3332,7 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
       <Text>Mit diesen Setzlingen kannst du ein paar Granatapfelhaine auf fremdem Boden anlegen.</Text>
     </Text>
     <Text>
@@ -3333,7 +3383,7 @@
     <Text>
       <GUID>1404001185</GUID>
       <!-- Text | These seeds have been adapted to grow in a very wide range of soils, and with increased Rose yield! | These seeds have been adapted to grow in a very wide range of soils, and with increased Rose yield! -->
-      <Text>Diese Samen wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Ertrag an Rosen liefern...</Text>
+      <Text>Diese Samen wurden so angepasst, dass sie auf einer Vielzahl von Böden wachsen und einen höheren Rosen-Ertrag liefern!</Text>
     </Text>
     <Text>
       <GUID>1404001186</GUID>
@@ -3418,7 +3468,7 @@
     <Text>
       <GUID>1404001202</GUID>
       <!-- Text | An event without enough drinks will lose a lot of its attractiveness. | An event without enough drinks will lose a lot of its attractiveness. -->
-      <Text>Eine Veranstaltung ohne genügend...</Text>
+      <Text>Einer Veranstaltung ohne genügend Getränke geht viel von ihrer Anziehungskraft verloren.</Text>
     </Text>
     <Text>
       <GUID>1404001203</GUID>
@@ -3527,12 +3577,12 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
       <Text>Norias müssen in einem gewissen Abstand zueinander errichtet werden. Sie pumpen Wasser aus unterirdischen Grundwasserleitern, die andernfalls irgendwann versiegen würden.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
       <Text>Konsulate sind der wichtigste Kommunikationskanal zum Sultan. Sie erstellen die erforderlichen Unterlagen für die Genehmigung zum Bau fortschrittlicher Gebäude.</Text>
     </Text>
     <Text>
@@ -3542,8 +3592,13 @@
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>Gesandte sind neugierig auf neue Waren und Erfindungen des Industriezeitalters. Marktstände sind eine hervorragende Möglichkeit, diese zu präsentieren und den Gesandten die Gelegenheit zu geben, sie auszuprobieren.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>Moschee</Text>
     </Text>
     <Text>
       <GUID>1404003300</GUID>
@@ -3701,6 +3756,106 @@
       <Text>Dieses Modul verdoppelt den Ertrag aus Erzen durch spezielle Raffination in Erztrommeln nach einem Öl-Flotationsprozess.</Text>
     </Text>
     <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>Bienengarten</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>Honigproduktion</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>Einige Bienenstöcke produzieren Honig und machen Farmen effizienter.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>Der Honig der Bienen, gewonnen aus den Dattelpalmen, ist ein sehr begehrter Rohstoff.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>Bestäubung</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>Alle Nutzpflanzenfarmen des Orients</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>Durch die Hilfe der Bienen bei der Bestäubung werden unsere Farmen noch effizienter.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>Teebrauerei</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>Lokumbäcker</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>Pistazienfarm</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>Pistazienbaumfeld</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>Pistazienrösterei</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>Pistaziensetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>Qualitäts-Pistaziensetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>Gekreuzte Pistaziensetzlinge</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>Pistazien-Fruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>Diese Setzlinge erlauben es, einen kleinen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>Diese Setzlinge erlauben es, einen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>Diese Setzlinge erlauben es, einen prächtigen Pistazienbaum-Hain für die Pistazienproduktion anzulegen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>Früchtemanufaktur</Text>
+    </Text>
+    <Text>
       <GUID>1404005038</GUID>
       <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
       <Text>Kann nur in Wadi Al Zahir gebaut werden</Text>
@@ -3714,6 +3869,11 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>Sollte vielleicht nicht mit bloßen Händen berührt werden. Auch bekannt als Vitriolöl.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>Elefantenjägerhütte</Text>
     </Text>
   </ModOp>
 </ModOps>

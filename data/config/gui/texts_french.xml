@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>Dates</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>Fertilité (dattes)</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>Amandes</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>Fertilité (amandes)</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>Maison de bain</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>Population : L'Orient</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>Atelier Mosaïque</Text>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>Soie</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>Fertilité (soie)</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>Champ de date</Text>
+      <Text>Champ de dattiers</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>Dépôt</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>Île déserte</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>Fontaine Orientale</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>Roses</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>Fertilité (roses)</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>Grenade</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>Fertilité (grenades)</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>Atelier Oriental : Sabres de Cérémonie</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>Liste des brevets de l'atelier oriental</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>Étals de marché</Text>
     </Text>
     <Text>
@@ -1273,7 +1288,7 @@
     <Text>
       <GUID>1404000444</GUID>
       <!-- AudioText | AudioText Play_residents_6607340: Is there anything finer than sitting in the shade eating Dates? | Is there anything finer than sitting in the shade eating Dates? -->
-      <Text>Il n'y a rien de meilleur qu'être assis à l'ombre et manger des Dattes.</Text>
+      <Text>Il n'y a rien de meilleur qu'être assis à l'ombre et manger des dattes.</Text>
     </Text>
     <Text>
       <GUID>1404000446</GUID>
@@ -1598,22 +1613,22 @@
     <Text>
       <GUID>1404000592</GUID>
       <!-- Text | Dieser prunkvolle Klingenstreich aus poliertem Stahl dient weniger dem Kampf als dem guten Eindruck. Sein Griff glänzt im Fackelschein und erzählt Geschichten von Paraden, Gelöbnissen und überambitionierten Offizieren. Ein Hieb in die Luft, ein salutierender Schritt und schon fühlt man sich um Rang und Würde reicher. | This magnificent blade, crafted from polished steel, serves less for combat than for making a good impression. Its hilt gleams in the torchlight, whispering tales of parades, oaths, and overambitious officers. A swipe of the blade into the air, a saluting step, and one instantly feels enriched by rank and dignity. -->
-      <Text>Cette magnifique lame, fabriquée en acier poli, sert moins au combat qu'à faire bonne impression.</Text>
+      <Text>Cette magnifique lame d'acier poli sert moins au combat qu'à faire bonne impression. Sa poignée brille à la lueur des torches et murmure des histoires de parades, de serments et d'officiers trop ambitieux. Un coup de lame dans les airs, un pas de salut, et l'on se sent aussitôt grandi en rang et en dignité.</Text>
     </Text>
     <Text>
       <GUID>1404000593</GUID>
       <!-- Text | Ein grandioses Lichtermeer aus Gold und purem Größenwahn. Mit einem einzigen Einschalten lässt er selbst den schlichtesten Raum aussehen, als seien Könige im Anmarsch. Seine funkelnden Prismen brechen das Licht in tausend kleine Sterne und ziehen Staub an wie ein Magnet. Doch wer würde das bemerken, geblendet von so viel Glorie? | A magnificent sea of ​​light, a display of gold and sheer megalomania. With a single switch-on, it makes even the simplest room look as if royalty is approaching. Its sparkling prisms refract the light into a thousand tiny stars and attract dust like a magnet. -->
-      <Text>Une magnifique mer de lumière, un déploiement d’or et une pure mégalomanie.</Text>
+      <Text>Une magnifique mer de lumière, un étalage d'or et de pure folie des grandeurs. D'un simple geste, il donne à la pièce la plus modeste l'air d'attendre la visite d'un roi. Ses prismes étincelants décomposent la lumière en mille petites étoiles et attirent la poussière comme un aimant.</Text>
     </Text>
     <Text>
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
-      <Text>Un appareil à fumer astucieusement décoré dont les gargouillis mettront même les esprits les plus fatigués dans une ambiance conviviale.</Text>
+      <Text>Un appareil à fumer richement décoré dont les gargouillements mettent même les esprits les plus las d'humeur conviviale. Remplissez le foyer de tabac parfumé, allumez des braises ardentes, et une brume douce et aromatique se déploie, transformant les heures en minutes.</Text>
     </Text>
     <Text>
       <GUID>1404000595</GUID>
       <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>Un ensemble chatoyant de petits trésors impeccables, si parfaitement ronds qu'on aurait l'impression qu'ils se chuchotaient la nuit.</Text>
+      <Text>Un rang chatoyant de minuscules trésors sans défaut, si parfaitement ronds qu'on les croirait chuchoter entre eux la nuit. Symbole d'élégance, de richesse et parfois d'intentions douteuses en matière de cadeaux. Mettez-les, et soudain chaque pas semble plus gracieux, chaque geste plus raffiné, du moins jusqu'à ce que le fermoir se coince.</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -1878,7 +1893,7 @@
     <Text>
       <GUID>1404000678</GUID>
       <!-- Text | Truly overwhelming. I will carry this moment forever. | Truly overwhelming. I will carry this moment forever. -->
-      <Text>Vraiment écrasant.</Text>
+      <Text>Vraiment bouleversant. Je garderai ce moment en moi pour toujours.</Text>
     </Text>
     <Text>
       <GUID>1404000679</GUID>
@@ -2043,7 +2058,7 @@
     <Text>
       <GUID>1404000732</GUID>
       <!-- Text | A colossal waste of hype. Nothing lived up to the billing. | A colossal waste of hype. Nothing lived up to the billing. -->
-      <Text>Un gaspillage colossal de battage médiatique.</Text>
+      <Text>Un battage colossal pour rien. Rien n'a été à la hauteur des promesses.</Text>
     </Text>
     <Text>
       <GUID>1404000733</GUID>
@@ -2103,17 +2118,17 @@
     <Text>
       <GUID>1404000794</GUID>
       <!-- Text | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. -->
-      <Text>Avec soin et respect, les premières pierres d'une magnifique mosquée sont posées.</Text>
+      <Text>Avec soin et révérence, les premières pierres d'une magnifique mosquée sont posées. Ces fondations sacrées marquent le début d'un lieu de recueillement et de dévotion, un sanctuaire durable qui accueillera des générations de fidèles.</Text>
     </Text>
     <Text>
       <GUID>1404000795</GUID>
       <!-- Text | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. -->
-      <Text>Des arches gracieuses s'élèvent et la salle de prière se déploie dans une grandeur tranquille.</Text>
+      <Text>De gracieuses arcades s'élèvent et la salle de prière se déploie dans une grandeur paisible. La lumière filtre à travers les décorations raffinées tandis que l'espace s'apprête à accueillir les prières silencieuses et les cœurs réunis d'une communauté grandissante.</Text>
     </Text>
     <Text>
       <GUID>1404000796</GUID>
       <!-- Text | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. -->
-      <Text>Avec ses minarets vertigineux et son dôme rayonnant presque achevé, la silhouette de la mosquée est couronnée.</Text>
+      <Text>Avec ses minarets élancés et son dôme radieux presque achevé, la silhouette de la mosquée est couronnée. Une union harmonieuse de foi et d'art s'apprête à offrir émerveillement, sérénité et un refuge spirituel intemporel.</Text>
     </Text>
     <Text>
       <GUID>1404000800</GUID>
@@ -2161,49 +2176,59 @@
       <Text>Un monument pour l'éternité</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>Louanges des pèlerins</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>Des pèlerins de tout le sultanat sont venus participer à un événement unique dans une vie.</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
-      <Text>Une étrange lettre vient d'être remise par Madame Kahina.</Text>
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
+      <Text>Madame Kahina vient de remettre une lettre d'apparence étrange. C'est une invitation du sultan, qui a entendu parler de votre réputation à vous établir même dans les endroits les plus hostiles du monde connu. Il vous prie de lui rendre visite dans la capitale du sultanat ; Madame Kahina y voit une occasion d'affaires lucrative et un moyen d'étendre votre empire commercial. Cette nouvelle aventure vers l'inconnu, au-delà d'Enbesa, s'annonce aussi difficile que potentiellement fructueuse.</Text>
     </Text>
     <Text>
       <GUID>1404000829</GUID>
       <!-- Text | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. -->
-      <Text>Après un voyage long et ardu, vous avez finalement atteint l'archipel promis.</Text>
+      <Text>Après un long et pénible voyage, vous avez enfin atteint l'archipel promis. Les îles ne contiennent guère que du sable et des rochers, et quelques palmiers desséchés. Pour vivre ici durablement et bâtir une ville, il vous faut des nomades, qui vivent depuis des siècles dans de tels déserts et savent comment y survivre.</Text>
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
-      <Text>Avec autant de nomades qui restent ici, vous devez commencer à produire de la nourriture, mais presque rien ne pousse dans le sable sec et chaud.</Text>
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
+      <Text>Avec autant de nomades installés ici, vous devez commencer à produire de la nourriture, mais presque rien ne pousse dans le sable sec et brûlant. Traditionnellement, les nomades utilisent des norias pour pomper l'eau des profondeurs et irriguer leurs champs. Cependant, trop de norias au même endroit épuisent les nappes phréatiques jusqu'à ce qu'il n'y ait plus rien à pomper. Pour l'éviter, les nomades ont déterminé une distance minimale entre les norias qui garantit un approvisionnement en eau continu et durable.</Text>
     </Text>
     <Text>
       <GUID>1404000831</GUID>
       <!-- Text | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. -->
-      <Text>Vous avez prouvé que vous êtes digne de recevoir les premiers envoyés du sultanat qui arriveront prochainement.</Text>
+      <Text>Vous vous êtes montré digne d'accueillir les premiers émissaires du sultanat, qui arriveront sous peu. Ils ont des liens avec le sultan et lui rapporteront tous vos succès et vos échecs. Membres de la cour du sultan, ils sont habitués à de nombreux luxes de l'Orient qu'ils attendront aussi dans votre ville.</Text>
     </Text>
     <Text>
       <GUID>1404000832</GUID>
       <!-- Text | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. -->
-      <Text>Le travail des envoyés est long et difficile, et les tâches diplomatiques impliquent souvent beaucoup de bureaucratie.</Text>
+      <Text>Le travail des émissaires est long et pénible, et les tâches diplomatiques consistent souvent en beaucoup de bureaucratie. Un consulat offre à de nombreux émissaires un lieu de travail sûr et bien doté en personnel, ce qui améliore leur efficacité. Les documents produits dans ces bâtiments peuvent servir à construire des édifices monumentaux, organiser des événements spéciaux et installer davantage d'émissaires, qui produiront encore plus de paperasse.</Text>
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
-      <Text>De plus en plus d'envoyés souhaitent s'installer dans votre ville émergente et exigent que vous leur construisiez davantage de maisons.</Text>
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
+      <Text>De plus en plus d'émissaires veulent s'installer dans votre ville naissante et exigent que vous leur construisiez davantage de maisons. Pour devenir un grand centre d'échanges culturels, la ville doit grandir et produire non seulement une large gamme de marchandises locales, mais aussi de nouvelles marchandises de l'Ancien et du Nouveau Monde.</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
-      <Text>Les bazars font partie intégrante de la culture et ces étals de marché allient tradition et modernité pour permettre aux envoyés de goûter aux nouvelles marchandises de l'ère industrielle.</Text>
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
+      <Text>Les bazars font depuis toujours partie intégrante de la culture, et ces étals allient tradition et modernité pour permettre aux émissaires de goûter aux nouvelles marchandises de l'ère industrielle. Les émissaires tiennent beaucoup à les étudier et en rendront compte au sultanat, ouvrant peut-être de nouveaux marchés à vos marchandises. Votre seul problème est de les acheminer depuis si loin.</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
-      <Text>Votre ville est devenue très populaire dans les cercles d'émissaires, selon la rumeur, elle est en passe de rivaliser avec la capitale en termes de taille et de commodités.</Text>
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
+      <Text>Votre ville est devenue très prisée dans les cercles d'émissaires ; la rumeur dit qu'elle est en passe de rivaliser avec la capitale par sa taille et son confort. Une nouvelle vague d'émissaires du plus haut rang du pays est en route : l'Orient et l'Occident ne se sont jamais autant rapprochés depuis 400 ans.</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
-      <Text>Le sultan est très heureux de votre évolution et vous a donné accès au plan d'un monument qui sera votre couronnement dans ce désert.</Text>
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
+      <Text>Le sultan est très satisfait de votre développement et vous a donné accès aux plans d'un monument qui sera votre plus grande réalisation dans ce désert. Une seule autre Grande Mosquée de ce genre a jamais été bâtie, il y a des siècles, et en construire une seconde symbolisera que les traditions peuvent perdurer à l'ère industrielle en pleine mutation. Sans parler des pèlerinages vers la ville et de l'influence politique qu'ils vous apporteront.</Text>
     </Text>
     <Text>
       <GUID>1404000837</GUID>
@@ -2241,6 +2266,16 @@
       <Text>Ce monument vous permet d'effectuer des pèlerinages, ceux-ci augmenteront votre influence dans le sultanat.</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>Route désertique</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>Pont de bois</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>Mois de jeûne</Text>
@@ -2259,6 +2294,11 @@
       <GUID>1404000850</GUID>
       <!-- FestivalBuff | Ramadan | Time of breaking the Fast -->
       <Text>Le moment de rompre le jeûne</Text>
+    </Text>
+    <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>Toutes les résidences orientales</Text>
     </Text>
     <Text>
       <GUID>1404000861</GUID>
@@ -2427,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>Mustafa ibn Qadir, le maître artisan du bronze</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>Mustafa ibn Qadir, le maître artisan de l'argent</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2452,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>Nabil ibn Yusuf al-Sarraj, Avec la touche Midas</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>Nabil ibn Yusuf al-Sarraj, Avec la touche d'argent</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2513,212 +2553,212 @@
     <Text>
       <GUID>1404000931</GUID>
       <!-- Text | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. -->
-      <Text>Élevée au milieu d'oasis et d'anciens vergers, Fatima a appris dès son plus jeune âge à lire le rythme des arbres comme d'autres lisent les étoiles.</Text>
+      <Text>Élevée parmi les oasis et les vergers anciens, Fatima a appris dès son plus jeune âge à lire le rythme des arbres comme d'autres lisent les étoiles. Son savoir allie taille précise, arrosage patient et bon usage de pousses sélectionnées – des pratiques transmises de génération en génération.</Text>
     </Text>
     <Text>
       <GUID>1404000932</GUID>
       <!-- Text | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. -->
-      <Text>Mariam a grandi au milieu de vergers où les grenadiers étaient traités avec un soin presque rituel.</Text>
+      <Text>Mariam a grandi au milieu de vergers où les grenadiers étaient traités avec un soin presque rituel. Elle connaît les cycles de taille, d'irrigation et de floraison qui permettent une production de fruits plus abondante et plus régulière. Sa présence dans les champs améliore le rendement sans épuiser les arbres.</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
       <!-- Text | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. -->
-      <Text>Cette méthode organise la pollinisation manuelle des dattiers, pratique traditionnelle dans les vergers.</Text>
+      <Text>Cette méthode organise la pollinisation manuelle des dattiers, pratique traditionnelle dans les vergers. En coordonnant les calendriers et les mains expertes, elle garantit un meilleur taux de fructification. Le système réduit les pertes dues à une pollinisation irrégulière ou tardive, mais exige de la planification et un travail supplémentaire en pleine saison.</Text>
     </Text>
     <Text>
       <GUID>1404000934</GUID>
       <!-- Text | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. -->
-      <Text>Hassan a passé sa vie à suivre les routes du désert, élevant des chameaux résistants à la chaleur et au long voyage.</Text>
+      <Text>Hassan a passé sa vie à suivre les routes du désert, à élever des chameaux résistants à la chaleur et aux longs voyages. Il connaît la valeur de chaque bête à sa démarche, à son souffle et à la force de ses pattes, et choisit avec soin les spécimens destinés à la reproduction.</Text>
     </Text>
     <Text>
       <GUID>1404000935</GUID>
       <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
-      <Text>Cet accord réglemente l'utilisation partagée des parcours de pâturage et des sources d'eau pour le bétail.</Text>
+      <Text>Cet accord réglemente l'usage partagé des routes de pâturage et des points d'eau pour le bétail. En coordonnant clans et éleveurs, il réduit les pertes d'animaux et améliore la reproduction. Cette mesure permet d'entretenir des troupeaux plus grands et plus stables.</Text>
     </Text>
     <Text>
       <GUID>1404000936</GUID>
       <!-- Text | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. -->
-      <Text>Rashid a consacré sa vie au soin des plantes prisées tant pour leur parfum que pour leur teinture.</Text>
+      <Text>Rashid a consacré sa vie au soin des plantes prisées à la fois pour leur parfum et pour leur teinture. Il connaît les moments idéaux de récolte et de taille, ce qui lui permet d'obtenir de meilleurs rendements dans ses plantations, ainsi que des fleurs exotiques et des fleurs venues d'autres contrées.</Text>
     </Text>
     <Text>
       <GUID>1404000937</GUID>
       <!-- Text | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. -->
-      <Text>Ce système organise la taille, l'arrosage et la récolte des rosiers selon des cycles saisonniers bien définis.</Text>
+      <Text>Ce système organise la taille, l'arrosage et la récolte des roses selon des cycles saisonniers bien définis. En synchronisant le travail des jardiniers, on obtient des floraisons plus abondantes et plus uniformes. Cette pratique réduit les pertes dues aux maladies et à l'épuisement des sols. Elle exige discipline et planification, mais récompense par des récoltes plus régulières.</Text>
     </Text>
     <Text>
       <GUID>1404000938</GUID>
       <!-- Text | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. -->
-      <Text>Yusuf est connu pour son habileté à presser les grenades, un fruit délicat dont le jus demande de la patience et une force bien dosée.</Text>
+      <Text>Yusuf est connu pour son habileté à presser les grenades, un fruit délicat dont le jus exige patience et force bien dosée. Depuis des années, il perfectionne des méthodes qui évitent la perte de pulpe et préservent la couleur profonde du liquide extrait.</Text>
     </Text>
     <Text>
       <GUID>1404000939</GUID>
       <!-- Text | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. -->
-      <Text>Salim est devenu célèbre pour sa capacité à maintenir le flux de jus même lorsque les grenades étaient rares ou arrivaient endommagées à l'atelier.</Text>
+      <Text>Salim s'est rendu célèbre par sa capacité à maintenir le flux de jus même lorsque les grenades se faisaient rares ou arrivaient abîmées à l'atelier. Rapidement, et avec un jugement discutable, il a remplacé le fruit par des agrumes d'une acidité similaire, obtenant un liquide convaincant au premier coup d'œil.</Text>
     </Text>
     <Text>
       <GUID>1404000940</GUID>
       <!-- Text | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. -->
-      <Text>Cette presse introduit un système de vis manuel qui permet une plus grande pression et un meilleur contrôle lors de l'extraction du jus de grenade.</Text>
+      <Text>Cette presse introduit un système de vis manuel qui offre plus de pression et de contrôle lors de l'extraction du jus de grenade. En répartissant la force de manière uniforme, elle réduit la perte de pulpe et améliore le rendement de chaque fruit. Son adoption marque le passage de la production domestique à une échelle semi-industrielle.</Text>
     </Text>
     <Text>
       <GUID>1404000941</GUID>
       <!-- Text | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. -->
-      <Text>Originaire de Tabriz, Farhad a appris l'art de la production textile dès son enfance, comptant les nœuds avant de savoir lire.</Text>
+      <Text>Originaire de Tabriz, Farhad a appris l'art du textile dès l'enfance, comptant les nœuds avant même de savoir lire. Sa main sûre et son sens du dessin lui permettent d'accélérer le travail. Sous sa direction, les ateliers produisent des pièces plus nombreuses et plus uniformes, prisées aussi bien dans les bazars locaux que sur les marchés lointains.</Text>
     </Text>
     <Text>
       <GUID>1404000942</GUID>
       <!-- Text | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. -->
-      <Text>Mehmet a forgé sa réputation dans les ateliers d'Anatolie centrale, où les tapis doivent résister aussi bien à l'usage quotidien qu'aux voyages.</Text>
+      <Text>Mehmet s'est forgé une réputation dans les ateliers d'Anatolie centrale, où les tapis doivent résister aussi bien à l'usage quotidien qu'aux voyages. Son expérience lui permet d'organiser les tisserands avec précision, d'éviter les erreurs dans les motifs et de réduire le temps perdu en corrections.</Text>
     </Text>
     <Text>
       <GUID>1404000943</GUID>
       <!-- Text | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. -->
-      <Text>Layla s'est formée parmi les métiers à tisser royaux où la soie est traitée comme une denrée presque sacrée.</Text>
+      <Text>Layla s'est formée auprès des métiers à tisser royaux, où la soie est traitée comme une denrée presque sacrée. Elle connaît la tension exacte et le bon rythme pour éviter la casse et le gaspillage du fil. Marchands et artisans apprécient sa constance et son œil averti.</Text>
     </Text>
     <Text>
       <GUID>1404000944</GUID>
       <!-- Text | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. -->
-      <Text>Abdul est connu pour sa maîtrise de la culture et de la sélection des plantes pour les épices les plus prisées.</Text>
+      <Text>Abdul est réputé pour sa maîtrise de la culture et de la sélection des plantes destinées aux épices les plus prisées. Il sait exactement quel ingrédient rehausse et améliore à la fois la saveur et l'arôme de chaque gramme d'épice produit dans son atelier, en faisant un produit de la plus haute qualité.</Text>
     </Text>
     <Text>
       <GUID>1404000945</GUID>
       <!-- Text | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. -->
-      <Text>Hassan maîtrise l'art du mélange, du séchage et de la conservation des épices avec une précision presque obsessionnelle.</Text>
+      <Text>Hassan maîtrise l'art de mélanger, sécher et conserver les épices avec une précision presque obsessionnelle. On dit qu'il détecte la moindre variation d'arôme avant même d'ouvrir un sac. Ses méthodes privilégient l'équilibre entre intensité et conservation.</Text>
     </Text>
     <Text>
       <GUID>1404000946</GUID>
       <!-- Text | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. -->
-      <Text>Dès son plus jeune âge, Zayn a développé une intolérance légendaire à la nourriture épicée, capable de gâcher sa journée entière rien qu'avec l'odeur.</Text>
+      <Text>Dès son plus jeune âge, Zayn a développé une intolérance légendaire à la nourriture épicée, capable de lui gâcher la journée rien qu'à l'odeur. Contraint de trouver des alternatives, il a remplacé le piquant par la chaleur de la cannelle, découvrant des mélanges plus doux et étonnamment populaires. Avec le temps, son aversion personnelle est devenue une méthode productive.</Text>
     </Text>
     <Text>
       <GUID>1404000947</GUID>
       <!-- Text | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. -->
-      <Text>Pashaoglu s'est formé dans les ateliers du Grand Vizir, où le caftan n'est pas seulement un vêtement, mais un symbole de rang et de dignité.</Text>
+      <Text>Pashaoglu s'est formé dans les ateliers du Grand Vizir, où le caftan n'est pas un simple vêtement mais un symbole de rang et de dignité. Il connaît les coupes précises et le bon usage des tissus fins pour accélérer la confection sans nuire au tombé ni à la durabilité du vêtement.</Text>
     </Text>
     <Text>
       <GUID>1404000948</GUID>
       <!-- Text | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. -->
-      <Text>Cette ordonnance établit des normes claires pour la coupe, la couture et la teinture dans la fabrication du caftan.</Text>
+      <Text>Cette ordonnance établit des normes claires pour la coupe, la couture et la teinture dans la confection des caftans. En concentrant la production dans des ateliers surveillés, on réduit le gaspillage de tissu et chaque journée de travail est mieux employée. Les maîtres tailleurs perdent un peu d'autonomie, mais accèdent à de meilleurs matériaux et à des outils partagés.</Text>
     </Text>
     <Text>
       <GUID>1404000949</GUID>
       <!-- Text | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. -->
-      <Text>Amina maîtrise l’art de l’enroulement et de la tension des tissus.</Text>
+      <Text>Amina maîtrise l'art d'enrouler le tissu et d'en régler la tension. Sous sa direction, la manufacture adopte des méthodes de pliage modernes et normalisées, qui réduisent les erreurs et accélèrent la production. Résultat : chaque turban sort ferme, équilibré et prêt à porter.</Text>
     </Text>
     <Text>
       <GUID>1404000950</GUID>
       <!-- Text | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. -->
-      <Text>Jalal est réputé pour sa maîtrise de l'acier damasquiné, dont le grain ondulant exige une chaleur précise et des coups précis.</Text>
+      <Text>Jalal est réputé pour sa maîtrise de l'acier damassé, dont le grain ondulé exige une chaleur précise et des coups justes. Dans sa forge, le métal est travaillé avec une patience rituelle, donnant des lames plus solides et plus souples. Sous sa direction, les ateliers produisent des sabres plus réguliers avec moins de perte de matière.</Text>
     </Text>
     <Text>
       <GUID>1404000951</GUID>
       <!-- Text | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. -->
-      <Text>Ce marteau mécanique exploite la force constante de l'eau pour frapper, façonner et compacter les matériaux avec une régularité impossible à obtenir à la main.</Text>
+      <Text>Ce marteau mécanique exploite la force constante de l'eau pour frapper, façonner et compacter les matériaux avec une régularité impossible à obtenir à la main. Son usage réduit l'effort humain et accélère des procédés artisanaux qui demandaient auparavant de longues heures. Il est particulièrement précieux pour les travaux répétitifs et pénibles.</Text>
     </Text>
     <Text>
       <GUID>1404000952</GUID>
       <!-- Text | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. -->
-      <Text>Zahra est réputée pour sa maîtrise de la distillation de l'eau de rose, un processus qui nécessite des fleurs fraîches et un feu patient.</Text>
+      <Text>Zahra est réputée pour sa maîtrise de la distillation de l'eau de rose, un procédé qui exige des fleurs fraîches et un feu patient. Elle sait le moment exact où recueillir la vapeur pour préserver l'arôme et la pureté. Ses alambics produisent de plus grands volumes sans sacrifier ni le parfum ni la limpidité.</Text>
     </Text>
     <Text>
       <GUID>1404000953</GUID>
       <!-- Text | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. -->
-      <Text>Un appareil de distillation avancé utilisé pour extraire l’eau de rose en plus grandes quantités grâce à une vaporisation scellée à haute température.</Text>
+      <Text>Un appareil de distillation perfectionné qui permet d'extraire de plus grandes quantités d'eau de rose par vaporisation à haute température en vase clos. En augmentant la pression interne, la cornue améliore le rendement et l'efficacité à partir de pétales frais. Toutefois, une mauvaise manipulation ou une chaleur excessive peut provoquer de dangereuses ruptures.</Text>
     </Text>
     <Text>
       <GUID>1404000954</GUID>
       <!-- Text | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. -->
-      <Text>Karim est réputé pour son savoir-faire et son savoir-faire exceptionnels dans la fabrication des narguilés les plus beaux, les plus équilibrés et les plus durables, d'une qualité exceptionnelle.</Text>
+      <Text>Karim est réputé pour son talent et son savoir-faire exceptionnels dans la fabrication des narguilés les plus beaux, les mieux équilibrés et les plus durables, d'une qualité hors pair. Maître du verre et du métal, il garantit un tirage régulier et une parfaite étanchéité.</Text>
     </Text>
     <Text>
       <GUID>1404000955</GUID>
       <!-- Text | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. -->
-      <Text>Yahya est connu pour son savoir-faire dans le moulage et le moulage du bronze destiné à de riches chandeliers d'une fabrication exquise.</Text>
+      <Text>Yahya est réputé pour son savoir-faire dans la fonte et le moulage du bronze destiné à de riches chandeliers finement ouvragés. D'un œil vif et d'une main sûre, il crée les motifs les plus délicats et façonne les plus belles pièces, dignes des salons de l'aristocratie et de la royauté.</Text>
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>Mustafa travaille depuis des décennies avec le bronze, le laiton et d'autres métaux utilisés dans les objets du quotidien et les objets ornementaux.</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>Mustafa travaille depuis des décennies l'argent et d'autres métaux utilisés dans les objets du quotidien comme dans les objets d'ornement. Son expérience lui permet d'organiser des ateliers qui produisent chandeliers et narguilés avec plus de régularité et moins de défauts.</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
       <!-- Text | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. -->
-      <Text>Un four à haute température utilisant du charbon de bois et des creusets scellés pour fondre et affiner le métal avec une plus grande intensité.</Text>
+      <Text>Un four à haute température utilisant du charbon de bois et des creusets scellés pour fondre et affiner le métal avec plus d'intensité. Ce procédé permet d'obtenir un acier plus résistant et un bronze plus facile à travailler, améliorant la production de nombreux ateliers. Cependant, les températures extrêmes mettent à rude épreuve les matériaux et les structures.</Text>
     </Text>
     <Text>
       <GUID>1404000958</GUID>
       <!-- Text | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." -->
-      <Text>Noura est réputée pour son savoir-faire dans la préparation de pâtes d'amandes onctueuses et de chocolat de haute qualité.</Text>
+      <Text>Noura est réputée pour son talent à préparer des pâtes d'amande onctueuses et du chocolat de grande qualité. Elle connaît les proportions exactes pour créer le massepain le plus délicieux de la région ; sa devise a toujours été : « il n'y a rien que le chocolat ne puisse arranger ».</Text>
     </Text>
     <Text>
       <GUID>1404000959</GUID>
       <!-- Text | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. -->
-      <Text>Samiq est arrivé à la confiserie du Kalifa après des années d'expérimentation avec différents mélanges de noix et de pâtes sucrées dans de petits ateliers.</Text>
+      <Text>Samiq est arrivé à la confiserie du calife après des années d'expériences sur différents mélanges de fruits à coque et de pâtes sucrées dans de petits ateliers. C'est là qu'il a mis au point des méthodes de broyage plus lent et de repos contrôlé, obtenant un massepain homogène et malléable.</Text>
     </Text>
     <Text>
       <GUID>1404000960</GUID>
       <!-- Text | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. -->
-      <Text>Aïcha a forgé sa réputation de maître perlier en travaillant les plus belles perles récoltées dans les eaux chaudes du golfe de sa ville natale.</Text>
+      <Text>Aisha s'est fait un nom comme maîtresse perlière en travaillant les plus belles perles pêchées dans les eaux chaudes du golfe de sa ville natale. Son habileté à percer, trier et enfiler les perles évite la casse, en tire le meilleur parti et prévient les pertes.</Text>
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil est connu pour remplacer le traditionnel collier de perles par de fines chaînes en or soigneusement assemblées.</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>Nabil est connu pour remplacer le traditionnel fil de perles par de fines chaînes d'argent assemblées avec minutie. Sa méthode rehausse la valeur perçue de chaque pièce, mais exige plus de précision et des matériaux coûteux.</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
       <!-- Text | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. -->
-      <Text>Cet établi introduit un système organisé pour sélectionner, polir et assortir les perles avant le sertissage.</Text>
+      <Text>Cet établi introduit un système organisé pour sélectionner, polir et assortir les perles avant le sertissage. En classant les pièces par taille, éclat et teinte, l'artisan réduit les erreurs d'assemblage. La production devient plus prévisible et plus efficace sans perdre son caractère artisanal.</Text>
     </Text>
     <Text>
       <GUID>1404000963</GUID>
       <!-- Text | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. -->
-      <Text>Émise par le Diwan pour mettre fin au chaos logistique des bazars et caravansérails, cette ordonnance établit des règles strictes concernant l'empilement, la rotation et la garde des marchandises.</Text>
+      <Text>Promulguée par le Divan pour mettre fin au chaos logistique des bazars et des caravansérails, cette ordonnance fixe des règles strictes pour l'empilement, la rotation et la garde des marchandises. Les entrepôts fonctionnent désormais sous supervision administrative, ce qui accroît leur capacité effective sans nouvelles constructions.</Text>
     </Text>
     <Text>
       <GUID>1404000964</GUID>
       <!-- Text | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. -->
-      <Text>Un décret formel encourageant la croissance démographique grâce à des établissements réglementés et à des obligations civiques.</Text>
+      <Text>Un décret officiel qui encourage la croissance de la population par une installation réglementée et des obligations civiques. En favorisant l'enregistrement des résidents et des travailleurs, il augmente le nombre d'habitants imposables. L'édit renforce le contrôle de l'État sur les foyers et le commerce, améliorant la perception des revenus.</Text>
     </Text>
     <Text>
       <GUID>1404000965</GUID>
       <!-- Text | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. -->
-      <Text>Omar a bâti sa réputation en organisant des routes fiables pour l'importation de marchandises étrangères par voie maritime et terrestre.</Text>
+      <Text>Omar s'est fait une réputation en organisant des routes fiables pour l'importation de marchandises étrangères par mer et par terre. Il maîtrise les droits de douane, le stockage et les délais, et veille à ce que les approvisionnements arrivent en volumes réguliers. Les marchands apprécient ses relations et sa comptabilité rigoureuse.</Text>
     </Text>
     <Text>
       <GUID>1404000966</GUID>
       <!-- Text | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. -->
-      <Text>Hassan parcourt les souks et les entrepôts, rassemblant des produits fabriqués localement.</Text>
+      <Text>Hassan parcourt souks et entrepôts pour rassembler des marchandises produites localement. Il connaît les artisans, les paysans et les petits ateliers, et sait quand et où vendre chaque article. Son travail assure la fluidité du commerce local sans dépendre des routes lointaines.</Text>
     </Text>
     <Text>
       <GUID>1404000967</GUID>
       <!-- Text | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. -->
-      <Text>Farid s'est fait une place sur les marchés en vendant des objets métalliques de qualité, des chandeliers aux ustensiles de tous les jours.</Text>
+      <Text>Farid s'est taillé une place sur les marchés en vendant des objets en métal bien ouvragés, des chandeliers aux ustensiles du quotidien. Il reconnaît un bon bronze à son poids, à sa teinte et au son qu'il rend quand on le frappe doucement. Son étal attire aussi bien les artisans que les acheteurs exigeants.</Text>
     </Text>
     <Text>
       <GUID>1404000968</GUID>
       <!-- Text | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. -->
-      <Text>Pris sous l'autorité du vizir, ce décret réorganise la surveillance des services publics sous un commandement unifié.</Text>
+      <Text>Promulgué sous l'autorité du vizir, ce décret réorganise la surveillance des services publics sous un commandement unifié. En étendant la juridiction des inspecteurs et des administrateurs, il permet aux mosquées, puits, bains et bureaux de desservir des quartiers plus éloignés.</Text>
     </Text>
     <Text>
       <GUID>1404000969</GUID>
       <!-- Text | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. -->
-      <Text>Ibrahim est chargé de coordonner le fonctionnement de plusieurs bains publics sous une seule administration.</Text>
+      <Text>Ibrahim est chargé de coordonner le fonctionnement de plusieurs bains publics sous une administration unique. Il organise les équipes, surveille l'approvisionnement en eau et veille à ce qu'ils restent ouverts et opérationnels au-delà de leurs environs immédiats. Grâce à sa gestion, les bains desservent sans interruption des quartiers plus éloignés.</Text>
     </Text>
     <Text>
       <GUID>1404000970</GUID>
       <!-- Text | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. -->
-      <Text>Cette réglementation institue une autorité centrale sur les souks et les points d'échange de la ville.</Text>
+      <Text>Ce règlement institue une autorité centrale sur les souks et les points d'échange de la ville. En normalisant les règles de vente, les poids et les horaires, il permet au marché de desservir des quartiers plus éloignés. Les marchands reçoivent des licences qui étendent leur rayon d'action au-delà de leurs environs immédiats.</Text>
     </Text>
     <Text>
       <GUID>1404000971</GUID>
       <!-- Text | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. -->
-      <Text>Rashid est issu d'une longue et distinguée lignée de serviteurs de haut rang du sultan.</Text>
+      <Text>Rashid est issu d'une longue et illustre lignée de hauts serviteurs du sultan. Il sert d'intermédiaire entre marchands, voyageurs et autorités étrangères. Ses fonctions consistent à enregistrer, certifier et régler des affaires qui dépassent le cadre immédiat du consulat.</Text>
     </Text>
     <Text>
       <GUID>1404000972</GUID>
       <!-- Text | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. -->
-      <Text>Husayn connaît l'art de préparer et de servir le café.</Text>
+      <Text>Husayn maîtrise l'art de préparer et de servir le café. Il règle la torréfaction, la mouture et le rythme du service pour accueillir davantage de clients sans sacrifier la qualité. Sous sa direction, le café devient un lieu de rencontre pour les habitants des quartiers même les plus éloignés. Voyageurs et habitants modifient leur itinéraire pour s'arrêter chez lui.</Text>
     </Text>
     <Text>
       <GUID>1404000976</GUID>
@@ -2728,7 +2768,7 @@
     <Text>
       <GUID>1404000977</GUID>
       <!-- Text | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. -->
-      <Text>Cheikh al-Qadiri s'est fait connaître grâce à ses sermons retentissants prononcés depuis le minbar, où ses paroles ont le même poids parmi les marchands, les ouvriers et les fonctionnaires.</Text>
+      <Text>Le cheikh al-Qadiri s'est rendu célèbre par ses sermons retentissants prononcés depuis le minbar, où ses paroles ont autant de poids auprès des marchands que des ouvriers et des fonctionnaires. Instruit en droit et en tradition, il parle avec une autorité mesurée, encourageant l'ordre, l'assiduité et la responsabilité collective.</Text>
     </Text>
     <Text>
       <GUID>1404001002</GUID>
@@ -2793,7 +2833,7 @@
     <Text>
       <GUID>1404001014</GUID>
       <!-- Text | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. -->
-      <Text>Madame Kahina vous a remis une invitation du Sultan.</Text>
+      <Text>Madame Kahina vous a remis une invitation du sultan. C'est une occasion rare, car peu d'étrangers sont autorisés à entrer dans le sultanat.</Text>
     </Text>
     <Text>
       <GUID>1404001017</GUID>
@@ -2853,7 +2893,7 @@
     <Text>
       <GUID>1404001048</GUID>
       <!-- ExpeditionDecision | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> -->
-      <Text>&lt;b&gt;Après des jours de voyage,&lt;/b&gt; votre expédition atteint une ville frontalière poussiéreuse aux portes du Sultanat.</Text>
+      <Text>&lt;b&gt;Après des jours de voyage,&lt;/b&gt; votre expédition atteint une ville frontière poussiéreuse aux confins du sultanat. Des tours de guet en grès dominent la route, et des gardes en robes amples inspectent soigneusement chaque voyageur. Madame Kahina murmure que les étrangers sont rarement autorisés à aller plus loin, mais l'invitation du nouveau sultan pourrait vous ouvrir le passage. &lt;b&gt;Vous devez décider comment franchir la frontière.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001049</GUID>
@@ -2868,7 +2908,7 @@
     <Text>
       <GUID>1404001051</GUID>
       <!-- ExpeditionDecision | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> -->
-      <Text>&lt;b&gt;Caché parmi les marchands et les chameaux chargés,&lt;/b&gt; vous passez sous le regard méfiant des gardes.</Text>
+      <Text>&lt;b&gt;Caché parmi les marchands et les chameaux chargés,&lt;/b&gt; vous passez sous le regard soupçonneux des gardes. Une fois les portes franchies, le chef de caravane propose de vous guider plus avant dans les terres. Une large route impériale s'étend aussi vers la capitale. &lt;b&gt;Resterez-vous avec la caravane ou prendrez-vous la grand-route ?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001052</GUID>
@@ -2883,7 +2923,7 @@
     <Text>
       <GUID>1404001054</GUID>
       <!-- ExpeditionDecision | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> -->
-      <Text>&lt;b&gt;Un garde vigilant arrête la caravane,&lt;/b&gt; ses yeux se plissant lorsqu'il reconnaît des visages inconnus.</Text>
+      <Text>&lt;b&gt;Un garde vigilant arrête la caravane,&lt;/b&gt; les yeux plissés en reconnaissant des visages inconnus. Quelques instants plus tard, vous êtes encerclé et escorté jusqu'à une cour ombragée. Votre présence ici n'est manifestement pas la bienvenue. &lt;b&gt;Comment allez-vous procéder ?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001055</GUID>
@@ -2898,12 +2938,12 @@
     <Text>
       <GUID>1404001057</GUID>
       <!-- ExpeditionDecision | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. -->
-      <Text>&lt;b&gt;Les agents des frontières examinent vos papiers avec suspicion.&lt;/b&gt; Des murmures circulent entre eux avant que vous ne soyez poliment mais fermement détenu.</Text>
+      <Text>&lt;b&gt;Les fonctionnaires de la frontière examinent vos papiers avec méfiance.&lt;/b&gt; Des murmures circulent entre eux avant que vous ne soyez retenu, poliment mais fermement. Les visiteurs étrangers sont manifestement rares ici. On vous escorte jusqu'à une cour pour y attendre le verdict.</Text>
     </Text>
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;La caravane serpente le long de pistes cachées du désert,&lt;/b&gt; longeant les dunes et les ruines antiques avant de rejoindre un grand boulevard.</Text>
+      <Text>&lt;b&gt;La caravane serpente le long de pistes cachées du désert,&lt;/b&gt; contournant dunes et ruines antiques avant de rejoindre un grand boulevard. Au coucher du soleil, les dômes de la capitale scintillent à l'horizon. La caravane vous a conduit sain et sauf à destination.</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2913,17 +2953,17 @@
     <Text>
       <GUID>1404001060</GUID>
       <!-- ExpeditionDecision | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. -->
-      <Text>&lt;b&gt;Après plusieurs heures tendues,&lt;/b&gt; un courrier arrive portant le sceau du sultan.</Text>
+      <Text>&lt;b&gt;Après plusieurs heures tendues,&lt;/b&gt; un messager arrive, porteur du sceau du sultan. Vous êtes libéré et l'on vous indique le chemin de la capitale.</Text>
     </Text>
     <Text>
       <GUID>1404001061</GUID>
       <!-- ExpeditionDecision | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. -->
-      <Text>&lt;b&gt;Madame Kahina parle calmement avec les gardes,&lt;/b&gt; invoquant des noms et des coutumes qui ne vous sont pas familiers.</Text>
+      <Text>&lt;b&gt;Madame Kahina s'entretient calmement avec les gardes,&lt;/b&gt; invoquant des noms et des coutumes qui vous sont inconnus. Leurs visages sévères s'adoucissent, et vous êtes bientôt autorisé à poursuivre vers la capitale.</Text>
     </Text>
     <Text>
       <GUID>1404001062</GUID>
       <!-- ExpeditionDecision | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> -->
-      <Text>&lt;b&gt;Vous avez voyagé pendant des jours à travers le désert,&lt;/b&gt; guidé uniquement par les instructions du sultan et une carte patinée.</Text>
+      <Text>&lt;b&gt;Vous voyagez depuis des jours à travers le désert,&lt;/b&gt; guidé seulement par les indications du sultan et une carte usée. La chaleur fait miroiter le sable, et sur votre gauche, vous apercevez ce qui ressemble à une oasis. Elle pourrait offrir un répit – ou se révéler une dangereuse distraction. &lt;b&gt;Poursuivez-vous votre route ou explorez-vous l'oasis ?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001063</GUID>
@@ -2938,7 +2978,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;La route se termine brusquement,&lt;/b&gt; engloutie par d'imposantes dunes.</Text>
+      <Text>&lt;b&gt;La route s'arrête brusquement,&lt;/b&gt; engloutie par d'immenses dunes. Le vent hurle sur le sable et efface toute trace de direction. Vous devez décider de la suite.</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -2953,7 +2993,7 @@
     <Text>
       <GUID>1404001068</GUID>
       <!-- ExpeditionDecision | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. -->
-      <Text>&lt;b&gt;Au-delà des dunes, vous atteignez la côte,&lt;/b&gt; et en suivant le rivage vous découvrez un modeste village de pêcheurs.</Text>
+      <Text>&lt;b&gt;Au-delà des dunes, vous atteignez la côte,&lt;/b&gt; et en longeant le rivage, vous découvrez un modeste village de pêcheurs. La brise marine est un soulagement bienvenu.</Text>
     </Text>
     <Text>
       <GUID>1404001069</GUID>
@@ -2983,7 +3023,7 @@
     <Text>
       <GUID>1404001074</GUID>
       <!-- ExpeditionDecision | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. -->
-      <Text>&lt;b&gt;L'oasis se dissout dans un air chatoyant,&lt;/b&gt; une simple fata morgana.</Text>
+      <Text>&lt;b&gt;L'oasis se dissout dans l'air chatoyant,&lt;/b&gt; simple fata morgana. Au loin, cependant, vous apercevez des nomades qui traversent le désert.</Text>
     </Text>
     <Text>
       <GUID>1404001075</GUID>
@@ -3013,7 +3053,7 @@
     <Text>
       <GUID>1404001080</GUID>
       <!-- ExpeditionDecision | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> -->
-      <Text>&lt;b&gt;Enfin, vous atteignez la capitale du Sultanat,&lt;/b&gt; une ville tentaculaire avec des bazars animés, des minarets imposants et des rues sinueuses.</Text>
+      <Text>&lt;b&gt;Vous atteignez enfin la capitale du sultanat,&lt;/b&gt; une ville tentaculaire aux bazars animés, aux minarets élancés et aux ruelles sinueuses. Quelque part se trouve le palais du sultan, mais le chemin est loin d'être évident. &lt;b&gt;Comment allez-vous trouver votre route ?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001081</GUID>
@@ -3028,7 +3068,7 @@
     <Text>
       <GUID>1404001083</GUID>
       <!-- ExpeditionDecision | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> -->
-      <Text>&lt;b&gt;Le vendeur vous montre ses marchandises avec impatience,&lt;/b&gt; insistant sur une vente avant de proposer son aide.</Text>
+      <Text>&lt;b&gt;Le marchand vous montre ses marchandises avec empressement,&lt;/b&gt; insistant pour conclure une vente avant de vous aider. Après quelque insistance, il désigne enfin une grande avenue qui monte vers le haut de la ville. &lt;b&gt;Vous voici devant les portes du palais.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001084</GUID>
@@ -3043,7 +3083,7 @@
     <Text>
       <GUID>1404001086</GUID>
       <!-- ExpeditionDecision | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. -->
-      <Text>&lt;b&gt;Les rues sinueuses vous perturbent rapidement&lt;/b&gt; et peu de temps après, une bande de porte-monnaie vous libère de certaines affaires.</Text>
+      <Text>&lt;b&gt;Les ruelles sinueuses vous désorientent rapidement,&lt;/b&gt; et bientôt, une bande de tire-laine vous soulage de quelques biens. Heureusement, un policier sévère intervient et vous escorte jusqu'au palais.</Text>
     </Text>
     <Text>
       <GUID>1404001087</GUID>
@@ -3078,7 +3118,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;Vous vous tenez devant le sultan,&lt;/b&gt; assis sur un trône orné.</Text>
+      <Text>&lt;b&gt;Vous vous tenez devant le sultan,&lt;/b&gt; assis sur un trône richement orné. Tous les regards sont posés sur vous. Comment allez-vous le saluer ?</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3113,7 +3153,7 @@
     <Text>
       <GUID>1404001100</GUID>
       <!-- ExpeditionDecision | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. -->
-      <Text>&lt;b&gt;Le sultan parle d'une vision pour l'avenir,&lt;/b&gt; d'ouvrir son royaume au monde et d'embrasser le progrès.</Text>
+      <Text>&lt;b&gt;Le sultan évoque sa vision de l'avenir,&lt;/b&gt; celle d'un royaume ouvert sur le monde et tourné vers le progrès. Il vous parle de &lt;b&gt;Wadi Al Zahir&lt;/b&gt;, une région désertique reculée aux confins de son domaine. Des tribus nomades y vivent, et il souhaite qu'une nouvelle colonie y favorise les échanges entre son peuple et les puissances industrielles de l'Occident.&lt;br&gt;&lt;br&gt;En retour, vous obtenez le droit exclusif de développer la région, d'en exploiter les ressources et de partager sa prospérité. Madame Kahina, toujours débrouillarde, reçoit une île qui servira d'avant-poste commercial pour soutenir vos entreprises.&lt;br&gt;&lt;br&gt;&lt;b&gt;D'un dernier geste, le sultan vous remet une carte et sa bénédiction.&lt;/b&gt; Votre prochaine destination est claire : Wadi Al Zahir.</Text>
     </Text>
     <Text>
       <GUID>1404001101</GUID>
@@ -3128,12 +3168,17 @@
     <Text>
       <GUID>1404001103</GUID>
       <!-- ExpeditionDecision | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. -->
-      <Text>&lt;b&gt;Le Sultan écoute attentivement,&lt;/b&gt; pesant vos paroles et vos intentions.</Text>
+      <Text>&lt;b&gt;Le sultan écoute attentivement,&lt;/b&gt; pesant vos paroles et vos intentions. Après un moment de réflexion, il fait signe à la cour de se taire et s'apprête à dévoiler ses projets.</Text>
     </Text>
     <Text>
       <GUID>1404001104</GUID>
       <!-- ExpeditionOption | Listen to the Sultan’s proposal | Listen to the Sultan’s proposal -->
       <Text>Écoutez la proposition du sultan</Text>
+    </Text>
+    <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>Les trésors exhumés des sables du désert attirent des érudits de toutes parts et inspirent de nouvelles recherches.</Text>
     </Text>
     <Text>
       <GUID>1404001115</GUID>
@@ -3207,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>Augmente la gamme de stands de marché</Text>
     </Text>
     <Text>
@@ -3216,14 +3261,19 @@
       <Text>Réduit la consommation de produits locaux pour les universitaires</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>Tous les étals orientaux</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>Graines d'amande</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>Graines d'amandes de qualité</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver quelques bosquets de amandiers dans un sol étranger.</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3232,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>Graines de dattes</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver de nombreux bosquets de amandiers dans un sol étranger.</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3242,8 +3292,8 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>Graines de dattes hybrides</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>Ces jeunes arbres ont été adaptés pour pousser dans une très large gamme de sols, avec un rendement accru en amandes !</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
@@ -3252,8 +3302,8 @@
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>Graines de jus de grenade de qualité</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver quelques bosquets de palmiers dattiers dans un sol étranger.</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
@@ -3262,8 +3312,8 @@
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>Graines de roses</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver de nombreux bosquets de palmiers dattiers dans un sol étranger.</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
@@ -3272,8 +3322,8 @@
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>Graines de roses hybrides</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>Ces jeunes arbres ont été adaptés pour pousser dans une très large gamme de sols, avec un rendement accru en dattes !</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3282,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>Graines de soie de qualité</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver quelques bosquets de grenadiers dans un sol étranger.</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3458,7 +3508,7 @@
     <Text>
       <GUID>1404001210</GUID>
       <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>Il suffit de regarder ces fabuleux costumes à plumes : carnaval et chaos se mélangent dans les rues, interrompus par des bruits occasionnels !</Text>
+      <Text>Regardez-moi ces fabuleux costumes à plumes – carnaval et chaos se mêlent dans les rues, ponctués de temps à autre par le « Paf ! » d'un ballon qui frappe le sol.</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3527,23 +3577,28 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
-      <Text>Les Norias doivent être construites à distance les unes des autres.</Text>
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
+      <Text>Les norias doivent être construites à distance les unes des autres. Elles pompent l'eau de nappes souterraines qui finiraient sinon par s'assécher.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
-      <Text>Les consulats sont le principal moyen de communication avec le sultan.</Text>
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
+      <Text>Les consulats sont le principal moyen de communiquer avec le sultan. Ils produisent les documents nécessaires pour obtenir l'autorisation de construire des bâtiments avancés.</Text>
     </Text>
     <Text>
       <GUID>1404001226</GUID>
       <!-- Text | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. -->
-      <Text>La Grande Mosquée est un symbole de votre engagement envers le sultanat.</Text>
+      <Text>La Grande Mosquée est le symbole de votre engagement envers le sultanat. Chaque pèlerinage vous vaut faveur et influence auprès de la cour du sultan.</Text>
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
-      <Text>Les envoyés sont curieux des nouveaux produits et inventions de l’ère industrielle.</Text>
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
+      <Text>Les émissaires sont curieux des nouvelles marchandises et inventions de l'ère industrielle. Les étals sont un excellent moyen de les exposer et de laisser les émissaires les essayer.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>Mosquée</Text>
     </Text>
     <Text>
       <GUID>1404003300</GUID>
@@ -3701,6 +3756,106 @@
       <Text>Ce module double le rendement des minerais grâce à un raffinage spécial dans des fûts de minerai utilisant un processus de flottation du pétrole.</Text>
     </Text>
     <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>Jardin d'abeilles</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>Production de miel</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>Quelques ruches produisent du miel et rendent les fermes plus efficaces.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>Le miel des abeilles, butiné sur les palmiers dattiers, est une denrée très recherchée.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>Pollinisation</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>Toutes les fermes agricoles de l'Orient</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>Grâce à l'aide des abeilles pour la pollinisation, nos fermes deviennent encore plus efficaces.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>Brasserie de thé</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>Confiserie de loukoums</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>Ferme de pistaches</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>Verger de pistachiers</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>Torréfacteur de pistaches</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>Graines de pistache</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>Graines de pistache de qualité</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>Graines de pistache hybrides</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>Fertilité (pistaches)</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver quelques bosquets de pistachiers dans un sol étranger.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>Ces jeunes arbres peuvent vous aider à cultiver de nombreux bosquets de pistachiers dans un sol étranger.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>Ces jeunes arbres ont été adaptés pour pousser dans une très large gamme de sols, avec un rendement accru en pistaches !</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>Manufacture de fruits</Text>
+    </Text>
+    <Text>
       <GUID>1404005038</GUID>
       <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
       <Text>Ne peut être construit qu'à Wadi Al Zahir</Text>
@@ -3714,6 +3869,11 @@
       <GUID>1404005040</GUID>
       <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
       <Text>Mieux vaut ne pas y toucher à mains nues. Également appelé huile de vitriol.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>Cabane de chasse à l'éléphant</Text>
     </Text>
   </ModOp>
 </ModOps>

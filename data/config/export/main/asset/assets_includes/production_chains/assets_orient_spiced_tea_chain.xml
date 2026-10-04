@@ -13,17 +13,6 @@
                     <Building>1404005020</Building>
                     <Tier1>
                         <Item>
-                            <Building>133030</Building>
-                        </Item>
-                        <Item>
-                            <Building>117744</Building>
-                            <Tier2>
-                                <Item>
-                                    <Building>1010266</Building>
-                                </Item>
-                            </Tier2>
-                        </Item>
-                        <Item>
                             <Building>1404000170</Building>
                             <Tier2>
                                 <Item>
@@ -33,6 +22,17 @@
                         </Item>
                         <Item>
                             <Building>5463</Building>
+                        </Item>
+                        <Item>
+                            <Building>133030</Building>
+                        </Item>
+                        <Item>
+                            <Building>117744</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010266</Building>
+                                </Item>
+                            </Tier2>
                         </Item>
                     </Tier1>
                 </ProductionChain>
