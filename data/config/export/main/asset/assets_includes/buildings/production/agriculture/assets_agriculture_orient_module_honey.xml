@@ -1,0 +1,215 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID='1010284'>
+    <Asset>
+      <Template>BuffFactoryModule</Template>
+      <Values>
+        <Standard>
+          <GUID>1404005012</GUID>
+          <Name>agriculture_orient_module_honey</Name>
+          <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
+          <InfoDescription>1404005014</InfoDescription>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Bee Garden</Text>
+              <Status>Exported</Status>
+            </English>
+          </LocaText>
+          <LineID>55287</LineID>
+        </Text>
+        <Building>
+          <AssociatedRegions>Mod3</AssociatedRegions>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking/>
+        <Mesh/>
+        <BuffFactory/>
+        <FactoryBase/>
+        <FeedbackController/>
+        <Pausable/>
+        <Selection>
+          <OnSelection>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <ActionList/>
+            </Values>
+          </OnSelection>
+          <ParticipantMessageArcheType>Mod9</ParticipantMessageArcheType>
+        </Selection>
+        <Attackable>
+          <AttackableType>IslandBuilding</AttackableType>
+        </Attackable>
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>100</Amount>
+              <InactiveAmount>50</InactiveAmount>
+            </Item>
+            <Item>
+              <Product>1404000013</Product>
+              <Amount>20</Amount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <AmbientMoodProvider/>
+        <LogisticNode/>
+        <Constructable/>
+        <Locked/>
+        <IncidentInfectable/>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/graphics/buildings/orient/honey_module_orient/honey_module_orient.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>282241</Sound>
+            </Item>
+          </ActiveSounds>
+        </SoundEmitter>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>5000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1400201040</Ingredient>
+              <Amount>10</Amount>
+            </Item>
+            <Item>
+              <Ingredient>114402</Ingredient>
+              <Amount>3</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <BuildingModule/>
+        <Infolayer/>
+        <UpgradeList/>
+        <BuffFactory>
+          <ProductionBuffs>
+            <Item>
+              <ProductivityBuff>1404005013</ProductivityBuff>
+            </Item>
+          </ProductionBuffs>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+          <ProductionBuffDistance>12</ProductionBuffDistance>
+          <BaseBuff>1404005017</BaseBuff>
+          <BaseBuffScope>Radius</BaseBuffScope>
+          <BaseBuffDistance>12</BaseBuffDistance>
+        </BuffFactory>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+  <ModOp Type="addNextSibling" GUID="112297">
+    <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+            <Standard>
+                <GUID>1404005013</GUID>
+                <Name>Honey Buff</Name>
+                <IconFilename>data/modgraphics/ui/icon_honey.png</IconFilename>
+                <InfoDescription>1404005015</InfoDescription>
+            </Standard>
+            <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>1404000159</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+            </ItemEffect>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Honey Production</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>55287</LineID>
+            </Text>
+            <FactoryUpgrade>
+              <AdditionalOutput>
+                <Item>
+                  <Product>1440218</Product>
+                  <AdditionalOutputCycle>2</AdditionalOutputCycle>
+                  <Amount>1</Amount>
+                </Item>
+              </AdditionalOutput>
+            </FactoryUpgrade>
+            <BuildingUpgrade/>
+            <Buff />
+            <CultureUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfectableUpgrade />
+            <PowerplantUpgrade />
+            <IndustrializableUpgrade />
+            <ItemContainerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+            <ResourceUpgrade />
+        </Values>
+    </Asset>
+    <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+            <Standard>
+                <GUID>1404005017</GUID>
+                <Name>Bee Buff</Name>
+                <IconFilename>data/ui/modgraphics/icon_biene.png</IconFilename>
+                <InfoDescription>1404005019</InfoDescription>
+            </Standard>
+            <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>1404005018</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+            </ItemEffect>
+            <Text>
+              <LocaText>
+                <English>
+                  <Text>Pollination</Text>
+                  <Status>Exported</Status>
+                </English>
+              </LocaText>
+              <LineID>55287</LineID>
+            </Text>
+            <FactoryUpgrade>
+              <ProductivityUpgrade>
+                <Value>30</Value>
+				        <Percental>1</Percental>
+              </ProductivityUpgrade>
+            </FactoryUpgrade>
+            <BuildingUpgrade>
+              <WorkforceAmountUpgrade>
+                <Value>-20</Value>
+                <Percental>1</Percental>
+              </WorkforceAmountUpgrade>
+            </BuildingUpgrade>
+            <Buff />
+            <CultureUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfectableUpgrade />
+            <PowerplantUpgrade />
+            <IndustrializableUpgrade />
+            <ItemContainerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+            <ResourceUpgrade />
+        </Values>
+    </Asset>
+  </ModOp>
+
+</ModOps>

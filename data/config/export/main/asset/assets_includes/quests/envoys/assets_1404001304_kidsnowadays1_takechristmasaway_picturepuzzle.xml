@@ -76,7 +76,7 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>1404001312</NotificationText>
+                                    <NotificationText>1404001661</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
                                     <Subtitle>1404001305</Subtitle>
@@ -287,7 +287,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>1404001310</Text>
+                            <Text>1404001659</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -398,7 +398,7 @@
                                         </PicturePuzzleObjects>
                                     </ConditionQuestPicturePuzzle>
                                     <ConditionQuestObjective>
-                                        <TextCombinedContextValue>1404001311</TextCombinedContextValue>
+                                        <TextCombinedContextValue>1404001660</TextCombinedContextValue>
                                         <OnSuccessActions>
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
@@ -626,7 +626,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001310</GUID>
+                    <GUID>1404001659</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -644,7 +644,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001311</GUID>
+                    <GUID>1404001660</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents</Name>
                 </Standard>
                 <Text>
@@ -662,7 +662,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001312</GUID>
+                    <GUID>1404001661</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary</Name>
                 </Standard>
                 <Text>

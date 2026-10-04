@@ -1,0 +1,42 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="132757">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003306</GUID>
+                    <Name>Recipe_CoffeeHouse_rose</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_coffee_house_rose.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Rose Coffee</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404003324</RecipeBuilding>
+                    <RecipeDescriptionText>1404003314</RecipeDescriptionText>
+                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_coffee_house/recipebook_orient_coffee_house_rose.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>330</PosX>
+                            <PosY>60</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>10</PosX>
+                            <PosY>40</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

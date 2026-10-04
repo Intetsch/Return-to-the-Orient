@@ -24,13 +24,13 @@ fail to find its objects.
 ```
 ts.Quests.StartQuestForCurrentPlayerNet(1404001275)   # 1 Invitation (decision)
 ts.Quests.StartQuestForCurrentPlayerNet(1404001290)   # 2 Bull Leaping Ceremony (picture puzzle)
-ts.Quests.StartQuestForCurrentPlayerNet(1404001296)   # 5 Aida (select)
+ts.Quests.StartQuestForCurrentPlayerNet(1404001652)   # 5 Aida (select)
 ```
 
 ### Kids Nowadays
 ```
 ts.Quests.StartQuestForCurrentPlayerNet(1404001304)   # 1 Take Christmas Away (picture puzzle)
-ts.Quests.StartQuestForCurrentPlayerNet(1404001313)   # 2 Make Them Work (picture puzzle)
+ts.Quests.StartQuestForCurrentPlayerNet(1404001662)   # 2 Make Them Work (picture puzzle)
 ts.Quests.StartQuestForCurrentPlayerNet(1404001321)   # 3 Public Confession (photo)
 ```
 

@@ -1,0 +1,41 @@
+<ModOps>
+
+    <!-- Orient oil field: clone of the vanilla oil slot 101062 using vegetation-free
+         copies of both of its model variations. -->
+    <ModOp Type="addNextSibling" GUID="101062">
+        <Asset>
+            <BaseAssetGUID>101062</BaseAssetGUID>
+            <!--heavy_colony01_01_slot (Oil Pump Slot)-->
+            <Values>
+                <Standard>
+                    <GUID>1404001315</GUID>
+                    <Name>oil_orient_slot (Oil Field - Orient)</Name>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/heavy_orient_01/heavy_orient_01_slot.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/heavy_orient_01/heavy_orient_01_slot_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Building>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Text>
+                    <TextOverride>101062</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="add" GUID="100849" Path="/Values/RandomMapObject/Replacements">
+        <Item>
+            <NewAsset>1404001315</NewAsset>
+        </Item>
+    </ModOp>
+
+</ModOps>

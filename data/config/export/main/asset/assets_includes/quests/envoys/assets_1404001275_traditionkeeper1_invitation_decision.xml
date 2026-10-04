@@ -33,7 +33,7 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>1404001282</NotificationText>
+                                    <NotificationText>1404001648</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
                                     <Subtitle>1404001277</Subtitle>
@@ -93,7 +93,7 @@
                             <Values>
                                 <CharacterNotification />
                                 <BaseNotification>
-                                    <NotificationText>1404001281</NotificationText>
+                                    <NotificationText>1404001647</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
                                     <Subtitle>1404001276</Subtitle>
@@ -357,7 +357,7 @@
                                                                         <Values>
                                                                             <Condition />
                                                                             <ConditionDecisionOption>
-                                                                                <DecisionOptionText>1404001285</DecisionOptionText>
+                                                                                <DecisionOptionText>1404001649</DecisionOptionText>
                                                                                 <ActionList>
                                                                                     <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                     <Values>
@@ -597,7 +597,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001281</GUID>
+                    <GUID>1404001647</GUID>
                     <Name>RQ_Envoy_Invitation_QuestStartSummary</Name>
                 </Standard>
                 <Text>
@@ -615,7 +615,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001282</GUID>
+                    <GUID>1404001648</GUID>
                     <Name>RQ_Envoy_Invitation_RightChoiceSummary</Name>
                 </Standard>
                 <Text>
@@ -669,7 +669,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001285</GUID>
+                    <GUID>1404001649</GUID>
                     <Name>RQ_Envoy_Decision_Invitation_Decision1</Name>
                 </Standard>
                 <Text>

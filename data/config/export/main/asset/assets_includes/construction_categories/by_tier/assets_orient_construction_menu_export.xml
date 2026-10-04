@@ -1,0 +1,47 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404000884</GUID>
+                    <Name>orient construction menu export (tier)</Name>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_globe.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000872</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000887</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005021</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005024</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404005037</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Export Goods</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>2122007</LineID>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -68,9 +68,29 @@
     - Marketstall: Steam Carriages
     - Marketstall: Scooter
 
-- Coffee House (Public service)
-  - Coffee Beans (New World)
+  - Coffee House (Public service)
+    - Coffee Beans (New World)
 
-- Pearl Necklaces (Orient)
-  - Pearls (New World)
-  - Wool (Old World)
+  - Pearl Necklaces (Orient)
+    - Pearls (New World)
+    - Wool (Old World)
+
+# Needs in other Worlds
+
+- OW:
+  - Engineers:
+    - Hookahs
+  - Investors:
+    - (Seidenschals): Seide + Baumwolle + Pigmente
+  - Magnates:
+    - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
+- Enbesa:
+  - Elders:
+    - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
+    - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
+- NW:
+  - Artista:
+    - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
+    - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
+  - Obrera:
+    - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)

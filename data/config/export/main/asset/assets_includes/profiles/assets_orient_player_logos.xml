@@ -1,0 +1,99 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="5909">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001310</GUID>
+                    <Name>PlayerLogo_Orient_Caravan</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_caravan.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/ui/2kimages/main/profiles/playerlogos/large/player_logo_orient_caravan.png</DefaultLogo>
+                    <MiniLogo>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_caravan.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5909">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001311</GUID>
+                    <Name>PlayerLogo_Orient_Mosque</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_mosque.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/ui/2kimages/main/profiles/playerlogos/large/player_logo_orient_mosque.png</DefaultLogo>
+                    <MiniLogo>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_mosque.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5909">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001312</GUID>
+                    <Name>PlayerLogo_Orient_Sabres</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_sabres.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/ui/2kimages/main/profiles/playerlogos/large/player_logo_orient_sabres.png</DefaultLogo>
+                    <MiniLogo>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_sabres.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="5909">
+        <Asset>
+            <Template>PlayerLogo</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001313</GUID>
+                    <Name>PlayerLogo_Orient_Oasis</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_oasis.png</IconFilename>
+                </Standard>
+                <PlayerLogo>
+                    <DefaultLogo>data/ui/2kimages/main/profiles/playerlogos/large/player_logo_orient_oasis.png</DefaultLogo>
+                    <MiniLogo>data/ui/2kimages/main/profiles/playerlogos/small/player_logo_orient_oasis.png</MiniLogo>
+                </PlayerLogo>
+                <Locked>
+                    <DefaultLockedState>0</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- offer them in the logo picker of the new game / profile screen -->
+    <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Logos">
+        <Item>
+            <Logo>1404001310</Logo>
+        </Item>
+        <Item>
+            <Logo>1404001311</Logo>
+        </Item>
+        <Item>
+            <Logo>1404001312</Logo>
+        </Item>
+        <Item>
+            <Logo>1404001313</Logo>
+        </Item>
+    </ModOp>
+
+</ModOps>

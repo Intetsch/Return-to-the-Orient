@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>棗子</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>椰棗生產力</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>杏仁</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>杏仁生產力</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>浴室</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>人口：東方</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>馬賽克工作坊</Text>
@@ -618,7 +623,7 @@
     <Text>
       <GUID>1404000159</GUID>
       <!-- FarmBuilding | Mosaic Workshop | Date Farm -->
-      <Text>棗園</Text>
+      <Text>椰棗園</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>絲綢</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>蠶絲生產力</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>日期字段</Text>
+      <Text>椰棗田</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>倉庫</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>無人島</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>東方噴泉</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>玫瑰</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>玫瑰生產力</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>石榴</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>石榴生產力</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>東方工坊：禮儀軍刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>東方工坊專利清單</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>市場攤位</Text>
     </Text>
     <Text>
@@ -1273,7 +1288,7 @@
     <Text>
       <GUID>1404000444</GUID>
       <!-- AudioText | AudioText Play_residents_6607340: Is there anything finer than sitting in the shade eating Dates? | Is there anything finer than sitting in the shade eating Dates? -->
-      <Text>還有什麼比坐在陰涼處吃棗子更好的事嗎？</Text>
+      <Text>還有什麼比坐在陰涼處吃椰棗更好的事嗎？</Text>
     </Text>
     <Text>
       <GUID>1404000446</GUID>
@@ -2161,8 +2176,18 @@
       <Text>永恆的紀念碑</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>朝聖者的讚美</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>來自蘇丹國各地的朝聖者前來參加這一千載難逢的盛事。</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
       <Text>卡希納夫人剛剛送來一封看起來很奇怪的信。這是蘇丹的邀請，他聽說過您在已知世界上最困難的地方定居的聲譽。他請求您到蘇丹國首都拜訪他；卡希納女士認為這可能是一個利潤豐厚的商機，也是擴大貿易帝國的一種方式。這次探索恩貝薩以外的未知世界的新冒險似乎既困難又可能帶來回報。</Text>
     </Text>
     <Text>
@@ -2172,7 +2197,7 @@
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
       <Text>有這麼多遊牧民族住在這裡，你需要開始生產食物，但乾燥炎熱的沙子裡幾乎沒有任何東西生長。遊牧民族傳統上使用諾裡亞斯從地下深處抽水來澆灌他們的田地。然而，一處過多的諾裡亞會耗盡含水層，直到沒有更多的東西可以抽水。為了防止這種情況發生，遊牧民族確定了諾裡亞之間的最小距離，以確保持續且可持續的供水。</Text>
     </Text>
     <Text>
@@ -2187,22 +2212,22 @@
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
       <Text>更多的特使想要搬到你的新興城市，並要求你為他們建造更多的房屋。為了使城市成為文化交流的主要中心，它必須不斷發展，不僅生產各種當地商品，而且還生產來自舊世界和新世界的新商品。</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
       <Text>市集已成為文化不可或缺的一部分，這些市集攤位將傳統與現代融為一體，讓使節們品嚐工業時代的新商品。特使們對研究它們非常感興趣，並將向蘇丹國報告，可能會為你的商品開闢新市場。您面臨的唯一問題是從很遠的地方供應產品。</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
       <Text>有傳言說，你的城市在特使圈子裡變得非常受歡迎，它的規模和便利設施正在與國會大廈相提並論。該國最高層的新一波特使正在趕來，東方和西方之間的距離比過去 400 年來任何時候都更加緊密。</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
       <Text>蘇丹對你的發展非常滿意，並允許你獲得一座紀念碑的藍圖，這將是你在這片沙漠中的最高成就。幾個世紀前，只有一座像這樣的大清真寺建成，建造第二座清真寺將象徵傳統能夠在快速變化的工業時代中得以延續。更不用說即將進行的城市朝聖以及這將為您帶來的政治影響。</Text>
     </Text>
     <Text>
@@ -2241,6 +2266,16 @@
       <Text>這座紀念碑允許您進行朝聖，這些將增加您在蘇丹國的影響力。</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>沙漠道路</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>木造橋梁</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>禁食月</Text>
@@ -2261,9 +2296,49 @@
       <Text>打破齋戒的時間</Text>
     </Text>
     <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>所有東方住所</Text>
+    </Text>
+    <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??珍珠潛水員</Text>
+      <Text>珍珠潛水員</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>浮選精礦</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
+      <Text>提供混合物</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>空鼓</Text>
+    </Text>
+    <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>製酸廠</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>出口商品</Text>
+    </Text>
+    <Text>
+      <GUID>1404000886</GUID>
+      <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
+      <Text>浮選廠</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -2392,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>穆斯塔法·伊本·卡迪爾 (Mustafa ibn Qadir)，青銅工匠大師</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>穆斯塔法·伊本·卡迪爾 (Mustafa ibn Qadir)，白銀工匠大師</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2417,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>納比勒·伊本·優素福·薩拉吉，點石成金</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>納比勒·伊本·優素福·薩拉吉，點石成銀</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2602,8 +2677,8 @@
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>穆斯塔法幾十年來一直致力於研究青銅、黃銅和其他用於日常和裝飾物品的金屬。他的經驗使他能夠組織研討會，生產一致性更高、缺陷更少的燭台和水煙袋。</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>穆斯塔法幾十年來一直致力於研究白銀和其他用於日常和裝飾物品的金屬。他的經驗使他能夠組織研討會，生產一致性更高、缺陷更少的燭台和水煙袋。</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
@@ -2627,8 +2702,8 @@
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil 以精緻、精心組裝的金鍊取代傳統的珍珠鍊而聞名。他的方法提高了每件作品的感知價值，儘管它需要更高的精度和昂貴的材料。</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>Nabil 以精緻、精心組裝的銀鍊取代傳統的珍珠鍊而聞名。他的方法提高了每件作品的感知價值，儘管它需要更高的精度和昂貴的材料。</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
@@ -3101,6 +3176,11 @@
       <Text>聽聽蘇丹的建議</Text>
     </Text>
     <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>從沙漠中出土的寶藏吸引了四面八方的學者，並激發了新的研究。</Text>
+    </Text>
+    <Text>
       <GUID>1404001115</GUID>
       <!-- Hacienda | Research Station | Research Station -->
       <Text>研究站</Text>
@@ -3172,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>增加市場攤位範圍</Text>
     </Text>
     <Text>
@@ -3181,14 +3261,19 @@
       <Text>減少學者對土特產的消耗</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>所有東方市場攤位</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>杏仁種子</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>優質杏仁種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3197,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>棗子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3207,38 +3292,38 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>雜交棗子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且杏仁產量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
       <!-- GuildhouseItem | Date Seeds | Date Seeds -->
-      <Text>棗子</Text>
+      <Text>椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>優質石榴汁種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片椰棗林。</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
       <!-- GuildhouseItem | Quality Date Seeds | Quality Date Seeds -->
-      <Text>優質棗子</Text>
+      <Text>優質椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>玫瑰種子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的椰棗林。</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
       <!-- GuildhouseItem | Hybrid Date Seeds | Hybrid Date Seeds -->
-      <Text>雜交棗子</Text>
+      <Text>雜交椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>雜交玫瑰種子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且椰棗產量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3247,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>優質蠶絲種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片石榴林。</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3492,12 +3577,12 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
       <Text>諾裡亞斯需要彼此保持一定距離。他們從地下含水層抽水，否則這些水最終會枯竭。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
       <Text>領事館是與蘇丹溝通的主要途徑。他們創建必要的文件以供批准建造先進建築。</Text>
     </Text>
     <Text>
@@ -3507,7 +3592,7 @@
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>使節們對工業時代的新商品和發明感到好奇。市場攤位是展示它們並讓使節嘗試的好方法。</Text>
     </Text>
     <Text>
@@ -3541,16 +3626,6 @@
       <Text>塔發奇．卡奇長老懷疑你認識安貝沙人民和傳統的決意，並毫不掩飾地刺探你對當地習俗的知識。</Text>
     </Text>
     <Text>
-      <GUID>1404001281</GUID>
-      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
-      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001282</GUID>
-      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
-      <Text>塔發奇．卡奇長老對你的選擇留下好印象。</Text>
-    </Text>
-    <Text>
       <GUID>1404001283</GUID>
       <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Elder Tafachi Keki fustigates you for the gaudiness of your choice. -->
       <Text>Elder Tafachi Keki fustigates you for the gaudiness of your choice.</Text>
@@ -3559,11 +3634,6 @@
       <GUID>1404001284</GUID>
       <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that <b>I were to invite you to my home</b>—an unlikely occasion— <b>what would you bring to honour the invitation?</b> -->
       <Text>Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that &lt;b&gt;I were to invite you to my home&lt;/b&gt;—an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
-    </Text>
-    <Text>
-      <GUID>1404001285</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
-      <Text>以名貴的香和精油作禮應該適合……</Text>
     </Text>
     <Text>
       <GUID>1404001286</GUID>
@@ -3606,51 +3676,6 @@
       <Text>Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event.</Text>
     </Text>
     <Text>
-      <GUID>1404001294</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
-      <Text>在城市邊緣發現了一群看來憤怒的野牛。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001295</GUID>
-      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
-      <Text>泰比比．拉米長老擔心她祭典上的公牛不夠多，並要求你找到更多。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001296</GUID>
-      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
-      <Text>婚姻辦事處</Text>
-    </Text>
-    <Text>
-      <GUID>1404001297</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
-      <Text>你可以帶艾達來見我嗎？該是時候讓她結婚，而我有完美的對象——一個來自正派、虔誠家庭的年輕男人。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001298</GUID>
-      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
-      <Text>看起來生氣的艾達</Text>
-    </Text>
-    <Text>
-      <GUID>1404001299</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
-      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001300</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
-      <Text>艾達已在修道院尋求教宗布魯卡威特的建議。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001301</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
-      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
-    </Text>
-    <Text>
-      <GUID>1404001302</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
-      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
-    </Text>
-    <Text>
       <GUID>1404001303</GUID>
       <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find where Aida, the Elder's niece, is hiding -->
       <Text>找出長老姪女艾達的藏身處</Text>
@@ -3686,34 +3711,9 @@
       <Text>Elder Asikinyi believes the children of the town have been misbehaving of late, and asks you to take away their Christmas presents to teach them the virtue of respect and gratitude.</Text>
     </Text>
     <Text>
-      <GUID>1404001310</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
-      <Text>The presents are hidden near the children's house.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001311</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
-      <Text>沒收孩子們的禮物：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
-    </Text>
-    <Text>
-      <GUID>1404001312</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
-      <Text>阿斯奇英長老覺得安貝沙小孩都被寵壞了，並且想要拿走他們的禮物。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001313</GUID>
-      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
-      <Text>工作經驗</Text>
-    </Text>
-    <Text>
       <GUID>1404001314</GUID>
       <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | Idleness breeds contempt and unruliness in children. They must be kept busy, and taught the value of labour and an orderly life. -->
       <Text>「孩童時期懶惰會導致無禮和目無法紀。他們一定要保持忙碌，還有學會勞動和循規生活的價值。」</Text>
-    </Text>
-    <Text>
-      <GUID>1404001315</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
-      <Text>「太棒了！這會教他們為社會奉獻，並為街道帶回平靜。」</Text>
     </Text>
     <Text>
       <GUID>1404001316</GUID>
@@ -5329,6 +5329,411 @@
       <GUID>1404001644</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2 | The young poet proudly shares the second half of his poem with you. -->
       <Text>這名年輕的詩人驕傲地與你分享詩作的另一半。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001647</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
+      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001648</GUID>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
+      <Text>塔發奇．卡奇長老對你的選擇留下好印象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001649</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
+      <Text>以名貴的香和精油作禮應該適合……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001650</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
+      <Text>在城市邊緣發現了一群看來憤怒的野牛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001651</GUID>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
+      <Text>泰比比．拉米長老擔心她祭典上的公牛不夠多，並要求你找到更多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001652</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
+      <Text>婚姻辦事處</Text>
+    </Text>
+    <Text>
+      <GUID>1404001653</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
+      <Text>你可以帶艾達來見我嗎？該是時候讓她結婚，而我有完美的對象——一個來自正派、虔誠家庭的年輕男人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001654</GUID>
+      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
+      <Text>看起來生氣的艾達</Text>
+    </Text>
+    <Text>
+      <GUID>1404001655</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
+      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001656</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
+      <Text>艾達已在修道院尋求教宗布魯卡威特的建議。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001657</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
+      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001658</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
+      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001659</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
+      <Text>The presents are hidden near the children's house.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001660</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>沒收孩子們的禮物：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001661</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
+      <Text>阿斯奇英長老覺得安貝沙小孩都被寵壞了，並且想要拿走他們的禮物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001662</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
+      <Text>工作經驗</Text>
+    </Text>
+    <Text>
+      <GUID>1404001663</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
+      <Text>「太棒了！這會教他們為社會奉獻，並為街道帶回平靜。」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>清真寺</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>出口碼頭：馬賽克</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>出口碼頭：玫瑰水</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>出口碼頭：禮儀軍刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>出口碼頭：浮選精礦</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>出口碼頭：珍珠項鍊</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>出口碼頭：枝形吊燈</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>咖啡廳菜單</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>一壺樸素的咖啡就能坐滿長凳，但聰明的店主還懂得用牛奶、香料、椰棗、玫瑰和蜂蜜變些花樣。每一種沖泡都會讓街坊換上不同的心情。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>烘焙、研磨得細如塵土，再在土耳其壺裡煮沸三次——僅此而已。純粹主義者發誓這才是真正的咖啡；其他人只會說它很濃。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>用溫熱的山羊奶調和的濃郁黑咖啡。它能消解對果汁的渴望，讓每個人都心情舒暢。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>從達拉壺倒入小小的杯中，散發著研磨荳蔻的芬芳。在這裡享用了香料的人在家便省下了，省下的錢則花在市集上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>苦澀的咖啡配上一碗香甜的椰棗，正好相互平衡。在咖啡廳裡吃過椰棗的人，回家就不太需要了，也不那麼容易口渴。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>幾滴玫瑰水和幾片漂浮的花瓣，就讓一杯普通的咖啡變成小小的慶典。咖啡廳裡已經滿是花園的香氣，何必再為家裡薰香？省下的錢都樂意花出去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>用金黃的蜂蜜調甜，慢慢攪拌，再更慢地細品。甜蜜近在咫尺，誰也不再惦記杏仁糖——消息傳開後，搬進街坊的人也越來越多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>咖啡廳：黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>咖啡廳：牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>咖啡廳：荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>咖啡廳：椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>咖啡廳：玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>咖啡廳：蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>雜耍藝人營地</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>無論在哪裡搭起帳篷，噴火藝人、雜技演員和雜耍藝人總能吸引大批圍觀者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>礦石桶已空，需要重新裝滿。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>Ore Drum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>該模組透過使用油浮選製程在礦桶中進行特殊精煉，使礦石產量翻倍。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>蜜蜂園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>蜂蜜生產</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>幾個蜂箱可以生產蜂蜜，並使農場更有效率。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>從椰棗樹上採集的蜂蜜是一種非常搶手的商品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>授粉</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>東方的所有作物農場</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>在蜜蜂的授粉幫助下，我們的農場變得更加高效。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>茶坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>土耳其軟糖坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>開心果園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>開心果林</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>開心果烘焙坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>優質開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>雜交開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>開心果生產力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片開心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的開心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且開心果產量增加！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>水果工坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>只能在Wadi Al Zahir建造</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>硫酸</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>最好不要徒手觸碰。又稱礬油。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>獵象小屋</Text>
     </Text>
   </ModOp>
 </ModOps>

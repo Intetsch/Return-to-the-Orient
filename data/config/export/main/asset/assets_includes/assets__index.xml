@@ -3,6 +3,7 @@
     <Include File="animals/assets__index.xml" />
     <Include File="asset_pools/assets__index.xml" />
     <Include File="audio/assets__index.xml" />
+    <Include File="buffs/assets__index.xml" />
     <Include File="buildings/assets__index.xml" />
     <Include File="construction_categories/assets__index.xml" />
     <Include File="farmfields/assets__index.xml" />
@@ -37,6 +38,7 @@
     <Include File="assets_feedback_balancing_orient.xml" />
     <Include File="assets_irrigation_feature.xml" />
     <Include File="assets_loading_screen.xml" />
+    <Include File="assets_needs.xml" />
     <Include File="assets_profile_kahina_orient.xml" />
     <Include File="assets_region.xml" />
     <Include File="assets_session.xml" />

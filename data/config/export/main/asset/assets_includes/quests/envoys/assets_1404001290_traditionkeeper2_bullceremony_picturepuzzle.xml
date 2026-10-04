@@ -77,7 +77,7 @@
                                     <Profile>1404000019</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
-                                    <NotificationText>1404001295</NotificationText>
+                                    <NotificationText>1404001651</NotificationText>
                                 </BaseNotification>
                                 <NotificationSubtitle>
                                     <Subtitle>1404001291</Subtitle>
@@ -278,7 +278,7 @@
                     </ReputationQuestFail>
                     <QuestHints>
                         <Item>
-                            <Text>1404001294</Text>
+                            <Text>1404001650</Text>
                         </Item>
                     </QuestHints>
                     <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
@@ -561,7 +561,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001294</GUID>
+                    <GUID>1404001650</GUID>
                     <Name>RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint</Name>
                 </Standard>
                 <Text>
@@ -579,7 +579,7 @@
             <Template>Text</Template>
             <Values>
                 <Standard>
-                    <GUID>1404001295</GUID>
+                    <GUID>1404001651</GUID>
                     <Name>RQ_Envoy_BullLeapingCeremony_QuestStartSummary</Name>
                 </Standard>
                 <Text>

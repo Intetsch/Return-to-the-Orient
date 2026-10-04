@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>枣子</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>椰枣生产力</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>杏仁</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>杏仁生产力</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>浴室</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>人口：东方</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>马赛克工作坊</Text>
@@ -618,7 +623,7 @@
     <Text>
       <GUID>1404000159</GUID>
       <!-- FarmBuilding | Mosaic Workshop | Date Farm -->
-      <Text>枣园</Text>
+      <Text>椰枣园</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>丝绸</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>蚕丝生产力</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>日期字段</Text>
+      <Text>椰枣田</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>仓库</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>无人岛</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>东方喷泉</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>玫瑰</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>玫瑰生产力</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>石榴</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>石榴生产力</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>东方工坊：礼仪军刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>东方工坊专利清单</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>市场摊位</Text>
     </Text>
     <Text>
@@ -1128,7 +1143,7 @@
     <Text>
       <GUID>1404000386</GUID>
       <!-- AudioText | AudioText Play_residents_6607250: By Allah! Lend us your support! | By Allah! Lend us your support! -->
-      <Text>以真主之名发誓！</Text>
+      <Text>以真主之名发誓！请给予我们您的支持！</Text>
     </Text>
     <Text>
       <GUID>1404000388</GUID>
@@ -1203,7 +1218,7 @@
     <Text>
       <GUID>1404000416</GUID>
       <!-- AudioText | AudioText Play_residents_6607311: By Allah! I can't take another day here! | By Allah! I can't take another day here! -->
-      <Text>以真主之名发誓！</Text>
+      <Text>以真主之名发誓！我在这里一天也待不下去了！</Text>
     </Text>
     <Text>
       <GUID>1404000418</GUID>
@@ -1223,7 +1238,7 @@
     <Text>
       <GUID>1404000424</GUID>
       <!-- AudioText | AudioText Play_residents_6607320: By Allah! How about these for lean times…?! | By Allah! How about these for lean times…?! -->
-      <Text>以真主之名发誓！</Text>
+      <Text>以真主之名发誓！这是什么样的艰难时世啊……？！</Text>
     </Text>
     <Text>
       <GUID>1404000426</GUID>
@@ -1253,7 +1268,7 @@
     <Text>
       <GUID>1404000436</GUID>
       <!-- AudioText | AudioText Play_residents_6607331: You were right! It IS better to live here than to move from Town to Town... | You were right! It IS better to live here than to move from Town to Town... -->
-      <Text>你是对的！</Text>
+      <Text>您说得对！住在这里确实比四处迁徙要好……</Text>
     </Text>
     <Text>
       <GUID>1404000438</GUID>
@@ -1273,7 +1288,7 @@
     <Text>
       <GUID>1404000444</GUID>
       <!-- AudioText | AudioText Play_residents_6607340: Is there anything finer than sitting in the shade eating Dates? | Is there anything finer than sitting in the shade eating Dates? -->
-      <Text>还有什么比坐在阴凉处吃枣子更好的事吗？</Text>
+      <Text>还有什么比坐在阴凉处吃椰枣更好的事吗？</Text>
     </Text>
     <Text>
       <GUID>1404000446</GUID>
@@ -1298,7 +1313,7 @@
     <Text>
       <GUID>1404000454</GUID>
       <!-- AudioText | AudioText Play_residents_6607350: Allah has heard my prayers! We are enjoying a better life than ever before! | Allah has heard my prayers! We are enjoying a better life than ever before! -->
-      <Text>安拉听到了我的祈祷！</Text>
+      <Text>真主听到了我的祈祷！我们的生活从未如此美好！</Text>
     </Text>
     <Text>
       <GUID>1404000456</GUID>
@@ -1373,7 +1388,7 @@
     <Text>
       <GUID>1404000485</GUID>
       <!-- AudioText | AudioText Play_residents_6608690: Shukran! You have my most sincere thanks! | Shukran! You have my most sincere thanks! -->
-      <Text>舒克兰！</Text>
+      <Text>舒克兰！向您致以最诚挚的谢意！</Text>
     </Text>
     <Text>
       <GUID>1404000487</GUID>
@@ -1408,7 +1423,7 @@
     <Text>
       <GUID>1404000499</GUID>
       <!-- AudioText | AudioText Play_residents_6608713: I am getting out of here immediately; there is nothing more to make me stay! | I am getting out of here immediately; there is nothing more to make me stay! -->
-      <Text>我要立即离开这里；</Text>
+      <Text>我马上离开这里，再没有什么能留住我了！</Text>
     </Text>
     <Text>
       <GUID>1404000501</GUID>
@@ -1433,7 +1448,7 @@
     <Text>
       <GUID>1404000509</GUID>
       <!-- AudioText | AudioText Play_residents_6608723: By Allah! We deserve better than this! | By Allah! We deserve better than this! -->
-      <Text>以真主之名发誓！</Text>
+      <Text>以真主之名发誓！我们理应得到更好的待遇！</Text>
     </Text>
     <Text>
       <GUID>1404000511</GUID>
@@ -1453,7 +1468,7 @@
     <Text>
       <GUID>1404000517</GUID>
       <!-- AudioText | AudioText Play_residents_6608732: You do the best you can for this Settlement; that's plain to see... | You do the best you can for this Settlement; that's plain to see... -->
-      <Text>您为此和解尽力而为；</Text>
+      <Text>您为这片定居地竭尽所能，这一点显而易见……</Text>
     </Text>
     <Text>
       <GUID>1404000519</GUID>
@@ -1493,7 +1508,7 @@
     <Text>
       <GUID>1404000533</GUID>
       <!-- AudioText | AudioText Play_residents_6608750: It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... | It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... -->
-      <Text>这里太棒了！</Text>
+      <Text>这里太美好了！我相信即使我把朝圣推迟一阵子，真主也会原谅我的……</Text>
     </Text>
     <Text>
       <GUID>1404000535</GUID>
@@ -1503,7 +1518,7 @@
     <Text>
       <GUID>1404000537</GUID>
       <!-- AudioText | AudioText Play_residents_6608752: By Allah! Our Town is a haven of Satisfaction! | By Allah! Our Town is a haven of Satisfaction! -->
-      <Text>以真主之名发誓！</Text>
+      <Text>以真主之名发誓！我们的城市是满足的乐园！</Text>
     </Text>
     <Text>
       <GUID>1404000539</GUID>
@@ -1543,7 +1558,7 @@
     <Text>
       <GUID>1404000553</GUID>
       <!-- AudioText | AudioText Play_residents_6608765: Many Envoys do not want to come and live in your City; they say it's too provincial… Well… | Many Envoys do not want to come and live in your City; they say it's too provincial… Well… -->
-      <Text>许多特使不想来你的城市居住；</Text>
+      <Text>许多使节不愿来您的城市居住，他们说这里太土气了……好吧……</Text>
     </Text>
     <Text>
       <GUID>1404000555</GUID>
@@ -1598,22 +1613,22 @@
     <Text>
       <GUID>1404000592</GUID>
       <!-- Text | Dieser prunkvolle Klingenstreich aus poliertem Stahl dient weniger dem Kampf als dem guten Eindruck. Sein Griff glänzt im Fackelschein und erzählt Geschichten von Paraden, Gelöbnissen und überambitionierten Offizieren. Ein Hieb in die Luft, ein salutierender Schritt und schon fühlt man sich um Rang und Würde reicher. | This magnificent blade, crafted from polished steel, serves less for combat than for making a good impression. Its hilt gleams in the torchlight, whispering tales of parades, oaths, and overambitious officers. A swipe of the blade into the air, a saluting step, and one instantly feels enriched by rank and dignity. -->
-      <Text>这把华丽的刀片由抛光钢制成，与其说是为了战斗，不如说是为了给人留下好印象。</Text>
+      <Text>这把由抛光钢打造的华丽刀刃，与其说是用于战斗，不如说是为了给人留下好印象。它的刀柄在火把光下闪闪发亮，低声诉说着阅兵、誓言和野心过大的军官们的故事。向空中一挥，再行一个敬礼的步伐，立刻就会觉得自己的地位和尊严都提升了。</Text>
     </Text>
     <Text>
       <GUID>1404000593</GUID>
       <!-- Text | Ein grandioses Lichtermeer aus Gold und purem Größenwahn. Mit einem einzigen Einschalten lässt er selbst den schlichtesten Raum aussehen, als seien Könige im Anmarsch. Seine funkelnden Prismen brechen das Licht in tausend kleine Sterne und ziehen Staub an wie ein Magnet. Doch wer würde das bemerken, geblendet von so viel Glorie? | A magnificent sea of ​​light, a display of gold and sheer megalomania. With a single switch-on, it makes even the simplest room look as if royalty is approaching. Its sparkling prisms refract the light into a thousand tiny stars and attract dust like a magnet. -->
-      <Text>壮丽的光海、黄金的展示和纯粹的狂妄自大。</Text>
+      <Text>一片壮丽的光之海洋，尽显黄金与十足的自大狂。只需一点亮，就能让最朴素的房间看起来仿佛王室即将驾临。它闪烁的棱镜将光线折射成千万颗小星星，也像磁铁一样吸引灰尘。</Text>
     </Text>
     <Text>
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
-      <Text>装饰精美的吸烟装置，其咯咯的声音会让最疲惫的心灵陷入欢乐的心情。</Text>
+      <Text>一件装饰精美的吸烟器具，咕噜咕噜的声音能让最疲惫的心灵也变得兴致盎然。在烟碗里装满芬芳的烟草，点燃炭火，香甜的烟雾便会弥漫开来，让几个小时仿佛只是几分钟。</Text>
     </Text>
     <Text>
       <GUID>1404000595</GUID>
       <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>一系列闪闪发光的微小、完美的宝藏，如此完美的圆形，你会觉得它们在晚上互相窃窃私语。</Text>
+      <Text>一串闪闪发光的细小无瑕珍宝，圆得如此完美，让人以为它们会在夜里窃窃私语。它是优雅、财富的象征，偶尔也代表着动机可疑的馈赠。戴上它，每一步都显得更加优美，每个手势都更加高雅——至少在搭扣卡住之前是这样。</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -1878,7 +1893,7 @@
     <Text>
       <GUID>1404000678</GUID>
       <!-- Text | Truly overwhelming. I will carry this moment forever. | Truly overwhelming. I will carry this moment forever. -->
-      <Text>确实压倒性的。</Text>
+      <Text>真是令人震撼。我会永远铭记这一刻。</Text>
     </Text>
     <Text>
       <GUID>1404000679</GUID>
@@ -2043,7 +2058,7 @@
     <Text>
       <GUID>1404000732</GUID>
       <!-- Text | A colossal waste of hype. Nothing lived up to the billing. | A colossal waste of hype. Nothing lived up to the billing. -->
-      <Text>炒作的巨大浪费。</Text>
+      <Text>纯属天大的炒作。没有一样名副其实。</Text>
     </Text>
     <Text>
       <GUID>1404000733</GUID>
@@ -2103,17 +2118,17 @@
     <Text>
       <GUID>1404000794</GUID>
       <!-- Text | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. -->
-      <Text>怀着谨慎和崇敬的心情，一座宏伟清真寺的第一块石头奠基了。</Text>
+      <Text>人们怀着细心与虔敬，为一座宏伟的清真寺奠下第一批基石。这神圣的地基标志着一处沉思与虔诚之所的开端，一座将迎接世世代代信徒的永恒圣殿。</Text>
     </Text>
     <Text>
       <GUID>1404000795</GUID>
       <!-- Text | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. -->
-      <Text>优雅的拱门升起，祈祷大厅呈现出安静的宏伟。</Text>
+      <Text>优雅的拱门拔地而起，礼拜大厅在静谧的庄严中展开。光线透过繁复的装饰洒落，这片空间正准备迎接日益壮大的会众那无声的祈祷与相聚的心灵。</Text>
     </Text>
     <Text>
       <GUID>1404000796</GUID>
       <!-- Text | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. -->
-      <Text>凭借高耸的尖塔和即将完工的光芒四射的圆顶，清真寺的轮廓得到了加冕。</Text>
+      <Text>高耸的宣礼塔与即将完工、熠熠生辉的穹顶，为清真寺的轮廓加冕。信仰与艺术的和谐交融，即将带来敬畏、宁静与永恒的精神庇护。</Text>
     </Text>
     <Text>
       <GUID>1404000800</GUID>
@@ -2161,49 +2176,59 @@
       <Text>永恒的纪念碑</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>朝圣者的赞美</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>来自苏丹国各地的朝圣者前来参加这一千载难逢的盛事。</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
-      <Text>卡希纳夫人刚刚送来一封看起来很奇怪的信。</Text>
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
+      <Text>卡希娜夫人刚刚送来一封外观奇特的信。这是苏丹的邀请，他听闻了您即使在已知世界最艰苦的地方也能建立定居点的名声。他请您前往苏丹国的首都拜访他；卡希娜夫人认为这可能是一个有利可图的商机，也是扩张您贸易帝国的途径。这场深入安贝沙以外未知之地的新冒险，看来既艰难又可能收获丰厚。</Text>
     </Text>
     <Text>
       <GUID>1404000829</GUID>
       <!-- Text | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. -->
-      <Text>经过漫长而艰辛的旅程，你终于到达了约定的群岛。</Text>
+      <Text>经过漫长而艰辛的旅程，您终于抵达了应许的群岛。岛上几乎只有沙子和岩石，以及几棵干枯的棕榈树。要在这里长久定居并建立城市，您需要游牧民——他们在这样的沙漠中生活了数百年，懂得如何在此生存。</Text>
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
-      <Text>有这么多游牧民住在这里，你需要开始生产食物，但干燥炎热的沙子里几乎没有任何东西生长。</Text>
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
+      <Text>这么多游牧民留在这里，您需要开始生产食物，但干燥炎热的沙地里几乎什么都长不出来。游牧民传统上使用水车从地下深处抽水来灌溉田地。然而，同一处的水车过多会使含水层枯竭，直到无水可抽。为防止这种情况，游牧民总结出水车之间的最小距离，以保证持续且可持续的供水。</Text>
     </Text>
     <Text>
       <GUID>1404000831</GUID>
       <!-- Text | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. -->
-      <Text>您已经证明自己有资格接待即将到来的苏丹国第一批特使。</Text>
+      <Text>您已证明自己有资格接待即将到来的苏丹国首批使节。他们与苏丹有联系，会汇报您所有的成功与失败。作为苏丹宫廷的一员，他们习惯了东方的诸多奢华，也会期待在您的城市中享受到这些。</Text>
     </Text>
     <Text>
       <GUID>1404000832</GUID>
       <!-- Text | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. -->
-      <Text>使节的工作漫长而艰苦，外交任务往往由大量官僚机构组成。</Text>
+      <Text>使节的工作漫长而辛苦，外交事务往往充斥着大量官僚程序。领事馆为众多使节提供人手充足且安全的工作场所，从而提高他们的效率。这些建筑中产生的文书可用于建造宏伟建筑、举办特别活动，以及安置更多使节——他们还会处理更多文书。</Text>
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
-      <Text>更多的特使想要搬到你的新兴城市，并要求你为他们建造更多的房屋。</Text>
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
+      <Text>越来越多的使节希望迁入您这座新兴城市，并要求您为他们建造更多房屋。要让这座城市成为文化交流的重要中心，它必须不断发展，不仅要生产种类丰富的本地商品，还要生产来自旧世界和新世界的新商品。</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
-      <Text>集市已成为文化不可或缺的一部分，这些集市摊位将传统与现代融为一体，让使节们品尝工业时代的新商品。</Text>
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
+      <Text>集市一直是这里文化中不可或缺的一部分，这些市场摊位融合了传统与现代，让使节们得以品尝工业时代的新商品。使节们非常有兴趣研究这些商品，并会向苏丹国汇报，或许能为您的商品开辟新的市场。您唯一的难题是如何从如此遥远的地方供应这些产品。</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
-      <Text>有传言说，你的城市在特使圈子里变得非常受欢迎，它的规模和便利设施正在与国会大厦相媲美。</Text>
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
+      <Text>您的城市在使节圈中广受欢迎，传闻它的规模与设施即将与首都比肩。一批全国最高阶层的使节正在赶来，东方与西方正前所未有地靠近，这是400年来从未有过的。</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
-      <Text>苏丹对你的发展非常满意，并允许你获得一座纪念碑的蓝图，这将是你在这片沙漠中的最高成就。</Text>
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
+      <Text>苏丹对您的发展非常满意，并允许您获取一座纪念建筑的蓝图，它将成为您在这片沙漠中的巅峰之作。像这样的大清真寺，数百年前只建造过一座；建造第二座将象征传统能够在瞬息万变的工业时代中延续。更不用说届时前往这座城市的朝圣之旅，以及它将为您带来的政治影响力。</Text>
     </Text>
     <Text>
       <GUID>1404000837</GUID>
@@ -2241,6 +2266,16 @@
       <Text>这座纪念碑允许您进行朝圣，这些将增加您在苏丹国的影响力。</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>沙漠道路</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>木造桥梁</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>禁食月</Text>
@@ -2261,9 +2296,49 @@
       <Text>打破斋戒的时间</Text>
     </Text>
     <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>所有东方住所</Text>
+    </Text>
+    <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??珍珠潜水员</Text>
+      <Text>Pearl Diver</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>Ore Drum Module</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>Flotation Concentrate</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
+      <Text>Mixture Supplied</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>Empty Drums</Text>
+    </Text>
+    <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>制酸厂</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>出口商品</Text>
+    </Text>
+    <Text>
+      <GUID>1404000886</GUID>
+      <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
+      <Text>浮选厂</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -2392,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>穆斯塔法·伊本·卡迪尔 (Mustafa ibn Qadir)，青铜工匠大师</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>穆斯塔法·伊本·卡迪尔 (Mustafa ibn Qadir)，白银工匠大师</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2417,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>纳比勒·伊本·优素福·萨拉吉，点石成金</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>纳比勒·伊本·优素福·萨拉吉，点石成银</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2478,212 +2553,212 @@
     <Text>
       <GUID>1404000931</GUID>
       <!-- Text | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. -->
-      <Text>法蒂玛在绿洲和古老的果园中长大，从小就学会了像其他人解读星星一样解读树木的节奏。</Text>
+      <Text>法蒂玛在绿洲与古老的果园中长大，自幼便学会像别人观星一样解读树木的节律。她的学识融合了精确的修剪、耐心的浇灌以及对精选枝芽的正确运用——这些都是代代相传的技艺。</Text>
     </Text>
     <Text>
       <GUID>1404000932</GUID>
       <!-- Text | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. -->
-      <Text>玛丽雅姆在果园中长大，那里的石榴树受到了近乎仪式化的照顾。</Text>
+      <Text>玛丽雅姆在果园中长大，那里的石榴树受到近乎仪式般的悉心照料。她熟知修剪、灌溉和开花的周期，能让果实产量更丰富、更稳定。有她在田间，产量得以提高，而树木却不会因此透支。</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
       <!-- Text | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. -->
-      <Text>这种方法组织了枣椰树的人工授粉，这是果园的传统做法。</Text>
+      <Text>这种方法组织了枣椰树的人工授粉，这是果园中的传统做法。通过协调时间安排和熟练人手，可确保更高的坐果率。该体系减少了因授粉不规律或过迟造成的损失，但在旺季需要周密计划和额外劳作。</Text>
     </Text>
     <Text>
       <GUID>1404000934</GUID>
       <!-- Text | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. -->
-      <Text>哈桑一生都在沿着沙漠路线行走，饲养能够抵抗炎热和长途旅行的骆驼。</Text>
+      <Text>哈桑一生都在追随沙漠商路，饲养耐热、能长途跋涉的骆驼。他能从步态、呼吸和腿部力量看出每头牲畜的价值，并精心挑选用于繁育的个体。</Text>
     </Text>
     <Text>
       <GUID>1404000935</GUID>
       <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
-      <Text>该协议规定了牲畜放牧路线和水源的共享。</Text>
+      <Text>这项协议规定了牲畜放牧路线和水源的共同使用。通过协调各部族和牧民，牲畜损失得以减少，繁殖也得到改善。这一措施使得维持更大、更稳定的畜群成为可能。</Text>
     </Text>
     <Text>
       <GUID>1404000936</GUID>
       <!-- Text | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. -->
-      <Text>拉希德 (Rashid) 一生致力于保护因其香味和染料而受到珍视的植物。</Text>
+      <Text>拉希德毕生致力于照料那些因香气和染料而备受珍视的植物。他深知最佳的采收和修剪时机，因而能让种植园获得更好的收成，还能培育出异域花卉和来自他乡的花朵。</Text>
     </Text>
     <Text>
       <GUID>1404000937</GUID>
       <!-- Text | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. -->
-      <Text>该系统根据明确的季节周期组织玫瑰的修剪、浇水和收获。</Text>
+      <Text>该体系按照明确的季节周期，统筹玫瑰的修剪、浇水和采收。通过协调园丁们的工作，花朵开得更加繁盛、均匀。这种做法减少了因病害和土壤贫瘠造成的损失。它需要纪律和规划，但会以更稳定的收成作为回报。</Text>
     </Text>
     <Text>
       <GUID>1404000938</GUID>
       <!-- Text | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. -->
-      <Text>优素福以压榨石榴的技术而闻名，石榴是一种精致的水果，榨汁需要耐心和适当的力量。</Text>
+      <Text>优素福以压榨石榴的技艺闻名，石榴是一种娇嫩的水果，榨汁需要耐心和恰到好处的力道。多年来，他不断完善各种方法，既能防止果肉流失，又能保留榨出汁液的浓郁色泽。</Text>
     </Text>
     <Text>
       <GUID>1404000939</GUID>
       <!-- Text | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. -->
-      <Text>萨利姆因其即使在石榴稀缺或到达车间时已损坏的情况下也能保持果汁流动而闻名。</Text>
+      <Text>萨利姆之所以出名，是因为即使石榴短缺或运到作坊时已经受损，他也能保持果汁的供应。他迅速地、而且判断颇为可疑地用酸度相近的柑橘类水果代替石榴，制出一种乍看之下颇能以假乱真的液体。</Text>
     </Text>
     <Text>
       <GUID>1404000940</GUID>
       <!-- Text | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. -->
-      <Text>该压榨机引入了手动螺杆系统，可在提取石榴汁时提供更大的压力和控制。</Text>
+      <Text>这台压榨机引入了手动螺杆系统，在榨取石榴汁时能提供更大的压力和更好的控制。通过均匀施力，减少了果肉损失，提高了每个果实的出汁率。它的采用标志着从家庭生产向半工业化规模的转变。</Text>
     </Text>
     <Text>
       <GUID>1404000941</GUID>
       <!-- Text | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. -->
-      <Text>法哈德来自大不里士，从小就学习纺织生产艺术，在识字之前就数结。</Text>
+      <Text>法尔哈德出身大不里士，自幼学习纺织技艺，还没识字就已在数绳结。他沉稳的双手和对图案的眼光使他能够加快工作进度。在他的指导下，作坊生产出更多、更统一的织品，在本地集市和遥远市场上都备受珍视。</Text>
     </Text>
     <Text>
       <GUID>1404000942</GUID>
       <!-- Text | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. -->
-      <Text>穆罕默德在安纳托利亚中部的作坊中赢得了声誉，那里的地毯必须能够承受日常使用和旅行。</Text>
+      <Text>穆罕默德在安纳托利亚中部的作坊里赢得了声誉，那里的地毯既要经得起日常使用，也要经得起长途运输。他的经验使他能够精准地组织织工，避免图案出错，减少浪费在修改上的时间。</Text>
     </Text>
     <Text>
       <GUID>1404000943</GUID>
       <!-- Text | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. -->
-      <Text>莱拉在皇家织布机上接受训练，丝绸被视为近乎神圣的商品。</Text>
+      <Text>蕾拉在皇家织机旁接受训练，在那里丝绸被视为近乎神圣的珍品。她深知精确的张力和恰当的节奏，以避免断线和浪费丝线。商人和工匠们都很看重她的稳定发挥和敏锐眼光。</Text>
     </Text>
     <Text>
       <GUID>1404000944</GUID>
       <!-- Text | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. -->
-      <Text>阿卜杜勒以其在种植和选择最珍贵的香料植物方面的精湛技艺而闻名。</Text>
+      <Text>阿卜杜勒以培育和挑选用于最珍贵香料的植物而闻名。他确切地知道哪种配料能提升并改善他作坊中每一克香料的风味与香气，使之成为最高品质的产品。</Text>
     </Text>
     <Text>
       <GUID>1404000945</GUID>
       <!-- Text | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. -->
-      <Text>哈桑掌握了以近乎痴迷的精确度混合、干燥和保存香料的艺术。</Text>
+      <Text>哈桑以近乎偏执的精确掌握了香料的调配、干燥与保存之道。据说他甚至在打开袋子之前，就能察觉香气中最细微的变化。他的方法注重浓郁与保存之间的平衡。</Text>
     </Text>
     <Text>
       <GUID>1404000946</GUID>
       <!-- Text | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. -->
-      <Text>从很小的时候起，扎恩就对辛辣食物产生了传奇般的不耐受，光是气味就能毁掉他一整天的时间。</Text>
+      <Text>扎因自幼便对辛辣食物有着传奇般的不耐受，光是闻到气味就能毁掉他一整天。不得不另寻他法的他，用肉桂的温润取代了辛辣，发现了更温和且出奇受欢迎的调配。久而久之，他个人的厌恶竟成了一种高效的方法。</Text>
     </Text>
     <Text>
       <GUID>1404000947</GUID>
       <!-- Text | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. -->
-      <Text>帕绍格鲁在大维齐尔的作坊里受训，在那里，长袍不仅仅是服装，更是等级和尊严的象征。</Text>
+      <Text>帕沙奥卢在大维齐尔的作坊里学艺，在那里，长袍不仅是衣物，更是地位与尊严的象征。他精通精确的剪裁和高档面料的正确用法，能在不影响衣物垂感和耐用度的前提下加快缝制。</Text>
     </Text>
     <Text>
       <GUID>1404000948</GUID>
       <!-- Text | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. -->
-      <Text>该法令为长袍制作中的裁剪、缝纫和染色制定了明确的标准。</Text>
+      <Text>这项法令为长袍制作中的裁剪、缝纫和染色制定了明确的标准。通过将生产集中在受监管的作坊中，布料浪费减少了，每个工作日都得到了更有效的利用。裁缝大师们虽失去了一些自主权，却能用上更好的材料和共享的工具。</Text>
     </Text>
     <Text>
       <GUID>1404000949</GUID>
       <!-- Text | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. -->
-      <Text>阿米娜掌握了织物卷绕和张力的艺术。</Text>
+      <Text>阿米娜精通卷布与调节张力的技艺。在她的指导下，工坊采用了标准化的现代折叠方法，减少了失误并加快了生产。因此，每一顶头巾都结实、匀称，可以直接佩戴。</Text>
     </Text>
     <Text>
       <GUID>1404000950</GUID>
       <!-- Text | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. -->
-      <Text>贾拉尔以其对大马士革钢的精湛技艺而闻名，其起伏的纹理需要精确的加热和精确的打击。</Text>
+      <Text>贾拉勒以精通大马士革钢而闻名，其波浪般的纹理需要精确的火候和准确的锤击。在他的锻炉中，金属以近乎仪式般的耐心被锻打，铸就更坚固、更柔韧的刀刃。在他的指导下，作坊生产的军刀品质更稳定，材料浪费也更少。</Text>
     </Text>
     <Text>
       <GUID>1404000951</GUID>
       <!-- Text | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. -->
-      <Text>这种机械锤利用水的恒定力量来打击、塑造和压实材料，其规律性是手工无法实现的。</Text>
+      <Text>这台机械锤利用水流恒定的力量，以人力无法企及的规律性对材料进行锤击、塑形和压实。它的使用减轻了人力负担，加快了过去需要耗费大量时间的手工工序。它对于重复性和繁重的工作尤为宝贵。</Text>
     </Text>
     <Text>
       <GUID>1404000952</GUID>
       <!-- Text | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. -->
-      <Text>扎赫拉因精通玫瑰水蒸馏而闻名，这一过程需要鲜花和耐心的火焰。</Text>
+      <Text>扎赫拉以精通玫瑰水蒸馏而闻名，这一工艺需要新鲜的花朵和耐心的火候。她知道收集蒸汽的确切时机，以保留香气和纯度。她的蒸馏器能产出更多玫瑰水，而香气与澄澈丝毫不减。</Text>
     </Text>
     <Text>
       <GUID>1404000953</GUID>
       <!-- Text | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. -->
-      <Text>一种先进的蒸馏设备，用于通过密封、高温汽化大量提取玫瑰水。</Text>
+      <Text>一种先进的蒸馏装置，通过密闭高温汽化提取更多的玫瑰水。通过提高内部压力，蒸馏甑提升了新鲜花瓣的出水率和效率。然而，操作不当或温度过高可能导致危险的破裂。</Text>
     </Text>
     <Text>
       <GUID>1404000954</GUID>
       <!-- Text | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. -->
-      <Text>卡里姆 (Karim) 以其卓越的技能和专业知识而闻名，他擅长制作最美丽、最平衡、最耐用的水烟袋，品质卓越。</Text>
+      <Text>卡里姆以其非凡的技艺和专业知识而闻名，他制作的水烟壶是最精美、最均衡、最耐用的上乘之作。他是玻璃与金属工艺的大师，确保气流顺畅、密封严实。</Text>
     </Text>
     <Text>
       <GUID>1404000955</GUID>
       <!-- Text | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. -->
-      <Text>叶海亚 (Yahya) 以其在铸造和成型青铜方面的专业知识而闻名，这些青铜注定是制作精美、制作精美的烛台。</Text>
+      <Text>叶海亚以铸造和塑造青铜而闻名，这些青铜被用来制作华丽、精雕细琢的烛台。他目光敏锐、手法沉稳，能创造出最繁复的图案，打造出配得上贵族与王室殿堂的最精美作品。</Text>
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>穆斯塔法几十年来一直致力于研究青铜、黄铜和其他用于日常和装饰物品的金属。</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>穆斯塔法数十年来一直与白银和其他用于日常及装饰物品的金属打交道。凭借经验，他能组织作坊，以更稳定的品质、更少的瑕疵生产烛台和水烟壶。</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
       <!-- Text | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. -->
-      <Text>使用木炭和密封坩埚以更高强度熔化和精炼金属的高温炉。</Text>
+      <Text>一种使用木炭和密封坩埚的高温熔炉，可以更强力地熔炼和精炼金属。这一工艺能得到更坚固的钢和更易加工的青铜，提升多个作坊的产量。然而，极端高温会给材料和结构带来沉重负担。</Text>
     </Text>
     <Text>
       <GUID>1404000958</GUID>
       <!-- Text | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." | Noura is renowned for her skill in preparing smooth almond pastes and high-quality chocolate. She knows the exact proportions to create the most delicious marzipan in the region; her motto has always been "there's nothing chocolate can't fix." -->
-      <Text>努拉 (Noura) 因其制作光滑杏仁酱和高品质巧克力的技巧而闻名。</Text>
+      <Text>努拉以制作细腻的杏仁膏和优质巧克力而闻名。她知道调制本地区最美味杏仁糖的精确比例；她的座右铭一直是“没有什么是巧克力解决不了的”。</Text>
     </Text>
     <Text>
       <GUID>1404000959</GUID>
       <!-- Text | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. -->
-      <Text>萨米克在小作坊里尝试了不同的坚果和甜酱混合物多年后，来到了卡利法糖果店。</Text>
+      <Text>萨米克在小作坊里尝试了多年各种坚果与甜膏的配方之后，来到了哈里发的糖果铺。正是在那里，他发展出更缓慢的研磨和受控的静置方法，制成了均匀又易于塑形的杏仁糖。</Text>
     </Text>
     <Text>
       <GUID>1404000960</GUID>
       <!-- Text | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. -->
-      <Text>艾莎凭借从家乡海湾温暖的海水中采摘的最优质珍珠，赢得了珍珠匠大师的声誉。</Text>
+      <Text>艾莎作为珍珠工匠大师声名鹊起，她所加工的是从家乡海湾温暖水域中采得的最上等珍珠。她在穿孔、分拣和串珠方面的技艺可以防止珍珠破损，物尽其用，避免损失。</Text>
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil 因用精致、精心组装的金链取代传统的珍珠链而闻名。</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>纳比勒以用精心组装的细银链取代传统的珍珠串线而闻名。他的方法提升了每件作品的观感价值，但需要更高的精度和昂贵的材料。</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
       <!-- Text | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. -->
-      <Text>该工作台引入了一个有组织的系统，用于在镶嵌前选择、抛光和匹配珍珠。</Text>
+      <Text>这张工作台引入了一套有序的方法，在镶嵌之前挑选、抛光和搭配珍珠。通过按大小、光泽和色调分类，工匠减少了组装中的失误。生产变得更可预测、更高效，同时又不失手工特色。</Text>
     </Text>
     <Text>
       <GUID>1404000963</GUID>
       <!-- Text | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. -->
-      <Text>该法令由 Diwan 颁布，旨在结束集市和商队旅馆的后勤混乱，对货物的堆放、轮换和保管制定了严格的规则。</Text>
+      <Text>这项条例由国务会议颁布，旨在终结集市和商队驿站的物流混乱，对货物的堆放、周转和保管制定了严格规定。仓库如今在行政监管下运作，无需新建即可扩大有效容量。</Text>
     </Text>
     <Text>
       <GUID>1404000964</GUID>
       <!-- Text | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. -->
-      <Text>通过规范定居和公民义务鼓励人口增长的正式法令。</Text>
+      <Text>一项正式法令，通过规范的定居和公民义务来鼓励人口增长。通过推行居住和劳动登记，它增加了应纳税居民的数量。这一敕令加强了国家对家庭和商业的监管，提高了税收征收。</Text>
     </Text>
     <Text>
       <GUID>1404000965</GUID>
       <!-- Text | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. -->
-      <Text>奥马尔通过组织可靠的海上和陆地进口外国货物路线而建立了自己的声誉。</Text>
+      <Text>奥马尔通过组织可靠的海陆路线进口外国商品而建立了声誉。他精通关税、仓储和时机，确保物资源源不断、数量稳定地运达。商人们看重他的人脉和严谨的账目。</Text>
     </Text>
     <Text>
       <GUID>1404000966</GUID>
       <!-- Text | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. -->
-      <Text>哈桑穿梭于露天市场和仓库，收集当地制造的商品。</Text>
+      <Text>哈桑穿梭于集市和仓库之间，收集本地生产的商品。他熟悉工匠、农民和小作坊，也知道每件货物该在何时何地出售。他的工作让本地贸易顺畅运转，而无需依赖远程商路。</Text>
     </Text>
     <Text>
       <GUID>1404000967</GUID>
       <!-- Text | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. -->
-      <Text>法里德通过交易从烛台到日常用具等精心制作的金属物品，在市场上赢得了一席之地。</Text>
+      <Text>法里德靠买卖做工精良的金属器物在市场上站稳了脚跟，从烛台到日常器皿无所不包。他能凭重量、色泽和轻敲时发出的声音辨认出好青铜。他的摊位既吸引工匠，也吸引眼光挑剔的买家。</Text>
     </Text>
     <Text>
       <GUID>1404000968</GUID>
       <!-- Text | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. -->
-      <Text>该法令由维齐尔当局发布，在统一指挥下重新组织了公共服务的监督。</Text>
+      <Text>这项法令由维齐尔授权颁布，将公共服务的监管重组为统一指挥。通过扩大督察和行政官员的管辖范围，清真寺、水井、浴场和官署得以服务更远的街区。</Text>
     </Text>
     <Text>
       <GUID>1404000969</GUID>
       <!-- Text | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. -->
-      <Text>易卜拉欣负责在单一管理机构下协调多个公共浴场的运营。</Text>
+      <Text>易卜拉欣负责在统一管理下协调多座公共浴场的运营。他安排班次、监督供水，确保浴场的服务范围超出附近一带并保持开放运转。在他的管理下，浴场能够不间断地服务更远的街区。</Text>
     </Text>
     <Text>
       <GUID>1404000970</GUID>
       <!-- Text | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. -->
-      <Text>该法规对城市的露天市场和交易点建立了中央权力机构。</Text>
+      <Text>这项规定为城市的集市和交易点设立了中央管理机构。通过统一销售规定、度量衡和营业时间，市场得以服务更远的街区。商人们获得许可证，将经营范围扩展到附近一带之外。</Text>
     </Text>
     <Text>
       <GUID>1404000971</GUID>
       <!-- Text | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. -->
-      <Text>拉希德出身于苏丹尊贵的高级仆人世系。</Text>
+      <Text>拉希德出身于一个历代为苏丹担任高官的名门世家。他在商人、旅行者和外国当局之间充当中间人。他的职责包括登记、认证和处理超出领事馆直接管辖范围的事务。</Text>
     </Text>
     <Text>
       <GUID>1404000972</GUID>
       <!-- Text | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. -->
-      <Text>侯赛因懂得准备和供应咖啡的艺术。</Text>
+      <Text>侯赛因精通咖啡的冲煮与侍奉之道。他掌控烘焙、研磨和上咖啡的节奏，在不降低品质的前提下接待更多客人。在他的经营下，咖啡馆成了连最远街区的人们也会前来相聚的地方。旅人和本地人都会改变路线，只为在他的店里歇歇脚。</Text>
     </Text>
     <Text>
       <GUID>1404000976</GUID>
@@ -2693,7 +2768,7 @@
     <Text>
       <GUID>1404000977</GUID>
       <!-- Text | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. -->
-      <Text>谢赫·卡迪里因其在议事厅发表的响亮布道而闻名，他的言论在商人、工人和官员中具有同等的影响力。</Text>
+      <Text>谢赫·卡迪里因在敏拜尔上发表的洪亮布道而声名远扬，他的话语在商人、劳工和官员之中同样举足轻重。他精通律法与传统，说话沉稳而有威望，倡导秩序、勤勉和共同的责任。</Text>
     </Text>
     <Text>
       <GUID>1404001002</GUID>
@@ -2758,7 +2833,7 @@
     <Text>
       <GUID>1404001014</GUID>
       <!-- Text | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. -->
-      <Text>卡希娜女士向您发出了苏丹的邀请。</Text>
+      <Text>卡希娜夫人交给您一份苏丹的邀请函。这是难得的机会，因为很少有外人获准进入苏丹国。</Text>
     </Text>
     <Text>
       <GUID>1404001017</GUID>
@@ -2818,7 +2893,7 @@
     <Text>
       <GUID>1404001048</GUID>
       <!-- ExpeditionDecision | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> -->
-      <Text>&lt;b&gt;经过几天的旅行，&lt;/b&gt;您的探险队到达了苏丹国边缘的一个尘土飞扬的边境小镇。</Text>
+      <Text>&lt;b&gt;经过数日的跋涉，&lt;/b&gt;您的探险队抵达了苏丹国边缘一座尘土飞扬的边境小镇。砂岩瞭望塔俯瞰着道路，身穿宽松长袍的卫兵仔细盘查每一位旅人。卡希娜夫人低声说，外国人很少获准越过此地，但新苏丹的邀请或许能让您通行。&lt;b&gt;您必须决定如何越过边境。&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001049</GUID>
@@ -2833,7 +2908,7 @@
     <Text>
       <GUID>1404001051</GUID>
       <!-- ExpeditionDecision | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> -->
-      <Text>&lt;b&gt;隐藏在商人和满载骆驼之间，&lt;/b&gt;你在守卫怀疑的目光下经过。</Text>
+      <Text>&lt;b&gt;藏身于商人和满载货物的骆驼之间，&lt;/b&gt;您在卫兵怀疑的目光下通过了关卡。一出城门，商队首领便提出带您深入内陆。另有一条宽阔的帝国大道通往首都。&lt;b&gt;您是继续跟随商队，还是沿大道独自前行？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001052</GUID>
@@ -2848,7 +2923,7 @@
     <Text>
       <GUID>1404001054</GUID>
       <!-- ExpeditionDecision | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> -->
-      <Text>&lt;b&gt;一名警惕的警卫拦住了商队，&lt;/b&gt;当他认出陌生的面孔时，他眯起了眼睛。</Text>
+      <Text>&lt;b&gt;一名警惕的卫兵拦下了商队，&lt;/b&gt;认出陌生面孔时眯起了眼睛。片刻之后，您被团团围住，押送到一处阴凉的庭院。显然，这里并不欢迎您。&lt;b&gt;您打算怎么办？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001055</GUID>
@@ -2863,12 +2938,12 @@
     <Text>
       <GUID>1404001057</GUID>
       <!-- ExpeditionDecision | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. -->
-      <Text>&lt;b&gt;边境官员怀疑地检查了你的证件。&lt;/b&gt;他们之间议论纷纷，然后你就被礼貌而坚定地拘留了。</Text>
+      <Text>&lt;b&gt;边境官员满腹狐疑地检查您的文件。&lt;/b&gt;他们低声交谈了一番，随后客气但坚决地将您扣留。显然，外国访客在这里并不常见。您被押送到一处庭院等候裁决。</Text>
     </Text>
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;商队沿着隐蔽的沙漠小道蜿蜒而行，绕过沙丘和古老的废墟，然后重新汇入一条宏伟的林荫大道。</Text>
+      <Text>&lt;b&gt;商队沿着隐秘的沙漠小径蜿蜒前行，&lt;/b&gt;绕过沙丘和古代遗迹，最终重新踏上一条宽阔的大道。日落时分，首都的穹顶在地平线上闪闪发光。商队已将您平安送达目的地。</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2878,17 +2953,17 @@
     <Text>
       <GUID>1404001060</GUID>
       <!-- ExpeditionDecision | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. -->
-      <Text>&lt;b&gt;紧张的几个小时后，&lt;/b&gt;一名带有苏丹印章的信使抵达。</Text>
+      <Text>&lt;b&gt;紧张地等待了几个小时后，&lt;/b&gt;一名带着苏丹印信的信使赶到。您被解除扣押，并得到了前往首都的指引。</Text>
     </Text>
     <Text>
       <GUID>1404001061</GUID>
       <!-- ExpeditionDecision | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. -->
-      <Text>&lt;b&gt;卡希纳夫人平静地与警卫交谈，&lt;/b&gt;提到了您不熟悉的名字和习俗。</Text>
+      <Text>&lt;b&gt;卡希娜夫人平静地与卫兵交谈，&lt;/b&gt;提及一些您并不熟悉的名字和习俗。他们严厉的神情缓和下来，很快您便获准继续前往首都。</Text>
     </Text>
     <Text>
       <GUID>1404001062</GUID>
       <!-- ExpeditionDecision | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> -->
-      <Text>&lt;b&gt;您已经在沙漠中旅行了几天，&lt;/b&gt;仅依靠苏丹的指示和一张饱经风霜的地图。</Text>
+      <Text>&lt;b&gt;您已在沙漠中跋涉多日，&lt;/b&gt;仅凭苏丹的指引和一张饱经风霜的地图辨认方向。热浪在沙面上蒸腾，您瞥见左边似乎有一片绿洲。它或许能带来喘息之机，也可能是危险的歧途。&lt;b&gt;您是继续赶路，还是去探查那片绿洲？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001063</GUID>
@@ -2903,7 +2978,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;道路突然终止，被高耸的沙丘吞没。</Text>
+      <Text>&lt;b&gt;道路戛然而止，&lt;/b&gt;被高耸的沙丘吞没。狂风在沙地上呼啸，抹去了一切方向的痕迹。您必须决定下一步怎么走。</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -2918,7 +2993,7 @@
     <Text>
       <GUID>1404001068</GUID>
       <!-- ExpeditionDecision | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. -->
-      <Text>&lt;b&gt;越过沙丘，您到达海岸，&lt;/b&gt;沿着海岸线，您会发现一个朴素的渔村。</Text>
+      <Text>&lt;b&gt;越过沙丘，您来到了海边，&lt;/b&gt;沿着海岸线前行，发现了一座朴素的渔村。海风带来了令人欣慰的清凉。</Text>
     </Text>
     <Text>
       <GUID>1404001069</GUID>
@@ -2948,7 +3023,7 @@
     <Text>
       <GUID>1404001074</GUID>
       <!-- ExpeditionDecision | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. -->
-      <Text>&lt;b&gt;绿洲溶解在闪闪发光的空气中，&lt;/b&gt;只是一片死海。</Text>
+      <Text>&lt;b&gt;绿洲消散在闪烁的空气中，&lt;/b&gt;原来只是海市蜃楼。不过，您远远望见一群游牧民正在穿越沙漠。</Text>
     </Text>
     <Text>
       <GUID>1404001075</GUID>
@@ -2978,7 +3053,7 @@
     <Text>
       <GUID>1404001080</GUID>
       <!-- ExpeditionDecision | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> -->
-      <Text>&lt;b&gt;最后，您到达了苏丹国的首都，&lt;/b&gt;这是一座广阔的城市，拥有熙熙攘攘的集市、高耸的尖塔和蜿蜒的街道。</Text>
+      <Text>&lt;b&gt;您终于抵达了苏丹国的首都，&lt;/b&gt;这座城市广袤无垠，集市熙熙攘攘，宣礼塔高耸入云，街巷曲折蜿蜒。苏丹的宫殿就在城中某处，但通往那里的路却一点也不明朗。&lt;b&gt;您要如何找到方向？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001081</GUID>
@@ -2993,7 +3068,7 @@
     <Text>
       <GUID>1404001083</GUID>
       <!-- ExpeditionDecision | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> -->
-      <Text>&lt;b&gt;供应商急切地向您展示他的商品，&lt;/b&gt;坚持在提供任何帮助之前先将其出售。</Text>
+      <Text>&lt;b&gt;小贩热情地向您展示他的货物，&lt;/b&gt;坚持要您先买些东西才肯帮忙。经过一番软磨硬泡，他终于指向一条通往山上的宽阔大道。&lt;b&gt;您现在站在宫殿大门前。&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001084</GUID>
@@ -3008,7 +3083,7 @@
     <Text>
       <GUID>1404001086</GUID>
       <!-- ExpeditionDecision | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. -->
-      <Text>&lt;b&gt;蜿蜒的街道很快会让你感到困惑，&lt;/b&gt;不久之后，一群小偷就抢走了你的一些财物。</Text>
+      <Text>&lt;b&gt;曲折的街巷很快就让您晕头转向，&lt;/b&gt;没过多久，一伙扒手便顺走了您的一些财物。幸好，一位严厉的警察出面干预，护送您前往宫殿。</Text>
     </Text>
     <Text>
       <GUID>1404001087</GUID>
@@ -3043,7 +3118,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;您站在苏丹面前，坐在华丽的王座上。</Text>
+      <Text>&lt;b&gt;您站在苏丹面前，&lt;/b&gt;他端坐在华丽的宝座上。所有人的目光都落在您身上。您将如何向他致意？</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3078,7 +3153,7 @@
     <Text>
       <GUID>1404001100</GUID>
       <!-- ExpeditionDecision | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. -->
-      <Text>&lt;b&gt;苏丹谈到了对未来的愿景，&lt;/b&gt;向世界开放他的王国并拥抱进步。</Text>
+      <Text>&lt;b&gt;苏丹谈起他对未来的愿景，&lt;/b&gt;要让他的国度向世界敞开、拥抱进步。他向您讲述了&lt;b&gt;瓦迪·扎希尔&lt;/b&gt;——一处位于他疆域边陲的偏远沙漠地区。那里居住着游牧部落，他希望建立一个新的定居点，以促进他的子民与西方工业强国之间的交流。&lt;br&gt;&lt;br&gt;作为回报，您获得了开发该地区、采集其资源并分享其繁荣的专属权利。一向足智多谋的卡希娜夫人则获赐一座岛屿，作为支持您事业的贸易前哨。&lt;br&gt;&lt;br&gt;&lt;b&gt;苏丹最后一挥手，将一张地图和他的祝福交给了您。&lt;/b&gt;您的下一个目的地已经明确：瓦迪·扎希尔。</Text>
     </Text>
     <Text>
       <GUID>1404001101</GUID>
@@ -3093,12 +3168,17 @@
     <Text>
       <GUID>1404001103</GUID>
       <!-- ExpeditionDecision | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. -->
-      <Text>&lt;b&gt;苏丹专心聆听，&lt;/b&gt;权衡您的言语和意图。</Text>
+      <Text>&lt;b&gt;苏丹专注地聆听，&lt;/b&gt;掂量着您的言辞和意图。沉思片刻后，他示意朝堂肃静，准备揭晓他的计划。</Text>
     </Text>
     <Text>
       <GUID>1404001104</GUID>
       <!-- ExpeditionOption | Listen to the Sultan’s proposal | Listen to the Sultan’s proposal -->
       <Text>听听苏丹的建议</Text>
+    </Text>
+    <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>从沙漠中出土的宝藏吸引了四面八方的学者，并激发了新的研究。</Text>
     </Text>
     <Text>
       <GUID>1404001115</GUID>
@@ -3172,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>增加市场摊位范围</Text>
     </Text>
     <Text>
@@ -3181,14 +3261,19 @@
       <Text>减少学者对土特产的消耗</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>所有东方市场摊位</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>杏仁种子</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>优质杏仁种子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植几片杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3197,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>枣子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植大量的杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3207,38 +3292,38 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>杂交枣子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>这些树苗已适应在各种土壤中生长，并且杏仁产量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
       <!-- GuildhouseItem | Date Seeds | Date Seeds -->
-      <Text>枣子</Text>
+      <Text>椰枣种子</Text>
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>优质石榴汁种子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植几片椰枣林。</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
       <!-- GuildhouseItem | Quality Date Seeds | Quality Date Seeds -->
-      <Text>优质枣子</Text>
+      <Text>优质椰枣种子</Text>
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>玫瑰种子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植大量的椰枣林。</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
       <!-- GuildhouseItem | Hybrid Date Seeds | Hybrid Date Seeds -->
-      <Text>杂交枣子</Text>
+      <Text>杂交椰枣种子</Text>
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>杂交玫瑰种子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>这些树苗已适应在各种土壤中生长，并且椰枣产量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3247,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>优质蚕丝种子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植几片石榴林。</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3423,7 +3508,7 @@
     <Text>
       <GUID>1404001210</GUID>
       <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>只要看看那些精美的羽毛服装 - 嘉年华和混乱在街道上交织在一起，偶尔被重击声打断！</Text>
+      <Text>快看那些绚丽的羽毛服装——狂欢与混乱在街头交融，偶尔还会被足球落地时“砰！”的一声打断。</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3492,23 +3577,343 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
-      <Text>诺里亚斯需要彼此保持一定距离。</Text>
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
+      <Text>水车之间需要保持一定距离建造。它们从地下含水层抽水，否则含水层终将枯竭。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
-      <Text>领事馆是与苏丹沟通的主要途径。</Text>
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
+      <Text>领事馆是与苏丹沟通的主要途径。它们会产出建造高级建筑所需审批的必要文书。</Text>
     </Text>
     <Text>
       <GUID>1404001226</GUID>
       <!-- Text | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. -->
-      <Text>大清真寺是您对苏丹国承诺的象征。</Text>
+      <Text>大清真寺象征着您对苏丹国的忠诚。每一次朝圣都会为您在苏丹宫廷赢得恩宠与影响力。</Text>
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
-      <Text>使节们对工业时代的新商品和发明感到好奇。</Text>
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
+      <Text>使节们对工业时代的新商品和新发明充满好奇。市场摊位是展示这些物品、让使节们亲身体验的绝佳方式。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>清真寺</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>出口码头：马赛克</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>出口码头：玫瑰水</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>出口码头：礼仪军刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>出口码头：浮选精矿</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>出口码头：珍珠项链</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>出口码头：枝形吊灯</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>咖啡馆菜单</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>一壶朴素的咖啡就能坐满长凳，但聪明的店主还懂得用牛奶、香料、椰枣、玫瑰和蜂蜜变些花样。每一种冲泡都会让街坊换上不同的心情。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>豆蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>椰枣咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>烘焙、研磨得细如尘土，再在土耳其壶里煮沸三次——仅此而已。纯粹主义者发誓这才是真正的咖啡；其他人只会说它很浓。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>用温热的山羊奶调和的浓郁黑咖啡。它能消解对果汁的渴望，让每个人都心情舒畅。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>从达拉壶倒入小小的杯中，散发着研磨豆蔻的芬芳。在这里享用了香料的人在家便省下了，省下的钱则花在集市上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>苦涩的咖啡配上一碗香甜的椰枣，正好相互平衡。在咖啡馆里吃过椰枣的人，回家就不太需要了，也不那么容易口渴。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>几滴玫瑰水和几片漂浮的花瓣，就让一杯普通的咖啡变成小小的庆典。咖啡馆里已经满是花园的香气，何必再给家里熏香？省下的钱都乐意花出去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>用金黄的蜂蜜调甜，慢慢搅拌，再更慢地细品。甜蜜近在咫尺，谁也不再惦记杏仁糖——消息传开后，搬进街坊的人也越来越多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>咖啡馆：黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>咖啡馆：牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>咖啡馆：豆蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>咖啡馆：椰枣咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>咖啡馆：玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>咖啡馆：蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>豆蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>椰枣咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>杂耍艺人营地</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>无论在哪里搭起帐篷，喷火艺人、杂技演员和杂耍艺人总能吸引大批围观者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>The ore drums are empty and need to be refilled.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>Ore Drum Module</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>Ore Drum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>This module doubles the yield from ores through special refining in ore drums using an oil flotation process.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>蜜蜂园</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>蜂蜜生产</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>几个蜂箱可以生产蜂蜜，并使农场更有效率。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>从椰枣树上采集的蜂蜜是一种非常抢手的商品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>授粉</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>东方的所有作物农场</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>在蜜蜂的授粉帮助下，我们的农场变得更加高效。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>茶坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>土耳其软糖坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>开心果园</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>开心果林</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>开心果烘焙坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>开心果种子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>优质开心果种子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>杂交开心果种子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>开心果生产力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植几片开心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>这些树苗可以帮助您在异国土壤中种植大量的开心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>这些树苗已适应在各种土壤中生长，并且开心果产量增加！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>水果工坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>只能在Wadi Al Zahir建造</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>硫酸</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>最好不要徒手触碰。又称矾油。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>猎象小屋</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
@@ -3541,16 +3946,6 @@
       <Text>塔发奇·卡奇长老怀疑你认识安贝沙人民和传统的决意，并毫不掩饰地刺探你对当地习俗的知识。</Text>
     </Text>
     <Text>
-      <GUID>1404001281</GUID>
-      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
-      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001282</GUID>
-      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
-      <Text>塔发奇·卡奇长老对你的选择留下好印象。</Text>
-    </Text>
-    <Text>
       <GUID>1404001283</GUID>
       <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Elder Tafachi Keki fustigates you for the gaudiness of your choice. -->
       <Text>Elder Tafachi Keki fustigates you for the gaudiness of your choice.</Text>
@@ -3559,11 +3954,6 @@
       <GUID>1404001284</GUID>
       <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that <b>I were to invite you to my home</b>—an unlikely occasion— <b>what would you bring to honour the invitation?</b> -->
       <Text>Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that &lt;b&gt;I were to invite you to my home&lt;/b&gt;—an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
-    </Text>
-    <Text>
-      <GUID>1404001285</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
-      <Text>以名贵的香和精油作礼应该适合……</Text>
     </Text>
     <Text>
       <GUID>1404001286</GUID>
@@ -3606,51 +3996,6 @@
       <Text>Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event.</Text>
     </Text>
     <Text>
-      <GUID>1404001294</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
-      <Text>在城市边缘发现了一群看来愤怒的野牛。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001295</GUID>
-      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
-      <Text>泰比比·拉米长老担心她祭典上的公牛不够多，并要求你找到更多。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001296</GUID>
-      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
-      <Text>婚姻办事处</Text>
-    </Text>
-    <Text>
-      <GUID>1404001297</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
-      <Text>你可以带艾达来见我吗？该是时候让她结婚，而我有完美的对象——一个来自正派、虔诚家庭的年轻男人。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001298</GUID>
-      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
-      <Text>看起来生气的艾达</Text>
-    </Text>
-    <Text>
-      <GUID>1404001299</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
-      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001300</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
-      <Text>艾达已在修道院寻求教宗布鲁卡威特的建议。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001301</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
-      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
-    </Text>
-    <Text>
-      <GUID>1404001302</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
-      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
-    </Text>
-    <Text>
       <GUID>1404001303</GUID>
       <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find where Aida, the Elder's niece, is hiding -->
       <Text>找出长老侄女艾达的藏身处</Text>
@@ -3686,34 +4031,9 @@
       <Text>Elder Asikinyi believes the children of the town have been misbehaving of late, and asks you to take away their Christmas presents to teach them the virtue of respect and gratitude.</Text>
     </Text>
     <Text>
-      <GUID>1404001310</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
-      <Text>The presents are hidden near the children's house.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001311</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
-      <Text>没收孩子们的礼物：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
-    </Text>
-    <Text>
-      <GUID>1404001312</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
-      <Text>阿斯奇英长老觉得安贝沙小孩都被宠坏了，并且想要拿走他们的礼物。</Text>
-    </Text>
-    <Text>
-      <GUID>1404001313</GUID>
-      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
-      <Text>工作经验</Text>
-    </Text>
-    <Text>
       <GUID>1404001314</GUID>
       <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | Idleness breeds contempt and unruliness in children. They must be kept busy, and taught the value of labour and an orderly life. -->
       <Text>“儿童时期懒惰会导致无礼和目无法纪。他们一定要保持忙碌，还有学会劳动和循规生活的价值。”</Text>
-    </Text>
-    <Text>
-      <GUID>1404001315</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
-      <Text>“太棒了！这会教他们为社会奉献，并为街道带回平静。”</Text>
     </Text>
     <Text>
       <GUID>1404001316</GUID>
@@ -5329,6 +5649,91 @@
       <GUID>1404001644</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2 | The young poet proudly shares the second half of his poem with you. -->
       <Text>这名年轻的诗人骄傲地与你共享诗作的另一半。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001647</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
+      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001648</GUID>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
+      <Text>塔发奇·卡奇长老对你的选择留下好印象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001649</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
+      <Text>以名贵的香和精油作礼应该适合……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001650</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
+      <Text>在城市边缘发现了一群看来愤怒的野牛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001651</GUID>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
+      <Text>泰比比·拉米长老担心她祭典上的公牛不够多，并要求你找到更多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001652</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
+      <Text>婚姻办事处</Text>
+    </Text>
+    <Text>
+      <GUID>1404001653</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
+      <Text>你可以带艾达来见我吗？该是时候让她结婚，而我有完美的对象——一个来自正派、虔诚家庭的年轻男人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001654</GUID>
+      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
+      <Text>看起来生气的艾达</Text>
+    </Text>
+    <Text>
+      <GUID>1404001655</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
+      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001656</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
+      <Text>艾达已在修道院寻求教宗布鲁卡威特的建议。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001657</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
+      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001658</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
+      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001659</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
+      <Text>The presents are hidden near the children's house.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001660</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>没收孩子们的礼物：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001661</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
+      <Text>阿斯奇英长老觉得安贝沙小孩都被宠坏了，并且想要拿走他们的礼物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001662</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
+      <Text>工作经验</Text>
+    </Text>
+    <Text>
+      <GUID>1404001663</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
+      <Text>“太棒了！这会教他们为社会奉献，并为街道带回平静。”</Text>
     </Text>
   </ModOp>
 </ModOps>

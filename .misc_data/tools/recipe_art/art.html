@@ -1,0 +1,46 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>coffee art</title>
+<style>
+body{margin:0;background:#cdb894;font:12px sans-serif}
+#v{display:flex;flex-wrap:wrap;gap:6px;padding:6px}
+.card{background:#e9dcc0;padding:4px;border:1px solid #a08560}
+.card div{font-weight:bold;color:#3a2418}
+canvas{display:block}
+</style></head><body>
+<div id="v"></div>
+<script src="ink.js"></script>
+<script src="scenes.js"></script>
+<script src="compositions.js"></script>
+<script>
+function finalize(src, w = W, h = H) {
+  const c = document.createElement('canvas'); c.width = w; c.height = h;
+  const g = c.getContext('2d'); g.imageSmoothingEnabled = true; g.imageSmoothingQuality = 'high';
+  // two step downscale for cleaner thin lines
+  const mid = document.createElement('canvas'); mid.width = w * 1.5 | 0; mid.height = h * 1.5 | 0;
+  const gm = mid.getContext('2d'); gm.imageSmoothingQuality = 'high'; gm.drawImage(src, 0, 0, mid.width, mid.height);
+  g.drawImage(mid, 0, 0, w, h);
+  const id = g.getImageData(0, 0, w, h), d = id.data;
+  for (let i = 0; i < d.length; i += 4) { const a = d[i + 3]; d[i] = 58; d[i + 1] = 36; d[i + 2] = 29; d[i + 3] = a < 6 ? 0 : a; }
+  g.putImageData(id, 0, 0);
+  return c;
+}
+function render(name) {
+  const { c, g } = newCanvas(); ctx = g;
+  seed(SCENES[name].seed ?? 11);
+  SCENES[name].draw();
+  return finalize(c);
+}
+function show(name, cnv) {
+  const card = document.createElement('div'); card.className = 'card';
+  const t = document.createElement('div'); t.textContent = name; card.appendChild(t); card.appendChild(cnv);
+  document.getElementById('v').appendChild(card);
+}
+async function save(name, cnv) {
+  const r = await fetch('/save?name=' + encodeURIComponent(name), { method: 'POST', body: cnv.toDataURL('image/png') });
+  return r.text();
+}
+window.results = {};
+const want = (location.hash.slice(1) || Object.keys(SCENES).join(',')).split(',');
+for (const n of want) { const t0 = performance.now(); try { const cnv = render(n); window.results[n] = { ms: Math.round(performance.now() - t0) }; show(n, cnv); window['cnv_' + n] = cnv; } catch (e) { window.results[n] = { err: String(e.stack || e) }; } }
+async function saveAll(prefix = '') { const out = []; for (const n of want) if (window['cnv_' + n]) out.push(await save(prefix + n + '.png', window['cnv_' + n])); return out; }
+</script></body></html>

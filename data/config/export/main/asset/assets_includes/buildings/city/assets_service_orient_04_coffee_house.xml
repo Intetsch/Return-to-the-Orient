@@ -2,7 +2,7 @@
 
     <ModOp Type="addNextSibling" GUID="5840">
         <Asset>
-            <Template>BuffFactory</Template>
+            <Template>Mall</Template>
             <Values>
                 <Standard>
                     <GUID>1404000291</GUID>
@@ -26,7 +26,8 @@
                 <Blocking/>
                 <Mesh/>
                 <BuffFactory>
-                    <ProductionBuffScope>Local</ProductionBuffScope>
+                    <ProductionBuffScope>Radius</ProductionBuffScope>
+                    <ProductionBuffDistance>50</ProductionBuffDistance>
                     <ProvidesPublicServiceNeed>1</ProvidesPublicServiceNeed>
                     <PublicServiceData>
                         <PublicServices>
@@ -38,10 +39,13 @@
                         <NoSatisfactionDistance>100</NoSatisfactionDistance>
                     </PublicServiceData>
                 </BuffFactory>
+                <RecipeBuilding>
+                    <RecipeList>1404003300</RecipeList>
+                </RecipeBuilding>
                 <FactoryBase>
                     <FactoryInputs>
                         <Item>
-                            <Product>120031</Product>
+                            <Product>120031</Product>                            <!-- Coffee Beans -->
                             <Amount>1</Amount>
                             <StorageAmount>3</StorageAmount>
                         </Item>
@@ -80,6 +84,7 @@
                             <Amount>15</Amount>
                         </Item>
                     </Maintenances>
+                    <IncomeCategory>PublicServiceBuildings</IncomeCategory>
                 </Maintenance>
                 <AmbientMoodProvider>
                     <AmbientMood>ResidenceTier1</AmbientMood>
@@ -90,8 +95,18 @@
                 <Constructable>
                     <DestructionCategory>Production</DestructionCategory>
                 </Constructable>
-				<Locked />
+                <Locked/>
                 <IncidentInfectable/>
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                </Industrializable>
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
+                <Culture/>
                 <Object>
                     <Variations>
                         <Item>
@@ -119,7 +134,7 @@
                                 <InheritedIndex>0</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>0</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -131,7 +146,7 @@
                                 <InheritedIndex>1</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>1</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -144,7 +159,7 @@
                                 <InheritedIndex>2</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>2</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -157,7 +172,7 @@
                                 <InheritedIndex>3</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>3</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -170,7 +185,7 @@
                                 <InheritedIndex>4</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>4</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -181,7 +196,7 @@
                                 <InheritedIndex>5</InheritedIndex>
                                 <InheritanceMapV2>
                                     <Entry>
-                                        <TemplateName>BuffFactory</TemplateName>
+                                        <TemplateName>Mall</TemplateName>
                                         <Index>5</Index>
                                     </Entry>
                                 </InheritanceMapV2>
@@ -200,12 +215,48 @@
         <Item>
             <GUID>1404000291</GUID>
         </Item>
+        <Item>
+            <GUID>1404003320</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003321</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003322</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003323</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003324</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003325</GUID>
+        </Item>
     </ModOp>
 
     <!-- all buildings with maintenance DLC12 -->
     <ModOp Type="add" GUID="7943" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
         <Item>
             <GUID>1404000291</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003320</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003321</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003322</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003323</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003324</GUID>
+        </Item>
+        <Item>
+            <GUID>1404003325</GUID>
         </Item>
     </ModOp>
 

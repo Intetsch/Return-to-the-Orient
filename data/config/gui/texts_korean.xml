@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>날짜</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>대추야자 토착 자원</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>아몬드</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>아몬드 토착 자원</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>목욕탕</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>인구: 동양</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>모자이크 워크숍</Text>
@@ -618,7 +623,7 @@
     <Text>
       <GUID>1404000159</GUID>
       <!-- FarmBuilding | Mosaic Workshop | Date Farm -->
-      <Text>데이트팜</Text>
+      <Text>대추야자 농장</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>명주</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>비단 토착 자원</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>날짜 필드</Text>
+      <Text>대추야자 밭</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>정거장</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>무인도</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>동양의 분수</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>장미</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>장미 토착 자원</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>석류</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>석류 토착 자원</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>동양 워크숍: 의식용 세이버</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>동양 작업장 특허 목록</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>시장 가판대</Text>
     </Text>
     <Text>
@@ -1128,7 +1143,7 @@
     <Text>
       <GUID>1404000386</GUID>
       <!-- AudioText | AudioText Play_residents_6607250: By Allah! Lend us your support! | By Allah! Lend us your support! -->
-      <Text>알라에 의해!</Text>
+      <Text>알라께 맹세코! 저희를 도와주십시오!</Text>
     </Text>
     <Text>
       <GUID>1404000388</GUID>
@@ -1203,7 +1218,7 @@
     <Text>
       <GUID>1404000416</GUID>
       <!-- AudioText | AudioText Play_residents_6607311: By Allah! I can't take another day here! | By Allah! I can't take another day here! -->
-      <Text>알라에 의해!</Text>
+      <Text>알라께 맹세코! 여기서는 하루도 더 못 버티겠습니다!</Text>
     </Text>
     <Text>
       <GUID>1404000418</GUID>
@@ -1223,7 +1238,7 @@
     <Text>
       <GUID>1404000424</GUID>
       <!-- AudioText | AudioText Play_residents_6607320: By Allah! How about these for lean times…?! | By Allah! How about these for lean times…?! -->
-      <Text>알라에 의해!</Text>
+      <Text>알라께 맹세코! 이 무슨 궁핍한 시절이란 말입니까…?!</Text>
     </Text>
     <Text>
       <GUID>1404000426</GUID>
@@ -1253,7 +1268,7 @@
     <Text>
       <GUID>1404000436</GUID>
       <!-- AudioText | AudioText Play_residents_6607331: You were right! It IS better to live here than to move from Town to Town... | You were right! It IS better to live here than to move from Town to Town... -->
-      <Text>맞아요!</Text>
+      <Text>당신 말이 맞았습니다! 이 마을 저 마을 떠도는 것보다 여기서 사는 게 정말 더 낫군요...</Text>
     </Text>
     <Text>
       <GUID>1404000438</GUID>
@@ -1298,7 +1313,7 @@
     <Text>
       <GUID>1404000454</GUID>
       <!-- AudioText | AudioText Play_residents_6607350: Allah has heard my prayers! We are enjoying a better life than ever before! | Allah has heard my prayers! We are enjoying a better life than ever before! -->
-      <Text>알라께서 내 기도를 들으셨다!</Text>
+      <Text>알라께서 제 기도를 들으셨습니다! 그 어느 때보다 좋은 삶을 누리고 있습니다!</Text>
     </Text>
     <Text>
       <GUID>1404000456</GUID>
@@ -1373,7 +1388,7 @@
     <Text>
       <GUID>1404000485</GUID>
       <!-- AudioText | AudioText Play_residents_6608690: Shukran! You have my most sincere thanks! | Shukran! You have my most sincere thanks! -->
-      <Text>슈크란!</Text>
+      <Text>슈크란! 진심으로 감사드립니다!</Text>
     </Text>
     <Text>
       <GUID>1404000487</GUID>
@@ -1433,7 +1448,7 @@
     <Text>
       <GUID>1404000509</GUID>
       <!-- AudioText | AudioText Play_residents_6608723: By Allah! We deserve better than this! | By Allah! We deserve better than this! -->
-      <Text>알라에 의해!</Text>
+      <Text>알라께 맹세코! 우리는 이보다 나은 대접을 받아야 합니다!</Text>
     </Text>
     <Text>
       <GUID>1404000511</GUID>
@@ -1493,7 +1508,7 @@
     <Text>
       <GUID>1404000533</GUID>
       <!-- AudioText | AudioText Play_residents_6608750: It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... | It's wonderful here! I'm sure Allah will forgive me if I postpone my pilgrimage for a while... -->
-      <Text>여기 정말 멋지네요!</Text>
+      <Text>이곳은 정말 멋집니다! 순례를 조금 미뤄도 알라께서 분명 용서해 주실 겁니다...</Text>
     </Text>
     <Text>
       <GUID>1404000535</GUID>
@@ -1503,7 +1518,7 @@
     <Text>
       <GUID>1404000537</GUID>
       <!-- AudioText | AudioText Play_residents_6608752: By Allah! Our Town is a haven of Satisfaction! | By Allah! Our Town is a haven of Satisfaction! -->
-      <Text>알라에 의해!</Text>
+      <Text>알라께 맹세코! 우리 도시는 만족의 안식처입니다!</Text>
     </Text>
     <Text>
       <GUID>1404000539</GUID>
@@ -1598,22 +1613,22 @@
     <Text>
       <GUID>1404000592</GUID>
       <!-- Text | Dieser prunkvolle Klingenstreich aus poliertem Stahl dient weniger dem Kampf als dem guten Eindruck. Sein Griff glänzt im Fackelschein und erzählt Geschichten von Paraden, Gelöbnissen und überambitionierten Offizieren. Ein Hieb in die Luft, ein salutierender Schritt und schon fühlt man sich um Rang und Würde reicher. | This magnificent blade, crafted from polished steel, serves less for combat than for making a good impression. Its hilt gleams in the torchlight, whispering tales of parades, oaths, and overambitious officers. A swipe of the blade into the air, a saluting step, and one instantly feels enriched by rank and dignity. -->
-      <Text>윤이 나는 강철로 제작된 이 멋진 칼날은 전투보다는 좋은 인상을 남기는 용도로 사용됩니다.</Text>
+      <Text>광택 나는 강철로 만든 이 훌륭한 칼날은 전투보다는 좋은 인상을 남기는 데 쓰입니다. 손잡이는 횃불 아래에서 반짝이며 열병식과 맹세, 지나치게 야심 찬 장교들의 이야기를 속삭입니다. 허공을 한 번 가르고 경례하며 한 걸음 내디디면, 곧바로 계급과 위엄이 높아진 듯한 기분이 듭니다.</Text>
     </Text>
     <Text>
       <GUID>1404000593</GUID>
       <!-- Text | Ein grandioses Lichtermeer aus Gold und purem Größenwahn. Mit einem einzigen Einschalten lässt er selbst den schlichtesten Raum aussehen, als seien Könige im Anmarsch. Seine funkelnden Prismen brechen das Licht in tausend kleine Sterne und ziehen Staub an wie ein Magnet. Doch wer würde das bemerken, geblendet von so viel Glorie? | A magnificent sea of ​​light, a display of gold and sheer megalomania. With a single switch-on, it makes even the simplest room look as if royalty is approaching. Its sparkling prisms refract the light into a thousand tiny stars and attract dust like a magnet. -->
-      <Text>장엄한 빛의 바다, 금빛과 순전한 과대망상증의 전시.</Text>
+      <Text>황금과 순전한 과대망상이 빚어낸 장엄한 빛의 바다입니다. 불을 한 번 켜기만 해도 가장 소박한 방조차 왕족이 납시는 듯 보이게 만듭니다. 반짝이는 프리즘은 빛을 수천 개의 작은 별로 흩뿌리고, 자석처럼 먼지를 끌어당깁니다.</Text>
     </Text>
     <Text>
       <GUID>1404000594</GUID>
       <!-- Text | Ein kunstvoll verziertes Rauchgerät, das mit seinen gluckernden Geräuschen selbst die müdesten Geister in Gesprächslaune versetzt. Füllen Sie die Schale mit duftendem Tabak, entzünden Sie glühende Kohlen, und schon entfaltet sich ein süßlich-aromatischer Nebel, der Stunden wie Minuten erscheinen lässt. Perfekt für philosophische Runden oder für Leute, die so tun, als würden sie philosophieren. | An artfully decorated smoking device whose gurgling sounds will put even the most weary minds in a convivial mood. Fill the bowl with fragrant tobacco, light glowing coals, and a sweet, aromatic mist will unfold, making hours seem like minutes. -->
-      <Text>예술적으로 장식된 흡연 장치로 콸콸 소리가 나며 가장 지친 마음도 즐거운 분위기로 만들어줍니다.</Text>
+      <Text>정교하게 장식된 흡연 도구로, 보글거리는 소리는 아무리 지친 마음도 즐거운 분위기로 이끕니다. 대통에 향긋한 담배를 채우고 숯불을 피우면 달콤하고 향기로운 연기가 피어올라 몇 시간이 몇 분처럼 느껴집니다.</Text>
     </Text>
     <Text>
       <GUID>1404000595</GUID>
       <!-- Text | Eine schimmernde Reihe kleiner, makelloser Kostbarkeiten, so perfekt rund, dass man glaubt, sie würden nachts miteinander tuscheln. Seit jeher ein Symbol für Eleganz, Reichtum und gelegentlich fragwürdige Geschenkabsichten. Legen Sie sie an, und plötzlich wirkt jeder Schritt anmutiger, jede Geste erhabener, zumindest, bis der Verschluss klemmt. | A shimmering array of tiny, flawless treasures, so perfectly round you'd think they were whispering to each other at night. A symbol of elegance, wealth, and occasionally questionable gift-giving intentions. Put them on, and suddenly every step seems more graceful, every gesture more refined, at least until the clasp jams. -->
-      <Text>작고 흠잡을 데 없는 보물들이 반짝반짝 배열되어 있어서 너무 완벽하게 둥글어서 밤에 서로 속삭이는 것 같았습니다.</Text>
+      <Text>작고 흠 없는 보물들이 반짝이며 늘어서 있는데, 어찌나 완벽하게 둥근지 밤이면 서로 속삭일 것만 같습니다. 우아함과 부, 그리고 때로는 미심쩍은 선물 의도의 상징이지요. 몸에 걸치면 갑자기 모든 걸음이 더 우아하고 모든 몸짓이 더 세련되어 보입니다. 적어도 걸쇠가 걸리기 전까지는요.</Text>
     </Text>
     <Text>
       <GUID>1404000596</GUID>
@@ -1878,7 +1893,7 @@
     <Text>
       <GUID>1404000678</GUID>
       <!-- Text | Truly overwhelming. I will carry this moment forever. | Truly overwhelming. I will carry this moment forever. -->
-      <Text>정말 압도적입니다.</Text>
+      <Text>정말 압도적입니다. 이 순간을 영원히 간직하겠습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000679</GUID>
@@ -2043,7 +2058,7 @@
     <Text>
       <GUID>1404000732</GUID>
       <!-- Text | A colossal waste of hype. Nothing lived up to the billing. | A colossal waste of hype. Nothing lived up to the billing. -->
-      <Text>과대광고의 엄청난 낭비입니다.</Text>
+      <Text>엄청난 과대광고였습니다. 기대에 미치는 것이 하나도 없었습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000733</GUID>
@@ -2103,17 +2118,17 @@
     <Text>
       <GUID>1404000794</GUID>
       <!-- Text | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. | With care and reverence, the first stones of a magnificent mosque are laid. This sacred foundation marks the beginning of a place of reflection and devotion, a lasting sanctuary that will welcome generations of worshippers. -->
-      <Text>주의와 존경심을 담아 웅장한 모스크의 첫 번째 돌을 놓았습니다.</Text>
+      <Text>정성과 경건함으로 장엄한 사원의 첫 돌이 놓입니다. 이 신성한 기초는 성찰과 헌신의 장소, 수 세대의 신자들을 맞이할 영원한 성소의 시작을 알립니다.</Text>
     </Text>
     <Text>
       <GUID>1404000795</GUID>
       <!-- Text | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. | Graceful arches rise, and the prayer hall unfolds in quiet grandeur. Light filters through the intricate decorations as the space prepares to receive the silent prayers and the gathered hearts of a growing congregation. -->
-      <Text>우아한 아치가 솟아오르고, 기도실은 조용하고 장엄하게 펼쳐집니다.</Text>
+      <Text>우아한 아치가 솟아오르고 기도실이 고요한 장엄함 속에 펼쳐집니다. 섬세한 장식 사이로 빛이 스며들며, 이 공간은 늘어나는 신도들의 조용한 기도와 모인 마음을 맞이할 준비를 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000796</GUID>
       <!-- Text | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. | With its soaring minarets and nearly completed, radiant dome, the mosque's silhouette is crowned. A harmonious union of faith and artistry is poised to bestow awe, tranquility, and timeless spiritual refuge. -->
-      <Text>솟아오른 첨탑과 거의 완성된 빛나는 돔으로 모스크의 실루엣이 더욱 돋보입니다.</Text>
+      <Text>높이 솟은 첨탑과 거의 완성된 빛나는 돔이 사원의 실루엣을 장식합니다. 신앙과 예술의 조화로운 결합이 경외감과 평온, 그리고 시대를 초월한 영적 안식처를 선사하려 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000800</GUID>
@@ -2161,49 +2176,59 @@
       <Text>영원을 위한 기념비</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>순례자들의 찬사</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>술탄국 전역에서 순례자들이 일생에 한 번뿐인 행사에 참여하기 위해 모였습니다.</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
-      <Text>방금 카히나 부인이 이상한 모양의 편지를 배달했습니다.</Text>
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
+      <Text>마담 카히나가 방금 이상하게 생긴 편지를 전해 주었습니다. 이는 술탄의 초대장으로, 술탄은 알려진 세계에서 가장 험난한 곳에도 정착해 온 당신의 명성을 들었다고 합니다. 그는 술탄국의 수도로 와 달라고 요청합니다. 마담 카히나는 이것이 수익성 있는 사업 기회이자 당신의 무역 제국을 확장할 방법이 될 수 있다고 생각합니다. 엔베사 너머 미지의 세계로 향하는 이 새로운 모험은 어려운 만큼 큰 보상을 줄 수도 있을 것 같습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000829</GUID>
       <!-- Text | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. | After a long and arduous journey you finally made it to the promised archipelago. The islands contain barely anything but sand and rocks, just a few dry palm trees. To permanently live here and build a city you need nomads, who have lived in deserts like this for centuries and have the knowledge on how to survive here. -->
-      <Text>길고 힘든 여행 끝에 마침내 약속된 군도에 도착했습니다.</Text>
+      <Text>길고 고된 여정 끝에 마침내 약속의 군도에 도착했습니다. 섬에는 모래와 바위, 그리고 마른 야자수 몇 그루밖에 없습니다. 이곳에 영구히 살며 도시를 건설하려면, 수 세기 동안 이런 사막에서 살아오며 생존하는 법을 아는 유목민이 필요합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
-      <Text>이곳에는 유목민이 너무 많아 식량 생산을 시작해야 하지만 건조하고 뜨거운 모래에서는 거의 아무것도 자라지 않습니다.</Text>
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
+      <Text>이렇게 많은 유목민이 머물게 되었으니 식량 생산을 시작해야 하지만, 메마르고 뜨거운 모래에서는 거의 아무것도 자라지 않습니다. 유목민은 전통적으로 노리아를 사용해 깊은 땅속에서 물을 퍼 올려 밭에 물을 대 왔습니다. 하지만 한곳에 노리아가 너무 많으면 대수층이 말라 더 이상 퍼 올릴 물이 없어집니다. 이를 막기 위해 유목민은 지속적이고 안정적인 물 공급을 보장하는 노리아 사이의 최소 거리를 알아냈습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000831</GUID>
       <!-- Text | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. | You have proven yourself worthy of receiving the first envoys of the sultanate who will arrive shortly. They have connections to the sultan and will report of all your successes and failures. As part of the sultan's court they are used to many luxuries of the orient that they will also expect in your city. -->
-      <Text>당신은 곧 도착할 술탄국의 첫 번째 사절을 맞이할 자격이 있음을 입증했습니다.</Text>
+      <Text>당신은 곧 도착할 술탄국의 첫 사절단을 맞이할 자격이 있음을 증명했습니다. 그들은 술탄과 연줄이 있으며 당신의 모든 성공과 실패를 보고할 것입니다. 술탄 궁정의 일원으로서 그들은 동양의 수많은 사치에 익숙하며, 당신의 도시에서도 그것을 기대할 것입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000832</GUID>
       <!-- Text | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. | The work of envoys is long and hard, and diplomatic tasks often consist of a lot of bureaucracy. A consulate offers a well staffed and secure workspace for many envoys, improving their efficiency. The paperwork generated in these buildings can be used to build monumental buildings, host special events and resettle more envoys that can do even more paperwork. -->
-      <Text>사절의 업무는 길고 힘들며, 외교 업무는 많은 관료주의로 구성되는 경우가 많습니다.</Text>
+      <Text>사절의 일은 길고 고되며, 외교 업무는 대개 수많은 관료적 절차로 이루어집니다. 영사관은 많은 사절에게 인력이 잘 갖춰진 안전한 업무 공간을 제공하여 효율을 높여 줍니다. 이 건물에서 만들어지는 서류는 기념비적인 건물을 짓고, 특별 행사를 열고, 더 많은 서류 작업을 할 사절을 더 이주시키는 데 쓸 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
-      <Text>더 많은 사절들이 신흥 도시로 이주하기를 원하며 그들을 위해 더 많은 집을 지을 것을 요구하고 있습니다.</Text>
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
+      <Text>더 많은 사절이 당신의 신흥 도시로 이주하고 싶어 하며, 그들을 위한 집을 더 지어 달라고 요구하고 있습니다. 도시가 문화 교류의 주요 거점이 되려면 성장해야 하며, 다양한 지역 상품뿐만 아니라 구세계와 신세계의 새로운 상품도 생산해야 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
-      <Text>바자회는 문화의 필수적인 부분이었으며 이러한 시장 가판대는 전통과 현대성을 결합하여 사절들이 산업 시대의 새로운 상품을 맛볼 수 있도록 해줍니다.</Text>
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
+      <Text>바자르는 예로부터 문화의 필수적인 일부였으며, 이 시장 노점들은 전통과 현대를 결합하여 사절들이 산업 시대의 새로운 상품을 접할 수 있게 합니다. 사절들은 그 상품들을 연구하는 데 큰 관심을 보이며 술탄국에 보고할 것이고, 어쩌면 당신의 상품을 위한 새로운 시장이 열릴지도 모릅니다. 당신에게 유일한 문제는 그 먼 곳에서 제품을 공급하는 것입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
-      <Text>당신의 도시는 특사 집단 사이에서 매우 인기가 높아졌으며 규모와 편의 시설 면에서 국회 의사당과 맞먹을 정도가 될 것이라는 소문이 있습니다.</Text>
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
+      <Text>당신의 도시는 사절들 사이에서 큰 인기를 얻었으며, 규모와 편의 시설 면에서 수도와 맞먹을 날이 머지않았다는 소문이 돕니다. 나라 최고위 사절들의 새로운 물결이 다가오고 있으며, 동양과 서양은 지난 400년 중 그 어느 때보다 가까워지고 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
-      <Text>술탄은 당신의 발전에 매우 만족하며 이 사막에서 당신의 최고의 업적이 될 기념물에 대한 청사진에 대한 접근 권한을 부여했습니다.</Text>
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
+      <Text>술탄은 당신의 발전에 매우 만족하여, 이 사막에서 당신의 최고 업적이 될 기념물의 설계도를 내주었습니다. 이와 같은 대사원은 수 세기 전에 단 하나만 지어졌을 뿐이며, 두 번째를 짓는 것은 급변하는 산업 시대에도 전통이 이어질 수 있음을 상징하게 될 것입니다. 도시로 향하는 순례와 그로 인해 얻게 될 정치적 영향력은 말할 것도 없습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000837</GUID>
@@ -2241,6 +2266,16 @@
       <Text>이 기념물을 사용하면 순례를 수행할 수 있으며, 이를 통해 술탄국에서 영향력이 커질 것입니다.</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>사막 도로</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>목조 다리</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>단식의 달</Text>
@@ -2261,9 +2296,49 @@
       <Text>단식을 깨는 시간</Text>
     </Text>
     <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>모든 동양 주거지</Text>
+    </Text>
+    <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??진주 잠수부</Text>
+      <Text>진주 잠수부</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>광석 드럼 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>부양 농축액</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
+      <Text>공급되는 혼합물</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>빈 드럼</Text>
+    </Text>
+    <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>산 제조 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>수출품</Text>
+    </Text>
+    <Text>
+      <GUID>1404000886</GUID>
+      <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
+      <Text>부유 선광 공장</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -2392,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>무스타파 이븐 카디르(Mustafa ibn Qadir), 청동 장인의 대가</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>무스타파 이븐 카디르(Mustafa ibn Qadir), 은 장인의 대가</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2417,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>Nabil ibn Yusuf al-Sarraj, 마이다스 터치와 함께</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>Nabil ibn Yusuf al-Sarraj, 실버 터치와 함께</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2478,137 +2553,137 @@
     <Text>
       <GUID>1404000931</GUID>
       <!-- Text | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. | Raised among oases and ancient orchards, Fatima learned from a young age to read the rhythm of trees as others read the stars. Her knowledge combines precise pruning, patient watering, and the correct use of selected shoots—practices passed down from generation to generation. -->
-      <Text>오아시스와 고대 과수원에서 자란 파티마는 다른 사람들이 별을 읽는 것처럼 나무의 리듬을 읽는 법을 어릴 때부터 배웠습니다.</Text>
+      <Text>오아시스와 오래된 과수원 사이에서 자란 파티마는 다른 이들이 별을 읽듯 어릴 때부터 나무의 리듬을 읽는 법을 배웠습니다. 그녀의 지식은 정밀한 가지치기, 인내심 있는 물 주기, 엄선된 새순의 올바른 활용을 아우르며, 이는 대대로 전해 내려온 기술입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000932</GUID>
       <!-- Text | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. | Mariam grew up among orchards where pomegranate trees were treated with almost ritualistic care. She knows the pruning, irrigation, and flowering cycles that allow for more abundant and consistent fruit production. Her presence in the fields improves yield without exhausting the trees. -->
-      <Text>마리암은 석류나무를 거의 의식적으로 관리하는 과수원에서 자랐습니다.</Text>
+      <Text>마리암은 석류나무를 거의 의식처럼 정성껏 돌보는 과수원에서 자랐습니다. 그녀는 더 풍성하고 꾸준한 결실을 가능하게 하는 가지치기, 관개, 개화 주기를 잘 알고 있습니다. 그녀가 밭에 있으면 나무를 지치게 하지 않으면서도 수확량이 늘어납니다.</Text>
     </Text>
     <Text>
       <GUID>1404000933</GUID>
       <!-- Text | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. | This method organizes the manual pollination of date palms, a traditional practice in orchards. By coordinating schedules and skilled hands, a higher fruiting rate is ensured. The system reduces losses caused by irregular or late pollination, although it requires planning and additional work during the peak season. -->
-      <Text>이 방법은 과수원의 전통적인 관행인 대추야자나무의 수동 수분을 구성합니다.</Text>
+      <Text>이 방법은 과수원의 전통 관행인 대추야자의 인공 수분을 체계화합니다. 일정과 숙련된 일손을 조율하여 더 높은 결실률을 보장합니다. 이 체계는 불규칙하거나 늦은 수분으로 인한 손실을 줄여 주지만, 성수기에는 계획과 추가 작업이 필요합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000934</GUID>
       <!-- Text | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. | Hassan has spent his life following the desert routes, raising camels resistant to the heat and the long journey. He knows the value of each animal by its gait, its breath, and the strength of its legs, and he carefully selects the specimens destined for breeding. -->
-      <Text>하산은 사막 길을 따라가며 더위와 긴 여정에 강한 낙타를 키우며 일생을 보냈습니다.</Text>
+      <Text>하산은 사막 길을 따라다니며 더위와 긴 여정에 강한 낙타를 길러 온 평생을 보냈습니다. 그는 걸음걸이와 숨소리, 다리의 힘으로 각 동물의 가치를 알아보며, 번식용 개체를 신중하게 고릅니다.</Text>
     </Text>
     <Text>
       <GUID>1404000935</GUID>
       <!-- Text | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. | This agreement regulates the shared use of grazing routes and water sources for livestock. By coordinating clans and breeders, animal losses are reduced and reproduction is improved. This measure allows for the maintenance of larger and more stable herds. -->
-      <Text>이 협정은 가축을 위한 방목로와 수원의 공동 사용을 규제합니다.</Text>
+      <Text>이 협정은 가축을 위한 방목로와 수원의 공동 이용을 규정합니다. 부족과 사육자 간의 조율을 통해 가축 손실이 줄고 번식이 개선됩니다. 이 조치로 더 크고 안정적인 무리를 유지할 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000936</GUID>
       <!-- Text | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. | Rashid has dedicated his life to the care of plants prized for both their fragrance and their dye. He knows the optimal harvest and pruning times, allowing for better yields from his plantations, as well as the production of exotic flowers and flowers from other lands. -->
-      <Text>Rashid는 향기와 염료로 유명한 식물을 관리하는 데 일생을 바쳤습니다.</Text>
+      <Text>라시드는 향기와 염료 모두로 귀하게 여겨지는 식물을 돌보는 데 평생을 바쳤습니다. 그는 최적의 수확 및 가지치기 시기를 알고 있어 농장의 수확량을 높일 뿐 아니라, 이국적인 꽃과 다른 땅의 꽃도 재배합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000937</GUID>
       <!-- Text | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. | This system organizes the pruning, watering, and harvesting of roses according to well-defined seasonal cycles. By synchronizing the gardeners' work, more abundant and uniform blooms are achieved. This practice reduces losses due to disease and soil depletion. It requires discipline and planning, but rewards with more consistent harvests. -->
-      <Text>이 시스템은 잘 정의된 계절 주기에 따라 장미 가지치기, 물주기, 수확을 구성합니다.</Text>
+      <Text>이 체계는 명확하게 정해진 계절 주기에 따라 장미의 가지치기, 물 주기, 수확을 관리합니다. 정원사들의 작업을 맞춤으로써 더 풍성하고 고른 꽃을 피웁니다. 이 방식은 병해와 토양 고갈로 인한 손실을 줄여 줍니다. 규율과 계획이 필요하지만 더 꾸준한 수확으로 보답합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000938</GUID>
       <!-- Text | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. | Yusuf is known for his skill in pressing pomegranates, a delicate fruit whose juice requires patience and well-measured strength. For years he has perfected methods that prevent pulp loss and preserve the deep color of the extracted liquid. -->
-      <Text>Yusuf는 인내심과 잘 측정된 힘이 필요한 섬세한 과일인 석류를 압착하는 기술로 유명합니다.</Text>
+      <Text>유수프는 석류를 짜는 솜씨로 유명합니다. 석류는 섬세한 과일이라 즙을 짜려면 인내심과 적절히 조절된 힘이 필요합니다. 그는 수년간 과육 손실을 막고 짜낸 즙의 깊은 색을 지키는 방법을 완성해 왔습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000939</GUID>
       <!-- Text | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. | Salim gained fame for his ability to maintain the flow of juice even when pomegranates were scarce or arrived damaged at the workshop. Quickly, and with questionable judgment, he substituted the fruit with citrus fruits of similar acidity, achieving a liquid that looked convincing at first glance. -->
-      <Text>살림은 석류가 부족하거나 작업장에 손상된 상태로 도착했을 때에도 주스의 흐름을 유지하는 능력으로 명성을 얻었습니다.</Text>
+      <Text>살림은 석류가 부족하거나 상한 채로 작업장에 도착할 때에도 주스 공급을 이어 가는 능력으로 명성을 얻었습니다. 그는 재빠르게, 그러나 미심쩍은 판단으로 석류를 비슷한 산도의 감귤류로 대신하여 언뜻 보기에 그럴듯한 즙을 만들어 냈습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000940</GUID>
       <!-- Text | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. | This press introduces a manual screw system that allows for greater pressure and control when extracting pomegranate juice. By applying force evenly, pulp loss is reduced, and the yield from each fruit is improved. Its adoption marks the transition from home production to a semi-industrial scale. -->
-      <Text>이 프레스에는 석류 주스를 추출할 때 더 큰 압력과 제어가 가능한 수동 스크류 시스템이 도입되었습니다.</Text>
+      <Text>이 압착기는 석류즙을 짤 때 더 큰 압력과 정밀한 조절을 가능하게 하는 수동 나사식 장치를 도입했습니다. 힘을 고르게 가해 과육 손실을 줄이고 과일 하나당 수율을 높입니다. 이 압착기의 도입은 가내 생산에서 반산업적 규모로의 전환을 의미합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000941</GUID>
       <!-- Text | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. | Originally from Tabriz, Farhad learned the art of textile production from childhood, counting knots before he could read. His steady hand and eye for design allow him to expedite the work. Under his direction, the workshops produce more numerous and uniform pieces, prized both in local bazaars and distant markets. -->
-      <Text>타브리즈(Tabriz) 출신인 Farhad는 어린 시절부터 직물 생산 기술을 배웠으며 글을 읽기도 전에 매듭을 세었습니다.</Text>
+      <Text>타브리즈 출신의 파르하드는 글을 읽기도 전에 매듭을 세며 어릴 때부터 직물 기술을 배웠습니다. 흔들림 없는 손과 도안을 보는 안목 덕분에 작업 속도를 높일 수 있습니다. 그의 지휘 아래 작업장들은 더 많고 균일한 작품을 생산하며, 이는 현지 바자르와 먼 시장 모두에서 귀하게 여겨집니다.</Text>
     </Text>
     <Text>
       <GUID>1404000942</GUID>
       <!-- Text | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. | Mehmet forged his reputation in the workshops of Central Anatolia, where carpets must withstand both daily use and travel. His experience allows him to organize the weavers with precision, preventing errors in the patterns and reducing time wasted on corrections. -->
-      <Text>Mehmet은 카펫이 일상적인 사용과 여행을 모두 견뎌야 하는 중앙 아나톨리아의 작업장에서 명성을 쌓았습니다.</Text>
+      <Text>메흐메트는 양탄자가 일상적인 사용과 여행을 모두 견뎌야 하는 중앙 아나톨리아의 작업장에서 명성을 쌓았습니다. 그의 경험 덕분에 직조공들을 정밀하게 조직하여 무늬의 실수를 막고 수정에 낭비되는 시간을 줄일 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000943</GUID>
       <!-- Text | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. | Layla trained among the royal looms where silk is treated as an almost sacred commodity. She knows the precise tension and the correct rhythm to avoid breakage and waste of thread. Merchants and artisans value her consistency and discerning eye. -->
-      <Text>Layla는 실크가 거의 신성한 상품으로 취급되는 왕실 직기에서 훈련을 받았습니다.</Text>
+      <Text>라일라는 비단을 거의 신성한 물품처럼 다루는 왕실 베틀에서 수련했습니다. 그녀는 실이 끊어지거나 낭비되지 않도록 정확한 장력과 올바른 리듬을 알고 있습니다. 상인과 장인들은 그녀의 한결같음과 안목을 높이 평가합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000944</GUID>
       <!-- Text | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. | Abdul is known for his mastery in cultivating and selecting plants for the most prized spices. He knows exactly which ingredient enhances and improves both the flavor and aroma of every gram of spice he produces in his workshop, making it a product of the highest quality. -->
-      <Text>압둘은 가장 귀중한 향신료를 위한 식물을 재배하고 선택하는 데 능숙한 것으로 유명합니다.</Text>
+      <Text>압둘은 가장 귀한 향신료를 위한 식물을 재배하고 선별하는 솜씨로 유명합니다. 그는 작업장에서 만드는 향신료 한 그램 한 그램의 맛과 향을 어떤 재료가 살리고 높이는지 정확히 알고 있어, 최고 품질의 제품을 만들어 냅니다.</Text>
     </Text>
     <Text>
       <GUID>1404000945</GUID>
       <!-- Text | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. | Hassan has mastered the art of blending, drying, and preserving spices with almost obsessive precision. He is said to be able to detect the slightest variation in aroma before even opening a sack. His methods prioritize a balance between intensity and preservation. -->
-      <Text>Hassan은 강박에 가까운 정확성으로 향신료를 혼합, 건조 및 보존하는 기술을 마스터했습니다.</Text>
+      <Text>하산은 거의 집착에 가까운 정밀함으로 향신료를 배합하고 말리고 보존하는 기술을 터득했습니다. 그는 자루를 열기도 전에 향의 미세한 차이를 알아챌 수 있다고 합니다. 그의 방법은 강렬함과 보존성 사이의 균형을 우선시합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000946</GUID>
       <!-- Text | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. | From a young age, Zayn developed a legendary intolerance to spicy food, capable of ruining his entire day with just the smell. Forced to find alternatives, he replaced the heat with the warmth of cinnamon, discovering milder and surprisingly popular blends. Over time, his personal aversion became a productive method. -->
-      <Text>Zayn은 어릴 때부터 매운 음식에 대한 전설적인 편협함을 키웠고, 그 냄새만으로도 하루 종일을 망칠 수 있었습니다.</Text>
+      <Text>자인은 어릴 때부터 매운 음식을 전설적일 만큼 못 견뎠는데, 냄새만으로도 하루를 망칠 정도였습니다. 대안을 찾을 수밖에 없었던 그는 매운맛을 계피의 따뜻함으로 바꾸어 더 순하고 놀라울 만큼 인기 있는 배합을 찾아냈습니다. 시간이 흐르며 그의 개인적인 거부감은 생산적인 방법이 되었습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000947</GUID>
       <!-- Text | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. | Pashaoglu trained in the workshops of the Grand Vizier, where the caftan is not just clothing, but a symbol of rank and dignity. He knows the precise cuts and the proper use of fine fabrics to expedite tailoring without compromising the drape or durability of the garment. -->
-      <Text>Pashaoglu는 Grand Vizier의 작업장에서 훈련을 받았는데, 여기서 caftan은 단순한 옷이 아니라 계급과 존엄성의 상징입니다.</Text>
+      <Text>파샤오글루는 카프탄이 단순한 옷이 아니라 지위와 품위의 상징인 대재상의 작업장에서 수련했습니다. 그는 정확한 재단법과 고급 원단의 올바른 사용법을 알고 있어, 옷의 맵시나 내구성을 해치지 않으면서 재봉 속도를 높입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000948</GUID>
       <!-- Text | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. | This ordinance establishes clear standards for cutting, sewing, and dyeing in kaftan making. By concentrating production in supervised workshops, fabric waste is reduced and each workday is used more efficiently. Master tailors lose some autonomy but gain access to better materials and shared tools. -->
-      <Text>이 조례는 카프탄 제작 시 재단, 봉제, 염색에 대한 명확한 기준을 설정합니다.</Text>
+      <Text>이 법령은 카프탄 제작에서 재단, 바느질, 염색에 대한 명확한 기준을 정합니다. 감독받는 작업장에 생산을 집중시켜 원단 낭비를 줄이고 하루하루의 작업을 더 효율적으로 활용합니다. 재단 장인들은 자율성을 다소 잃지만, 더 좋은 재료와 공용 도구를 쓸 수 있게 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404000949</GUID>
       <!-- Text | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. | Amina has mastered the art of fabric rolling and tension. Under her guidance, the factory adopts standardized and modern folding methods, which reduce errors and accelerate production. As a result, each turban emerges firm, balanced, and ready to wear. -->
-      <Text>Amina는 직물 롤링 및 장력 기술을 마스터했습니다.</Text>
+      <Text>아미나는 천을 말고 장력을 조절하는 기술을 터득했습니다. 그녀의 지도 아래 공장은 표준화된 현대적인 접기 방식을 도입하여 실수를 줄이고 생산을 가속합니다. 그 결과 모든 터번이 단단하고 균형 잡힌 채로, 바로 쓸 수 있게 완성됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404000950</GUID>
       <!-- Text | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. | Jalal is renowned for his mastery of damascened steel, whose undulating grain demands precise heat and accurate blows. In his forge, the metal is worked with ritualistic patience, resulting in stronger and more flexible blades. Under his guidance, workshops produce sabers with greater consistency and less material waste. -->
-      <Text>Jalal은 기복이 심한 결이 정확한 열과 정확한 타격을 요구하는 다마스크 강철의 숙련자로 유명합니다.</Text>
+      <Text>잘랄은 다마스쿠스 강철을 다루는 솜씨로 유명합니다. 물결치는 결을 만들려면 정확한 열과 정밀한 망치질이 필요합니다. 그의 대장간에서는 의식과도 같은 인내로 금속을 다루어 더 강하고 유연한 칼날을 만들어 냅니다. 그의 지도 아래 작업장들은 재료 낭비를 줄이며 더 고른 품질의 사브르를 생산합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000951</GUID>
       <!-- Text | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. | This mechanical hammer harnesses the constant force of water to strike, shape, and compact materials with a regularity impossible to achieve by hand. Its use reduces human effort and accelerates artisanal processes that previously required long hours. It is especially valuable for repetitive and heavy-duty work. -->
-      <Text>이 기계식 해머는 물의 일정한 힘을 이용하여 손으로는 달성할 수 없는 규칙성을 갖고 재료를 두드리고 모양을 만들고 조밀하게 만듭니다.</Text>
+      <Text>이 기계식 해머는 물의 일정한 힘을 이용해 손으로는 불가능한 규칙성으로 재료를 두드리고, 성형하고, 다집니다. 사람의 노력을 덜어 주고 예전에는 오랜 시간이 걸리던 수공업 공정을 빠르게 합니다. 특히 반복적이고 힘든 작업에 매우 유용합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000952</GUID>
       <!-- Text | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. | Zahra is renowned for her mastery of rosewater distillation, a process that demands fresh flowers and patient fire. She knows the precise moment to collect the steam to preserve aroma and purity. Her stills produce larger volumes without sacrificing fragrance or clarity. -->
-      <Text>Zahra는 신선한 꽃과 끈기 있는 불이 필요한 과정인 장미수 증류의 숙련자로 유명합니다.</Text>
+      <Text>자흐라는 신선한 꽃과 인내심 있는 불 조절이 필요한 장미수 증류의 대가로 유명합니다. 그녀는 향과 순도를 지키기 위해 증기를 모아야 할 정확한 순간을 알고 있습니다. 그녀의 증류기는 향이나 맑음을 해치지 않으면서 더 많은 양을 만들어 냅니다.</Text>
     </Text>
     <Text>
       <GUID>1404000953</GUID>
       <!-- Text | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. | An advanced distillation apparatus used to extract rose water in greater quantities through sealed, high-heat vaporization. By increasing internal pressure, the retort improves yield and efficiency from fresh petals. However, improper handling or excessive heat can cause dangerous ruptures. -->
-      <Text>밀봉된 고열 기화를 통해 더 많은 양의 장미수를 추출하는 데 사용되는 고급 증류 장치입니다.</Text>
+      <Text>밀폐된 고온 기화를 통해 더 많은 양의 장미수를 추출하는 고급 증류 장치입니다. 내부 압력을 높여 신선한 꽃잎으로부터의 수율과 효율을 향상시킵니다. 하지만 잘못 다루거나 지나치게 가열하면 위험한 파열이 일어날 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000954</GUID>
       <!-- Text | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. | Karim is renowned for his exceptional skill and expertise in crafting the most beautiful, well-balanced, and durable hookahs of exceptional quality. He is a master of glass and metalwork, ensuring consistent airflow and a proper seal. -->
-      <Text>카림은 뛰어난 품질의 가장 아름답고 균형이 잘 잡혀 있으며 내구성이 뛰어난 물담배를 제작하는 뛰어난 기술과 전문 지식으로 유명합니다.</Text>
+      <Text>카림은 가장 아름답고 균형 잡히며 오래가는 최상급 물담배를 만드는 탁월한 솜씨와 전문 지식으로 유명합니다. 그는 유리와 금속 세공의 대가로서 일정한 공기 흐름과 완벽한 밀폐를 보장합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000955</GUID>
       <!-- Text | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. | Yahya is known for his expertise in casting and molding bronze destined for rich, exquisitely crafted candlesticks. With a keen eye and a steady hand, he creates the most intricate patterns, crafting the most beautiful pieces, worthy of the halls of the aristocracy and royalty. -->
-      <Text>Yahya는 풍부하고 정교하게 제작된 촛대를 만들기 위한 청동 주조 및 성형 분야의 전문 지식으로 유명합니다.</Text>
+      <Text>야흐야는 화려하고 정교한 촛대를 위한 청동 주조와 성형 솜씨로 유명합니다. 예리한 눈과 흔들림 없는 손으로 가장 섬세한 무늬를 만들어 내며, 귀족과 왕실의 대전에 어울리는 가장 아름다운 작품을 빚어냅니다.</Text>
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>무스타파는 수십 년 동안 일상용품과 장식품에 사용되는 청동, 황동 및 기타 금속을 사용해 작업해 왔습니다.</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>무스타파는 수십 년 동안 일상용품과 장식품에 쓰이는 은과 기타 금속을 다뤄 왔습니다. 그의 경험 덕분에 촛대와 물담배를 더 고른 품질로, 결함은 더 적게 생산하는 작업장을 꾸릴 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
       <!-- Text | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. | A high-heat furnace using charcoal and sealed crucibles to melt and refine metal with greater intensity. This process allows for stronger steel and more workable bronze, improving production across multiple workshops. However, the extreme temperatures place heavy strain on materials and structures. -->
-      <Text>숯과 밀봉된 도가니를 사용하여 더 높은 강도로 금속을 녹이고 정련하는 고열로입니다.</Text>
+      <Text>숯과 밀폐된 도가니를 사용하여 금속을 더 강하게 녹이고 정련하는 고온로입니다. 이 공정으로 더 강한 강철과 다루기 쉬운 청동을 얻을 수 있어 여러 작업장의 생산이 향상됩니다. 하지만 극한의 온도는 재료와 구조물에 큰 부담을 줍니다.</Text>
     </Text>
     <Text>
       <GUID>1404000958</GUID>
@@ -2618,72 +2693,72 @@
     <Text>
       <GUID>1404000959</GUID>
       <!-- Text | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. | Samiq arrived at the Kalifa's confectionery shop after years of experimenting with different mixtures of nuts and sweet pastes in small workshops. It was there that he developed methods of slower grinding and controlled resting, achieving a uniform and malleable marzipan. -->
-      <Text>Samiq는 소규모 작업장에서 수년간 견과류와 달콤한 페이스트의 다양한 혼합물을 실험한 후 Kalifa의 제과점에 도착했습니다.</Text>
+      <Text>사미크는 작은 작업장에서 여러 견과류와 달콤한 반죽 배합을 수년간 실험한 끝에 칼리프의 과자점에 왔습니다. 그곳에서 그는 더 천천히 갈고 휴지 시간을 조절하는 방법을 개발하여 고르고 잘 빚어지는 마지팬을 만들어 냈습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000960</GUID>
       <!-- Text | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. | Aisha forged her reputation as a master pearlsmith working with the finest pearls harvested from the warm waters of the gulf of her hometown. Her skill in piercing, sorting, and stringing pearls prevents breakage, making the most of them and avoiding loss. -->
-      <Text>아이샤는 고향 만의 따뜻한 바다에서 수확한 최고급 진주를 사용하여 진주 세공사의 명장이라는 명성을 쌓았습니다.</Text>
+      <Text>아이샤는 고향 만의 따뜻한 바다에서 채취한 최상급 진주를 다루는 진주 세공 장인으로 명성을 쌓았습니다. 진주에 구멍을 뚫고, 분류하고, 꿰는 솜씨 덕분에 깨짐을 막고 진주를 최대한 활용하며 손실을 피합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil은 전통적인 진주 끈을 섬세하고 꼼꼼하게 조립된 금 사슬로 대체하는 것으로 유명합니다.</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>나빌은 전통적인 진주 실을 꼼꼼하게 엮은 가는 은사슬로 바꾸는 것으로 유명합니다. 그의 방식은 각 작품의 가치를 높여 주지만, 더 높은 정밀도와 값비싼 재료가 필요합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
       <!-- Text | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. | This workbench introduces an organized system for selecting, polishing, and matching pearls before setting. By separating the pieces by size, luster, and tone, the artisan reduces errors during assembly. Production becomes more predictable and efficient without losing its handcrafted character. -->
-      <Text>이 작업대는 세팅 전 진주를 선택하고 연마하고 매칭하는 체계적인 시스템을 도입합니다.</Text>
+      <Text>이 작업대는 진주를 세팅하기 전에 고르고, 광내고, 짝을 맞추는 체계적인 방식을 도입합니다. 크기와 광택, 색조에 따라 진주를 나누어 장인은 조립 중 실수를 줄입니다. 생산은 수공예의 특성을 잃지 않으면서 더 예측 가능하고 효율적으로 변합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000963</GUID>
       <!-- Text | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. | Issued by the Diwan to end the logistical chaos of the bazaars and caravanserais, this ordinance establishes strict rules regarding the stacking, rotation, and safekeeping of goods. Warehouses now operate under administrative supervision, expanding their effective capacity without the need for new construction. -->
-      <Text>바자회와 캐러밴세레의 물류 혼란을 끝내기 위해 디완(Diwan)이 발표한 이 조례는 상품의 쌓기, 회전 및 보관에 관한 엄격한 규칙을 설정합니다.</Text>
+      <Text>바자르와 대상 숙소의 물류 혼란을 끝내기 위해 디완이 반포한 이 법령은 물품의 적재, 순환, 보관에 관한 엄격한 규칙을 정합니다. 이제 창고는 행정 감독 아래 운영되어 새로 짓지 않고도 실질적인 수용량이 늘어납니다.</Text>
     </Text>
     <Text>
       <GUID>1404000964</GUID>
       <!-- Text | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. | A formal decree encouraging population growth through regulated settlement and civic obligations. By promoting residency and labor registration, it increases the number of taxable inhabitants. The edict strengthens state oversight of households and commerce, improving revenue collection. -->
-      <Text>규제된 정착과 시민의 의무를 통해 인구 증가를 장려하는 공식 법령입니다.</Text>
+      <Text>규제된 정착과 시민의 의무를 통해 인구 증가를 장려하는 공식 칙령입니다. 거주 및 노동 등록을 장려하여 과세 대상 주민의 수를 늘립니다. 이 칙령은 가구와 상업에 대한 국가의 감독을 강화하여 세수 징수를 개선합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000965</GUID>
       <!-- Text | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. | Omar built his reputation by organizing reliable routes for the import of foreign goods across sea and land. He understands tariffs, storage, and timing, ensuring supplies arrive in steady volumes. Merchants value his connections and disciplined accounting. -->
-      <Text>Omar는 바다와 육지를 건너 외국 상품을 수입할 수 있는 안정적인 경로를 조직함으로써 명성을 쌓았습니다.</Text>
+      <Text>오마르는 바다와 육지를 가로질러 외국 상품을 수입하는 믿을 만한 경로를 구축하여 명성을 쌓았습니다. 그는 관세, 보관, 시기를 잘 알아 물자가 꾸준한 양으로 도착하도록 합니다. 상인들은 그의 인맥과 철저한 장부 관리를 높이 평가합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000966</GUID>
       <!-- Text | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. | Hassan travels through souks and warehouses, gathering locally made goods. He knows artisans, farmers, and small workshops, and he knows when and where to sell each item. His work keeps local trade flowing smoothly, without relying on long-distance routes. -->
-      <Text>하산은 시장과 창고를 돌아다니며 현지에서 만든 상품을 수집합니다.</Text>
+      <Text>하산은 수크와 창고를 돌아다니며 현지에서 만든 상품을 모읍니다. 그는 장인, 농부, 작은 작업장을 알고 있으며, 각 물건을 언제 어디서 팔아야 할지 압니다. 그의 일 덕분에 먼 교역로에 의존하지 않고도 현지 상거래가 원활하게 이루어집니다.</Text>
     </Text>
     <Text>
       <GUID>1404000967</GUID>
       <!-- Text | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. | Farid has earned a place in the markets by trading well-crafted metal objects, from candlesticks to everyday utensils. He recognizes good bronze by its weight, its tone, and the sound it makes when gently tapped. His stall attracts both artisans and discerning buyers. -->
-      <Text>Farid는 촛대부터 일상용품까지 잘 만들어진 금속 물체를 거래하여 시장에서 입지를 굳혔습니다.</Text>
+      <Text>파리드는 촛대부터 일상 도구까지 잘 만든 금속 제품을 거래하며 시장에서 자리를 잡았습니다. 그는 좋은 청동을 무게와 빛깔, 살짝 두드렸을 때 나는 소리로 알아봅니다. 그의 노점에는 장인들과 안목 있는 손님들이 모두 모여듭니다.</Text>
     </Text>
     <Text>
       <GUID>1404000968</GUID>
       <!-- Text | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. | Issued by the vizier's authority, this decree reorganizes the oversight of public services under a unified command. By extending the jurisdiction of inspectors and administrators, it allows mosques, wells, bathhouses, and offices to serve more distant districts. -->
-      <Text>고관의 권위에 의해 발표된 이 법령은 통합된 명령에 따라 공공 서비스에 대한 감독을 재편성합니다.</Text>
+      <Text>재상의 권한으로 반포된 이 칙령은 공공 서비스에 대한 감독을 단일한 지휘 아래 재편합니다. 감찰관과 행정관의 관할을 넓혀 사원, 우물, 목욕탕, 관청이 더 먼 지역까지 담당할 수 있게 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404000969</GUID>
       <!-- Text | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. | Ibrahim is responsible for coordinating the operation of several public Baths under a single administration. He organizes shifts, monitors the water supply, and ensures they remain open and operational beyond their immediate surroundings. Thanks to his management, the Baths serve more distant neighborhoods without interruption. -->
-      <Text>Ibrahim은 단일 관리하에 여러 공중 목욕탕의 운영을 조정하는 일을 담당합니다.</Text>
+      <Text>이브라힘은 여러 공중목욕탕의 운영을 하나의 관리 체계 아래에서 조율하는 일을 맡고 있습니다. 그는 교대 근무를 짜고, 물 공급을 감시하며, 목욕탕이 바로 인근을 넘어서까지 계속 문을 열고 운영되도록 합니다. 그의 관리 덕분에 목욕탕은 더 먼 동네까지 끊김 없이 이용할 수 있습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000970</GUID>
       <!-- Text | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. | This regulation establishes a central authority over the city's souks and exchange points. By standardizing sales regulations, weights, and hours, it allows the market to serve more distant neighborhoods. Merchants receive licenses that expand their reach beyond their immediate surroundings. -->
-      <Text>이 규정은 도시의 시장과 교환소에 대한 중앙 권한을 확립합니다.</Text>
+      <Text>이 규정은 도시의 수크와 교환소를 관할하는 중앙 기관을 세웁니다. 판매 규정, 도량형, 영업시간을 표준화하여 시장이 더 먼 동네까지 담당할 수 있게 합니다. 상인들은 바로 인근을 넘어 활동 범위를 넓혀 주는 허가증을 받습니다.</Text>
     </Text>
     <Text>
       <GUID>1404000971</GUID>
       <!-- Text | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. | Rashid comes from a long and distinguished line of high-ranking servants of the Sultan. He acts as an intermediary between merchants, travelers, and foreign authorities. His duties involve registering, certifying, and resolving matters that extend beyond the immediate consulate. -->
-      <Text>라시드는 술탄의 고위 하인으로 구성된 길고 뛰어난 가문 출신입니다.</Text>
+      <Text>라시드는 술탄을 섬겨 온 고위 신하들의 유서 깊고 명망 높은 가문 출신입니다. 그는 상인, 여행자, 외국 당국 사이의 중재자 역할을 합니다. 그의 임무는 영사관의 직접적인 범위를 넘어서는 사안을 등록하고, 인증하고, 해결하는 것입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000972</GUID>
       <!-- Text | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. | Husayn knows the art of preparing and serving coffee. He controls the roasting, grinding, and pace of service to accommodate more customers without compromising quality. Under his guidance, the coffee shop becomes a meeting place for people from even the most distant neighborhoods. Travelers and locals adjust their routes to stop at his establishment. -->
-      <Text>Husayn은 커피를 준비하고 제공하는 기술을 알고 있습니다.</Text>
+      <Text>후사인은 커피를 만들고 대접하는 기술을 알고 있습니다. 그는 품질을 해치지 않으면서 더 많은 손님을 맞을 수 있도록 로스팅, 분쇄, 서빙 속도를 조절합니다. 그의 지휘 아래 다방은 가장 먼 동네 사람들까지 모이는 만남의 장소가 됩니다. 여행자와 주민들은 그의 가게에 들르기 위해 길을 바꿀 정도입니다.</Text>
     </Text>
     <Text>
       <GUID>1404000976</GUID>
@@ -2693,7 +2768,7 @@
     <Text>
       <GUID>1404000977</GUID>
       <!-- Text | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. | Sheikh al-Qadiri earned renown for his resonant sermons delivered from the minbar, where his words carry equal weight among merchants, laborers, and officials. Educated in law and tradition, he speaks with measured authority, encouraging order, diligence, and communal responsibility. -->
-      <Text>셰이크 알 카디리(Sheikh al-Qadiri)는 민바(minbar)에서 전달되는 감동적인 설교로 명성을 얻었으며, 그곳에서 그의 말은 상인, 노동자, 관리들 사이에서 동등한 비중을 차지합니다.</Text>
+      <Text>셰이크 알카디리는 민바르에서 전하는 울림 있는 설교로 명성을 얻었으며, 그의 말은 상인, 노동자, 관리들 사이에서 똑같이 무게를 지닙니다. 율법과 전통을 배운 그는 절제된 권위로 말하며 질서와 근면, 공동체적 책임을 권합니다.</Text>
     </Text>
     <Text>
       <GUID>1404001002</GUID>
@@ -2758,7 +2833,7 @@
     <Text>
       <GUID>1404001014</GUID>
       <!-- Text | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. | Madame Kahina has given you an invitation from the Sultan. This is a rare opportunity, as not many outsiders are allowed to enter the sultanate. -->
-      <Text>카히나 부인이 술탄으로부터 초대를 받았습니다.</Text>
+      <Text>마담 카히나가 술탄의 초대장을 당신에게 전했습니다. 술탄국에 들어갈 수 있는 외부인은 많지 않기에, 이는 드문 기회입니다.</Text>
     </Text>
     <Text>
       <GUID>1404001017</GUID>
@@ -2818,7 +2893,7 @@
     <Text>
       <GUID>1404001048</GUID>
       <!-- ExpeditionDecision | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> | <b>After days of travel,</b> your expedition reaches a dusty border town at the edge of the Sultanate. Sandstone watchtowers overlook the road, and guards in flowing robes carefully inspect each traveler. Madame Kahina whispers that foreigners are rarely permitted beyond this point, yet the new Sultan's invitation may grant you passage. <b>You must decide how to cross the border.</b> -->
-      <Text>&lt;b&gt;며칠간의 여행 끝에&lt;/b&gt; 귀하의 원정대는 술탄국 가장자리의 먼지가 많은 국경 마을에 도착합니다.</Text>
+      <Text>&lt;b&gt;며칠간의 여행 끝에,&lt;/b&gt; 원정대는 술탄국 변두리의 먼지투성이 국경 마을에 도착합니다. 사암 망루가 길을 내려다보고, 헐렁한 옷을 입은 경비병들이 여행자 한 명 한 명을 꼼꼼히 검사합니다. 마담 카히나는 외국인이 이곳을 넘어가는 일은 드물지만, 새 술탄의 초대장이라면 통과할 수 있을지도 모른다고 속삭입니다. &lt;b&gt;국경을 어떻게 넘을지 결정해야 합니다.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001049</GUID>
@@ -2833,7 +2908,7 @@
     <Text>
       <GUID>1404001051</GUID>
       <!-- ExpeditionDecision | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> | <b>Concealed among merchants and laden camels,</b> you pass beneath the suspicious gaze of the guards. Once beyond the gates, the caravan master offers to guide you further inland. A wide imperial road also stretches toward the capital. <b>Will you remain with the caravan, or strike out along the main road?</b> -->
-      <Text>&lt;b&gt;상인과 짐을 실은 낙타 사이에 숨어서&lt;/b&gt; 경비병의 의심스러운 시선 아래 지나가게 됩니다.</Text>
+      <Text>&lt;b&gt;상인들과 짐을 실은 낙타 사이에 숨어,&lt;/b&gt; 경비병들의 의심스러운 눈길 아래를 지나갑니다. 성문을 지나자 대상의 우두머리가 내륙 깊숙이 안내해 주겠다고 제안합니다. 수도로 향하는 넓은 제국 대로도 뻗어 있습니다. &lt;b&gt;대상과 함께 가시겠습니까, 아니면 큰길을 따라 나서시겠습니까?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001052</GUID>
@@ -2848,7 +2923,7 @@
     <Text>
       <GUID>1404001054</GUID>
       <!-- ExpeditionDecision | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> | <b>A vigilant guard halts the caravan,</b> his eyes narrowing as he recognizes unfamiliar faces. Moments later, you are surrounded and escorted to a shaded courtyard. Your presence here is clearly unwelcome. <b>How will you proceed?</b> -->
-      <Text>&lt;b&gt;경계하는 경비원이 캐러밴을 멈추고&lt;/b&gt; 낯선 얼굴을 알아보자 눈이 가늘어집니다.</Text>
+      <Text>&lt;b&gt;경계심 많은 경비병이 대상을 멈춰 세우고,&lt;/b&gt; 낯선 얼굴들을 알아보며 눈을 가늘게 뜹니다. 잠시 후 당신은 포위되어 그늘진 안뜰로 끌려갑니다. 이곳에서 당신은 분명 환영받지 못하고 있습니다. &lt;b&gt;어떻게 하시겠습니까?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001055</GUID>
@@ -2863,12 +2938,12 @@
     <Text>
       <GUID>1404001057</GUID>
       <!-- ExpeditionDecision | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. | <b>The border officials examine your papers with suspicion.</b> Murmurs pass between them before you are politely but firmly detained. Foreign visitors are clearly uncommon here. You are escorted to a courtyard to await judgment. -->
-      <Text>&lt;b&gt;국경 관리들은 귀하의 서류를 의심스럽게 조사합니다.&lt;/b&gt; 귀하가 정중하지만 단호하게 구금되기 전에 그들 사이에 중얼거림이 있습니다.</Text>
+      <Text>&lt;b&gt;국경 관리들이 의심스러운 눈으로 당신의 서류를 살펴봅니다.&lt;/b&gt; 그들끼리 수군거린 뒤, 정중하지만 단호하게 당신을 억류합니다. 이곳에서 외국인 방문객은 분명 흔치 않습니다. 당신은 판결을 기다리기 위해 안뜰로 호송됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;캐러밴은 숨겨진 사막 길을 따라&lt;/b&gt; 모래 언덕과 고대 유적지를 지나 거대한 대로에 다시 합류합니다.</Text>
+      <Text>&lt;b&gt;대상은 숨겨진 사막 길을 굽이굽이 따라가며,&lt;/b&gt; 모래언덕과 고대 유적을 돌아 넓은 대로에 다시 합류합니다. 해 질 무렵, 수도의 돔들이 지평선 위에서 반짝입니다. 대상은 당신을 목적지까지 무사히 데려다주었습니다.</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2878,17 +2953,17 @@
     <Text>
       <GUID>1404001060</GUID>
       <!-- ExpeditionDecision | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. | <b>After several tense hours,</b> a courier arrives bearing the Sultan’s seal. Your detention is lifted, and you are provided with directions to the capital. -->
-      <Text>&lt;b&gt;몇 시간의 긴장된 시간 끝에&lt;/b&gt; 술탄의 인장이 찍힌 택배가 도착합니다.</Text>
+      <Text>&lt;b&gt;긴장된 몇 시간이 지난 뒤,&lt;/b&gt; 술탄의 인장을 지닌 전령이 도착합니다. 억류가 풀리고 수도로 가는 길을 안내받습니다.</Text>
     </Text>
     <Text>
       <GUID>1404001061</GUID>
       <!-- ExpeditionDecision | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. | <b>Madame Kahina speaks calmly with the guards,</b> invoking names and customs unfamiliar to you. Their stern expressions soften, and soon you are permitted to continue toward the capital. -->
-      <Text>&lt;b&gt;마담 카히나(Madame Kahina)는 경비원들과 침착하게 이야기하며&lt;/b&gt; 익숙하지 않은 이름과 관습을 언급합니다.</Text>
+      <Text>&lt;b&gt;마담 카히나가 경비병들과 차분하게 이야기하며,&lt;/b&gt; 당신이 모르는 이름과 관습을 들먹입니다. 그들의 굳은 표정이 누그러지고, 곧 수도를 향해 계속 갈 수 있도록 허락받습니다.</Text>
     </Text>
     <Text>
       <GUID>1404001062</GUID>
       <!-- ExpeditionDecision | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> | <b>You have travelled for days across the desert,</b> guided only by the Sultan’s directions and a weathered map. Heat shimmers across the sand, and to your left you glimpse what appears to be an oasis. It may offer relief — or prove a dangerous distraction. <b>Do you continue on your course, or investigate the oasis?</b> -->
-      <Text>&lt;b&gt;당신은 술탄의 지시와 풍화된 지도의 안내에 따라 며칠 동안 사막을 가로질러 여행했습니다.&lt;/b&gt;</Text>
+      <Text>&lt;b&gt;당신은 며칠째 사막을 건너왔습니다.&lt;/b&gt; 의지할 것은 술탄의 지시와 낡은 지도뿐입니다. 열기가 모래 위에서 일렁이고, 왼쪽에 오아시스처럼 보이는 것이 눈에 띕니다. 그곳에서 쉴 수 있을지도, 위험한 함정일지도 모릅니다. &lt;b&gt;계속 길을 가시겠습니까, 아니면 오아시스를 살펴보시겠습니까?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001063</GUID>
@@ -2903,7 +2978,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;길이 갑자기 끝나고&lt;/b&gt; 우뚝 솟은 모래 언덕에 삼켜집니다.</Text>
+      <Text>&lt;b&gt;길이 갑자기 끊기고,&lt;/b&gt; 높이 솟은 모래언덕에 삼켜집니다. 바람이 모래 위를 울부짖으며 방향의 흔적을 모두 지워 버립니다. 다음에 무엇을 할지 결정해야 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -2918,7 +2993,7 @@
     <Text>
       <GUID>1404001068</GUID>
       <!-- ExpeditionDecision | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. | <b>Beyond the dunes you reach the coast,</b> and following the shoreline you discover a modest fishing village. The sea breeze is a welcome relief. -->
-      <Text>&lt;b&gt;사구를 넘어 해안에 도달하고&lt;/b&gt; 해안선을 따라가면 소박한 어촌 마을을 발견하게 됩니다.</Text>
+      <Text>&lt;b&gt;모래언덕 너머에서 해안에 닿고,&lt;/b&gt; 해안선을 따라가다 소박한 어촌 마을을 발견합니다. 바닷바람이 반가운 위안이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001069</GUID>
@@ -2948,7 +3023,7 @@
     <Text>
       <GUID>1404001074</GUID>
       <!-- ExpeditionDecision | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. | <b>The oasis dissolves into shimmering air,</b> a mere fata morgana. In the distance, however, you spot nomads crossing the desert. -->
-      <Text>&lt;b&gt;오아시스는 단순한 파타 모르가나인 반짝이는 공기 속으로 녹아듭니다.&lt;/b&gt;</Text>
+      <Text>&lt;b&gt;오아시스는 일렁이는 공기 속으로 사라집니다.&lt;/b&gt; 그저 신기루였을 뿐입니다. 하지만 멀리서 사막을 건너는 유목민들이 보입니다.</Text>
     </Text>
     <Text>
       <GUID>1404001075</GUID>
@@ -2978,7 +3053,7 @@
     <Text>
       <GUID>1404001080</GUID>
       <!-- ExpeditionDecision | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> | <b>At last, you reach the capital of the Sultanate,</b> a sprawling city of bustling bazaars, towering minarets, and winding streets. Somewhere within lies the Sultan’s palace, but the way is far from obvious. <b>How will you find your path?</b> -->
-      <Text>&lt;b&gt;마침내 당신은 분주한 시장, 우뚝 솟은 첨탑, 구불구불한 거리로 이루어진 거대한 도시인 술탄국의 수도에 도달합니다.</Text>
+      <Text>&lt;b&gt;마침내 술탄국의 수도에 도착합니다.&lt;/b&gt; 북적이는 바자르와 높이 솟은 첨탑, 구불구불한 거리가 펼쳐진 거대한 도시입니다. 이 안 어딘가에 술탄의 궁전이 있지만, 길은 전혀 분명하지 않습니다. &lt;b&gt;어떻게 길을 찾으시겠습니까?&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001081</GUID>
@@ -2993,7 +3068,7 @@
     <Text>
       <GUID>1404001083</GUID>
       <!-- ExpeditionDecision | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> | <b>The vendor eagerly shows you his wares,</b> insisting on a sale before offering any help. After some persistence, he finally gestures toward a grand avenue leading uphill. <b>You now stand before the palace gates.</b> -->
-      <Text>&lt;b&gt;판매자는 자신의 상품을 열심히 보여주며&lt;/b&gt; 도움을 주기 전에 판매를 고집합니다.</Text>
+      <Text>&lt;b&gt;상인은 열성적으로 자기 물건을 보여 주며,&lt;/b&gt; 도움을 주기 전에 먼저 물건을 사라고 고집합니다. 한참을 조른 끝에, 그는 마침내 언덕 위로 이어지는 큰 대로를 가리킵니다. &lt;b&gt;이제 당신은 궁전 문 앞에 서 있습니다.&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001084</GUID>
@@ -3008,7 +3083,7 @@
     <Text>
       <GUID>1404001086</GUID>
       <!-- ExpeditionDecision | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. | <b>The winding streets quickly confuse you,</b> and before long, a band of cutpurses relieves you of some belongings. Fortunately, a stern policeman intervenes and escorts you toward the palace. -->
-      <Text>&lt;b&gt;구불구불한 거리는 금방 당신을 혼란스럽게 만들고&lt;/b&gt; 머지않아 지갑 무리가 당신의 소지품을 덜어줍니다.</Text>
+      <Text>&lt;b&gt;구불구불한 거리에서 금세 길을 잃고,&lt;/b&gt; 얼마 지나지 않아 소매치기 무리에게 소지품 일부를 털립니다. 다행히 엄격한 경찰관이 끼어들어 궁전까지 호위해 줍니다.</Text>
     </Text>
     <Text>
       <GUID>1404001087</GUID>
@@ -3043,7 +3118,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;당신은 화려한 왕좌에 앉아 술탄 앞에 서 있습니다.&lt;/b&gt;</Text>
+      <Text>&lt;b&gt;당신은 화려한 옥좌에 앉은 술탄 앞에 서 있습니다.&lt;/b&gt; 모든 시선이 당신에게 쏠려 있습니다. 어떻게 인사하시겠습니까?</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3078,7 +3153,7 @@
     <Text>
       <GUID>1404001100</GUID>
       <!-- ExpeditionDecision | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. | <b>The Sultan speaks of a vision for the future,</b> of opening his realm to the world and embracing progress. He tells you of <b>Wadi Al Zahir</b>, a remote desert region at the borders of his domain. There, nomadic tribes dwell, and he wishes for a new settlement to foster exchange between his people and the industrial powers of the west.<br><br>In return, you are granted exclusive rights to develop the region, to gather its resources, and to share in its prosperity. Madame Kahina, ever resourceful, is awarded an island to serve as a trading outpost to support your endeavors.<br><br><b>With a final gesture, the Sultan presents you with a map and his blessing.</b> Your next destination is clear: Wadi Al Zahir. -->
-      <Text>&lt;b&gt;술탄은 자신의 영역을 세상에 개방하고 진보를 수용하는 미래 비전에 대해 말합니다&lt;/b&gt;.</Text>
+      <Text>&lt;b&gt;술탄은 미래에 대한 구상을 이야기합니다.&lt;/b&gt; 그의 왕국을 세상에 열고 진보를 받아들이는 것입니다. 그는 자신의 영토 경계에 있는 외딴 사막 지역, &lt;b&gt;와디 알 자히르&lt;/b&gt;에 대해 들려줍니다. 그곳에는 유목 부족들이 살고 있으며, 그는 자신의 백성과 서양 산업 강국 사이의 교류를 키울 새로운 정착지를 원합니다.&lt;br&gt;&lt;br&gt;그 대가로 당신은 이 지역을 개발하고, 자원을 모으고, 그 번영을 함께 누릴 독점적 권리를 얻습니다. 언제나 수완 좋은 마담 카히나는 당신의 사업을 지원할 무역 전초기지로 쓰일 섬을 받습니다.&lt;br&gt;&lt;br&gt;&lt;b&gt;마지막 손짓과 함께, 술탄은 당신에게 지도와 축복을 건넵니다.&lt;/b&gt; 다음 목적지는 분명합니다. 와디 알 자히르입니다.</Text>
     </Text>
     <Text>
       <GUID>1404001101</GUID>
@@ -3093,12 +3168,17 @@
     <Text>
       <GUID>1404001103</GUID>
       <!-- ExpeditionDecision | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. | <b>The Sultan listens intently,</b> weighing your words and intentions. After a moment of contemplation, he gestures for the court to fall silent, preparing to reveal his plans. -->
-      <Text>&lt;b&gt;술탄은 주의 깊게 듣고&lt;/b&gt; 당신의 말과 의도를 평가합니다.</Text>
+      <Text>&lt;b&gt;술탄은 귀 기울여 듣고,&lt;/b&gt; 당신의 말과 의도를 저울질합니다. 잠시 생각에 잠긴 뒤, 그는 손짓으로 궁정에 침묵을 명하고 자신의 계획을 밝힐 준비를 합니다.</Text>
     </Text>
     <Text>
       <GUID>1404001104</GUID>
       <!-- ExpeditionOption | Listen to the Sultan’s proposal | Listen to the Sultan’s proposal -->
       <Text>술탄의 제안을 들어보세요</Text>
+    </Text>
+    <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>사막의 모래에서 발굴된 보물은 먼 곳의 학자들을 끌어들이고 새로운 연구에 영감을 줍니다.</Text>
     </Text>
     <Text>
       <GUID>1404001115</GUID>
@@ -3172,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>시장 매점의 범위를 늘립니다.</Text>
     </Text>
     <Text>
@@ -3181,14 +3261,19 @@
       <Text>학자들의 지역 상품 소비를 줄입니다.</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>모든 동양 시장 노점</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>아몬드 씨앗</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>고품질 아몬드 씨앗</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 아몬드 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3197,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>날짜 씨앗</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 풍성한 아몬드 숲을 키우는 데 도움이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3207,38 +3292,38 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>하이브리드 날짜 씨앗</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 아몬드 수확량도 증가했습니다!</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
       <!-- GuildhouseItem | Date Seeds | Date Seeds -->
-      <Text>날짜 씨앗</Text>
+      <Text>대추야자 씨앗</Text>
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>고품질 석류 주스 씨앗</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 대추야자 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
       <!-- GuildhouseItem | Quality Date Seeds | Quality Date Seeds -->
-      <Text>품질 대추 씨앗</Text>
+      <Text>고품질 대추야자 씨앗</Text>
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>장미 씨앗</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 풍성한 대추야자 숲을 키우는 데 도움이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
       <!-- GuildhouseItem | Hybrid Date Seeds | Hybrid Date Seeds -->
-      <Text>하이브리드 날짜 씨앗</Text>
+      <Text>하이브리드 대추야자 씨앗</Text>
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>하이브리드 장미 씨앗</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 대추야자 수확량도 증가했습니다!</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3247,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>고품질 실크 씨앗</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 석류 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3492,23 +3577,343 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
-      <Text>Norias는 서로 멀리 떨어져 건설되어야 합니다.</Text>
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
+      <Text>노리아는 서로 거리를 두고 지어야 합니다. 노리아는 지하 대수층에서 물을 퍼 올리는데, 그렇지 않으면 대수층이 결국 말라 버릴 것입니다.</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
-      <Text>영사관은 술탄과 소통하는 주요 수단입니다.</Text>
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
+      <Text>영사관은 술탄과 소통하는 주요 수단입니다. 고급 건물을 짓기 위한 허가에 필요한 서류를 만들어 냅니다.</Text>
     </Text>
     <Text>
       <GUID>1404001226</GUID>
       <!-- Text | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. | The Grand Mosque is a symbol of your commitment to the sultanate. Each pilgrimage gains you favor and influence with the court of the sultan. -->
-      <Text>그랜드 모스크는 술탄국에 대한 헌신의 상징입니다.</Text>
+      <Text>대사원은 술탄국에 대한 당신의 헌신을 상징합니다. 순례가 있을 때마다 술탄의 궁정에서 총애와 영향력을 얻습니다.</Text>
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
-      <Text>사절은 산업 시대의 새로운 상품과 발명품에 호기심이 많습니다.</Text>
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
+      <Text>사절들은 산업 시대의 새로운 상품과 발명품에 호기심이 많습니다. 시장 노점은 이를 선보이고 사절들이 직접 써 볼 수 있게 하는 좋은 방법입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>사원</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>수출 도크: 모자이크</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>수출 도크: 장미수</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>수출 도크: 의식용 세이버</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>수출 도크: 부양 농축액</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>수출 도크: 진주 목걸이</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>수출 도크: 샹들리에</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>다방 메뉴</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>평범한 커피만으로도 의자는 가득 차지만, 영리한 주인은 우유, 향신료, 대추야자, 장미, 꿀을 쓰는 비법 몇 가지를 알고 있습니다. 어떤 커피를 내느냐에 따라 동네의 분위기가 달라집니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>볶아서 가루처럼 곱게 갈고 제즈베에 세 번 끓여낸 것, 그게 전부입니다. 순수주의자들은 이것만이 진짜 커피라고 맹세하지만, 다른 사람들은 그저 진하다고 말합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>따뜻한 염소젖으로 부드럽게 만든 진한 블랙 커피. 주스 생각을 잊게 하고 모두를 온화한 기분으로 만들어 줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>달라에서 작은 잔에 따라 내며, 곱게 간 카다멈 향이 납니다. 여기서 향신료를 맛보는 사람은 집에서 아끼고, 아낀 돈을 바자르에서 씁니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>쓴 커피에 단 대추야자 한 그릇을 곁들여 맛의 균형을 맞춥니다. 다방에서 대추야자를 집어 먹는 사람은 집에서 덜 찾게 되고, 목마름도 덜 느낍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>장미수 몇 방울과 떠 있는 꽃잎 몇 장이 평범한 한 잔을 작은 축제로 바꿉니다. 다방에서 이미 정원 향기가 나는데 굳이 집에 향을 낼 필요가 있을까요? 아낀 돈은 기꺼이 쓰입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>황금빛 꿀로 단맛을 내고 천천히 저어 더욱 천천히 음미합니다. 이렇게 가까이에 달콤함이 있으니 아무도 마지팬을 찾지 않고, 소문이 퍼져 동네로 이사 오는 사람도 늘어납니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>다방: 블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>다방: 밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>다방: 카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>다방: 대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>다방: 장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>다방: 꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>블랙 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>밀크 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>카다멈 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>대추야자 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>장미 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>꿀 커피</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>곡예사의 야영지</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>불 쇼 공연자, 곡예사, 저글러들은 천막을 치는 곳마다 구경꾼을 끌어모읍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>광석 드럼이 비어 있으므로 다시 채워야 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>완성된 부양 농축액이 준비되고 드럼이 가득 찼습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>광석 드럼 모듈</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>광석 드럼</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>이 모듈은 오일 부유 공정을 사용하여 광석 드럼에서 특수 정제를 통해 광석 생산량을 두 배로 늘립니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>벌 정원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>꿀 생산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>몇 개의 벌통이 꿀을 생산하고 농장을 더 효율적으로 만듭니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>대추야자에서 얻은 벌꿀은 매우 인기 있는 상품입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>수분</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>동양의 모든 작물 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>벌들의 수분 덕분에 우리 농장은 더욱 효율적이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>차 양조장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>로쿰 제과점</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>피스타치오 농장</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>피스타치오 과수원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>피스타치오 로스터리</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>고품질 피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>하이브리드 피스타치오 씨앗</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>피스타치오 토착 자원</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 피스타치오 숲 몇 곳을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>이 묘목은 낯선 토양에서 풍성한 피스타치오 숲을 키우는 데 도움이 됩니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>이 묘목은 매우 다양한 토양에서 자라도록 개량되었으며 피스타치오 수확량도 증가했습니다!</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>과일 공방</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>Wadi Al Zahir에서만 건설 가능</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>황산</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>맨손으로 만지지 않는 것이 좋을 것이다. 녹반유라고도 불린다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>코끼리 사냥 오두막</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
@@ -3541,16 +3946,6 @@
       <Text>장로 타파치 케키가 엔베사의 전통과 사람들을 진정으로 이해하려 하는 것인지 의심하며 숨기는 기색 하나 없이 지역 풍습과 관행을 알고 있는지 캐묻습니다.</Text>
     </Text>
     <Text>
-      <GUID>1404001281</GUID>
-      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
-      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001282</GUID>
-      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
-      <Text>장로 타파치 케키가 당신이 내린 결정에 크게 감명을 받았으며 대단히 기뻐했습니다.</Text>
-    </Text>
-    <Text>
       <GUID>1404001283</GUID>
       <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Elder Tafachi Keki fustigates you for the gaudiness of your choice. -->
       <Text>Elder Tafachi Keki fustigates you for the gaudiness of your choice.</Text>
@@ -3559,11 +3954,6 @@
       <GUID>1404001284</GUID>
       <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that <b>I were to invite you to my home</b>—an unlikely occasion— <b>what would you bring to honour the invitation?</b> -->
       <Text>Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that &lt;b&gt;I were to invite you to my home&lt;/b&gt;—an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
-    </Text>
-    <Text>
-      <GUID>1404001285</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
-      <Text>비싼 향과 기름이 좋을 것 같은데…</Text>
     </Text>
     <Text>
       <GUID>1404001286</GUID>
@@ -3606,51 +3996,6 @@
       <Text>Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event.</Text>
     </Text>
     <Text>
-      <GUID>1404001294</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
-      <Text>성난 기색의 야생 황소 한 무리가 도시 외곽에서 목격되었습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001295</GUID>
-      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
-      <Text>장로 테비비 라미가 축제에 쓰일 황소가 부족하다며 더 많은 황소를 찾아달라고 합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001296</GUID>
-      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
-      <Text>결혼 제도</Text>
-    </Text>
-    <Text>
-      <GUID>1404001297</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
-      <Text>아이다를 내게 데려다 주겠어? 이제 결혼할 때가 되었고 완벽한 짝을 구했지. 품위 있고 독실한 가문의 젊은이야.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001298</GUID>
-      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
-      <Text>심통 난 아이다</Text>
-    </Text>
-    <Text>
-      <GUID>1404001299</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
-      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001300</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
-      <Text>아이다는 수도원에서 브루카윗 교황에게 상담을 요청했습니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001301</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
-      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
-    </Text>
-    <Text>
-      <GUID>1404001302</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
-      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
-    </Text>
-    <Text>
       <GUID>1404001303</GUID>
       <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find where Aida, the Elder's niece, is hiding -->
       <Text>장로의 조카 아이다가 숨은 곳을 알아내세요</Text>
@@ -3686,34 +4031,9 @@
       <Text>Elder Asikinyi believes the children of the town have been misbehaving of late, and asks you to take away their Christmas presents to teach them the virtue of respect and gratitude.</Text>
     </Text>
     <Text>
-      <GUID>1404001310</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
-      <Text>The presents are hidden near the children's house.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001311</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
-      <Text>아이들의 선물을 압수하기: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
-    </Text>
-    <Text>
-      <GUID>1404001312</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
-      <Text>장로 아시키니는 엔베사의 아이들이 응석받이로 자라고 있다고 여기며, 아이들의 선물을 치워버리기를 원합니다.</Text>
-    </Text>
-    <Text>
-      <GUID>1404001313</GUID>
-      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
-      <Text>경력직</Text>
-    </Text>
-    <Text>
       <GUID>1404001314</GUID>
       <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | Idleness breeds contempt and unruliness in children. They must be kept busy, and taught the value of labour and an orderly life. -->
       <Text>"게으름은 아이들에 대한 경멸과 방종을 낳게 하지. 아이들을 바쁘게 움직이고 노동의 가치와 정돈된 삶을 알려주어야 해."</Text>
-    </Text>
-    <Text>
-      <GUID>1404001315</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
-      <Text>"훌륭하군! 그들에게 사회에 기여하고 거리의 혼란을 잠재울 방법을 알려줄 거야."</Text>
     </Text>
     <Text>
       <GUID>1404001316</GUID>
@@ -5329,6 +5649,91 @@
       <GUID>1404001644</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2 | The young poet proudly shares the second half of his poem with you. -->
       <Text>젊은 시인이 자신의 나머지 시 반절을 자랑스럽게 당신에게 알려 줍니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001647</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs. -->
+      <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001648</GUID>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Elder Tafachi Keki is pleasantly impressed by your choice. -->
+      <Text>장로 타파치 케키가 당신이 내린 결정에 크게 감명을 받았으며 대단히 기뻐했습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001649</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A gift of costly incense and oils would be appropriate... -->
+      <Text>비싼 향과 기름이 좋을 것 같은데…</Text>
+    </Text>
+    <Text>
+      <GUID>1404001650</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
+      <Text>성난 기색의 야생 황소 한 무리가 도시 외곽에서 목격되었습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001651</GUID>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more. -->
+      <Text>장로 테비비 라미가 축제에 쓰일 황소가 부족하다며 더 많은 황소를 찾아달라고 합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001652</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Marriage Institution -->
+      <Text>결혼 제도</Text>
+    </Text>
+    <Text>
+      <GUID>1404001653</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family. -->
+      <Text>아이다를 내게 데려다 주겠어? 이제 결혼할 때가 되었고 완벽한 짝을 구했지. 품위 있고 독실한 가문의 젊은이야.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001654</GUID>
+      <!-- CollectablePicturePuzzle | Aida | Upset-looking Aida -->
+      <Text>심통 난 아이다</Text>
+    </Text>
+    <Text>
+      <GUID>1404001655</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be. -->
+      <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001656</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Aida has sought the counsel of Pope Brukawit at the monastery. -->
+      <Text>아이다는 수도원에서 브루카윗 교황에게 상담을 요청했습니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001657</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Elder Akerikari bids you find her niece and bring her to her new betrothed.  -->
+      <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
+    </Text>
+    <Text>
+      <GUID>1404001658</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side! -->
+      <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
+    </Text>
+    <Text>
+      <GUID>1404001659</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the children's house. -->
+      <Text>The presents are hidden near the children's house.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001660</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>아이들의 선물을 압수하기: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001661</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Elder Asikinyi believes Enbesan children are being spoiled, and wants to take away their presents. -->
+      <Text>장로 아시키니는 엔베사의 아이들이 응석받이로 자라고 있다고 여기며, 아이들의 선물을 치워버리기를 원합니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001662</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Work Experience -->
+      <Text>경력직</Text>
+    </Text>
+    <Text>
+      <GUID>1404001663</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society, and return some quiet to the streets. -->
+      <Text>"훌륭하군! 그들에게 사회에 기여하고 거리의 혼란을 잠재울 방법을 알려줄 거야."</Text>
     </Text>
   </ModOp>
 </ModOps>

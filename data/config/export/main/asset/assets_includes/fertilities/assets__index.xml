@@ -1,11 +1,16 @@
 <ModOps>
 
     <Include File="sets/assets__index.xml" />
+    <Include File="mine_sets/assets__index.xml" />
 
     <Include File="assets_almond_fertility.xml" />
     <Include File="assets_date_fertility.xml" />
     <Include File="assets_pomegranate_fertility.xml" />
     <Include File="assets_rose_fertility.xml" />
     <Include File="assets_silk_fertility.xml" />
+    
+    <Include File="assets_silver_ore_slot.xml" />
+    <Include File="assets_oil_slot.xml" />
+    <Include File="assets_pistachio_fertility.xml" />
     
 </ModOps>
