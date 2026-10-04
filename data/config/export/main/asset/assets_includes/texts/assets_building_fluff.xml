@@ -133,6 +133,22 @@
 			<Template>Text</Template>
 			<Values>
 				<Standard>
+					<GUID>1404003601</GUID>
+					<Name>jugglers_camp Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
 					<GUID>1404005014</GUID>
 					<Name>Honey Module Fluff</Name>
 				</Standard>
