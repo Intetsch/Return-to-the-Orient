@@ -210,43 +210,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>10000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118762</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -259,13 +223,7 @@
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
                             <Action />
-                            <ActionForceNewspaper>
-                                <Articles>
-                                    <Item>
-                                        <Article>118408</Article>
-                                    </Item>
-                                </Articles>
-                            </ActionForceNewspaper>
+                            <ActionForceNewspaper />
                         </Values>
                     </OnPhotographySuccessNewspaperAction>
                     <QuestGiver>1404000019</QuestGiver>
@@ -337,7 +295,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114520</Context>
+                                                    <Context>1404000148</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -372,7 +330,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Confessional</Text>
+                            <Text>Public Repentance</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -438,8 +396,8 @@
                                                                 <Values>
                                                                     <SpawnArea>
                                                                         <SpawnContext>Object</SpawnContext>
-                                                                        <ContextGUID>114520</ContextGUID>
-                                                                        <ContextMarkerName>quest_monks</ContextMarkerName>
+                                                                        <ContextGUID>1404000148</ContextGUID>
+                                                                        <DistanceToContext>5</DistanceToContext>
                                                                         <LimitToQuestArea>1</LimitToQuestArea>
                                                                     </SpawnArea>
                                                                 </Values>
@@ -452,7 +410,6 @@
                                                     </Values>
                                                 </Entry>
                                                 <CircleAreaPercentage>2</CircleAreaPercentage>
-                                                <AppearInNewspaperArticle>118408</AppearInNewspaperArticle>
                                             </Item>
                                         </PhotographyObjectList>
                                     </ConditionQuestPhotography>
@@ -517,14 +474,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The boy was caught lying and must be cleansed of the evil within him— only a public confession will ensure he is purified of the stain!</Text>
+                            <Text>The boy was caught lying! He must stand before the whole quarter and beg forgiveness— only a public apology will cleanse him of this shame!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40990</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278272</AudioAsset>
+                    <AudioAsset>1404000508</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -539,14 +496,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A fitting ceremony, let all who were here stand witness to the mercy of the Lord. In the name of all Irenya, I give you thanks.</Text>
+                            <Text>A fitting lesson. Let all who were present bear witness to the mercy of Allah. On behalf of every Envoy, I thank you.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40991</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278273</AudioAsset>
+                    <AudioAsset>1404000484</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001323</GUID>
@@ -599,7 +556,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Public Confession</Text>
+                            <Text>Public Apology</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -651,7 +608,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Asikinyi wishes for you to bear witness to the cleansing of a boy's lies through public confession.</Text>
+                            <Text>Envoy Selim Efendi wishes you to bear witness as a boy who was caught lying begs forgiveness in front of the whole neighbourhood.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -669,7 +626,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The confession must take place in a holy place.</Text>
+                            <Text>The apology is to take place in the courtyard of the mosque.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -687,7 +644,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Asikinyi wishes you to document the public confession to spread the cleansing effect.</Text>
+                            <Text>Envoy Selim Efendi wishes you to photograph the boy's public apology, so that its lesson spreads through the city.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -705,7 +662,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is satisfied with the ceremony.</Text>
+                            <Text>The Envoy is satisfied with the ceremony.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

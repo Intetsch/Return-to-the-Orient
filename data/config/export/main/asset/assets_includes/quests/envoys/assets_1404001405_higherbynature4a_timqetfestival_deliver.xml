@@ -174,43 +174,7 @@
                     <OnQuestActive>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>30000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118881</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestActive>
                     <OnQuestAborted>
@@ -259,8 +223,8 @@
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <ContextGUID>114520</ContextGUID>
-                                                    <ContextMarkerName>quest_monks</ContextMarkerName>
+                                                    <ContextGUID>1404000148</ContextGUID>
+                                                    <DistanceToContext>5</DistanceToContext>
                                                     <LimitToQuestArea>1</LimitToQuestArea>
                                                 </SpawnArea>
                                                 <SessionFilter>
@@ -393,7 +357,7 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>GoodsInStock</PlayerCounter>
-                                                    <Context>114368</Context>
+                                                    <Context>1440209</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
@@ -427,7 +391,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — God's Gifts</Text>
+                            <Text>Highborn — Festive Splendour</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -481,14 +445,14 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>114356</ObjectGUID>
+                                                <ObjectGUID>1400201040</ObjectGUID>
                                                 <Min>15</Min>
                                                 <Max>15</Max>
                                             </Item>
                                             <Item>
-                                                <ObjectGUID>114368</ObjectGUID>
-                                                <Min>30</Min>
-                                                <Max>30</Max>
+                                                <ObjectGUID>1440209</ObjectGUID>
+                                                <Min>20</Min>
+                                                <Max>20</Max>
                                             </Item>
                                             <Item>
                                                 <ObjectGUID>114404</ObjectGUID>
@@ -586,14 +550,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Must I do everything? The festival but weeks away and there is so much still to arrange— the materials to fashion a proper tabot, for instance!</Text>
+                            <Text>Must I do everything myself? Eid is but weeks away and there is still so much to arrange— the materials for a proper festival pavilion, for instance!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41015</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278279</AudioAsset>
+                    <AudioAsset>1404000510</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -608,14 +572,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A pin here, a fold there... perfect! As long as the tabot is complete, the festival may proceed.</Text>
+                            <Text>A cushion here, a drape there... perfect! Now that the pavilion is finished, the festivities may begin.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41016</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278280</AudioAsset>
+                    <AudioAsset>1404000524</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -669,7 +633,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Sacred Festivities</Text>
+                            <Text>Eid Festivities</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -703,7 +667,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati needs you to deliver the materials for a tabot for the upcoming festival.</Text>
+                            <Text>Envoy Faruq Pasha needs you to deliver the materials for a festival pavilion for the coming Eid.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -721,7 +685,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati puts the finishing touches to a shrine for the sacred tablets.</Text>
+                            <Text>Envoy Faruq Pasha puts the finishing touches to the festival pavilion.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -739,7 +703,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Up at the monastery, Elder Kurati worries that the preparations for an upcoming festival are far behind schedule, and asks for your help making a religious ornament.</Text>
+                            <Text>At the mosque, Envoy Faruq Pasha worries that the preparations for the Eid festivities are far behind schedule, and asks for your help in raising a splendid pavilion for the celebrations.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

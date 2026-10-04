@@ -297,7 +297,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114520</Context>
+                                                    <Context>1404000148</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                 </ConditionPlayerCounter>
@@ -312,7 +312,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — Gated Paradise</Text>
+                            <Text>Highborn — Gated Paradise</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -365,8 +365,7 @@
                                                         <Values>
                                                             <SpawnArea>
                                                                 <SpawnContext>Object</SpawnContext>
-                                                                <ContextGUID>114520</ContextGUID>
-                                                                <ContextMarkerName>quest_monks</ContextMarkerName>
+                                                                <ContextGUID>1404000148</ContextGUID>
                                                                 <LimitToQuestArea>1</LimitToQuestArea>
                                                                 <DistanceToContext>5</DistanceToContext>
                                                             </SpawnArea>
@@ -405,13 +404,13 @@
                                                                                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                                                                         <Values>
                                                                                             <ObjectFilter>
-                                                                                                <ObjectGUID>114520</ObjectGUID>
+                                                                                                <ObjectGUID>1404000148</ObjectGUID>
                                                                                                 <ObjectSession>1404000000</ObjectSession>
                                                                                             </ObjectFilter>
                                                                                         </Values>
                                                                                     </ObjectFilter>
                                                                                     <UseSpecificPortrait>1</UseSpecificPortrait>
-                                                                                    <SpecificPortraitProfile>243</SpecificPortraitProfile>
+                                                                                    <SpecificPortraitProfile>1404000018</SpecificPortraitProfile>
                                                                                     <SpecifyHintColorType>1</SpecifyHintColorType>
                                                                                     <HintColorType>Quest</HintColorType>
                                                                                 </ConditionTutorialInteraction>
@@ -488,14 +487,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How can the pious pray and worship with the bleating of those wretched beggars before the gates?</Text>
+                            <Text>How can the faithful pray in peace with those wretched beggars wailing before the gates?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41011</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278296</AudioAsset>
+                    <AudioAsset>1404000496</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -510,14 +509,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Yes, hear how the hymns resonate in the quiet chapel walls? Blessed peace at last!</Text>
+                            <Text>Yes, hear how the call to prayer rings out over the quiet courtyard? Blessed peace at last!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41012</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278297</AudioAsset>
+                    <AudioAsset>1404000536</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -532,14 +531,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How are we to survive if not here? Irenya pass us by in the streets without looking at us...</Text>
+                            <Text>Where else should we go? The Envoys pass us by in the streets without so much as a glance...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41392</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277529</AudioAsset>
+                    <AudioAsset>1404000431</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -625,7 +624,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Beggars panhandling outside the monastery gates are, according to the Elders, preventing the faithful from focusing on their prayers. Elder Kurati wishes to disperse them and restore peace.</Text>
+                            <Text>According to the Envoys, the beggars outside the mosque gates are keeping the faithful from their prayers. Envoy Faruq Pasha wishes to have them sent away and peace restored.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -643,7 +642,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Beggars can be found clustered around the Monastery gates</Text>
+                            <Text>Beggars can be found clustered around the gates of the mosque</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -679,7 +678,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wants the beggars dispersed from the monastery gates.</Text>
+                            <Text>Envoy Faruq Pasha wants the beggars dispersed from the gates of the mosque.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -697,7 +696,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is pleased with you for restoring order and quiet to the Monastery.</Text>
+                            <Text>The Envoy is pleased with you for restoring order and quiet to the mosque.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

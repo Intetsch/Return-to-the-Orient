@@ -23,9 +23,15 @@
                         <Notification>
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
-                                <CharacterNotification />
-                                <BaseNotification />
-                                <NotificationSubtitle />
+                                <CharacterNotification>
+                                    <Profile>1404000019</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001668</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001669</Subtitle>
+                                </NotificationSubtitle>
                             </Values>
                         </Notification>
                     </SuccessMessage>
@@ -169,8 +175,7 @@
                                                 </ActionSpawnObjects>
                                                 <SpawnArea>
                                                     <SpawnContext>Object</SpawnContext>
-                                                    <ContextGUID>114520</ContextGUID>
-                                                    <ContextMarkerName>quest_aida</ContextMarkerName>
+                                                    <ContextGUID>1404000148</ContextGUID>
                                                     <LimitToQuestArea>1</LimitToQuestArea>
                                                     <DistanceToContext>2</DistanceToContext>
                                                 </SpawnArea>
@@ -233,43 +238,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>10000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118773</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -391,7 +360,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118769</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001290</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -409,7 +378,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114520</Context>
+                                                    <Context>1404000148</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -425,7 +394,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Marriage Institution</Text>
+                            <Text>The Arranged Match</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -576,14 +545,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Could you bring Aida to me? It is high time she were wed, and I have the perfect match— a young man from a decent, pious family.</Text>
+                            <Text>Would you bring my niece Leyla to me? It is high time she were wed, and I have found the perfect match— a young man from a decent, pious family.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40980</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278305</AudioAsset>
+                    <AudioAsset>1404000464</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -637,7 +606,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Upset-looking Aida</Text>
+                            <Text>Upset-looking Leyla</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -671,7 +640,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Akerikari has arranged a proper match for young niece Aida, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
+                            <Text>Envoy Nureddin Efendi has arranged a proper match for his young niece Leyla, and wishes you to find the girl and bring her to meet her husband-to-be.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -689,7 +658,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Aida has sought the counsel of Pope Brukawit at the monastery.</Text>
+                            <Text>Leyla has sought the counsel of the Imam at the mosque.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -707,7 +676,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Akerikari bids you find her niece and bring her to her new betrothed. </Text>
+                            <Text>Envoy Nureddin Efendi bids you find his niece and bring her to her betrothed.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -725,7 +694,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I beg you, do not take me back! I do not love him, I love Ardames— we are pledged to each other— and I would happily live as a Meniga if it were by his side!</Text>
+                            <Text>I beg you, do not take me back! I do not love him— I love Karim, the camel driver. We are pledged to each other, and I would gladly live in a Nomad's tent if it were by his side!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -743,7 +712,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Find where Aida, the Elder's niece, is hiding</Text>
+                            <Text>Find where Leyla, the Envoy's niece, is hiding</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -751,6 +720,44 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001668</GUID>
+                    <Name>RQ_Envoy_PicturePuzzle_Aida_QuestSuccessSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Nureddin Efendi grudgingly postpones the wedding after hearing of Leyla's plea.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A camel driver?! ...Very well. The wedding can wait— but I shall have words with this Karim myself.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000480</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001669</GUID>
+                    <Name>RQ_Envoy_PicturePuzzle_Aida_QuestSuccess</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

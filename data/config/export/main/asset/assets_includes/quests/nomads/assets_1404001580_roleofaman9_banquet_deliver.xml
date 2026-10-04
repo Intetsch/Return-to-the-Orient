@@ -258,38 +258,6 @@
                                             </Values>
                                         </Action>
                                     </Item>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>10000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118988</Quest>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
                                 </Actions>
                             </ActionList>
                         </Values>
@@ -381,7 +349,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118986</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001572</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -394,7 +362,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Man Up - Ghost At The Feast</Text>
+                            <Text>Coming of Age — Ghost at the Feast</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -438,12 +406,12 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>114359</ObjectGUID>
+                                                <ObjectGUID>1888999749</ObjectGUID>
                                                 <Min>10</Min>
                                                 <Max>10</Max>
                                             </Item>
                                             <Item>
-                                                <ObjectGUID>114390</ObjectGUID>
+                                                <ObjectGUID>1404000265</ObjectGUID>
                                                 <Min>7</Min>
                                                 <Max>7</Max>
                                             </Item>
@@ -538,14 +506,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>We wish to thank our young hero for delivering Alyia back to her family— as much food and drink as you deem you can provide!</Text>
+                            <Text>We wish to honour our young hero for bringing Amira back to her family— as much food and drink as you can provide!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41062</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278321</AudioAsset>
+                    <AudioAsset>1404000470</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -560,14 +528,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Bullies who show up to shame a hero, deserve nothing but to be cast into exile, as is tradition.</Text>
+                            <Text>A bully who comes to shame a hero deserves nothing but banishment from the tribe, as is tradition.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41063</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278322</AudioAsset>
+                    <AudioAsset>1404000492</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -582,14 +550,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I don't think we'll be laughing over stories tonight.</Text>
+                            <Text>I do not think there will be much merry storytelling tonight.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41412</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277714</AudioAsset>
+                    <AudioAsset>1404000409</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -609,7 +577,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elders wish to commend the Shepherd for bringing Alyia back to her family. They have invited the entire neighbourhood to a great feast, but need you'll to provide food and drink for all.</Text>
+                            <Text>The Envoys wish to honour young Hamza for bringing Amira back to her family. They have invited the whole neighbourhood to a great feast, but need you to provide dates and pomegranate juice for everyone.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -627,7 +595,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>An Elder wants you to deliver food and drink for a banquet to honour the Shepherd.</Text>
+                            <Text>An Envoy wants you to deliver food and drink for a feast in Hamza's honour.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -645,7 +613,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder casts the facetious bully into exile.</Text>
+                            <Text>The Envoy banishes the spiteful bully.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -663,7 +631,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd is shocked to see one of the boys who humiliated him at the banquet.</Text>
+                            <Text>Hamza is shocked to see one of the boys who mocked him show up at the feast.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

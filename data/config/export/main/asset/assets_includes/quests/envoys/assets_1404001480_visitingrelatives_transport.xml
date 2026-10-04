@@ -374,7 +374,7 @@
                                                                 <Template>ConditionObjectPrebuiltObject</Template>
                                                                 <Values>
                                                                     <ConditionObjectPrebuiltObject>
-                                                                        <PrebuiltObject>119404</PrebuiltObject>
+                                                                        <PrebuiltObject>1404000974</PrebuiltObject>
                                                                     </ConditionObjectPrebuiltObject>
                                                                     <ConditionScanner />
                                                                     <ConditionObjectiveSignsAndFeedback />
@@ -446,182 +446,6 @@
                                                                     </BaseNotification>
                                                                     <NotificationSubtitle>
                                                                         <Subtitle>1404001483</Subtitle>
-                                                                    </NotificationSubtitle>
-                                                                </Values>
-                                                            </TradingStationReachedNotification>
-                                                        </TradingStation>
-                                                    </Values>
-                                                </Station>
-                                            </Item>
-                                            <Item>
-                                                <Station>
-                                                    <Template>QuestTradingStation</Template>
-                                                    <Values>
-                                                        <TradingStation>
-                                                            <TradingStationDestination>
-                                                                <Template>ConditionObjectPrebuiltObject</Template>
-                                                                <Values>
-                                                                    <ConditionObjectPrebuiltObject>
-                                                                        <PrebuiltObject>119408</PrebuiltObject>
-                                                                    </ConditionObjectPrebuiltObject>
-                                                                    <ConditionScanner />
-                                                                    <ConditionObjectiveSignsAndFeedback />
-                                                                </Values>
-                                                            </TradingStationDestination>
-                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
-                                                            <TradingStationRetrieveItem>1404001491</TradingStationRetrieveItem>
-                                                            <OnTradingStationVisited>
-                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                <Values>
-                                                                    <ActionList>
-                                                                        <Actions>
-                                                                            <Item>
-                                                                                <Action>
-                                                                                    <Template>ActionDelayedActions</Template>
-                                                                                    <Values>
-                                                                                        <Action />
-                                                                                        <ActionDelayedActions>
-                                                                                            <ExecutionDelay>30000</ExecutionDelay>
-                                                                                            <DelayedActions>
-                                                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                                                <Values>
-                                                                                                    <ActionList>
-                                                                                                        <Actions>
-                                                                                                            <Item>
-                                                                                                                <Action>
-                                                                                                                    <Template>ActionNotification</Template>
-                                                                                                                    <Values>
-                                                                                                                        <Action />
-                                                                                                                        <ActionNotification>
-                                                                                                                            <Notification>
-                                                                                                                                <Template>CharacterNotification</Template>
-                                                                                                                                <Values>
-                                                                                                                                    <CharacterNotification>
-                                                                                                                                        <Profile>1404000019</Profile>
-                                                                                                                                    </CharacterNotification>
-                                                                                                                                    <BaseNotification>
-                                                                                                                                        <NotificationText>1404001501</NotificationText>
-                                                                                                                                    </BaseNotification>
-                                                                                                                                    <NotificationSubtitle>
-                                                                                                                                        <Subtitle>1404001487</Subtitle>
-                                                                                                                                    </NotificationSubtitle>
-                                                                                                                                </Values>
-                                                                                                                            </Notification>
-                                                                                                                        </ActionNotification>
-                                                                                                                    </Values>
-                                                                                                                </Action>
-                                                                                                            </Item>
-                                                                                                        </Actions>
-                                                                                                    </ActionList>
-                                                                                                </Values>
-                                                                                            </DelayedActions>
-                                                                                        </ActionDelayedActions>
-                                                                                    </Values>
-                                                                                </Action>
-                                                                            </Item>
-                                                                        </Actions>
-                                                                    </ActionList>
-                                                                </Values>
-                                                            </OnTradingStationVisited>
-                                                            <TradingStationReachedNotification>
-                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                <Values>
-                                                                    <CharacterNotification>
-                                                                        <Profile>1404000019</Profile>
-                                                                    </CharacterNotification>
-                                                                    <BaseNotification>
-                                                                        <NotificationText>1404001498</NotificationText>
-                                                                    </BaseNotification>
-                                                                    <NotificationSubtitle>
-                                                                        <Subtitle>1404001484</Subtitle>
-                                                                    </NotificationSubtitle>
-                                                                </Values>
-                                                            </TradingStationReachedNotification>
-                                                        </TradingStation>
-                                                    </Values>
-                                                </Station>
-                                            </Item>
-                                            <Item>
-                                                <Station>
-                                                    <Template>QuestTradingStation</Template>
-                                                    <Values>
-                                                        <TradingStation>
-                                                            <TradingStationDestination>
-                                                                <Template>ConditionObjectPrebuiltObject</Template>
-                                                                <Values>
-                                                                    <ConditionObjectPrebuiltObject>
-                                                                        <PrebuiltObject>119410</PrebuiltObject>
-                                                                    </ConditionObjectPrebuiltObject>
-                                                                    <ConditionScanner />
-                                                                    <ConditionObjectiveSignsAndFeedback />
-                                                                </Values>
-                                                            </TradingStationDestination>
-                                                            <TradingStationBringItem>1404001491</TradingStationBringItem>
-                                                            <TradingStationRetrieveItem>1404001491</TradingStationRetrieveItem>
-                                                            <OnTradingStationVisited>
-                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                <Values>
-                                                                    <ActionList>
-                                                                        <Actions>
-                                                                            <Item>
-                                                                                <Action>
-                                                                                    <Template>ActionDelayedActions</Template>
-                                                                                    <Values>
-                                                                                        <Action />
-                                                                                        <ActionDelayedActions>
-                                                                                            <ExecutionDelay>45000</ExecutionDelay>
-                                                                                            <DelayedActions>
-                                                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                                                <Values>
-                                                                                                    <ActionList>
-                                                                                                        <Actions>
-                                                                                                            <Item>
-                                                                                                                <Action>
-                                                                                                                    <Template>ActionNotification</Template>
-                                                                                                                    <Values>
-                                                                                                                        <Action />
-                                                                                                                        <ActionNotification>
-                                                                                                                            <Notification>
-                                                                                                                                <Template>CharacterNotification</Template>
-                                                                                                                                <Values>
-                                                                                                                                    <CharacterNotification>
-                                                                                                                                        <Profile>1404000019</Profile>
-                                                                                                                                    </CharacterNotification>
-                                                                                                                                    <BaseNotification>
-                                                                                                                                        <NotificationText>1404001502</NotificationText>
-                                                                                                                                    </BaseNotification>
-                                                                                                                                    <NotificationSubtitle>
-                                                                                                                                        <Subtitle>1404001488</Subtitle>
-                                                                                                                                    </NotificationSubtitle>
-                                                                                                                                </Values>
-                                                                                                                            </Notification>
-                                                                                                                        </ActionNotification>
-                                                                                                                    </Values>
-                                                                                                                </Action>
-                                                                                                            </Item>
-                                                                                                        </Actions>
-                                                                                                    </ActionList>
-                                                                                                </Values>
-                                                                                            </DelayedActions>
-                                                                                        </ActionDelayedActions>
-                                                                                    </Values>
-                                                                                </Action>
-                                                                            </Item>
-                                                                        </Actions>
-                                                                    </ActionList>
-                                                                </Values>
-                                                            </OnTradingStationVisited>
-                                                            <TradingStationReachedNotification>
-                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                <Values>
-                                                                    <CharacterNotification>
-                                                                        <Profile>1404000019</Profile>
-                                                                    </CharacterNotification>
-                                                                    <BaseNotification>
-                                                                        <NotificationText>1404001499</NotificationText>
-                                                                    </BaseNotification>
-                                                                    <NotificationSubtitle>
-                                                                        <Subtitle>1404001485</Subtitle>
                                                                     </NotificationSubtitle>
                                                                 </Values>
                                                             </TradingStationReachedNotification>
@@ -732,14 +556,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I was planning on visiting Fasika in our hometown, but my nephews are too busy with work to escort me…</Text>
+                            <Text>I had planned to visit my cousin Fuad at Madame Kahina's harbour, but my nephews are far too busy with their work to escort me...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41035</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278257</AudioAsset>
+                    <AudioAsset>1404000478</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001481</GUID>
@@ -760,7 +584,7 @@
                     <LineID>41036</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278258</AudioAsset>
+                    <AudioAsset>1404000472</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001482</GUID>
@@ -774,14 +598,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Fasika! It's funny, I almost didn't recognize you because you have so many new wrinkles.</Text>
+                            <Text>Fuad! How funny— I almost did not recognise you, with all those new wrinkles.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41040</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278262</AudioAsset>
+                    <AudioAsset>1404000524</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -796,58 +620,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Yes, the way you've decorated is very... interesting.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>41041</LineID>
-                </Text>
-                <AudioText>
-                    <AudioAsset>278263</AudioAsset>
-                    <Mood>Positve</Mood>
-                </AudioText>
-                <Standard>
-                    <GUID>1404001484</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy2</Name>
-                </Standard>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>AudioText</Template>
-            <Values>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>And he's a farmhand, you say? Well, what a catch!</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>41042</LineID>
-                </Text>
-                <AudioText>
-                    <AudioAsset>278264</AudioAsset>
-                    <Mood>Positve</Mood>
-                </AudioText>
-                <Standard>
-                    <GUID>1404001485</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy3</Name>
-                </Standard>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>AudioText</Template>
-            <Values>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Rest, again? I used to walk farther than this on daily errands!</Text>
+                            <Text>Resting again? I used to walk farther than this on my daily errands!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41037</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278259</AudioAsset>
+                    <AudioAsset>1404000480</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -862,57 +642,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The lurching... (heaving) Tell it to stop!</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>41038</LineID>
-                </Text>
-                <AudioText>
-                    <AudioAsset>278260</AudioAsset>
-                    <Mood>Negative</Mood>
-                </AudioText>
-                <Standard>
-                    <GUID>1404001487</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_AudioOnTheRoad2</Name>
-                </Standard>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>AudioText</Template>
-            <Values>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>These were once barely paths, let alone roads.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>41039</LineID>
-                </Text>
-                <AudioText>
-                    <AudioAsset>278261</AudioAsset>
-                </AudioText>
-                <Standard>
-                    <GUID>1404001488</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_AudioOnTheRoad3</Name>
-                </Standard>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>AudioText</Template>
-            <Values>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Returning already? What about the visit to cousin Haji, and aunt Tabi and...and...</Text>
+                            <Text>Returning already? What about my visit to cousin Hassan, and aunt Samira, and... and...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41043</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278265</AudioAsset>
+                    <AudioAsset>1404000486</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001489</GUID>
@@ -933,7 +670,7 @@
                     <LineID>41126</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278511</AudioAsset>
+                    <AudioAsset>1404000476</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001490</GUID>
@@ -954,7 +691,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Itinerant Elder</Text>
+                            <Text>Travelling Envoy</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1017,7 +754,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants you for a companion on her journey to see her cousin Fasika. She wishes you to join her on this very short excursion.</Text>
+                            <Text>The Envoy would like you as his companion on a journey to see his cousin Fuad, who keeps a spice stall at Madame Kahina's harbour. He wishes you to join him on this very short excursion.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1035,7 +772,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder complains the trip was too short.</Text>
+                            <Text>The Envoy complains that the trip was far too short.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1053,7 +790,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wishes you would hurry up.</Text>
+                            <Text>The Envoy wishes you would hurry up.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1071,47 +808,11 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder makes an effort to be diplomatic.</Text>
+                            <Text>The Envoy makes an effort to be diplomatic.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>44341</LineID>
-                </Text>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404001498</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy2</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>The Elder is unconvinced by Fasika's sense of interior design.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44342</LineID>
-                </Text>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404001499</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy3</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>The Elder is unimpressed by Fasika's choice for a husband.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44339</LineID>
                 </Text>
             </Values>
         </Asset>
@@ -1125,47 +826,11 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder feels the journey is progressing too slowly.</Text>
+                            <Text>The Envoy feels the journey is progressing far too slowly.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>44336</LineID>
-                </Text>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404001501</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_SummaryOnTheRoad2</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>The Elder complains of motion sickness.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44338</LineID>
-                </Text>
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>Text</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404001502</GUID>
-                    <Name>RQ_Envoy_VisitingRelatives_SummaryOnTheRoad3</Name>
-                </Standard>
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>The Elder observes that Enbesa has changed much in recent years.</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44340</LineID>
                 </Text>
             </Values>
         </Asset>
@@ -1179,7 +844,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants you to accompany her on her journey to see her cousin.</Text>
+                            <Text>The Envoy wants you to accompany him on his journey to see his cousin.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

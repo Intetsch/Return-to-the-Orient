@@ -361,7 +361,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionUnlocked>
-                                                    <UnlockNeeded>114390</UnlockNeeded>
+                                                    <UnlockNeeded>1900100125</UnlockNeeded>
                                                 </ConditionUnlocked>
                                                 <ConditionPropsNegatable />
                                             </Values>
@@ -380,7 +380,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionUnlocked>
-                                                    <UnlockNeeded>114410</UnlockNeeded>
+                                                    <UnlockNeeded>1999005057</UnlockNeeded>
                                                 </ConditionUnlocked>
                                                 <ConditionPropsNegatable />
                                             </Values>
@@ -394,7 +394,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — Tolerance</Text>
+                            <Text>Highborn — Tolerance</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -441,7 +441,7 @@
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>PopulationSatisfactionByGood</PlayerCounter>
-                                        <Context>114410</Context>
+                                        <Context>1999005057</Context>
                                         <ComparisonOp>AtMost</ComparisonOp>
                                         <CounterAmount>20</CounterAmount>
                                         <CounterScope>Session</CounterScope>
@@ -513,14 +513,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The stain of my unkindness and disregard for the Meniga weighs heavily upon my soul, and I would do penance by fasting.</Text>
+                            <Text>The stain of my arrogance towards the Nomads weighs heavily upon my soul. I shall do penance by fasting— beginning with my beloved marzipan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41026</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278285</AudioAsset>
+                    <AudioAsset>1404000518</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -535,14 +535,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>To think a Meniga could show mercy on she that hurt his fellows... Blessed are they of simple dispositions indeed.</Text>
+                            <Text>To think a Nomad would show mercy to one who scorned his people... Blessed indeed are the humble of heart.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41027</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278286</AudioAsset>
+                    <AudioAsset>1404000488</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001428</GUID>
@@ -556,14 +556,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Please, it is enough. I wish such pain on no-one, not even you, Elder.</Text>
+                            <Text>Please, it is enough. I wish such suffering on no-one, not even you, Pasha.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41386</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277523</AudioAsset>
+                    <AudioAsset>1404000433</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001429</GUID>
@@ -582,7 +582,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wants you to help her with her fasting.</Text>
+                            <Text>Envoy Faruq Pasha wants you to help him with his fasting.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -600,7 +600,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati grudgingly acknowledges the Shepherd's virtue.</Text>
+                            <Text>Envoy Faruq Pasha grudgingly acknowledges the Nomad's virtue.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -618,7 +618,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd dislikes seeing the Elder suffer and extends a forgiving hand.</Text>
+                            <Text>The Nomad cannot bear to see the Envoy suffer and extends a forgiving hand.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -636,7 +636,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wishes to do further penance for her callousness towards the Meniga by fasting.</Text>
+                            <Text>Envoy Faruq Pasha wishes to do further penance for his contempt towards the Nomads by fasting, and swears to forgo his beloved marzipan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -654,7 +654,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>You can prevent the Elder from consuming a certain good by selecting their residence and setting the Good Consumption level to low.</Text>
+                            <Text>You can prevent the Envoys from consuming a certain good by selecting their residence and setting the Good Consumption level to low.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

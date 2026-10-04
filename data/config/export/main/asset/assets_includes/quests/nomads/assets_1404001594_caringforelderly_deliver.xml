@@ -288,7 +288,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Sweet Mead of Compassion</Text>
+                            <Text>A Cup of Kindness</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -333,7 +333,7 @@
                                     <ConditionQuestDelivery>
                                         <DeliveryObject_cqd>
                                             <Item>
-                                                <ObjectGUID>114371</ObjectGUID>
+                                                <ObjectGUID>1404000265</ObjectGUID>
                                                 <Min>10</Min>
                                                 <Max>10</Max>
                                             </Item>
@@ -428,14 +428,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Hard to imagine what it must be like without kin— weak, alone, the bad moods... We should care for those elders who have no one else.</Text>
+                            <Text>Hard to imagine what it must be like without kin— frail, alone, the dark moods... We should care for those elders who have no-one else.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41373</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277536</AudioAsset>
+                    <AudioAsset>1404000385</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -455,7 +455,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The great unification wars left much of Enbesa bloodied and many bereft of kin in their elderly days. The Shepherd wishes to help bring some light into the grumpy old elders' lives by sharing some sweet honeyed wine with them.</Text>
+                            <Text>The old feuds between the desert tribes have left many elders without kin in their twilight years. The Nomad wishes to bring a little light into the lives of these grumpy old souls by sharing sweet pomegranate juice with them.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -473,7 +473,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd wishes to visit the lonely and aged to comfort them.</Text>
+                            <Text>The Nomad wishes to visit the lonely and the elderly to comfort them.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

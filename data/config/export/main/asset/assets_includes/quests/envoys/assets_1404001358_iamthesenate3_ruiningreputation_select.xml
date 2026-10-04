@@ -170,7 +170,7 @@
                                             <Values>
                                                 <Action />
                                                 <ActionSpawnObjects>
-                                                    <SpawnGUID>118780</SpawnGUID>
+                                                    <SpawnGUID>1404001664</SpawnGUID>
                                                     <Amount>1</Amount>
                                                     <Highlight>1</Highlight>
                                                     <Owner>Neutral</Owner>
@@ -250,43 +250,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>30000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118784</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -337,7 +301,7 @@
                                                 <Action />
                                                 <ActionDeleteObjects />
                                                 <ObjectFilter>
-                                                    <ObjectGUID>118780</ObjectGUID>
+                                                    <ObjectGUID>1404001664</ObjectGUID>
                                                 </ObjectFilter>
                                             </Values>
                                         </Action>
@@ -422,7 +386,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>117859</Context>
+                                                    <Context>1404000202</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -462,7 +426,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114518</Context>
+                                                    <Context>1404000147</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Session</CounterScope>
                                                     <CounterScopeUseActiveSession>1</CounterScopeUseActiveSession>
@@ -478,7 +442,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Moot Points — The Smear</Text>
+                            <Text>Divan Affairs — The Smear</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -544,7 +508,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>118780</ObjectGUID>
+                                                            <ObjectGUID>1404001664</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -644,7 +608,7 @@
                             <ConditionObjectSelected />
                             <ConditionPropsSessionSettings />
                             <ObjectFilter>
-                                <ObjectGUID>118780</ObjectGUID>
+                                <ObjectGUID>1404001664</ObjectGUID>
                                 <ObjectSession>1404000000</ObjectSession>
                             </ObjectFilter>
                             <ConditionPropsNegatable />
@@ -657,11 +621,11 @@
                                 <Values>
                                     <Action />
                                     <ObjectFilter>
-                                        <ObjectGUID>118780</ObjectGUID>
+                                        <ObjectGUID>1404001664</ObjectGUID>
                                         <ObjectSession>1404000000</ObjectSession>
                                     </ObjectFilter>
                                     <ObjectTargetFilter>
-                                        <TargetGUID>117859</TargetGUID>
+                                        <TargetGUID>1404000202</TargetGUID>
                                         <TargetObjectSession>1404000000</TargetObjectSession>
                                     </ObjectTargetFilter>
                                     <ActionMoveObject />
@@ -707,11 +671,11 @@
                                 <Radius>3</Radius>
                             </ConditionObjectPosition>
                             <ObjectFilter>
-                                <ObjectGUID>118780</ObjectGUID>
+                                <ObjectGUID>1404001664</ObjectGUID>
                                 <ObjectSession>1404000000</ObjectSession>
                             </ObjectFilter>
                             <ObjectTargetFilter>
-                                <TargetGUID>117859</TargetGUID>
+                                <TargetGUID>1404000202</TargetGUID>
                                 <TargetCheckProcessingParticipantID>1</TargetCheckProcessingParticipantID>
                             </ObjectTargetFilter>
                             <ConditionPropsNegatable />
@@ -748,11 +712,11 @@
                                 <Values>
                                     <Action />
                                     <ObjectFilter>
-                                        <ObjectGUID>118780</ObjectGUID>
+                                        <ObjectGUID>1404001664</ObjectGUID>
                                         <ObjectSession>1404000000</ObjectSession>
                                     </ObjectFilter>
                                     <ObjectTargetFilter>
-                                        <TargetGUID>114518</TargetGUID>
+                                        <TargetGUID>1404000147</TargetGUID>
                                         <TargetObjectSession>1404000000</TargetObjectSession>
                                     </ObjectTargetFilter>
                                     <ActionMoveObject />
@@ -798,11 +762,11 @@
                                 <Radius>5</Radius>
                             </ConditionObjectPosition>
                             <ObjectFilter>
-                                <ObjectGUID>118780</ObjectGUID>
+                                <ObjectGUID>1404001664</ObjectGUID>
                                 <ObjectSession>1404000000</ObjectSession>
                             </ObjectFilter>
                             <ObjectTargetFilter>
-                                <TargetGUID>114518</TargetGUID>
+                                <TargetGUID>1404000147</TargetGUID>
                                 <TargetCheckProcessingParticipantID>1</TargetCheckProcessingParticipantID>
                             </ObjectTargetFilter>
                             <ConditionPropsNegatable />
@@ -884,14 +848,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Selassy'e opposes my every proposal! He must certainly have some nefarious plan— I ask you to follow him!</Text>
+                            <Text>Tariq Bey opposes my every proposal! He must be hatching some wicked scheme— I ask you to follow him!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40999</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278236</AudioAsset>
+                    <AudioAsset>1404000468</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -906,14 +870,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Nothing... strange. There is more to this, I am sure of it!</Text>
+                            <Text>Nothing... strange. There is more to this, I am certain of it!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41000</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278237</AudioAsset>
+                    <AudioAsset>1404000490</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001363</GUID>
@@ -927,14 +891,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>There he is! Follow him— it shouldn't be hard to catch him red-handed!</Text>
+                            <Text>There he is! Follow him— it should not be hard to catch him red-handed!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41001</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278238</AudioAsset>
+                    <AudioAsset>1404000464</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -949,14 +913,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Keep your eyes peeled for any secret signals he might be giving.</Text>
+                            <Text>Keep your eyes open for any secret signals he might be giving.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41002</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278239</AudioAsset>
+                    <AudioAsset>1404000472</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001365</GUID>
@@ -970,14 +934,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Keep watching his hands— perhaps he will pocket something!</Text>
+                            <Text>Watch his hands— perhaps he will pocket something!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41003</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278240</AudioAsset>
+                    <AudioAsset>1404000474</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001366</GUID>
@@ -996,7 +960,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi wishes to uncover the vices of Selassy'e to stop him always undermining her at the Moot.</Text>
+                            <Text>Envoy Kemal Bey wishes to expose the vices of Tariq Bey, who keeps undermining him in the Divan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1014,7 +978,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is surprised no compromising evidence was found and swears to dig deeper.</Text>
+                            <Text>The Envoy is surprised that no compromising evidence was found and swears to dig deeper.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1032,7 +996,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi wishes you to help shed light on the hidden vices of her strongest opponent in the Moot: Elder Selassy'e. She is sure he is up to something, and even if he isn't, she can't afford for him to sabotage her career first.</Text>
+                            <Text>Envoy Kemal Bey wants you to shed light on the hidden vices of his strongest rival in the Divan: Envoy Tariq Bey. He is sure the man is up to something— and even if he isn't, Kemal Bey cannot afford to let him sabotage his career first.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1050,7 +1014,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Selassy'e usually starts his day at the Trading Post before going to the Marketplace.</Text>
+                            <Text>Tariq Bey usually arrives at the harbour, calls at the Town Hall and then strolls over to the Marketplace.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1068,7 +1032,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Select Selassy'e to start tailing him</Text>
+                            <Text>Select Tariq Bey to start tailing him</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1086,7 +1050,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is certain tailing Selassy'e will uncover his sinful behaviour.</Text>
+                            <Text>The Envoy is certain that tailing Tariq Bey will uncover his sinful behaviour.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1104,7 +1068,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder suspects bribery— or worse— may be afoot, but lacks evidence.</Text>
+                            <Text>The Envoy suspects bribery— or worse— is afoot, but lacks proof.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1122,7 +1086,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Keep an eye on Selassy'e as he roams the city</Text>
+                            <Text>Keep an eye on Tariq Bey as he roams the city</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1140,7 +1104,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder has mounting suspicions that Selassy'e is about to commit a misdeed.</Text>
+                            <Text>The Envoy is increasingly convinced that Tariq Bey is about to commit some misdeed.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1148,6 +1112,25 @@
                 </Text>
             </Values>
         </Asset>
+        <!-- Orient copy of the vanilla council member walker, so it carries its own name -->
+        <Asset>
+            <BaseAssetGUID>118780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404001664</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_TariqBey</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Tariq Bey</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

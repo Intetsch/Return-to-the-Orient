@@ -295,7 +295,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114441</Context>
+                                                    <Context>1404000171</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -316,7 +316,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114444</Context>
+                                                    <Context>1404000159</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -337,7 +337,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114439</Context>
+                                                    <Context>1404000303</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -372,7 +372,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Work Experience</Text>
+                            <Text>Idle Hands</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -488,7 +488,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114441</ObjectGUID>
+                                                            <ObjectGUID>1404000171</ObjectGUID>
                                                             <CheckParticipantID>1</CheckParticipantID>
                                                             <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
                                                         </ObjectFilter>
@@ -535,7 +535,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114444</ObjectGUID>
+                                                            <ObjectGUID>1404000159</ObjectGUID>
                                                             <CheckParticipantID>1</CheckParticipantID>
                                                             <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
                                                         </ObjectFilter>
@@ -582,7 +582,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114439</ObjectGUID>
+                                                            <ObjectGUID>1404000303</ObjectGUID>
                                                             <CheckParticipantID>1</CheckParticipantID>
                                                             <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
                                                         </ObjectFilter>
@@ -654,14 +654,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Idleness breeds contempt and unruliness in children. They must be kept busy, and taught the value of labour and an orderly life.</Text>
+                            <Text>Idleness breeds mischief and insolence in children. They must be kept busy and taught the value of labour and an orderly life.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40988</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278275</AudioAsset>
+                    <AudioAsset>1404000504</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001314</GUID>
@@ -675,14 +675,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Excellent! This will teach them to contribute to society, and return some quiet to the streets.</Text>
+                            <Text>Excellent! This will teach them to contribute to society— and bring some quiet back to the streets.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40989</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278276</AudioAsset>
+                    <AudioAsset>1404000484</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -768,7 +768,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Silichiti is concerned that unoccupied children might be harmful to peace and order, and that even if they cannot work, they should always have something to do. She wishes you to find them and ensure they are not idle.</Text>
+                            <Text>Envoy Selim Efendi is concerned that idle children are a threat to peace and order, and that even if they cannot work, they should always have something useful to do. He wishes you to find them and make sure they are kept busy.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -786,7 +786,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Children can usually be found playing near the Marketplace</Text>
+                            <Text>Children can usually be found playing near the Envoys' houses</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -804,7 +804,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Silichiti wants you to find idle children and teach them the value of hard work. </Text>
+                            <Text>Envoy Selim Efendi wants you to find idle children and teach them the value of hard work.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -822,7 +822,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder approves of your actions and appreciates the return of silence in the streets.</Text>
+                            <Text>The Envoy approves of your actions and appreciates the return of silence in the streets.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

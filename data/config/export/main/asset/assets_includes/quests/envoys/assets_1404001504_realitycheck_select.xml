@@ -410,28 +410,6 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114445</Context>
-                                                    <CounterAmount>1</CounterAmount>
-                                                    <CounterScope>Session</CounterScope>
-                                                    <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
-                                                    <CounterScopeContext>180023</CounterScopeContext>
-                                                </ConditionPlayerCounter>
-                                            </Values>
-                                        </Condition>
-                                    </PreConditionList>
-                                </Values>
-                            </SubCondition>
-                        </Item>
-                        <Item>
-                            <SubCondition>
-                                <Template>PreConditionList</Template>
-                                <Values>
-                                    <PreConditionList>
-                                        <Condition>
-                                            <Template>ConditionPlayerCounter</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionPlayerCounter>
                                                     <Context>1010358</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Session</CounterScope>
@@ -539,7 +517,7 @@
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
                                                 <CharacterNotification>
-                                                    <Profile>118731</Profile>
+                                                    <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
                                                     <NotificationText>1404001522</NotificationText>
@@ -580,7 +558,7 @@
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
                                                 <CharacterNotification>
-                                                    <Profile>118731</Profile>
+                                                    <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
                                                     <NotificationText>1404001523</NotificationText>
@@ -621,7 +599,7 @@
                                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                                             <Values>
                                                 <CharacterNotification>
-                                                    <Profile>118731</Profile>
+                                                    <Profile>1404000019</Profile>
                                                 </CharacterNotification>
                                                 <BaseNotification>
                                                     <NotificationText>1404001524</NotificationText>
@@ -1055,14 +1033,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Moot worry the Scholars have forgotten who they are and what they owe to their homeland— I can give them a good talking-to.</Text>
+                            <Text>The Divan fears that our young men studying abroad have forgotten who they are and what they owe their homeland— I shall give them a good talking-to.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41046</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278251</AudioAsset>
+                    <AudioAsset>1404000468</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001508</GUID>
@@ -1076,14 +1054,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>... Anniversary?! I said, but I'm &lt;i&gt;this&lt;/i&gt; close to the first life-size replica of a Cleopatra Ferruginea shell!</Text>
+                            <Text>... Our anniversary?! But I am &lt;i&gt;this&lt;/i&gt; close to the first life-size replica of a Cleopatra Ferruginea shell!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41723</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277939</AudioAsset>
+                    <AudioAsset>1404000538</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -1105,7 +1083,7 @@
                     <LineID>41724</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277940</AudioAsset>
+                    <AudioAsset>1404000540</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -1127,7 +1105,7 @@
                     <LineID>41725</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277941</AudioAsset>
+                    <AudioAsset>1404000528</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -1142,14 +1120,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'Momentously important work', tch, If the Lord wanted slugs to be important he'd have made us slugs!</Text>
+                            <Text>'Momentously important work'— tch! If snails were so important, the Sultan would appoint them as his viziers!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41047</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278252</AudioAsset>
+                    <AudioAsset>1404000492</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -1164,14 +1142,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How could he forget everything we taught him so easily! By the end he was squirming with shame!</Text>
+                            <Text>How could he forget everything we taught him so quickly? By the end he was squirming with shame!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41048</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278253</AudioAsset>
+                    <AudioAsset>1404000486</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -1186,14 +1164,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Of all the arrogant, thankless young grasshoppers... Using someone else's hard work to settle his own petty argument.</Text>
+                            <Text>Of all the arrogant, ungrateful young locusts... Using his father's hard-earned money to settle his own petty quarrels.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41049</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278254</AudioAsset>
+                    <AudioAsset>1404000508</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -1415,7 +1393,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder fears the scholars (Mihurani) sent abroad are losing their grip on reality. She wishes you to bring one of the main culprits home so she can school him adequately.</Text>
+                            <Text>The Envoy fears that the sons of Wadi Al Zahir sent to study in the Old World are losing their grip on reality. He wishes you to bring one of the worst culprits home, so that he can school him properly.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1433,7 +1411,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants to knock some sense and humility into the Scholars living abroad.</Text>
+                            <Text>The Envoy wants to knock some sense and humility into the young Envoys studying abroad.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1451,7 +1429,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Scholars are arguing in front of a crowd near the coast in the Old World</Text>
+                            <Text>The students are holding forth in front of a crowd near the coast in the Old World</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1469,7 +1447,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Choose a Scholar and bring him back to Enbesa</Text>
+                            <Text>Choose a student and bring him back to Wadi Al Zahir</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1487,7 +1465,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>This scholar puts his 'important' work before everything else.</Text>
+                            <Text>This student puts his 'important' work before everything else.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1505,7 +1483,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The scholar flaunts their love of uninhibited literary parties.</Text>
+                            <Text>The student flaunts his love of uninhibited literary parties.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1523,7 +1501,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Scholar loudly claims his father's donations grant him more freedoms than others.</Text>
+                            <Text>The student loudly claims that his father's donations entitle him to more freedom than others.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1541,7 +1519,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder relishes the guilt she made the Scholar feel.</Text>
+                            <Text>The Envoy relishes the guilt he made the student feel.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1559,7 +1537,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is furious at the Scholar's arrogance.</Text>
+                            <Text>The Envoy is furious at the student's arrogance.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1577,7 +1555,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder: You have met all three of those spoiled Scholar Mihurani. Which one deserves the most to be humbled and punished?</Text>
+                            <Text>Envoy: You have met all three of those spoiled students. Which of them most deserves to be humbled and punished?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1649,7 +1627,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Decide which Scholar deserves to be punished the most</Text>
+                            <Text>Decide which student most deserves to be punished</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

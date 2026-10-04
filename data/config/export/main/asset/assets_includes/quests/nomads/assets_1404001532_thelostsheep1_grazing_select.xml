@@ -294,84 +294,6 @@
                                             </Values>
                                         </Action>
                                     </Item>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>120000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionSpawnObjects</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionSpawnObjects>
-                                                                                    <SpawnGUID>1404001535</SpawnGUID>
-                                                                                    <Amount>1</Amount>
-                                                                                </ActionSpawnObjects>
-                                                                                <SpawnArea>
-                                                                                    <SpawnContext>Object</SpawnContext>
-                                                                                    <ContextGUID>1404001534</ContextGUID>
-                                                                                    <SpawnAreaType>Campaign_01</SpawnAreaType>
-                                                                                    <DistanceToContext>200</DistanceToContext>
-                                                                                </SpawnArea>
-                                                                                <SessionFilter>
-                                                                                    <Sessions>
-                                                                                        <Item>
-                                                                                            <Session>1404000000</Session>
-                                                                                        </Item>
-                                                                                    </Sessions>
-                                                                                </SessionFilter>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>122000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118956</Quest>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                    <UseCurrentSession>1</UseCurrentSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
                                 </Actions>
                             </ActionList>
                         </Values>
@@ -496,7 +418,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114456</Context>
+                                                    <Context>1404000303</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -517,7 +439,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionUnlocked>
-                                                    <UnlockNeeded>114520</UnlockNeeded>
+                                                    <UnlockNeeded>1404000148</UnlockNeeded>
                                                 </ConditionUnlocked>
                                                 <ConditionPropsNegatable />
                                             </Values>
@@ -531,7 +453,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>My Lord Is My Shepherd— Pastoral</Text>
+                            <Text>Oasis Idyll</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -637,14 +559,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Care to help me take the sheep out to pasture? A wonderful place not far— tall grass, shade, a beautiful waterfall…</Text>
+                            <Text>Would you help me take the sheep out to graze? There is a wonderful place not far from here— sweet grass, shady palms, cool spring water...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41345</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277549</AudioAsset>
+                    <AudioAsset>1404000443</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -698,77 +620,11 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Shepherd with sheep</Text>
+                            <Text>Nomad with sheep</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>44113</LineID>
-                </Text>
-                <Infolayer />
-                <MinimapToken />
-                <QuestObject />
-                <SoundEmitter>
-                    <CollectedSounds>
-                        <Item>
-                            <Sound>214111</Sound>
-                        </Item>
-                    </CollectedSounds>
-                </SoundEmitter>
-                <FeedbackController>
-                    <NightBehavior>HideNone</NightBehavior>
-                </FeedbackController>
-                <Trailer />
-                <Blocking />
-            </Values>
-        </Asset>
-        <Asset>
-            <Template>CollectablePicturePuzzle</Template>
-            <Values>
-                <Standard>
-                    <GUID>1404001535</GUID>
-                    <Name>Amun the sheep</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/animals/icon_sheep.png</IconFilename>
-                </Standard>
-                <Collectable>
-                    <DestroyOnCollect>0</DestroyOnCollect>
-                    <CollectOnSelection>0</CollectOnSelection>
-                    <OnCollect>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <ActionList />
-                        </Values>
-                    </OnCollect>
-                </Collectable>
-                <Mesh>
-                    <MeshPlacement>OnTerrain</MeshPlacement>
-                    <InitialVisibility>0</InitialVisibility>
-                    <ConstructionEffectDuration>0</ConstructionEffectDuration>
-                </Mesh>
-                <Selection>
-                    <GUIType>Quest</GUIType>
-                    <OnSelection>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <ActionList />
-                        </Values>
-                    </OnSelection>
-                </Selection>
-                <Object>
-                    <Variations>
-                        <Item>
-                            <Filename>data/dlc06/graphics/quest/quest_props/burning_bush/burning_bush_withsheep.cfg</Filename>
-                        </Item>
-                    </Variations>
-                </Object>
-                <CommandQueue />
-                <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Amun, Friend of Diniki</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>44112</LineID>
                 </Text>
                 <Infolayer />
                 <MinimapToken />
@@ -821,7 +677,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Pastoral Islet</Text>
+                            <Text>Pastoral Oasis</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -862,7 +718,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>One of your Shepherds would you like to share the simple pleasures of life with you. He would be delighted if you could join him in a nearby pasture to enjoy the quiet beauty of nature while his sheep graze.</Text>
+                            <Text>One of your Nomads would like to share the simple pleasures of life with you. He would be delighted if you joined him at a nearby pasture to enjoy the quiet beauty of the desert while his sheep graze.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -898,7 +754,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>There is a tree with a length of fabric tied to it near the pasture in question.</Text>
+                            <Text>There is a tree with a length of cloth tied to it near the pasture in question.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -916,7 +772,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A Shepherd hopes you'll come and enjoy the pasture where his sheep graze.</Text>
+                            <Text>A Nomad hopes you will come and enjoy the pasture where his sheep graze.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

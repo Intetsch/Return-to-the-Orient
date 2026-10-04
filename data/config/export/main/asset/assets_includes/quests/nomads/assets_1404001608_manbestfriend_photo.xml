@@ -296,7 +296,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114456</Context>
+                                                    <Context>1404000303</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -407,7 +407,7 @@
                                                 <Values>
                                                     <SpawnArea>
                                                         <SpawnContext>Object</SpawnContext>
-                                                        <ContextGUID>114456</ContextGUID>
+                                                        <ContextGUID>1404000303</ContextGUID>
                                                         <LimitToQuestArea>1</LimitToQuestArea>
                                                         <DistanceToContext>5</DistanceToContext>
                                                         <DistanceToBorder>Near</DistanceToBorder>
@@ -445,14 +445,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I'll miss old Dani when she leaves the flock, but she doesn't milk any more…</Text>
+                            <Text>I will miss old Bahja when she leaves the herd, but she gives no more milk...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41378</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277531</AudioAsset>
+                    <AudioAsset>1404000431</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001609</GUID>
@@ -505,7 +505,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Shepherd with goats</Text>
+                            <Text>Nomad with goats</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -539,7 +539,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Few in Taborime— or even Enbesa— have been kinder to the Shepherd than old Lani the goat, a true friend and listener over the years. But now Lani's milk has run dry, and the two kindred spirits must part for Lani's last great journey. The Shepherd would have a reminder of his friend, to cherish and hold dear, and asks if you could oblige with your daguerreotype.</Text>
+                            <Text>Few in Wadi Al Zahir have been kinder to the Nomad than old Bahja the goat, a true friend and patient listener through many desert winters. But now Bahja's milk has run dry, and the two kindred spirits must part ways. The Nomad would like a keepsake of his friend to cherish, and asks whether you could oblige with your daguerreotype.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -557,7 +557,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd and his goats are next to a goat pen</Text>
+                            <Text>The Nomad and his goats are next to a Camel Farm</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -575,7 +575,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd is in the middle, surrounded by goats</Text>
+                            <Text>The Nomad is in the middle, surrounded by goats</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -593,7 +593,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd wishes for a photo of his friend, Lani the goat.</Text>
+                            <Text>The Nomad wishes for a photo of his friend, Bahja the goat.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

@@ -282,7 +282,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Moot Points — The Speech</Text>
+                            <Text>Divan Affairs — The Speech</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -338,7 +338,7 @@
                                                         <Condition />
                                                         <ConditionDecision>
                                                             <DecisionFluffText>1404001335</DecisionFluffText>
-                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionPortrait>1404000155</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
                                                                     <DecisionOption>
@@ -385,7 +385,7 @@
                                                         <Condition />
                                                         <ConditionDecision>
                                                             <DecisionFluffText>1404001337</DecisionFluffText>
-                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionPortrait>1404000155</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
                                                                     <DecisionOption>
@@ -405,7 +405,7 @@
                                                                                                         <Values>
                                                                                                             <Action />
                                                                                                             <ActionBuff>
-                                                                                                                <BuffAsset>129996</BuffAsset>
+                                                                                                                <BuffAsset>1404001665</BuffAsset>
                                                                                                                 <AddBuff>1</AddBuff>
                                                                                                                 <BuffProcessingParticipant>1</BuffProcessingParticipant>
                                                                                                                 <BuffTimeout>1800000</BuffTimeout>
@@ -439,7 +439,7 @@
                                                                                                         <Values>
                                                                                                             <Action />
                                                                                                             <ActionBuff>
-                                                                                                                <BuffAsset>130301</BuffAsset>
+                                                                                                                <BuffAsset>1404001666</BuffAsset>
                                                                                                                 <AddBuff>1</AddBuff>
                                                                                                                 <BuffProcessingParticipant>1</BuffProcessingParticipant>
                                                                                                                 <BuffTimeout>1800000</BuffTimeout>
@@ -473,7 +473,7 @@
                                                                                                         <Values>
                                                                                                             <Action />
                                                                                                             <ActionBuff>
-                                                                                                                <BuffAsset>130305</BuffAsset>
+                                                                                                                <BuffAsset>1404001667</BuffAsset>
                                                                                                                 <AddBuff>1</AddBuff>
                                                                                                                 <BuffProcessingParticipant>1</BuffProcessingParticipant>
                                                                                                                 <BuffTimeout>1800000</BuffTimeout>
@@ -501,7 +501,7 @@
                                                         <Condition />
                                                         <ConditionDecision>
                                                             <DecisionFluffText>1404001338</DecisionFluffText>
-                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionPortrait>1404000155</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
                                                                     <DecisionOption>
@@ -640,14 +640,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The council have finally welcomed me among the elders of the Keftanya Moot! Help me prepare my acceptance speech!</Text>
+                            <Text>At last the Divan of Wadi Al Zahir has granted me a seat among its members! Help me prepare my acceptance speech!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40993</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278246</AudioAsset>
+                    <AudioAsset>1404000466</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -662,14 +662,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Thank you... for helping me understand what I needed to do in my speech.</Text>
+                            <Text>Thank you... for helping me understand what I needed to say in my speech.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40994</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278247</AudioAsset>
+                    <AudioAsset>1404000484</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -684,14 +684,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I'm not saying that, you wicked bushpig!</Text>
+                            <Text>I am not saying that, you scheming jackal!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40996</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278249</AudioAsset>
+                    <AudioAsset>1404000492</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -711,7 +711,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder has been invited to join a council of Elders and wants your help preparing a speech.</Text>
+                            <Text>The Envoy has been granted a seat in the city's Divan and wants your help preparing a speech.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -729,7 +729,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi: 'I have several ideas on how to open my speech, but I'm uncertain which would be most efficacious. First I am to stand and call "Dear Council members", then...&lt;b&gt;Hm, what is most important in my first impression?&lt;/b&gt;'</Text>
+                            <Text>Kemal Bey: 'I have several ideas on how to open my speech, but I cannot decide which would be most effective. First I shall rise and address them as "Honoured members of the Divan", then... &lt;b&gt;Hm, what matters most in a first impression?&lt;/b&gt;'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -747,7 +747,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi needs your help fine-tuning her acceptance speech for the Keftanya Moot. She has been waiting ever since her husband died to join this committee and does not wish to ruin her chances of success at what she considers the final hurdle.</Text>
+                            <Text>Envoy Kemal Bey needs your help fine-tuning his acceptance speech for the Divan of Wadi Al Zahir. He has waited years for a seat on this council and does not wish to stumble at what he considers the final hurdle.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -765,7 +765,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi: 'Good, I shall consider that...Now, a series of necessary flourishes and acknowledgements, then on to the matter at hand: "There is much to be done. Our first mandate should be..."'</Text>
+                            <Text>Kemal Bey: 'Good, I shall consider that... Now, the necessary flourishes and courtesies, and then on to the matter at hand: "There is much to be done. Our first mandate should be..."'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -783,7 +783,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi: 'There will be much murmuring and discussion at that point I like to think— but I will control it easily. Now to the conclusion: "By the grace of the Lord I solemnly swear that...'</Text>
+                            <Text>Kemal Bey: 'There will be much murmuring and debate at that point, I like to think— but I shall keep it well in hand. Now to the conclusion: "By the grace of Allah, I solemnly swear that..."'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -801,7 +801,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'Your vote of confidence—for once in my life— humbles me...' </Text>
+                            <Text>'Your vote of confidence— for once in my life— humbles me...'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -837,7 +837,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'Long...very long...have I awaited this honour!' </Text>
+                            <Text>'Long... very long... have I awaited this honour!'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -855,7 +855,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'The needs of the lowliest, as befits the virtuous...'</Text>
+                            <Text>'The needs of the humblest, as befits the virtuous...'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -873,7 +873,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'To strive to encourage piety and abidance with the covenant...'</Text>
+                            <Text>'To encourage piety and devotion at the mosque...'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -891,7 +891,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'To lessen the burdens of the Elders, that we may better uplift Enbesa...'</Text>
+                            <Text>'To lessen the burdens of the Envoys, that we may better uplift Wadi Al Zahir...'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -909,7 +909,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'I will make my tenure with the Moot my life's work!'</Text>
+                            <Text>'I will make my seat in the Divan my life's work!'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -927,7 +927,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>'I will not rest until this Moot's influence reaches beyond Taborime, to the whole of Enbesa!'</Text>
+                            <Text>'I will not rest until the voice of this Divan is heard beyond Wadi Al Zahir, at the Sultan's very throne!'</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -963,7 +963,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder thanks you for the small part you played in composing the final speech.</Text>
+                            <Text>The Envoy thanks you for the small part you played in composing his speech.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -981,7 +981,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder offers not even the faintest smile at your suggestion.</Text>
+                            <Text>The Envoy does not offer even the faintest smile at your suggestion.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -999,7 +999,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Help the Elder compose her speech for the Moot</Text>
+                            <Text>Help the Envoy compose his speech for the Divan</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -1007,6 +1007,124 @@
                 </Text>
             </Values>
         </Asset>
+        <!-- Orient versions of the vanilla speech buffs (those only target Enbesa buildings) -->
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001665</GUID>
+                    <Name>Envoy Speech The needs of the humblest (Nomad Residence)</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_nomad.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000016</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>129996</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <GoodConsumptionUpgrade>
+                        <Item>
+                            <ProvidedNeed>1888999749</ProvidedNeed>
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>1404000265</ProvidedNeed>
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                        <Item>
+                            <ProvidedNeed>114404</ProvidedNeed>
+                            <AmountInPercent>-10</AmountInPercent>
+                        </Item>
+                    </GoodConsumptionUpgrade>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001666</GUID>
+                    <Name>Envoy Speech To encourage piety (Mosque)</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_mosque.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000148</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>130301</TextOverride>
+                </Text>
+                <BuildingUpgrade>
+                    <PublicServiceFullSatisfactionDistance>
+                        <Value>25</Value>
+                    </PublicServiceFullSatisfactionDistance>
+                </BuildingUpgrade>
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <AdditionalHappiness>5</AdditionalHappiness>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TownhallBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001667</GUID>
+                    <Name>Envoy Speech To lessen the burdens of the Envoys (Envoy Residence)</Name>
+                    <IconFilename>data/graphics/icons/residents/icon_resident_envoy.png</IconFilename>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404000017</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <TextOverride>130305</TextOverride>
+                </Text>
+                <BuildingUpgrade />
+                <Buff />
+                <PopulationUpgrade />
+                <ResidenceUpgrade>
+                    <AdditionalHappiness>15</AdditionalHappiness>
+                </ResidenceUpgrade>
+                <IncidentInfectableUpgrade />
+                <CultureUpgrade />
+                <InfluenceSourceUpgrade />
+                <WarehouseUpgrade />
+                <DistributionUpgrade />
+                <ItemContainerUpgrade />
+                <FactoryUpgrade />
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

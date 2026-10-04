@@ -294,7 +294,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Culture Shock</Text>
+                            <Text>Courtesy of the Guest</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -349,7 +349,7 @@
                                                         <Condition />
                                                         <ConditionDecision>
                                                             <DecisionFluffText>1404001284</DecisionFluffText>
-                                                            <DecisionPortrait>114622</DecisionPortrait>
+                                                            <DecisionPortrait>1404000155</DecisionPortrait>
                                                             <DecisionOptionList>
                                                                 <Item>
                                                                     <DecisionOption>
@@ -494,14 +494,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Emperor may have granted you stewardship, but it will take more than a piece of paper to prove you care for Enbesa.</Text>
+                            <Text>The Sultan may have granted you this land, but a firman alone does not prove that you respect our ways.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40970</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278310</AudioAsset>
+                    <AudioAsset>1404000466</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001276</GUID>
@@ -515,14 +515,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Quite right. What use are gifts that cannot be shared, save for ostentatious displays of wealth?</Text>
+                            <Text>Quite right. What use is a gift that cannot be shared over coffee, save as an ostentatious display of wealth?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40971</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278311</AudioAsset>
+                    <AudioAsset>1404000522</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -537,14 +537,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How very like a foreigner to bring a gift that loudly proclaims their means.</Text>
+                            <Text>How very like a foreigner to bring a gift that loudly proclaims their wealth.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40972</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278312</AudioAsset>
+                    <AudioAsset>1404000490</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -559,14 +559,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Say you were invited to my home, what should you bring to honour the invitation?</Text>
+                            <Text>Say you were invited into my home— what would you bring to honour the invitation?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40973</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278313</AudioAsset>
+                    <AudioAsset>1404000470</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001279</GUID>
@@ -585,7 +585,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tafachi Keki doubts your commitment to understanding the traditions and people of Enbesa, and with no subtlety at all, probes your knowledge of local practices and customs.</Text>
+                            <Text>Envoy Nureddin Efendi doubts that you truly care to understand the traditions and people of Wadi Al Zahir and, with no subtlety at all, puts your knowledge of local hospitality to the test.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -603,7 +603,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tafachi Keki insists you demonstrate your knowledge of Enbesan customs.</Text>
+                            <Text>Envoy Nureddin Efendi insists that you demonstrate your knowledge of local customs.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -621,7 +621,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tafachi Keki is pleasantly impressed by your choice.</Text>
+                            <Text>Envoy Nureddin Efendi is pleasantly surprised by your choice.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -639,7 +639,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tafachi Keki fustigates you for the gaudiness of your choice.</Text>
+                            <Text>Envoy Nureddin Efendi scolds you for the gaudiness of your choice.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -657,7 +657,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tafachi Keki: The Emperor may have granted you stewardship, but you will need more than a piece of signed paper to prove you care for Enbesa and its people. Say, for instance, that &lt;b&gt;I were to invite you to my home&lt;/b&gt;—an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
+                            <Text>Envoy Nureddin Efendi: The Sultan may have granted you this land, but you will need more than a sealed firman to prove you care for Wadi Al Zahir and its people. Say, for instance, that &lt;b&gt;I were to invite you into my home&lt;/b&gt;— an unlikely occasion— &lt;b&gt;what would you bring to honour the invitation?&lt;/b&gt;</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -675,7 +675,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A gift of costly incense and oils would be appropriate...</Text>
+                            <Text>A vial of costly rose attar and frankincense would be appropriate...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -693,7 +693,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A small ornate wooden casket would be expected...</Text>
+                            <Text>A small casket inlaid with mother-of-pearl would be expected...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -711,7 +711,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A gift of sweet honeyed pastries of course!</Text>
+                            <Text>A tray of sweet baklava and dates, of course!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -729,7 +729,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder asks you what you would bring along as a gift when visiting someone in Enbesa.</Text>
+                            <Text>The Envoy asks what you would bring as a gift when visiting a household in Wadi Al Zahir.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -747,7 +747,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Let the Elder know which gift you would bring on a visit</Text>
+                            <Text>Tell the Envoy which gift you would bring on a visit</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

@@ -382,7 +382,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Poor Relations - The Tithe</Text>
+                            <Text>Poor Relations — The Tithe</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -456,39 +456,6 @@
                                                                 </Values>
                                                             </Action>
                                                         </Item>
-                                                        <Item>
-                                                            <Action>
-                                                                <Template>ActionDelayedActions</Template>
-                                                                <Values>
-                                                                    <Action />
-                                                                    <ActionDelayedActions>
-                                                                        <ExecutionDelay>900000</ExecutionDelay>
-                                                                        <DelayedActions>
-                                                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                                            <Values>
-                                                                                <ActionList>
-                                                                                    <Actions>
-                                                                                        <Item>
-                                                                                            <Action>
-                                                                                                <Template>ActionStartQuest</Template>
-                                                                                                <Values>
-                                                                                                    <Action />
-                                                                                                    <ActionStartQuest>
-                                                                                                        <Quest>118960</Quest>
-                                                                                                        <InheritQuestArea>1</InheritQuestArea>
-                                                                                                        <InheritQuestSession>1</InheritQuestSession>
-                                                                                                    </ActionStartQuest>
-                                                                                                </Values>
-                                                                                            </Action>
-                                                                                        </Item>
-                                                                                    </Actions>
-                                                                                </ActionList>
-                                                                            </Values>
-                                                                        </DelayedActions>
-                                                                    </ActionDelayedActions>
-                                                                </Values>
-                                                            </Action>
-                                                        </Item>
                                                     </Actions>
                                                 </ActionList>
                                             </Values>
@@ -499,7 +466,7 @@
                                             <Item>
                                                 <Item>129991</Item>
                                                 <Amount>1</Amount>
-                                                <TargetObject>117858</TargetObject>
+                                                <TargetObject>1404000203</TargetObject>
                                             </Item>
                                         </UseItems>
                                     </ConditionQuestItemUsed>
@@ -522,14 +489,25 @@
                                                     <Actions>
                                                         <Item>
                                                             <Action>
-                                                                <Template>ActionStartQuest</Template>
+                                                                <Template>ActionNotification</Template>
                                                                 <Values>
                                                                     <Action />
-                                                                    <ActionStartQuest>
-                                                                        <Quest>118961</Quest>
-                                                                        <InheritQuestArea>1</InheritQuestArea>
-                                                                        <InheritQuestSession>1</InheritQuestSession>
-                                                                    </ActionStartQuest>
+                                                                    <ActionNotification>
+                                                                        <Notification>
+                                                                            <Template>CharacterNotification</Template>
+                                                                            <Values>
+                                                                                <CharacterNotification>
+                                                                                    <Profile>1404000018</Profile>
+                                                                                </CharacterNotification>
+                                                                                <BaseNotification>
+                                                                                    <NotificationText>1404001672</NotificationText>
+                                                                                </BaseNotification>
+                                                                                <NotificationSubtitle>
+                                                                                    <Subtitle>1404001673</Subtitle>
+                                                                                </NotificationSubtitle>
+                                                                            </Values>
+                                                                        </Notification>
+                                                                    </ActionNotification>
                                                                 </Values>
                                                             </Action>
                                                         </Item>
@@ -616,14 +594,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Our neighbours' landlady demands more and more tithe, but they can't keep up, what with the harvest. They're good people, you know ?</Text>
+                            <Text>Our neighbours' landlady demands more and more of their harvest, but the date palms bore so little this year. They are good people, you know?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41350</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277552</AudioAsset>
+                    <AudioAsset>1404000389</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -638,14 +616,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>It hurts me to see my neighbour suffer like this.</Text>
+                            <Text>It hurts me to see my neighbours suffer like this.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41351</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277553</AudioAsset>
+                    <AudioAsset>1404000411</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -667,7 +645,7 @@
                     <LineID>41059</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278318</AudioAsset>
+                    <AudioAsset>1404000488</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001544</GUID>
@@ -681,14 +659,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Enough for them to survive this year, but... What the Irenya expect just seems... unfair.</Text>
+                            <Text>Enough for them to get through this year, but... what the Envoys demand just seems... unfair.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41352</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277554</AudioAsset>
+                    <AudioAsset>1404000407</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -742,7 +720,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Fierce Landlady</Text>
+                            <Text>Hajja Zubaida, the Landlady</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -776,7 +754,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A family of Meniga (Shepherds) is being harassed by their covetous landlady and her extortionate tax demands. Their crops have been poor this year, and they are facing eviction if they default on their obligation. A kindly neighbour has asked if you can help them out of this predicament.</Text>
+                            <Text>A Nomad family is being harassed by their greedy landlady, Hajja Zubaida, and her extortionate demands. Their date harvest has been poor this year, and they face eviction from their grove if they cannot pay. A kindly neighbour asks whether you can help them out of this predicament.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -794,7 +772,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Field yield might improve with a productivity-enhancing item equipped in the local trade union. </Text>
+                            <Text>The harvest might improve if a productivity-enhancing item is equipped in the local Trade Union.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -812,7 +790,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The landowner is next to the Shepherd's house with her guards. Try talking to her...? </Text>
+                            <Text>The landlady is standing next to the Nomad's tent with her guards. Try talking to her...?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -830,7 +808,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>A Shepherd hopes you will assist a family unable to pay high taxes.</Text>
+                            <Text>A Nomad hopes you will help a family unable to pay the high dues on their land.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -848,7 +826,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd is saddened that you could not help in the matter.</Text>
+                            <Text>The Nomad is saddened that you could not help.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -866,7 +844,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder appreciates that you did not interfere.</Text>
+                            <Text>The Envoy appreciates that you did not interfere.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -884,7 +862,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd thanks you, but worries that the Elder's unfair demands will continue.</Text>
+                            <Text>The Nomad thanks you, but worries that the landlady's unfair demands will continue.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -920,7 +898,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Select the landowner to talk to her.</Text>
+                            <Text>Select the landlady to talk to her.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -928,6 +906,45 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001672</GUID>
+                    <Name>RQ_Nomad_Select_HelpTheFamily_TalkToLandownerSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>After your talk, Hajja Zubaida grudgingly grants the family a delay until the next harvest.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>You spoke to her, and she agreed to wait until the next harvest? By Allah, you have a silver tongue!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000405</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001673</GUID>
+                    <Name>RQ_Nomad_Select_HelpTheFamily_TalkToLandowner</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

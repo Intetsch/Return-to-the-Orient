@@ -24,7 +24,7 @@
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
                                 <CharacterNotification>
-                                    <Profile>119051</Profile>
+                                    <Profile>1404000018</Profile>
                                 </CharacterNotification>
                                 <BaseNotification>
                                     <NotificationText>1404001643</NotificationText>
@@ -326,7 +326,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Verdant Verse</Text>
+                            <Text>Desert Verse</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -448,7 +448,7 @@
                                             <Template>ConditionObjectPrebuiltObject</Template>
                                             <Values>
                                                 <ConditionObjectPrebuiltObject>
-                                                    <PrebuiltObject>119410</PrebuiltObject>
+                                                    <PrebuiltObject>1404000974</PrebuiltObject>
                                                     <PrebuiltObjectUseProcessingSession>1</PrebuiltObjectUseProcessingSession>
                                                 </ConditionObjectPrebuiltObject>
                                                 <ConditionScanner />
@@ -507,14 +507,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I... wrote a poem because I worry for nature in Enbesa with all this building.  I wish the Emperor could hear it, but I doubt it will ever reach him…</Text>
+                            <Text>I... wrote a poem, because I fear for the desert with all this building. I wish the Sultan could hear it, but I doubt it will ever reach him...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41383</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277537</AudioAsset>
+                    <AudioAsset>1404000395</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001630</GUID>
@@ -528,14 +528,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>There’s a land where the mountains are nameless, and the rivers all run God knows where…</Text>
+                            <Text>There is a land where the dunes have no names, and the wind alone knows the way...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41384</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277538</AudioAsset>
+                    <AudioAsset>1404000455</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -550,14 +550,15 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>As a younger man I shared the dreams of the Shepherds, and to an extent still do. Enbesa must adapt if it is to rise anew.</Text>
+                            <Text>Madame Kahina promised to place it in the Sultan's own hands! Perhaps he will remember that the desert, too, has a voice.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41959</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277469</AudioAsset>
+                    <AudioAsset>1404000405</AudioAsset>
+                    <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
                     <GUID>1404001632</GUID>
@@ -571,14 +572,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>There’s a land where life and love is boundless, And soft scented honey wafts through the air.</Text>
+                            <Text>There is a land where the wells never run dry, and the scent of jasmine drifts on the air.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41385</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277539</AudioAsset>
+                    <AudioAsset>1404000457</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -595,12 +596,12 @@
                     <GUID>1404001634</GUID>
                     <Name>QI Nomad Poem - Song of Durin</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/campaign/icon_letter_closed.png</IconFilename>
-                    <InfoDescription>127963</InfoDescription>
+                    <InfoDescription>1404001676</InfoDescription>
                 </Standard>
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Shepherd's Paean to Nature</Text>
+                            <Text>Nomad's Ode to the Desert</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -735,7 +736,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Enbesa's rise from the ashes under Emperor Ketema has not come without cost, and much of what used to be lush greenland has fallen under the axe and machines of renewed industry. While the Shepherd understands the need for progress, he feels a softer path, more respectful of Nature, should be found. He has condensed his feelings in a short poem which he wishes you would convey to the Emperor in the hope that he will read it.</Text>
+                            <Text>The rise of Wadi Al Zahir has not come without cost: wells run dry, palm groves fall to the axe, and the old caravan routes vanish beneath new streets and factories. While the Nomad understands the need for progress, he believes a gentler path, more respectful of the desert, can be found. He has poured his feelings into a short poem, which he asks you to take to Madame Kahina's harbour so that it may reach the Sultan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -753,7 +754,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd asks you to convey a poem he wrote to Emperor Ketema.</Text>
+                            <Text>The Nomad asks you to bring a poem he wrote to Madame Kahina, who can send it on to the Sultan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -771,7 +772,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Ketema acknowledges the Shepherd's concerns.</Text>
+                            <Text>Madame Kahina will forward the Nomad's poem to the Sultan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -797,6 +798,24 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001676</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_PoemDescription</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A poem by a young Nomad who believes that, in times of change, the desert must not be forgotten.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

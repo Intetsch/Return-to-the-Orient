@@ -300,7 +300,7 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>GoodsInStock</PlayerCounter>
-                                                    <Context>1010249</Context>
+                                                    <Context>1404000256</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
@@ -314,7 +314,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — Gilt Trip</Text>
+                            <Text>Highborn — Tiles of Glory</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -368,7 +368,7 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>1010249</ObjectGUID>
+                                                <ObjectGUID>1404000256</ObjectGUID>
                                                 <Min>20</Min>
                                                 <Max>20</Max>
                                             </Item>
@@ -463,14 +463,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How does one extol the glory of the Lord in such miserly temples? The gates of the Holy Realm are gold and basalt, not raw wood and lead!</Text>
+                            <Text>How is one to praise the glory of Allah in such plain mosques? The Sultan's palaces shine with tiles of every colour, while our houses of prayer make do with whitewash!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41009</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278283</AudioAsset>
+                    <AudioAsset>1404000504</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -485,14 +485,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>As is given on this earth, so will be apportioned tenfold in Heaven!</Text>
+                            <Text>What is given on this earth will be repaid tenfold in Paradise!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41010</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278284</AudioAsset>
+                    <AudioAsset>1404000484</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -512,7 +512,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wishes to embellish the churches of Taborime with gold-leafing to honour the glory of the Lord.</Text>
+                            <Text>Envoy Faruq Pasha wishes to adorn the mosques of Wadi Al Zahir with glittering mosaics to honour the glory of Allah— and, not least, his own good name as their benefactor.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -530,7 +530,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati is displeased at the sparseness of church decorations and asks you to bring gold.</Text>
+                            <Text>Envoy Faruq Pasha is displeased with the bare walls of the mosques and asks you to bring mosaic tiles.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -548,7 +548,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati commends you for securing the required gold.</Text>
+                            <Text>Envoy Faruq Pasha commends you for securing the mosaic tiles.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

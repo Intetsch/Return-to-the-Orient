@@ -300,7 +300,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114437</Context>
+                                                    <Context>1404000017</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -322,7 +322,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118981</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001556</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -335,7 +335,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Man Up - Initiation Rite</Text>
+                            <Text>Coming of Age — The Lion's Den</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -474,14 +474,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Some Meniga boys came to tell me one of their number went to slay a beast in the mountains and hasn't come back. Shouldn't you be investigating?</Text>
+                            <Text>Some Nomad boys came to tell me that one of them went into the mountains to slay a lion and has not returned. Should you not be looking into this?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41061</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278320</AudioAsset>
+                    <AudioAsset>1404000510</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001564</GUID>
@@ -495,14 +495,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I couldn't kill it. The beast...the lion, had a wounded paw— I could only think to help it. That may make me less of a man, but I don't care.</Text>
+                            <Text>I could not kill it. The lion... it had a wounded paw— all I could think of was helping it. Perhaps that makes me less of a man, but I do not care.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41360</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277565</AudioAsset>
+                    <AudioAsset>1404000405</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -554,7 +554,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Shepherd's mountain camp</Text>
+                            <Text>Hamza's mountain camp</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -588,7 +588,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Some worry the Shepherd who was humiliated by his peers has met some grisly fate. He has yet to return from the mountain where it is said he went to slay a beast and thereby prove his quality. One of the Elders asks you to go looking for him.</Text>
+                            <Text>Some fear that young Hamza, mocked by his peers, has met a grisly fate. He has not returned from the mountains, where he is said to have gone to slay a lion and so prove his worth. One of the Envoys asks you to go and look for him.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -606,7 +606,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd has gone into the mountains.</Text>
+                            <Text>Hamza has gone into the mountains.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -642,7 +642,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder says the humiliated Shepherd has gone missing in the mountains.</Text>
+                            <Text>The Envoy says that young Hamza has gone missing in the mountains.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -660,7 +660,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd chose to help a lion instead of slaying it as he had intended.</Text>
+                            <Text>Hamza chose to help a lion instead of slaying it as he had intended.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

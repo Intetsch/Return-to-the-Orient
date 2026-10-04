@@ -296,7 +296,7 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>GoodsInStock</PlayerCounter>
-                                                    <Context>117698</Context>
+                                                    <Context>1404000241</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
@@ -310,7 +310,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>What We Stand To Learn</Text>
+                            <Text>Light for the Madrasa</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -372,9 +372,9 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>117698</ObjectGUID>
-                                                <Min>15</Min>
-                                                <Max>15</Max>
+                                                <ObjectGUID>1404000241</ObjectGUID>
+                                                <Min>8</Min>
+                                                <Max>8</Max>
                                             </Item>
                                         </DeliveryObject_cqd>
                                         <DeliveryType>Area</DeliveryType>
@@ -467,14 +467,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Moot has noticed very few people read anymore. How can one know who they are if they do not know where they come from?</Text>
+                            <Text>The Divan has noticed that hardly anyone reads anymore. How can one know who one is without knowing where one comes from?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41029</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278266</AudioAsset>
+                    <AudioAsset>1404000556</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001456</GUID>
@@ -493,7 +493,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder deplores that the people of the city do not seem to be reading enough, and wants you to provide enough books for the whole city.</Text>
+                            <Text>The Envoy deplores that the people of the city no longer seem to study. Once the sun has set, the reading rooms of the madrasa are far too dark, so he wants you to provide chandeliers that will let the faithful read late into the night.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -511,7 +511,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder thinks people do not read enough and wants your help righting the situation.</Text>
+                            <Text>The Envoy thinks people do not read enough and wants your help to remedy the situation.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

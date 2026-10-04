@@ -23,12 +23,17 @@
                         <Notification>
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
-                                <CharacterNotification />
-                                <BaseNotification />
-                                <NotificationSubtitle />
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001674</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001675</Subtitle>
+                                </NotificationSubtitle>
                             </Values>
                         </Notification>
-                        <SuppressMessage>1</SuppressMessage>
                     </SuccessMessage>
                     <FailureMessage>
                         <Notification>
@@ -234,24 +239,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionStartQuest</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionStartQuest>
-                                                    <Quest>118984</Quest>
-                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                    <UseCurrentSession>1</UseCurrentSession>
-                                                </ActionStartQuest>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -393,7 +381,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114453</Context>
+                                                    <Context>1404000159</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -409,7 +397,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Man Up - Lost Youth</Text>
+                            <Text>Coming of Age — Lost Daughter</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -537,14 +525,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Alyia, my third cousin— she's disappeared! Everyone's out looking for her, but I am just as worried for her family...</Text>
+                            <Text>Amira, my cousin— she has vanished! Everyone is out searching for her, but I am just as worried about her family...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41361</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277561</AudioAsset>
+                    <AudioAsset>1404000391</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -598,7 +586,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Alyia's Family</Text>
+                            <Text>Amira's Family</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -632,7 +620,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Taborime is in uproar: the Shepherd's cousin Alyia is nowhere to be found! Yet amid the searches and confusion no-one seems to have comforted her family, an error which the Shepherd asks you to correct.</Text>
+                            <Text>The whole city is in uproar: Hamza's cousin Amira is nowhere to be found! Yet amid all the searching and confusion, no-one has thought to comfort her family— an oversight Hamza asks you to correct.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -650,7 +638,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Alyia's Relatives can be found before their house</Text>
+                            <Text>Amira's relatives can be found in front of their home</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -668,7 +656,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Alyia's father is standing next to his two other young daughters.</Text>
+                            <Text>Amira's father is standing next to his two younger daughters.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -686,7 +674,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>&lt;i&gt;(part of a letter from Alyia to her sister Lucille, translated from Enbesan)...&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;Father's not the same since mother died— he's too old to work like he does— but he agrees with the Elder Moot that I'm only a young girl and would serve him best by staying at home and out of mischief. &lt;br/&gt;But &lt;b&gt;I have defied all of them — I have been dressing as a boy&lt;/b&gt; and working, so that father will be able to pay the tithe this year. &lt;br/&gt;I would be now, if I had not gotten hurt today...such a small mark, but my face feels puffy...</Text>
+                            <Text>&lt;i&gt;(part of a letter from Amira to her sister Nadia)...&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;Father has not been the same since mother died— he is too old to work as hard as he does— but he agrees with the Envoys that I am only a young girl and would serve him best by staying at home and out of mischief.&lt;br/&gt;But &lt;b&gt;I have defied them all— I have been dressing as a boy&lt;/b&gt; and working at the harbour, so that father can pay his dues this year.&lt;br/&gt;I would be there now, had I not hurt myself today... such a small cut, but my hand is swelling so...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -704,7 +692,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd hopes by comforting his cousin's family, you may learn something about her disappearance.</Text>
+                            <Text>Hamza hopes that by comforting his cousin's family, you may learn something about her disappearance.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -712,6 +700,45 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001674</GUID>
+                    <Name>RQ_Nomad_Select_FindFamily_QuestSuccessSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Thanks to the letter, Hamza finds Amira at the harbour and brings her safely home.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>She was at the harbour all along, hiding in a boy's clothes! Her hand will heal— Allah be praised, she is home again!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000453</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001675</GUID>
+                    <Name>RQ_Nomad_Select_FindFamily_QuestSuccess</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

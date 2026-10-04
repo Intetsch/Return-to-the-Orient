@@ -296,7 +296,7 @@
                                                 <Condition />
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>GoodsInStock</PlayerCounter>
-                                                    <Context>114390</Context>
+                                                    <Context>1400201044</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
@@ -310,7 +310,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Tea Trolley</Text>
+                            <Text>Tea for the Divan</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -372,7 +372,7 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>114390</ObjectGUID>
+                                                <ObjectGUID>1400201044</ObjectGUID>
                                                 <Min>7</Min>
                                                 <Max>7</Max>
                                             </Item>
@@ -467,14 +467,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>No-one told you it was your duty to provide tea for the weekly Keftenya Moot?</Text>
+                            <Text>Did no-one tell you that it is your duty to provide the tea for the weekly meeting of the Divan?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41034</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278250</AudioAsset>
+                    <AudioAsset>1404000474</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001471</GUID>
@@ -493,7 +493,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder reminds you it is your responsibility to make sure there is enough tea for the weekly gathering of Elders at the Keftanya Moot.</Text>
+                            <Text>The Envoy reminds you that it is your responsibility to ensure there is enough spiced tea for the weekly gathering of the Envoys in the Divan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -511,7 +511,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants you to provide tea for the next Keftanya Moot.</Text>
+                            <Text>The Envoy wants you to provide tea for the next meeting of the Divan.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

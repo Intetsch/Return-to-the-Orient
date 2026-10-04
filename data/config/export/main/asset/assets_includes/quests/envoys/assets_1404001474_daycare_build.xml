@@ -292,7 +292,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionUnlocked>
-                                                    <UnlockNeeded>117668</UnlockNeeded>
+                                                    <UnlockNeeded>1404001151</UnlockNeeded>
                                                 </ConditionUnlocked>
                                                 <ConditionPropsNegatable />
                                             </Values>
@@ -352,7 +352,7 @@
                                         <TextCombinedContextValue>12714</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
-                                        <Context>117668</Context>
+                                        <Context>1404001151</Context>
                                         <CounterAmount>1</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <RelativeToQuestStart>1</RelativeToQuestStart>
@@ -421,14 +421,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>People fall ill while you fritter on your foreign trinkets! Perhaps, for once, you could build something for us?</Text>
+                            <Text>People fall ill while you squander your time on foreign trinkets! Perhaps, for once, you could build something for us?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41044</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278255</AudioAsset>
+                    <AudioAsset>1404000508</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -443,14 +443,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Irenya trust you more when you take care of such things rather than waste time on the Meniga.</Text>
+                            <Text>The Envoys trust you more when you take care of such matters instead of wasting your time on the Nomads.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41045</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278256</AudioAsset>
+                    <AudioAsset>1404000522</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -470,7 +470,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants you to raise a hospital for the people of Taborime.</Text>
+                            <Text>The Envoy wants you to build a hospital for the people of Wadi Al Zahir.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -488,7 +488,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wishes you would focus your progress on more pressing matters, such as ensuring the people of Taborime have their ails and pains tended to.</Text>
+                            <Text>The Envoy wishes you would turn your attention to more pressing matters, such as making sure the aches and ailments of the people of Wadi Al Zahir are properly tended to.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -506,7 +506,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder recommends you disregard the pleas of the Shepherds.</Text>
+                            <Text>The Envoy advises you to pay less heed to the pleas of the Nomads.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

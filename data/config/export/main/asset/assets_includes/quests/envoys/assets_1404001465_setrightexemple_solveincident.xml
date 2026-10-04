@@ -187,7 +187,7 @@
                                                                 <Template>ObjectFilter</Template>
                                                                 <Values>
                                                                     <ObjectFilter>
-                                                                        <ObjectGUID>114436</ObjectGUID>
+                                                                        <ObjectGUID>1404000016</ObjectGUID>
                                                                         <CheckQuestArea>1</CheckQuestArea>
                                                                     </ObjectFilter>
                                                                 </Values>
@@ -235,43 +235,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>10000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118862</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -344,7 +308,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Early Days Yet</Text>
+                            <Text>Unrest Among the Tents</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -459,14 +423,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How do you expect us to face our children with the city in such a state?</Text>
+                            <Text>How are we to face our children with the city in such a state?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41031</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278268</AudioAsset>
+                    <AudioAsset>1404000500</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -486,7 +450,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder is outraged at the current riots and wants you to put an end to them. As an advocate of Emperor Ketema, the Elder will do everything to protect the stability of the current era.</Text>
+                            <Text>The Envoy is outraged by the riots that have broken out among the Nomads' tents and wants you to put an end to them. As a loyal servant of the Sultan, he will do everything to preserve order in Wadi Al Zahir.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -504,7 +468,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder wants you to disperse the rioters making trouble in the streets.</Text>
+                            <Text>The Envoy wants you to disperse the rioters making trouble in the streets.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

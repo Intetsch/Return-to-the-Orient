@@ -301,7 +301,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114436</Context>
+                                                    <Context>1404000016</Context>
                                                     <CounterAmount>3</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -336,7 +336,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — Penance</Text>
+                            <Text>Highborn — Penance</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -402,7 +402,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114436</ObjectGUID>
+                                                            <ObjectGUID>1404000016</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -445,7 +445,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114436</ObjectGUID>
+                                                            <ObjectGUID>1404000016</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -486,7 +486,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>114436</ObjectGUID>
+                                                            <ObjectGUID>1404000016</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -566,7 +566,7 @@
                     <LineID>41020</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278287</AudioAsset>
+                    <AudioAsset>1404000488</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001413</GUID>
@@ -580,14 +580,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I trust the message will now be clear! It would be an insult if I had had to suffer such indignity needlessly.</Text>
+                            <Text>I trust the message is now clear! It would be an insult had I suffered such indignity for nothing.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41021</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278288</AudioAsset>
+                    <AudioAsset>1404000504</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -602,14 +602,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Only ten stations left...</Text>
+                            <Text>Only ten more tents to go...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41023</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278290</AudioAsset>
+                    <AudioAsset>1404000502</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001415</GUID>
@@ -623,14 +623,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Take up this cross, Kurati...</Text>
+                            <Text>Patience, Faruq... patience...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41024</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278291</AudioAsset>
+                    <AudioAsset>1404000506</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001416</GUID>
@@ -644,14 +644,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>And so He was interred by lesser men...</Text>
+                            <Text>That a Pasha should come to this...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41025</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278292</AudioAsset>
+                    <AudioAsset>1404000494</AudioAsset>
                     <Mood>Negative</Mood>
                 </AudioText>
                 <Standard>
@@ -666,14 +666,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>If I must belittle myself to preserve order, then so I will. And you had better help— hand these fruit baskets out to Meniga households.</Text>
+                            <Text>If I must humble myself to preserve order, then so be it. And you had better help— hand these fruit baskets out to the Nomad households.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41022</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278289</AudioAsset>
+                    <AudioAsset>1404000464</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001418</GUID>
@@ -692,7 +692,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wishes to hand out fruit to appease the Meniga's displeasure and preserve social order.</Text>
+                            <Text>Envoy Faruq Pasha wishes to hand out fruit to soothe the Nomads' displeasure and preserve social order.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -710,7 +710,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati is upset that she had to suffer the humiliation of public penance.</Text>
+                            <Text>Envoy Faruq Pasha is upset that he had to suffer the humiliation of public penance.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -728,7 +728,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati has been accused by some of callousness towards the Meniga and wishes to disprove the rumours by gifting Meniga households with fruit baskets.</Text>
+                            <Text>Some accuse Envoy Faruq Pasha of having treated the Nomads with contempt during the festivities. He wishes to disprove the rumours by presenting Nomad households with baskets of fruit.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -746,7 +746,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Select several Shepherd residences in a row to go from door-to-door</Text>
+                            <Text>Select several Nomad residences in a row to go from door to door</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -764,7 +764,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Gift fruits baskets to several Shepherd households</Text>
+                            <Text>Present fruit baskets to several Nomad households</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -782,7 +782,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati grumbles about having to deliver fruit to the Shepherds.</Text>
+                            <Text>Envoy Faruq Pasha grumbles about having to deliver fruit to the Nomads.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -800,7 +800,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>It seems the Elder expects you to help...</Text>
+                            <Text>It seems the Envoy expects you to help...</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

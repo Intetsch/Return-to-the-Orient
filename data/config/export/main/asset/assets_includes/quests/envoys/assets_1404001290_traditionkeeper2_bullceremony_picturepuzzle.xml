@@ -206,44 +206,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>15000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118767</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                    <UseCurrentSession>1</UseCurrentSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -342,7 +305,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Ukuli Bula: Bull Whip</Text>
+                            <Text>Horns of Contention</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -458,14 +421,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>It has come time for the bull-leaping ceremony of Ukuli Bula! Rarely have we had so many applicants— I doubt there are enough steers for every boy.</Text>
+                            <Text>The bull-butting contest is upon us! Never have so many young men wished to prove their mettle— I doubt there are enough bulls for all of them.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40974</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278303</AudioAsset>
+                    <AudioAsset>1404000468</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001291</GUID>
@@ -549,7 +512,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi Lami wishes to gather more bulls for the coming-of-age bull-running ceremony, since it appears to be very popular this year. She is hoping that you might be able to find some feisty, possibly unstable, specimens for the event.</Text>
+                            <Text>Envoy Nureddin Efendi is organising the traditional bull-butting contest, in which the young men of the tribes lead their bulls into the ring to prove their courage. It has never been so popular, and he hopes you can find a few more feisty— preferably bad-tempered— bulls for the event.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -585,7 +548,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi Lami worries there are not enough bulls for her festival, and asks you to find some more.</Text>
+                            <Text>Envoy Nureddin Efendi worries there are not enough bulls for the contest and asks you to find more.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

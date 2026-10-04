@@ -168,43 +168,7 @@
                     <OnQuestActive>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>30000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118786</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestActive>
                     <OnQuestAborted>
@@ -321,7 +285,7 @@
                                                 <Condition />
                                                 <ConditionQuestState>
                                                     <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
-                                                    <ConditionQuestStateQuestGUID>118784</ConditionQuestStateQuestGUID>
+                                                    <ConditionQuestStateQuestGUID>1404001358</ConditionQuestStateQuestGUID>
                                                 </ConditionQuestState>
                                             </Values>
                                         </Condition>
@@ -334,7 +298,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Moot Points — Holy Stricture</Text>
+                            <Text>Divan Affairs — Stern Decrees</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -381,7 +345,7 @@
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>WorkingConditions</PlayerCounter>
-                                        <Context>114329</Context>
+                                        <Context>1404000010</Context>
                                         <CounterAmount>50</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <CounterScopeUseActiveSession>1</CounterScopeUseActiveSession>
@@ -403,8 +367,8 @@
                                         <TextCombinedContextValue>12714</TextCombinedContextValue>
                                     </ConditionQuestObjective>
                                     <ConditionPlayerCounter>
-                                        <Context>114520</Context>
-                                        <CounterAmount>3</CounterAmount>
+                                        <Context>1404000148</Context>
+                                        <CounterAmount>2</CounterAmount>
                                         <CounterScope>Session</CounterScope>
                                         <CounterScopeUseActiveSession>1</CounterScopeUseActiveSession>
                                         <RelativeToQuestStart>1</RelativeToQuestStart>
@@ -423,7 +387,7 @@
                                     <ConditionQuestObjective />
                                     <ConditionPlayerCounter>
                                         <PlayerCounter>PopulationSatisfactionByGood</PlayerCounter>
-                                        <Context>114359</Context>
+                                        <Context>1404000250</Context>
                                         <ComparisonOp>AtMost</ComparisonOp>
                                         <CounterAmount>50</CounterAmount>
                                         <CounterScope>Session</CounterScope>
@@ -495,14 +459,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Idleness and sin everywhere! It is high time I— I mean the Moot— reminded everyone of the value of work, piety and abstinence!</Text>
+                            <Text>Idleness and vice everywhere! It is high time I— I mean the Divan— reminded everyone of the value of work, piety and abstinence!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41006</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278245</AudioAsset>
+                    <AudioAsset>1404000500</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001377</GUID>
@@ -539,7 +503,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder desires to cleanse the city by enforcing laws on labour, worship and consumption.</Text>
+                            <Text>The Envoy wishes to cleanse the city by issuing decrees on labour, worship and indulgence.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -557,7 +521,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi is back again! With her opponent dead Elder Sellassy'e dead in the water, Elder Tebibi can now set in motion the great plans she has for the city, and needs your help putting them into effect.</Text>
+                            <Text>Envoy Kemal Bey is back again! With his rival Tariq Bey conveniently away on a long journey to the Sultan's court, he can finally set his grand plans for the city in motion: diligent Nomads, more mosques and an end to idle hookah smoking. He needs your help putting his decrees into effect.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

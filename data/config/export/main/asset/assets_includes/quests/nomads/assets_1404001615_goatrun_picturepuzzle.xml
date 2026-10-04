@@ -291,7 +291,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>114456</Context>
+                                                    <Context>1404000303</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -449,14 +449,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Just like me they like to go gallivanting off. Could you help me find the goats before they eat Taborime dry?</Text>
+                            <Text>Just like me, they love to wander off. Could you help me find the goats before they eat the whole city bare?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41379</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277540</AudioAsset>
+                    <AudioAsset>1404000389</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001616</GUID>
@@ -541,7 +541,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>An Enbesan proverb says goats came into being the night after the creation of tej, after the Almighty overindulged. Certainly the beasts are wayward and oddly temperamental— often amusing except when they start destroying everything in sight. Herd them back into their pens before two-toed chaos befalls Taborime.</Text>
+                            <Text>The Bedouins say it was a goat that first nibbled the red cherries of the coffee shrub— and goats have been restless ever since. Certainly the beasts are wayward and oddly temperamental— often amusing, except when they start devouring everything in sight. Herd them back into their pens before two-toed chaos befalls the city.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -577,7 +577,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd needs your help catching his runaway goats.</Text>
+                            <Text>The Nomad needs your help catching his runaway goats.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

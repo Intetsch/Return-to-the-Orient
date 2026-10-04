@@ -290,7 +290,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionPlayerCounter>
-                                                    <Context>117859</Context>
+                                                    <Context>1404000202</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                     <CounterScope>Area</CounterScope>
                                                     <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
@@ -325,7 +325,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Moot Points — The Vote</Text>
+                            <Text>Divan Affairs — The Vote</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -363,7 +363,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>117859</ObjectGUID>
+                                                            <ObjectGUID>1404000202</ObjectGUID>
                                                             <ObjectSession>1404000000</ObjectSession>
                                                         </ObjectFilter>
                                                     </Values>
@@ -435,14 +435,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>What is the point of letting me join the Moot if no-one will listen to my ideas? Don't you have any influence?</Text>
+                            <Text>What use is a seat in the Divan if no-one listens to my proposals? Surely you have some influence?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40997</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278241</AudioAsset>
+                    <AudioAsset>1404000556</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -457,14 +457,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Success! The proposal was approved by the majority! I think they suspect something though— we'll have to be more creative.</Text>
+                            <Text>Success! The proposal was approved by the majority! I think they suspect something, though— we will have to be more subtle.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>40998</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278242</AudioAsset>
+                    <AudioAsset>1404000530</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -484,7 +484,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi wishes your help circumventing political opponents at the ballot box.</Text>
+                            <Text>Envoy Kemal Bey wants your help outmanoeuvring his political opponents at the ballot.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -502,7 +502,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Elder rejoices that the 'recount' resulted in the acceptance of her latest proposals.</Text>
+                            <Text>The Envoy rejoices that the 'recount' resulted in the approval of his latest proposals.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -520,7 +520,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Tebibi is back, this time to ask for your help influencing the policy of the Keftanya Moot. This time she hopes you will intervene for her at the ballot box during a very important vote that she doesn't feel she can afford to lose.</Text>
+                            <Text>Envoy Kemal Bey is back, this time asking for your help in steering the policy of the Divan. He hopes you will intervene on his behalf in a very important vote that he feels he cannot afford to lose.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>

@@ -23,12 +23,17 @@
                         <Notification>
                             <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                             <Values>
-                                <CharacterNotification />
-                                <BaseNotification />
-                                <NotificationSubtitle />
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001670</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001671</Subtitle>
+                                </NotificationSubtitle>
                             </Values>
                         </Notification>
-                        <SuppressMessage>1</SuppressMessage>
                     </SuccessMessage>
                     <FailureMessage>
                         <Notification>
@@ -234,43 +239,7 @@
                     <OnQuestSucceeded>
                         <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
                         <Values>
-                            <ActionList>
-                                <Actions>
-                                    <Item>
-                                        <Action>
-                                            <Template>ActionDelayedActions</Template>
-                                            <Values>
-                                                <Action />
-                                                <ActionDelayedActions>
-                                                    <ExecutionDelay>10000</ExecutionDelay>
-                                                    <DelayedActions>
-                                                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                                                        <Values>
-                                                            <ActionList>
-                                                                <Actions>
-                                                                    <Item>
-                                                                        <Action>
-                                                                            <Template>ActionStartQuest</Template>
-                                                                            <Values>
-                                                                                <Action />
-                                                                                <ActionStartQuest>
-                                                                                    <Quest>118980</Quest>
-                                                                                    <InheritQuestArea>1</InheritQuestArea>
-                                                                                    <InheritQuestSession>1</InheritQuestSession>
-                                                                                </ActionStartQuest>
-                                                                            </Values>
-                                                                        </Action>
-                                                                    </Item>
-                                                                </Actions>
-                                                            </ActionList>
-                                                        </Values>
-                                                    </DelayedActions>
-                                                </ActionDelayedActions>
-                                            </Values>
-                                        </Action>
-                                    </Item>
-                                </Actions>
-                            </ActionList>
+                            <ActionList />
                         </Values>
                     </OnQuestSucceeded>
                     <OnQuestEnd>
@@ -393,7 +362,7 @@
                                             <Values>
                                                 <Condition />
                                                 <ConditionUnlocked>
-                                                    <UnlockNeeded>118734</UnlockNeeded>
+                                                    <UnlockNeeded>1404000291</UnlockNeeded>
                                                 </ConditionUnlocked>
                                                 <ConditionPropsNegatable />
                                             </Values>
@@ -407,7 +376,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Man Up - Left Out</Text>
+                            <Text>Coming of Age — Left Out</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -513,14 +482,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>I have these... friends, I suppose. They like to talk and play qarsa, but forget to tell me where.</Text>
+                            <Text>I have these... friends, I suppose. They like to sit together and play tawla, but they always forget to tell me where.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41355</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>277555</AudioAsset>
+                    <AudioAsset>1404000387</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001557</GUID>
@@ -607,7 +576,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd feels those he calls friends have taken to leaving him out of their gatherings. He does not entirely believe they mean to however, and asks you to help seek them out so he can join in their fun.</Text>
+                            <Text>Young Hamza feels that those he calls his friends have taken to leaving him out of their gatherings. He does not quite believe they mean to, however, and asks you to help find them so that he can join in the fun.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -625,7 +594,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The gaggle of youngsters is idling by the Musician's Court</Text>
+                            <Text>The gaggle of youngsters is loitering between the Nomads' tents</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -661,7 +630,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The Shepherd needs your help finding his 'friends'.</Text>
+                            <Text>Young Hamza needs your help finding his 'friends'.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -669,6 +638,45 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001670</GUID>
+                    <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccessSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hamza's friends mock him as a mere boy who has never even faced a wild beast.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>They laughed at me... said I am still a boy who has never hunted anything bigger than a jerboa. I will show them!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000425</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001671</GUID>
+                    <Name>RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccess</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
     </ModOp>
 
 </ModOps>

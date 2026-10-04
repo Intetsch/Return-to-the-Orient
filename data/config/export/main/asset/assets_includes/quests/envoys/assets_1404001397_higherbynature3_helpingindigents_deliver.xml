@@ -291,7 +291,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Heaven-Born — Benefaction</Text>
+                            <Text>Highborn — Benefaction</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -345,7 +345,7 @@
                                                         </Entry>
                                                     </InheritanceMapV2>
                                                 </VectorElement>
-                                                <ObjectGUID>114359</ObjectGUID>
+                                                <ObjectGUID>1888999749</ObjectGUID>
                                                 <Min>5</Min>
                                                 <Max>5</Max>
                                             </Item>
@@ -418,7 +418,7 @@
                                                     <Template>ObjectFilter</Template>
                                                     <Values>
                                                         <ObjectFilter>
-                                                            <ObjectGUID>129110</ObjectGUID>
+                                                            <ObjectGUID>1404000204</ObjectGUID>
                                                         </ObjectFilter>
                                                     </Values>
                                                 </Object>
@@ -490,14 +490,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Pater Dekama has permitted the distribution of food to the poor souls outside the monastery— but must have officials to make it a formal thing.</Text>
+                            <Text>The Imam has permitted us to hand out food to the poor souls outside the mosque— but there must be officials present to make it a proper occasion.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41013</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278281</AudioAsset>
+                    <AudioAsset>1404000466</AudioAsset>
                 </AudioText>
                 <Standard>
                     <GUID>1404001398</GUID>
@@ -511,14 +511,14 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Everyone was most impressed with our work - why, the archimandrite himself, in his sermon, praised it as an example of rare virtue!</Text>
+                            <Text>Everyone was most impressed by our work— why, the Imam himself praised it in his Friday sermon as an example of rare virtue!</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
                     <LineID>41014</LineID>
                 </Text>
                 <AudioText>
-                    <AudioAsset>278282</AudioAsset>
+                    <AudioAsset>1404000530</AudioAsset>
                     <Mood>Positve</Mood>
                 </AudioText>
                 <Standard>
@@ -538,7 +538,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati is making a display of her charity and asks you ensure important people take notice.</Text>
+                            <Text>Envoy Faruq Pasha is making a show of his charity and asks you to ensure that important people take notice.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -556,7 +556,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati is thrilled with the commendation elicited by the operation.</Text>
+                            <Text>Envoy Faruq Pasha is thrilled with the praise his generosity has earned him.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -574,7 +574,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Elder Kurati wishes to organise food for the Meniga to be shared out at the Monastery. She wants you to ensure all the important officials from the Palace are present.</Text>
+                            <Text>Envoy Faruq Pasha wishes to have dates handed out to the poor Nomads at the mosque. He wants you to make sure that all the important officials from the Consulate are present.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -592,7 +592,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Select the Palace and let officials know of the Elder's charity</Text>
+                            <Text>Select the Consulate and inform the officials of the Envoy's charity</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -610,7 +610,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>... as our Lord gave, so must we give in his image, and by our virtue be an example to those of lower...&lt;i&gt;illegible&lt;/i&gt;</Text>
+                            <Text>... as Allah has given unto us, so must we give in turn, and by our virtue be an example to those of lower... &lt;i&gt;illegible&lt;/i&gt;</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
