@@ -3917,73 +3917,73 @@
     </Text>
     <Text>
       <GUID>1404001275</GUID>
-      <!-- A7_QuestDecision | RQ_Envoy_TraditionKeeper1_Invitation_Decision | Courtesy of the Guest -->
-      <Text>客人の作法</Text>
+      <!-- A7_QuestDecision | RQ_Envoy_TraditionKeeper1_Invitation_Decision | Honoured Guests — Matters of Protocol -->
+      <Text>賓客の礼 ― 作法の問題</Text>
     </Text>
     <Text>
       <GUID>1404001276</GUID>
-      <!-- AudioText | RQ_Envoy_Invitation_QuestStart | The Sultan may have granted you this land, but a firman alone does not prove that you respect our ways. -->
-      <Text>スルタンがこの地を君に与えたのかもしれんが、勅令一枚では我らの流儀を重んじている証にはならんぞ。</Text>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart | Murad Bey of the Coast arrives within the month, and you, Governor, do not even know where to seat a guest! Sit down. We have work to do. -->
+      <Text>沿岸のムラト・ベイがひと月以内にお越しになるというのに、総督殿、君は客をどこに座らせるかすら知らんのか！座りたまえ。やることが山ほどある。</Text>
     </Text>
     <Text>
       <GUID>1404001277</GUID>
-      <!-- AudioText | RQ_Envoy_Invitation_RightChoice | Quite right. What use is a gift that cannot be shared over coffee, save as an ostentatious display of wealth? -->
-      <Text>その通り。コーヒーを囲んで分かち合えない贈り物など、富をひけらかす以外に何の役に立つというのだ？</Text>
+      <!-- AudioText | RQ_Envoy_Invitation_RightChoice | Correct! The seat of honour, far from the door and the draught. Perhaps you are not entirely hopeless after all. -->
+      <Text>正解だ！上座は扉からもすきま風からも遠い場所だ。どうやら君もまったく見込みがないわけではなさそうだな。</Text>
     </Text>
     <Text>
       <GUID>1404001278</GUID>
-      <!-- AudioText | RQ_Envoy_Invitation_WrongChoice | How very like a foreigner to bring a gift that loudly proclaims their wealth. -->
-      <Text>いかにも異国人らしい。己の富を声高に誇示する贈り物を持ってくるとはな。</Text>
+      <!-- AudioText | RQ_Envoy_Invitation_WrongChoice | Wrong! Do you want Murad Bey to tell the entire Diwan that Wadi Al Zahir is governed by barbarians? -->
+      <Text>不正解だ！Wadi Al Zahirは蛮人が治めているとムラト・ベイにディーワーン中で言いふらされたいのか？</Text>
     </Text>
     <Text>
       <GUID>1404001279</GUID>
-      <!-- AudioText | RQ_Envoy_Invitation_QuestStart2 | Say you were invited into my home— what would you bring to honour the invitation? -->
-      <Text>仮に君が我が家に招かれたとしよう。招待に敬意を表すため、何を持ってくるかね？</Text>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart2 | A simple question. The Bey enters your reception hall. Where do you seat him? -->
+      <Text>簡単な質問だ。ベイが君の謁見の間に入ってきた。どこに座っていただく？</Text>
     </Text>
     <Text>
       <GUID>1404001280</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Story | Envoy Nureddin Efendi doubts that you truly care to understand the traditions and people of Wadi Al Zahir and, with no subtlety at all, puts your knowledge of local hospitality to the test. -->
-      <Text>使者ヌーレッディン・エフェンディは、君がWadi Al Zahirの伝統と人々を本気で理解しようとしているのか疑っており、遠慮もなしにこの地のもてなしの作法についての知識を試そうとしている。</Text>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Story | <b>For thirty years, Nureddin Efendi arranged the Sultan's audiences,</b> deciding who bowed when, who sat where and who was kept waiting. Now Murad Bey, an influential member of the Diwan in the capital, has announced a visit to Wadi Al Zahir, and the old master of ceremonies is horrified to learn that the governor has never received a guest of rank. -->
+      <Text>&lt;b&gt;ヌーレッディン・エフェンディは30年にわたりスルタンの謁見を取り仕切ってきた。&lt;/b&gt;誰がいつ頭を下げ、誰がどこに座り、誰を待たせるかを決めてきたのだ。そして今、都のディーワーンの有力議員であるムラト・ベイがWadi Al Zahirへの訪問を告げた。老いた儀典長は、総督が一度も高位の客を迎えたことがないと知って愕然としている。</Text>
     </Text>
     <Text>
       <GUID>1404001283</GUID>
-      <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Envoy Nureddin Efendi scolds you for the gaudiness of your choice. -->
-      <Text>使者ヌーレッディン・エフェンディは、君の選んだ品の悪趣味さをとがめている。</Text>
+      <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Nureddin Efendi throws up his hands in despair at your ignorance of protocol. -->
+      <Text>ヌーレッディン・エフェンディは君の作法知らずに頭を抱えている。</Text>
     </Text>
     <Text>
       <GUID>1404001284</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Envoy Nureddin Efendi: The Sultan may have granted you this land, but you will need more than a sealed firman to prove you care for Wadi Al Zahir and its people. Say, for instance, that <b>I were to invite you into my home</b>— an unlikely occasion— <b>what would you bring to honour the invitation?</b> -->
-      <Text>使者ヌーレッディン・エフェンディ: スルタンがこの地を君に与えたのかもしれんが、Wadi Al Zahirとその民を大切に思っていると示すには、封印された勅令だけでは足りん。たとえば、&lt;b&gt;私が君を我が家に招いたとしよう&lt;/b&gt;――まずあり得んことだがね――&lt;b&gt;招待に敬意を表すため、何を持ってくるかね？&lt;/b&gt;</Text>
+      <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Nureddin Efendi: In the capital, a guest's seat says more than a hundred compliments. Seat a Bey poorly and the whole Diwan will hear of it before his coffee is cold. So tell me: <b>when Murad Bey enters your hall, where will you seat him?</b> -->
+      <Text>ヌーレッディン・エフェンディ: 都では、客の席は百の賛辞よりも多くを語る。ベイを粗末な席に座らせてみろ、コーヒーが冷めるより早くディーワーン中に知れ渡るぞ。では答えてもらおう。&lt;b&gt;ムラト・ベイが君の広間に入ってきたら、どこに座っていただく？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001286</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision2 | A small casket inlaid with mother-of-pearl would be expected... -->
-      <Text>螺鈿細工の小箱が求められるでしょう…</Text>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision2 | At my right hand at the head of the table, as is done at Western banquets. -->
+      <Text>西洋の晩餐会のように、食卓の上座、私の右隣に。</Text>
     </Text>
     <Text>
       <GUID>1404001287</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision3 | A tray of sweet baklava and dates, of course! -->
-      <Text>もちろん、甘いバクラヴァとナツメヤシの盛り合わせです！</Text>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision3 | In the corner farthest from the door, on the finest cushions — the seat of honour. -->
+      <Text>扉から最も遠い隅の、最上のクッションの上に。それが上座だ。</Text>
     </Text>
     <Text>
       <GUID>1404001288</GUID>
-      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary2 | The Envoy asks what you would bring as a gift when visiting a household in Wadi Al Zahir. -->
-      <Text>使者は、Wadi Al Zahirの家を訪ねる際に何を手土産にするかを尋ねている。</Text>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary2 | The Envoy tests your knowledge of how a guest of rank is received. -->
+      <Text>使者は、高位の客をどう迎えるべきか君の知識を試している。</Text>
     </Text>
     <Text>
       <GUID>1404001289</GUID>
-      <!-- Text | RQ_Envoy_TraditionKeeper_Invitation_Objective | Tell the Envoy which gift you would bring on a visit -->
-      <Text>訪問の際にどんな手土産を持っていくか使者に伝えよう</Text>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Invitation_Objective | Tell the Envoy where you would seat the guest of honour -->
+      <Text>主賓をどこに座らせるか使者に伝えよう</Text>
     </Text>
     <Text>
       <GUID>1404001290</GUID>
-      <!-- Quest | RQ_Envoy_TraditionKeeper2_BullCeremony_Picturepuzzle | Horns of Contention -->
-      <Text>角突き合わせ</Text>
+      <!-- Quest | RQ_Envoy_TraditionKeeper2_BullCeremony_Picturepuzzle | Honoured Guests — Horns of Honour -->
+      <Text>賓客の礼 ― 誉れの角</Text>
     </Text>
     <Text>
       <GUID>1404001291</GUID>
-      <!-- AudioText | RQ_Envoy_BullLeapingCeremony_QuestStart | The bull-butting contest is upon us! Never have so many young men wished to prove their mettle— I doubt there are enough bulls for all of them. -->
-      <Text>闘牛大会が近いぞ！これほど多くの若者が腕試しを望んだことはない――全員に行き渡るだけの牛がいるとは思えん。</Text>
+      <!-- AudioText | RQ_Envoy_BullLeapingCeremony_QuestStart | Murad Bey adores the bull-butting contests of his coast. If he is to remember this visit fondly, we must stage one for him — and we have not a single bull worth the name! -->
+      <Text>ムラト・ベイは故郷の沿岸の闘牛がことのほかお好きだ。この訪問を良い思い出にしていただくには、一番催さねばならん。だが、まともな牛が一頭もおらんのだ！</Text>
     </Text>
     <Text>
       <GUID>1404001292</GUID>
@@ -3992,33 +3992,33 @@
     </Text>
     <Text>
       <GUID>1404001293</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_Story | Envoy Nureddin Efendi is organising the traditional bull-butting contest, in which the young men of the tribes lead their bulls into the ring to prove their courage. It has never been so popular, and he hopes you can find a few more feisty— preferably bad-tempered— bulls for the event. -->
-      <Text>使者ヌーレッディン・エフェンディは、部族の若者たちが自分の牛を闘技場に引き入れて勇気を示す伝統の闘牛大会を取り仕切っている。かつてないほどの盛況ぶりで、彼は気性の荒い――できれば機嫌の悪い――牛をあと何頭か見つけてほしいと願っている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_Story | <b>On the coast, bull-butting is a passion,</b> and Murad Bey is said never to miss a contest. Nureddin Efendi intends to stage one in his honour, with the finest bulls of the province pushing horn against horn while the guests watch from shaded stands. There is only one problem: the finest bulls of the province are still running wild on the outskirts of the city. -->
+      <Text>&lt;b&gt;沿岸では闘牛は人々の情熱だ。&lt;/b&gt;ムラト・ベイは一度も試合を見逃したことがないという。ヌーレッディン・エフェンディは彼を称えて試合を開き、州で一番の牛たちが角を突き合わせるのを客人が日陰の観覧席から眺める、という趣向を考えている。問題はただひとつ。州で一番の牛たちは、いまだ町外れを野生のまま駆け回っているのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001303</GUID>
-      <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find where Leyla, the Envoy's niece, is hiding -->
-      <Text>使者の姪レイラが隠れている場所を見つけよう</Text>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find out where Leyla, the Envoy's niece, is hiding -->
+      <Text>使者の姪レイラの隠れ場所を突き止めよう</Text>
     </Text>
     <Text>
       <GUID>1404001304</GUID>
-      <!-- Quest | RQ_Envoy_KidsNowadays1_TakeChristmasAway_Picturepuzzle | How the Envoy Stole Eid -->
-      <Text>使者がイードを盗んだ日</Text>
+      <!-- Quest | RQ_Envoy_KidsNowadays1_TakeChristmasAway_Picturepuzzle | Young Masters — Trinkets from the West -->
+      <Text>若君たち ― 西洋の玩具</Text>
     </Text>
     <Text>
       <GUID>1404001305</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStart | Why teach modesty and gratitude to children if their parents then spoil them with lavish Eid presents like sugared almonds and silk toys? -->
-      <Text>親が砂糖がけのアーモンドや絹のおもちゃのような贅沢なイードの贈り物で甘やかすのなら、子どもに慎みと感謝を教えて何になるというのだ？</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStart | The last courier brought gifts for the envoys' children from their relatives at court: tin soldiers, music boxes, mechanical birds from the West! How are they to learn patience and modesty with such toys? -->
+      <Text>この前の飛脚が、宮廷の親族から使者の子らへの贈り物を運んできた。ブリキの兵隊、オルゴール、西洋の機械仕掛けの鳥だ！あんな玩具で、どうやって忍耐と慎みを学べというのだ？</Text>
     </Text>
     <Text>
       <GUID>1404001306</GUID>
-      <!-- AudioText | AT_ADDON01_res2_Quest_Success1 | Good. May they learn that modesty is the finest gift of all. -->
-      <Text>よろしい。慎みこそが何よりの贈り物だと学んでくれればいい。</Text>
+      <!-- AudioText | AT_ADDON01_res2_Quest_Success1 | Into the consulate's archive with them. The children may have them back once they can recite the lineage of the Sultan's house without a single mistake. -->
+      <Text>領事館の文書庫にしまっておこう。スルタン家の系譜を一つも間違えずに暗唱できるようになったら、子供たちに返してやる。</Text>
     </Text>
     <Text>
       <GUID>1404001307</GUID>
-      <!-- CollectablePicturePuzzle | Pile of gifts | Modest Pile of Gifts -->
-      <Text>ささやかな贈り物の山</Text>
+      <!-- CollectablePicturePuzzle | Pile of gifts | Pile of Western Toys -->
+      <Text>西洋の玩具の山</Text>
     </Text>
     <Text>
       <GUID>1404001308</GUID>
@@ -4027,58 +4027,58 @@
     </Text>
     <Text>
       <GUID>1404001309</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_Story | Envoy Selim Efendi believes the children of the city have been misbehaving of late, and asks you to confiscate their extravagant Eid presents to teach them the virtues of modesty and gratitude. -->
-      <Text>使者セリム・エフェンディは、最近街の子どもたちの行儀が悪いと考えている。慎みと感謝の美徳を教えるため、彼らの度を越したイードの贈り物を没収してほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_Story | <b>Selim Efendi once taught the sons of viziers,</b> and he has firm opinions on how future servants of the Sultan should be raised: with calligraphy, poetry and history — not with clockwork. Now that the envoys' children have received a crate of Western toys from their relatives at court, he asks you to quietly collect them before the young masters forget their lessons entirely. -->
+      <Text>&lt;b&gt;セリム・エフェンディはかつて宰相の子息たちを教えていた。&lt;/b&gt;スルタンに仕える未来の臣下をどう育てるべきか、彼には確固たる考えがある。書道、詩、歴史で育てるべきであって、ぜんまい仕掛けではない。宮廷の親族から使者の子らに西洋の玩具が一箱届いた今、若君たちが学問を忘れ果てる前に、こっそり回収してほしいと君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001314</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | Idleness breeds mischief and insolence in children. They must be kept busy and taught the value of labour and an orderly life. -->
-      <Text>怠惰は子どもをいたずら好きで生意気にする。忙しくさせ、労働と規律ある生活の価値を教えねばならん。</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | A future vizier who has never seen a loom, a date grove or a camel herd? Unthinkable! The children shall see how the wealth of the realm is made — if we can find them. -->
+      <Text>機織りも、ナツメヤシ園も、ラクダの群れも見たことのない未来の宰相だと？ありえん！子供たちには国の富がどう生まれるのか見せてやる…見つけられればの話だが。</Text>
     </Text>
     <Text>
       <GUID>1404001316</GUID>
-      <!-- CollectablePicturePuzzle | Children playing | Children playing in a circle -->
-      <Text>輪になって遊ぶ子どもたち</Text>
+      <!-- CollectablePicturePuzzle | Children playing | Truant Children -->
+      <Text>授業をさぼる子供たち</Text>
     </Text>
     <Text>
       <GUID>1404001317</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_Story | Envoy Selim Efendi is concerned that idle children are a threat to peace and order, and that even if they cannot work, they should always have something useful to do. He wishes you to find them and make sure they are kept busy. -->
-      <Text>使者セリム・エフェンディは、暇な子どもたちが平和と秩序を脅かすことを懸念している。たとえまだ働けなくとも、常に何か役に立つことをしているべきだと考えており、子どもたちを見つけて何かに取り組ませてほしいと願っている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_Story | <b>The envoys' children can name every vizier in the capital,</b> but they know nothing about the province they live in. Selim Efendi intends to change that with a lesson outside the classroom: a visit to the carpet weavers, the date groves and the camel herds. His pupils, however, have caught wind of the plan and scattered across the city. -->
+      <Text>&lt;b&gt;使者の子供たちは都の宰相の名前を一人残らず言えるが、&lt;/b&gt;自分たちが住む州のことは何も知らない。セリム・エフェンディは教室の外での授業でそれを正すつもりだ。絨毯職人、ナツメヤシ園、ラクダの群れを見学するのである。ところが生徒たちはその計画を嗅ぎつけ、町中に散らばってしまった。</Text>
     </Text>
     <Text>
       <GUID>1404001318</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestBookHint | Children can usually be found playing near the Envoys' houses -->
-      <Text>子どもたちはたいてい使者の家の近くで遊んでいる</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestBookHint | The children are usually playing near the Envoys' houses -->
+      <Text>子供たちはいつも使者の家の近くで遊んでいる</Text>
     </Text>
     <Text>
       <GUID>1404001319</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStartSummary | Envoy Selim Efendi wants you to find idle children and teach them the value of hard work. -->
-      <Text>使者セリム・エフェンディは、暇を持て余している子どもたちを見つけて勤労の価値を教えてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStartSummary | Envoy Selim Efendi wants to show the envoys' children where the wealth of the realm comes from. -->
+      <Text>使者セリム・エフェンディは、国の富がどこから来るのかを使者の子供たちに見せたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001320</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestCompleteSummary | The Envoy approves of your actions and appreciates the return of silence in the streets. -->
-      <Text>使者は君の行動を認め、通りに静けさが戻ったことを喜んでいる。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestCompleteSummary | Selim Efendi is pleased with the outing — and somewhat alarmed by how little his pupils knew. -->
+      <Text>セリム・エフェンディは見学に満足している。そして生徒たちの無知ぶりに少々肝を冷やしている。</Text>
     </Text>
     <Text>
       <GUID>1404001321</GUID>
-      <!-- Quest | RQ_Envoys_KidsNowadays3_PublicConfession_Photo | Public Repentance -->
-      <Text>公の悔悟</Text>
+      <!-- Quest | RQ_Envoys_KidsNowadays3_PublicConfession_Photo | Young Masters — The Forged Seal -->
+      <Text>若君たち ― 偽りの印章</Text>
     </Text>
     <Text>
       <GUID>1404001322</GUID>
-      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestStart | The boy was caught lying! He must stand before the whole quarter and beg forgiveness— only a public apology will cleanse him of this shame! -->
-      <Text>あの少年が嘘をついているところを見つかったのだ！地区の皆の前に立って許しを乞わねばならん――公の場での謝罪だけが、この恥をすすぐことができる！</Text>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestStart | Young Rustam pressed his father's seal onto a letter to the Grand Vizier — asking for a pony! He shall apologise before the whole quarter, and you shall photograph it for the archive. -->
+      <Text>幼いルスタムが父親の印章を大宰相宛ての手紙に押したのだ。ポニーをねだる手紙にな！界隈の皆の前で謝らせるから、君はそれを文書庫用に写真に撮ってくれ。</Text>
     </Text>
     <Text>
       <GUID>1404001323</GUID>
-      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestComplete | A fitting lesson. Let all who were present bear witness to the mercy of Allah. On behalf of every Envoy, I thank you. -->
-      <Text>ふさわしい教訓だ。居合わせた全員が、アッラーの慈悲の証人となるように。使者一同を代表して礼を言う。</Text>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestComplete | Well done. The photograph goes to the capital with our apologies. Let us hope the Grand Vizier has a sense of humour... and no spare ponies. -->
+      <Text>よくやった。写真は詫び状と一緒に都へ送ろう。大宰相にユーモアの心があることを祈るとしよう…それと、余分なポニーがないことをな。</Text>
     </Text>
     <Text>
       <GUID>1404001324</GUID>
       <!-- CollectablePicturePuzzle | Public confession | Public Apology -->
-      <Text>公の謝罪</Text>
+      <Text>公開謝罪</Text>
     </Text>
     <Text>
       <GUID>1404001325</GUID>
@@ -4087,248 +4087,248 @@
     </Text>
     <Text>
       <GUID>1404001326</GUID>
-      <!-- Text | RQ_Envoy_Photo_PublicConfession_Story | Envoy Selim Efendi wishes you to bear witness as a boy who was caught lying begs forgiveness in front of the whole neighbourhood. -->
-      <Text>使者セリム・エフェンディは、嘘がばれた少年が近所じゅうの前で許しを乞う様子を見届けてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_Story | <b>In the Sultanate, a seal is a man's word and his honour.</b> So when the son of an envoy pressed his father's seal onto a letter of his own composition — addressed to the Grand Vizier and requesting a pony — Selim Efendi decided that a stern lesson was in order. The boy is to apologise publicly in the courtyard of the mosque, and a photograph of the occasion will accompany the consulate's letter of apology to the capital. -->
+      <Text>&lt;b&gt;スルタン国では、印章は男の言葉であり名誉である。&lt;/b&gt;そのため、ある使者の息子が自作の手紙、それも大宰相宛てにポニーを求める手紙に父の印章を押したとき、セリム・エフェンディは厳しい教訓が必要だと判断した。少年はモスクの中庭で公に謝罪し、その写真が領事館から都への詫び状に添えられることになっている。</Text>
     </Text>
     <Text>
       <GUID>1404001327</GUID>
       <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestBookHint | The apology is to take place in the courtyard of the mosque. -->
-      <Text>謝罪はモスクの中庭で行われることになっている。</Text>
+      <Text>謝罪はモスクの中庭で行われる。</Text>
     </Text>
     <Text>
       <GUID>1404001328</GUID>
-      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestStartSummary | Envoy Selim Efendi wishes you to photograph the boy's public apology, so that its lesson spreads through the city. -->
-      <Text>使者セリム・エフェンディは、少年の公の謝罪を写真に収め、その教訓を街中に広めてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestStartSummary | Envoy Selim Efendi wants you to photograph a boy's public apology for misusing his father's seal. -->
+      <Text>使者セリム・エフェンディは、父親の印章を悪用した少年の公開謝罪を写真に撮ってほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001329</GUID>
-      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestCompleteSummary | The Envoy is satisfied with the ceremony. -->
-      <Text>使者は儀式に満足している。</Text>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestCompleteSummary | Selim Efendi is satisfied that the boy has learned what a seal is worth. -->
+      <Text>セリム・エフェンディは、少年が印章の重みを学んだことに満足している。</Text>
     </Text>
     <Text>
       <GUID>1404001330</GUID>
-      <!-- A7_QuestDecision | RQ_Envoy_IamTheSenate1_Speech_Decision | Divan Affairs — The Speech -->
-      <Text>ディーワーンの政務 ― 演説</Text>
+      <!-- A7_QuestDecision | RQ_Envoy_IamTheSenate1_Speech_Decision | Diwan Intrigues — The Speech -->
+      <Text>ディーワーンの陰謀 ― 演説</Text>
     </Text>
     <Text>
       <GUID>1404001331</GUID>
-      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestStart | At last the Divan of Wadi Al Zahir has granted me a seat among its members! Help me prepare my acceptance speech! -->
-      <Text>ついにWadi Al Zahirのディーワーンが私に議席を与えてくれた！就任演説の準備を手伝ってくれたまえ！</Text>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestStart | At last, the Diwan of Wadi Al Zahir has granted me a seat! My inaugural speech must be flawless — the Grand Vizier reads every report from the provinces. -->
+      <Text>ついにWadi Al Zahirのディーワーンに席を得たぞ！就任演説は完璧でなくてはならん。大宰相は州からの報告書をすべてお読みになるのだからな。</Text>
     </Text>
     <Text>
       <GUID>1404001332</GUID>
-      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestSuccess | Thank you... for helping me understand what I needed to say in my speech. -->
-      <Text>ありがとう…演説で何を言うべきか分かったのは君のおかげだ。</Text>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestSuccess | It is done. If the Diwan is not moved by this, they have hearts of stone. Thank you, Governor. -->
+      <Text>できた。これでディーワーンの心が動かなければ、連中の心は石でできている。感謝するぞ、総督殿。</Text>
     </Text>
     <Text>
       <GUID>1404001333</GUID>
-      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestBadChoice2 | I am not saying that, you scheming jackal! -->
-      <Text>そんなことを言うものか、この腹黒いジャッカルめ！</Text>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestBadChoice2 | Are you mad? Half of them were born here! You want me to tell them I am counting the days until I can leave? -->
+      <Text>正気か？議員の半分はここの生まれなのだぞ！出て行く日を指折り数えているとでも言わせたいのか？</Text>
     </Text>
     <Text>
       <GUID>1404001334</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestStartSummary | The Envoy has been granted a seat in the city's Divan and wants your help preparing a speech. -->
-      <Text>使者は街のディーワーンに議席を得たので、演説の準備を手伝ってほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestStartSummary | Envoy Kemal Bey has been given a seat in the city's Diwan and wants your help with his inaugural speech. -->
+      <Text>使者ケマル・ベイは町のディーワーンに席を得て、就任演説の手伝いを君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001335</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1 | Kemal Bey: 'I have several ideas on how to open my speech, but I cannot decide which would be most effective. First I shall rise and address them as "Honoured members of the Divan", then... <b>Hm, what matters most in a first impression?</b>' -->
-      <Text>ケマル・ベイ: 「演説の始め方はいくつか考えてあるのだが、どれが一番効果的か決めかねている。まず立ち上がって『ディーワーンの尊敬すべき議員諸君』と呼びかけ、それから…&lt;b&gt;うむ、第一印象で最も大切なことは何だろう？&lt;/b&gt;」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1 | Kemal Bey: 'They say that in the Diwan, the first words decide everything. I shall rise, bow to the chair and address them as "Esteemed brothers of the Diwan"... and then? <b>How should I begin?</b>' -->
+      <Text>ケマル・ベイ: 「ディーワーンでは最初の言葉がすべてを決めるという。私は立ち上がり、議長に一礼して『敬愛するディーワーンの兄弟諸君』と呼びかける…それから？&lt;b&gt;どう切り出すべきだろう？&lt;/b&gt;」</Text>
     </Text>
     <Text>
       <GUID>1404001336</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Story | Envoy Kemal Bey needs your help fine-tuning his acceptance speech for the Divan of Wadi Al Zahir. He has waited years for a seat on this council and does not wish to stumble at what he considers the final hurdle. -->
-      <Text>使者ケマル・ベイは、Wadi Al Zahirのディーワーンでの就任演説を磨き上げるのに君の助けを必要としている。彼は何年もこの評議会の議席を待ち望んできたので、最後の関門だと考えるこの場でつまずきたくないのだ。</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Story | <b>Kemal Bey was once a promising secretary at the Sultan's court,</b> until an unfortunate incident involving a cup of coffee and the Grand Vizier's finest kaftan saw him posted to the furthest corner of the Sultanate. A seat in the provincial Diwan is his first step back to the capital, and his inaugural speech must make an impression that travels all the way there. -->
+      <Text>&lt;b&gt;ケマル・ベイはかつてスルタンの宮廷で将来を嘱望された書記官だった。&lt;/b&gt;しかし一杯のコーヒーと大宰相の最上のカフタンをめぐる不運な事件により、スルタン国の最果てへと飛ばされてしまった。州のディーワーンの席は都へ返り咲くための第一歩。就任演説は、都にまで届くほどの印象を残さねばならない。</Text>
     </Text>
     <Text>
       <GUID>1404001337</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2 | Kemal Bey: 'Good, I shall consider that... Now, the necessary flourishes and courtesies, and then on to the matter at hand: "There is much to be done. Our first mandate should be..."' -->
-      <Text>ケマル・ベイ: 「よし、検討しよう…次に必要な美辞麗句と儀礼を述べて、それから本題だ。『なすべきことは山ほどある。我々の最初の使命は…』」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2 | Kemal Bey: 'Good. Now the substance — what my first mandate shall be. The Grand Vizier will read this, remember. <b>What should I promise them?</b>' -->
+      <Text>ケマル・ベイ: 「よし。次は本題、私の最初の公約だ。忘れるな、これは大宰相がお読みになる。&lt;b&gt;何を約束すべきだろう？&lt;/b&gt;」</Text>
     </Text>
     <Text>
       <GUID>1404001338</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3 | Kemal Bey: 'There will be much murmuring and debate at that point, I like to think— but I shall keep it well in hand. Now to the conclusion: "By the grace of Allah, I solemnly swear that..."' -->
-      <Text>ケマル・ベイ: 「その時点で大いにざわめきや議論が起こるだろうが――うまく収めてみせるとも。さて締めくくりだ。『アッラーの恩寵により、私は厳かに誓う…』」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3 | Kemal Bey: 'And the closing words... they must be remembered. Something worthy of being quoted in the capital. <b>How should I end?</b>' -->
+      <Text>ケマル・ベイ: 「そして締めの言葉…これは記憶に残らねばならん。都で引用されるに値する何かだ。&lt;b&gt;どう締めくくるべきだろう？&lt;/b&gt;」</Text>
     </Text>
     <Text>
       <GUID>1404001339</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision1 | 'Your vote of confidence— for once in my life— humbles me...' -->
-      <Text>「皆さんの信任には――生まれて初めて――身の引き締まる思いです…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision1 | '...I am humbled that you have finally taken notice of me...' -->
+      <Text>「…ようやく私に目を留めてくださったことを光栄に思います…」</Text>
     </Text>
     <Text>
       <GUID>1404001340</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision2 | 'I rejoice in joining forces with you for, clearly, the greater good of our city...' -->
-      <Text>「皆さんと力を合わせられることを嬉しく思います。もちろん、我らが街のより大きな善のために…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision2 | '...together, we shall make this province the envy of the capital...' -->
+      <Text>「…ともにこの州を都の羨望の的にいたしましょう…」</Text>
     </Text>
     <Text>
       <GUID>1404001341</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision3 | 'Long... very long... have I awaited this honour!' -->
-      <Text>「長く…実に長く…この栄誉を待ち望んできました！」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision3 | '...after many years of patient service, I stand before you at last...' -->
+      <Text>「…長年の忍耐強い奉公を経て、ついに皆様の前に立っております…」</Text>
     </Text>
     <Text>
       <GUID>1404001342</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision1 | 'The needs of the humblest, as befits the virtuous...' -->
-      <Text>「…徳ある者にふさわしく、最も貧しい者たちの必要に応えること…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision1 | '...to lighten the burdens of the Nomads, whose labour feeds this province...' -->
+      <Text>「…この州を養う遊牧民の皆さんの重荷を軽くすることを…」</Text>
     </Text>
     <Text>
       <GUID>1404001343</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision2 | 'To encourage piety and devotion at the mosque...' -->
-      <Text>「…モスクでの信仰と献身を奨励すること…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision2 | '...to extend the reach of our mosques, so that no quarter is beyond the call to prayer...' -->
+      <Text>「…モスクの数を増やし、礼拝の呼びかけが届かぬ地区を一つもなくすことを…」</Text>
     </Text>
     <Text>
       <GUID>1404001344</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision3 | 'To lessen the burdens of the Envoys, that we may better uplift Wadi Al Zahir...' -->
-      <Text>「…使者たちの重荷を軽くし、Wadi Al Zahirをより一層盛り立てること…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision3 | '...to make life in Wadi Al Zahir worthy of the Sultan's servants...' -->
+      <Text>「…Wadi Al Zahirの暮らしをスルタンの臣下にふさわしいものにすることを…」</Text>
     </Text>
     <Text>
       <GUID>1404001345</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision1 | 'I will make my seat in the Divan my life's work!' -->
-      <Text>「…ディーワーンの議席を我が生涯の務めとすることを！」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision1 | '...may the Diwan of Wadi Al Zahir one day be spoken of in the same breath as the Diwan of the capital!' -->
+      <Text>「…いつの日か、Wadi Al Zahirのディーワーンが都のディーワーンと並び称されんことを！」</Text>
     </Text>
     <Text>
       <GUID>1404001346</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision2 | 'I will not rest until the voice of this Divan is heard beyond Wadi Al Zahir, at the Sultan's very throne!' -->
-      <Text>「…このディーワーンの声がWadi Al Zahirを越え、スルタンの玉座にまで届くまで休まぬことを！」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision2 | '...I shall serve this Diwan as faithfully as I once served the Sultan's own household!' -->
+      <Text>「…かつてスルタンの御家に仕えたのと同じ忠誠をもって、このディーワーンに仕えます！」</Text>
     </Text>
     <Text>
       <GUID>1404001347</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision3 | 'Order will be restored, and the righteous uplifted...' -->
-      <Text>「…秩序は回復され、正しき者は引き上げられることを…」</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision3 | '...I shall not rest until I am recalled to the capital and never have to see this dusty province again!' -->
+      <Text>「…都に呼び戻され、この埃っぽい州を二度と見ずに済むまで、私は休みません！」</Text>
     </Text>
     <Text>
       <GUID>1404001348</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary | The Envoy thanks you for the small part you played in composing his speech. -->
-      <Text>使者は、演説作りにささやかながら協力してくれたことに感謝している。</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary | Kemal Bey thanks you for your help with his speech. -->
+      <Text>ケマル・ベイは演説の手伝いに感謝している。</Text>
     </Text>
     <Text>
       <GUID>1404001349</GUID>
-      <!-- Text | RQ_Envoy_Decision_TheSpeech_BadChoice2Summary | The Envoy does not offer even the faintest smile at your suggestion. -->
-      <Text>使者は君の提案に、かすかな笑みすら浮かべない。</Text>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_BadChoice2Summary | Kemal Bey is not amused — even if the suggestion was uncomfortably close to the truth. -->
+      <Text>ケマル・ベイはまったく面白がっていない。図星に近かったとしても。</Text>
     </Text>
     <Text>
       <GUID>1404001350</GUID>
-      <!-- Text | RQ_Envoy_IAmTheSenate_Speech_Objective | Help the Envoy compose his speech for the Divan -->
-      <Text>使者のディーワーンでの演説作りを手伝おう</Text>
+      <!-- Text | RQ_Envoy_IAmTheSenate_Speech_Objective | Help the Envoy write his speech for the Diwan -->
+      <Text>使者がディーワーンでの演説を書く手伝いをしよう</Text>
     </Text>
     <Text>
       <GUID>1404001351</GUID>
-      <!-- Quest | RQ_Envoy_IamTheSenate2_StuffBallots_Select | Divan Affairs — The Vote -->
-      <Text>ディーワーンの政務 ― 採決</Text>
+      <!-- Quest | RQ_Envoy_IamTheSenate2_StuffBallots_Select | Diwan Intrigues — White Pebbles -->
+      <Text>ディーワーンの陰謀 ― 白い小石</Text>
     </Text>
     <Text>
       <GUID>1404001352</GUID>
-      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestStart | What use is a seat in the Divan if no-one listens to my proposals? Surely you have some influence? -->
-      <Text>誰も私の提案に耳を貸さないのなら、ディーワーンの議席に何の意味がある？君にも多少の影響力はあるだろう？</Text>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestStart | My first proposal comes before the Diwan tomorrow, and I am three pebbles short of a majority. Surely the governor knows where the voting urn is kept? -->
+      <Text>明日、私の最初の議案がディーワーンにかけられるのだが、過半数まで小石が三つ足りん。総督殿なら投票壺がどこに保管されているかご存じだろう？</Text>
     </Text>
     <Text>
       <GUID>1404001353</GUID>
-      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestSuccess | Success! The proposal was approved by the majority! I think they suspect something, though— we will have to be more subtle. -->
-      <Text>成功だ！提案は過半数で可決された！だが、どうも何か感づかれたようだ――もっと巧妙にやらねばな。</Text>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestSuccess | Passed by a majority of four! Although... I do wonder how eleven members managed to cast fourteen pebbles. -->
+      <Text>4票差で可決だ！しかし…11人の議員がどうやって14個の小石を投じたのやら。</Text>
     </Text>
     <Text>
       <GUID>1404001354</GUID>
-      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestStartSummary | Envoy Kemal Bey wants your help outmanoeuvring his political opponents at the ballot. -->
-      <Text>使者ケマル・ベイは、採決で政敵を出し抜くのを手伝ってほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestStartSummary | Envoy Kemal Bey wants your help to make sure the Diwan's vote goes his way. -->
+      <Text>使者ケマル・ベイは、ディーワーンの投票が自分に有利になるよう手を貸してほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001355</GUID>
-      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestSuccessSummary | The Envoy rejoices that the 'recount' resulted in the approval of his latest proposals. -->
-      <Text>使者は「再集計」の結果、最新の提案が可決されたことを喜んでいる。</Text>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestSuccessSummary | Kemal Bey's petition passes the Diwan — with a suspicious number of pebbles. -->
+      <Text>ケマル・ベイの請願はディーワーンで可決された。小石の数は怪しいが。</Text>
     </Text>
     <Text>
       <GUID>1404001356</GUID>
-      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Story | Envoy Kemal Bey is back, this time asking for your help in steering the policy of the Divan. He hopes you will intervene on his behalf in a very important vote that he feels he cannot afford to lose. -->
-      <Text>使者ケマル・ベイがまたやって来た。今度はディーワーンの方針を左右する手助けを求めている。絶対に負けられない非常に重要な採決で、自分に有利になるよう介入してほしいのだ。</Text>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Story | <b>In the Diwan of Wadi Al Zahir, votes are cast with pebbles:</b> white for yes, black for no, dropped into an old copper urn at the Town Hall. Kemal Bey's first proposal — a petition asking the capital for funds to pave the road to the harbour — is three pebbles short of a majority, and he has asked you to 'take care of' the urn before the count. -->
+      <Text>&lt;b&gt;Wadi Al Zahirのディーワーンでは小石で投票する。&lt;/b&gt;白は賛成、黒は反対。それを町役場にある古い銅の壺に入れるのだ。ケマル・ベイの最初の議案、すなわち港への道を舗装する資金を都に求める請願は、過半数まで小石が三つ足りない。そこで彼は、開票前に壺を「何とかして」ほしいと君に頼んできた。</Text>
     </Text>
     <Text>
       <GUID>1404001357</GUID>
-      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Fraud | Tamper with the ballot in the Town Hall -->
-      <Text>町役場で採決に細工をしよう</Text>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Fraud | Swap a few black pebbles in the voting urn at the Town Hall -->
+      <Text>町役場の投票壺の黒い小石をいくつかすり替えよう</Text>
     </Text>
     <Text>
       <GUID>1404001358</GUID>
-      <!-- Quest | RQ_Envoy_IamTheSenate3_RuiningReputation_Select | Divan Affairs — The Smear -->
-      <Text>ディーワーンの政務 ― 中傷</Text>
+      <!-- Quest | RQ_Envoy_IamTheSenate3_RuiningReputation_Select | Diwan Intrigues — The Shadow -->
+      <Text>ディーワーンの陰謀 ― 尾行</Text>
     </Text>
     <Text>
       <GUID>1404001362</GUID>
-      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestStart | Tariq Bey opposes my every proposal! He must be hatching some wicked scheme— I ask you to follow him! -->
-      <Text>タリク・ベイは私の提案にことごとく反対する！何か邪悪な企みがあるに違いない――あの男の後をつけてくれ！</Text>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestStart | Tariq Bey voted against my petition. Twice! No man is that principled without a reason. Follow him, and we shall see who pays him. -->
+      <Text>タリク・ベイが私の請願に反対票を投じた。二度もだ！理由もなくあれほど筋を通す者などいない。奴を尾けろ、誰が金を払っているのか突き止めてやる。</Text>
     </Text>
     <Text>
       <GUID>1404001363</GUID>
-      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestComplete | Nothing... strange. There is more to this, I am certain of it! -->
-      <Text>何も…おかしい。裏に何かあるはずだ、間違いない！</Text>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestComplete | Apricots. He bought apricots. For his mother. ...Nobody is that innocent. I shall find something, mark my words! -->
+      <Text>杏だ。杏を買った。母親のために。…あそこまで潔白な人間などいるものか。必ず何か見つけてやる、覚えておけ！</Text>
     </Text>
     <Text>
       <GUID>1404001364</GUID>
-      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_LeaveKontor | There he is! Follow him— it should not be hard to catch him red-handed! -->
-      <Text>あそこだ！後をつけろ――現行犯で押さえるのは難しくないはずだ！</Text>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_LeaveKontor | There he is, fresh off the boat! Follow him — and do try to look inconspicuous. -->
+      <Text>いたぞ、船から降りたところだ！後を尾けろ。くれぐれも目立たないようにな。</Text>
     </Text>
     <Text>
       <GUID>1404001365</GUID>
-      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachTownHall | Keep your eyes open for any secret signals he might be giving. -->
-      <Text>あの男が秘密の合図を送っていないか、よく見張っておけ。</Text>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachTownHall | The clerks at the Town Hall! He is bribing them, I know it. Watch for an envelope! -->
+      <Text>町役場の役人どもだ！奴は賄賂を渡している、間違いない。封筒に目を光らせろ！</Text>
     </Text>
     <Text>
       <GUID>1404001366</GUID>
-      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachMarket | Watch his hands— perhaps he will pocket something! -->
-      <Text>手元をよく見ていろ――何かくすねるかもしれん！</Text>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachMarket | Now he is paying the fruit seller... far too much for a bag of apricots. Is that a coded message? -->
+      <Text>今度は果物売りに金を払っている…杏ひと袋にしては多すぎる。暗号か何かか？</Text>
     </Text>
     <Text>
       <GUID>1404001367</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestStartSummary | Envoy Kemal Bey wishes to expose the vices of Tariq Bey, who keeps undermining him in the Divan. -->
-      <Text>使者ケマル・ベイは、ディーワーンで自分の足を引っ張り続けるタリク・ベイの悪行を暴きたがっている。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestStartSummary | Envoy Kemal Bey suspects his rival Tariq Bey of secret dealings and asks you to follow him. -->
+      <Text>使者ケマル・ベイは、ライバルのタリク・ベイが裏で何か企んでいると疑い、尾行を君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001368</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary | The Envoy is surprised that no compromising evidence was found and swears to dig deeper. -->
-      <Text>使者は不利な証拠が何も見つからなかったことに驚き、さらに深く探ると誓った。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary | Tariq Bey turns out to be disappointingly honest. Kemal Bey refuses to believe it. -->
+      <Text>タリク・ベイはがっかりするほど正直な男だった。ケマル・ベイはそれを信じようとしない。</Text>
     </Text>
     <Text>
       <GUID>1404001369</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_Story | Envoy Kemal Bey wants you to shed light on the hidden vices of his strongest rival in the Divan: Envoy Tariq Bey. He is sure the man is up to something— and even if he isn't, Kemal Bey cannot afford to let him sabotage his career first. -->
-      <Text>使者ケマル・ベイは、ディーワーンにおける最大の政敵――使者タリク・ベイの隠された悪徳を明るみに出してほしいと考えている。あの男は何か企んでいるに違いないと彼は確信している。たとえそうでなくとも、先に自分の出世を潰されるわけにはいかないのだ。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_Story | <b>Tariq Bey has opposed every proposal Kemal Bey has made,</b> and Kemal Bey is convinced that nobody is that principled without a reason. He suspects bribes from the foreign merchants at the harbour, or perhaps secret letters to the Grand Vizier. Either would be the end of Tariq Bey's career — if only someone could prove it. -->
+      <Text>&lt;b&gt;タリク・ベイはケマル・ベイの議案にことごとく反対してきた。&lt;/b&gt;ケマル・ベイは、理由もなくあれほど筋を通す者などいないと確信している。港の外国商人からの賄賂か、あるいは大宰相への密書か。どちらにせよタリク・ベイの出世は終わりだ。誰かがそれを証明できればの話だが。</Text>
     </Text>
     <Text>
       <GUID>1404001370</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestBookHint | Tariq Bey usually arrives at the harbour, calls at the Town Hall and then strolls over to the Marketplace. -->
-      <Text>タリク・ベイはいつも港に着くと町役場に立ち寄り、それから市場までぶらぶら歩いていく。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestBookHint | Tariq Bey arrives at the harbour every morning, calls at the Town Hall and then strolls over to the Marketplace. -->
+      <Text>タリク・ベイは毎朝港に着くと町役場に立ち寄り、それから市場までぶらぶら歩いていく。</Text>
     </Text>
     <Text>
       <GUID>1404001371</GUID>
-      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy | Select Tariq Bey to start tailing him -->
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy | Select Tariq Bey to start following him -->
       <Text>タリク・ベイを選択して尾行を始めよう</Text>
     </Text>
     <Text>
       <GUID>1404001372</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary | The Envoy is certain that tailing Tariq Bey will uncover his sinful behaviour. -->
-      <Text>使者は、タリク・ベイを尾行すれば罪深い振る舞いが明らかになると確信している。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary | Kemal Bey is certain that Tariq Bey will soon show his true colours. -->
+      <Text>ケマル・ベイは、タリク・ベイがじきに本性を現すと確信している。</Text>
     </Text>
     <Text>
       <GUID>1404001373</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary | The Envoy suspects bribery— or worse— is afoot, but lacks proof. -->
-      <Text>使者は賄賂――あるいはもっと悪いこと――を疑っているが、証拠がない。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary | Tariq Bey spends a long time with the clerks at the Town Hall. Kemal Bey smells bribery. -->
+      <Text>タリク・ベイは町役場の役人たちと長々と話し込んでいる。ケマル・ベイは賄賂の匂いを嗅ぎつけた。</Text>
     </Text>
     <Text>
       <GUID>1404001374</GUID>
-      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy2 | Keep an eye on Tariq Bey as he roams the city -->
-      <Text>街を歩き回るタリク・ベイから目を離さないようにしよう</Text>
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy2 | Follow Tariq Bey through the city without being noticed -->
+      <Text>気づかれないようにタリク・ベイを町中で尾行しよう</Text>
     </Text>
     <Text>
       <GUID>1404001375</GUID>
-      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachMarketSummary | The Envoy is increasingly convinced that Tariq Bey is about to commit some misdeed. -->
-      <Text>使者は、タリク・ベイが今にも何か悪事を働くとますます確信している。</Text>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachMarketSummary | At the Marketplace, Tariq Bey stops at a fruit stall. Kemal Bey holds his breath. -->
+      <Text>市場でタリク・ベイは果物の屋台の前で足を止めた。ケマル・ベイは息を殺している。</Text>
     </Text>
     <Text>
       <GUID>1404001376</GUID>
-      <!-- Quest | RQ_Envoy_IamTheSenate5_DuraLexSedLex_StatusQuo | Divan Affairs — Stern Decrees -->
-      <Text>ディーワーンの政務 ― 厳しい布告</Text>
+      <!-- Quest | RQ_Envoy_IamTheSenate5_DuraLexSedLex_StatusQuo | Diwan Intrigues — Stern Decrees -->
+      <Text>ディーワーンの陰謀 ― 厳格な布告</Text>
     </Text>
     <Text>
       <GUID>1404001377</GUID>
-      <!-- AudioText | RQ_Envoy_Sustain_DuraLexSedLex_QuestStart | Idleness and vice everywhere! It is high time I— I mean the Divan— reminded everyone of the value of work, piety and abstinence! -->
-      <Text>どこもかしこも怠惰と悪徳ばかりだ！そろそろ私が――いや、ディーワーンが――労働と信仰と節制の価値を皆に思い出させる時だ！</Text>
+      <!-- AudioText | RQ_Envoy_Sustain_DuraLexSedLex_QuestStart | Word from the capital: the Grand Vizier has given up the hookah! Naturally, every ambitious official in the Sultanate now despises it. Wadi Al Zahir must show the same virtue — and more besides! -->
+      <Text>都からの知らせだ。大宰相が水ギセルをおやめになった！当然、スルタン国の野心ある役人は皆、今や水ギセルを毛嫌いしている。Wadi Al Zahirも同じ美徳を示さねばならん。いや、それ以上のものをな！</Text>
     </Text>
     <Text>
       <GUID>1404001378</GUID>
@@ -4337,278 +4337,278 @@
     </Text>
     <Text>
       <GUID>1404001379</GUID>
-      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_QuestStartSummary | The Envoy wishes to cleanse the city by issuing decrees on labour, worship and indulgence. -->
-      <Text>使者は、労働、礼拝、享楽に関する布告で街を浄化したいと考えている。</Text>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_QuestStartSummary | Envoy Kemal Bey wants to impress the Grand Vizier with decrees on diligence, piety and abstinence. -->
+      <Text>使者ケマル・ベイは、勤勉、敬虔、節制に関する布告で大宰相に好印象を与えたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001380</GUID>
-      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_Story | Envoy Kemal Bey is back again! With his rival Tariq Bey conveniently away on a long journey to the Sultan's court, he can finally set his grand plans for the city in motion: diligent Nomads, more mosques and an end to idle hookah smoking. He needs your help putting his decrees into effect. -->
-      <Text>使者ケマル・ベイがまた戻ってきた！政敵のタリク・ベイが都合よくスルタンの宮廷へ長旅に出ている今、ついに街のための壮大な計画を実行に移せる――勤勉な遊牧民、より多くのモスク、そして怠惰な水タバコの喫煙の禁止だ。布告を実施するために君の助けが必要だ。</Text>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_Story | <b>With Tariq Bey away on a long journey to the capital,</b> Kemal Bey finally dominates the Diwan, and he intends to make the most of it. Rumour has it that the Grand Vizier has renounced tobacco, and Kemal Bey hopes that a province of diligent workers, new mosques and cold hookahs will earn him a glowing mention in the next report to the capital. -->
+      <Text>&lt;b&gt;タリク・ベイが都への長旅で留守のあいだ、&lt;/b&gt;ケマル・ベイはついにディーワーンを牛耳り、それを最大限に活かすつもりだ。噂では大宰相がタバコを断ったという。勤勉な労働者、新しいモスク、そして冷えた水ギセルの州となれば、次の都への報告書で自分の名が称えられるとケマル・ベイは期待している。</Text>
     </Text>
     <Text>
       <GUID>1404001381</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature1_Gold_Deliver | Highborn — Tiles of Glory -->
-      <Text>高貴な生まれ ― 栄光のタイル</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature1_Gold_Deliver | A Pasha's Legacy — Tiles of Glory -->
+      <Text>パシャの遺産 ― 栄光のタイル</Text>
     </Text>
     <Text>
       <GUID>1404001382</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestStart | How is one to praise the glory of Allah in such plain mosques? The Sultan's palaces shine with tiles of every colour, while our houses of prayer make do with whitewash! -->
-      <Text>このような質素なモスクで、どうしてアッラーの栄光を称えられよう？スルタンの宮殿はあらゆる色のタイルで輝いているというのに、我らの礼拝所は白い漆喰で我慢しているのだ！</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestStart | In the capital, every pasha of standing has a mosque that bears his name. Here, I have a whitewashed wall! Bring me mosaic tiles, and the Sultanate shall learn who Faruq Pasha is. -->
+      <Text>都では、名のあるパシャは皆、自分の名を冠したモスクを持っている。ここでは白壁が一枚あるだけだ！モザイクタイルを持ってきてくれ。スルタン国中にファルーク・パシャの名を知らしめてやる。</Text>
     </Text>
     <Text>
       <GUID>1404001383</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestComplete | What is given on this earth will be repaid tenfold in Paradise! -->
-      <Text>この世で施したものは、天国で十倍になって報われるのだ！</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestComplete | Look at it! Blue and gold, and my name above the prayer niche. Generations will pray beneath it — and remember me. -->
+      <Text>見たまえ！青と金、そしてミフラーブの上には私の名だ。幾世代もの人々がこの下で祈り、私を思い出すだろう。</Text>
     </Text>
     <Text>
       <GUID>1404001384</GUID>
-      <!-- Text | RQ_Envoy_Delivery_Gold_Story | Envoy Faruq Pasha wishes to adorn the mosques of Wadi Al Zahir with glittering mosaics to honour the glory of Allah— and, not least, his own good name as their benefactor. -->
-      <Text>使者ファルーク・パシャは、アッラーの栄光を称えるため――そして何より寄進者としての自らの名声のため――Wadi Al Zahirのモスクをきらびやかなモザイクで飾りたいと考えている。</Text>
+      <!-- Text | RQ_Envoy_Delivery_Gold_Story | <b>Faruq Pasha once governed a province rich in olives and silk,</b> until a dispute over missing taxes saw him demoted to a mere envoy in Wadi Al Zahir. He has not forgotten his former glory, and he intends to regain it the way great pashas always have: by founding a pious endowment with his name written above its door — in glittering tiles, naturally. -->
+      <Text>&lt;b&gt;ファルーク・パシャはかつてオリーブと絹に恵まれた州を治めていた。&lt;/b&gt;しかし消えた税金をめぐる一件で、Wadi Al Zahirの一介の使者に降格させられたのだ。彼は往時の栄光を忘れておらず、偉大なパシャたちが常にそうしてきたように、それを取り戻すつもりでいる。すなわち、扉の上に自分の名を掲げた寄進財産を設立するのだ。もちろん、きらめくタイルでな。</Text>
     </Text>
     <Text>
       <GUID>1404001385</GUID>
-      <!-- Text | RQ_Envoy_Delivery_Gold_QuestStartSummary | Envoy Faruq Pasha is displeased with the bare walls of the mosques and asks you to bring mosaic tiles. -->
-      <Text>使者ファルーク・パシャはモスクの殺風景な壁に不満で、モザイクタイルを持ってきてほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestStartSummary | Envoy Faruq Pasha wants mosaic tiles to adorn the mosque with his name. -->
+      <Text>使者ファルーク・パシャは、自分の名でモスクを飾るためのモザイクタイルを求めている。</Text>
     </Text>
     <Text>
       <GUID>1404001386</GUID>
-      <!-- Text | RQ_Envoy_Delivery_Gold_QuestCompleteSummary | Envoy Faruq Pasha commends you for securing the mosaic tiles. -->
-      <Text>使者ファルーク・パシャは、モザイクタイルを手に入れた君を称賛している。</Text>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestCompleteSummary | Faruq Pasha admires his name in the mosaic of the mosque. -->
+      <Text>ファルーク・パシャは、モスクのモザイクに刻まれた自分の名にうっとりしている。</Text>
     </Text>
     <Text>
       <GUID>1404001387</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature2_Beggars_Picturepuzzle | Highborn — Gated Paradise -->
-      <Text>高貴な生まれ ― 閉ざされた楽園</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature2_Beggars_Picturepuzzle | A Pasha's Legacy — Gated Paradise -->
+      <Text>パシャの遺産 ― 閉ざされた楽園</Text>
     </Text>
     <Text>
       <GUID>1404001388</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestStart | How can the faithful pray in peace with those wretched beggars wailing before the gates? -->
-      <Text>門の前であの惨めな物乞いどもが泣き言を並べていては、信徒がどうして心安らかに祈れようか？</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestStart | Dignitaries from the capital are coming to see my mosque — and what will they find at the gate? Beggars! Have them removed before they spoil everything. -->
+      <Text>都の高官たちが私のモスクを見に来るというのに、門のところで何を目にすると思う？物乞いだ！台無しにされる前に追い払ってくれ。</Text>
     </Text>
     <Text>
       <GUID>1404001389</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestComplete | Yes, hear how the call to prayer rings out over the quiet courtyard? Blessed peace at last! -->
-      <Text>そうだ、静かな中庭に礼拝の呼びかけが響き渡るのが聞こえるか？ようやく祝福された平穏が訪れた！</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestComplete | There. Now my guests will see marble and mosaic, and nothing that offends the eye. -->
+      <Text>これでよし。客人たちが目にするのは大理石とモザイクだけ、目障りなものは何もない。</Text>
     </Text>
     <Text>
       <GUID>1404001390</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_BeggarAudio | Where else should we go? The Envoys pass us by in the streets without so much as a glance... -->
-      <Text>ほかにどこへ行けというんです？使者の方々は、通りで私たちに目もくれずに通り過ぎていくんですよ…</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_BeggarAudio | We heard that a great pasha had founded an endowment here. Is it not the duty of an endowment to feed the poor? -->
+      <Text>偉いパシャ様がここに寄進財産を設けたと聞いたんだ。貧しい者を養うのが寄進財産の務めじゃないのかい？</Text>
     </Text>
     <Text>
       <GUID>1404001391</GUID>
-      <!-- CollectablePicturePuzzle | Beggars | Meek Beggars -->
-      <Text>哀れな物乞い</Text>
+      <!-- CollectablePicturePuzzle | Beggars | Poor Nomads -->
+      <Text>貧しい遊牧民</Text>
     </Text>
     <Text>
       <GUID>1404001392</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Story | According to the Envoys, the beggars outside the mosque gates are keeping the faithful from their prayers. Envoy Faruq Pasha wishes to have them sent away and peace restored. -->
-      <Text>使者たちによれば、モスクの門の外にいる物乞いが信徒の祈りの妨げになっているという。使者ファルーク・パシャは彼らを立ち去らせ、平穏を取り戻したいと願っている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Story | <b>Faruq Pasha's endowment is to be visited by dignitaries from the capital,</b> and he wants everything to be perfect. To his dismay, a group of poor Nomads has gathered at the mosque gates — drawn, ironically, by the rumour that a pasha's endowment brings alms for the needy. -->
+      <Text>&lt;b&gt;ファルーク・パシャの寄進財産に都の高官たちが視察に訪れることになった。&lt;/b&gt;彼は何もかも完璧にしたいと考えている。ところが困ったことに、貧しい遊牧民の一団がモスクの門の前に集まっている。皮肉にも、パシャの寄進財産が貧者に施しをもたらすという噂に引き寄せられたのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001393</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestBookHint | Beggars can be found clustered around the gates of the mosque -->
-      <Text>物乞いたちはモスクの門の周りに群がっている</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestBookHint | The beggars are gathered around the gates of the mosque -->
+      <Text>物乞いたちはモスクの門の周りに集まっている</Text>
     </Text>
     <Text>
       <GUID>1404001394</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Beggars | Disperse the beggars: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
-      <Text>物乞いを追い払おう: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Beggars | Send the beggars away: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>物乞いを立ち去らせよう: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
     </Text>
     <Text>
       <GUID>1404001395</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestStartSummary | Envoy Faruq Pasha wants the beggars dispersed from the gates of the mosque. -->
-      <Text>使者ファルーク・パシャは、モスクの門から物乞いを追い払ってほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestStartSummary | Envoy Faruq Pasha wants the beggars gone from the gates of 'his' mosque. -->
+      <Text>使者ファルーク・パシャは、「自分の」モスクの門から物乞いを追い払いたがっている。</Text>
     </Text>
     <Text>
       <GUID>1404001396</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestCompleteSummary | The Envoy is pleased with you for restoring order and quiet to the mosque. -->
-      <Text>使者は、モスクに秩序と静けさを取り戻した君に満足している。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestCompleteSummary | The gates are clear, and Faruq Pasha is satisfied — for now. -->
+      <Text>門の前は片付き、ファルーク・パシャは満足している。今のところは。</Text>
     </Text>
     <Text>
       <GUID>1404001397</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature3_HelpingIndigents_Deliver | Highborn — Benefaction -->
-      <Text>高貴な生まれ ― 慈善</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature3_HelpingIndigents_Deliver | A Pasha's Legacy — The Soup Kitchen -->
+      <Text>パシャの遺産 ― 施しの食卓</Text>
     </Text>
     <Text>
       <GUID>1404001398</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStart | The Imam has permitted us to hand out food to the poor souls outside the mosque— but there must be officials present to make it a proper occasion. -->
-      <Text>イマームはモスクの外の哀れな者たちに食べ物を配ることを許してくださった――だが、きちんとした催しにするには、高官たちに立ち会ってもらわねばならん。</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStart | The Imam reminds me that a true endowment feeds the poor. Very well — I shall hand out dates at the mosque. But the Consulate must witness it, or how will the capital ever know? -->
+      <Text>イマームが言うには、真の寄進財産は貧しい者を養うものだそうだ。よかろう、モスクでナツメヤシを配ってやる。だが領事館に立ち会わせねばならん。さもなければ都がどうやって知るというのだ？</Text>
     </Text>
     <Text>
       <GUID>1404001399</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestComplete | Everyone was most impressed by our work— why, the Imam himself praised it in his Friday sermon as an example of rare virtue! -->
-      <Text>皆が我らの行いにいたく感銘を受けていた――なにしろ、イマームご自身が金曜の説教で稀なる美徳の手本として称えてくださったのだ！</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestComplete | The officials wrote down every single date I handed out! And the Imam praised my generosity before the whole congregation. The capital will hear of this. -->
+      <Text>役人たちは私が配ったナツメヤシを一粒残らず書き留めたぞ！しかもイマームは信徒全員の前で私の気前の良さを称えてくれた。都にも必ず伝わるだろう。</Text>
     </Text>
     <Text>
       <GUID>1404001400</GUID>
-      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStartSummary | Envoy Faruq Pasha is making a show of his charity and asks you to ensure that important people take notice. -->
-      <Text>使者ファルーク・パシャは自らの慈善を見せびらかそうとしており、重要人物たちの目に留まるよう手配してほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStartSummary | Envoy Faruq Pasha wants to hand out dates to the poor — in front of as many officials as possible. -->
+      <Text>使者ファルーク・パシャは、貧しい人々にナツメヤシを配りたいと考えている。できるだけ多くの役人の前で。</Text>
     </Text>
     <Text>
       <GUID>1404001401</GUID>
-      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestCompleteSummary | Envoy Faruq Pasha is thrilled with the praise his generosity has earned him. -->
-      <Text>使者ファルーク・パシャは、自らの寛大さが得た称賛に大喜びしている。</Text>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestCompleteSummary | Faruq Pasha is delighted that his charity has been officially recorded. -->
+      <Text>ファルーク・パシャは、自分の慈善が公式に記録されたことに大喜びしている。</Text>
     </Text>
     <Text>
       <GUID>1404001402</GUID>
-      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_Story | Envoy Faruq Pasha wishes to have dates handed out to the poor Nomads at the mosque. He wants you to make sure that all the important officials from the Consulate are present. -->
-      <Text>使者ファルーク・パシャは、モスクで貧しい遊牧民にナツメヤシを配りたいと考えている。領事館の重要な役人全員が確実に出席するよう取り計らってほしいとのことだ。</Text>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_Story | <b>The Imam's Friday sermon on charity struck a nerve,</b> and Faruq Pasha has decided that his endowment shall feed the poor after all. He needs dates to hand out at the mosque — and, just as importantly, the presence of the Consulate's officials, so that his generosity is recorded in the next report to the capital. -->
+      <Text>&lt;b&gt;慈善についてのイマームの金曜説教が心に刺さり、&lt;/b&gt;ファルーク・パシャは結局、寄進財産で貧しい人々を養うことに決めた。モスクで配るナツメヤシが必要だ。そして同じくらい大事なのが領事館の役人たちの立ち会いである。自分の気前の良さを次の都への報告書に記録してもらうためだ。</Text>
     </Text>
     <Text>
       <GUID>1404001403</GUID>
-      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_CallingAllStations | Select the Consulate and inform the officials of the Envoy's charity -->
-      <Text>領事館を選択し、使者の慈善について役人たちに知らせよう</Text>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_CallingAllStations | Select the Consulate and invite the officials to witness the Pasha's charity -->
+      <Text>領事館を選択し、パシャの慈善に立ち会うよう役人たちを招こう</Text>
     </Text>
     <Text>
       <GUID>1404001404</GUID>
-      <!-- Text | RQ_Envoy_Delviery_HelpingTheIndigent_Invitation | ... as Allah has given unto us, so must we give in turn, and by our virtue be an example to those of lower... <i>illegible</i> -->
-      <Text>…アッラーが我らに与えたまうように、我らもまた与えねばならぬ。そして徳をもって、より卑しき者たちの…&lt;i&gt;判読不能&lt;/i&gt;</Text>
+      <!-- Text | RQ_Envoy_Delviery_HelpingTheIndigent_Invitation | <i>Draft of a report, in Faruq Pasha's hand:</i><br/><br/>...and, moved by boundless compassion, the most noble Faruq Pasha personally fed the poor of Wadi Al Zahir, who wept with gratitude and blessed his name... <i>(the rest has been crossed out and rewritten three times)</i> -->
+      <Text>&lt;i&gt;ファルーク・パシャ直筆の報告書草稿:&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;…そして限りない慈悲の心に動かされ、高貴なるファルーク・パシャは自らの手でWadi Al Zahirの貧者に食を施し、彼らは感謝の涙を流してその名を祝福した… &lt;i&gt;(残りは三度も線で消され、書き直されている)&lt;/i&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001405</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver | Highborn — Festive Splendour -->
-      <Text>高貴な生まれ ― 祝祭の輝き</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver | A Pasha's Legacy — Festive Splendour -->
+      <Text>パシャの遺産 ― 祝祭の華やぎ</Text>
     </Text>
     <Text>
       <GUID>1404001406</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestStart | Must I do everything myself? Eid is but weeks away and there is still so much to arrange— the materials for a proper festival pavilion, for instance! -->
-      <Text>何もかも私がやらねばならんのか？イードまであと数週間だというのに、まだ準備することが山ほどある――ちゃんとした祝祭用の天幕の資材とかな！</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestStart | This year, the Eid reception shall be held in a pavilion such as Wadi Al Zahir has never seen! Everyone of rank will attend — and they will remember who invited them. -->
+      <Text>今年のイードの祝宴は、Wadi Al Zahirがかつて見たこともない天幕で開くぞ！身分ある者は皆やってくる。そして誰に招かれたかを覚えて帰るのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001407</GUID>
-      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestComplete | A cushion here, a drape there... perfect! Now that the pavilion is finished, the festivities may begin. -->
-      <Text>ここにクッション、あそこに垂れ幕…完璧だ！天幕が完成したからには、祝祭を始められる。</Text>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestComplete | Silk above, rugs below, lanterns all around... it is almost like home. Let the festivities begin! -->
+      <Text>頭上には絹、足元には敷物、そこかしこに灯籠…まるで故郷のようだ。さあ、祝宴を始めよう！</Text>
     </Text>
     <Text>
       <GUID>1404001408</GUID>
-      <!-- CollectablePicturePuzzle | Timqet Celebration | Eid Festivities -->
-      <Text>イードの祝祭</Text>
+      <!-- CollectablePicturePuzzle | Timqet Celebration | Eid Reception -->
+      <Text>イードの祝宴</Text>
     </Text>
     <Text>
       <GUID>1404001409</GUID>
-      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary | Envoy Faruq Pasha needs you to deliver the materials for a festival pavilion for the coming Eid. -->
-      <Text>使者ファルーク・パシャは、来たるイードのための祝祭用天幕の資材を届けてほしいと求めている。</Text>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary | Envoy Faruq Pasha needs materials for a splendid Eid pavilion at the mosque. -->
+      <Text>使者ファルーク・パシャは、モスクに豪華なイードの天幕を建てるための資材を必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001410</GUID>
-      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary | Envoy Faruq Pasha puts the finishing touches to the festival pavilion. -->
-      <Text>使者ファルーク・パシャは祝祭用の天幕に最後の仕上げを施している。</Text>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary | Faruq Pasha opens his Eid pavilion to the dignitaries of the province. -->
+      <Text>ファルーク・パシャは州の高官たちにイードの天幕を開放した。</Text>
     </Text>
     <Text>
       <GUID>1404001411</GUID>
-      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_Story | At the mosque, Envoy Faruq Pasha worries that the preparations for the Eid festivities are far behind schedule, and asks for your help in raising a splendid pavilion for the celebrations. -->
-      <Text>モスクで使者ファルーク・パシャは、イードの祝祭の準備が大幅に遅れていることを心配しており、祝典のための壮麗な天幕を建てる手助けを求めている。</Text>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_Story | <b>In the capital, the great houses compete to host the most lavish Eid receptions,</b> and Faruq Pasha refuses to be outdone simply because he now lives at the edge of the desert. He is planning a pavilion of palm wood, draped in silk and laid with fine rugs, where the envoys of the province will gather to celebrate — at his invitation. -->
+      <Text>&lt;b&gt;都では名家がこぞって豪勢なイードの祝宴を競い合う。&lt;/b&gt;ファルーク・パシャは、今は砂漠の縁に住んでいるからといって後れを取るつもりはない。彼が計画しているのは、ヤシ材で組み、絹で覆い、上等な敷物を敷き詰めた天幕だ。そこに州の使者たちが集い、祝うのである。もちろん彼の招待で。</Text>
     </Text>
     <Text>
       <GUID>1404001412</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature5_FruitBasket_Select | Highborn — Penance -->
-      <Text>高貴な生まれ ― 贖罪</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature5_FruitBasket_Select | A Pasha's Legacy — Penance -->
+      <Text>パシャの遺産 ― 償い</Text>
     </Text>
     <Text>
       <GUID>1404001413</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart | It seems my intentions have been misunderstood, and some are unhappy with how the festival was handled. -->
-      <Text>どうやら私の意図は誤解されたようだ。祭りの取り仕切り方に不満を持つ者がいるらしい。</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart | It seems my guards turned some Nomads away from the pavilion. The Imam is displeased, the Nomads are angry, and somebody has written to the capital about it! -->
+      <Text>どうやら私の衛兵が、天幕から何人かの遊牧民を追い返してしまったらしい。イマームはご不満、遊牧民は怒り心頭、おまけに誰かがそれを都に書き送ったのだ！</Text>
     </Text>
     <Text>
       <GUID>1404001414</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBaskete_QuestComplete | I trust the message is now clear! It would be an insult had I suffered such indignity for nothing. -->
-      <Text>これで真意は伝わっただろう！こんな屈辱を無駄に味わったのだとしたら、侮辱もいいところだ。</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBaskete_QuestComplete | It is done. I have been humbler today than in my entire life. I trust the Imam is satisfied. -->
+      <Text>終わった。今日ほど謙虚になった日は生まれてこのかたない。イマームもご満足だろう。</Text>
     </Text>
     <Text>
       <GUID>1404001415</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse1 | Only ten more tents to go... -->
-      <Text>あと十張りのテントだけだ…</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse1 | Peace be upon this house... please accept this humble basket... -->
+      <Text>この家に平安を…どうかこのささやかな籠を受け取ってほしい…</Text>
     </Text>
     <Text>
       <GUID>1404001416</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse2 | Patience, Faruq... patience... -->
-      <Text>忍耐だ、ファルーク…忍耐…</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse2 | Smile, Faruq. Smile. A pasha's dignity is not measured in fruit. -->
+      <Text>笑え、ファルーク。笑うのだ。パシャの威厳は果物で量るものではない。</Text>
     </Text>
     <Text>
       <GUID>1404001417</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse3 | That a Pasha should come to this... -->
-      <Text>パシャともあろう者が、ここまで落ちぶれるとは…</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse3 | The last one. If anyone from the capital sees this, I shall never live it down. -->
+      <Text>これで最後だ。都の誰かにこんなところを見られたら、一生の恥だ。</Text>
     </Text>
     <Text>
       <GUID>1404001418</GUID>
-      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart2 | If I must humble myself to preserve order, then so be it. And you had better help— hand these fruit baskets out to the Nomad households. -->
-      <Text>秩序を保つために身を低くせねばならんのなら、それもよかろう。だが君も手伝うのだぞ――この果物かごを遊牧民の家々に配ってくれ。</Text>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart2 | If humility is what it takes, then humility I shall show. Come — you will carry the baskets. I will carry my dignity. -->
+      <Text>謙虚さが必要だというなら、謙虚さを示してやろう。来たまえ、君は籠を運ぶのだ。私は自分の威厳を運ぶ。</Text>
     </Text>
     <Text>
       <GUID>1404001419</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary | Envoy Faruq Pasha wishes to hand out fruit to soothe the Nomads' displeasure and preserve social order. -->
-      <Text>使者ファルーク・パシャは、遊牧民の不満を和らげ社会の秩序を保つために果物を配りたいと考えている。</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary | Envoy Faruq Pasha must make amends to the Nomads he had turned away from his Eid reception. -->
+      <Text>使者ファルーク・パシャは、イードの祝宴から追い返した遊牧民たちに償いをしなければならない。</Text>
     </Text>
     <Text>
       <GUID>1404001420</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestCompleteSummary | Envoy Faruq Pasha is upset that he had to suffer the humiliation of public penance. -->
-      <Text>使者ファルーク・パシャは、公の場で贖罪という屈辱を味わわされたことに腹を立てている。</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestCompleteSummary | Faruq Pasha survived his round of apologies. His pride did not. -->
+      <Text>ファルーク・パシャは謝罪回りを乗り切った。彼の誇りは乗り切れなかったが。</Text>
     </Text>
     <Text>
       <GUID>1404001421</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_Story | Some accuse Envoy Faruq Pasha of having treated the Nomads with contempt during the festivities. He wishes to disprove the rumours by presenting Nomad households with baskets of fruit. -->
-      <Text>使者ファルーク・パシャは祝祭の間、遊牧民を見下していたと非難されている。彼は遊牧民の家々に果物かごを贈り、その噂を否定したいと考えている。</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_Story | <b>Eid is a feast for everyone,</b> rich and poor alike — yet Faruq Pasha's guards turned the Nomads away from his pavilion. The Imam has rebuked him from the minbar, and the story has spread far beyond the city. To save his reputation, the Pasha must visit the Nomad households in person and offer them gifts of fruit. -->
+      <Text>&lt;b&gt;イードは富める者にも貧しい者にも等しく開かれた祝祭だ。&lt;/b&gt;それなのにファルーク・パシャの衛兵は遊牧民を天幕から追い払った。イマームはミンバルから彼を叱責し、その話は町の外にまで広く伝わっている。評判を守るため、パシャは自ら遊牧民の家々を訪ね、果物を贈らねばならない。</Text>
     </Text>
     <Text>
       <GUID>1404001422</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestBookHint | Select several Nomad residences in a row to go from door to door -->
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestBookHint | Select several Nomad houses in a row to go from door to door -->
       <Text>遊牧民の家を続けていくつか選択して、一軒ずつ訪ねよう</Text>
     </Text>
     <Text>
       <GUID>1404001423</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_DoorToDoor | Present fruit baskets to several Nomad households -->
-      <Text>いくつかの遊牧民の家に果物かごを贈ろう</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_DoorToDoor | Bring baskets of fruit to several Nomad households -->
+      <Text>果物の籠をいくつかの遊牧民の家に届けよう</Text>
     </Text>
     <Text>
       <GUID>1404001424</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_SummaryHouse123 | Envoy Faruq Pasha grumbles about having to deliver fruit to the Nomads. -->
-      <Text>使者ファルーク・パシャは遊牧民に果物を届けねばならないことに不平をこぼしている。</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_SummaryHouse123 | Faruq Pasha forces a smile and hands over a basket of fruit. -->
+      <Text>ファルーク・パシャは無理に笑顔を作り、果物の籠を手渡した。</Text>
     </Text>
     <Text>
       <GUID>1404001425</GUID>
-      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary2 | It seems the Envoy expects you to help... -->
-      <Text>どうやら使者は君の手助けを当てにしているようだ…</Text>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary2 | It seems the Envoy expects you to come along... -->
+      <Text>どうやら使者は君についてきてほしいようだ…</Text>
     </Text>
     <Text>
       <GUID>1404001426</GUID>
-      <!-- Quest | RQ_Envoy_HigherByNature6_Fasting_Sustain | Highborn — Tolerance -->
-      <Text>高貴な生まれ ― 寛容</Text>
+      <!-- Quest | RQ_Envoy_HigherByNature6_Fasting_Sustain | A Pasha's Legacy — The Fast -->
+      <Text>パシャの遺産 ― 断食</Text>
     </Text>
     <Text>
       <GUID>1404001427</GUID>
-      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestStart | The stain of my arrogance towards the Nomads weighs heavily upon my soul. I shall do penance by fasting— beginning with my beloved marzipan. -->
-      <Text>遊牧民に対する私の傲慢さという汚点が、魂に重くのしかかっている。断食によって償おう――まずは愛するマジパンからだ。</Text>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestStart | The Imam says that one humble day does not cleanse a proud heart. So I shall fast — and give up what is dearest to me. My marzipan. -->
+      <Text>イマームが言うには、一日謙虚になったくらいでは傲慢な心は清められんそうだ。だから断食しよう。そして最も大切なものを断つ。私のマジパンをな。</Text>
     </Text>
     <Text>
       <GUID>1404001428</GUID>
-      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestCompleteEnvoy | To think a Nomad would show mercy to one who scorned his people... Blessed indeed are the humble of heart. -->
-      <Text>自分たちを蔑んだ者に、遊牧民が慈悲を示すとは…心の謙虚な者こそ、まことに幸いである。</Text>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestCompleteEnvoy | A Nomad, absolving a pasha... In the capital, nobody would believe it. Perhaps that is the real lesson. -->
+      <Text>遊牧民がパシャを赦すとは…都では誰も信じまい。それこそが本当の教訓なのかもしれんな。</Text>
     </Text>
     <Text>
       <GUID>1404001429</GUID>
-      <!-- AudioText | AT_DLC06_NOmad_RQ_Envoy_Status_Fasting_QuestCompleteNomad | Please, it is enough. I wish such suffering on no-one, not even you, Pasha. -->
-      <Text>どうか、もう十分です。こんな苦しみは誰にも味わってほしくない――あなたにもですよ、パシャ。</Text>
+      <!-- AudioText | AT_DLC06_NOmad_RQ_Envoy_Status_Fasting_QuestCompleteNomad | Enough, Pasha. You came to our tents with gifts, and we saw that you meant it. Eat your sweets — no one in the desert wishes another man hungry. -->
+      <Text>もういいよ、パシャ様。あんたは贈り物を持って俺たちの天幕に来てくれた。本気だってことは分かったよ。甘いものを食べてくれ。砂漠じゃ誰も他人が飢えるのを望みやしないさ。</Text>
     </Text>
     <Text>
       <GUID>1404001430</GUID>
-      <!-- Text | RQ_Envoy_Status_Fasting_QuestStartSummary | Envoy Faruq Pasha wants you to help him with his fasting. -->
-      <Text>使者ファルーク・パシャは、断食を手伝ってほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestStartSummary | Envoy Faruq Pasha wants to give up marzipan as penance. -->
+      <Text>使者ファルーク・パシャは、償いとしてマジパンを断ちたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001431</GUID>
-      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteEnvoySummary | Envoy Faruq Pasha grudgingly acknowledges the Nomad's virtue. -->
-      <Text>使者ファルーク・パシャはしぶしぶながら遊牧民の美徳を認めている。</Text>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteEnvoySummary | Faruq Pasha accepts the Nomad's forgiveness — and quietly sends for marzipan. -->
+      <Text>ファルーク・パシャは遊牧民の赦しを受け入れ、こっそりマジパンを取り寄せた。</Text>
     </Text>
     <Text>
       <GUID>1404001432</GUID>
-      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteNomadSummary | The Nomad cannot bear to see the Envoy suffer and extends a forgiving hand. -->
-      <Text>遊牧民は使者が苦しむのを見ていられず、許しの手を差し伸べる。</Text>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteNomadSummary | A Nomad takes pity on the fasting Pasha and releases him from his vow. -->
+      <Text>ある遊牧民が断食中のパシャを哀れに思い、誓いを解いてやった。</Text>
     </Text>
     <Text>
       <GUID>1404001433</GUID>
-      <!-- Text | RQ_Envoy_Status_Fasting_Story | Envoy Faruq Pasha wishes to do further penance for his contempt towards the Nomads by fasting, and swears to forgo his beloved marzipan. -->
-      <Text>使者ファルーク・パシャは遊牧民を見下したことへのさらなる償いとして断食を行いたいと考え、大好きなマジパンを断つと誓っている。</Text>
+      <!-- Text | RQ_Envoy_Status_Fasting_Story | <b>His visits to the Nomad households opened Faruq Pasha's eyes,</b> at least a little. He has resolved to do further penance by giving up his greatest indulgence: the marzipan sent to him by the finest confectioners of the capital. Help him resist temptation by keeping the Envoys' supply of marzipan low. -->
+      <Text>&lt;b&gt;遊牧民の家々を訪ねたことで、ファルーク・パシャの目は少しばかり開かれた。&lt;/b&gt;彼はさらなる償いとして、最大の楽しみを断つことにした。都一番の菓子職人から届けられるマジパンである。使者へのマジパンの供給を低く保ち、彼が誘惑に打ち勝てるよう手助けしよう。</Text>
     </Text>
     <Text>
       <GUID>1404001434</GUID>
@@ -4623,87 +4623,87 @@
     <Text>
       <GUID>1404001436</GUID>
       <!-- A7_QuestDecision | RQ_Envoy_Storyteller_Decision | A Thousand and One Lapses -->
-      <Text>千夜一夜の物忘れ</Text>
+      <Text>千一夜の物忘れ</Text>
     </Text>
     <Text>
       <GUID>1404001437</GUID>
-      <!-- AudioText | RQ_Envoy_Storyteller_QuestStart | It is time for the evening tales, to teach the young ones virtue and piety, but I... seem to have forgotten some parts of the story. -->
-      <Text>子どもたちに美徳と信仰を教える夜の語りの時間なのだが…どうも話の一部を忘れてしまったようだ。</Text>
+      <!-- AudioText | RQ_Envoy_Storyteller_QuestStart | The children want the tale of the young envoy and the desert emir before bed — but I seem to have forgotten half of it. Help me, before they notice! -->
+      <Text>子供たちが寝る前に若い使者と砂漠の首長の話をせがむのだが、どうも半分忘れてしまったようだ。気づかれる前に手を貸してくれ！</Text>
     </Text>
     <Text>
       <GUID>1404001438</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_Story | The Envoy needs your help piecing together an instructive tale for the children's story hour. Much to his vexation, he appears to have forgotten many of its most important parts. -->
-      <Text>使者は、子どもたちのお話の時間のために教訓的な物語をつなぎ合わせるのに君の助けを必要としている。大いに腹立たしいことに、肝心な部分の多くを忘れてしまったらしい。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_Story | <b>Every evening, the envoys' children gather for a story,</b> and tonight they have asked for the tale of the young envoy and the desert emir. Unfortunately, the storyteller has forgotten some of its most important turns, and the children are already waiting. -->
+      <Text>&lt;b&gt;毎晩、使者の子供たちは物語を聞きに集まってくる。&lt;/b&gt;今夜、子供たちがせがんだのは若い使者と砂漠の首長の話だ。あいにく語り手はその大事な展開をいくつか忘れてしまっており、子供たちはもう待ちかねている。</Text>
     </Text>
     <Text>
       <GUID>1404001439</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_QuestStartSummary | The Envoy needs your help remembering parts of a tale he wants to tell the children. -->
-      <Text>使者は、子どもたちに話したい物語の一部を思い出すのに君の助けを必要としている。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_QuestStartSummary | The Envoy needs your help to remember a tale for the children. -->
+      <Text>使者は、子供たちに聞かせる物語を思い出すために君の助けを必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001440</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleStart | Once upon a time, long, long ago, a sultan had only one son, renowned for being kind and compassionate to all.<br/>One day, as he was exploring his father's lands, he came upon a young Bedouin girl struggling to draw water from a desert well. Now the prince was... err... -->
-      <Text>昔々、遥か昔のこと、あるスルタンには一人息子がいて、誰に対しても優しく思いやり深いことで知られていた。&lt;br/&gt;ある日、父の領地を見て回っていた王子は、砂漠の井戸から水を汲もうと苦労している若いベドウィンの娘に出会った。さて、王子は…ええと…</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStart | Once upon a time, the Sultan sent his youngest envoy, Yunus, into the deep desert. There lived a proud emir whose tribes guarded the only well on the caravan road, and without his friendship, no caravan could pass. When Yunus reached the emir's camp, the guards barred his way. Now, Yunus was... err... -->
+      <Text>むかしむかし、スルタンは一番若い使者ユヌスを砂漠の奥深くへ遣わした。そこには誇り高い首長が住んでおり、その部族は隊商路で唯一の井戸を守っていた。首長の友情なくして、どの隊商も通ることはできなかった。ユヌスが首長の野営地にたどり着くと、衛兵たちが行く手を阻んだ。さて、ユヌスは…ええと…</Text>
     </Text>
     <Text>
       <GUID>1404001441</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleCrafty | Very clever, so he tied a stone to the end of the rope to make the pulling easier. -->
-      <Text>とても機転が利いたので、綱の先に石を結びつけて引き上げやすくした。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleCrafty | Clever with words, so he told the guards a riddle they could not solve. -->
+      <Text>口が達者だったので、衛兵たちが解けない謎かけを出した。</Text>
     </Text>
     <Text>
       <GUID>1404001442</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleStrong | Tall and strong! He pulled on the rope and... whoosh! Up came the bucket! -->
-      <Text>背が高くて力持ちだった！綱を引くと…ひょいっ！桶が上がってきた！</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrong | Proud and impatient, so he demanded entry in the Sultan's name. -->
+      <Text>誇り高く短気だったので、スルタンの名において通せと命じた。</Text>
     </Text>
     <Text>
       <GUID>1404001443</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleMeetLion | The bucket came easily out of the well, and the girl thanked the prince by giving him a pouch of her sweetest dates.<br/>Delighted, the prince thanked her and went on his way, until he reached the edge of his father's lands. He had walked for hours and was very hungry, and he was just opening the pouch of dates when a lion leapt out in front of him! So the prince... -->
-      <Text>桶はたやすく井戸から上がり、娘はお礼にとびきり甘いナツメヤシの入った小袋を王子に贈った。&lt;br/&gt;喜んだ王子は礼を言って旅を続け、やがて父の領地の果てにたどり着いた。何時間も歩き続けてすっかり腹を空かせた王子が、ちょうどナツメヤシの袋を開けようとしたその時、目の前に一頭のライオンが飛び出してきた！そこで王子は…</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetLion | The guards laughed so hard at the riddle that they led Yunus straight to the emir's tent. The old emir sat beside his favourite falcon and regarded him coldly.<br/>"The Sultan wants my well," he said. "Every caravan that drinks from it makes his merchants rich. What will he give me in return?"<br/>So Yunus... -->
+      <Text>衛兵たちは謎かけに大笑いし、ユヌスをまっすぐ首長の天幕へ案内した。老いた首長はお気に入りの鷹のそばに座り、冷ややかに彼を見つめた。&lt;br/&gt;「スルタンはわしの井戸が欲しいのだな」と首長は言った。「この井戸で水を飲む隊商の一つ一つが、スルタンの商人を富ませる。見返りにわしに何をくれる？」&lt;br/&gt;そこでユヌスは…</Text>
     </Text>
     <Text>
       <GUID>1404001444</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleShareHoney | Shared his dates with the lion. -->
-      <Text>ナツメヤシをライオンと分け合った。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleShareHoney | Offered the emir a fair share of the caravan tolls. -->
+      <Text>隊商の通行料の公正な取り分を首長に申し出た。</Text>
     </Text>
     <Text>
       <GUID>1404001445</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleUseHoney | Smeared himself with sticky date syrup to put the lion off. -->
-      <Text>ライオンの食欲を失せさせるため、べたべたのナツメヤシシロップを体に塗りたくった。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleUseHoney | Promised the emir a palace of gold he did not have. -->
+      <Text>持ってもいない黄金の宮殿を首長に約束した。</Text>
     </Text>
     <Text>
       <GUID>1404001446</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleKindHeart | The lion's jaw fell open in surprise! "I have never met a human who was not afraid of me— much less one willing to share his meal with me!"<br/>The prince replied: "We should always show a kind heart. Everyone deserves compassion, be they camel, human or lion."<br/>Impressed by these wise words, the lion followed the prince back to his father's palace. The prince became a beloved sultan, and he and the lion remained the best of friends for as long as they lived. And that is why, to this day, a lion guards the gates of the palace. -->
-      <Text>ライオンは驚いて顎が外れそうになった！「私を恐れない人間には会ったことがない――ましてや食事を分けてくれる人間なんて！」&lt;br/&gt;王子は答えた。「いつだって優しい心を示すべきだ。ラクダであれ人間であれライオンであれ、誰もが思いやりを受けるに値する」&lt;br/&gt;その賢い言葉に感銘を受けたライオンは、王子について父の宮殿へと向かった。王子は民に愛されるスルタンとなり、王子とライオンは生涯の親友であり続けた。だから今でも、宮殿の門はライオンが守っているのだ。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleKindHeart | The emir stroked his falcon for a long while. "You could have promised me the moon," he said at last, "as the Sultan's envoys usually do. Instead, you offer me what is fair."<br/>The treaty was sealed that very night over bitter coffee. The caravans passed safely for a hundred years, and the emir's grandsons and the Sultan's grandsons called each other brothers.<br/>And that is why, to this day, an envoy's word is worth more than his gold. -->
+      <Text>首長は長いあいだ鷹をなでていた。「月をくれると約束することもできただろう」とようやく彼は言った。「スルタンの使者がいつもそうするようにな。だがおまえは公正なものを差し出した」&lt;br/&gt;その夜のうちに、苦いコーヒーを酌み交わして盟約が結ばれた。隊商は百年にわたって無事に行き交い、首長の孫たちとスルタンの孫たちは互いを兄弟と呼び合った。&lt;br/&gt;だから今日に至るまで、使者の言葉は使者の黄金よりも重いのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001447</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleSweetChat | "Eat me now and the syrup will glue your jaws shut!" exclaimed the prince. The lion sighed: "Then I shall wait for it to dry, and eat you afterwards."<br/>"Fair enough," said the prince, "but in the meantime, tell me: what is it like to be a lion?"<br/>They talked for so long that by the time the syrup had dried, the lion no longer wished to eat the prince at all. The prince offered the lion a place at his side, and that is why, to this day, a lion guards the gates of the palace. -->
-      <Text>「今私を食べたら、シロップで顎がくっついてしまうぞ！」と王子は叫んだ。ライオンはため息をついた。「では乾くまで待って、それから食べるとしよう」&lt;br/&gt;「いいだろう」と王子は言った。「でもそれまでの間、教えてくれないか。ライオンでいるのはどんな気分だい？」&lt;br/&gt;二人があまりに長く語り合ったので、シロップが乾く頃には、ライオンはもう王子を食べる気などすっかりなくしていた。王子はライオンに自分のそばにいてほしいと申し出た。だから今でも、宮殿の門はライオンが守っているのだ。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleSweetChat | The emir's eyes gleamed. "A palace of gold! Very well — my men will guard your caravans until it is built." For a year, the caravans passed in peace. Then the emir travelled to the capital to see his palace... and found nothing but an empty plot of sand.<br/>That is how the War of the Wells began, and it took Yunus the rest of his life to make amends.<br/>And that is why, to this day, an envoy never promises what he cannot give. -->
+      <Text>首長の目が輝いた。「黄金の宮殿！よかろう、それが建つまでわしの者たちがおまえの隊商を守ってやろう」一年のあいだ、隊商は平穏に行き交った。やがて首長は自分の宮殿を見に都へ向かった…そして見つけたのは、がらんとした砂地だけだった。&lt;br/&gt;こうして井戸戦争が始まり、ユヌスは残りの生涯をかけてその償いをすることになった。&lt;br/&gt;だから今日に至るまで、使者は与えられないものを決して約束しないのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001448</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleMeetSnakes | In a matter of minutes, the prince had drawn enough water for the girl's whole family. He helped her carry it to their tent, where he met her father, a poor old man who had little to offer by way of thanks but insisted that the prince stay the night. Exhausted, the prince gladly accepted.<br/>In the middle of the night, however, the prince was woken by a low hissing. Still half asleep, he sat up to ask for some quiet— and froze when he saw two enormous pale snakes beside his bed.<br/>Despite the danger, the prince kept his composure and... hmm... -->
-      <Text>王子はほんの数分で、娘の家族全員に十分な水を汲み上げた。そして娘を手伝って水をテントまで運び、そこで娘の父親に会った。貧しい老人で、礼として差し出せるものはほとんどなかったが、ぜひ一晩泊まっていってほしいと言い張った。疲れ果てていた王子は喜んで申し出を受けた。&lt;br/&gt;ところが真夜中、王子はかすかなシューシューという音で目を覚ました。まだ半分眠ったまま、静かにしてほしいと言おうと身を起こした王子は――寝床のそばにいる二匹の巨大な青白い蛇を見て凍りついた。&lt;br/&gt;危険にもかかわらず、王子は落ち着きを保ち…うーむ…</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetSnakes | The guards cared nothing for the Sultan's name. They took Yunus's dagger and left him alone in a tent for the night. Hungry and humiliated, he lay awake — until, in the middle of the night, the tent flap opened and two shadowy figures crept inside.<br/>Despite his fear, Yunus kept his composure and... hmm... -->
+      <Text>衛兵たちはスルタンの名など意にも介さなかった。彼らはユヌスの短剣を取り上げ、一晩天幕に一人きりで放っておいた。空腹と屈辱で眠れずにいると、真夜中、天幕の垂れ幕が開き、二つの黒い人影が忍び込んできた。&lt;br/&gt;怖かったけれども、ユヌスは落ち着きを失わず…うーむ…</Text>
     </Text>
     <Text>
       <GUID>1404001449</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleStrikeSnakes | Struck at both snakes at once. -->
-      <Text>二匹の蛇を一度に斬りつけた。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrikeSnakes | Drew a hidden knife and threatened them. -->
+      <Text>隠し持っていたナイフを抜いて二人を脅した。</Text>
     </Text>
     <Text>
       <GUID>1404001450</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleHushSnakes | Politely asked the snakes to be a little quieter. -->
-      <Text>蛇たちに、もう少し静かにしてくれと丁寧に頼んだ。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleHushSnakes | Invited them to sit and share his last piece of bread. -->
+      <Text>二人に座るよう勧め、最後のパンを分け合った。</Text>
     </Text>
     <Text>
       <GUID>1404001451</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleRemorse | Seizing the sword by his pillow, the prince struck out and slew both snakes with a single blow! But as they fell to the ground, their bodies shimmered and changed, revealing two very young, very dead men. Woken by the noise, the old man hobbled into the tent and began to weep. "My boys! What have you done? You seemed so kind-hearted, I thought you would break the djinn's curse— but now... how could you!"<br/>Red-faced with shame and remorse, the prince fled back to his father's palace, swearing before Allah never again to judge by appearances, and to be good to all, human or otherwise. -->
-      <Text>枕元の剣をつかんだ王子は、一太刀で二匹の蛇を斬り捨てた！ところが、地面に落ちた蛇の体は揺らめいて姿を変え、とても若い二人の男の亡骸が現れた。物音で目を覚ました老人がよろよろとテントに入ってきて、泣き崩れた。「わしの息子たちが！なんということを！あなたはとても心優しく見えたから、ジンの呪いを解いてくれると思ったのに…なんてひどいことを！」&lt;br/&gt;恥と後悔で顔を真っ赤にした王子は父の宮殿へ逃げ帰り、二度と見かけで判断せず、人間であろうとなかろうと誰にでも優しくすることをアッラーに誓った。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleRemorse | "Stay back!" Yunus cried, his knife flashing in the dark. The figures froze — and dropped the plates of food and the pot of coffee they were carrying. They were the emir's own sons, sent to see how the Sultan's envoy would treat strangers in the night.<br/>The next morning, the emir sent Yunus home empty-handed. "A man who greets his guests with a blade," he said, "cannot be trusted with a treaty."<br/>And that is why, to this day, an envoy is judged by how he treats those who cannot help him. -->
+      <Text>「近寄るな！」ユヌスが叫ぶと、ナイフが闇にきらめいた。人影は凍りつき、運んでいた料理の皿とコーヒーポットを取り落とした。それは首長の息子たちで、スルタンの使者が夜中に見知らぬ者をどう扱うか確かめるために遣わされたのだった。&lt;br/&gt;翌朝、首長はユヌスを手ぶらで送り返した。「客を刃で迎える男に、盟約は任せられん」と首長は言った。&lt;br/&gt;だから今日に至るまで、使者は自分の役に立たない者をどう扱うかで評価されるのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001452</GUID>
-      <!-- Text | RQ_Envoy_Storyteller_TaleBreakCurse | "You... you do not fear us?" the astonished snakes asked.<br/>"Why should I?" answered the prince. "We are all Allah's creatures, and you deserve as much respect as any other."<br/>At these words, the snakes' skin shimmered and blurred, and soon two young boys stood in their place. "Father, father!" one of them cried with joy. The old man rushed into the tent and wept to see his sons. "I knew it! Only one as wise as you could treat them kindly and break the djinn's curse! A thousand blessings upon a prince with such kindness in his heart!"<br/>Soon the tale of the prince's wisdom spread through all the land, and everyone praised him and strove, like him, not to judge others so hastily. -->
-      <Text>「お前…お前は私たちが怖くないのか？」と、驚いた蛇たちは尋ねた。&lt;br/&gt;「どうして怖がる必要がある？」と王子は答えた。「我らは皆アッラーの創られしもの。君たちもほかの誰とも同じように敬われるべきだ」&lt;br/&gt;その言葉を聞くや、蛇たちの皮は揺らめいてぼやけ、やがてその場には二人の少年が立っていた。「父さん、父さん！」と一人が喜びの声を上げた。老人はテントに駆け込み、息子たちの姿を見て涙を流した。「やはりそうだった！あなたのような賢いお方だけが、この子らを優しく扱い、ジンの呪いを解けるのだと！これほど優しい心を持つ王子に、千の祝福を！」&lt;br/&gt;やがて王子の知恵の噂は国中に広まり、人々は皆王子を称え、彼のように他人を軽々しく裁かないよう努めたのだった。</Text>
+      <!-- Text | RQ_Envoy_Storyteller_TaleBreakCurse | "Please, sit," said Yunus. "I have little, but what I have is yours." The two figures laughed and raised their lamps: they were the emir's sons, carrying a feast — sent by their father to see how the Sultan's envoy would treat strangers in the night.<br/>At dawn, the emir embraced Yunus like a son. "A man who shares his last bread with a stranger," he said, "may drink from my well forever."<br/>And that is why, to this day, the desert tribes say that hospitality opens more doors than any army. -->
+      <Text>「どうぞお座りください」とユヌスは言った。「わずかしかありませんが、私のものはあなた方のものです」二つの人影は笑ってランプを掲げた。それはごちそうを抱えた首長の息子たちで、スルタンの使者が夜中に見知らぬ者をどう扱うか確かめるため、父に遣わされたのだった。&lt;br/&gt;夜明けに首長はユヌスを息子のように抱きしめた。「最後のパンを見知らぬ者と分け合う男は、永遠にわしの井戸の水を飲むがよい」と首長は言った。&lt;br/&gt;だから今日に至るまで、砂漠の部族は、もてなしの心はどんな軍勢よりも多くの扉を開くと言うのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001453</GUID>
@@ -4713,37 +4713,37 @@
     <Text>
       <GUID>1404001454</GUID>
       <!-- Text | RQ_Envoy_Storyteller_Objective | Help the Envoy tell the children a story -->
-      <Text>使者が子どもたちに物語を話すのを手伝おう</Text>
+      <Text>使者が子供たちに物語を語るのを手伝おう</Text>
     </Text>
     <Text>
       <GUID>1404001455</GUID>
-      <!-- Quest | RQ_Envoy_LearningFromThose_Deliver | Light for the Madrasa -->
-      <Text>マドラサに灯りを</Text>
+      <!-- Quest | RQ_Envoy_LearningFromThose_Deliver | Burning the Midnight Oil -->
+      <Text>夜を徹して</Text>
     </Text>
     <Text>
       <GUID>1404001456</GUID>
-      <!-- AudioText | RQ_Envoy_LearningFromThose_QuestStart | The Divan has noticed that hardly anyone reads anymore. How can one know who one is without knowing where one comes from? -->
-      <Text>ディーワーンは、近頃ほとんど誰も本を読まなくなったことに気づいた。自分がどこから来たのか知らずして、どうして自分が何者かを知ることができよう？</Text>
+      <!-- AudioText | RQ_Envoy_LearningFromThose_QuestStart | The tax registers must be copied before the courier ship sails, and my scribes are working by smoking oil lamps! Half of them can barely see — and the other half are getting soot on the Sultan's seal! -->
+      <Text>郵便船が出る前に徴税台帳を書き写さねばならんのに、書記たちは煙の出る油ランプで仕事をしているのだ！半分はろくに目が見えず、もう半分はスルタンの印章を煤だらけにしている！</Text>
     </Text>
     <Text>
       <GUID>1404001457</GUID>
-      <!-- Text | RQ_Envoy_LearningFromThose_Story | The Envoy deplores that the people of the city no longer seem to study. Once the sun has set, the reading rooms of the madrasa are far too dark, so he wants you to provide chandeliers that will let the faithful read late into the night. -->
-      <Text>使者は、街の人々がもはや学ばなくなっているようだと嘆いている。日が沈むとマドラサの読書室は暗すぎるため、信徒たちが夜更けまで本を読めるよう、シャンデリアを用意してほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_LearningFromThose_Story | <b>Diplomacy runs on paper,</b> and the Consulate of Wadi Al Zahir produces mountains of it: tax registers, petitions and reports to the capital, each copied by hand and sealed in triplicate. With the courier ship about to sail, the scribes are working through the night by the light of smoking oil lamps. The Envoy asks you for chandeliers before his staff go blind — or, worse, the reports arrive late. -->
+      <Text>&lt;b&gt;外交は紙で動いている。&lt;/b&gt;そしてWadi Al Zahirの領事館は山のような紙を生み出す。徴税台帳、請願書、都への報告書、そのどれもが手で書き写され、三通ずつ封印される。郵便船の出航を目前に控え、書記たちは煙を上げる油ランプの明かりで夜通し働いている。部下の目が潰れる前に、いや、もっと悪いことに報告書が遅れる前に、使者はシャンデリアを求めている。</Text>
     </Text>
     <Text>
       <GUID>1404001458</GUID>
-      <!-- Text | RQ_Envoy_LearningFromThose_QuestStartSummary | The Envoy thinks people do not read enough and wants your help to remedy the situation. -->
-      <Text>使者は人々の読書量が足りないと考え、この状況を改めるための手助けを求めている。</Text>
+      <!-- Text | RQ_Envoy_LearningFromThose_QuestStartSummary | The Envoy needs chandeliers so that his scribes can work through the night. -->
+      <Text>使者は、書記たちが夜通し働けるようにシャンデリアを必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001459</GUID>
-      <!-- Quest | RQ_Envoy_CleanUpYourMess_Picturepuzzle | Vexing Detritus -->
-      <Text>厄介な残骸</Text>
+      <!-- Quest | RQ_Envoy_CleanUpYourMess_Picturepuzzle | The Inspector's Visit -->
+      <Text>監察官の来訪</Text>
     </Text>
     <Text>
       <GUID>1404001460</GUID>
-      <!-- AudioText | RQ_Envoy_CleanUpYourMess_QuestStart | Rubbish everywhere, and not one of the young ones thinks to clean it up! Do something about it! -->
-      <Text>どこもかしこもゴミだらけだというのに、若い者は誰一人片付けようとしない！何とかしてくれ！</Text>
+      <!-- AudioText | RQ_Envoy_CleanUpYourMess_QuestStart | An inspector from the capital arrives next week! If he sees rubbish in our streets, he will write that Wadi Al Zahir is a pigsty — and that we are the pigs! -->
+      <Text>来週、都から監察官がやってくる！通りにごみが落ちているのを見られたら、Wadi Al Zahirは豚小屋で、我々はその豚だと書かれてしまうぞ！</Text>
     </Text>
     <Text>
       <GUID>1404001461</GUID>
@@ -4752,38 +4752,38 @@
     </Text>
     <Text>
       <GUID>1404001462</GUID>
-      <!-- Text | RQ_Envoy_CleanUpYourMess_Story | The Envoy is horrified by the rubbish piling up in the alleys of the city, and expects you to clear it all away. -->
-      <Text>使者は街の路地に積み上がるゴミにぞっとしており、すべて片付けるよう君に期待している。</Text>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_Story | <b>Every few years, the capital sends an inspector to the provinces,</b> and his report can make or break the career of every envoy stationed there. With his visit drawing near, the Envoy is horrified by the crates, sacks and refuse piling up in the alleys, and expects you to clear everything away before the inspector sets foot in the city. -->
+      <Text>&lt;b&gt;数年に一度、都は各州に監察官を送り込む。&lt;/b&gt;その報告書ひとつで、現地に駐在する使者たちの出世は決まりもすれば潰れもする。来訪の日が近づくにつれ、使者は路地に積み上がる木箱や袋やごみに青ざめている。監察官が町に足を踏み入れる前に、すべて片付けてほしいというのだ。</Text>
     </Text>
     <Text>
       <GUID>1404001463</GUID>
       <!-- Text | RQ_Envoy_CleanUpYourMess_Hint | Pick up the crates and sacks littered across the city -->
-      <Text>街中に散らばった木箱や袋を拾い集めよう</Text>
+      <Text>町に散らばった木箱と袋を拾い集めよう</Text>
     </Text>
     <Text>
       <GUID>1404001464</GUID>
-      <!-- Text | RQ_Envoy_CleanUpYourMess_QuestStartSummary | The Envoy is upset at the rubbish piling up in the streets. -->
-      <Text>使者は通りに積み上がっていくゴミに腹を立てている。</Text>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_QuestStartSummary | The Envoy wants the streets cleaned before the Sultan's inspector arrives. -->
+      <Text>使者は、スルタンの監察官が到着する前に通りを掃除してほしいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001465</GUID>
-      <!-- Quest | RQ_Envoy_SetRightExemple_SolveIncident | Unrest Among the Tents -->
-      <Text>テント街の騒乱</Text>
+      <!-- Quest | RQ_Envoy_SetRightExemple_SolveIncident | Bad News Travels Fast -->
+      <Text>悪い知らせは速く伝わる</Text>
     </Text>
     <Text>
       <GUID>1404001466</GUID>
-      <!-- AudioText | RQ_Envoy_SetRightExemple_QuestStart | How are we to face our children with the city in such a state? -->
-      <Text>街がこんな有様で、子どもたちにどう顔向けしろというのだ？</Text>
+      <!-- AudioText | RQ_Envoy_SetRightExemple_QuestStart | Riots among the Nomad houses! If word of this reaches the capital, they will say we cannot keep order in our own province. End it — quickly and quietly! -->
+      <Text>遊牧民の家々で暴動だ！このことが都に知れたら、我々は自分の州の秩序すら保てないと言われてしまう。手早く、静かに終わらせてくれ！</Text>
     </Text>
     <Text>
       <GUID>1404001467</GUID>
-      <!-- Text | RQ_Envoy_SetRightExemple_Story | The Envoy is outraged by the riots that have broken out among the Nomads' tents and wants you to put an end to them. As a loyal servant of the Sultan, he will do everything to preserve order in Wadi Al Zahir. -->
-      <Text>使者は遊牧民のテント街で起きた暴動に憤慨しており、それを鎮めてほしいと望んでいる。スルタンの忠実な僕として、彼はWadi Al Zahirの秩序を守るためならどんなことでもするつもりだ。</Text>
+      <!-- Text | RQ_Envoy_SetRightExemple_Story | <b>Unrest has broken out among the Nomads,</b> and the Envoy is less worried about its cause than about its consequences. A riot in the next report to the capital could cost him his post, his pension and his reputation. Put an end to the unrest before the courier ship sails. -->
+      <Text>&lt;b&gt;遊牧民のあいだで騒乱が起きた。&lt;/b&gt;使者が気にしているのは、その原因よりもむしろ結果だ。次の都への報告書に暴動のことが載れば、地位も年金も評判も失いかねない。郵便船が出る前に騒乱を鎮めよう。</Text>
     </Text>
     <Text>
       <GUID>1404001468</GUID>
-      <!-- Text | RQ_Envoy_SetRightExemple_QuestStartSummary | The Envoy wants you to disperse the rioters making trouble in the streets. -->
-      <Text>使者は、通りで騒ぎを起こしている暴徒を解散させてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_SetRightExemple_QuestStartSummary | The Envoy wants the riots ended before the news reaches the capital. -->
+      <Text>使者は、知らせが都に届く前に暴動を鎮めてほしいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001469</GUID>
@@ -4792,83 +4792,83 @@
     </Text>
     <Text>
       <GUID>1404001470</GUID>
-      <!-- Quest | RQ_Envoy_CupOfTea_Deliver | Tea for the Divan -->
-      <Text>ディーワーンにお茶を</Text>
+      <!-- Quest | RQ_Envoy_CupOfTea_Deliver | Tea Diplomacy -->
+      <Text>茶の外交</Text>
     </Text>
     <Text>
       <GUID>1404001471</GUID>
-      <!-- AudioText | RQ_Envoy_CupOfTea_QuestStart | Did no-one tell you that it is your duty to provide the tea for the weekly meeting of the Divan? -->
-      <Text>毎週のディーワーンの会合のお茶を用意するのは君の務めだと、誰も教えてくれなかったのかね？</Text>
+      <!-- AudioText | RQ_Envoy_CupOfTea_QuestStart | The negotiations with the merchants from the West have entered their third day, and we are out of tea! Do you want to start a diplomatic incident? -->
+      <Text>西洋の商人たちとの交渉は三日目に入ったというのに、茶が切れてしまった！外交問題を起こすつもりか？</Text>
     </Text>
     <Text>
       <GUID>1404001472</GUID>
-      <!-- Text | RQ_Envoy_CupOfTea_Story | The Envoy reminds you that it is your responsibility to ensure there is enough spiced tea for the weekly gathering of the Envoys in the Divan. -->
-      <Text>使者は、ディーワーンで毎週開かれる使者たちの集まりのために、十分なスパイスティーを用意するのが君の責任だと念を押している。</Text>
+      <!-- Text | RQ_Envoy_CupOfTea_Story | <b>In the Sultanate, no agreement is ever reached without tea,</b> and the trade negotiations at the Consulate have already consumed more of it than anyone expected. The foreign merchants are beginning to look impatient, and the Envoy fears that an empty teapot will be taken as an insult. Provide spiced tea before the talks break down. -->
+      <Text>&lt;b&gt;スルタン国では、茶なくして合意は成り立たない。&lt;/b&gt;領事館での通商交渉は、誰の予想よりも多くの茶をすでに飲み干している。外国の商人たちは苛立ちを見せ始めており、空のティーポットが侮辱と受け取られるのではと使者は恐れている。交渉が決裂する前にスパイスティーを届けよう。</Text>
     </Text>
     <Text>
       <GUID>1404001473</GUID>
-      <!-- Text | RQ_Envoy_CupOfTea_QuestStartSummary | The Envoy wants you to provide tea for the next meeting of the Divan. -->
-      <Text>使者は、次のディーワーンの会合のためにお茶を用意してほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_CupOfTea_QuestStartSummary | The Envoy urgently needs spiced tea for the negotiations at the Consulate. -->
+      <Text>使者は、領事館での交渉のためにスパイスティーを至急必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001474</GUID>
-      <!-- Quest | RQ_Envoy_DayCare_Build | Clean Sheets, Soft Drapes -->
-      <Text>きれいなシーツ、柔らかなカーテン</Text>
+      <!-- Quest | RQ_Envoy_DayCare_Build | A Physician for the Consulate -->
+      <Text>領事館に医者を</Text>
     </Text>
     <Text>
       <GUID>1404001475</GUID>
-      <!-- AudioText | RQ_Envoy_DayCare_QuestStart | People fall ill while you squander your time on foreign trinkets! Perhaps, for once, you could build something for us? -->
-      <Text>君が異国のがらくたに時間を浪費している間に、人々は病に倒れているのだぞ！たまには我々のために何か建ててくれてもいいのではないか？</Text>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestStart | Three of my clerks are down with desert fever, and the nearest physician is a camel doctor! In the capital, we had court physicians. Here, we have... sand. -->
+      <Text>書記が三人も砂漠熱で寝込んでいるのに、一番近い医者はラクダの獣医だ！都には宮廷医がいた。ここにあるのは…砂だけだ。</Text>
     </Text>
     <Text>
       <GUID>1404001476</GUID>
-      <!-- AudioText | RQ_Envoy_DayCare_QuestSuccess | The Envoys trust you more when you take care of such matters instead of wasting your time on the Nomads. -->
-      <Text>遊牧民に時間を無駄にするより、こうしたことに取り組んでくれる方が、使者たちは君を信頼するのだ。</Text>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestSuccess | A proper hospital at last! I shall mention it in my report. The capital likes to hear that its servants are being... preserved. -->
+      <Text>ついにまともな病院ができた！報告書に書いておこう。都は、臣下が…保存されていると聞くのを好むからな。</Text>
     </Text>
     <Text>
       <GUID>1404001477</GUID>
-      <!-- Text | RQ_Envoy_DayCare_QuestStartSummary | The Envoy wants you to build a hospital for the people of Wadi Al Zahir. -->
-      <Text>使者は、Wadi Al Zahirの人々のために病院を建ててほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_DayCare_QuestStartSummary | The Envoy wants a hospital for the people of Wadi Al Zahir. -->
+      <Text>使者は、Wadi Al Zahirの人々のための病院を求めている。</Text>
     </Text>
     <Text>
       <GUID>1404001478</GUID>
-      <!-- Text | RQ_Envoy_DayCare_Story | The Envoy wishes you would turn your attention to more pressing matters, such as making sure the aches and ailments of the people of Wadi Al Zahir are properly tended to. -->
-      <Text>使者は君に、もっと差し迫った問題――Wadi Al Zahirの人々の痛みや病がきちんと手当てされるようにすること――に目を向けてほしいと願っている。</Text>
+      <!-- Text | RQ_Envoy_DayCare_Story | <b>Life at the edge of the desert is hard on those raised in palaces.</b> Fevers, heatstroke and mysterious ailments have laid low half of the Consulate's staff, and the Envoy fears that his reports will soon go unwritten. He demands a proper hospital — for the whole city, as he generously puts it. -->
+      <Text>&lt;b&gt;砂漠の縁での暮らしは、宮殿育ちの者には厳しい。&lt;/b&gt;熱病、日射病、そして得体の知れない病が領事館の職員の半分を倒してしまった。このままでは報告書を書く者がいなくなると使者は恐れている。彼はまともな病院を要求している。町全体のために、と寛大にも付け加えて。</Text>
     </Text>
     <Text>
       <GUID>1404001479</GUID>
-      <!-- Text | RQ_Envoy_DayCare_QuestSuccessSummary | The Envoy advises you to pay less heed to the pleas of the Nomads. -->
-      <Text>使者は、遊牧民の嘆願にはあまり耳を貸さないよう助言している。</Text>
+      <!-- Text | RQ_Envoy_DayCare_QuestSuccessSummary | The Envoy praises the new hospital and promises to mention it in his next report. -->
+      <Text>使者は新しい病院を称え、次の報告書で触れると約束した。</Text>
     </Text>
     <Text>
       <GUID>1404001480</GUID>
-      <!-- Quest | RQ_Envoy_VisitingRelatives_Transport | Family Circle -->
-      <Text>身内</Text>
+      <!-- Quest | RQ_Envoy_VisitingRelatives_Transport | A Reception at Kahina's -->
+      <Text>カヒナの館の歓迎会</Text>
     </Text>
     <Text>
       <GUID>1404001481</GUID>
-      <!-- AudioText | RQ_Envoy_VisitingRelatives_QuestStart | I had planned to visit my cousin Fuad at Madame Kahina's harbour, but my nephews are far too busy with their work to escort me... -->
-      <Text>マダム・カヒナの港にいる従兄弟のフアードを訪ねるつもりだったのだが、甥たちは仕事が忙しくて付き添ってくれんのだ…</Text>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_QuestStart | Madame Kahina is holding a reception for the foreign merchants at her harbour, and the Consulate must be represented. Our ship? Away with the tax registers. Yours will do. -->
+      <Text>マダム・カヒナが港で外国商人のための歓迎会を開くので、領事館も顔を出さねばならん。我々の船か？徴税台帳を積んで出てしまった。君の船で構わん。</Text>
     </Text>
     <Text>
       <GUID>1404001482</GUID>
-      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioPickupEnvoy | Come, come, let us be quick about it! -->
-      <Text>さあさあ、急ごうではないか！</Text>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioPickupEnvoy | Come, come! It is unthinkable for an envoy of the Sultan to arrive after the dessert. -->
+      <Text>さあ、急いだ急いだ！スルタンの使者がデザートの後に到着するなど考えられん。</Text>
     </Text>
     <Text>
       <GUID>1404001483</GUID>
-      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy1 | Fuad! How funny— I almost did not recognise you, with all those new wrinkles. -->
-      <Text>フアード！いやはや、そんなに皺が増えては危うく見違えるところだったぞ。</Text>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy1 | Madame Kahina! What a charming little harbour you have... so very... rustic. -->
+      <Text>マダム・カヒナ！なんと魅力的な小さな港でしょう…実に…素朴で。</Text>
     </Text>
     <Text>
       <GUID>1404001486</GUID>
-      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad1 | Resting again? I used to walk farther than this on my daily errands! -->
-      <Text>また休憩か？私は昔、毎日の用事でもっと長い道のりを歩いたものだ！</Text>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad1 | This ship rolls like a drunken camel. Were all those compliments worth this? -->
+      <Text>この船は酔っ払ったラクダのように揺れる。あれだけのお世辞を並べた価値はあったのか？</Text>
     </Text>
     <Text>
       <GUID>1404001489</GUID>
-      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioSuccess | Returning already? What about my visit to cousin Hassan, and aunt Samira, and... and... -->
-      <Text>もう帰るのか？従兄弟のハサンや、叔母のサミーラや…それに…それに…訪問はどうなる？</Text>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioSuccess | Back already? I had only reached the third round of compliments! Well — at least Madame Kahina has promised to visit the Consulate. -->
+      <Text>もう戻ったのか？まだお世辞の三巡目に入ったところだったのに！まあ、少なくともマダム・カヒナが領事館を訪ねると約束してくれたからよしとしよう。</Text>
     </Text>
     <Text>
       <GUID>1404001490</GUID>
@@ -4877,8 +4877,8 @@
     </Text>
     <Text>
       <GUID>1404001491</GUID>
-      <!-- QuestItem | QI Envoy - Visiting Relatives | Travelling Envoy -->
-      <Text>旅する使者</Text>
+      <!-- QuestItem | QI Envoy - Visiting Relatives | Envoy on a Mission -->
+      <Text>任務中の使者</Text>
     </Text>
     <Text>
       <GUID>1404001492</GUID>
@@ -4892,98 +4892,98 @@
     </Text>
     <Text>
       <GUID>1404001494</GUID>
-      <!-- Text | RQ_Envoy_VisitingRelatives_Story | The Envoy would like you as his companion on a journey to see his cousin Fuad, who keeps a spice stall at Madame Kahina's harbour. He wishes you to join him on this very short excursion. -->
-      <Text>使者は、マダム・カヒナの港でスパイスの露店を営む従兄弟のフアードに会いに行く旅の道連れになってほしいと思っている。このごく短い小旅行に付き合ってほしいそうだ。</Text>
+      <!-- Text | RQ_Envoy_VisitingRelatives_Story | <b>Madame Kahina's harbour is where East meets West in Wadi Al Zahir,</b> and her receptions are where the deals are made. The Consulate cannot afford to be absent — but its only ship has just left with the tax registers. The Envoy asks you to take him there and back. -->
+      <Text>&lt;b&gt;マダム・カヒナの港は、Wadi Al Zahirで東洋と西洋が出会う場所だ。&lt;/b&gt;そして彼女の歓迎会こそ取引がまとまる場である。領事館が欠席するわけにはいかないが、唯一の船は徴税台帳を積んで出てしまったばかりだ。使者は往復の送迎を君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001495</GUID>
-      <!-- Text | RQ_Envoy_VisitingRelatives_SummarySuccess | The Envoy complains that the trip was far too short. -->
-      <Text>使者は、旅が短すぎたと不満を漏らしている。</Text>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummarySuccess | The Envoy complains that the reception was far too short. -->
+      <Text>使者は歓迎会が短すぎたとこぼしている。</Text>
     </Text>
     <Text>
       <GUID>1404001496</GUID>
       <!-- Text | RQ_Envoy_VisitingRelatives_SummaryPickupEnvoy | The Envoy wishes you would hurry up. -->
-      <Text>使者は、君に急いでほしいと思っている。</Text>
+      <Text>使者は君に急いでほしいようだ。</Text>
     </Text>
     <Text>
       <GUID>1404001497</GUID>
       <!-- Text | RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy1 | The Envoy makes an effort to be diplomatic. -->
-      <Text>使者は外交的に振る舞おうと努めている。</Text>
+      <Text>使者は外交的にふるまおうと努力している。</Text>
     </Text>
     <Text>
       <GUID>1404001500</GUID>
-      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad1 | The Envoy feels the journey is progressing far too slowly. -->
-      <Text>使者は、旅の進み具合が遅すぎると感じている。</Text>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad1 | The Envoy is not enjoying the voyage home. -->
+      <Text>使者は帰りの船旅を楽しめていない。</Text>
     </Text>
     <Text>
       <GUID>1404001503</GUID>
-      <!-- Text | RQ_Envoy_VisitingRelatives_QuestStartSummary | The Envoy wants you to accompany him on his journey to see his cousin. -->
-      <Text>使者は、従兄弟に会いに行く旅に同行してほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_VisitingRelatives_QuestStartSummary | The Envoy needs passage to Madame Kahina's reception. -->
+      <Text>使者はマダム・カヒナの歓迎会へ向かう船を必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001504</GUID>
-      <!-- Quest | RQ_Envoy_RealityCheck_Select | Re-schooling -->
-      <Text>再教育</Text>
+      <!-- Quest | RQ_Envoy_RealityCheck_Select | Sons Abroad -->
+      <Text>異国の息子たち</Text>
     </Text>
     <Text>
       <GUID>1404001508</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_AudioStart | The Divan fears that our young men studying abroad have forgotten who they are and what they owe their homeland— I shall give them a good talking-to. -->
-      <Text>ディーワーンは、留学中の我らの若者たちが、自分が何者で、祖国に何を負っているのかを忘れてしまったのではないかと案じている――私がしっかり説教してやろう。</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioStart | The Sultan sent our sons to the West to study railways and machines. Their letters speak of everything except railways and machines! Bring me one of them — I want to hear it from his own mouth. -->
+      <Text>スルタンは我らの息子たちを西洋へ送り、鉄道と機械を学ばせた。ところが手紙には鉄道と機械以外のことばかり書いてある！一人連れてきてくれ。本人の口から聞きたい。</Text>
     </Text>
     <Text>
       <GUID>1404001509</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_ScholarAudioIntellectual1 | ... Our anniversary?! But I am <i>this</i> close to the first life-size replica of a Cleopatra Ferruginea shell! -->
-      <Text>…結婚記念日だって？！でも僕は、クレオパトラ・フェルギネアの貝殻の実物大レプリカ第一号まで&lt;i&gt;あと少し&lt;/i&gt;なんだぞ！</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_ScholarAudioIntellectual1 | Railways? Steam engines? Pah! Do you know how many kinds of cowrie shells live in the Gulf? Forty-three! I have catalogued every single one! -->
+      <Text>鉄道？蒸気機関？ふん！湾に何種類のタカラガイが棲んでいるか知っていますか？43種ですよ！一つ残らず目録にしたんです！</Text>
     </Text>
     <Text>
       <GUID>1404001510</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual2 | ...oh, it was a Wilde night all right - pun intended, of course! -->
-      <Text>まったく、嵐のような夜でしたね</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual2 | ...and in the third act, the Sultan's daughter elopes with a stoker from London! The audience wept, I tell you! -->
+      <Text>…そして第三幕で、スルタンの娘がロンドンの火夫と駆け落ちするんです！観客は泣いていましたよ、本当に！</Text>
     </Text>
     <Text>
       <GUID>1404001511</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual3 | ... and where would you be without the fortunes my father pays this <i>venerable</i> institution, Hm? -->
-      <Text>それに僕の父が、この&lt;i&gt;ご立派な&lt;/i&gt;施設に出資していなかったら、あなたはどこにいたんでしょうね？</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual3 | My uncle sits in the Diwan of the capital. One letter from him, and your professor will be teaching geography in Wadi Al Zahir! -->
+      <Text>僕の叔父は都のディーワーンの議員なんだ。叔父の手紙一通で、あんたの教授はWadi Al Zahirで地理を教えることになるぞ！</Text>
     </Text>
     <Text>
       <GUID>1404001512</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual1 | 'Momentously important work'— tch! If snails were so important, the Sultan would appoint them as his viziers! -->
-      <Text>「とてつもなく重要な研究」だと――ふん！カタツムリがそれほど重要なら、スルタンは奴らを宰相に任命しておられるわ！</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual1 | Forty-three seashells and not a single sketch of a locomotive! The Sultan paid for his passage to study railways! -->
+      <Text>貝殻が43個で、機関車のスケッチは一枚もなしだと！スルタンは鉄道を学ばせるために渡航費を払ったのだぞ！</Text>
     </Text>
     <Text>
       <GUID>1404001513</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual2 | How could he forget everything we taught him so quickly? By the end he was squirming with shame! -->
-      <Text>我々が教えたことを、どうしてあんなに早く忘れられるのだ？最後には恥ずかしさで身をよじっておったわ！</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual2 | A Sultan's daughter and a stoker! If the court hears of this play, we will all be posted somewhere even further away than Wadi Al Zahir — if such a place exists. -->
+      <Text>スルタンの娘と火夫だと！宮廷にこの芝居が知れたら、我々は皆Wadi Al Zahirよりさらに遠くへ飛ばされる…そんな場所があればの話だが。</Text>
     </Text>
     <Text>
       <GUID>1404001514</GUID>
-      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual3 | Of all the arrogant, ungrateful young locusts... Using his father's hard-earned money to settle his own petty quarrels. -->
-      <Text>どいつもこいつも傲慢で恩知らずな若造め…父親が苦労して稼いだ金を、自分のつまらん口論の決着に使うとは。</Text>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual3 | Threatening professors with his uncle's name... I shall write to the uncle myself. We shall see who ends up teaching geography in the desert. -->
+      <Text>叔父の名で教授を脅すとは…叔父には私から手紙を書こう。砂漠で地理を教えることになるのは誰か、見ものだな。</Text>
     </Text>
     <Text>
       <GUID>1404001515</GUID>
-      <!-- CollectablePicturePuzzle | Scholar 1 | Self-Important Researcher of Snails -->
-      <Text>自分勝手なカタツムリの研究者</Text>
+      <!-- CollectablePicturePuzzle | Scholar 1 | The Seashell Scholar -->
+      <Text>貝殻学者</Text>
     </Text>
     <Text>
       <GUID>1404001516</GUID>
-      <!-- CollectablePicturePuzzle | Scholar 2 | Decadent Party-Goer -->
-      <Text>退廃的なパーティー好き</Text>
+      <!-- CollectablePicturePuzzle | Scholar 2 | The Theatre Poet -->
+      <Text>劇場詩人</Text>
     </Text>
     <Text>
       <GUID>1404001517</GUID>
-      <!-- CollectablePicturePuzzle | Scholar 3 | Daddy's Brat -->
-      <Text>父親に甘やかされたお坊ちゃん</Text>
+      <!-- CollectablePicturePuzzle | Scholar 3 | The Vizier's Nephew -->
+      <Text>宰相の甥</Text>
     </Text>
     <Text>
       <GUID>1404001518</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_Story | The Envoy fears that the sons of Wadi Al Zahir sent to study in the Old World are losing their grip on reality. He wishes you to bring one of the worst culprits home, so that he can school him properly. -->
-      <Text>使者は、旧世界へ留学させたWadi Al Zahirの息子たちが現実を見失いつつあるのではないかと心配している。最悪の者を一人連れ帰り、しっかりと教育し直したいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_Story | <b>To bring the industrial age to the Sultanate,</b> the court has sent the sons of its envoys to study at the universities of the Old World. The Envoy has his doubts about their progress: their letters home are full of theatres, taverns and seashells, but strangely silent on engineering. He wants you to find them and bring back the one who most deserves a word with his elders. -->
+      <Text>&lt;b&gt;スルタン国に産業の時代をもたらすため、&lt;/b&gt;宮廷は使者たちの息子を旧世界の大学へ留学させた。使者は彼らの進歩を疑っている。故郷への手紙は劇場や酒場や貝殻の話でいっぱいなのに、工学のことには妙に口をつぐんでいるのだ。彼らを見つけ出し、年長者から説教されるに最もふさわしい者を連れ帰ってほしいという。</Text>
     </Text>
     <Text>
       <GUID>1404001519</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SummaryStart | The Envoy wants to knock some sense and humility into the young Envoys studying abroad. -->
-      <Text>使者は、留学中の若い使者たちに分別と謙虚さを叩き込みたいと考えている。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryStart | The Envoy wants to check on the young Envoys studying in the Old World. -->
+      <Text>使者は、旧世界で学ぶ若い使者たちの様子を確かめたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001520</GUID>
@@ -4992,83 +4992,83 @@
     </Text>
     <Text>
       <GUID>1404001521</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_Hint2 | Choose a student and bring him back to Wadi Al Zahir -->
-      <Text>学生を一人選び、Wadi Al Zahirへ連れ帰ろう</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_Hint2 | Choose one student and bring him back to Wadi Al Zahir -->
+      <Text>学生を一人選んでWadi Al Zahirに連れ帰ろう</Text>
     </Text>
     <Text>
       <GUID>1404001522</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual1 | This student puts his 'important' work before everything else. -->
-      <Text>この学生は、自分の「重要な」研究を何よりも優先している。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual1 | This student was sent to study railways — and collects seashells instead. -->
+      <Text>この学生は鉄道を学ぶために送られたのに、貝殻を集めている。</Text>
     </Text>
     <Text>
       <GUID>1404001523</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual2 | The student flaunts his love of uninhibited literary parties. -->
-      <Text>この学生は、羽目を外した文学パーティー好きを見せびらかしている。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual2 | This student has abandoned the law for the theatre, and his plays would scandalise the court. -->
+      <Text>この学生は法学を捨てて演劇に走り、その戯曲は宮廷を憤慨させかねない。</Text>
     </Text>
     <Text>
       <GUID>1404001524</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual3 | The student loudly claims that his father's donations entitle him to more freedom than others. -->
-      <Text>この学生は、父親の寄付のおかげで自分には他人より多くの自由があると声高に主張している。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual3 | This student boasts that his uncle in the Diwan will protect him from any consequences. -->
+      <Text>この学生は、ディーワーンの叔父がどんな結果からも守ってくれると豪語している。</Text>
     </Text>
     <Text>
       <GUID>1404001525</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual2 | The Envoy relishes the guilt he made the student feel. -->
-      <Text>使者は、学生に罪悪感を抱かせたことを楽しんでいる。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual2 | The Envoy gives the young playwright a lecture he will never forget. -->
+      <Text>使者は若き劇作家に一生忘れられない説教をした。</Text>
     </Text>
     <Text>
       <GUID>1404001526</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual3 | The Envoy is furious at the student's arrogance. -->
-      <Text>使者は学生の傲慢さに激怒している。</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual3 | The Envoy is appalled at how the young man has spent his time abroad. -->
+      <Text>使者は若者が異国で過ごした時間の使い方にあきれ果てている。</Text>
     </Text>
     <Text>
       <GUID>1404001527</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_DecisionBaseText | Envoy: You have met all three of those spoiled students. Which of them most deserves to be humbled and punished? -->
-      <Text>使者: 甘やかされた三人の学生全員に会ったな。思い知らせて罰を与えるに最もふさわしいのは誰だ？</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionBaseText | Envoy: You have met all three of our young scholars. <b>Which of them shall be brought home to answer to his elders?</b> -->
+      <Text>使者: 若い学者三人に会ってきたな。&lt;b&gt;年長者の前で申し開きをさせるため、誰を連れ帰る？&lt;/b&gt;</Text>
     </Text>
     <Text>
       <GUID>1404001528</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual1 | The Utterly Self-Important Researcher of Snails -->
-      <Text>自分勝手以外の何物でもない、カタツムリの研究者</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual1 | The Seashell Scholar -->
+      <Text>貝殻学者</Text>
     </Text>
     <Text>
       <GUID>1404001529</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual2 | The Decadent, Probably-Immoral Party-Goer -->
-      <Text>退廃的で、おそらく不道徳なパーティー好き</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual2 | The Theatre Poet -->
+      <Text>劇場詩人</Text>
     </Text>
     <Text>
       <GUID>1404001530</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual3 | The Daddy-Pays-For-Everything Brat -->
-      <Text>父親の金で何でも解決するお坊ちゃん</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual3 | The Vizier's Nephew -->
+      <Text>宰相の甥</Text>
     </Text>
     <Text>
       <GUID>1404001531</GUID>
-      <!-- Text | RQ_Envoy_RealityCheck_Objective | Decide which student most deserves to be punished -->
-      <Text>最も罰を受けるべき学生を決めよう</Text>
+      <!-- Text | RQ_Envoy_RealityCheck_Objective | Decide which student will be brought home -->
+      <Text>どの学生を連れ帰るか決めよう</Text>
     </Text>
     <Text>
       <GUID>1404001532</GUID>
-      <!-- Quest | RQ_Nomad_TheLostSheep1_Grazing_Select | Oasis Idyll -->
-      <Text>オアシスの牧歌</Text>
+      <!-- Quest | RQ_Nomad_TheLostSheep1_Grazing_Select | The Desert in Bloom -->
+      <Text>花咲く砂漠</Text>
     </Text>
     <Text>
       <GUID>1404001533</GUID>
-      <!-- AudioText | RQ_Nomad_Select_LostSheepGrazing_QuestStart | Would you help me take the sheep out to graze? There is a wonderful place not far from here— sweet grass, shady palms, cool spring water... -->
-      <Text>羊を草地に連れていくのを手伝ってもらえないか？すぐ近くにすばらしい場所があるんだ――柔らかい草、木陰のヤシ、冷たい湧き水…</Text>
+      <!-- AudioText | RQ_Nomad_Select_LostSheepGrazing_QuestStart | It rained in the hills last week! For a few days, the desert turns green and the herds feast. Come with me to the pasture — you have never seen anything like it. -->
+      <Text>先週、丘で雨が降ったんだ！数日のあいだ砂漠が緑になって、家畜たちはごちそうにありつける。一緒に牧草地へ行こう。あんな光景は見たことがないはずだ。</Text>
     </Text>
     <Text>
       <GUID>1404001534</GUID>
-      <!-- CollectablePicturePuzzle | Nomad with sheep | Nomad with sheep -->
+      <!-- CollectablePicturePuzzle | Nomad with sheep | Nomad with his Sheep -->
       <Text>羊を連れた遊牧民</Text>
     </Text>
     <Text>
       <GUID>1404001536</GUID>
-      <!-- QuestObject | Grazing spot | Pastoral Oasis -->
-      <Text>牧草地のオアシス</Text>
+      <!-- QuestObject | Grazing spot | Spring Pasture -->
+      <Text>春の牧草地</Text>
     </Text>
     <Text>
       <GUID>1404001537</GUID>
-      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Story | One of your Nomads would like to share the simple pleasures of life with you. He would be delighted if you joined him at a nearby pasture to enjoy the quiet beauty of the desert while his sheep graze. -->
-      <Text>遊牧民の一人が、人生のささやかな楽しみを君と分かち合いたいと思っている。羊が草を食む間、近くの牧草地で砂漠の静かな美しさを一緒に味わってくれたら、彼はとても喜ぶだろう。</Text>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Story | <b>Rain is rare in Wadi Al Zahir,</b> but when it comes, the desert transforms. For a few short weeks, grass and flowers spring from the sand, and the herders drive their flocks to the best grazing grounds. The Nomads call it the rabi', the desert spring. One of them wants to share this rare sight with you at a pasture his family has used for generations. -->
+      <Text>&lt;b&gt;Wadi Al Zahirでは雨はめったに降らない。&lt;/b&gt;だが降れば砂漠は一変する。ほんの数週間、砂から草や花が芽吹き、牧夫たちは家畜を一番の放牧地へと追っていく。遊牧民はこれを「ラビー」、砂漠の春と呼ぶ。そのうちの一人が、彼の一族が何代にもわたって使ってきた牧草地で、この珍しい光景を君と分かち合いたいと言っている。</Text>
     </Text>
     <Text>
       <GUID>1404001538</GUID>
@@ -5077,48 +5077,48 @@
     </Text>
     <Text>
       <GUID>1404001539</GUID>
-      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint2 | There is a tree with a length of cloth tied to it near the pasture in question. -->
-      <Text>その牧草地の近くに、布切れが結びつけられた木がある。</Text>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint2 | The family marks its pasture with a strip of cloth tied to a tree. -->
+      <Text>一族は木に結んだ布切れで自分たちの牧草地の目印にしている。</Text>
     </Text>
     <Text>
       <GUID>1404001540</GUID>
-      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_QuestStartSummary | A Nomad hopes you will come and enjoy the pasture where his sheep graze. -->
-      <Text>遊牧民は、羊が草を食む牧草地を一緒に楽しんでほしいと願っている。</Text>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_QuestStartSummary | A Nomad invites you to see the desert in bloom after the rains. -->
+      <Text>ある遊牧民が、雨上がりに花咲く砂漠を見に来ないかと君を誘っている。</Text>
     </Text>
     <Text>
       <GUID>1404001541</GUID>
-      <!-- Quest | RQ_Nomad_RightingTheWrongs1_HelpFamily_UseItemORSelect | Poor Relations — The Tithe -->
-      <Text>貧しい親族 ― 十分の一税</Text>
+      <!-- Quest | RQ_Nomad_RightingTheWrongs1_HelpFamily_UseItemORSelect | The Tax Farmer -->
+      <Text>徴税請負人</Text>
     </Text>
     <Text>
       <GUID>1404001542</GUID>
-      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestStart | Our neighbours' landlady demands more and more of their harvest, but the date palms bore so little this year. They are good people, you know? -->
-      <Text>隣の家族の地主が、どんどん多くの収穫を取り立てるんだ。でも今年はナツメヤシがほとんど実をつけなかった。いい人たちなんだよ、本当に。</Text>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestStart | The tax farmer who bought the rights to our neighbours' grove demands a third of their dates. A third! In a year when the palms barely flowered. -->
+      <Text>隣の家のナツメヤシ園の権利を買った徴税請負人が、収穫の三分の一を寄こせと言うんだ。三分の一だぞ！ヤシがろくに花をつけなかった年に。</Text>
     </Text>
     <Text>
       <GUID>1404001543</GUID>
-      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestFailNomad | It hurts me to see my neighbours suffer like this. -->
-      <Text>隣人がこんなに苦しんでいるのを見るのはつらいよ。</Text>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestFailNomad | They must leave the grove their grandfather planted. It breaks my heart. -->
+      <Text>あの一家は祖父が植えたナツメヤシ園を手放さなきゃならない。胸が張り裂けそうだ。</Text>
     </Text>
     <Text>
       <GUID>1404001544</GUID>
-      <!-- AudioText | DLC06_Elder_RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoy | Law and tradition exist for a reason. It is good that you understand this. -->
-      <Text>法や伝統には理由がある。そのことを肝に銘じておきなさい</Text>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoy | A contract is a contract. The tax farmer paid for her rights, and the Sultan's treasury depends on such arrangements. -->
+      <Text>契約は契約だ。請負人は対価を払って権利を得たのだし、スルタンの国庫はそうした取り決めの上に成り立っている。</Text>
     </Text>
     <Text>
       <GUID>1404001545</GUID>
-      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestSuccess | Enough for them to get through this year, but... what the Envoys demand just seems... unfair. -->
-      <Text>今年を乗り切るには足りる。でも…使者たちの要求は、やっぱり…不公平だ。</Text>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestSuccess | The palms are heavy with dates again — they can pay this year. But next year? The tax farmer will only raise her price. -->
+      <Text>ヤシにまたナツメヤシがたわわに実った。今年は払えるだろう。でも来年は？請負人はまた値を吊り上げるだけさ。</Text>
     </Text>
     <Text>
       <GUID>1404001546</GUID>
-      <!-- CollectablePicturePuzzle | Landowner | Hajja Zubaida, the Landlady -->
-      <Text>女地主ハッジャ・ズバイダ</Text>
+      <!-- CollectablePicturePuzzle | Landowner | Hajja Zubaida, the Tax Farmer -->
+      <Text>徴税請負人ハッジャ・ズバイダ</Text>
     </Text>
     <Text>
       <GUID>1404001547</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Story | A Nomad family is being harassed by their greedy landlady, Hajja Zubaida, and her extortionate demands. Their date harvest has been poor this year, and they face eviction from their grove if they cannot pay. A kindly neighbour asks whether you can help them out of this predicament. -->
-      <Text>ある遊牧民の家族が、強欲な女地主ハッジャ・ズバイダの法外な要求に苦しめられている。今年はナツメヤシの収穫が悪く、払えなければヤシ園から追い出されてしまう。親切な隣人が、この窮地から彼らを救えないかと君に頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Story | <b>In the Sultanate, the right to collect taxes is often sold to the highest bidder,</b> and whoever buys it squeezes the people to win back the price. Hajja Zubaida, the tax farmer of the eastern groves, has demanded a third of a Nomad family's date harvest — in a year when the palms barely flowered. If the family cannot pay, they will lose their grove. -->
+      <Text>&lt;b&gt;スルタン国では、徴税の権利がしばしば最高値をつけた者に売られる。&lt;/b&gt;そして買い手は元を取るために人々から搾り取る。東のナツメヤシ園の徴税請負人ハッジャ・ズバイダは、ある遊牧民一家にナツメヤシの収穫の三分の一を要求した。ヤシがろくに花をつけなかった年にだ。払えなければ、一家はナツメヤシ園を失ってしまう。</Text>
     </Text>
     <Text>
       <GUID>1404001548</GUID>
@@ -5127,28 +5127,28 @@
     </Text>
     <Text>
       <GUID>1404001549</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint2 | The landlady is standing next to the Nomad's tent with her guards. Try talking to her...? -->
-      <Text>女地主は護衛を連れて遊牧民のテントのそばに立っている。話しかけてみては…？</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint2 | The tax farmer is standing next to the family's house with her guards. Perhaps she will listen to the governor...? -->
+      <Text>徴税請負人は護衛を連れて一家の家の隣に立っている。総督の言うことなら聞くかもしれない…？</Text>
     </Text>
     <Text>
       <GUID>1404001550</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestStartSummary | A Nomad hopes you will help a family unable to pay the high dues on their land. -->
-      <Text>遊牧民は、土地にかかる重い年貢を払えない家族を助けてほしいと願っている。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestStartSummary | A Nomad asks you to help a family crushed by the demands of a tax farmer. -->
+      <Text>ある遊牧民が、徴税請負人の取り立てに苦しむ一家を助けてほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001551</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailNomadSummary | The Nomad is saddened that you could not help. -->
-      <Text>遊牧民は、君が力になれなかったことを悲しんでいる。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailNomadSummary | The Nomad is saddened that the family has lost its grove. -->
+      <Text>遊牧民は、一家がナツメヤシ園を失ったことを悲しんでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001552</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoySummary | The Envoy appreciates that you did not interfere. -->
-      <Text>使者は、君が口出ししなかったことを評価している。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoySummary | The Envoy approves of your restraint. -->
+      <Text>使者は君の自制を評価している。</Text>
     </Text>
     <Text>
       <GUID>1404001553</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestSuccessSummary | The Nomad thanks you, but worries that the landlady's unfair demands will continue. -->
-      <Text>遊牧民は君に感謝しているが、女地主の不当な要求がこれからも続くのではないかと心配している。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestSuccessSummary | The family can pay, but the Nomad fears the tax farmer will simply demand more next year. -->
+      <Text>一家は支払えるが、遊牧民は来年になれば請負人がさらに要求してくるだけだと案じている。</Text>
     </Text>
     <Text>
       <GUID>1404001554</GUID>
@@ -5157,33 +5157,33 @@
     </Text>
     <Text>
       <GUID>1404001555</GUID>
-      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveSelectLandowner | Select the landlady to talk to her. -->
-      <Text>女地主を選択して話しかけよう。</Text>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveSelectLandowner | Select the tax farmer to speak with her. -->
+      <Text>徴税請負人を選択して話しかけよう。</Text>
     </Text>
     <Text>
       <GUID>1404001556</GUID>
-      <!-- Quest | RQ_Nomad_RoleOfaMan1_BeingIncluded_Select | Coming of Age — Left Out -->
-      <Text>大人への道 ― 仲間外れ</Text>
+      <!-- Quest | RQ_Nomad_RoleOfaMan1_BeingIncluded_Select | Coming of Age — Left Behind -->
+      <Text>成人の儀 ― 置いてけぼり</Text>
     </Text>
     <Text>
       <GUID>1404001557</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStart | I have these... friends, I suppose. They like to sit together and play tawla, but they always forget to tell me where. -->
-      <Text>俺には…友達、みたいなのがいるんだ。みんなで集まってタウラをやるのが好きなんだけど、いつも俺に場所を教えるのを忘れるんだよ。</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStart | The young men of my clan are riding out with their falcons, and nobody told me! They must be gathering somewhere in the city... will you help me find them? -->
+      <Text>一族の若者たちが鷹を連れて狩りに出るのに、誰も俺に教えてくれなかった！きっと町のどこかで集まってるはずだ…探すのを手伝ってくれないか？</Text>
     </Text>
     <Text>
       <GUID>1404001558</GUID>
-      <!-- CollectablePicturePuzzle | Group of youngster | Idle Youths -->
-      <Text>暇を持て余す若者たち</Text>
+      <!-- CollectablePicturePuzzle | Group of youngster | Young Men of the Clan -->
+      <Text>一族の若者たち</Text>
     </Text>
     <Text>
       <GUID>1404001559</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Story | Young Hamza feels that those he calls his friends have taken to leaving him out of their gatherings. He does not quite believe they mean to, however, and asks you to help find them so that he can join in the fun. -->
-      <Text>若きハムザは、友達と呼んでいる者たちが近頃自分を集まりから外しているように感じている。だがわざとだとは思えず、皆を見つけて自分も楽しみに加われるよう手伝ってほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Story | <b>Among the desert clans, a boy becomes a man on his first hunt.</b> Hamza's friends are preparing to ride out with their falcons, and once again nobody has thought to invite him. He insists that it is only an oversight and asks you to help him find them before they leave. -->
+      <Text>&lt;b&gt;砂漠の一族では、少年は初めての狩りで大人の男になる。&lt;/b&gt;ハムザの友人たちは鷹を連れて出かける準備をしているが、またしても誰も彼を誘おうとしなかった。彼はただのうっかりだと言い張り、彼らが出発する前に見つけるのを手伝ってほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001560</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint1 | The gaggle of youngsters is loitering between the Nomads' tents -->
-      <Text>若者の一団は遊牧民のテントの間をぶらついている</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint1 | The young men are gathering between the Nomads' houses -->
+      <Text>若者たちは遊牧民の家々のあいだに集まっている</Text>
     </Text>
     <Text>
       <GUID>1404001561</GUID>
@@ -5192,37 +5192,37 @@
     </Text>
     <Text>
       <GUID>1404001562</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStartSummary | Young Hamza needs your help finding his 'friends'. -->
-      <Text>若きハムザは、「友達」を見つけるのに君の助けを必要としている。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStartSummary | Young Hamza needs your help to find the other young men of his clan. -->
+      <Text>若いハムザは、一族のほかの若者たちを見つけるために君の助けを必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001563</GUID>
       <!-- Quest | RQ_Nomad_RoleOfaMan4_SlayTheBeast_Picturepuzzle | Coming of Age — The Lion's Den -->
-      <Text>大人への道 ― 獅子の巣</Text>
+      <Text>成人の儀 ― 獅子の巣</Text>
     </Text>
     <Text>
       <GUID>1404001564</GUID>
-      <!-- AudioText | DLC06_Elder_RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoy | Some Nomad boys came to tell me that one of them went into the mountains to slay a lion and has not returned. Should you not be looking into this? -->
-      <Text>遊牧民の少年たちが、仲間の一人がライオンを倒しに山へ行ったきり戻らないと知らせに来た。君は調べるべきではないのかね？</Text>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoy | Some Nomad boys tell me that young Hamza rode into the mountains to hunt a lion. Alone! If the boy dies on your land, the clans will hold the city responsible. Find him! -->
+      <Text>遊牧民の少年たちの話では、若いハムザがライオン狩りに山へ向かったそうだ。たった一人でだ！君の領地で少年が死にでもしたら、一族は町に責任を問うだろう。見つけ出してくれ！</Text>
     </Text>
     <Text>
       <GUID>1404001565</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccess | I could not kill it. The lion... it had a wounded paw— all I could think of was helping it. Perhaps that makes me less of a man, but I do not care. -->
-      <Text>殺せなかった。あのライオン…前足を怪我していて――助けてやることしか考えられなかったんだ。そのせいで男らしくないと言われても、構わないさ。</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccess | I could not kill him. The lion had a thorn in his paw, and he looked at me like an old man in pain. Perhaps that makes me less of a hunter... but I think it makes me more of a man. -->
+      <Text>殺せなかったんだ。ライオンの前足にとげが刺さっていて、痛みに耐える老人みたいな目で俺を見ていた。狩人としては半人前になったのかもしれない…でも、男としては一人前に近づいた気がする。</Text>
     </Text>
     <Text>
       <GUID>1404001566</GUID>
-      <!-- CollectablePicturePuzzle | Nomad camp with wounded beast | Hamza's mountain camp -->
+      <!-- CollectablePicturePuzzle | Nomad camp with wounded beast | Hamza's Mountain Camp -->
       <Text>ハムザの山の野営地</Text>
     </Text>
     <Text>
       <GUID>1404001567</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Story | Some fear that young Hamza, mocked by his peers, has met a grisly fate. He has not returned from the mountains, where he is said to have gone to slay a lion and so prove his worth. One of the Envoys asks you to go and look for him. -->
-      <Text>仲間に嘲られた若きハムザが、恐ろしい目に遭ったのではないかと心配する者もいる。彼は自分の価値を証明するためにライオンを仕留めに行ったと言われる山から戻っていない。使者の一人が、彼を探しに行ってほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Story | <b>Stung by his friends' mockery,</b> young Hamza has ridden into the mountains to hunt a lion and prove himself a man. He has not returned, and the Envoys fear that the death of a Nomad boy could strain the fragile peace between the city and the clans. Find him before it is too late. -->
+      <Text>&lt;b&gt;友人たちの嘲りに傷ついた若いハムザは、&lt;/b&gt;ライオンを狩って一人前の男であることを証明しようと山へ向かった。彼は戻らず、使者たちは遊牧民の少年が死ねば町と一族のもろい平和が揺らぎかねないと恐れている。手遅れになる前に彼を見つけよう。</Text>
     </Text>
     <Text>
       <GUID>1404001568</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint1 | Hamza has gone into the mountains. -->
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint1 | Hamza has ridden into the mountains. -->
       <Text>ハムザは山へ向かった。</Text>
     </Text>
     <Text>
@@ -5232,158 +5232,158 @@
     </Text>
     <Text>
       <GUID>1404001570</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoySummary | The Envoy says that young Hamza has gone missing in the mountains. -->
-      <Text>使者によると、若きハムザが山で行方不明になったという。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoySummary | The Envoy reports that young Hamza has gone missing in the mountains. -->
+      <Text>使者は、若いハムザが山で行方不明になったと伝えている。</Text>
     </Text>
     <Text>
       <GUID>1404001571</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccessSummary | Hamza chose to help a lion instead of slaying it as he had intended. -->
-      <Text>ハムザは当初の目論見どおりライオンを仕留めるのではなく、助けることを選んだ。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccessSummary | Hamza chose to help the wounded lion instead of killing it. -->
+      <Text>ハムザは傷ついたライオンを殺さず、助けることを選んだ。</Text>
     </Text>
     <Text>
       <GUID>1404001572</GUID>
-      <!-- Quest | RQ_Nomad_RoleOfaMan5_GoneGirl_Select | Coming of Age — Lost Daughter -->
-      <Text>大人への道 ― 消えた娘</Text>
+      <!-- Quest | RQ_Nomad_RoleOfaMan5_GoneGirl_Select | Coming of Age — The Runaway -->
+      <Text>成人の儀 ― 家出娘</Text>
     </Text>
     <Text>
       <GUID>1404001573</GUID>
-      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestStart | Amira, my cousin— she has vanished! Everyone is out searching for her, but I am just as worried about her family... -->
-      <Text>いとこのアミラが…いなくなったんだ！みんな探し回ってるけど、俺は彼女の家族のことも同じくらい心配なんだ…</Text>
+      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestStart | My cousin Amira is gone! Everyone is searching the dunes, but nobody is with her family. They are alone with their worries... will you go to them? -->
+      <Text>いとこのアミーラがいなくなったんだ！みんな砂丘を探し回ってるけど、家族のそばには誰もいない。不安を抱えたまま置き去りなんだ…会いに行ってくれないか？</Text>
     </Text>
     <Text>
       <GUID>1404001574</GUID>
       <!-- CollectablePicturePuzzle | Gone girl family | Amira's Family -->
-      <Text>アミラの家族</Text>
+      <Text>アミーラの家族</Text>
     </Text>
     <Text>
       <GUID>1404001575</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_Story | The whole city is in uproar: Hamza's cousin Amira is nowhere to be found! Yet amid all the searching and confusion, no-one has thought to comfort her family— an oversight Hamza asks you to correct. -->
-      <Text>街中が大騒ぎだ。ハムザのいとこアミラがどこにも見当たらない！それなのに、捜索と混乱の中で誰も彼女の家族を慰めようとしていない。ハムザはその手落ちを正してほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Story | <b>Amira has vanished from her family's house,</b> and the whole clan is searching the dunes for her. In all the commotion, nobody has thought to sit with her father and sisters. Hamza asks you to visit them — perhaps they know more than they realise. -->
+      <Text>&lt;b&gt;アミーラが家から姿を消し、&lt;/b&gt;一族総出で砂丘を探している。騒ぎの中、彼女の父や姉妹のそばについていてやろうと考えた者は誰もいない。ハムザは君に彼らを訪ねてほしいと頼んでいる。本人たちが思っている以上に何か知っているかもしれない。</Text>
     </Text>
     <Text>
       <GUID>1404001576</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_Hint1 | Amira's relatives can be found in front of their home -->
-      <Text>アミラの親族は家の前にいる</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint1 | Amira's family can be found in front of their house -->
+      <Text>アミーラの家族は家の前にいる</Text>
     </Text>
     <Text>
       <GUID>1404001577</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_Hint2 | Amira's father is standing next to his two younger daughters. -->
-      <Text>アミラの父親は、二人の幼い娘のそばに立っている。</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint2 | Amira's father is standing with his two younger daughters. -->
+      <Text>アミーラの父親が、二人の幼い娘と一緒に立っている。</Text>
     </Text>
     <Text>
       <GUID>1404001578</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_LetterContent | <i>(part of a letter from Amira to her sister Nadia)...</i><br/><br/>Father has not been the same since mother died— he is too old to work as hard as he does— but he agrees with the Envoys that I am only a young girl and would serve him best by staying at home and out of mischief.<br/>But <b>I have defied them all— I have been dressing as a boy</b> and working at the harbour, so that father can pay his dues this year.<br/>I would be there now, had I not hurt myself today... such a small cut, but my hand is swelling so... -->
-      <Text>&lt;i&gt;（アミラから妹ナディアへの手紙の一部）…&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;お母さんが亡くなってから、お父さんはすっかり変わってしまった。あんなにきつい仕事をするには年を取りすぎているのに、使者の人たちと同じように、私はただの若い娘なんだから家にいて悪さをしないのが一番の親孝行だと言うの。&lt;br/&gt;でも&lt;b&gt;私はみんなに逆らったの――男の子の格好をして&lt;/b&gt;港で働いているのよ。今年お父さんが年貢を払えるように。&lt;br/&gt;今日怪我さえしなければ、今もそこにいたはず…ほんの小さな切り傷なのに、手がこんなに腫れて…</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_LetterContent | <i>(a letter from Amira, found under her sister Nadia's pillow)...</i><br/><br/>Dearest Nadia, do not tell Father yet. Since Mother died, he has worked himself to the bone to pay the tax farmer, and he says a girl's place is at home. But <b>I have cut my hair and joined Hassan's caravan as a camel boy.</b> The caravan pays well, and nobody looks closely at a boy with a dusty face.<br/>We camp at the harbour tonight before crossing the dunes. I will send money with the first merchant who returns. Pray for me... -->
+      <Text>&lt;i&gt;(妹ナディアの枕の下で見つかったアミーラの手紙)…&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;大好きなナディアへ。お父さんにはまだ言わないで。お母さんが亡くなってから、お父さんは徴税請負人に払うために身を粉にして働いていて、娘の居場所は家だって言うの。でも&lt;b&gt;私は髪を切って、ハッサンの隊商にラクダ引きの少年として加わったの。&lt;/b&gt;隊商は給金がいいし、埃まみれの顔の男の子なんて誰もよく見ないわ。&lt;br/&gt;今夜は港で野営して、それから砂丘を越えるの。最初に戻る商人にお金を託すわね。私のために祈って…</Text>
     </Text>
     <Text>
       <GUID>1404001579</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_QuestStartSummary | Hamza hopes that by comforting his cousin's family, you may learn something about her disappearance. -->
-      <Text>ハムザは、いとこの家族を慰めれば彼女の失踪について何か分かるかもしれないと考えている。</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_QuestStartSummary | Hamza hopes that by comforting his cousin's family, you may learn where she has gone. -->
+      <Text>ハムザは、いとこの家族を慰めるうちに彼女の行き先が分かるかもしれないと期待している。</Text>
     </Text>
     <Text>
       <GUID>1404001580</GUID>
-      <!-- Quest | RQ_Nomad_RoleOfaMan9_Banquet_Deliver | Coming of Age — Ghost at the Feast -->
-      <Text>大人への道 ― 宴の亡霊</Text>
+      <!-- Quest | RQ_Nomad_RoleOfaMan9_Banquet_Deliver | Coming of Age — A Feast in His Honour -->
+      <Text>成人の儀 ― 彼を称える宴</Text>
     </Text>
     <Text>
       <GUID>1404001581</GUID>
-      <!-- AudioText | DLC06_Envoy_RQ_Nomad_Delivery_Banquet_QuestStart | We wish to honour our young hero for bringing Amira back to her family— as much food and drink as you can provide! -->
-      <Text>アミラを家族のもとへ連れ戻してくれた若き英雄を称えたいのだ――用意できる限りの食べ物と飲み物を頼む！</Text>
+      <!-- AudioText | DLC06_Envoy_RQ_Nomad_Delivery_Banquet_QuestStart | Young Hamza spared a lion and brought his cousin home. The Consulate shall honour him with a feast in the Sultan's name — the clans must see that the city values courage! -->
+      <Text>若いハムザはライオンを見逃し、いとこを家に連れ帰った。領事館はスルタンの名において宴を開き、彼を称える。町が勇気を重んじていることを一族に示さねばならん！</Text>
     </Text>
     <Text>
       <GUID>1404001582</GUID>
-      <!-- AudioText | DLC06_Elder_RQ_Nomad_Delivery_Banquet_QuestSuccessEnvoy | A bully who comes to shame a hero deserves nothing but banishment from the tribe, as is tradition. -->
-      <Text>英雄に恥をかかせに来るような乱暴者には、伝統に従い、部族からの追放こそふさわしい。</Text>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Delivery_Banquet_QuestSuccessEnvoy | Whoever mocks a guest of honour at a feast given in the Sultan's name insults the Sultan himself. That young man will leave the city by sundown. -->
+      <Text>スルタンの名において開かれた宴で主賓を嘲る者は、スルタンその人を侮辱するに等しい。あの若者には日没までに町を出てもらう。</Text>
     </Text>
     <Text>
       <GUID>1404001583</GUID>
-      <!-- AudioText | AT_ADDON01_res1_NegativeGenFB4 | I do not think there will be much merry storytelling tonight. -->
-      <Text>今夜は楽しい話で盛り上がるってわけにはいかなそうだ。</Text>
+      <!-- AudioText | AT_ADDON01_res1_NegativeGenFB4 | He came. The one who laughed the loudest. He sits there grinning as if nothing had happened. -->
+      <Text>あいつが来た。一番大声で笑ってたやつだ。何事もなかったみたいににやにやして座ってる。</Text>
     </Text>
     <Text>
       <GUID>1404001584</GUID>
-      <!-- Text | RQ_Nomad_Delivery_Banquet_Story | The Envoys wish to honour young Hamza for bringing Amira back to her family. They have invited the whole neighbourhood to a great feast, but need you to provide dates and pomegranate juice for everyone. -->
-      <Text>使者たちは、アミラを家族のもとへ連れ戻した若きハムザを称えたいと考えている。近所じゅうを盛大な宴に招いたが、皆に振る舞うナツメヤシとザクロジュースを用意してほしいとのことだ。</Text>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_Story | <b>Word of Hamza's deeds has spread through the tents,</b> and the Envoys have recognised an opportunity: by honouring a young Nomad hero with a feast in the Sultan's name, they hope to strengthen the bond between the city and the desert clans. They need dates and pomegranate juice for the whole neighbourhood. -->
+      <Text>&lt;b&gt;ハムザの武勇伝は天幕から天幕へと広まり、&lt;/b&gt;使者たちはそこに好機を見いだした。遊牧民の若き英雄をスルタンの名による宴で称えることで、町と砂漠の一族との絆を強めようというのだ。近所じゅうに振る舞うナツメヤシとザクロジュースが必要である。</Text>
     </Text>
     <Text>
       <GUID>1404001585</GUID>
-      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestStartSummary | An Envoy wants you to deliver food and drink for a feast in Hamza's honour. -->
-      <Text>使者は、ハムザを称える宴のために食べ物と飲み物を届けてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestStartSummary | The Envoys want to host a feast in Hamza's honour to win the goodwill of the clans. -->
+      <Text>使者たちは、一族の好意を得るためにハムザを称える宴を開きたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001586</GUID>
-      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummaryEnvoy | The Envoy banishes the spiteful bully. -->
-      <Text>使者は意地の悪い乱暴者を追放した。</Text>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummaryEnvoy | The Envoy has the bully banished from the city. -->
+      <Text>使者はいじめっ子を町から追放させた。</Text>
     </Text>
     <Text>
       <GUID>1404001587</GUID>
-      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummary | Hamza is shocked to see one of the boys who mocked him show up at the feast. -->
-      <Text>ハムザは、自分をからかった少年の一人が宴に現れたことに衝撃を受けている。</Text>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummary | Hamza is dismayed to see one of the boys who mocked him turn up at the feast. -->
+      <Text>ハムザは、自分をからかった少年の一人が宴に現れたのを見て愕然とした。</Text>
     </Text>
     <Text>
       <GUID>1404001588</GUID>
-      <!-- Quest | RQ_Nomad_MissingSibling_Picturepuzzle | Bouncing Baby Brothers -->
-      <Text>元気いっぱいの弟たち</Text>
+      <!-- Quest | RQ_Nomad_MissingSibling_Picturepuzzle | Little Jerboas -->
+      <Text>小さなトビネズミたち</Text>
     </Text>
     <Text>
       <GUID>1404001589</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStart | Have you seen my little brothers? The little jerboas keep running off! -->
-      <Text>俺の弟たちを見なかったか？あのちびトビネズミども、すぐに逃げ出すんだ！</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStart | A caravan has arrived at the market, and my little brothers ran off to see the camels and the foreign machines! Four of them, in red coats — have you seen them? -->
+      <Text>市場に隊商が着いたもんだから、弟たちがラクダや外国の機械を見に飛び出していったんだ！四人とも赤い上着を着てる。見なかったか？</Text>
     </Text>
     <Text>
       <GUID>1404001590</GUID>
-      <!-- CollectablePicturePuzzle | Child running | Red-coated little brothers -->
-      <Text>赤い上着の弟たち</Text>
+      <!-- CollectablePicturePuzzle | Child running | Little Brother in a Red Coat -->
+      <Text>赤い上着の弟</Text>
     </Text>
     <Text>
       <GUID>1404001591</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Story | With such a lenient tutor, the Nomad's younger brothers are prone to wild escapes through the city. Today is one such day, and a visibly exhausted Nomad asks for your help in finding them. -->
-      <Text>甘い家庭教師のせいで、遊牧民の弟たちはしょっちゅう街中に脱走している。今日もそんな日で、見るからに疲れ果てた遊牧民が弟たちを探すのを手伝ってほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Story | <b>To children born in a tent,</b> a city full of caravans, workshops and strange machines is irresistible. The Nomad's four younger brothers have slipped away once again, and their exhausted older brother asks you to help round them up before they get lost — or trampled by a camel. -->
+      <Text>&lt;b&gt;天幕で生まれた子供たちにとって、&lt;/b&gt;隊商や工房や不思議な機械であふれる町は抗いがたい魅力がある。遊牧民の四人の弟たちはまたもや抜け出してしまい、疲れ果てた兄は、迷子になる前に、あるいはラクダに踏まれる前に、弟たちを集めるのを手伝ってほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001592</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Hint | The 4 brothers are running wild through the city in red coats. -->
-      <Text>4人の兄弟は赤い上着を着て街中を走り回っている。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Hint | The 4 brothers are running through the city in red coats. -->
+      <Text>四人の兄弟は赤い上着を着て町を走り回っている。</Text>
     </Text>
     <Text>
       <GUID>1404001593</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStartSummary | The Nomad needs your help finding his wayward brothers. -->
-      <Text>遊牧民は、言うことを聞かない弟たちを探すのに君の助けを必要としている。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStartSummary | The Nomad needs your help to find his runaway little brothers. -->
+      <Text>遊牧民は、逃げ出した弟たちを見つけるために君の助けを必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001594</GUID>
-      <!-- Quest | RQ_Nomad_CaringForElderly_Deliver | A Cup of Kindness -->
-      <Text>思いやりの一杯</Text>
+      <!-- Quest | RQ_Nomad_CaringForElderly_Deliver | The Old Ones of the Clan -->
+      <Text>一族の老人たち</Text>
     </Text>
     <Text>
       <GUID>1404001595</GUID>
-      <!-- AudioText | RQ_Nomad_Delivery_CaringForTheElderly_QuestStart | Hard to imagine what it must be like without kin— frail, alone, the dark moods... We should care for those elders who have no-one else. -->
-      <Text>身寄りがないってのがどういうものか、想像もつかないよ――体は弱り、ひとりぼっちで、気も沈む…ほかに誰もいないお年寄りの面倒は、俺たちが見なきゃ。</Text>
+      <!-- AudioText | RQ_Nomad_Delivery_CaringForTheElderly_QuestStart | In the desert, nobody grows old alone. Here in the city, the old ones sit in their stone houses and wait for visitors who never come. Let us bring them something sweet. -->
+      <Text>砂漠では、誰も一人で年老いたりしない。なのにこの町じゃ、年寄りは石の家に座って、来もしない客を待ってるんだ。何か甘いものを持っていってやろう。</Text>
     </Text>
     <Text>
       <GUID>1404001596</GUID>
-      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_Story | The old feuds between the desert tribes have left many elders without kin in their twilight years. The Nomad wishes to bring a little light into the lives of these grumpy old souls by sharing sweet pomegranate juice with them. -->
-      <Text>砂漠の部族同士の古い争いのせいで、多くの老人が晩年を身寄りなく過ごしている。遊牧民は甘いザクロジュースを分かち合うことで、気難しい老人たちの暮らしに少しでも明かりを灯したいと考えている。</Text>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_Story | <b>Among the tents, the elders are the heart of the clan:</b> they are served first, consulted always and never left alone. But since the clans settled in Wadi Al Zahir, many of the old ones live in houses of their own, while the young are busy in the workshops and groves. The Nomad wants to visit them with pomegranate juice and an evening of stories, as in the old days. -->
+      <Text>&lt;b&gt;天幕の暮らしでは、長老は一族の心臓だ。&lt;/b&gt;真っ先に給仕され、常に相談を受け、決して一人にされることはない。しかし一族がWadi Al Zahirに定住してからは、多くの老人がそれぞれ自分の家に住み、若者たちは工房や果樹園で忙しくしている。遊牧民は、昔のようにザクロジュースと物語の夕べを携えて彼らを訪ねたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001597</GUID>
-      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_QuestStartSummary | The Nomad wishes to visit the lonely and the elderly to comfort them. -->
-      <Text>遊牧民は、孤独なお年寄りを訪ねて慰めたいと願っている。</Text>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_QuestStartSummary | The Nomad wants to visit the lonely elders of his clan with sweet pomegranate juice. -->
+      <Text>遊牧民は、甘いザクロジュースを持って一族の孤独な老人たちを訪ねたいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001598</GUID>
-      <!-- Quest | RQ_Nomad_HelpingInTheField_Gift | Fieldwork -->
-      <Text>実地調査</Text>
+      <!-- Quest | RQ_Nomad_HelpingInTheField_Gift | Up the Palm -->
+      <Text>ヤシのてっぺんへ</Text>
     </Text>
     <Text>
       <GUID>1404001599</GUID>
-      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestStart | A long night, but I finally have it! All it took was some palm wood and a bit of metal, but we could do great things with it in the groves... -->
-      <Text>長い夜だったけど、ついに完成だ！ヤシの木材と少しの金属があれば十分だった。これがあれば果樹園ですごいことができるぞ…</Text>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestStart | I have done it! A climbing harness for the date palms, made of palm fibre and a little iron. With it, even my grandmother could harvest the highest dates! -->
+      <Text>できたぞ！ヤシの繊維と少しの鉄で作った、ナツメヤシに登るための安全帯だ。これがあれば、うちのばあちゃんだって一番高いところのナツメヤシを収穫できる！</Text>
     </Text>
     <Text>
       <GUID>1404001600</GUID>
-      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccess | You see! Sometimes it is good to try new things. -->
-      <Text>ほらね！新しいことに挑戦するのも、たまにはいいものだろう。</Text>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccess | You see? Sometimes the old ways only need a little help from the new. -->
+      <Text>な？昔ながらのやり方も、新しいものの力を少し借りればいいだけなんだ。</Text>
     </Text>
     <Text>
       <GUID>1404001601</GUID>
@@ -5407,38 +5407,38 @@
     </Text>
     <Text>
       <GUID>1404001605</GUID>
-      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_Story | The Nomad has long been searching for a way to ease the hard toil of his fellows in the date groves. Last night, in a burst of sleepless creativity, he dreamed up a contraption of wood and steel, which he is now eager for you to try out in the fields. -->
-      <Text>遊牧民は、ナツメヤシ園での仲間たちのつらい労働を楽にする方法をずっと探していた。昨夜、眠れぬほどのひらめきに駆られて木と鋼でできた装置を思いつき、今すぐ畑で試してほしいとうずうずしている。</Text>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_Story | <b>Harvesting dates means climbing palms,</b> again and again, with nothing but a rope and a little courage. The Nomad has spent many nights improving the old climbing belt his father used, and now he is eager for you to try out his invention in the groves. -->
+      <Text>&lt;b&gt;ナツメヤシの収穫とはヤシの木に登ることだ。&lt;/b&gt;何度も何度も、ロープ一本とわずかな勇気だけを頼りに。遊牧民は父親が使っていた古い登攀ベルトの改良に幾晩も費やし、今は君にナツメヤシ園でその発明を試してもらいたくてうずうずしている。</Text>
     </Text>
     <Text>
       <GUID>1404001606</GUID>
-      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestStartSummary | The Nomad has a contraption to help in the fields for you to test. -->
-      <Text>遊牧民は、畑仕事に役立つ装置を君に試してほしいと思っている。</Text>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestStartSummary | The Nomad has invented a contraption for the date harvest and wants you to try it. -->
+      <Text>遊牧民はナツメヤシの収穫用の道具を発明し、君に試してほしいと考えている。</Text>
     </Text>
     <Text>
       <GUID>1404001607</GUID>
-      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccessSummary | The Nomad is delighted by such unexpected success. -->
-      <Text>遊牧民は思いがけない成功に大喜びしている。</Text>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccessSummary | The Nomad is delighted that his invention works. -->
+      <Text>遊牧民は発明がうまくいって大喜びしている。</Text>
     </Text>
     <Text>
       <GUID>1404001608</GUID>
-      <!-- Quest | RQ_Nomad_ManBestFriend_Photo | Goodbye Old Friend -->
-      <Text>さらば古き友よ</Text>
+      <!-- Quest | RQ_Nomad_ManBestFriend_Photo | The Bell Goat -->
+      <Text>鈴のヤギ</Text>
     </Text>
     <Text>
       <GUID>1404001609</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStart | I will miss old Bahja when she leaves the herd, but she gives no more milk... -->
-      <Text>群れから離れたら老いぼれのバフジャが恋しくなるだろうな。でも、もう乳が出ないんだ…</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStart | For twelve years, old Bahja wore the bell and led our herd across the desert. Now her legs are tired, and a younger goat must take the bell. I want to remember her as she was. -->
+      <Text>12年間、年寄りのバフジャは鈴をつけて、俺たちの群れを率いて砂漠を渡ってきた。でももう脚が弱って、鈴は若いヤギに譲らなきゃならない。あいつのありのままの姿を覚えておきたいんだ。</Text>
     </Text>
     <Text>
       <GUID>1404001610</GUID>
-      <!-- CollectablePicturePuzzle | Nomad with goat | Nomad with goats -->
+      <!-- CollectablePicturePuzzle | Nomad with goat | Nomad with his Goats -->
       <Text>ヤギを連れた遊牧民</Text>
     </Text>
     <Text>
       <GUID>1404001611</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Story | Few in Wadi Al Zahir have been kinder to the Nomad than old Bahja the goat, a true friend and patient listener through many desert winters. But now Bahja's milk has run dry, and the two kindred spirits must part ways. The Nomad would like a keepsake of his friend to cherish, and asks whether you could oblige with your daguerreotype. -->
-      <Text>Wadi Al Zahirで、老ヤギのバフジャほど遊牧民に優しくしてくれた者はそういない。砂漠の幾多の冬を共に過ごした忠実な友であり、辛抱強い聞き手だった。だがバフジャの乳は出なくなり、二つの親しい魂は別れねばならない。遊牧民は友の思い出を大切に残したいと考え、君の銀板写真機で撮ってもらえないかと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Story | <b>Every desert herd follows a leader:</b> an old, wise animal that wears the bell and knows where water can be found. For twelve years, Bahja led the Nomad's herd from well to well. Now she has grown too old for the long walks, and the bell passes to a younger goat. The Nomad asks you to capture her with your daguerreotype, so that her memory lives on. -->
+      <Text>&lt;b&gt;砂漠の群れはどれも先導役に従う。&lt;/b&gt;鈴をつけ、水のありかを知っている、年老いた賢い動物だ。12年間、バフジャは遊牧民の群れを井戸から井戸へと導いてきた。だが今では長い道のりには年を取りすぎ、鈴は若いヤギに引き継がれる。遊牧民は、彼女の思い出が残るよう、君のダゲレオタイプで撮影してほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001612</GUID>
@@ -5452,38 +5452,38 @@
     </Text>
     <Text>
       <GUID>1404001614</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStartSummary | The Nomad wishes for a photo of his friend, Bahja the goat. -->
-      <Text>遊牧民は、友であるヤギのバフジャの写真を欲しがっている。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStartSummary | The Nomad wants a photograph of Bahja, the old lead goat of his herd. -->
+      <Text>遊牧民は、群れを率いてきた年老いたヤギ、バフジャの写真を欲しがっている。</Text>
     </Text>
     <Text>
       <GUID>1404001615</GUID>
-      <!-- Quest | RQ_Nomad_GoatRun_Picturepuzzle | The Goat Escape -->
-      <Text>ヤギ大脱走</Text>
+      <!-- Quest | RQ_Nomad_GoatRun_Picturepuzzle | Goats in the Archive -->
+      <Text>文書庫のヤギ</Text>
     </Text>
     <Text>
       <GUID>1404001616</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_GoatRun_QuestStart | Just like me, they love to wander off. Could you help me find the goats before they eat the whole city bare? -->
-      <Text>俺と同じで、あいつらはふらふら出歩くのが大好きなんだ。街じゅうを食い尽くされる前に、ヤギを見つけるのを手伝ってくれないか？</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_GoatRun_QuestStart | My goats are loose! And they are heading for the Consulate — a goat that finds paper will eat paper. Help me, before they eat a decree! -->
+      <Text>ヤギが逃げた！しかも領事館の方へ向かってる。紙を見つけたヤギは紙を食べるんだ。勅令を食べちまう前に手を貸してくれ！</Text>
     </Text>
     <Text>
       <GUID>1404001617</GUID>
-      <!-- CollectablePicturePuzzle | Goat walking | The scapegoats -->
-      <Text>身代わり</Text>
+      <!-- CollectablePicturePuzzle | Goat walking | Runaway Goat -->
+      <Text>逃げたヤギ</Text>
     </Text>
     <Text>
       <GUID>1404001618</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Story | The Bedouins say it was a goat that first nibbled the red cherries of the coffee shrub— and goats have been restless ever since. Certainly the beasts are wayward and oddly temperamental— often amusing, except when they start devouring everything in sight. Herd them back into their pens before two-toed chaos befalls the city. -->
-      <Text>ベドウィンによれば、コーヒーの木の赤い実を最初にかじったのはヤギで、それ以来ヤギは落ち着きがなくなったのだという。確かにヤギは気まぐれで妙に気難しい――見ている分には面白いが、目に入るものを片っ端から食べ始めると話は別だ。二つに割れた蹄の混沌が街に降りかかる前に、ヤギたちを囲いに追い戻そう。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Story | <b>Goats will eat almost anything,</b> as every desert herder knows — and to a goat, Wadi Al Zahir is one enormous banquet. The Nomad's herd has slipped out of its pen and is wandering the streets, and if the animals find the Consulate's stacks of paperwork, the envoys will never forgive him. Round them up before disaster strikes. -->
+      <Text>&lt;b&gt;ヤギはほとんど何でも食べる。&lt;/b&gt;砂漠の牧夫なら誰でも知っていることだ。そしてヤギにとって、Wadi Al Zahirは巨大な宴の席である。遊牧民の群れが囲いから抜け出して通りをうろついている。もし領事館の書類の山を見つけでもしたら、使者たちは決して彼を許さないだろう。大惨事になる前にヤギを集めよう。</Text>
     </Text>
     <Text>
       <GUID>1404001619</GUID>
       <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Hint | The goats are roaming through the city streets. -->
-      <Text>ヤギたちは街の通りをうろついている。</Text>
+      <Text>ヤギたちは町の通りをうろついている。</Text>
     </Text>
     <Text>
       <GUID>1404001620</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_QuestStartSummary | The Nomad needs your help catching his runaway goats. -->
-      <Text>遊牧民は、逃げ出したヤギを捕まえるのに君の助けを必要としている。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_QuestStartSummary | The Nomad needs your help to catch his goats before they reach the Consulate. -->
+      <Text>遊牧民は、ヤギが領事館にたどり着く前に捕まえるため君の助けを必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001621</GUID>
@@ -5492,13 +5492,13 @@
     </Text>
     <Text>
       <GUID>1404001622</GUID>
-      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestStart | Is it true that in your lands there are places where animals from every corner of creation live together in harmony? -->
-      <Text>あなたの国には、世界中のあらゆる動物が仲良く一緒に暮らしている場所があるって本当かい？</Text>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestStart | Madame Kahina's sailors say that in your lands, lions, parrots and elephants live side by side in great gardens. Is it true? I must see it with my own eyes — or at least in a picture. -->
+      <Text>マダム・カヒナの船乗りたちが言うには、あんたの国じゃライオンとオウムとゾウが大きな庭で一緒に暮らしてるそうだな。本当かい？この目で見てみたい…せめて写真でいいから。</Text>
     </Text>
     <Text>
       <GUID>1404001623</GUID>
-      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestSuccess | In cages? Then they are not so free after all... (sigh) Well, perhaps it will at least help people understand them better... -->
-      <Text>檻の中に？それじゃあ、それほど自由ってわけじゃないんだな…（ため息）まあ、せめて人々が動物たちをもっとよく理解する助けになればいいけど…</Text>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestSuccess | Behind bars? My grandfather used to say that a caged falcon forgets how to fly. I hope they remember... -->
+      <Text>檻の中？じいちゃんがよく言ってたよ、籠の鷹は飛び方を忘れるって。あいつらが覚えてるといいんだけど…</Text>
     </Text>
     <Text>
       <GUID>1404001624</GUID>
@@ -5507,23 +5507,23 @@
     </Text>
     <Text>
       <GUID>1404001625</GUID>
-      <!-- Text | RQ_Nomad_Photo_ExoticNature_Story | There has been much talk around the campfires of Wadi Al Zahir about the wonders of the Old World's zoos. The Nomad is in awe of the rumours of a place where creatures from every corner of creation live in harmony, and humbly requests photographic evidence of this earthly paradise. -->
-      <Text>Wadi Al Zahirの焚き火の周りでは、旧世界の動物園の素晴らしさがしきりに話題になっている。遊牧民は、世界中のあらゆる生き物が調和して暮らす場所の噂に心を奪われ、この地上の楽園の写真による証拠を謙虚に求めている。</Text>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_Story | <b>Sailors from Madame Kahina's harbour tell wondrous tales</b> of the Old World, where animals from every corner of the earth are said to live together in great gardens. The Nomad, who has spent his life among wild creatures, longs to see this marvel and asks you for a photograph. -->
+      <Text>&lt;b&gt;マダム・カヒナの港の船乗りたちは、旧世界の不思議な話を語る。&lt;/b&gt;そこでは世界中の動物が大きな庭で一緒に暮らしているというのだ。生涯を野生の生き物とともに過ごしてきた遊牧民は、その驚異をひと目見たいと願い、写真を撮ってきてほしいと君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001626</GUID>
       <!-- Text | RQ_Nomad_Photo_ExoticNature_Hint | A picture of any zoo in the Old World will satisfy the Nomad's request -->
-      <Text>旧世界の動物園ならどこの写真でも、遊牧民の願いはかなう</Text>
+      <Text>旧世界のどの動物園の写真でも遊牧民の頼みを満たせる</Text>
     </Text>
     <Text>
       <GUID>1404001627</GUID>
-      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestStartSummary | The Nomad imagines the zoos of the Old World as places of harmony and longs to see proof of this. -->
-      <Text>遊牧民は旧世界の動物園を調和の場所だと思い描いており、その証拠を見たいと切望している。</Text>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestStartSummary | The Nomad wants a photograph of one of the famous zoos of the Old World. -->
+      <Text>遊牧民は、旧世界の有名な動物園の写真を欲しがっている。</Text>
     </Text>
     <Text>
       <GUID>1404001628</GUID>
-      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary | The Nomad is dejected to find that zoos are not all they are cracked up to be. -->
-      <Text>遊牧民は、動物園が噂ほど素晴らしいものではないと知って落胆している。</Text>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary | The Nomad is saddened to see that the animals of the zoo live in cages. -->
+      <Text>遊牧民は、動物園の動物たちが檻の中で暮らしていると知って悲しんでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001629</GUID>
@@ -5532,28 +5532,28 @@
     </Text>
     <Text>
       <GUID>1404001630</GUID>
-      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_QuestStart | I... wrote a poem, because I fear for the desert with all this building. I wish the Sultan could hear it, but I doubt it will ever reach him... -->
-      <Text>俺…詩を書いたんだ。こんなに建物ばかり建って、砂漠のことが心配でさ。スルタンに聞いてもらえたらいいんだけど、届くことなんてないだろうな…</Text>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_QuestStart | I have composed a qasida, a poem of the desert, about the wells that are running dry. The Sultan should hear it — but who listens to a herder? -->
+      <Text>干上がっていく井戸のことを、カスィーダ、つまり砂漠の詩にしたんだ。スルタンに聞いてほしい。でも、牧夫の言うことなんて誰が聞く？</Text>
     </Text>
     <Text>
       <GUID>1404001631</GUID>
-      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup | There is a land where the dunes have no names, and the wind alone knows the way... -->
-      <Text>名もなき砂丘の続く国がある、道を知るのは風だけ…</Text>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup | There is a land where the wells ran deep, where the wind knew every name... -->
+      <Text>井戸は深く、風がすべての名を知っていた土地がある…</Text>
     </Text>
     <Text>
       <GUID>1404001632</GUID>
-      <!-- AudioText | AT_ADDON01_Ketema_IdleGossip02 | Madame Kahina promised to place it in the Sultan's own hands! Perhaps he will remember that the desert, too, has a voice. -->
-      <Text>マダム・カヒナがスルタンご自身の手に渡すと約束してくれたんだ！きっと思い出してくださるさ、砂漠にも声があるってことを。</Text>
+      <!-- AudioText | AT_ADDON01_Ketema_IdleGossip02 | Madame Kahina says the Sultan loves poetry! Perhaps he will hear the voice of the desert after all. -->
+      <Text>マダム・カヒナが言うには、スルタンは詩がお好きなんだって！もしかしたら、砂漠の声を聞いてくれるかもしれない。</Text>
     </Text>
     <Text>
       <GUID>1404001633</GUID>
-      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup2 | There is a land where the wells never run dry, and the scent of jasmine drifts on the air. -->
-      <Text>井戸の決して涸れぬ国がある、ジャスミンの香りが風に漂う。</Text>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup2 | ...if you drink it all today, my Sultan, what will your grandsons drink? -->
+      <Text>…今日すべてを飲み干してしまったら、我がスルタンよ、あなたの孫たちは何を飲むのか？</Text>
     </Text>
     <Text>
       <GUID>1404001634</GUID>
-      <!-- QuestItem | QI Nomad Poem - Song of Durin | Nomad's Ode to the Desert -->
-      <Text>遊牧民が砂漠に捧げる頌歌</Text>
+      <!-- QuestItem | QI Nomad Poem - Song of Durin | Qasida of the Dry Wells -->
+      <Text>枯れた井戸のカスィーダ</Text>
     </Text>
     <Text>
       <GUID>1404001635</GUID>
@@ -5587,18 +5587,18 @@
     </Text>
     <Text>
       <GUID>1404001641</GUID>
-      <!-- Text | RQ_Nomad_Transport_SongOfDurin_Story | The rise of Wadi Al Zahir has not come without cost: wells run dry, palm groves fall to the axe, and the old caravan routes vanish beneath new streets and factories. While the Nomad understands the need for progress, he believes a gentler path, more respectful of the desert, can be found. He has poured his feelings into a short poem, which he asks you to take to Madame Kahina's harbour so that it may reach the Sultan. -->
-      <Text>Wadi Al Zahirの発展には代償が伴った。井戸は涸れ、ヤシの林は斧に倒れ、古いキャラバンの道は新しい通りや工場の下に消えていく。遊牧民は進歩の必要性を理解しつつも、もっと砂漠を大切にする穏やかな道があるはずだと信じている。彼は想いを短い詩にしたため、スルタンに届くようマダム・カヒナの港へ運んでほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_Story | <b>The Nomads of Wadi Al Zahir have always measured wealth in water.</b> Now that norias and workshops draw more and more from the aquifers, the old wells are failing one after another. A young Nomad has poured his worries into a qasida in the style of the old desert poets, and he asks you to take it to Madame Kahina's harbour so that it may reach the Sultan. -->
+      <Text>&lt;b&gt;Wadi Al Zahirの遊牧民は、昔から富を水で量ってきた。&lt;/b&gt;ところが今、水車や工房が地下水をどんどん汲み上げ、古い井戸が次々と枯れている。ある若い遊牧民がその憂いを昔の砂漠の詩人に倣ったカスィーダに込め、スルタンに届くよう、マダム・カヒナの港まで運んでほしいと君に頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001642</GUID>
-      <!-- Text | RQ_Nomad_Transport_SongOfDurin_QuestStartSummary | The Nomad asks you to bring a poem he wrote to Madame Kahina, who can send it on to the Sultan. -->
-      <Text>遊牧民は、自分の書いた詩をスルタンに取り次いでくれるマダム・カヒナのもとへ届けてほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_QuestStartSummary | The Nomad asks you to take his poem to Madame Kahina, who can send it on to the Sultan. -->
+      <Text>遊牧民は、自作の詩をスルタンに届けてくれるマダム・カヒナのもとへ運んでほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001643</GUID>
-      <!-- Text | RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary | Madame Kahina will forward the Nomad's poem to the Sultan. -->
-      <Text>マダム・カヒナは遊牧民の詩をスルタンに届けてくれる。</Text>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary | Madame Kahina promises to send the Nomad's poem to the Sultan's court. -->
+      <Text>マダム・カヒナは遊牧民の詩をスルタンの宮廷に送ると約束した。</Text>
     </Text>
     <Text>
       <GUID>1404001644</GUID>
@@ -5607,48 +5607,48 @@
     </Text>
     <Text>
       <GUID>1404001647</GUID>
-      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Envoy Nureddin Efendi insists that you demonstrate your knowledge of local customs. -->
-      <Text>使者ヌーレッディン・エフェンディは、この地の慣習を知っていることを示せと迫っている。</Text>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Envoy Nureddin Efendi doubts that you know the first thing about court protocol. -->
+      <Text>使者ヌーレッディン・エフェンディは、君が宮廷の作法を少しでも知っているのか疑っている。</Text>
     </Text>
     <Text>
       <GUID>1404001648</GUID>
-      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Envoy Nureddin Efendi is pleasantly surprised by your choice. -->
-      <Text>使者ヌーレッディン・エフェンディは君の選択に好ましい驚きを見せている。</Text>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Nureddin Efendi grudgingly admits that you know how to honour a guest. -->
+      <Text>ヌーレッディン・エフェンディは、君が客をもてなす術を知っていることをしぶしぶ認めた。</Text>
     </Text>
     <Text>
       <GUID>1404001649</GUID>
-      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | A vial of costly rose attar and frankincense would be appropriate... -->
-      <Text>高価なバラの香油と乳香の小瓶がふさわしいでしょう…</Text>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | Right by the door, so that he may leave whenever he pleases. -->
+      <Text>扉のすぐそば。いつでも好きなときにお帰りになれるように。</Text>
     </Text>
     <Text>
       <GUID>1404001650</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of angry-looking wild bulls has been seen at the fringes of the city. -->
-      <Text>街外れで、怒り狂ったような野生の牛の群れが目撃された。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of wild bulls has been sighted on the outskirts of the city. -->
+      <Text>町外れで野生の牛の群れが目撃された。</Text>
     </Text>
     <Text>
       <GUID>1404001651</GUID>
-      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Envoy Nureddin Efendi worries there are not enough bulls for the contest and asks you to find more. -->
-      <Text>使者ヌーレッディン・エフェンディは大会に使う牛が足りないことを心配し、さらに見つけてきてほしいと頼んでいる。</Text>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Envoy Nureddin Efendi needs strong bulls for a contest in honour of Murad Bey. -->
+      <Text>使者ヌーレッディン・エフェンディは、ムラト・ベイを称える闘牛のために強い牛を必要としている。</Text>
     </Text>
     <Text>
       <GUID>1404001652</GUID>
-      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | The Arranged Match -->
-      <Text>取り決められた縁談</Text>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Honoured Guests — A Suitable Match -->
+      <Text>賓客の礼 ― ふさわしい縁組</Text>
     </Text>
     <Text>
       <GUID>1404001653</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Would you bring my niece Leyla to me? It is high time she were wed, and I have found the perfect match— a young man from a decent, pious family. -->
-      <Text>姪のレイラを連れてきてくれんか？そろそろ嫁ぐ頃合いだし、申し分のない相手を見つけたのだ――立派で信心深い家の若者をな。</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Murad Bey has proposed a match between his son Orhan and my niece Leyla. An alliance with the coast! But the girl has vanished — find her before the Bey hears of it. -->
+      <Text>ムラト・ベイが、ご子息オルハンと私の姪レイラとの縁組を申し出てくださった。沿岸との同盟だぞ！ところが娘が姿を消した。ベイの耳に入る前に見つけてくれ。</Text>
     </Text>
     <Text>
       <GUID>1404001654</GUID>
-      <!-- CollectablePicturePuzzle | Aida | Upset-looking Leyla -->
-      <Text>取り乱したレイラ</Text>
+      <!-- CollectablePicturePuzzle | Aida | Leyla, in Hiding -->
+      <Text>隠れているレイラ</Text>
     </Text>
     <Text>
       <GUID>1404001655</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | Envoy Nureddin Efendi has arranged a proper match for his young niece Leyla, and wishes you to find the girl and bring her to meet her husband-to-be. -->
-      <Text>使者ヌーレッディン・エフェンディは若い姪のレイラにふさわしい縁談を取りまとめた。娘を見つけ出し、未来の夫に引き合わせてほしいと望んでいる。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | <b>Murad Bey's visit went better than anyone had dared to hope.</b> Between two bouts of the bull-butting contest, he proposed a match between his son Orhan and Nureddin Efendi's niece Leyla — an alliance that would bind Wadi Al Zahir to one of the most powerful families of the coast. The marriage contract only needs to be sealed. The bride, however, has disappeared. -->
+      <Text>&lt;b&gt;ムラト・ベイの訪問は、誰も望めなかったほどの成功を収めた。&lt;/b&gt;闘牛の取組の合間に、彼は息子オルハンとヌーレッディン・エフェンディの姪レイラとの縁組を申し出たのだ。Wadi Al Zahirを沿岸屈指の名家と結びつける同盟である。あとは婚姻契約に印を押すだけだったが、花嫁が姿を消してしまった。</Text>
     </Text>
     <Text>
       <GUID>1404001656</GUID>
@@ -5657,38 +5657,38 @@
     </Text>
     <Text>
       <GUID>1404001657</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Envoy Nureddin Efendi bids you find his niece and bring her to her betrothed. -->
-      <Text>使者ヌーレッディン・エフェンディは、姪を見つけて婚約者のもとへ連れていくよう求めている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Envoy Nureddin Efendi asks you to find his niece before her betrothal to Murad Bey's son. -->
+      <Text>使者ヌーレッディン・エフェンディは、ムラト・ベイの息子との婚約の前に姪を見つけてほしいと頼んでいる。</Text>
     </Text>
     <Text>
       <GUID>1404001658</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | I beg you, do not take me back! I do not love him— I love Karim, the camel driver. We are pledged to each other, and I would gladly live in a Nomad's tent if it were by his side! -->
-      <Text>お願いです、私を連れ戻さないで！あの人のことは愛していません――私が愛しているのはラクダ引きのカリムです。私たちは将来を誓い合いました。彼のそばにいられるなら、遊牧民のテントで暮らしたって構いません！</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | Please, do not take me back! I will not be traded for an alliance like a bale of silk. My heart belongs to Karim, who guides the caravans across the dunes — I would rather live in his tent than in any palace on the coast! -->
+      <Text>お願い、連れ戻さないで！絹の梱みたいに同盟と引き換えにされるなんてごめんよ。私の心は、砂丘を越えて隊商を導くカリームのもの。沿岸のどんな宮殿より、彼の天幕で暮らしたいの！</Text>
     </Text>
     <Text>
       <GUID>1404001659</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The presents are hidden near the Envoys' houses. -->
-      <Text>贈り物は使者の家の近くに隠されている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The toys are hidden near the Envoys' houses. -->
+      <Text>玩具は使者の家の近くに隠されている。</Text>
     </Text>
     <Text>
       <GUID>1404001660</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Confiscate the children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
-      <Text>子どもたちの贈り物を没収しよう: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Collect the Western toys: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>西洋の玩具を回収しよう: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
     </Text>
     <Text>
       <GUID>1404001661</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Envoy Selim Efendi believes the children of the city are being spoiled and wants to take away their Eid presents. -->
-      <Text>使者セリム・エフェンディは街の子どもたちが甘やかされすぎていると考え、イードの贈り物を取り上げたがっている。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Envoy Selim Efendi wants to confiscate the Western toys sent to the envoys' children. -->
+      <Text>使者セリム・エフェンディは、使者の子供たちに送られた西洋の玩具を没収したがっている。</Text>
     </Text>
     <Text>
       <GUID>1404001662</GUID>
-      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Idle Hands -->
-      <Text>暇を持て余す手</Text>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Young Masters — Lessons of the Realm -->
+      <Text>若君たち ― 国の学び</Text>
     </Text>
     <Text>
       <GUID>1404001663</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Excellent! This will teach them to contribute to society— and bring some quiet back to the streets. -->
-      <Text>素晴らしい！これで社会に貢献することを学ぶだろう――通りにも少しは静けさが戻る。</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Splendid! Did you see their faces at the camel farm? One of them asked whether camels are made in a workshop. We have much work ahead of us. -->
+      <Text>すばらしい！ラクダ牧場でのあの子らの顔を見たかね？一人などは、ラクダは工房で作るのかと聞いてきた。先は長いぞ。</Text>
     </Text>
     <Text>
       <GUID>1404001664</GUID>
@@ -5697,48 +5697,48 @@
     </Text>
     <Text>
       <GUID>1404001668</GUID>
-      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestSuccessSummary | Envoy Nureddin Efendi grudgingly postpones the wedding after hearing of Leyla's plea. -->
-      <Text>レイラの嘆願を聞いた使者ヌーレッディン・エフェンディは、しぶしぶ婚礼を延期した。</Text>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestSuccessSummary | Nureddin Efendi postpones the betrothal — and invents a diplomatic excuse for Murad Bey. -->
+      <Text>ヌーレッディン・エフェンディは婚約を延期し、ムラト・ベイには外交的な言い訳をひねり出した。</Text>
     </Text>
     <Text>
       <GUID>1404001669</GUID>
-      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestSuccess | A camel driver?! ...Very well. The wedding can wait— but I shall have words with this Karim myself. -->
-      <Text>ラクダ引きだと？！…まあよい。婚礼は待とう――だが、そのカリムとやらには私が直々に話をさせてもらう。</Text>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestSuccess | A caravan guide?! ...Very well. I shall tell Murad Bey that the astrologers advise against a wedding this year. And then I shall have words with this Karim. -->
+      <Text>隊商の案内人だと？！…よかろう。ムラト・ベイには、占星術師が今年の婚礼は避けるよう勧めていると伝えよう。それから、そのカリームとやらとじっくり話をせねばな。</Text>
     </Text>
     <Text>
       <GUID>1404001670</GUID>
-      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccessSummary | Hamza's friends mock him as a mere boy who has never even faced a wild beast. -->
-      <Text>ハムザの友達は、野獣と向き合ったこともない子どもだと言って彼をからかう。</Text>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccessSummary | Hamza's friends mock him as a boy who has never even faced a wild beast. -->
+      <Text>ハムザの友人たちは、野獣と向き合ったこともない子供だと彼をからかった。</Text>
     </Text>
     <Text>
       <GUID>1404001671</GUID>
-      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccess | They laughed at me... said I am still a boy who has never hunted anything bigger than a jerboa. I will show them! -->
-      <Text>あいつら、俺を笑ったんだ…トビネズミより大きな獲物なんて狩ったこともないガキだってさ。見返してやる！</Text>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccess | They laughed at me... said I have never hunted anything bigger than a jerboa. I will show them — I will bring back a lion! -->
+      <Text>あいつら、俺を笑ったんだ…トビネズミより大きな獲物を仕留めたことがないって。見てろよ、ライオンを狩ってきてやる！</Text>
     </Text>
     <Text>
       <GUID>1404001672</GUID>
       <!-- Text | RQ_Nomad_Select_HelpTheFamily_TalkToLandownerSummary | After your talk, Hajja Zubaida grudgingly grants the family a delay until the next harvest. -->
-      <Text>君との話し合いの後、ハッジャ・ズバイダはしぶしぶ次の収穫まで家族に猶予を与えた。</Text>
+      <Text>君と話した後、ハッジャ・ズバイダはしぶしぶ一家に次の収穫までの猶予を与えた。</Text>
     </Text>
     <Text>
       <GUID>1404001673</GUID>
-      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_TalkToLandowner | You spoke to her, and she agreed to wait until the next harvest? By Allah, you have a silver tongue! -->
-      <Text>あの人と話して、次の収穫まで待ってもらえることになったって？アッラーにかけて、たいした口達者だな！</Text>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_TalkToLandowner | You spoke to the tax farmer, and she agreed to wait? By Allah, you could talk water out of a stone! -->
+      <Text>あの請負人と話して、待ってもらえることになったって？アッラーにかけて、あんたなら石からだって水を絞り出せるよ！</Text>
     </Text>
     <Text>
       <GUID>1404001674</GUID>
-      <!-- Text | RQ_Nomad_Select_FindFamily_QuestSuccessSummary | Thanks to the letter, Hamza finds Amira at the harbour and brings her safely home. -->
-      <Text>手紙のおかげで、ハムザは港でアミラを見つけ、無事に家へ連れ帰った。</Text>
+      <!-- Text | RQ_Nomad_Select_FindFamily_QuestSuccessSummary | Thanks to the letter, Hamza catches up with the caravan at the harbour and brings Amira home. -->
+      <Text>手紙のおかげでハムザは港で隊商に追いつき、アミーラを家に連れ帰った。</Text>
     </Text>
     <Text>
       <GUID>1404001675</GUID>
-      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestSuccess | She was at the harbour all along, hiding in a boy's clothes! Her hand will heal— Allah be praised, she is home again! -->
-      <Text>ずっと港にいたんだ、男の子の服を着て隠れて！手はきっと治る――アッラーに讃えあれ、彼女は家に帰ってきた！</Text>
+      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestSuccess | She was at the harbour, loading camels in a boy's clothes! Her father wept and scolded her at the same time — Allah be praised, she is home. -->
+      <Text>あいつ、港で男の子の格好をしてラクダに荷を積んでたんだ！親父さんは泣きながら叱りつけてたよ。アッラーに感謝を、あいつは無事に帰ってきた。</Text>
     </Text>
     <Text>
       <GUID>1404001676</GUID>
-      <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A poem by a young Nomad who believes that, in times of change, the desert must not be forgotten. -->
-      <Text>変わりゆく時代にあっても砂漠を忘れてはならないと信じる、若き遊牧民の詩。</Text>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
+      <Text>町が大きくなるにつれ枯れていく井戸を嘆く、若い遊牧民の砂漠の詩。</Text>
     </Text>
   </ModOp>
 </ModOps>
