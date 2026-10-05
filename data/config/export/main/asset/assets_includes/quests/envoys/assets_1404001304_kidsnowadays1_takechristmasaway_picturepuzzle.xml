@@ -330,7 +330,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>How the Envoy Stole Eid</Text>
+                            <Text>Young Masters — Trinkets from the West</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -482,7 +482,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Why teach modesty and gratitude to children if their parents then spoil them with lavish Eid presents like sugared almonds and silk toys?</Text>
+                            <Text>The last courier brought gifts for the envoys' children from their relatives at court: tin soldiers, music boxes, mechanical birds from the West! How are they to learn patience and modesty with such toys?</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -503,7 +503,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Good. May they learn that modesty is the finest gift of all.</Text>
+                            <Text>Into the consulate's archive with them. The children may have them back once they can recite the lineage of the Sultan's house without a single mistake.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -562,7 +562,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Modest Pile of Gifts</Text>
+                            <Text>Pile of Western Toys</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -614,7 +614,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Envoy Selim Efendi believes the children of the city have been misbehaving of late, and asks you to confiscate their extravagant Eid presents to teach them the virtues of modesty and gratitude.</Text>
+                            <Text>&lt;b&gt;Selim Efendi once taught the sons of viziers,&lt;/b&gt; and he has firm opinions on how future servants of the Sultan should be raised: with calligraphy, poetry and history — not with clockwork. Now that the envoys' children have received a crate of Western toys from their relatives at court, he asks you to quietly collect them before the young masters forget their lessons entirely.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -632,7 +632,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>The presents are hidden near the Envoys' houses.</Text>
+                            <Text>The toys are hidden near the Envoys' houses.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -650,7 +650,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Confiscate the children's presents: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+                            <Text>Collect the Western toys: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
@@ -668,7 +668,7 @@
                 <Text>
                     <LocaText>
                         <English>
-                            <Text>Envoy Selim Efendi believes the children of the city are being spoiled and wants to take away their Eid presents.</Text>
+                            <Text>Envoy Selim Efendi wants to confiscate the Western toys sent to the envoys' children.</Text>
                             <Status>Exported</Status>
                         </English>
                     </LocaText>
