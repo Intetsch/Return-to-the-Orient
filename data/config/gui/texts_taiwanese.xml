@@ -17,13 +17,13 @@
     </Text>
     <Text>
       <GUID>1404000007</GUID>
-      <!-- Fertility | Date Fertility | Dates -->
-      <Text>棗子</Text>
+      <!-- Fertility | Date Fertility | Date Fertility -->
+      <Text>椰棗生產力</Text>
     </Text>
     <Text>
       <GUID>1404000008</GUID>
-      <!-- Fertility | Almond Fertility | Almonds -->
-      <Text>杏仁</Text>
+      <!-- Fertility | Almond Fertility | Almond Fertility -->
+      <Text>杏仁生產力</Text>
     </Text>
     <Text>
       <GUID>1404000010</GUID>
@@ -606,6 +606,11 @@
       <Text>浴室</Text>
     </Text>
     <Text>
+      <GUID>1404000152</GUID>
+      <!-- PopulationGroup7 | Population: The Orient | Population: The Orient -->
+      <Text>人口：東方</Text>
+    </Text>
+    <Text>
       <GUID>1404000157</GUID>
       <!-- FactoryBuilding7 | Mosaic Workshop | Mosaic Workshop -->
       <Text>馬賽克工作坊</Text>
@@ -618,7 +623,7 @@
     <Text>
       <GUID>1404000159</GUID>
       <!-- FarmBuilding | Mosaic Workshop | Date Farm -->
-      <Text>棗園</Text>
+      <Text>椰棗園</Text>
     </Text>
     <Text>
       <GUID>1404000160</GUID>
@@ -672,8 +677,8 @@
     </Text>
     <Text>
       <GUID>1404000177</GUID>
-      <!-- Fertility | Silk Fertility | Silk -->
-      <Text>絲綢</Text>
+      <!-- Fertility | Silk Fertility | Silk Fertility -->
+      <Text>蠶絲生產力</Text>
     </Text>
     <Text>
       <GUID>1404000178</GUID>
@@ -703,7 +708,7 @@
     <Text>
       <GUID>1404000199</GUID>
       <!-- Farmfield | Plantain Grove | Date Field -->
-      <Text>日期字段</Text>
+      <Text>椰棗田</Text>
     </Text>
     <Text>
       <GUID>1404000200</GUID>
@@ -766,6 +771,11 @@
       <Text>倉庫</Text>
     </Text>
     <Text>
+      <GUID>1404000219</GUID>
+      <!-- HarborWarehouseSlot7 | Unpopulated Island | Unpopulated Island -->
+      <Text>無人島</Text>
+    </Text>
+    <Text>
       <GUID>1404000234</GUID>
       <!-- OrnamentalBuilding | Oriental Fountain | Oriental Fountain -->
       <Text>東方噴泉</Text>
@@ -802,8 +812,8 @@
     </Text>
     <Text>
       <GUID>1404000293</GUID>
-      <!-- Fertility | Rose Fertility | Roses -->
-      <Text>玫瑰</Text>
+      <!-- Fertility | Rose Fertility | Rose Fertility -->
+      <Text>玫瑰生產力</Text>
     </Text>
     <Text>
       <GUID>1404000294</GUID>
@@ -842,8 +852,8 @@
     </Text>
     <Text>
       <GUID>1404000301</GUID>
-      <!-- Fertility | Pomegranate Fertility | Pomegranate -->
-      <Text>石榴</Text>
+      <!-- Fertility | Pomegranate Fertility | Pomegranate Fertility -->
+      <Text>石榴生產力</Text>
     </Text>
     <Text>
       <GUID>1404000303</GUID>
@@ -864,6 +874,11 @@
       <GUID>1404000312</GUID>
       <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
       <Text>東方工坊：禮儀軍刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404000313</GUID>
+      <!-- RecipeList | Oriental Workshop Patent List | Oriental Workshop Patent List -->
+      <Text>東方工坊專利清單</Text>
     </Text>
     <Text>
       <GUID>1404000314</GUID>
@@ -1097,7 +1112,7 @@
     </Text>
     <Text>
       <GUID>1404000372</GUID>
-      <!-- ConstructionCategory | Harbour | Marketstalls -->
+      <!-- ConstructionCategory | Market Stalls | Market Stalls -->
       <Text>市場攤位</Text>
     </Text>
     <Text>
@@ -1273,7 +1288,7 @@
     <Text>
       <GUID>1404000444</GUID>
       <!-- AudioText | AudioText Play_residents_6607340: Is there anything finer than sitting in the shade eating Dates? | Is there anything finer than sitting in the shade eating Dates? -->
-      <Text>還有什麼比坐在陰涼處吃棗子更好的事嗎？</Text>
+      <Text>還有什麼比坐在陰涼處吃椰棗更好的事嗎？</Text>
     </Text>
     <Text>
       <GUID>1404000446</GUID>
@@ -2161,8 +2176,18 @@
       <Text>永恆的紀念碑</Text>
     </Text>
     <Text>
+      <GUID>1404000812</GUID>
+      <!-- Text | Praise of the Pilgrims | Praise of the Pilgrims -->
+      <Text>朝聖者的讚美</Text>
+    </Text>
+    <Text>
+      <GUID>1404000813</GUID>
+      <!-- Text | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. | Pilgrims from all over the sultanate have come to take part in a once-in-a-lifetime event. -->
+      <Text>來自蘇丹國各地的朝聖者前來參加這一千載難逢的盛事。</Text>
+    </Text>
+    <Text>
       <GUID>1404000828</GUID>
-      <!-- Text | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. | A strange looking letter was just delivered by Madame Kahina. It is an invitation by the sultan, who has heard of your reputation in settling in even the most difficult places in the known world. He requests you to visit him in the capitol of the sultanate; Madam Kahina thinks it could be a lucrative business opportunity and a way to expand you trade empire. This new adventure into the unknown beyond enbesa seems it could be as difficult as it is potentially rewarding. -->
+      <!-- Text | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. | A strange-looking letter was just delivered by Madame Kahina. It is an invitation from the sultan, who has heard of your reputation for settling even the most difficult places in the known world. He requests that you visit him in the capital of the sultanate; Madame Kahina thinks it could be a lucrative business opportunity and a way to expand your trade empire. This new adventure into the unknown beyond Enbesa seems as difficult as it is potentially rewarding. -->
       <Text>卡希納夫人剛剛送來一封看起來很奇怪的信。這是蘇丹的邀請，他聽說過您在已知世界上最困難的地方定居的聲譽。他請求您到蘇丹國首都拜訪他；卡希納女士認為這可能是一個利潤豐厚的商機，也是擴大貿易帝國的一種方式。這次探索恩貝薩以外的未知世界的新冒險似乎既困難又可能帶來回報。</Text>
     </Text>
     <Text>
@@ -2172,7 +2197,7 @@
     </Text>
     <Text>
       <GUID>1404000830</GUID>
-      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything is growing in dry and hot sand. Nomads have traditionally used Norias to pump water from deep underground to water their fields. However too many Norias in one place will drain the aquifiers until there is nothing more to pump. To prevent this, nomads figured out a minimum distance between noria, that guarantees a continuous and sustainable water supply. -->
+      <!-- Text | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. | With so many nomads staying here, you need to start producing food, but barely anything grows in the dry, hot sand. Nomads have traditionally used norias to pump water from deep underground to water their fields. However, too many norias in one place will drain the aquifers until there is nothing left to pump. To prevent this, the nomads worked out a minimum distance between norias that guarantees a continuous and sustainable water supply. -->
       <Text>有這麼多遊牧民族住在這裡，你需要開始生產食物，但乾燥炎熱的沙子裡幾乎沒有任何東西生長。遊牧民族傳統上使用諾裡亞斯從地下深處抽水來澆灌他們的田地。然而，一處過多的諾裡亞會耗盡含水層，直到沒有更多的東西可以抽水。為了防止這種情況發生，遊牧民族確定了諾裡亞之間的最小距離，以確保持續且可持續的供水。</Text>
     </Text>
     <Text>
@@ -2187,22 +2212,22 @@
     </Text>
     <Text>
       <GUID>1404000833</GUID>
-      <!-- Text | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. | More envoys want to move to your emerging city and are demanding, that you build more houses for them. For the city to become become a major hub for cultural exchange it must grow and not only produce a wide range of local wares but also new wares from the Old World and New World. -->
+      <!-- Text | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. | More envoys want to move to your emerging city and are demanding that you build more houses for them. For the city to become a major hub of cultural exchange, it must grow and produce not only a wide range of local wares but also new wares from the Old World and the New World. -->
       <Text>更多的特使想要搬到你的新興城市，並要求你為他們建造更多的房屋。為了使城市成為文化交流的主要中心，它必須不斷發展，不僅生產各種當地商品，而且還生產來自舊世界和新世界的新商品。</Text>
     </Text>
     <Text>
       <GUID>1404000834</GUID>
-      <!-- Text | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. | Bazaars have been an integral part of the culture and these marketstalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly open up new markets for your wares. The only problem for you is to supply the products from so far away. -->
+      <!-- Text | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. | Bazaars have always been an integral part of the culture, and these market stalls combine tradition and modernity to let envoys sample the new wares of the industrial age. Envoys are very interested in researching them and will report back to the sultanate, possibly opening up new markets for your wares. The only problem for you is supplying the products from so far away. -->
       <Text>市集已成為文化不可或缺的一部分，這些市集攤位將傳統與現代融為一體，讓使節們品嚐工業時代的新商品。特使們對研究它們非常感興趣，並將向蘇丹國報告，可能會為你的商品開闢新市場。您面臨的唯一問題是從很遠的地方供應產品。</Text>
     </Text>
     <Text>
       <GUID>1404000835</GUID>
-      <!-- Text | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. | Your city has become very popular within envoy circles, rumor has it, that it is on its way to rival the capitol in size and amenities. A new wave of envoys of the highest rangs in the country is on its way, the east and west are coming closer together than they have ever been in the last 400 years. -->
+      <!-- Text | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. | Your city has become very popular in envoy circles; rumor has it that it is on its way to rival the capital in size and amenities. A new wave of envoys of the highest ranks in the country is on its way. East and West are coming closer together than they have been in the last 400 years. -->
       <Text>有傳言說，你的城市在特使圈子裡變得非常受歡迎，它的規模和便利設施正在與國會大廈相提並論。該國最高層的新一波特使正在趕來，東方和西方之間的距離比過去 400 年來任何時候都更加緊密。</Text>
     </Text>
     <Text>
       <GUID>1404000836</GUID>
-      <!-- Text | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. | The sultan is very happy with your development and has granted you access to a blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been build, centuries ago and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence this will bring you. -->
+      <!-- Text | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. | The sultan is very happy with your development and has granted you access to the blueprint for a monument that will be your crowning achievement in this desert. Only one other Grand Mosque like this has ever been built, centuries ago, and building a second one will symbolize that traditions can endure in the rapidly changing industrial age. Not to mention the pilgrimages to the city that will take place and the political influence they will bring you. -->
       <Text>蘇丹對你的發展非常滿意，並允許你獲得一座紀念碑的藍圖，這將是你在這片沙漠中的最高成就。幾個世紀前，只有一座像這樣的大清真寺建成，建造第二座清真寺將象徵傳統能夠在快速變化的工業時代中得以延續。更不用說即將進行的城市朝聖以及這將為您帶來的政治影響。</Text>
     </Text>
     <Text>
@@ -2241,6 +2266,16 @@
       <Text>這座紀念碑允許您進行朝聖，這些將增加您在蘇丹國的影響力。</Text>
     </Text>
     <Text>
+      <GUID>1404000845</GUID>
+      <!-- Street | Desert Road | Desert Road -->
+      <Text>沙漠道路</Text>
+    </Text>
+    <Text>
+      <GUID>1404000846</GUID>
+      <!-- BridgeBuilding | Wooden Bridge | Wooden Bridge -->
+      <Text>木造橋梁</Text>
+    </Text>
+    <Text>
       <GUID>1404000847</GUID>
       <!-- Text | Ramadan | Month of Fasting -->
       <Text>禁食月</Text>
@@ -2261,9 +2296,49 @@
       <Text>打破齋戒的時間</Text>
     </Text>
     <Text>
+      <GUID>1404000852</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Residences | All Oriental Residences -->
+      <Text>所有東方住所</Text>
+    </Text>
+    <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>??珍珠潛水員</Text>
+      <Text>珍珠潛水員</Text>
+    </Text>
+    <Text>
+      <GUID>1404000878</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404000879</GUID>
+      <!-- Product | Elmore Mixture | Flotation Concentrate -->
+      <Text>浮選精礦</Text>
+    </Text>
+    <Text>
+      <GUID>1404000881</GUID>
+      <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
+      <Text>提供混合物</Text>
+    </Text>
+    <Text>
+      <GUID>1404000882</GUID>
+      <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
+      <Text>空鼓</Text>
+    </Text>
+    <Text>
+      <GUID>1404000883</GUID>
+      <!-- FactoryBuilding7 | Acid Plant | Acid Plant -->
+      <Text>製酸廠</Text>
+    </Text>
+    <Text>
+      <GUID>1404000884</GUID>
+      <!-- ConstructionCategory | Export Goods | Export Goods -->
+      <Text>出口商品</Text>
+    </Text>
+    <Text>
+      <GUID>1404000886</GUID>
+      <!-- FactoryBuilding7 | Flotation Plant | Flotation Plant -->
+      <Text>浮選廠</Text>
     </Text>
     <Text>
       <GUID>1404000888</GUID>
@@ -2392,8 +2467,8 @@
     </Text>
     <Text>
       <GUID>1404000913</GUID>
-      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Bronze Craftsman | Mustafa ibn Qadir, The Master Bronze Craftsman -->
-      <Text>穆斯塔法·伊本·卡迪爾 (Mustafa ibn Qadir)，青銅工匠大師</Text>
+      <!-- GuildhouseItem | Mustafa ibn Qadir, The Master Silver Craftsman | Mustafa ibn Qadir, The Master Silver Craftsman -->
+      <Text>穆斯塔法·伊本·卡迪爾 (Mustafa ibn Qadir)，白銀工匠大師</Text>
     </Text>
     <Text>
       <GUID>1404000914</GUID>
@@ -2417,8 +2492,8 @@
     </Text>
     <Text>
       <GUID>1404000918</GUID>
-      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Midas Touch | Nabil ibn Yusuf al-Sarraj, With the Midas Touch -->
-      <Text>納比勒·伊本·優素福·薩拉吉，點石成金</Text>
+      <!-- GuildhouseItem | Nabil ibn Yusuf al-Sarraj, With the Silver Touch | Nabil ibn Yusuf al-Sarraj, With the Silver Touch -->
+      <Text>納比勒·伊本·優素福·薩拉吉，點石成銀</Text>
     </Text>
     <Text>
       <GUID>1404000919</GUID>
@@ -2602,8 +2677,8 @@
     </Text>
     <Text>
       <GUID>1404000956</GUID>
-      <!-- Text | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with bronze, brass, and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
-      <Text>穆斯塔法幾十年來一直致力於研究青銅、黃銅和其他用於日常和裝飾物品的金屬。他的經驗使他能夠組織研討會，生產一致性更高、缺陷更少的燭台和水煙袋。</Text>
+      <!-- Text | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. | Mustafa has worked for decades with silver and other metals used in both everyday and ornamental objects. His experience allows him to organize workshops that produce candlesticks and hookahs with greater consistency and fewer defects. -->
+      <Text>穆斯塔法幾十年來一直致力於研究白銀和其他用於日常和裝飾物品的金屬。他的經驗使他能夠組織研討會，生產一致性更高、缺陷更少的燭台和水煙袋。</Text>
     </Text>
     <Text>
       <GUID>1404000957</GUID>
@@ -2627,8 +2702,8 @@
     </Text>
     <Text>
       <GUID>1404000961</GUID>
-      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled gold chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
-      <Text>Nabil 以精緻、精心組裝的金鍊取代傳統的珍珠鍊而聞名。他的方法提高了每件作品的感知價值，儘管它需要更高的精度和昂貴的材料。</Text>
+      <!-- Text | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. | Nabil is known for replacing the traditional pearl string with fine, meticulously assembled silver chains. His method elevates the perceived value of each piece, though it requires greater precision and expensive materials. -->
+      <Text>Nabil 以精緻、精心組裝的銀鍊取代傳統的珍珠鍊而聞名。他的方法提高了每件作品的感知價值，儘管它需要更高的精度和昂貴的材料。</Text>
     </Text>
     <Text>
       <GUID>1404000962</GUID>
@@ -3101,6 +3176,11 @@
       <Text>聽聽蘇丹的建議</Text>
     </Text>
     <Text>
+      <GUID>1404001105</GUID>
+      <!-- Text | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. | Treasures unearthed from the desert sands draw scholars from far and wide and inspire new research. -->
+      <Text>從沙漠中出土的寶藏吸引了四面八方的學者，並激發了新的研究。</Text>
+    </Text>
+    <Text>
       <GUID>1404001115</GUID>
       <!-- Hacienda | Research Station | Research Station -->
       <Text>研究站</Text>
@@ -3172,7 +3252,7 @@
     </Text>
     <Text>
       <GUID>1404001135</GUID>
-      <!-- Text | Increases the range of marketstalls | Increases the range of marketstalls -->
+      <!-- Text | Increases the range of market stalls | Increases the range of market stalls -->
       <Text>增加市場攤位範圍</Text>
     </Text>
     <Text>
@@ -3181,14 +3261,19 @@
       <Text>減少學者對土特產的消耗</Text>
     </Text>
     <Text>
+      <GUID>1404001137</GUID>
+      <!-- ItemEffectTargetPool | All Oriental Market Stalls | All Oriental Market Stalls -->
+      <Text>所有東方市場攤位</Text>
+    </Text>
+    <Text>
       <GUID>1404001162</GUID>
       <!-- GuildhouseItem | Almond Seeds | Almond Seeds -->
       <Text>杏仁種子</Text>
     </Text>
     <Text>
       <GUID>1404001163</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | Quality Almond Seeds -->
-      <Text>優質杏仁種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Almonds in alien soil. | These saplings can help you grow a few groves of Almonds in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001164</GUID>
@@ -3197,8 +3282,8 @@
     </Text>
     <Text>
       <GUID>1404001165</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | Date Seeds -->
-      <Text>棗子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Almonds in alien soil. | These saplings can help you grow plentiful groves of Almonds in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的杏仁林。</Text>
     </Text>
     <Text>
       <GUID>1404001166</GUID>
@@ -3207,38 +3292,38 @@
     </Text>
     <Text>
       <GUID>1404001167</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | Hybrid Date Seeds -->
-      <Text>雜交棗子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Almond yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且杏仁產量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001168</GUID>
       <!-- GuildhouseItem | Date Seeds | Date Seeds -->
-      <Text>棗子</Text>
+      <Text>椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001169</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | Quality Pomegranate Juice Seeds -->
-      <Text>優質石榴汁種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Dates in alien soil. | These saplings can help you grow a few groves of Dates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片椰棗林。</Text>
     </Text>
     <Text>
       <GUID>1404001170</GUID>
       <!-- GuildhouseItem | Quality Date Seeds | Quality Date Seeds -->
-      <Text>優質棗子</Text>
+      <Text>優質椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001171</GUID>
-      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | Roses Seeds -->
-      <Text>玫瑰種子</Text>
+      <!-- Text | These saplings can help you grow plentiful groves of Dates in alien soil. | These saplings can help you grow plentiful groves of Dates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的椰棗林。</Text>
     </Text>
     <Text>
       <GUID>1404001172</GUID>
       <!-- GuildhouseItem | Hybrid Date Seeds | Hybrid Date Seeds -->
-      <Text>雜交棗子</Text>
+      <Text>雜交椰棗種子</Text>
     </Text>
     <Text>
       <GUID>1404001173</GUID>
-      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | Hybrid Roses Seeds -->
-      <Text>雜交玫瑰種子</Text>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Date yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且椰棗產量增加！</Text>
     </Text>
     <Text>
       <GUID>1404001174</GUID>
@@ -3247,8 +3332,8 @@
     </Text>
     <Text>
       <GUID>1404001175</GUID>
-      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | Quality Silk Seeds -->
-      <Text>優質蠶絲種子</Text>
+      <!-- Text | These saplings can help you grow a few groves of Pomegranates in alien soil. | These saplings can help you grow a few groves of Pomegranates in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片石榴林。</Text>
     </Text>
     <Text>
       <GUID>1404001176</GUID>
@@ -3492,12 +3577,12 @@
     </Text>
     <Text>
       <GUID>1404001224</GUID>
-      <!-- Text | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. | Norias need to be build at a distance from eachother. They pump water from underground aquifiers, that would otherwise eventually run dry. -->
+      <!-- Text | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. | Norias need to be built at a distance from each other. They pump water from underground aquifers that would otherwise eventually run dry. -->
       <Text>諾裡亞斯需要彼此保持一定距離。他們從地下含水層抽水，否則這些水最終會枯竭。</Text>
     </Text>
     <Text>
       <GUID>1404001225</GUID>
-      <!-- Text | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. | Consulates are the main way for communication to the sultan. They create the nessecary paperwork for approval to build advanced buildings. -->
+      <!-- Text | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. | Consulates are the main channel of communication with the sultan. They create the necessary paperwork for approval to build advanced buildings. -->
       <Text>領事館是與蘇丹溝通的主要途徑。他們創建必要的文件以供批准建造先進建築。</Text>
     </Text>
     <Text>
@@ -3507,8 +3592,2153 @@
     </Text>
     <Text>
       <GUID>1404001227</GUID>
-      <!-- Text | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. | Envoys are curious of new wares and inventions of the industrial age. Marketstalls are a great way of showing them off and letting envoys try them out. -->
+      <!-- Text | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. | Envoys are curious about the new wares and inventions of the industrial age. Market stalls are a great way of showing them off and letting envoys try them out. -->
       <Text>使節們對工業時代的新商品和發明感到好奇。市場攤位是展示它們並讓使節嘗試的好方法。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001275</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_TraditionKeeper1_Invitation_Decision | Honoured Guests — Matters of Protocol -->
+      <Text>貴客臨門：禮儀問題</Text>
+    </Text>
+    <Text>
+      <GUID>1404001276</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart | Murad Bey of the Coast arrives within the month, and you, Governor, do not even know where to seat a guest! Sit down. We have work to do. -->
+      <Text>海岸的穆拉德·貝伊一個月內就到，而你，總督，連客人該坐哪裡都不知道！坐下。我們有得忙了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001277</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_RightChoice | Correct! The seat of honour, far from the door and the draught. Perhaps you are not entirely hopeless after all. -->
+      <Text>正確！上座遠離門口，也遠離穿堂風。看來你也不是完全無可救藥。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001278</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_WrongChoice | Wrong! Do you want Murad Bey to tell the entire Diwan that Wadi Al Zahir is governed by barbarians? -->
+      <Text>錯！你是想讓穆拉德·貝伊告訴整個迪萬議會，Wadi Al Zahir是由野蠻人治理的嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001279</GUID>
+      <!-- AudioText | RQ_Envoy_Invitation_QuestStart2 | A simple question. The Bey enters your reception hall. Where do you seat him? -->
+      <Text>一個簡單的問題。貝伊走進你的會客廳。你讓他坐在哪裡？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001280</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Story | <b>For thirty years, Nureddin Efendi arranged the Sultan's audiences,</b> deciding who bowed when, who sat where and who was kept waiting. Now Murad Bey, an influential member of the Diwan in the capital, has announced a visit to Wadi Al Zahir, and the old master of ceremonies is horrified to learn that the governor has never received a guest of rank. -->
+      <Text>&lt;b&gt;三十年來，努爾丁·埃芬迪一直為蘇丹安排覲見，&lt;/b&gt;決定誰何時鞠躬、誰坐在哪裡、誰要等候。如今，首都迪萬議會中頗具影響力的議員穆拉德·貝伊宣布將造訪Wadi Al Zahir，而這位老司儀驚恐地發現，總督從未接待過任何貴賓。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001283</GUID>
+      <!-- Text | RQ_Envoy_Invitation_WrongChoiceSummary | Nureddin Efendi throws up his hands in despair at your ignorance of protocol. -->
+      <Text>你對禮儀的無知讓努爾丁·埃芬迪絕望地攤開雙手。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001284</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_DecisionText | Nureddin Efendi: In the capital, a guest's seat says more than a hundred compliments. Seat a Bey poorly and the whole Diwan will hear of it before his coffee is cold. So tell me: <b>when Murad Bey enters your hall, where will you seat him?</b> -->
+      <Text>努爾丁·埃芬迪：在首都，客人的座位比一百句恭維話更能說明問題。讓貝伊坐錯了位置，他的咖啡還沒涼，整個迪萬議會就都知道了。所以告訴我：&lt;b&gt;穆拉德·貝伊走進你的大廳時，你讓他坐在哪裡？&lt;/b&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1404001286</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision2 | At my right hand at the head of the table, as is done at Western banquets. -->
+      <Text>在我右手邊的主桌上首，就像西方宴會那樣。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001287</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision3 | In the corner farthest from the door, on the finest cushions — the seat of honour. -->
+      <Text>在離門最遠的角落，坐最好的坐墊——那是上座。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001288</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary2 | The Envoy tests your knowledge of how a guest of rank is received. -->
+      <Text>特使在考驗你是否懂得如何接待貴賓。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001289</GUID>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Invitation_Objective | Tell the Envoy where you would seat the guest of honour -->
+      <Text>告訴特使你會讓主賓坐在哪裡</Text>
+    </Text>
+    <Text>
+      <GUID>1404001290</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper2_BullCeremony_Picturepuzzle | Honoured Guests — Horns of Honour -->
+      <Text>貴客臨門：榮譽之角</Text>
+    </Text>
+    <Text>
+      <GUID>1404001291</GUID>
+      <!-- AudioText | RQ_Envoy_BullLeapingCeremony_QuestStart | Murad Bey adores the bull-butting contests of his coast. If he is to remember this visit fondly, we must stage one for him — and we have not a single bull worth the name! -->
+      <Text>穆拉德·貝伊酷愛他家鄉海岸的鬥牛。要讓他對這次造訪留下美好回憶，我們就得為他辦一場——可我們連一頭像樣的公牛都沒有！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001292</GUID>
+      <!-- CollectablePicturePuzzle | Wild bull | Wild Bull -->
+      <Text>野公牛</Text>
+    </Text>
+    <Text>
+      <GUID>1404001293</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_Story | <b>On the coast, bull-butting is a passion,</b> and Murad Bey is said never to miss a contest. Nureddin Efendi intends to stage one in his honour, with the finest bulls of the province pushing horn against horn while the guests watch from shaded stands. There is only one problem: the finest bulls of the province are still running wild on the outskirts of the city. -->
+      <Text>&lt;b&gt;在海岸地區，鬥牛是一種狂熱，&lt;/b&gt;據說穆拉德·貝伊從不錯過任何一場。努爾丁·埃芬迪打算為他辦一場：讓本省最好的公牛角對角地較量，賓客們則在遮陽的看台上觀賞。只有一個問題：本省最好的公牛還在城郊野地裡亂跑呢。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001303</GUID>
+      <!-- Text | RQ_Envoy_TraditionKeeper_Aida_Objective | Find out where Leyla, the Envoy's niece, is hiding -->
+      <Text>查明特使的姪女蕾拉躲在哪裡</Text>
+    </Text>
+    <Text>
+      <GUID>1404001304</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays1_TakeChristmasAway_Picturepuzzle | Young Masters — Trinkets from the West -->
+      <Text>少爺們：西方的玩意兒</Text>
+    </Text>
+    <Text>
+      <GUID>1404001305</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStart | The last courier brought gifts for the envoys' children from their relatives at court: tin soldiers, music boxes, mechanical birds from the West! How are they to learn patience and modesty with such toys? -->
+      <Text>上一批信使給特使們的孩子帶來了宮廷親戚送的禮物：錫兵、音樂盒，還有西方的機械鳥！玩著這些玩具，他們怎麼學得會耐心和謙遜？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001306</GUID>
+      <!-- AudioText | AT_ADDON01_res2_Quest_Success1 | Into the consulate's archive with them. The children may have them back once they can recite the lineage of the Sultan's house without a single mistake. -->
+      <Text>統統放進領事館的檔案室。等孩子們能一字不差地背出蘇丹家族的世系，再還給他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001307</GUID>
+      <!-- CollectablePicturePuzzle | Pile of gifts | Pile of Western Toys -->
+      <Text>一堆西方玩具</Text>
+    </Text>
+    <Text>
+      <GUID>1404001308</GUID>
+      <!-- Text | ST_QuestSuccessful_1 - f | [AssetData([NotificationContext CharacterGUID]) Text] thanks you for your help. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]感謝你的協助。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001309</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_Story | <b>Selim Efendi once taught the sons of viziers,</b> and he has firm opinions on how future servants of the Sultan should be raised: with calligraphy, poetry and history — not with clockwork. Now that the envoys' children have received a crate of Western toys from their relatives at court, he asks you to quietly collect them before the young masters forget their lessons entirely. -->
+      <Text>&lt;b&gt;塞利姆·埃芬迪曾教導過維齊爾們的兒子，&lt;/b&gt;對於如何培養蘇丹未來的臣僕，他有著堅定的看法：要用書法、詩歌和歷史，而不是發條機械。如今特使的孩子們從宮廷親戚那裡收到了一整箱西方玩具，他請你在少爺們把功課忘得一乾二淨之前，悄悄把玩具收走。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001314</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStart | A future vizier who has never seen a loom, a date grove or a camel herd? Unthinkable! The children shall see how the wealth of the realm is made — if we can find them. -->
+      <Text>一個從沒見過織布機、椰棗林和駱駝群的未來維齊爾？簡直不可想像！孩子們要親眼看看王國的財富是怎麼來的——前提是我們能找到他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001316</GUID>
+      <!-- CollectablePicturePuzzle | Children playing | Truant Children -->
+      <Text>逃學的孩子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001317</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_Story | <b>The envoys' children can name every vizier in the capital,</b> but they know nothing about the province they live in. Selim Efendi intends to change that with a lesson outside the classroom: a visit to the carpet weavers, the date groves and the camel herds. His pupils, however, have caught wind of the plan and scattered across the city. -->
+      <Text>&lt;b&gt;特使的孩子們能說出首都每一位維齊爾的名字，&lt;/b&gt;卻對自己所住的省份一無所知。塞利姆·埃芬迪打算用一堂課外課來改變這一點：參觀地毯織工、椰棗林和駱駝群。然而，他的學生們聽到了風聲，四散到了城裡各處。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001318</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestBookHint | The children are usually playing near the Envoys' houses -->
+      <Text>孩子們通常在特使住宅附近玩耍</Text>
+    </Text>
+    <Text>
+      <GUID>1404001319</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestStartSummary | Envoy Selim Efendi wants to show the envoys' children where the wealth of the realm comes from. -->
+      <Text>特使塞利姆·埃芬迪想讓特使的孩子們看看王國的財富從何而來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001320</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestCompleteSummary | Selim Efendi is pleased with the outing — and somewhat alarmed by how little his pupils knew. -->
+      <Text>塞利姆·埃芬迪對這次出遊很滿意——也對學生們的無知有些吃驚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001321</GUID>
+      <!-- Quest | RQ_Envoys_KidsNowadays3_PublicConfession_Photo | Young Masters — The Forged Seal -->
+      <Text>少爺們：偽造的印章</Text>
+    </Text>
+    <Text>
+      <GUID>1404001322</GUID>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestStart | Young Rustam pressed his father's seal onto a letter to the Grand Vizier — asking for a pony! He shall apologise before the whole quarter, and you shall photograph it for the archive. -->
+      <Text>小魯斯塔姆在給大維齊爾的信上蓋了他父親的印章——信裡要的是一匹小馬！他要當著整個街區的面道歉，而你要拍下照片存檔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001323</GUID>
+      <!-- AudioText | RQ_Envoy_Photo_PublicConfession_QuestComplete | Well done. The photograph goes to the capital with our apologies. Let us hope the Grand Vizier has a sense of humour... and no spare ponies. -->
+      <Text>做得好。照片會隨我們的道歉信一起寄往首都。但願大維齊爾有幽默感……而且沒有多餘的小馬。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001324</GUID>
+      <!-- CollectablePicturePuzzle | Public confession | Public Apology -->
+      <Text>公開道歉</Text>
+    </Text>
+    <Text>
+      <GUID>1404001325</GUID>
+      <!-- Text | RQ_Farmers_Wedding_HintText | What a beautiful day for a wedding! Take one of them photographs for the happy couple at the church, will ye? -->
+      <Text>What a beautiful day for a wedding! Take one of them photographs for the happy couple at the church, will ye?</Text>
+    </Text>
+    <Text>
+      <GUID>1404001326</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_Story | <b>In the Sultanate, a seal is a man's word and his honour.</b> So when the son of an envoy pressed his father's seal onto a letter of his own composition — addressed to the Grand Vizier and requesting a pony — Selim Efendi decided that a stern lesson was in order. The boy is to apologise publicly in the courtyard of the mosque, and a photograph of the occasion will accompany the consulate's letter of apology to the capital. -->
+      <Text>&lt;b&gt;在蘇丹國，印章就是一個男人的承諾和榮譽。&lt;/b&gt;因此，當一位特使的兒子把父親的印章蓋在一封自己寫的信上——收信人是大維齊爾，內容是討要一匹小馬——塞利姆·埃芬迪認為必須給他一個嚴厲的教訓。男孩將在清真寺的庭院裡公開道歉，這一場面的照片將附在領事館寄往首都的道歉信中。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001327</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestBookHint | The apology is to take place in the courtyard of the mosque. -->
+      <Text>道歉將在清真寺的庭院中進行。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001328</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestStartSummary | Envoy Selim Efendi wants you to photograph a boy's public apology for misusing his father's seal. -->
+      <Text>特使塞利姆·埃芬迪要你拍下一個濫用父親印章的男孩公開道歉的照片。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001329</GUID>
+      <!-- Text | RQ_Envoy_Photo_PublicConfession_QuestCompleteSummary | Selim Efendi is satisfied that the boy has learned what a seal is worth. -->
+      <Text>塞利姆·埃芬迪很滿意，男孩終於明白了印章的分量。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001330</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_IamTheSenate1_Speech_Decision | Diwan Intrigues — The Speech -->
+      <Text>迪萬風雲：演講</Text>
+    </Text>
+    <Text>
+      <GUID>1404001331</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestStart | At last, the Diwan of Wadi Al Zahir has granted me a seat! My inaugural speech must be flawless — the Grand Vizier reads every report from the provinces. -->
+      <Text>Wadi Al Zahir的迪萬議會終於給了我一個席位！我的就職演講必須完美無缺——大維齊爾會讀每一份來自各省的報告。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001332</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestSuccess | It is done. If the Diwan is not moved by this, they have hearts of stone. Thank you, Governor. -->
+      <Text>大功告成。如果這都打動不了迪萬議會，那他們的心就是石頭做的。謝謝你，總督。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001333</GUID>
+      <!-- AudioText | RQ_Envoy_Decision_TheSpeech_QuestBadChoice2 | Are you mad? Half of them were born here! You want me to tell them I am counting the days until I can leave? -->
+      <Text>你瘋了嗎？他們一半人就是在這裡出生的！你要我告訴他們我在數著日子等著離開？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001334</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestStartSummary | Envoy Kemal Bey has been given a seat in the city's Diwan and wants your help with his inaugural speech. -->
+      <Text>特使凱末爾·貝伊在城市的迪萬議會中獲得了一個席位，希望你幫他準備就職演講。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001335</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1 | Kemal Bey: 'They say that in the Diwan, the first words decide everything. I shall rise, bow to the chair and address them as "Esteemed brothers of the Diwan"... and then? <b>How should I begin?</b>' -->
+      <Text>凱末爾·貝伊：「人們說，在迪萬議會裡，第一句話決定一切。我會起身，向議長鞠躬，稱呼他們『尊敬的迪萬兄弟們』……然後呢？&lt;b&gt;我該怎麼開頭？&lt;/b&gt;」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001336</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Story | <b>Kemal Bey was once a promising secretary at the Sultan's court,</b> until an unfortunate incident involving a cup of coffee and the Grand Vizier's finest kaftan saw him posted to the furthest corner of the Sultanate. A seat in the provincial Diwan is his first step back to the capital, and his inaugural speech must make an impression that travels all the way there. -->
+      <Text>&lt;b&gt;凱末爾·貝伊曾是蘇丹宮廷中前途無量的書記官，&lt;/b&gt;直到一杯咖啡和大維齊爾最好的長袍引發了一場不幸的意外，他被發配到了蘇丹國最偏遠的角落。省迪萬議會的席位是他重返首都的第一步，他的就職演講必須留下一個能傳到首都的印象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001337</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2 | Kemal Bey: 'Good. Now the substance — what my first mandate shall be. The Grand Vizier will read this, remember. <b>What should I promise them?</b>' -->
+      <Text>凱末爾·貝伊：「好。現在說正題——我的第一項主張是什麼。別忘了，大維齊爾會讀到的。&lt;b&gt;我該向他們承諾什麼？&lt;/b&gt;」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001338</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3 | Kemal Bey: 'And the closing words... they must be remembered. Something worthy of being quoted in the capital. <b>How should I end?</b>' -->
+      <Text>凱末爾·貝伊：「還有結束語……必須讓人記住。要值得在首都被引用。&lt;b&gt;我該怎麼結尾？&lt;/b&gt;」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001339</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision1 | '...I am humbled that you have finally taken notice of me...' -->
+      <Text>「……我很榮幸，諸位終於注意到我了……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001340</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision2 | '...together, we shall make this province the envy of the capital...' -->
+      <Text>「……讓我們攜手，使本省成為首都羨慕的對象……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001341</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech1Decision3 | '...after many years of patient service, I stand before you at last...' -->
+      <Text>「……在多年耐心效力之後，我終於站在了諸位面前……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001342</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision1 | '...to lighten the burdens of the Nomads, whose labour feeds this province...' -->
+      <Text>「……減輕遊牧民的負擔，正是他們的勞作養活了本省……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001343</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision2 | '...to extend the reach of our mosques, so that no quarter is beyond the call to prayer...' -->
+      <Text>「……擴大清真寺的涵蓋範圍，讓每個街區都能聽到喚拜聲……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001344</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech2Decision3 | '...to make life in Wadi Al Zahir worthy of the Sultan's servants...' -->
+      <Text>「……讓Wadi Al Zahir的生活配得上蘇丹的臣僕……」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001345</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision1 | '...may the Diwan of Wadi Al Zahir one day be spoken of in the same breath as the Diwan of the capital!' -->
+      <Text>「……願有朝一日，Wadi Al Zahir的迪萬議會能與首都的迪萬議會相提並論！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001346</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision2 | '...I shall serve this Diwan as faithfully as I once served the Sultan's own household!' -->
+      <Text>「……我將像當年侍奉蘇丹宮廷那樣，忠心耿耿地為這個迪萬議會效力！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001347</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_Speech3Decision3 | '...I shall not rest until I am recalled to the capital and never have to see this dusty province again!' -->
+      <Text>「……在被召回首都、再也不用看到這個塵土飛揚的省份之前，我絕不罷休！」</Text>
+    </Text>
+    <Text>
+      <GUID>1404001348</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_QuestSuccessSummary | Kemal Bey thanks you for your help with his speech. -->
+      <Text>凱末爾·貝伊感謝你幫他準備演講。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001349</GUID>
+      <!-- Text | RQ_Envoy_Decision_TheSpeech_BadChoice2Summary | Kemal Bey is not amused — even if the suggestion was uncomfortably close to the truth. -->
+      <Text>凱末爾·貝伊一點也不覺得好笑——儘管這個建議離真相近得令人不安。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001350</GUID>
+      <!-- Text | RQ_Envoy_IAmTheSenate_Speech_Objective | Help the Envoy write his speech for the Diwan -->
+      <Text>幫助特使撰寫在迪萬議會的演講</Text>
+    </Text>
+    <Text>
+      <GUID>1404001351</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate2_StuffBallots_Select | Diwan Intrigues — White Pebbles -->
+      <Text>迪萬風雲：白色石子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001352</GUID>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestStart | My first proposal comes before the Diwan tomorrow, and I am three pebbles short of a majority. Surely the governor knows where the voting urn is kept? -->
+      <Text>我的第一項提案明天就要提交迪萬議會了，可我還差三顆石子才能過半數。總督想必知道投票罐放在哪裡吧？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001353</GUID>
+      <!-- AudioText | RQ_Envoy_Select_StuffTheBallot_QuestSuccess | Passed by a majority of four! Although... I do wonder how eleven members managed to cast fourteen pebbles. -->
+      <Text>以四票優勢通過！不過……我倒是好奇，十一名議員是怎麼投出十四顆石子的。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001354</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestStartSummary | Envoy Kemal Bey wants your help to make sure the Diwan's vote goes his way. -->
+      <Text>特使凱末爾·貝伊希望你幫忙，讓迪萬議會的投票結果對他有利。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001355</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_QuestSuccessSummary | Kemal Bey's petition passes the Diwan — with a suspicious number of pebbles. -->
+      <Text>凱末爾·貝伊的請願在迪萬議會獲得通過——石子數量很可疑。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001356</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Story | <b>In the Diwan of Wadi Al Zahir, votes are cast with pebbles:</b> white for yes, black for no, dropped into an old copper urn at the Town Hall. Kemal Bey's first proposal — a petition asking the capital for funds to pave the road to the harbour — is three pebbles short of a majority, and he has asked you to 'take care of' the urn before the count. -->
+      <Text>&lt;b&gt;在Wadi Al Zahir的迪萬議會，人們用石子投票：&lt;/b&gt;白色代表贊成，黑色代表反對，投進市政廳裡一只古老的銅罐。凱末爾·貝伊的第一項提案——向首都申請資金鋪設通往港口的道路——還差三顆石子才能過半數，於是他請你在計票前「處理一下」那只罐子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001357</GUID>
+      <!-- Text | RQ_Envoy_Select_StuffTheBallot_Fraud | Swap a few black pebbles in the voting urn at the Town Hall -->
+      <Text>到市政廳調換投票罐裡的幾顆黑石子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001358</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate3_RuiningReputation_Select | Diwan Intrigues — The Shadow -->
+      <Text>迪萬風雲：影子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001362</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestStart | Tariq Bey voted against my petition. Twice! No man is that principled without a reason. Follow him, and we shall see who pays him. -->
+      <Text>塔里克·貝伊投票反對我的請願。兩次！沒人會無緣無故這麼講原則。跟蹤他，我們看看是誰在給他錢。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001363</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_QuestComplete | Apricots. He bought apricots. For his mother. ...Nobody is that innocent. I shall find something, mark my words! -->
+      <Text>杏子。他買了杏子。給他母親的。……沒人會這麼清白。我一定會找到點什麼，你記住我的話！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001364</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_LeaveKontor | There he is, fresh off the boat! Follow him — and do try to look inconspicuous. -->
+      <Text>他在那裡，剛下船！跟上他——盡量別引人注意。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001365</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachTownHall | The clerks at the Town Hall! He is bribing them, I know it. Watch for an envelope! -->
+      <Text>市政廳的書記員！他在收買他們，我就知道。盯緊有沒有信封！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001366</GUID>
+      <!-- AudioText | RQ_Envoy_Select_RuinAReputation_ReachMarket | Now he is paying the fruit seller... far too much for a bag of apricots. Is that a coded message? -->
+      <Text>現在他在付錢給水果販……一袋杏子付這麼多也太多了。難道是暗號？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001367</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestStartSummary | Envoy Kemal Bey suspects his rival Tariq Bey of secret dealings and asks you to follow him. -->
+      <Text>特使凱末爾·貝伊懷疑他的對手塔里克·貝伊有秘密交易，請你跟蹤他。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001368</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary | Tariq Bey turns out to be disappointingly honest. Kemal Bey refuses to believe it. -->
+      <Text>塔里克·貝伊原來正直得令人失望。凱末爾·貝伊拒絕相信。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001369</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_Story | <b>Tariq Bey has opposed every proposal Kemal Bey has made,</b> and Kemal Bey is convinced that nobody is that principled without a reason. He suspects bribes from the foreign merchants at the harbour, or perhaps secret letters to the Grand Vizier. Either would be the end of Tariq Bey's career — if only someone could prove it. -->
+      <Text>&lt;b&gt;塔里克·貝伊反對凱末爾·貝伊的每一項提案，&lt;/b&gt;而凱末爾·貝伊堅信，沒人會無緣無故這麼講原則。他懷疑塔里克收受了港口外國商人的賄賂，或者在給大維齊爾寫密信。無論哪一條，都足以終結塔里克·貝伊的仕途——只要有人能證明。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001370</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_QuestBookHint | Tariq Bey arrives at the harbour every morning, calls at the Town Hall and then strolls over to the Marketplace. -->
+      <Text>塔里克·貝伊每天早上抵達港口，去市政廳轉一圈，然後溜達到市場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001371</GUID>
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy | Select Tariq Bey to start following him -->
+      <Text>選取塔里克·貝伊，開始跟蹤他</Text>
+    </Text>
+    <Text>
+      <GUID>1404001372</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary | Kemal Bey is certain that Tariq Bey will soon show his true colours. -->
+      <Text>凱末爾·貝伊確信塔里克·貝伊很快就會露出真面目。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001373</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary | Tariq Bey spends a long time with the clerks at the Town Hall. Kemal Bey smells bribery. -->
+      <Text>塔里克·貝伊和市政廳的書記員們談了很久。凱末爾·貝伊嗅到了賄賂的味道。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001374</GUID>
+      <!-- Text | RQElder_RuinAReputation_TailingTheEnvoy2 | Follow Tariq Bey through the city without being noticed -->
+      <Text>在城中跟蹤塔里克·貝伊，不要被發現</Text>
+    </Text>
+    <Text>
+      <GUID>1404001375</GUID>
+      <!-- Text | RQ_Envoy_Select_RuinAReputation_ReachMarketSummary | At the Marketplace, Tariq Bey stops at a fruit stall. Kemal Bey holds his breath. -->
+      <Text>在市場上，塔里克·貝伊在一個水果攤前停了下來。凱末爾·貝伊屏住了呼吸。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001376</GUID>
+      <!-- Quest | RQ_Envoy_IamTheSenate5_DuraLexSedLex_StatusQuo | Diwan Intrigues — Stern Decrees -->
+      <Text>迪萬風雲：嚴厲的法令</Text>
+    </Text>
+    <Text>
+      <GUID>1404001377</GUID>
+      <!-- AudioText | RQ_Envoy_Sustain_DuraLexSedLex_QuestStart | Word from the capital: the Grand Vizier has given up the hookah! Naturally, every ambitious official in the Sultanate now despises it. Wadi Al Zahir must show the same virtue — and more besides! -->
+      <Text>首都傳來消息：大維齊爾戒掉水煙了！自然，蘇丹國每個有野心的官員如今都對它嗤之以鼻。Wadi Al Zahir必須展現同樣的美德——而且要更勝一籌！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001378</GUID>
+      <!-- Text | SustainWorkingConditions_Above_NonSpecific | Sustain across the region:<br/>Working Conditions above [Conditions QuestCondition Amount] for [Conditions QuestCondition TimeLimit >> time] -->
+      <Text>在這個地區維持：&lt;br/&gt;工作條件 [Conditions QuestCondition Amount] 以上，持續[Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001379</GUID>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_QuestStartSummary | Envoy Kemal Bey wants to impress the Grand Vizier with decrees on diligence, piety and abstinence. -->
+      <Text>特使凱末爾·貝伊想用關於勤勉、虔誠和節制的法令給大維齊爾留下深刻印象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001380</GUID>
+      <!-- Text | RQ_Envoy_Sustain_DuraLexSedLex_Story | <b>With Tariq Bey away on a long journey to the capital,</b> Kemal Bey finally dominates the Diwan, and he intends to make the most of it. Rumour has it that the Grand Vizier has renounced tobacco, and Kemal Bey hopes that a province of diligent workers, new mosques and cold hookahs will earn him a glowing mention in the next report to the capital. -->
+      <Text>&lt;b&gt;塔里克·貝伊遠赴首都，要很久才回來，&lt;/b&gt;凱末爾·貝伊終於在迪萬議會中占了上風，他打算充分利用這一點。傳聞大維齊爾已經戒了菸草，凱末爾·貝伊希望一個滿是勤勞工人、新清真寺和冷掉的水煙袋的省份，能讓他在下一份呈報首都的報告中獲得盛讚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001381</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature1_Gold_Deliver | A Pasha's Legacy — Tiles of Glory -->
+      <Text>帕夏的遺產：榮耀之磚</Text>
+    </Text>
+    <Text>
+      <GUID>1404001382</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestStart | In the capital, every pasha of standing has a mosque that bears his name. Here, I have a whitewashed wall! Bring me mosaic tiles, and the Sultanate shall learn who Faruq Pasha is. -->
+      <Text>在首都，每位有頭有臉的帕夏都有一座以自己名字命名的清真寺。而我在這裡只有一面刷白的牆！給我拿馬賽克磁磚來，讓整個蘇丹國都知道法魯克·帕夏是誰。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001383</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_Gold_QuestComplete | Look at it! Blue and gold, and my name above the prayer niche. Generations will pray beneath it — and remember me. -->
+      <Text>瞧瞧！藍色和金色，米哈拉布上方是我的名字。世世代代的人都將在它下面祈禱——並記住我。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001384</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_Story | <b>Faruq Pasha once governed a province rich in olives and silk,</b> until a dispute over missing taxes saw him demoted to a mere envoy in Wadi Al Zahir. He has not forgotten his former glory, and he intends to regain it the way great pashas always have: by founding a pious endowment with his name written above its door — in glittering tiles, naturally. -->
+      <Text>&lt;b&gt;法魯克·帕夏曾治理過一個盛產橄欖和絲綢的富庶省份，&lt;/b&gt;直到一場關於稅款失蹤的糾紛讓他被貶為Wadi Al Zahir的一名普通特使。他沒有忘記昔日的榮耀，並打算像偉大的帕夏們一貫所做的那樣把它找回來：創立一處宗教慈善基金，將自己的名字刻在大門上方——當然，要用閃閃發光的磁磚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001385</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestStartSummary | Envoy Faruq Pasha wants mosaic tiles to adorn the mosque with his name. -->
+      <Text>特使法魯克·帕夏想要馬賽克磁磚，把他的名字裝飾在清真寺上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001386</GUID>
+      <!-- Text | RQ_Envoy_Delivery_Gold_QuestCompleteSummary | Faruq Pasha admires his name in the mosaic of the mosque. -->
+      <Text>法魯克·帕夏欣賞著清真寺馬賽克中自己的名字。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001387</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature2_Beggars_Picturepuzzle | A Pasha's Legacy — Gated Paradise -->
+      <Text>帕夏的遺產：門禁樂園</Text>
+    </Text>
+    <Text>
+      <GUID>1404001388</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestStart | Dignitaries from the capital are coming to see my mosque — and what will they find at the gate? Beggars! Have them removed before they spoil everything. -->
+      <Text>首都的達官顯貴要來參觀我的清真寺——他們會在大門口看到什麼？乞丐！在他們把一切都搞砸之前，把他們趕走。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001389</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_QuestComplete | There. Now my guests will see marble and mosaic, and nothing that offends the eye. -->
+      <Text>好了。現在我的客人只會看到大理石和馬賽克，沒有任何礙眼的東西。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001390</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Beggars_BeggarAudio | We heard that a great pasha had founded an endowment here. Is it not the duty of an endowment to feed the poor? -->
+      <Text>我們聽說有位大帕夏在這裡設立了慈善基金。慈善基金難道不該接濟窮人嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001391</GUID>
+      <!-- CollectablePicturePuzzle | Beggars | Poor Nomads -->
+      <Text>貧窮的遊牧民</Text>
+    </Text>
+    <Text>
+      <GUID>1404001392</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Story | <b>Faruq Pasha's endowment is to be visited by dignitaries from the capital,</b> and he wants everything to be perfect. To his dismay, a group of poor Nomads has gathered at the mosque gates — drawn, ironically, by the rumour that a pasha's endowment brings alms for the needy. -->
+      <Text>&lt;b&gt;首都的達官顯貴即將參觀法魯克·帕夏的慈善基金，&lt;/b&gt;他希望一切都完美無缺。令他沮喪的是，一群貧窮的遊牧民聚集在清真寺門口——諷刺的是，吸引他們的正是「帕夏的慈善基金會給窮人施捨」的傳聞。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001393</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestBookHint | The beggars are gathered around the gates of the mosque -->
+      <Text>乞丐們聚集在清真寺大門周圍</Text>
+    </Text>
+    <Text>
+      <GUID>1404001394</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_Beggars | Send the beggars away: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>打發乞丐離開：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001395</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestStartSummary | Envoy Faruq Pasha wants the beggars gone from the gates of 'his' mosque. -->
+      <Text>特使法魯克·帕夏希望乞丐們從「他的」清真寺門口消失。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001396</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Beggars_QuestCompleteSummary | The gates are clear, and Faruq Pasha is satisfied — for now. -->
+      <Text>大門口清淨了，法魯克·帕夏很滿意——暫時如此。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001397</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature3_HelpingIndigents_Deliver | A Pasha's Legacy — The Soup Kitchen -->
+      <Text>帕夏的遺產：施粥棚</Text>
+    </Text>
+    <Text>
+      <GUID>1404001398</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStart | The Imam reminds me that a true endowment feeds the poor. Very well — I shall hand out dates at the mosque. But the Consulate must witness it, or how will the capital ever know? -->
+      <Text>伊瑪目提醒我，真正的慈善基金要接濟窮人。好吧——我會在清真寺分發椰棗。但領事館必須到場見證，不然首都怎麼會知道？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001399</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_HelpingTheIndigent_QuestComplete | The officials wrote down every single date I handed out! And the Imam praised my generosity before the whole congregation. The capital will hear of this. -->
+      <Text>官員們把我分發的每一顆椰棗都記下來了！伊瑪目還當著全體會眾的面稱讚了我的慷慨。首都會聽說這件事的。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001400</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestStartSummary | Envoy Faruq Pasha wants to hand out dates to the poor — in front of as many officials as possible. -->
+      <Text>特使法魯克·帕夏想向窮人分發椰棗——當著盡可能多的官員的面。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001401</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_QuestCompleteSummary | Faruq Pasha is delighted that his charity has been officially recorded. -->
+      <Text>法魯克·帕夏很高興他的善舉被正式記錄在案。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001402</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_Story | <b>The Imam's Friday sermon on charity struck a nerve,</b> and Faruq Pasha has decided that his endowment shall feed the poor after all. He needs dates to hand out at the mosque — and, just as importantly, the presence of the Consulate's officials, so that his generosity is recorded in the next report to the capital. -->
+      <Text>&lt;b&gt;伊瑪目關於施捨的主麻日講道觸動了法魯克·帕夏，&lt;/b&gt;他決定讓他的慈善基金終究還是要接濟窮人。他需要椰棗在清真寺分發——同樣重要的是，還需要領事館的官員到場，好讓他的慷慨被記錄在下一份呈報首都的報告中。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001403</GUID>
+      <!-- Text | RQ_Envoy_Delivery_HelpingTheIndigent_CallingAllStations | Select the Consulate and invite the officials to witness the Pasha's charity -->
+      <Text>選取領事館，邀請官員們見證帕夏的善舉</Text>
+    </Text>
+    <Text>
+      <GUID>1404001404</GUID>
+      <!-- Text | RQ_Envoy_Delviery_HelpingTheIndigent_Invitation | <i>Draft of a report, in Faruq Pasha's hand:</i><br/><br/>...and, moved by boundless compassion, the most noble Faruq Pasha personally fed the poor of Wadi Al Zahir, who wept with gratitude and blessed his name... <i>(the rest has been crossed out and rewritten three times)</i> -->
+      <Text>&lt;i&gt;法魯克·帕夏親筆所寫的報告草稿：&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;……懷著無邊的慈悲，最高貴的法魯克·帕夏親手賑濟了Wadi Al Zahir的窮人，他們感激涕零，為他的名字祝福…… &lt;i&gt;（其餘部分被劃掉並重寫了三次）&lt;/i&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1404001405</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature4A_TimqetFestival_Deliver | A Pasha's Legacy — Festive Splendour -->
+      <Text>帕夏的遺產：節日盛景</Text>
+    </Text>
+    <Text>
+      <GUID>1404001406</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestStart | This year, the Eid reception shall be held in a pavilion such as Wadi Al Zahir has never seen! Everyone of rank will attend — and they will remember who invited them. -->
+      <Text>今年的開齋節招待會將在一座Wadi Al Zahir前所未見的大帳中舉行！所有有身分的人都會來——而且他們會記住是誰邀請了他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001407</GUID>
+      <!-- AudioText | RQ_Envoy_Delivery_TimqetFestival_QuestComplete | Silk above, rugs below, lanterns all around... it is almost like home. Let the festivities begin! -->
+      <Text>頭頂是絲綢，腳下是地毯，四周是燈籠……簡直跟家裡一樣。慶典開始吧！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001408</GUID>
+      <!-- CollectablePicturePuzzle | Timqet Celebration | Eid Reception -->
+      <Text>開齋節招待會</Text>
+    </Text>
+    <Text>
+      <GUID>1404001409</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestStartSummary | Envoy Faruq Pasha needs materials for a splendid Eid pavilion at the mosque. -->
+      <Text>特使法魯克·帕夏需要材料，在清真寺搭建一座華麗的開齋節大帳。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001410</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_QuestCompleteSummary | Faruq Pasha opens his Eid pavilion to the dignitaries of the province. -->
+      <Text>法魯克·帕夏向本省的達官顯貴們開放了他的開齋節大帳。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001411</GUID>
+      <!-- Text | RQ_Envoy_Delivery_TimqetFestival_Story | <b>In the capital, the great houses compete to host the most lavish Eid receptions,</b> and Faruq Pasha refuses to be outdone simply because he now lives at the edge of the desert. He is planning a pavilion of palm wood, draped in silk and laid with fine rugs, where the envoys of the province will gather to celebrate — at his invitation. -->
+      <Text>&lt;b&gt;在首都，各大家族競相舉辦最奢華的開齋節招待會，&lt;/b&gt;法魯克·帕夏可不願意僅僅因為如今住在沙漠邊緣就甘拜下風。他計劃搭建一座棕櫚木大帳，掛滿絲綢，鋪上精美的地毯，讓本省的特使們齊聚一堂共同慶祝——當然，是應他的邀請。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001412</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature5_FruitBasket_Select | A Pasha's Legacy — Penance -->
+      <Text>帕夏的遺產：懺悔</Text>
+    </Text>
+    <Text>
+      <GUID>1404001413</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart | It seems my guards turned some Nomads away from the pavilion. The Imam is displeased, the Nomads are angry, and somebody has written to the capital about it! -->
+      <Text>看來我的衛兵把一些遊牧民擋在了大帳外面。伊瑪目很不高興，遊牧民很憤怒，還有人把這事寫信告到了首都！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001414</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBaskete_QuestComplete | It is done. I have been humbler today than in my entire life. I trust the Imam is satisfied. -->
+      <Text>完事了。我今天比這輩子任何時候都要謙卑。希望伊瑪目滿意了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001415</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse1 | Peace be upon this house... please accept this humble basket... -->
+      <Text>願平安降臨此家……請收下這只微薄的籃子……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001416</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse2 | Smile, Faruq. Smile. A pasha's dignity is not measured in fruit. -->
+      <Text>笑啊，法魯克。笑。帕夏的尊嚴不是用水果來衡量的。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001417</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_AudioHouse3 | The last one. If anyone from the capital sees this, I shall never live it down. -->
+      <Text>最後一家了。要是被首都的人看到，我這輩子都抬不起頭來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001418</GUID>
+      <!-- AudioText | RQ_Envoy_Select_FruitBasket_QuestStart2 | If humility is what it takes, then humility I shall show. Come — you will carry the baskets. I will carry my dignity. -->
+      <Text>如果需要謙卑，那我就表現謙卑。來吧——你來提籃子，我來提著我的尊嚴。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001419</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary | Envoy Faruq Pasha must make amends to the Nomads he had turned away from his Eid reception. -->
+      <Text>特使法魯克·帕夏必須向被擋在開齋節招待會外的遊牧民賠罪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001420</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestCompleteSummary | Faruq Pasha survived his round of apologies. His pride did not. -->
+      <Text>法魯克·帕夏撐過了他的賠罪之行。他的驕傲卻沒能撐過去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001421</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_Story | <b>Eid is a feast for everyone,</b> rich and poor alike — yet Faruq Pasha's guards turned the Nomads away from his pavilion. The Imam has rebuked him from the minbar, and the story has spread far beyond the city. To save his reputation, the Pasha must visit the Nomad households in person and offer them gifts of fruit. -->
+      <Text>&lt;b&gt;開齋節是所有人的節日，&lt;/b&gt;無論貧富——然而法魯克·帕夏的衛兵卻把遊牧民趕出了他的大帳。伊瑪目在宣講台上斥責了他，這件事也早已傳出了城外。為了挽回名聲，帕夏必須親自拜訪遊牧民的家庭，向他們贈送水果。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001422</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestBookHint | Select several Nomad houses in a row to go from door to door -->
+      <Text>連續選取幾座遊牧民的房屋，挨家挨戶上門</Text>
+    </Text>
+    <Text>
+      <GUID>1404001423</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_DoorToDoor | Bring baskets of fruit to several Nomad households -->
+      <Text>給幾戶遊牧民家庭送去水果籃</Text>
+    </Text>
+    <Text>
+      <GUID>1404001424</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_SummaryHouse123 | Faruq Pasha forces a smile and hands over a basket of fruit. -->
+      <Text>法魯克·帕夏強擠出笑容，遞上一籃水果。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001425</GUID>
+      <!-- Text | RQ_Envoy_Select_FruitBasket_QuestStartSummary2 | It seems the Envoy expects you to come along... -->
+      <Text>看來特使希望你一起去……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001426</GUID>
+      <!-- Quest | RQ_Envoy_HigherByNature6_Fasting_Sustain | A Pasha's Legacy — The Fast -->
+      <Text>帕夏的遺產：齋戒</Text>
+    </Text>
+    <Text>
+      <GUID>1404001427</GUID>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestStart | The Imam says that one humble day does not cleanse a proud heart. So I shall fast — and give up what is dearest to me. My marzipan. -->
+      <Text>伊瑪目說，一天的謙卑洗不淨一顆驕傲的心。那我就齋戒——放棄我最珍愛的東西。我的杏仁糖。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001428</GUID>
+      <!-- AudioText | RQ_Envoy_Status_Fasting_QuestCompleteEnvoy | A Nomad, absolving a pasha... In the capital, nobody would believe it. Perhaps that is the real lesson. -->
+      <Text>一個遊牧民寬恕了一位帕夏……在首都，沒人會相信的。也許這才是真正的教訓。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001429</GUID>
+      <!-- AudioText | AT_DLC06_NOmad_RQ_Envoy_Status_Fasting_QuestCompleteNomad | Enough, Pasha. You came to our tents with gifts, and we saw that you meant it. Eat your sweets — no one in the desert wishes another man hungry. -->
+      <Text>夠了，帕夏。你帶著禮物來到我們的帳篷，我們看得出你是真心的。吃你的甜點吧——在沙漠裡，沒人希望別人挨餓。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001430</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestStartSummary | Envoy Faruq Pasha wants to give up marzipan as penance. -->
+      <Text>特使法魯克·帕夏想放棄杏仁糖，以示懺悔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001431</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteEnvoySummary | Faruq Pasha accepts the Nomad's forgiveness — and quietly sends for marzipan. -->
+      <Text>法魯克·帕夏接受了遊牧民的寬恕——然後悄悄派人去取杏仁糖。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001432</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_QuestCompleteNomadSummary | A Nomad takes pity on the fasting Pasha and releases him from his vow. -->
+      <Text>一位遊牧民憐憫齋戒中的帕夏，解除了他的誓言。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001433</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Story | <b>His visits to the Nomad households opened Faruq Pasha's eyes,</b> at least a little. He has resolved to do further penance by giving up his greatest indulgence: the marzipan sent to him by the finest confectioners of the capital. Help him resist temptation by keeping the Envoys' supply of marzipan low. -->
+      <Text>&lt;b&gt;拜訪遊牧民家庭讓法魯克·帕夏開了眼界，&lt;/b&gt;至少開了一點。他決心進一步懺悔，放棄他最大的嗜好：首都最好的糕點師傅給他寄來的杏仁糖。請把特使們的杏仁糖供應保持在低水準，幫助他抵禦誘惑。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001434</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Hints | You can prevent the Envoys from consuming a certain good by selecting their residence and setting the Good Consumption level to low. -->
+      <Text>你可以選取特使的住所，把商品消耗等級設為低，以阻止他們消耗某種商品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001435</GUID>
+      <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
+      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001436</GUID>
+      <!-- A7_QuestDecision | RQ_Envoy_Storyteller_Decision | A Thousand and One Lapses -->
+      <Text>一千零一次遺忘</Text>
+    </Text>
+    <Text>
+      <GUID>1404001437</GUID>
+      <!-- AudioText | RQ_Envoy_Storyteller_QuestStart | The children want the tale of the young envoy and the desert emir before bed — but I seem to have forgotten half of it. Help me, before they notice! -->
+      <Text>孩子們睡前想聽年輕特使和沙漠埃米爾的故事——可我好像忘了一半。趁他們還沒發現，快幫幫我！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001438</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_Story | <b>Every evening, the envoys' children gather for a story,</b> and tonight they have asked for the tale of the young envoy and the desert emir. Unfortunately, the storyteller has forgotten some of its most important turns, and the children are already waiting. -->
+      <Text>&lt;b&gt;每天晚上，特使的孩子們都會聚在一起聽故事，&lt;/b&gt;今晚他們點名要聽年輕特使和沙漠埃米爾的故事。不巧的是，講故事的人忘了其中幾處最重要的情節，而孩子們已經在等著了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001439</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_QuestStartSummary | The Envoy needs your help to remember a tale for the children. -->
+      <Text>特使需要你幫忙回想一個講給孩子們聽的故事。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001440</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStart | Once upon a time, the Sultan sent his youngest envoy, Yunus, into the deep desert. There lived a proud emir whose tribes guarded the only well on the caravan road, and without his friendship, no caravan could pass. When Yunus reached the emir's camp, the guards barred his way. Now, Yunus was... err... -->
+      <Text>從前，蘇丹派他最年輕的特使尤努斯深入沙漠。那裡住著一位驕傲的埃米爾，他的部落守護著商路上唯一的水井，沒有他的友誼，任何商隊都無法通過。尤努斯來到埃米爾的營地時，衛兵攔住了他的去路。那麼，尤努斯是……呃……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001441</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleCrafty | Clever with words, so he told the guards a riddle they could not solve. -->
+      <Text>能言善道，於是給衛兵出了一個他們解不開的謎語。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001442</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrong | Proud and impatient, so he demanded entry in the Sultan's name. -->
+      <Text>驕傲又急躁，於是以蘇丹的名義要求進去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001443</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetLion | The guards laughed so hard at the riddle that they led Yunus straight to the emir's tent. The old emir sat beside his favourite falcon and regarded him coldly.<br/>"The Sultan wants my well," he said. "Every caravan that drinks from it makes his merchants rich. What will he give me in return?"<br/>So Yunus... -->
+      <Text>衛兵們被謎語逗得哈哈大笑，直接把尤努斯領進了埃米爾的帳篷。老埃米爾坐在他最心愛的獵鷹旁邊，冷冷地打量著他。&lt;br/&gt;「蘇丹想要我的井，」他說，「每一支從井裡喝水的商隊都讓他的商人發財。他拿什麼來回報我？」&lt;br/&gt;於是尤努斯……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001444</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleShareHoney | Offered the emir a fair share of the caravan tolls. -->
+      <Text>向埃米爾提出分給他一份公平的商隊通行費。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001445</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleUseHoney | Promised the emir a palace of gold he did not have. -->
+      <Text>向埃米爾許諾了一座他根本沒有的黃金宮殿。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001446</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleKindHeart | The emir stroked his falcon for a long while. "You could have promised me the moon," he said at last, "as the Sultan's envoys usually do. Instead, you offer me what is fair."<br/>The treaty was sealed that very night over bitter coffee. The caravans passed safely for a hundred years, and the emir's grandsons and the Sultan's grandsons called each other brothers.<br/>And that is why, to this day, an envoy's word is worth more than his gold. -->
+      <Text>埃米爾久久地撫摸著他的獵鷹。「你本可以向我許諾月亮，」他終於開口，「就像蘇丹的特使們通常做的那樣。可你給我的是公平。」&lt;br/&gt;當晚，兩人就著苦咖啡締結了盟約。此後一百年，商隊一路平安，埃米爾的孫子們和蘇丹的孫子們以兄弟相稱。&lt;br/&gt;所以直到今天，特使的話比他的金子更有分量。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001447</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleSweetChat | The emir's eyes gleamed. "A palace of gold! Very well — my men will guard your caravans until it is built." For a year, the caravans passed in peace. Then the emir travelled to the capital to see his palace... and found nothing but an empty plot of sand.<br/>That is how the War of the Wells began, and it took Yunus the rest of his life to make amends.<br/>And that is why, to this day, an envoy never promises what he cannot give. -->
+      <Text>埃米爾的眼睛亮了起來。「一座黃金宮殿！好吧——在它建成之前，我的人會保護你們的商隊。」整整一年，商隊都平安通過。後來埃米爾前往首都去看他的宮殿……卻只看到一塊空蕩蕩的沙地。&lt;br/&gt;水井之戰就這樣爆發了，尤努斯用餘生才彌補了自己的過錯。&lt;br/&gt;所以直到今天，特使從不許諾自己給不了的東西。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001448</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleMeetSnakes | The guards cared nothing for the Sultan's name. They took Yunus's dagger and left him alone in a tent for the night. Hungry and humiliated, he lay awake — until, in the middle of the night, the tent flap opened and two shadowy figures crept inside.<br/>Despite his fear, Yunus kept his composure and... hmm... -->
+      <Text>衛兵們根本不把蘇丹的名號放在眼裡。他們收走了尤努斯的匕首，把他獨自留在一頂帳篷裡過夜。他又餓又屈辱，輾轉難眠——直到半夜，帳篷的門簾掀開了，兩個黑影悄悄溜了進來。&lt;br/&gt;儘管害怕，尤努斯還是保持鎮定，然後……嗯……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001449</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleStrikeSnakes | Drew a hidden knife and threatened them. -->
+      <Text>拔出藏著的刀，威脅他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001450</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleHushSnakes | Invited them to sit and share his last piece of bread. -->
+      <Text>請他們坐下，和他分享最後一塊麵包。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001451</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleRemorse | "Stay back!" Yunus cried, his knife flashing in the dark. The figures froze — and dropped the plates of food and the pot of coffee they were carrying. They were the emir's own sons, sent to see how the Sultan's envoy would treat strangers in the night.<br/>The next morning, the emir sent Yunus home empty-handed. "A man who greets his guests with a blade," he said, "cannot be trusted with a treaty."<br/>And that is why, to this day, an envoy is judged by how he treats those who cannot help him. -->
+      <Text>「別過來！」尤努斯大喊，刀子在黑暗中寒光一閃。兩個黑影僵住了——手裡端著的食物盤子和咖啡壺都掉在了地上。原來他們是埃米爾的親生兒子，被派來看看蘇丹的特使會如何對待深夜來訪的陌生人。&lt;br/&gt;第二天早上，埃米爾讓尤努斯空手而歸。「一個用刀刃迎接客人的人，」他說，「不能託付盟約。」&lt;br/&gt;所以直到今天，人們評判一位特使，要看他如何對待那些對他毫無用處的人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001452</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_TaleBreakCurse | "Please, sit," said Yunus. "I have little, but what I have is yours." The two figures laughed and raised their lamps: they were the emir's sons, carrying a feast — sent by their father to see how the Sultan's envoy would treat strangers in the night.<br/>At dawn, the emir embraced Yunus like a son. "A man who shares his last bread with a stranger," he said, "may drink from my well forever."<br/>And that is why, to this day, the desert tribes say that hospitality opens more doors than any army. -->
+      <Text>「請坐，」尤努斯說，「我所有不多，但我的就是你們的。」兩個黑影笑了起來，舉起了燈：原來是埃米爾的兒子們，端著一桌盛宴——是他們的父親派來看看蘇丹的特使會如何對待深夜來訪的陌生人的。&lt;br/&gt;黎明時分，埃米爾像擁抱兒子一樣擁抱了尤努斯。「一個願與陌生人分享最後一塊麵包的人，」他說，「可以永遠飲用我井裡的水。」&lt;br/&gt;所以直到今天，沙漠部落都說，好客比任何軍隊都能打開更多的門。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001453</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_End | The End -->
+      <Text>終章</Text>
+    </Text>
+    <Text>
+      <GUID>1404001454</GUID>
+      <!-- Text | RQ_Envoy_Storyteller_Objective | Help the Envoy tell the children a story -->
+      <Text>幫助特使給孩子們講故事</Text>
+    </Text>
+    <Text>
+      <GUID>1404001455</GUID>
+      <!-- Quest | RQ_Envoy_LearningFromThose_Deliver | Burning the Midnight Oil -->
+      <Text>挑燈夜戰</Text>
+    </Text>
+    <Text>
+      <GUID>1404001456</GUID>
+      <!-- AudioText | RQ_Envoy_LearningFromThose_QuestStart | The tax registers must be copied before the courier ship sails, and my scribes are working by smoking oil lamps! Half of them can barely see — and the other half are getting soot on the Sultan's seal! -->
+      <Text>稅冊必須在郵船啟航前抄寫完畢，可我的書記員們卻在冒煙的油燈下工作！一半人幾乎看不清，另一半人把蘇丹的印章燻得滿是煙灰！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001457</GUID>
+      <!-- Text | RQ_Envoy_LearningFromThose_Story | <b>Diplomacy runs on paper,</b> and the Consulate of Wadi Al Zahir produces mountains of it: tax registers, petitions and reports to the capital, each copied by hand and sealed in triplicate. With the courier ship about to sail, the scribes are working through the night by the light of smoking oil lamps. The Envoy asks you for chandeliers before his staff go blind — or, worse, the reports arrive late. -->
+      <Text>&lt;b&gt;外交靠紙張運轉，&lt;/b&gt;而Wadi Al Zahir的領事館產出的紙張堆積如山：稅冊、請願書、呈報首都的報告，每一份都要手工抄寫、一式三份蓋印。郵船即將啟航，書記員們正藉著冒煙的油燈光通宵工作。特使請你提供枝形吊燈，以免他的手下熬瞎了眼——或者更糟，報告送晚了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001458</GUID>
+      <!-- Text | RQ_Envoy_LearningFromThose_QuestStartSummary | The Envoy needs chandeliers so that his scribes can work through the night. -->
+      <Text>特使需要枝形吊燈，好讓書記員們能通宵工作。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001459</GUID>
+      <!-- Quest | RQ_Envoy_CleanUpYourMess_Picturepuzzle | The Inspector's Visit -->
+      <Text>督察到訪</Text>
+    </Text>
+    <Text>
+      <GUID>1404001460</GUID>
+      <!-- AudioText | RQ_Envoy_CleanUpYourMess_QuestStart | An inspector from the capital arrives next week! If he sees rubbish in our streets, he will write that Wadi Al Zahir is a pigsty — and that we are the pigs! -->
+      <Text>首都的督察下週就到！要是他在我們街上看到垃圾，他會寫Wadi Al Zahir是個豬圈——而我們就是豬！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001461</GUID>
+      <!-- CollectablePicturePuzzle | Pile of trash | Heaped Refuse -->
+      <Text>堆滿的拒絕</Text>
+    </Text>
+    <Text>
+      <GUID>1404001462</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_Story | <b>Every few years, the capital sends an inspector to the provinces,</b> and his report can make or break the career of every envoy stationed there. With his visit drawing near, the Envoy is horrified by the crates, sacks and refuse piling up in the alleys, and expects you to clear everything away before the inspector sets foot in the city. -->
+      <Text>&lt;b&gt;每隔幾年，首都就會向各省派出一名督察，&lt;/b&gt;他的報告能成就或毀掉每一位駐當地特使的仕途。眼看督察就要到訪，特使驚恐地發現小巷裡堆滿了箱子、麻袋和垃圾，他希望你在督察踏入城市之前把一切清理乾淨。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001463</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_Hint | Pick up the crates and sacks littered across the city -->
+      <Text>撿起散落在城中各處的箱子和麻袋</Text>
+    </Text>
+    <Text>
+      <GUID>1404001464</GUID>
+      <!-- Text | RQ_Envoy_CleanUpYourMess_QuestStartSummary | The Envoy wants the streets cleaned before the Sultan's inspector arrives. -->
+      <Text>特使希望在蘇丹的督察到達之前把街道打掃乾淨。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001465</GUID>
+      <!-- Quest | RQ_Envoy_SetRightExemple_SolveIncident | Bad News Travels Fast -->
+      <Text>壞事傳千里</Text>
+    </Text>
+    <Text>
+      <GUID>1404001466</GUID>
+      <!-- AudioText | RQ_Envoy_SetRightExemple_QuestStart | Riots among the Nomad houses! If word of this reaches the capital, they will say we cannot keep order in our own province. End it — quickly and quietly! -->
+      <Text>遊牧民住宅區發生暴亂！要是消息傳到首都，他們會說我們連自己的省都管不好。快平息它——要快，還要悄無聲息！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001467</GUID>
+      <!-- Text | RQ_Envoy_SetRightExemple_Story | <b>Unrest has broken out among the Nomads,</b> and the Envoy is less worried about its cause than about its consequences. A riot in the next report to the capital could cost him his post, his pension and his reputation. Put an end to the unrest before the courier ship sails. -->
+      <Text>&lt;b&gt;遊牧民中爆發了騷亂，&lt;/b&gt;特使擔心的與其說是起因，不如說是後果。如果下一份呈報首都的報告裡出現暴亂，他可能會丟掉職位、退休金和名聲。在郵船啟航前平息騷亂吧。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001468</GUID>
+      <!-- Text | RQ_Envoy_SetRightExemple_QuestStartSummary | The Envoy wants the riots ended before the news reaches the capital. -->
+      <Text>特使希望在消息傳到首都之前平息暴亂。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001469</GUID>
+      <!-- Text | RQ_Envoy_SetRightExample_Objective | End the riots -->
+      <Text>終結暴動</Text>
+    </Text>
+    <Text>
+      <GUID>1404001470</GUID>
+      <!-- Quest | RQ_Envoy_CupOfTea_Deliver | Tea Diplomacy -->
+      <Text>茶葉外交</Text>
+    </Text>
+    <Text>
+      <GUID>1404001471</GUID>
+      <!-- AudioText | RQ_Envoy_CupOfTea_QuestStart | The negotiations with the merchants from the West have entered their third day, and we are out of tea! Do you want to start a diplomatic incident? -->
+      <Text>與西方商人的談判已經進入第三天，我們的茶卻喝光了！你是想引發外交事件嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001472</GUID>
+      <!-- Text | RQ_Envoy_CupOfTea_Story | <b>In the Sultanate, no agreement is ever reached without tea,</b> and the trade negotiations at the Consulate have already consumed more of it than anyone expected. The foreign merchants are beginning to look impatient, and the Envoy fears that an empty teapot will be taken as an insult. Provide spiced tea before the talks break down. -->
+      <Text>&lt;b&gt;在蘇丹國，沒有茶就談不成任何協議，&lt;/b&gt;而領事館的貿易談判消耗的茶葉已經遠超所有人的預料。外國商人開始顯得不耐煩，特使擔心一只空茶壺會被視為侮辱。在談判破裂之前送來香料茶吧。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001473</GUID>
+      <!-- Text | RQ_Envoy_CupOfTea_QuestStartSummary | The Envoy urgently needs spiced tea for the negotiations at the Consulate. -->
+      <Text>特使急需香料茶用於領事館的談判。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001474</GUID>
+      <!-- Quest | RQ_Envoy_DayCare_Build | A Physician for the Consulate -->
+      <Text>領事館需要醫生</Text>
+    </Text>
+    <Text>
+      <GUID>1404001475</GUID>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestStart | Three of my clerks are down with desert fever, and the nearest physician is a camel doctor! In the capital, we had court physicians. Here, we have... sand. -->
+      <Text>我有三個書記員得了沙漠熱病臥床不起，而最近的醫生是個駱駝獸醫！在首都，我們有御醫。在這裡，我們只有……沙子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001476</GUID>
+      <!-- AudioText | RQ_Envoy_DayCare_QuestSuccess | A proper hospital at last! I shall mention it in my report. The capital likes to hear that its servants are being... preserved. -->
+      <Text>終於有一座像樣的醫院了！我會在報告裡提一提。首都喜歡聽到它的臣僕們被……妥善保存。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001477</GUID>
+      <!-- Text | RQ_Envoy_DayCare_QuestStartSummary | The Envoy wants a hospital for the people of Wadi Al Zahir. -->
+      <Text>特使想為Wadi Al Zahir的人民蓋一座醫院。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001478</GUID>
+      <!-- Text | RQ_Envoy_DayCare_Story | <b>Life at the edge of the desert is hard on those raised in palaces.</b> Fevers, heatstroke and mysterious ailments have laid low half of the Consulate's staff, and the Envoy fears that his reports will soon go unwritten. He demands a proper hospital — for the whole city, as he generously puts it. -->
+      <Text>&lt;b&gt;對於在宮殿裡長大的人來說，沙漠邊緣的生活十分艱苦。&lt;/b&gt;熱病、中暑和各種怪病已經讓領事館一半的職員病倒，特使擔心他的報告很快就沒人寫了。他要求蓋一座像樣的醫院——用他慷慨的話來說，是為了全城的人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001479</GUID>
+      <!-- Text | RQ_Envoy_DayCare_QuestSuccessSummary | The Envoy praises the new hospital and promises to mention it in his next report. -->
+      <Text>特使稱讚了新醫院，並承諾會在下一份報告中提及。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001480</GUID>
+      <!-- Quest | RQ_Envoy_VisitingRelatives_Transport | A Reception at Kahina's -->
+      <Text>卡希納女士的招待會</Text>
+    </Text>
+    <Text>
+      <GUID>1404001481</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_QuestStart | Madame Kahina is holding a reception for the foreign merchants at her harbour, and the Consulate must be represented. Our ship? Away with the tax registers. Yours will do. -->
+      <Text>卡希納女士要在她的港口為外國商人舉辦招待會，領事館必須派人出席。我們的船？載著稅冊走了。用你的船就行。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001482</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioPickupEnvoy | Come, come! It is unthinkable for an envoy of the Sultan to arrive after the dessert. -->
+      <Text>快點，快點！蘇丹的特使在甜點之後才到場，簡直不可想像。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001483</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioDeliverEnvoy1 | Madame Kahina! What a charming little harbour you have... so very... rustic. -->
+      <Text>卡希納女士！您的小港口真是迷人……非常……質樸。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001486</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioOnTheRoad1 | This ship rolls like a drunken camel. Were all those compliments worth this? -->
+      <Text>這船晃得像喝醉的駱駝。那些恭維話值得嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001489</GUID>
+      <!-- AudioText | RQ_Envoy_VisitingRelatives_AudioSuccess | Back already? I had only reached the third round of compliments! Well — at least Madame Kahina has promised to visit the Consulate. -->
+      <Text>這就回來了？我才剛說到第三輪恭維話！好吧——至少卡希納女士答應要來領事館拜訪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001490</GUID>
+      <!-- AudioText | AT_ADDON01_res2_Quest_HandIn3 | Back already? -->
+      <Text>這麼快就回來啦？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001491</GUID>
+      <!-- QuestItem | QI Envoy - Visiting Relatives | Envoy on a Mission -->
+      <Text>執行任務的特使</Text>
+    </Text>
+    <Text>
+      <GUID>1404001492</GUID>
+      <!-- Text | Smuggler_Pickup with object | Pick up at [AssetData([Conditions QuestCondition Context]) Text]: <br/>[AssetData([Conditions QuestMainObjectiveCondition CurrentDeliveryObject([Conditions QuestCondition ConditionKey])]) Text] -->
+      <Text>在[AssetData([Conditions QuestCondition Context]) Text]取得：&lt;br/&gt;[AssetData([Conditions QuestMainObjectiveCondition CurrentDeliveryObject([Conditions QuestCondition ConditionKey])]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001493</GUID>
+      <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001494</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_Story | <b>Madame Kahina's harbour is where East meets West in Wadi Al Zahir,</b> and her receptions are where the deals are made. The Consulate cannot afford to be absent — but its only ship has just left with the tax registers. The Envoy asks you to take him there and back. -->
+      <Text>&lt;b&gt;卡希納女士的港口是Wadi Al Zahir東西方交匯之地，&lt;/b&gt;而她的招待會正是談成生意的地方。領事館不能缺席——可它唯一的船剛剛載著稅冊離開了。特使請你送他去，再接他回來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001495</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummarySuccess | The Envoy complains that the reception was far too short. -->
+      <Text>特使抱怨招待會太短了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001496</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryPickupEnvoy | The Envoy wishes you would hurry up. -->
+      <Text>特使希望你能快點。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001497</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryDeliverEnvoy1 | The Envoy makes an effort to be diplomatic. -->
+      <Text>特使努力表現得很有外交風度。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001500</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_SummaryOnTheRoad1 | The Envoy is not enjoying the voyage home. -->
+      <Text>特使不太享受回程。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001503</GUID>
+      <!-- Text | RQ_Envoy_VisitingRelatives_QuestStartSummary | The Envoy needs passage to Madame Kahina's reception. -->
+      <Text>特使需要搭船前往卡希納女士的招待會。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001504</GUID>
+      <!-- Quest | RQ_Envoy_RealityCheck_Select | Sons Abroad -->
+      <Text>遠在異鄉的兒子們</Text>
+    </Text>
+    <Text>
+      <GUID>1404001508</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioStart | The Sultan sent our sons to the West to study railways and machines. Their letters speak of everything except railways and machines! Bring me one of them — I want to hear it from his own mouth. -->
+      <Text>蘇丹把我們的兒子們送到西方學習鐵路和機器。可他們的信裡什麼都談，就是不談鐵路和機器！給我帶一個回來——我要聽他親口說。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001509</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_ScholarAudioIntellectual1 | Railways? Steam engines? Pah! Do you know how many kinds of cowrie shells live in the Gulf? Forty-three! I have catalogued every single one! -->
+      <Text>鐵路？蒸汽機？呸！你知道海灣裡有多少種寶螺嗎？四十三種！我每一種都編了目錄！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001510</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual2 | ...and in the third act, the Sultan's daughter elopes with a stoker from London! The audience wept, I tell you! -->
+      <Text>……然後在第三幕，蘇丹的女兒和一個倫敦的司爐私奔了！觀眾都哭了，我跟你說！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001511</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_AudioIntellectual3 | My uncle sits in the Diwan of the capital. One letter from him, and your professor will be teaching geography in Wadi Al Zahir! -->
+      <Text>我叔叔在首都的迪萬議會有席位。他一封信，你的教授就得去Wadi Al Zahir教地理！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001512</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual1 | Forty-three seashells and not a single sketch of a locomotive! The Sultan paid for his passage to study railways! -->
+      <Text>四十三個貝殼，連一張火車頭的草圖都沒有！蘇丹出錢送他去是學鐵路的！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001513</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual2 | A Sultan's daughter and a stoker! If the court hears of this play, we will all be posted somewhere even further away than Wadi Al Zahir — if such a place exists. -->
+      <Text>蘇丹的女兒和司爐！要是宮廷聽說了這齣戲，我們全都會被發配到比Wadi Al Zahir還遠的地方——如果還有這種地方的話。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001514</GUID>
+      <!-- AudioText | RQ_Envoy_RealityCheck_EnvoySuccessAudioIntellectual3 | Threatening professors with his uncle's name... I shall write to the uncle myself. We shall see who ends up teaching geography in the desert. -->
+      <Text>拿叔叔的名號威脅教授……我會親自給他叔叔寫信。走著瞧，看最後是誰去沙漠裡教地理。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001515</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 1 | The Seashell Scholar -->
+      <Text>貝殼學者</Text>
+    </Text>
+    <Text>
+      <GUID>1404001516</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 2 | The Theatre Poet -->
+      <Text>劇場詩人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001517</GUID>
+      <!-- CollectablePicturePuzzle | Scholar 3 | The Vizier's Nephew -->
+      <Text>維齊爾的姪子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001518</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Story | <b>To bring the industrial age to the Sultanate,</b> the court has sent the sons of its envoys to study at the universities of the Old World. The Envoy has his doubts about their progress: their letters home are full of theatres, taverns and seashells, but strangely silent on engineering. He wants you to find them and bring back the one who most deserves a word with his elders. -->
+      <Text>&lt;b&gt;為了把蘇丹國帶入工業時代，&lt;/b&gt;宮廷把特使們的兒子送進了舊世界的大學。特使對他們的學業進展心存疑慮：他們的家書裡滿是劇院、酒館和貝殼，對工程學卻出奇地隻字不提。他希望你找到他們，把最該和長輩談談的那一個帶回來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001519</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryStart | The Envoy wants to check on the young Envoys studying in the Old World. -->
+      <Text>特使想了解在舊世界求學的年輕特使們近況如何。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001520</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Hint | The students are holding forth in front of a crowd near the coast in the Old World -->
+      <Text>學生們正在舊世界的海岸附近對著人群高談闊論</Text>
+    </Text>
+    <Text>
+      <GUID>1404001521</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Hint2 | Choose one student and bring him back to Wadi Al Zahir -->
+      <Text>選擇一名學生並將他帶回Wadi Al Zahir</Text>
+    </Text>
+    <Text>
+      <GUID>1404001522</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual1 | This student was sent to study railways — and collects seashells instead. -->
+      <Text>這個學生被派來學鐵路——卻在收集貝殼。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001523</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual2 | This student has abandoned the law for the theatre, and his plays would scandalise the court. -->
+      <Text>這個學生放棄了法律轉投戲劇，他的劇本會讓宮廷大為震驚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001524</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SummaryIntellectual3 | This student boasts that his uncle in the Diwan will protect him from any consequences. -->
+      <Text>這個學生吹噓說，他在迪萬議會的叔叔會保護他免受任何後果。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001525</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual2 | The Envoy gives the young playwright a lecture he will never forget. -->
+      <Text>特使給年輕的劇作家上了一堂他永遠忘不了的課。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001526</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_SuccessSummaryIntellectual3 | The Envoy is appalled at how the young man has spent his time abroad. -->
+      <Text>特使對這個年輕人在國外虛度光陰的方式感到震驚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001527</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionBaseText | Envoy: You have met all three of our young scholars. <b>Which of them shall be brought home to answer to his elders?</b> -->
+      <Text>特使：三位年輕學者你都見過了。&lt;b&gt;該把哪一位帶回家，向長輩們交代？&lt;/b&gt;</Text>
+    </Text>
+    <Text>
+      <GUID>1404001528</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual1 | The Seashell Scholar -->
+      <Text>貝殼學者</Text>
+    </Text>
+    <Text>
+      <GUID>1404001529</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual2 | The Theatre Poet -->
+      <Text>劇場詩人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001530</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_DecisionChooseIntellectual3 | The Vizier's Nephew -->
+      <Text>維齊爾的姪子</Text>
+    </Text>
+    <Text>
+      <GUID>1404001531</GUID>
+      <!-- Text | RQ_Envoy_RealityCheck_Objective | Decide which student will be brought home -->
+      <Text>決定帶哪位學生回家</Text>
+    </Text>
+    <Text>
+      <GUID>1404001532</GUID>
+      <!-- Quest | RQ_Nomad_TheLostSheep1_Grazing_Select | The Desert in Bloom -->
+      <Text>沙漠花開</Text>
+    </Text>
+    <Text>
+      <GUID>1404001533</GUID>
+      <!-- AudioText | RQ_Nomad_Select_LostSheepGrazing_QuestStart | It rained in the hills last week! For a few days, the desert turns green and the herds feast. Come with me to the pasture — you have never seen anything like it. -->
+      <Text>上週山裡下雨了！有那麼幾天，沙漠會變綠，牲畜們大飽口福。跟我去牧場吧——你從沒見過這樣的景象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001534</GUID>
+      <!-- CollectablePicturePuzzle | Nomad with sheep | Nomad with his Sheep -->
+      <Text>帶著羊群的遊牧民</Text>
+    </Text>
+    <Text>
+      <GUID>1404001536</GUID>
+      <!-- QuestObject | Grazing spot | Spring Pasture -->
+      <Text>春季牧場</Text>
+    </Text>
+    <Text>
+      <GUID>1404001537</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Story | <b>Rain is rare in Wadi Al Zahir,</b> but when it comes, the desert transforms. For a few short weeks, grass and flowers spring from the sand, and the herders drive their flocks to the best grazing grounds. The Nomads call it the rabi', the desert spring. One of them wants to share this rare sight with you at a pasture his family has used for generations. -->
+      <Text>&lt;b&gt;Wadi Al Zahir很少下雨，&lt;/b&gt;可一旦下雨，沙漠就會煥然一新。短短幾週裡，青草和花朵從沙中冒出，牧人們把畜群趕到最好的草場。遊牧民稱之為「拉比」，即沙漠之春。其中一位想在他家世代使用的牧場上，與你分享這難得的景象。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001538</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint1 | Use the button to jump to the pasture. -->
+      <Text>使用按鈕快速移動至牧場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001539</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_Hint2 | The family marks its pasture with a strip of cloth tied to a tree. -->
+      <Text>這家人用繫在樹上的布條標記自家的牧場。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001540</GUID>
+      <!-- Text | RQ_Nomad_Select_LostSheepGrazing_QuestStartSummary | A Nomad invites you to see the desert in bloom after the rains. -->
+      <Text>一位遊牧民邀請你去看雨後花開的沙漠。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001541</GUID>
+      <!-- Quest | RQ_Nomad_RightingTheWrongs1_HelpFamily_UseItemORSelect | The Tax Farmer -->
+      <Text>包稅人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001542</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestStart | The tax farmer who bought the rights to our neighbours' grove demands a third of their dates. A third! In a year when the palms barely flowered. -->
+      <Text>買下我們鄰居椰棗林權利的包稅人要他們交出三分之一的椰棗。三分之一！在棕櫚幾乎沒開花的年份。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001543</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestFailNomad | They must leave the grove their grandfather planted. It breaks my heart. -->
+      <Text>他們得離開祖父親手種下的椰棗林了。我的心都碎了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001544</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoy | A contract is a contract. The tax farmer paid for her rights, and the Sultan's treasury depends on such arrangements. -->
+      <Text>契約就是契約。包稅人為她的權利付了錢，而蘇丹的國庫就靠這樣的安排。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001545</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_QuestSuccess | The palms are heavy with dates again — they can pay this year. But next year? The tax farmer will only raise her price. -->
+      <Text>棕櫚樹又結滿了椰棗——今年他們交得起了。可明年呢？包稅人只會再抬價。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001546</GUID>
+      <!-- CollectablePicturePuzzle | Landowner | Hajja Zubaida, the Tax Farmer -->
+      <Text>包稅人哈賈·祖拜達</Text>
+    </Text>
+    <Text>
+      <GUID>1404001547</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Story | <b>In the Sultanate, the right to collect taxes is often sold to the highest bidder,</b> and whoever buys it squeezes the people to win back the price. Hajja Zubaida, the tax farmer of the eastern groves, has demanded a third of a Nomad family's date harvest — in a year when the palms barely flowered. If the family cannot pay, they will lose their grove. -->
+      <Text>&lt;b&gt;在蘇丹國，收稅權常常被賣給出價最高的人，&lt;/b&gt;而買下它的人會壓榨百姓來收回成本。東部椰棗林的包稅人哈賈·祖拜達要求一個遊牧民家庭交出三分之一的椰棗收成——在棕櫚幾乎沒開花的年份。如果這家人交不起，就會失去他們的椰棗林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001548</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint1 | The harvest might improve if a productivity-enhancing item is equipped in the local Trade Union. -->
+      <Text>如果在當地的工會裝備一件提升生產力的物品，收成也許會有所改善。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001549</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_Hint2 | The tax farmer is standing next to the family's house with her guards. Perhaps she will listen to the governor...? -->
+      <Text>包稅人帶著衛兵站在這家人的房子旁邊。也許她會聽總督的話……？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001550</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestStartSummary | A Nomad asks you to help a family crushed by the demands of a tax farmer. -->
+      <Text>一位遊牧民請你幫助一個被包稅人的苛求壓得喘不過氣的家庭。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001551</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailNomadSummary | The Nomad is saddened that the family has lost its grove. -->
+      <Text>遊牧民為這家人失去了椰棗林而難過。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001552</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestFailEnvoySummary | The Envoy approves of your restraint. -->
+      <Text>特使讚賞你的克制。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001553</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_QuestSuccessSummary | The family can pay, but the Nomad fears the tax farmer will simply demand more next year. -->
+      <Text>這家人交得起，但遊牧民擔心包稅人明年只會要得更多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001554</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveUseItem | Equip any item which improves the farms. -->
+      <Text>裝備任何能提高農場生產力的物品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001555</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_ObjectiveSelectLandowner | Select the tax farmer to speak with her. -->
+      <Text>選取包稅人，與她交談。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001556</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan1_BeingIncluded_Select | Coming of Age — Left Behind -->
+      <Text>成年之禮：被落下的人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001557</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStart | The young men of my clan are riding out with their falcons, and nobody told me! They must be gathering somewhere in the city... will you help me find them? -->
+      <Text>我們部族的小夥子們要帶著獵鷹出獵，卻沒人告訴我！他們一定在城裡某個地方集合……你能幫我找到他們嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001558</GUID>
+      <!-- CollectablePicturePuzzle | Group of youngster | Young Men of the Clan -->
+      <Text>部族的小夥子們</Text>
+    </Text>
+    <Text>
+      <GUID>1404001559</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Story | <b>Among the desert clans, a boy becomes a man on his first hunt.</b> Hamza's friends are preparing to ride out with their falcons, and once again nobody has thought to invite him. He insists that it is only an oversight and asks you to help him find them before they leave. -->
+      <Text>&lt;b&gt;在沙漠部族中，男孩在第一次狩獵時成為男人。&lt;/b&gt;哈姆扎的朋友們正準備帶著獵鷹出發，而又一次沒人想到要叫上他。他堅持說這只是一時疏忽，請你幫他在他們出發前找到他們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001560</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint1 | The young men are gathering between the Nomads' houses -->
+      <Text>小夥子們正聚集在遊牧民的房屋之間</Text>
+    </Text>
+    <Text>
+      <GUID>1404001561</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_Hint2 | Look for a group of young men standing together -->
+      <Text>尋找一群站在一起的年輕人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001562</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestStartSummary | Young Hamza needs your help to find the other young men of his clan. -->
+      <Text>年輕的哈姆扎需要你幫忙找到部族裡的其他小夥子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001563</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan4_SlayTheBeast_Picturepuzzle | Coming of Age — The Lion's Den -->
+      <Text>成年之禮：獅穴</Text>
+    </Text>
+    <Text>
+      <GUID>1404001564</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoy | Some Nomad boys tell me that young Hamza rode into the mountains to hunt a lion. Alone! If the boy dies on your land, the clans will hold the city responsible. Find him! -->
+      <Text>幾個遊牧民男孩告訴我，年輕的哈姆扎騎馬進山獵獅子去了。獨自一人！要是那孩子死在你的地盤上，各部族會歸咎於這座城市。找到他！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001565</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccess | I could not kill him. The lion had a thorn in his paw, and he looked at me like an old man in pain. Perhaps that makes me less of a hunter... but I think it makes me more of a man. -->
+      <Text>我下不了手。那頭獅子的爪子裡扎了一根刺，牠看著我，就像一個疼痛難忍的老人。也許這讓我算不上一個好獵人……但我覺得，這讓我更像一個男人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001566</GUID>
+      <!-- CollectablePicturePuzzle | Nomad camp with wounded beast | Hamza's Mountain Camp -->
+      <Text>哈姆扎的山中營地</Text>
+    </Text>
+    <Text>
+      <GUID>1404001567</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Story | <b>Stung by his friends' mockery,</b> young Hamza has ridden into the mountains to hunt a lion and prove himself a man. He has not returned, and the Envoys fear that the death of a Nomad boy could strain the fragile peace between the city and the clans. Find him before it is too late. -->
+      <Text>&lt;b&gt;被朋友們的嘲笑刺痛後，&lt;/b&gt;年輕的哈姆扎騎馬進山獵獅，要證明自己是個男人。他一直沒有回來，特使們擔心一個遊牧民男孩的死亡會動搖城市與部族之間脆弱的和平。趁還不算太晚，找到他。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001568</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint1 | Hamza has ridden into the mountains. -->
+      <Text>哈姆扎騎馬進山了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001569</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_Hint2 | He must have taken a small tent with him. -->
+      <Text>他一定會帶著一個小帳棚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001570</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestStartEnvoySummary | The Envoy reports that young Hamza has gone missing in the mountains. -->
+      <Text>特使報告說年輕的哈姆扎在山裡失蹤了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001571</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_SlaytheBeast_QuestSuccessSummary | Hamza chose to help the wounded lion instead of killing it. -->
+      <Text>哈姆扎選擇幫助受傷的獅子，而不是殺死牠。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001572</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan5_GoneGirl_Select | Coming of Age — The Runaway -->
+      <Text>成年之禮：出走的姑娘</Text>
+    </Text>
+    <Text>
+      <GUID>1404001573</GUID>
+      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestStart | My cousin Amira is gone! Everyone is searching the dunes, but nobody is with her family. They are alone with their worries... will you go to them? -->
+      <Text>我的表妹阿米拉不見了！大家都在沙丘裡搜尋，可沒人陪著她的家人。他們獨自擔驚受怕……你能去看看他們嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001574</GUID>
+      <!-- CollectablePicturePuzzle | Gone girl family | Amira's Family -->
+      <Text>阿米拉的家人</Text>
+    </Text>
+    <Text>
+      <GUID>1404001575</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Story | <b>Amira has vanished from her family's house,</b> and the whole clan is searching the dunes for her. In all the commotion, nobody has thought to sit with her father and sisters. Hamza asks you to visit them — perhaps they know more than they realise. -->
+      <Text>&lt;b&gt;阿米拉從家裡失蹤了，&lt;/b&gt;整個部族都在沙丘裡搜尋她。一片混亂中，沒人想到要陪陪她的父親和姊妹們。哈姆扎請你去看望他們——也許他們知道的比自己意識到的更多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001576</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint1 | Amira's family can be found in front of their house -->
+      <Text>阿米拉的家人就在他們家門前</Text>
+    </Text>
+    <Text>
+      <GUID>1404001577</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_Hint2 | Amira's father is standing with his two younger daughters. -->
+      <Text>阿米拉的父親和他的兩個小女兒站在一起。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001578</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_LetterContent | <i>(a letter from Amira, found under her sister Nadia's pillow)...</i><br/><br/>Dearest Nadia, do not tell Father yet. Since Mother died, he has worked himself to the bone to pay the tax farmer, and he says a girl's place is at home. But <b>I have cut my hair and joined Hassan's caravan as a camel boy.</b> The caravan pays well, and nobody looks closely at a boy with a dusty face.<br/>We camp at the harbour tonight before crossing the dunes. I will send money with the first merchant who returns. Pray for me... -->
+      <Text>&lt;i&gt;（在她妹妹納迪婭枕頭下發現的阿米拉的信）……&lt;/i&gt;&lt;br/&gt;&lt;br/&gt;最親愛的納迪婭，先別告訴父親。自從母親去世，他為了還包稅人的錢累得筋疲力盡，還說女孩子就該待在家裡。但是&lt;b&gt;我剪了頭髮，以趕駱駝小子的身分加入了哈桑的商隊。&lt;/b&gt;商隊的工錢很高，也沒人會仔細打量一個滿臉灰塵的男孩。&lt;br/&gt;今晚我們在港口紮營，然後穿越沙丘。我會託第一個回去的商人把錢帶回家。為我祈禱吧……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001579</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_QuestStartSummary | Hamza hopes that by comforting his cousin's family, you may learn where she has gone. -->
+      <Text>哈姆扎希望你在安慰他表妹的家人時，能打聽到她去了哪裡。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001580</GUID>
+      <!-- Quest | RQ_Nomad_RoleOfaMan9_Banquet_Deliver | Coming of Age — A Feast in His Honour -->
+      <Text>成年之禮：為他設宴</Text>
+    </Text>
+    <Text>
+      <GUID>1404001581</GUID>
+      <!-- AudioText | DLC06_Envoy_RQ_Nomad_Delivery_Banquet_QuestStart | Young Hamza spared a lion and brought his cousin home. The Consulate shall honour him with a feast in the Sultan's name — the clans must see that the city values courage! -->
+      <Text>年輕的哈姆扎放過了獅子，還把表妹帶回了家。領事館將以蘇丹之名設宴表彰他——必須讓各部族看到，這座城市重視勇氣！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001582</GUID>
+      <!-- AudioText | DLC06_Elder_RQ_Nomad_Delivery_Banquet_QuestSuccessEnvoy | Whoever mocks a guest of honour at a feast given in the Sultan's name insults the Sultan himself. That young man will leave the city by sundown. -->
+      <Text>在以蘇丹之名舉辦的宴會上嘲弄主賓，就是侮辱蘇丹本人。那個年輕人日落之前必須離開這座城市。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001583</GUID>
+      <!-- AudioText | AT_ADDON01_res1_NegativeGenFB4 | He came. The one who laughed the loudest. He sits there grinning as if nothing had happened. -->
+      <Text>他來了。笑得最大聲的那個。他坐在那裡咧著嘴笑，好像什麼都沒發生過。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001584</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_Story | <b>Word of Hamza's deeds has spread through the tents,</b> and the Envoys have recognised an opportunity: by honouring a young Nomad hero with a feast in the Sultan's name, they hope to strengthen the bond between the city and the desert clans. They need dates and pomegranate juice for the whole neighbourhood. -->
+      <Text>&lt;b&gt;哈姆扎的事蹟在各個帳篷間傳開了，&lt;/b&gt;特使們看到了一個機會：以蘇丹之名設宴表彰一位年輕的遊牧民英雄，希望藉此加強城市與沙漠部族之間的紐帶。他們需要為整個街坊準備椰棗和石榴汁。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001585</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestStartSummary | The Envoys want to host a feast in Hamza's honour to win the goodwill of the clans. -->
+      <Text>特使們想為哈姆扎設宴，以贏得各部族的好感。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001586</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummaryEnvoy | The Envoy has the bully banished from the city. -->
+      <Text>特使下令將那個惡霸逐出城市。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001587</GUID>
+      <!-- Text | RQ_Nomad_Delivery_Banquet_QuestSuccessSummary | Hamza is dismayed to see one of the boys who mocked him turn up at the feast. -->
+      <Text>看到嘲笑過他的男孩之一出現在宴會上，哈姆扎感到很沮喪。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001588</GUID>
+      <!-- Quest | RQ_Nomad_MissingSibling_Picturepuzzle | Little Jerboas -->
+      <Text>小跳鼠們</Text>
+    </Text>
+    <Text>
+      <GUID>1404001589</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStart | A caravan has arrived at the market, and my little brothers ran off to see the camels and the foreign machines! Four of them, in red coats — have you seen them? -->
+      <Text>一支商隊到了市場，我的弟弟們跑去看駱駝和外國機器了！一共四個，都穿著紅外套——你見過他們嗎？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001590</GUID>
+      <!-- CollectablePicturePuzzle | Child running | Little Brother in a Red Coat -->
+      <Text>穿紅外套的弟弟</Text>
+    </Text>
+    <Text>
+      <GUID>1404001591</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Story | <b>To children born in a tent,</b> a city full of caravans, workshops and strange machines is irresistible. The Nomad's four younger brothers have slipped away once again, and their exhausted older brother asks you to help round them up before they get lost — or trampled by a camel. -->
+      <Text>&lt;b&gt;對於在帳篷裡出生的孩子來說，&lt;/b&gt;一座滿是商隊、作坊和奇怪機器的城市有著無法抗拒的吸引力。遊牧民的四個弟弟又溜走了，筋疲力盡的大哥請你幫忙把他們找回來，免得他們走丟——或者被駱駝踩到。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001592</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_Hint | The 4 brothers are running through the city in red coats. -->
+      <Text>4個兄弟穿著紅外套在城裡亂跑。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001593</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_MissingSiblings_QuestStartSummary | The Nomad needs your help to find his runaway little brothers. -->
+      <Text>遊牧民需要你幫忙找回他跑掉的弟弟們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001594</GUID>
+      <!-- Quest | RQ_Nomad_CaringForElderly_Deliver | The Old Ones of the Clan -->
+      <Text>部族的老人們</Text>
+    </Text>
+    <Text>
+      <GUID>1404001595</GUID>
+      <!-- AudioText | RQ_Nomad_Delivery_CaringForTheElderly_QuestStart | In the desert, nobody grows old alone. Here in the city, the old ones sit in their stone houses and wait for visitors who never come. Let us bring them something sweet. -->
+      <Text>在沙漠裡，沒人會孤獨地老去。可在這城裡，老人們坐在石頭房子裡，等著永遠不會來的訪客。我們給他們帶點甜的東西去吧。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001596</GUID>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_Story | <b>Among the tents, the elders are the heart of the clan:</b> they are served first, consulted always and never left alone. But since the clans settled in Wadi Al Zahir, many of the old ones live in houses of their own, while the young are busy in the workshops and groves. The Nomad wants to visit them with pomegranate juice and an evening of stories, as in the old days. -->
+      <Text>&lt;b&gt;在帳篷裡，長者是部族的心臟：&lt;/b&gt;他們總是先被招待，凡事都要請教他們，也從不讓他們獨自一人。但自從部族在Wadi Al Zahir定居下來，許多老人都住進了自己的房子，而年輕人忙於作坊和果園的活計。遊牧民想像過去那樣，帶著石榴汁去看望他們，度過一個講故事的夜晚。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001597</GUID>
+      <!-- Text | RQ_Nomad_Delivery_CaringForTheElderly_QuestStartSummary | The Nomad wants to visit the lonely elders of his clan with sweet pomegranate juice. -->
+      <Text>遊牧民想帶上甘甜的石榴汁，去看望部族裡孤獨的老人們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001598</GUID>
+      <!-- Quest | RQ_Nomad_HelpingInTheField_Gift | Up the Palm -->
+      <Text>爬上棕櫚樹</Text>
+    </Text>
+    <Text>
+      <GUID>1404001599</GUID>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestStart | I have done it! A climbing harness for the date palms, made of palm fibre and a little iron. With it, even my grandmother could harvest the highest dates! -->
+      <Text>我做到了！一副用棕櫚纖維和一點鐵做成的椰棗樹攀爬安全帶。有了它，就連我奶奶都能摘到最高處的椰棗！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001600</GUID>
+      <!-- AudioText | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccess | You see? Sometimes the old ways only need a little help from the new. -->
+      <Text>看到了嗎？有時候，老辦法只需要新東西幫一點小忙。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001601</GUID>
+      <!-- CollectablePicturePuzzle | ResidentGift01 | Gift from Residents -->
+      <Text>來自居民的禮物</Text>
+    </Text>
+    <Text>
+      <GUID>1404001602</GUID>
+      <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
+      <Text>Pick up the gift offered by your resident</Text>
+    </Text>
+    <Text>
+      <GUID>1404001603</GUID>
+      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
+      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001604</GUID>
+      <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
+      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001605</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_Story | <b>Harvesting dates means climbing palms,</b> again and again, with nothing but a rope and a little courage. The Nomad has spent many nights improving the old climbing belt his father used, and now he is eager for you to try out his invention in the groves. -->
+      <Text>&lt;b&gt;採摘椰棗就意味著爬棕櫚樹，&lt;/b&gt;一遍又一遍，只靠一根繩子和一點勇氣。遊牧民花了許多個夜晚改良他父親用過的舊攀爬帶，現在他迫不及待地想讓你在椰棗林裡試試他的發明。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001606</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestStartSummary | The Nomad has invented a contraption for the date harvest and wants you to try it. -->
+      <Text>遊牧民發明了一個採摘椰棗的裝置，想請你試一試。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001607</GUID>
+      <!-- Text | RQ_Nomad_Gift_HelpingInTheFields_QuestSuccessSummary | The Nomad is delighted that his invention works. -->
+      <Text>遊牧民很高興他的發明管用。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001608</GUID>
+      <!-- Quest | RQ_Nomad_ManBestFriend_Photo | The Bell Goat -->
+      <Text>領頭羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001609</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStart | For twelve years, old Bahja wore the bell and led our herd across the desert. Now her legs are tired, and a younger goat must take the bell. I want to remember her as she was. -->
+      <Text>十二年來，老巴赫賈一直戴著鈴鐺，帶領我們的羊群穿越沙漠。如今她的腿累了，鈴鐺得交給一隻年輕的山羊。我想記住她當年的樣子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001610</GUID>
+      <!-- CollectablePicturePuzzle | Nomad with goat | Nomad with his Goats -->
+      <Text>帶著山羊的遊牧民</Text>
+    </Text>
+    <Text>
+      <GUID>1404001611</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Story | <b>Every desert herd follows a leader:</b> an old, wise animal that wears the bell and knows where water can be found. For twelve years, Bahja led the Nomad's herd from well to well. Now she has grown too old for the long walks, and the bell passes to a younger goat. The Nomad asks you to capture her with your daguerreotype, so that her memory lives on. -->
+      <Text>&lt;b&gt;沙漠裡的每個畜群都追隨一位領頭者：&lt;/b&gt;一隻年老而睿智、戴著鈴鐺、知道哪裡有水的動物。十二年來，巴赫賈帶領遊牧民的羊群從一口井走到另一口井。如今她太老了，走不了遠路，鈴鐺要傳給一隻年輕的山羊。遊牧民請你用銀版照相機為她留影，讓對她的記憶得以留存。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001612</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Hint1 | The Nomad and his goats are next to a Camel Farm -->
+      <Text>遊牧民和他的山羊在駱駝農場旁邊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001613</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_Hint2 | The Nomad is in the middle, surrounded by goats -->
+      <Text>遊牧民站在中間，被山羊圍著</Text>
+    </Text>
+    <Text>
+      <GUID>1404001614</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_Man'sBestFriend_QuestStartSummary | The Nomad wants a photograph of Bahja, the old lead goat of his herd. -->
+      <Text>遊牧民想要一張巴赫賈的照片，她是他羊群中的老領頭羊。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001615</GUID>
+      <!-- Quest | RQ_Nomad_GoatRun_Picturepuzzle | Goats in the Archive -->
+      <Text>檔案室裡的山羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001616</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_GoatRun_QuestStart | My goats are loose! And they are heading for the Consulate — a goat that finds paper will eat paper. Help me, before they eat a decree! -->
+      <Text>我的山羊跑了！牠們正朝領事館跑去——山羊找到紙就會吃紙。在牠們吃掉一份法令之前，快幫幫我！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001617</GUID>
+      <!-- CollectablePicturePuzzle | Goat walking | Runaway Goat -->
+      <Text>逃跑的山羊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001618</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Story | <b>Goats will eat almost anything,</b> as every desert herder knows — and to a goat, Wadi Al Zahir is one enormous banquet. The Nomad's herd has slipped out of its pen and is wandering the streets, and if the animals find the Consulate's stacks of paperwork, the envoys will never forgive him. Round them up before disaster strikes. -->
+      <Text>&lt;b&gt;山羊幾乎什麼都吃，&lt;/b&gt;每個沙漠牧人都知道——而對一隻山羊來說，Wadi Al Zahir就是一場盛大的宴席。遊牧民的羊群從圍欄裡溜了出來，正在街上遊蕩，要是這些畜生找到了領事館成堆的文件，特使們永遠不會原諒他。在災難發生之前把牠們趕回來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001619</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_Hint | The goats are roaming through the city streets. -->
+      <Text>山羊們在城市街道上遊蕩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001620</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_GoatRun_QuestStartSummary | The Nomad needs your help to catch his goats before they reach the Consulate. -->
+      <Text>遊牧民需要你幫忙，在山羊跑到領事館之前抓住牠們。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001621</GUID>
+      <!-- Quest | RQ_Nomad_ExoticNature_Photo | Zootopic -->
+      <Text>動物「圓」城市</Text>
+    </Text>
+    <Text>
+      <GUID>1404001622</GUID>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestStart | Madame Kahina's sailors say that in your lands, lions, parrots and elephants live side by side in great gardens. Is it true? I must see it with my own eyes — or at least in a picture. -->
+      <Text>卡希納女士的水手們說，在你們那裡，獅子、鸚鵡和大象並肩生活在巨大的園子裡。是真的嗎？我一定要親眼看看——至少看看圖片也好。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001623</GUID>
+      <!-- AudioText | RQ_Nomad_Photo_ExoticNature_QuestSuccess | Behind bars? My grandfather used to say that a caged falcon forgets how to fly. I hope they remember... -->
+      <Text>關在籠子裡？我祖父常說，關在籠裡的獵鷹會忘記怎麼飛。希望牠們還記得……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001624</GUID>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
+      <Text>拜託，拍下我們在動物園的照片！這是小提摩西屈服於病痛之前最後的機會了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001625</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_Story | <b>Sailors from Madame Kahina's harbour tell wondrous tales</b> of the Old World, where animals from every corner of the earth are said to live together in great gardens. The Nomad, who has spent his life among wild creatures, longs to see this marvel and asks you for a photograph. -->
+      <Text>&lt;b&gt;卡希納女士港口的水手們講述著關於舊世界的奇妙故事，&lt;/b&gt;據說在那裡，來自世界各個角落的動物一起生活在巨大的園子裡。一生都與野生動物為伴的遊牧民渴望看到這一奇觀，請你為他拍一張照片。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001626</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_Hint | A picture of any zoo in the Old World will satisfy the Nomad's request -->
+      <Text>舊世界任何一座動物園的照片都能滿足遊牧民的請求</Text>
+    </Text>
+    <Text>
+      <GUID>1404001627</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestStartSummary | The Nomad wants a photograph of one of the famous zoos of the Old World. -->
+      <Text>遊牧民想要一張舊世界著名動物園的照片。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001628</GUID>
+      <!-- Text | RQ_Nomad_Photo_ExoticNature_QuestSuccessSummary | The Nomad is saddened to see that the animals of the zoo live in cages. -->
+      <Text>看到動物園裡的動物住在籠子裡，遊牧民很難過。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001629</GUID>
+      <!-- A7_QuestPickupObject | RQ_Nomad_SongOfDurin_Transport | Desert Verse -->
+      <Text>沙漠詩篇</Text>
+    </Text>
+    <Text>
+      <GUID>1404001630</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_QuestStart | I have composed a qasida, a poem of the desert, about the wells that are running dry. The Sultan should hear it — but who listens to a herder? -->
+      <Text>我寫了一首卡西達，一首沙漠之詩，寫的是正在乾涸的水井。蘇丹應該聽聽——可誰會聽一個牧人的話呢？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001631</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup | There is a land where the wells ran deep, where the wind knew every name... -->
+      <Text>有一片土地，那裡的井水深深，那裡的風認得每一個名字……</Text>
+    </Text>
+    <Text>
+      <GUID>1404001632</GUID>
+      <!-- AudioText | AT_ADDON01_Ketema_IdleGossip02 | Madame Kahina says the Sultan loves poetry! Perhaps he will hear the voice of the desert after all. -->
+      <Text>卡希納女士說蘇丹熱愛詩歌！也許他終究會聽到沙漠的聲音。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001633</GUID>
+      <!-- AudioText | RQ_Nomad_Transport_SongOfDurin_ItemPickup2 | ...if you drink it all today, my Sultan, what will your grandsons drink? -->
+      <Text>……若您今日飲盡一切，我的蘇丹，您的孫輩又將飲什麼？</Text>
+    </Text>
+    <Text>
+      <GUID>1404001634</GUID>
+      <!-- QuestItem | QI Nomad Poem - Song of Durin | Qasida of the Dry Wells -->
+      <Text>乾涸之井的卡西達</Text>
+    </Text>
+    <Text>
+      <GUID>1404001635</GUID>
+      <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001636</GUID>
+      <!-- Text | Smuggler_ShipInRange | Sail to [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>航向[AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001637</GUID>
+      <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
+      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001638</GUID>
+      <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
+      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001639</GUID>
+      <!-- Text | SmuggleQuest_Bente_TheArtOfHistory_HintText | Princess Qing tells me that some heirlooms belonging to her forefathers remain locked away at High Clarence Hall, and the Emperor has written to the Queen several times to ask for them back. I know it's naughty, but if you could somehow get them to the Princess, the world will be a better place for it. -->
+      <Text>Princess Qing tells me that some heirlooms belonging to her forefathers remain locked away at High Clarence Hall, and the Emperor has written to the Queen several times to ask for them back. I know it's naughty, but if you could somehow get them to the Princess, the world will be a better place for it.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001640</GUID>
+      <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+    </Text>
+    <Text>
+      <GUID>1404001641</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_Story | <b>The Nomads of Wadi Al Zahir have always measured wealth in water.</b> Now that norias and workshops draw more and more from the aquifers, the old wells are failing one after another. A young Nomad has poured his worries into a qasida in the style of the old desert poets, and he asks you to take it to Madame Kahina's harbour so that it may reach the Sultan. -->
+      <Text>&lt;b&gt;Wadi Al Zahir的遊牧民向來以水來衡量財富。&lt;/b&gt;如今水車和作坊從地下水層抽取的水越來越多，古老的水井一口接一口地乾涸了。一位年輕的遊牧民把他的憂慮傾注進一首仿照古代沙漠詩人風格的卡西達中，請你把它送到卡希納女士的港口，好讓它傳到蘇丹那裡。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001642</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_QuestStartSummary | The Nomad asks you to take his poem to Madame Kahina, who can send it on to the Sultan. -->
+      <Text>遊牧民請你把他的詩帶給卡希納女士，她可以把詩轉呈蘇丹。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001643</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary | Madame Kahina promises to send the Nomad's poem to the Sultan's court. -->
+      <Text>卡希納女士承諾會把遊牧民的詩送往蘇丹的宮廷。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001644</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2 | The young poet proudly shares the second half of his poem with you. -->
+      <Text>這名年輕的詩人驕傲地與你分享詩作的另一半。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001647</GUID>
+      <!-- Text | RQ_Envoy_Invitation_QuestStartSummary | Envoy Nureddin Efendi doubts that you know the first thing about court protocol. -->
+      <Text>特使努爾丁·埃芬迪懷疑你對宮廷禮儀一竅不通。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001648</GUID>
+      <!-- Text | RQ_Envoy_Invitation_RightChoiceSummary | Nureddin Efendi grudgingly admits that you know how to honour a guest. -->
+      <Text>努爾丁·埃芬迪勉強承認你懂得如何禮遇客人。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001649</GUID>
+      <!-- Text | RQ_Envoy_Decision_Invitation_Decision1 | Right by the door, so that he may leave whenever he pleases. -->
+      <Text>就在門邊，這樣他想走隨時都能走。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001650</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_BullLeapingCeremony_QuestBookHint | A herd of wild bulls has been sighted on the outskirts of the city. -->
+      <Text>有人在城郊看到了一群野公牛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001651</GUID>
+      <!-- Text | RQ_Envoy_BullLeapingCeremony_QuestStartSummary | Envoy Nureddin Efendi needs strong bulls for a contest in honour of Murad Bey. -->
+      <Text>特使努爾丁·埃芬迪需要強壯的公牛，舉辦一場向穆拉德·貝伊致敬的鬥牛。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001652</GUID>
+      <!-- Quest | RQ_Envoy_TraditionKeeper5_Aida_Select | Honoured Guests — A Suitable Match -->
+      <Text>貴客臨門：門當戶對</Text>
+    </Text>
+    <Text>
+      <GUID>1404001653</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestStart | Murad Bey has proposed a match between his son Orhan and my niece Leyla. An alliance with the coast! But the girl has vanished — find her before the Bey hears of it. -->
+      <Text>穆拉德·貝伊提議讓他的兒子奧爾罕與我的姪女蕾拉結親。這可是與海岸的聯盟！可那姑娘不見了——趕在貝伊聽到風聲之前把她找回來。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001654</GUID>
+      <!-- CollectablePicturePuzzle | Aida | Leyla, in Hiding -->
+      <Text>躲藏中的蕾拉</Text>
+    </Text>
+    <Text>
+      <GUID>1404001655</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_Story | <b>Murad Bey's visit went better than anyone had dared to hope.</b> Between two bouts of the bull-butting contest, he proposed a match between his son Orhan and Nureddin Efendi's niece Leyla — an alliance that would bind Wadi Al Zahir to one of the most powerful families of the coast. The marriage contract only needs to be sealed. The bride, however, has disappeared. -->
+      <Text>&lt;b&gt;穆拉德·貝伊的造訪比任何人敢期望的都要順利。&lt;/b&gt;在兩輪鬥牛之間，他提議讓兒子奧爾罕與努爾丁·埃芬迪的姪女蕾拉結親——這一聯盟將把Wadi Al Zahir與海岸最有權勢的家族之一聯繫在一起。婚約只差蓋印了。然而，新娘卻失蹤了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001656</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestBookHint | Leyla has sought the counsel of the Imam at the mosque. -->
+      <Text>蕾拉去清真寺向伊瑪目尋求建議了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001657</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestStartSummary | Envoy Nureddin Efendi asks you to find his niece before her betrothal to Murad Bey's son. -->
+      <Text>特使努爾丁·埃芬迪請你在他的姪女與穆拉德·貝伊之子訂婚前找到她。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001658</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_AidaPlea_SpeechBubble | Please, do not take me back! I will not be traded for an alliance like a bale of silk. My heart belongs to Karim, who guides the caravans across the dunes — I would rather live in his tent than in any palace on the coast! -->
+      <Text>求求你，別把我帶回去！我不要像一捆絲綢一樣被拿去換聯盟。我的心屬於卡里姆，他帶領商隊穿越沙丘——我寧願住在他的帳篷裡，也不要住進海岸的任何宮殿！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001659</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestBookHint | The toys are hidden near the Envoys' houses. -->
+      <Text>玩具藏在特使住宅附近。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001660</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_StealingPresents | Collect the Western toys: [Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text] -->
+      <Text>收集西方玩具：[Conditions QuestCondition CurrentAmount]/[Conditions QuestCondition Amount] [AssetData([Conditions QuestCondition Context]) Text]</Text>
+    </Text>
+    <Text>
+      <GUID>1404001661</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_TakeChristmasAway_QuestStartSummary | Envoy Selim Efendi wants to confiscate the Western toys sent to the envoys' children. -->
+      <Text>特使塞利姆·埃芬迪想沒收寄給特使孩子們的西方玩具。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001662</GUID>
+      <!-- Quest | RQ_Envoy_KidsNowadays2_MakeThemWork_Picturepuzzle | Young Masters — Lessons of the Realm -->
+      <Text>少爺們：王國之課</Text>
+    </Text>
+    <Text>
+      <GUID>1404001663</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_MakeThemWork_QuestComplete | Splendid! Did you see their faces at the camel farm? One of them asked whether camels are made in a workshop. We have much work ahead of us. -->
+      <Text>好極了！你看到他們在駱駝農場時的表情了嗎？有個孩子問駱駝是不是在作坊裡做出來的。我們要做的事還多著呢。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001271</GUID>
+      <!-- PublicServiceBuilding | Mosque | Mosque -->
+      <Text>清真寺</Text>
+    </Text>
+    <Text>
+      <GUID>1404001664</GUID>
+      <!-- LandSpy | RQ_Envoy_Select_RuinAReputation_TariqBey | Envoy Tariq Bey -->
+      <Text>特使塔里克·貝伊</Text>
+    </Text>
+    <Text>
+      <GUID>1404001668</GUID>
+      <!-- Text | RQ_Envoy_PicturePuzzle_Aida_QuestSuccessSummary | Nureddin Efendi postpones the betrothal — and invents a diplomatic excuse for Murad Bey. -->
+      <Text>努爾丁·埃芬迪推遲了訂婚——還為穆拉德·貝伊編了一個外交藉口。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001669</GUID>
+      <!-- AudioText | RQ_Envoy_PicturePuzzle_Aida_QuestSuccess | A caravan guide?! ...Very well. I shall tell Murad Bey that the astrologers advise against a wedding this year. And then I shall have words with this Karim. -->
+      <Text>一個商隊嚮導？！……好吧。我會告訴穆拉德·貝伊，占星師建議今年不宜婚嫁。然後我得好好跟那個卡里姆談談。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001670</GUID>
+      <!-- Text | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccessSummary | Hamza's friends mock him as a boy who has never even faced a wild beast. -->
+      <Text>哈姆扎的朋友們嘲笑他是個連野獸都沒見過的小孩子。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001671</GUID>
+      <!-- AudioText | RQ_Nomad_PicturePuzzle_BeingIncluded_QuestSuccess | They laughed at me... said I have never hunted anything bigger than a jerboa. I will show them — I will bring back a lion! -->
+      <Text>他們笑話我……說我從沒獵過比跳鼠更大的東西。我要讓他們瞧瞧——我要帶一頭獅子回來！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001672</GUID>
+      <!-- Text | RQ_Nomad_Select_HelpTheFamily_TalkToLandownerSummary | After your talk, Hajja Zubaida grudgingly grants the family a delay until the next harvest. -->
+      <Text>你們談過之後，哈賈·祖拜達勉強同意讓這家人延期到下一次收成。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001673</GUID>
+      <!-- AudioText | RQ_Nomad_Select_HelpTheFamily_TalkToLandowner | You spoke to the tax farmer, and she agreed to wait? By Allah, you could talk water out of a stone! -->
+      <Text>你跟包稅人談了，她居然同意等？以阿拉之名，你連石頭都能說出水來！</Text>
+    </Text>
+    <Text>
+      <GUID>1404001674</GUID>
+      <!-- Text | RQ_Nomad_Select_FindFamily_QuestSuccessSummary | Thanks to the letter, Hamza catches up with the caravan at the harbour and brings Amira home. -->
+      <Text>多虧了這封信，哈姆扎在港口追上了商隊，把阿米拉帶回了家。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001675</GUID>
+      <!-- AudioText | RQ_Nomad_Select_FindFamily_QuestSuccess | She was at the harbour, loading camels in a boy's clothes! Her father wept and scolded her at the same time — Allah be praised, she is home. -->
+      <Text>她就在港口，穿著男孩的衣服往駱駝上裝貨！她父親一邊哭一邊罵她——讚美阿拉，她回家了。</Text>
+    </Text>
+    <Text>
+      <GUID>1404001676</GUID>
+      <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
+      <Text>一位年輕遊牧民所寫的沙漠之詩，哀嘆隨著城市發展而乾涸的水井。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003206</GUID>
+      <!--  | Export Dock: Mosaic | Export Dock: Mosaic -->
+      <Text>出口碼頭：馬賽克</Text>
+    </Text>
+    <Text>
+      <GUID>1404003207</GUID>
+      <!--  | Export Dock: Rose Water | Export Dock: Rose Water -->
+      <Text>出口碼頭：玫瑰水</Text>
+    </Text>
+    <Text>
+      <GUID>1404003208</GUID>
+      <!--  | Export Dock: Ceremonial Sabers | Export Dock: Ceremonial Sabers -->
+      <Text>出口碼頭：禮儀軍刀</Text>
+    </Text>
+    <Text>
+      <GUID>1404003209</GUID>
+      <!--  | Export Dock: Flotation Concentrate | Export Dock: Flotation Concentrate -->
+      <Text>出口碼頭：浮選精礦</Text>
+    </Text>
+    <Text>
+      <GUID>1404003210</GUID>
+      <!--  | Export Dock: Pearl Necklaces | Export Dock: Pearl Necklaces -->
+      <Text>出口碼頭：珍珠項鍊</Text>
+    </Text>
+    <Text>
+      <GUID>1404003211</GUID>
+      <!--  | Export Dock: Chandeliers | Export Dock: Chandeliers -->
+      <Text>出口碼頭：枝形吊燈</Text>
+    </Text>
+    <Text>
+      <GUID>1404003300</GUID>
+      <!-- RecipeList | Coffee House Menu | Coffee House Menu -->
+      <Text>咖啡廳菜單</Text>
+    </Text>
+    <Text>
+      <GUID>1404003301</GUID>
+      <!-- Text | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. | Plain coffee keeps the benches full, but a clever host knows a few tricks with milk, spice, dates, roses and honey. Every brew puts the neighbourhood in a different mood. -->
+      <Text>一壺樸素的咖啡就能坐滿長凳，但聰明的店主還懂得用牛奶、香料、椰棗、玫瑰和蜂蜜變些花樣。每一種沖泡都會讓街坊換上不同的心情。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003302</GUID>
+      <!-- Recipe | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003303</GUID>
+      <!-- Recipe | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003304</GUID>
+      <!-- Recipe | Cardamom Coffee | Cardamom Coffee -->
+      <Text>荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003305</GUID>
+      <!-- Recipe | Date Coffee | Date Coffee -->
+      <Text>椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003306</GUID>
+      <!-- Recipe | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003307</GUID>
+      <!-- Recipe | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003310</GUID>
+      <!-- Text | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. | Roasted, ground as fine as dust and boiled three times in the cezve – nothing more. Purists swear it is the only proper coffee; everyone else simply calls it strong. -->
+      <Text>烘焙、研磨得細如塵土，再在土耳其壺裡煮沸三次——僅此而已。純粹主義者發誓這才是真正的咖啡；其他人只會說它很濃。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003311</GUID>
+      <!-- Text | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. | Thick black coffee softened with warm goat milk. It stills the craving for juice and puts everyone in a mellow mood. -->
+      <Text>用溫熱的山羊奶調和的濃郁黑咖啡。它能消解對果汁的渴望，讓每個人都心情舒暢。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003312</GUID>
+      <!-- Text | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. | Poured from the dallah into tiny cups and fragrant with ground cardamom. Whoever gets their spice here saves it at home – and spends the difference at the bazaar. -->
+      <Text>從達拉壺倒入小小的杯中，散發著研磨荳蔻的芬芳。在這裡享用了香料的人在家便省下了，省下的錢則花在市集上。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003313</GUID>
+      <!-- Text | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. | Bitter coffee with a bowl of sweet dates to balance it out. Whoever snacks on dates at the coffee house needs fewer of them at home, and is thirsty less often too. -->
+      <Text>苦澀的咖啡配上一碗香甜的椰棗，正好相互平衡。在咖啡廳裡吃過椰棗的人，回家就不太需要了，也不那麼容易口渴。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003314</GUID>
+      <!-- Text | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. | A splash of rose water and a few floating petals turn a simple cup into a small celebration. Why perfume the house when the coffee house already smells like a garden? The savings happily change hands. -->
+      <Text>幾滴玫瑰水和幾片漂浮的花瓣，就讓一杯普通的咖啡變成小小的慶典。咖啡廳裡已經滿是花園的香氣，何必再為家裡薰香？省下的錢都樂意花出去。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003315</GUID>
+      <!-- Text | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. | Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood. -->
+      <Text>用金黃的蜂蜜調甜，慢慢攪拌，再更慢地細品。甜蜜近在咫尺，誰也不再惦記杏仁糖——消息傳開後，搬進街坊的人也越來越多。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003320</GUID>
+      <!-- Mall | Coffee House: Black Coffee | Coffee House: Black Coffee -->
+      <Text>咖啡廳：黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003321</GUID>
+      <!-- Mall | Coffee House: Milk Coffee | Coffee House: Milk Coffee -->
+      <Text>咖啡廳：牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003322</GUID>
+      <!-- Mall | Coffee House: Cardamom Coffee | Coffee House: Cardamom Coffee -->
+      <Text>咖啡廳：荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003323</GUID>
+      <!-- Mall | Coffee House: Date Coffee | Coffee House: Date Coffee -->
+      <Text>咖啡廳：椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003324</GUID>
+      <!-- Mall | Coffee House: Rose Coffee | Coffee House: Rose Coffee -->
+      <Text>咖啡廳：玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003325</GUID>
+      <!-- Mall | Coffee House: Honey Coffee | Coffee House: Honey Coffee -->
+      <Text>咖啡廳：蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003330</GUID>
+      <!-- TownhallBuff | Black Coffee | Black Coffee -->
+      <Text>黑咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003331</GUID>
+      <!-- TownhallBuff | Milk Coffee | Milk Coffee -->
+      <Text>牛奶咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003332</GUID>
+      <!-- TownhallBuff | Cardamom Coffee | Cardamom Coffee -->
+      <Text>荳蔻咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003333</GUID>
+      <!-- TownhallBuff | Date Coffee | Date Coffee -->
+      <Text>椰棗咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003334</GUID>
+      <!-- TownhallBuff | Rose Coffee | Rose Coffee -->
+      <Text>玫瑰咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003335</GUID>
+      <!-- TownhallBuff | Honey Coffee | Honey Coffee -->
+      <Text>蜂蜜咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404003600</GUID>
+      <!-- OrnamentalBuilding | Jugglers' Camp | Jugglers' Camp -->
+      <Text>雜耍藝人營地</Text>
+    </Text>
+    <Text>
+      <GUID>1404003601</GUID>
+      <!-- Text | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. | Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents. -->
+      <Text>無論在哪裡搭起帳篷，噴火藝人、雜技演員和雜耍藝人總能吸引大批圍觀者。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005002</GUID>
+      <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
+      <Text>礦石桶已空，需要重新裝滿。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005003</GUID>
+      <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
+      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005004</GUID>
+      <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
+      <Text>礦鼓模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404005005</GUID>
+      <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
+      <Text>Ore Drum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005006</GUID>
+      <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
+      <Text>該模組透過使用油浮選製程在礦桶中進行特殊精煉，使礦石產量翻倍。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005012</GUID>
+      <!-- BuffFactoryModule | Bee Garden | Bee Garden -->
+      <Text>蜜蜂園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005013</GUID>
+      <!-- GuildhouseBuff | Honey Production | Honey Production -->
+      <Text>蜂蜜生產</Text>
+    </Text>
+    <Text>
+      <GUID>1404005014</GUID>
+      <!-- Text | A few beehives produce honey and make farms more efficient. | A few beehives produce honey and make farms more efficient. -->
+      <Text>幾個蜂箱可以生產蜂蜜，並使農場更有效率。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005015</GUID>
+      <!-- Text | The bees' honey, gathered from the date palms, is a highly sought-after commodity. | The bees' honey, gathered from the date palms, is a highly sought-after commodity. -->
+      <Text>從椰棗樹上採集的蜂蜜是一種非常搶手的商品。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005017</GUID>
+      <!-- GuildhouseBuff | Pollination | Pollination -->
+      <Text>授粉</Text>
+    </Text>
+    <Text>
+      <GUID>1404005018</GUID>
+      <!-- ItemEffectTargetPool | All crop farms of the Orient | All crop farms of the Orient -->
+      <Text>東方的所有作物農場</Text>
+    </Text>
+    <Text>
+      <GUID>1404005019</GUID>
+      <!-- Text | With the bees' help in pollination, our farms become even more efficient. | With the bees' help in pollination, our farms become even more efficient. -->
+      <Text>在蜜蜂的授粉幫助下，我們的農場變得更加高效。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005020</GUID>
+      <!-- FactoryBuilding7 | Tea Brewery | Tea Brewery -->
+      <Text>茶坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005023</GUID>
+      <!-- FactoryBuilding7 | Lokum Baker | Lokum Baker -->
+      <Text>土耳其軟糖坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005025</GUID>
+      <!-- FarmBuilding | Pistachio Farm | Pistachio Farm -->
+      <Text>開心果園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005026</GUID>
+      <!-- Farmfield | Pistachio Grove | Pistachio Grove -->
+      <Text>開心果林</Text>
+    </Text>
+    <Text>
+      <GUID>1404005027</GUID>
+      <!-- FactoryBuilding7 | Pistachio Roaster | Pistachio Roaster -->
+      <Text>開心果烘焙坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005028</GUID>
+      <!-- GuildhouseItem | Pistachio Seeds | Pistachio Seeds -->
+      <Text>開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005029</GUID>
+      <!-- GuildhouseItem | Quality Pistachio Seeds | Quality Pistachio Seeds -->
+      <Text>優質開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005030</GUID>
+      <!-- GuildhouseItem | Hybrid Pistachio Seeds | Hybrid Pistachio Seeds -->
+      <Text>雜交開心果種子</Text>
+    </Text>
+    <Text>
+      <GUID>1404005031</GUID>
+      <!-- Fertility | Pistachio Fertility | Pistachio Fertility -->
+      <Text>開心果生產力</Text>
+    </Text>
+    <Text>
+      <GUID>1404005032</GUID>
+      <!-- Text | These saplings can help you grow a few groves of Pistachios in alien soil. | These saplings can help you grow a few groves of Pistachios in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植幾片開心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005033</GUID>
+      <!-- Text | These saplings can help you grow plentiful groves of Pistachios in alien soil. | These saplings can help you grow plentiful groves of Pistachios in alien soil. -->
+      <Text>這些樹苗可以幫助您在異國土壤中種植大量的開心果林。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005034</GUID>
+      <!-- Text | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! | These saplings have been adapted to grow in a very wide range of soils, and with increased Pistachio yield! -->
+      <Text>這些樹苗已適應在各種土壤中生長，並且開心果產量增加！</Text>
+    </Text>
+    <Text>
+      <GUID>1404005035</GUID>
+      <!-- FactoryBuilding7 | Fruit Manufactory | Fruit Manufactory -->
+      <Text>水果工坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005038</GUID>
+      <!-- Text | Can only be built in Wadi Al Zahir | Can only be built in Wadi Al Zahir -->
+      <Text>只能在Wadi Al Zahir建造</Text>
+    </Text>
+    <Text>
+      <GUID>1404005039</GUID>
+      <!-- Product | Sulfuric Acid | Sulfuric Acid -->
+      <Text>硫酸</Text>
+    </Text>
+    <Text>
+      <GUID>1404005040</GUID>
+      <!-- Text | Perhaps best not touched with bare hands. Also known as oil of vitriol. | Perhaps best not touched with bare hands. Also known as oil of vitriol. -->
+      <Text>最好不要徒手觸碰。又稱礬油。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005041</GUID>
+      <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
+      <Text>獵象小屋</Text>
     </Text>
   </ModOp>
 </ModOps>

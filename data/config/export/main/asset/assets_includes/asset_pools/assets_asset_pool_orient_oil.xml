@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404000871</GUID>
                     <Name>asset pool orient Oil</Name>
-                    <IconFilename>data/ui/2kimages/main/3dicons/icon_gasoline.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_oil.png</IconFilename>
                 </Standard>
                 <AssetPool>
                     <AssetList>
@@ -37,6 +37,15 @@
                         </Item>
                         <Item>
                             <Asset>1404000875</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005010</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005011</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005008</Asset>
                         </Item>
                     </AssetList>
                 </AssetPool>

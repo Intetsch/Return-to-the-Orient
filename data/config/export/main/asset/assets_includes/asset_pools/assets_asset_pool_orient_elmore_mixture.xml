@@ -1,0 +1,44 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114531">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005001</GUID>
+                    <Name>asset pool orient elmore mixture</Name>
+                    <IconFilename>data/graphics/icons/products/icon_mix.png</IconFilename>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404000887</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404000886</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404000879</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404000878</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404000883</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1500302570</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005039</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>2100115089</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

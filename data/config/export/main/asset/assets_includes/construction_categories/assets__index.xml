@@ -17,6 +17,9 @@
                             <Item>
                                 <Category>1404000015</Category>
                             </Item>
+                            <Item>
+                                <Category>1404000884</Category>
+                            </Item>
 							<Item>
 								<Category>1404001114</Category>
 							</Item>
@@ -142,6 +145,12 @@
                 </PinButtonListRight>
             </Mod3>
         </PinButtonRegions>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="114554" Path="Values/ConstructionCategory/BuildingList/Item[Building='114619']">
+        <Item>
+            <Building>1500302570</Building>
+        </Item>
     </ModOp>
 
 </ModOps>

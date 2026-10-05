@@ -1,0 +1,68 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="118750">
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005002</GUID>
+					<Name>Debuff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The ore drums are empty and need to be refilled.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005003</GUID>
+					<Name>Buff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The finished flotation concentrate is ready and the drums are full.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005006</GUID>
+					<Name>Buff Fluff Moderate</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>This module doubles the yield from ores through special refining in ore drums using the Elmore process.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005040</GUID>
+					<Name>Acid Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Perhaps best not touched with bare hands. Also known as oil of vitriol.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+    </ModOp>
+</ModOps>

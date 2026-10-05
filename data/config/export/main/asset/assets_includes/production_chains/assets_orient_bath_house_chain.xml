@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404003500</GUID>
+                    <Name>orient bath house chain</Name>
+                    <IconFilename>data/graphics/icons/public_services/icon_bath_house.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404000149</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>112842</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1404000212</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404000149</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

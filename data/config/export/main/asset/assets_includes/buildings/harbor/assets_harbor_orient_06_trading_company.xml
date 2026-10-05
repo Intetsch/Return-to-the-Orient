@@ -1,0 +1,937 @@
+<ModOps>
+
+	<!-- Orient Foreign Trading Company: copy of Taludas' Africa variant (1500040204 / 1500040205) with Orient costs,
+	     square Orient quay decal, Nomad portraits and reskinned models, plus Orient import docks for ebony and honey (copies of 1999005406 / 1404000382).
+	     Placed after the last Taludas trading company asset so every base asset is defined first. -->
+	<ModOp Type="addNextSibling" GUID="1500040209">
+
+		<!-- Main building -->
+		<Asset>
+			<BaseAssetGUID>1999005385</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003200</GUID>
+					<Name>trading_company_orient (Main Building)</Name>
+				</Standard>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Text>
+					<TextOverride>1999005385</TextOverride>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>15000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>40</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>60</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>30</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_main.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh />
+				<Constructable />
+				<SoundEmitter />
+				<Locked />
+				<Infolayer />
+				<FeedbackController />
+				<Warehouse />
+				<LogisticNode />
+				<UpgradeList />
+				<AmbientMoodProvider />
+				<Maintenance />
+				<StorageBase>
+					<ProductStorageList>1404003205</ProductStorageList>
+				</StorageBase>
+				<LoadingPier />
+				<MinimapToken />
+				<Attackable />
+				<Pausable />
+				<BuildingUnique />
+				<ModuleOwner>
+					<ConstructionOptions>
+						<Item>
+							<ModuleGUID>1404003201</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003202</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003203</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003206</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003207</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003208</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003209</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003210</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404003211</ModuleGUID>
+						</Item>
+					</ConstructionOptions>
+				</ModuleOwner>
+				<Hacienda />
+				<IncidentInfectable />
+				<Culture />
+			</Values>
+		</Asset>
+
+		<!-- Module: trade license warehouse -->
+		<Asset>
+			<BaseAssetGUID>1999005384</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003201</GUID>
+					<Name>trading_company_orient (Warehouse)</Name>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Mesh />
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_warehouse.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_trade_contracts_office.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003201</DefaultSkinName>
+					</Skins>
+				</Object>
+				<AmbientMoodProvider />
+				<Constructable />
+				<Selection />
+				<Text>
+					<TextOverride>1999005384</TextOverride>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>1500</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>10</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>4</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Attackable />
+				<Warehouse />
+				<StorageBase>
+					<ProductStorageList>1404003205</ProductStorageList>
+				</StorageBase>
+				<Locked />
+				<Maintenance />
+				<Pausable />
+				<SoundEmitter />
+				<Infolayer />
+				<UpgradeList />
+				<LogisticNode />
+				<FeedbackController />
+				<BuildingModule />
+			</Values>
+		</Asset>
+
+		<!-- Module: ebony import dock (trade licenses -> ebony) -->
+		<Asset>
+			<BaseAssetGUID>1999005406</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003202</GUID>
+					<Name>trading_company_orient (Ebony Import Dock)</Name>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/import_pier_orient.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003202</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<TextOverride>1999005406</TextOverride>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: honey import dock (trade licenses -> honey) -->
+		<Asset>
+			<BaseAssetGUID>1404000382</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003203</GUID>
+					<Name>trading_company_orient (Honey Import Dock)</Name>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/import_pier_orient.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003203</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<TextOverride>1404000382</TextOverride>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+	</ModOp>
+
+	<!-- Orient export docks: copies of Taludas' steel export dock 1999005376, placed after the last Taludas export dock
+	     (1999005382) because the export docks are defined after the trading company warehouses. -->
+	<ModOp Type="addNextSibling" GUID="1999005382">
+
+		<!-- Module: mosaic export dock (mosaic -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003206</GUID>
+					<Name>trading_company_orient (Mosaic Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_mosaic.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003206</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Mosaic</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000256</Product>
+							<Amount>10</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: rose water export dock (rose water -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003207</GUID>
+					<Name>trading_company_orient (Rose Water Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_rose_water.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003207</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Rose Water</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1900100125</Product>
+							<Amount>4</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: ceremonial sabers export dock (ceremonial sabers -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003208</GUID>
+					<Name>trading_company_orient (Ceremonial Sabers Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_ceremonial_sabers.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003208</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Ceremonial Sabers</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000238</Product>
+							<Amount>2</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: flotation concentrate export dock (flotation concentrate -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003209</GUID>
+					<Name>trading_company_orient (Flotation Concentrate Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_flotation_concentrate.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003209</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Flotation Concentrate</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000879</Product>
+							<Amount>6</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: pearl necklaces export dock (pearl necklaces -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003210</GUID>
+					<Name>trading_company_orient (Pearl Necklaces Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_pearl_necklaces.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003210</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Pearl Necklaces</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000262</Product>
+							<Amount>2</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+		<!-- Module: chandeliers export dock (chandeliers -> trade licenses) -->
+		<Asset>
+			<BaseAssetGUID>1999005376</BaseAssetGUID>
+			<Values>
+				<Standard>
+					<GUID>1404003211</GUID>
+					<Name>trading_company_orient (Chandeliers Export Dock)</Name>
+					<IconFilename>data/graphics/icons/trading_company/icon_export_dock_chandeliers.png</IconFilename>
+				</Standard>
+				<Building>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+				</Building>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+				</Blocking>
+				<Selection>
+					<ParticipantMessageArcheType>Mod8</ParticipantMessageArcheType>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_packaging_straight.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/trading_company_orient/trading_company_foreign_chamber_tcross.cfg</Filename>
+						</Item>
+					</Variations>
+					<Skins>
+						<DefaultSkinName>1404003211</DefaultSkinName>
+					</Skins>
+				</Object>
+				<Mesh />
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Export Dock: Chandeliers</Text>
+							<Status>Exported</Status>
+						</English>
+					</LocaText>
+				</Text>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>5000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1400201040</Ingredient>
+							<Amount>12</Amount>
+						</Item>
+						<Item>
+							<Ingredient>114402</Ingredient>
+							<Amount>8</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1404000256</Ingredient>
+							<Amount>6</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<FactoryBase>
+					<FactoryInputs>
+						<Item>
+							<Product>1404000241</Product>
+							<Amount>2</Amount>
+							<StorageAmount>10</StorageAmount>
+						</Item>
+					</FactoryInputs>
+					<FactoryOutputs>
+						<Item>
+							<Product>1999005351</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryOutputs>
+					<CycleTime>120</CycleTime>
+				</FactoryBase>
+				<Maintenance>
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>500</Amount>
+							<InactiveAmount>250</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1404000012</Product>
+							<Amount>100</Amount>
+						</Item>
+					</Maintenances>
+				</Maintenance>
+				<Locked />
+			</Values>
+		</Asset>
+
+	</ModOp>
+
+	<!-- Buff targets, same pools as the Taludas originals -->
+	<ModOp Type="add" GUID="193897,193480" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404003200</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003202</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003203</GUID>
+		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404003202</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003203</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003206</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003207</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003208</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003209</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003210</GUID>
+		</Item>
+		<Item>
+			<GUID>1404003211</GUID>
+		</Item>
+	</ModOp>
+
+</ModOps>

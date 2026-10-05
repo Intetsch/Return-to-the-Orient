@@ -1,0 +1,1136 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>Quest</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001358</GUID>
+                    <Name>RQ_Envoy_IamTheSenate3_RuiningReputation_Select</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000019</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001368</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001363</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification>
+                                    <NotificationText>1404001367</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001362</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList>
+                                <Actions>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionSpawnObjects</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionSpawnObjects>
+                                                    <SpawnGUID>1404001664</SpawnGUID>
+                                                    <Amount>1</Amount>
+                                                    <Highlight>1</Highlight>
+                                                    <Owner>Neutral</Owner>
+                                                </ActionSpawnObjects>
+                                                <SpawnArea>
+                                                    <SpawnContext>PlayerKontor</SpawnContext>
+                                                    <LimitToQuestArea>1</LimitToQuestArea>
+                                                    <DistanceToContext>5</DistanceToContext>
+                                                </SpawnArea>
+                                                <SessionFilter>
+                                                    <Sessions>
+                                                        <Item>
+                                                            <Session>1404000000</Session>
+                                                        </Item>
+                                                    </Sessions>
+                                                </SessionFilter>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionRegisterTrigger</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionRegisterTrigger>
+                                                    <TriggerAsset>1404001359</TriggerAsset>
+                                                </ActionRegisterTrigger>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                </Actions>
+                            </ActionList>
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList>
+                                <Actions>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionRegisterTrigger</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionRegisterTrigger>
+                                                    <TriggerAsset>1404001359</TriggerAsset>
+                                                    <UnregisterTrigger>1</UnregisterTrigger>
+                                                </ActionRegisterTrigger>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionRegisterTrigger</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionRegisterTrigger>
+                                                    <TriggerAsset>1404001360</TriggerAsset>
+                                                    <UnregisterTrigger>1</UnregisterTrigger>
+                                                </ActionRegisterTrigger>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionRegisterTrigger</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionRegisterTrigger>
+                                                    <TriggerAsset>1404001361</TriggerAsset>
+                                                    <UnregisterTrigger>1</UnregisterTrigger>
+                                                </ActionRegisterTrigger>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                    <Item>
+                                        <Action>
+                                            <Template>ActionDeleteObjects</Template>
+                                            <Values>
+                                                <Action />
+                                                <ActionDeleteObjects />
+                                                <ObjectFilter>
+                                                    <ObjectGUID>1404001664</ObjectGUID>
+                                                </ObjectFilter>
+                                            </Values>
+                                        </Action>
+                                    </Item>
+                                </Actions>
+                            </ActionList>
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000019</QuestGiver>
+                    <StoryText>1404001369</StoryText>
+                    <QuestCategory>RandomQuest</QuestCategory>
+                    <QuestActivation>ManualActivation</QuestActivation>
+                    <IsAbortable>1</IsAbortable>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList />
+                    </ReputationQuestFail>
+                    <QuestHints>
+                        <Item>
+                            <Text>1404001370</Text>
+                        </Item>
+                    </QuestHints>
+                    <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>15437</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>101594</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>86</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                    <SubConditions>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <Context>1404000202</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                    <CounterScope>Area</CounterScope>
+                                                    <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionQuestState</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionQuestState>
+                                                    <ConditionQuestStateStates>Reached</ConditionQuestStateStates>
+                                                    <ConditionQuestStateQuestGUID>1404001351</ConditionQuestStateQuestGUID>
+                                                </ConditionQuestState>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <Context>1404000147</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                    <CounterScope>Session</CounterScope>
+                                                    <CounterScopeUseActiveSession>1</CounterScopeUseActiveSession>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                    </SubConditions>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Diwan Intrigues — The Shadow</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44595</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>Quest</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130378</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>SelectObjectObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>1404001371</TextCombinedContextValue>
+                                        <ObjectiveSuccessMessage>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <CharacterNotification>
+                                                    <Profile>1404000019</Profile>
+                                                </CharacterNotification>
+                                                <BaseNotification>
+                                                    <NotificationText>1404001372</NotificationText>
+                                                </BaseNotification>
+                                                <NotificationSubtitle>
+                                                    <Subtitle>1404001364</Subtitle>
+                                                </NotificationSubtitle>
+                                            </Values>
+                                        </ObjectiveSuccessMessage>
+                                    </ConditionQuestObjective>
+                                    <ConditionQuestSelectObject>
+                                        <SelectObjects>
+                                            <Item>
+                                                <Object>
+                                                    <Template>ObjectFilter</Template>
+                                                    <Values>
+                                                        <ObjectFilter>
+                                                            <ObjectGUID>1404001664</ObjectGUID>
+                                                            <ObjectSession>1404000000</ObjectSession>
+                                                        </ObjectFilter>
+                                                    </Values>
+                                                </Object>
+                                            </Item>
+                                        </SelectObjects>
+                                    </ConditionQuestSelectObject>
+                                    <ConditionPropsSessionSettings />
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+                                    </ConditionPropsExecutionPlaceSettings>
+                                </Values>
+                            </Objective>
+                        </Item>
+                        <Item>
+                            <Objective>
+                                <Template>FakeQuestObjective</Template>
+                                <Values>
+                                    <ConditionQuestObjective>
+                                        <TextCombinedContextValue>1404001374</TextCombinedContextValue>
+                                    </ConditionQuestObjective>
+                                    <ConditionQuestFakeObjective>
+                                        <QuestTrackerEntries>
+                                            <Item>
+                                                <TextContent>1404001374</TextContent>
+                                                <TextValue>1404001374</TextValue>
+                                                <CombinedText>1404001374</CombinedText>
+                                                <QuestTrackerIcon>data/ui/2kimages/main/3dicons/specialists/africa/icon_politician.png</QuestTrackerIcon>
+                                            </Item>
+                                        </QuestTrackerEntries>
+                                    </ConditionQuestFakeObjective>
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                    <WinConditionCompletionOrder>Linear</WinConditionCompletionOrder>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118754</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>Area</SpawnContext>
+                                                        <MatcherGUID>1404001645</MatcherGUID>
+                                                        <LimitToQuestArea>1</LimitToQuestArea>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                        <DistanceToBorder>Near</DistanceToBorder>
+                                                        <DistanceToIsland>Far</DistanceToIsland>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback />
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective>
+                                <ObjectiveSignsAndFeedback>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>501006</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </ObjectiveSignsAndFeedback>
+                            </ConditionQuestObjective>
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TriggerQuest</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001359</GUID>
+                    <Name>Move Council member to town hall</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionObjectSelected</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionObjectSelected />
+                            <ConditionPropsSessionSettings />
+                            <ObjectFilter>
+                                <ObjectGUID>1404001664</ObjectGUID>
+                                <ObjectSession>1404000000</ObjectSession>
+                            </ObjectFilter>
+                            <ConditionPropsNegatable />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionMoveObject</Template>
+                                <Values>
+                                    <Action />
+                                    <ObjectFilter>
+                                        <ObjectGUID>1404001664</ObjectGUID>
+                                        <ObjectSession>1404000000</ObjectSession>
+                                    </ObjectFilter>
+                                    <ObjectTargetFilter>
+                                        <TargetGUID>1404000202</TargetGUID>
+                                        <TargetObjectSession>1404000000</TargetObjectSession>
+                                    </ObjectTargetFilter>
+                                    <ActionMoveObject />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404001360</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TriggerQuest</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001360</GUID>
+                    <Name>Move Council member to market</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionObjectPosition</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPropsSessionSettings />
+                            <ConditionObjectPosition>
+                                <Radius>3</Radius>
+                            </ConditionObjectPosition>
+                            <ObjectFilter>
+                                <ObjectGUID>1404001664</ObjectGUID>
+                                <ObjectSession>1404000000</ObjectSession>
+                            </ObjectFilter>
+                            <ObjectTargetFilter>
+                                <TargetGUID>1404000202</TargetGUID>
+                                <TargetCheckProcessingParticipantID>1</TargetCheckProcessingParticipantID>
+                            </ObjectTargetFilter>
+                            <ConditionPropsNegatable />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionNotification</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionNotification>
+                                        <Notification>
+                                            <Template>CharacterNotification</Template>
+                                            <Values>
+                                                <CharacterNotification>
+                                                    <Profile>1404000019</Profile>
+                                                </CharacterNotification>
+                                                <BaseNotification>
+                                                    <NotificationText>1404001373</NotificationText>
+                                                </BaseNotification>
+                                                <NotificationSubtitle>
+                                                    <Subtitle>1404001365</Subtitle>
+                                                </NotificationSubtitle>
+                                            </Values>
+                                        </Notification>
+                                    </ActionNotification>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionMoveObject</Template>
+                                <Values>
+                                    <Action />
+                                    <ObjectFilter>
+                                        <ObjectGUID>1404001664</ObjectGUID>
+                                        <ObjectSession>1404000000</ObjectSession>
+                                    </ObjectFilter>
+                                    <ObjectTargetFilter>
+                                        <TargetGUID>1404000147</TargetGUID>
+                                        <TargetObjectSession>1404000000</TargetObjectSession>
+                                    </ObjectTargetFilter>
+                                    <ActionMoveObject />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404001361</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>TriggerQuest</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001361</GUID>
+                    <Name>Council member reach market</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionObjectPosition</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPropsSessionSettings />
+                            <ConditionObjectPosition>
+                                <Radius>5</Radius>
+                            </ConditionObjectPosition>
+                            <ObjectFilter>
+                                <ObjectGUID>1404001664</ObjectGUID>
+                                <ObjectSession>1404000000</ObjectSession>
+                            </ObjectFilter>
+                            <ObjectTargetFilter>
+                                <TargetGUID>1404000147</TargetGUID>
+                                <TargetCheckProcessingParticipantID>1</TargetCheckProcessingParticipantID>
+                            </ObjectTargetFilter>
+                            <ConditionPropsNegatable />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionNotification</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionNotification>
+                                        <Notification>
+                                            <Template>CharacterNotification</Template>
+                                            <Values>
+                                                <CharacterNotification>
+                                                    <Profile>1404000019</Profile>
+                                                </CharacterNotification>
+                                                <BaseNotification>
+                                                    <NotificationText>1404001375</NotificationText>
+                                                </BaseNotification>
+                                                <NotificationSubtitle>
+                                                    <Subtitle>1404001366</Subtitle>
+                                                </NotificationSubtitle>
+                                            </Values>
+                                        </Notification>
+                                    </ActionNotification>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>10000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionEndQuest</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionEndQuest>
+                                                                        <Quest>1404001358</Quest>
+                                                                        <WinQuest>1</WinQuest>
+                                                                    </ActionEndQuest>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue />
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tariq Bey voted against my petition. Twice! No man is that principled without a reason. Follow him, and we shall see who pays him.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>40999</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000468</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001362</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Apricots. He bought apricots. For his mother. ...Nobody is that innocent. I shall find something, mark my words!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41000</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000490</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001363</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_QuestComplete</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>There he is, fresh off the boat! Follow him — and do try to look inconspicuous.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41001</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000464</AudioAsset>
+                    <Mood>Negative</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001364</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_LeaveKontor</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The clerks at the Town Hall! He is bribing them, I know it. Watch for an envelope!</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41002</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000472</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001365</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_ReachTownHall</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Now he is paying the fruit seller... far too much for a bag of apricots. Is that a coded message?</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41003</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000474</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001366</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_ReachMarket</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001367</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Kemal Bey suspects his rival Tariq Bey of secret dealings and asks you to follow him.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44255</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001368</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_QuestCompleteSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tariq Bey turns out to be disappointingly honest. Kemal Bey refuses to believe it.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44256</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001369</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>&lt;b&gt;Tariq Bey has opposed every proposal Kemal Bey has made,&lt;/b&gt; and Kemal Bey is convinced that nobody is that principled without a reason. He suspects bribes from the foreign merchants at the harbour, or perhaps secret letters to the Grand Vizier. Either would be the end of Tariq Bey's career — if only someone could prove it.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44253</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001370</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_QuestBookHint</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tariq Bey arrives at the harbour every morning, calls at the Town Hall and then strolls over to the Marketplace.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44254</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001371</GUID>
+                    <Name>RQElder_RuinAReputation_TailingTheEnvoy</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Select Tariq Bey to start following him</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44368</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001372</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_LeaveKontorSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Kemal Bey is certain that Tariq Bey will soon show his true colours.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44257</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001373</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_ReachTownHallSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Tariq Bey spends a long time with the clerks at the Town Hall. Kemal Bey smells bribery.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44258</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001374</GUID>
+                    <Name>RQElder_RuinAReputation_TailingTheEnvoy2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Follow Tariq Bey through the city without being noticed</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44369</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001375</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_ReachMarketSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>At the Marketplace, Tariq Bey stops at a fruit stall. Kemal Bey holds his breath.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44259</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <!-- Orient copy of the vanilla council member walker, so it carries its own name -->
+        <Asset>
+            <BaseAssetGUID>118780</BaseAssetGUID>
+            <Values>
+                <Standard>
+                    <GUID>1404001664</GUID>
+                    <Name>RQ_Envoy_Select_RuinAReputation_TariqBey</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Envoy Tariq Bey</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+
+    </ModOp>
+
+</ModOps>

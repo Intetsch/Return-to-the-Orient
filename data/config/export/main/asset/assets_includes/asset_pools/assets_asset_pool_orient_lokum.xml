@@ -1,0 +1,52 @@
+<ModOps>
+
+    <ModOp GUID='4532' Type="addNextSibling">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005022</GUID>
+                    <Name>asset pool orient lokum</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1400201053</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005023</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1400201049</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1400201047</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005024</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005025</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005026</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005027</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005028</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005029</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005030</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+
+    </ModOp>
+</ModOps>

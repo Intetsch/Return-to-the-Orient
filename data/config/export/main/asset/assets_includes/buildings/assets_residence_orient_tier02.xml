@@ -160,23 +160,6 @@
                 </LogisticNode>
                 <AmbientMoodProvider>
                     <DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
-                    <HappinessDependentMurmur>
-                        <Angry>
-                            <Murmur>Africa_ElderUnhappy</Murmur>
-                        </Angry>
-                        <Unhappy>
-                            <Murmur>Africa_ElderUnhappy</Murmur>
-                        </Unhappy>
-                        <Neutral>
-                            <Murmur>Africa_ElderHappy</Murmur>
-                        </Neutral>
-                        <Happy>
-                            <Murmur>Africa_ElderHappy</Murmur>
-                        </Happy>
-                        <Euphoric>
-                            <Murmur>Africa_ElderHappy</Murmur>
-                        </Euphoric>
-                    </HappinessDependentMurmur>
                 </AmbientMoodProvider>
                 <UpgradeList />
                 <Attackable>
