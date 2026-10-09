@@ -45,10 +45,6 @@
     {
       "DLC": "LandOfLions",
       "Dependant": "required"
-    },
-    {
-      "DLC": "NewWorldRising",
-      "Dependant": "required"
     }
   ],
   "ModDependencies": [
@@ -96,13 +92,10 @@
   ],
   "KnownIssues": [
     {
-      "English": "Trading post ghost invisible, will not fix"
-    },
-    {
       "English": "Irrigated fields not green"
     },
     {
-      "English": "Pilgrimage Reward Subheader not displayed correctly"
+      "English": "Music colliding with voice lines/other special music"
     }
   ],
   "CreatorName": "Natoncy",
