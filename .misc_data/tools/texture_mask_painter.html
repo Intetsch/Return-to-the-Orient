@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Orient Mask Painter</title>
+<style>
+  :root{
+    --bg:#16161a; --panel:#1e1e24; --line:#2e2e38; --fg:#e8e8ee; --dim:#9a9aa8;
+    --cloth:#00c850; --skin:#e68c5a; --hair:#3c5adc; --prop:#e6c83c; --accent:#6aa9ff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--fg);
+    font:13px/1.45 "Segoe UI",system-ui,sans-serif;overflow:hidden}
+  #app{display:flex;height:100%}
+
+  /* ---- left: texture list ---- */
+  #side{width:270px;flex:0 0 270px;background:var(--panel);border-right:1px solid var(--line);
+    display:flex;flex-direction:column}
+  #side h1{font-size:13px;margin:0;padding:12px 14px;border-bottom:1px solid var(--line);
+    letter-spacing:.3px}
+  #side h1 small{display:block;color:var(--dim);font-weight:400;font-size:11px;margin-top:2px}
+  #list{flex:1;overflow:auto}
+  .row{padding:7px 12px;border-bottom:1px solid #26262e;cursor:pointer;display:flex;
+    align-items:center;gap:8px;font-size:11.5px}
+  .row:hover{background:#26263050}
+  .row.sel{background:#2a3550;box-shadow:inset 3px 0 0 var(--accent)}
+  .dot{width:7px;height:7px;border-radius:50%;background:#4a4a56;flex:0 0 7px}
+  .dot.done{background:var(--cloth)}
+  .dot.edited{background:var(--prop)}
+  .row .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+  .row .uv{flex:0 0 auto;color:var(--dim);font:10px ui-monospace,monospace;
+    background:#2a2a33;border-radius:3px;padding:1px 4px}
+  .row.sel .uv{background:#3a4a6a;color:#cfe0ff}
+  #sideFoot{padding:10px 12px;border-top:1px solid var(--line);color:var(--dim);font-size:11px}
+
+  /* ---- middle: canvas ---- */
+  #main{flex:1;display:flex;flex-direction:column;min-width:0}
+  #bar{display:flex;align-items:center;gap:6px;padding:8px 10px;background:var(--panel);
+    border-bottom:1px solid var(--line);flex-wrap:wrap}
+  #stage{flex:1;position:relative;overflow:hidden;background:#0e0e11;cursor:crosshair}
+  #wrap{position:absolute;transform-origin:0 0}
+  canvas{display:block;image-rendering:pixelated;position:absolute;left:0;top:0}
+  #tex{z-index:1}
+  #ov{z-index:2;opacity:.55}
+  #cur{z-index:3;pointer-events:none}
+
+  button,select,input[type=number]{background:#2a2a33;color:var(--fg);border:1px solid #3a3a46;
+    border-radius:5px;padding:5px 9px;font:inherit;font-size:12px;cursor:pointer}
+  button:hover{background:#343440}
+  button.on{background:var(--accent);border-color:var(--accent);color:#08121f;font-weight:600}
+  button:disabled{opacity:.4;cursor:default}
+  .lbl{display:inline-flex;align-items:center;gap:6px;padding:5px 10px;border-radius:5px;
+    border:1px solid #3a3a46;background:#2a2a33;cursor:pointer;font-size:12px}
+  .lbl.on{outline:2px solid var(--accent);outline-offset:1px}
+  .sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+  label.f{display:inline-flex;align-items:center;gap:5px;color:var(--dim);font-size:11.5px}
+  input[type=range]{width:96px;vertical-align:middle}
+  /* ---- right: 3D model ---- */
+  #view{width:330px;flex:0 0 330px;background:var(--panel);border-left:1px solid var(--line);
+    display:flex;flex-direction:column}
+  #view .head{padding:8px 10px;border-bottom:1px solid var(--line);display:flex;gap:6px;
+    align-items:center;flex-wrap:wrap}
+  #gl{flex:1;min-height:0;background:#0e0e11;position:relative}
+  #gl canvas{position:absolute;inset:0;width:100%!important;height:100%!important}
+  #glNote{padding:7px 10px;color:var(--dim);font-size:11px;border-top:1px solid var(--line)}
+
+  #hint{padding:6px 10px;background:#15151a;border-top:1px solid var(--line);
+    color:var(--dim);font-size:11px;display:flex;gap:14px;flex-wrap:wrap}
+  kbd{background:#2a2a33;border:1px solid #3a3a46;border-bottom-width:2px;border-radius:3px;
+    padding:0 4px;font:11px/1.5 ui-monospace,monospace;color:var(--fg)}
+  #toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);background:#2a2a33;
+    border:1px solid #3a3a46;padding:8px 16px;border-radius:6px;opacity:0;transition:opacity .2s;
+    pointer-events:none;z-index:50}
+  #toast.show{opacity:1}
+  #setup{position:fixed;inset:0;background:#0e0e11ee;display:flex;align-items:center;
+    justify-content:center;z-index:100}
+  #setup .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:22px 26px;max-width:560px}
+  #setup h2{margin:0 0 10px;font-size:15px}
+  #setup p{color:var(--dim);margin:7px 0}
+  code{background:#2a2a33;padding:1px 5px;border-radius:3px;font:12px ui-monospace,monospace}
+</style>
+</head>
+<body>
+
+<div id="app">
+  <div id="side">
+    <h1>Orient Mask Painter<small id="counter">loading…</small>
+      <small style="opacity:.6">build 9 — fixes black model (texture realloc on size change)</small></h1>
+    <div id="list"></div>
+    <div id="sideFoot">
+      <button id="btnSaveAll" style="width:100%">Save all edited</button>
+    </div>
+  </div>
+
+  <div id="main">
+    <div id="bar">
+      <span class="lbl on" data-label="1"><i class="sw" style="background:var(--cloth)"></i>Cloth <kbd>1</kbd></span>
+      <span class="lbl" data-label="2"><i class="sw" style="background:var(--skin)"></i>Skin <kbd>2</kbd></span>
+      <span class="lbl" data-label="3"><i class="sw" style="background:var(--hair)"></i>Hair <kbd>3</kbd></span>
+      <span class="lbl" data-label="4"><i class="sw" style="background:var(--prop)"></i>Leather/Metal <kbd>4</kbd></span>
+      <span class="lbl" data-label="0"><i class="sw" style="background:#444"></i>Erase <kbd>0</kbd></span>
+      <span class="sep"></span>
+      <button id="tBrush" class="on">Brush <kbd>B</kbd></button>
+      <button id="tWand">Wand <kbd>W</kbd></button>
+      <button id="tRect">Rect <kbd>R</kbd></button>
+      <span class="sep"></span>
+      <label class="f">Size <input type="range" id="size" min="1" max="120" value="18"><span id="sizeV">18</span></label>
+      <label class="f">Tol <input type="range" id="tol" min="1" max="120" value="32"><span id="tolV">32</span></label>
+      <label class="f"><input type="checkbox" id="contig" checked> contiguous</label>
+      <span class="sep"></span>
+      <label class="f">Overlay <input type="range" id="op" min="0" max="100" value="55"></label>
+      <button id="btnSeed">Auto-seed</button>
+      <button id="btnClear">Clear</button>
+      <span class="sep"></span>
+      <button id="btnCopy">Copy <kbd>Ctrl C</kbd></button>
+      <button id="btnPaste" disabled>Paste <kbd>Ctrl V</kbd></button>
+      <select id="copyFrom" title="load another texture's mask into this one">
+        <option value="">copy from…</option>
+      </select>
+      <span class="sep"></span>
+      <button id="btnUndo">Undo <kbd>Ctrl Z</kbd></button>
+      <button id="btnSave">Save <kbd>Ctrl S</kbd></button>
+    </div>
+
+    <div id="stage">
+      <div id="wrap">
+        <canvas id="tex"></canvas>
+        <canvas id="ov"></canvas>
+        <canvas id="cur"></canvas>
+      </div>
+    </div>
+
+    <div id="hint">
+      <span><kbd>wheel</kbd> zoom</span>
+      <span><kbd>space</kbd>+drag or middle-drag pan</span>
+      <span><kbd>[</kbd> <kbd>]</kbd> brush size</span>
+      <span><kbd>X</kbd> hide overlay</span>
+      <span><kbd>PgUp</kbd>/<kbd>PgDn</kbd> prev/next texture</span>
+      <span><kbd>alt</kbd>+click erase</span>
+    </div>
+  </div>
+
+  <div id="view">
+    <div class="head">
+      <strong style="font-size:12px">Model</strong>
+      <button id="mTex" class="on">Texture</button>
+      <button id="mMask">Mask</button>
+      <button id="mBoth">Blend</button>
+      <button id="mSpin">Spin</button>
+      <span class="sep"></span>
+      <button id="vF" title="front">F</button>
+      <button id="vB" title="back">B</button>
+      <button id="vL" title="left">L</button>
+      <button id="vR" title="right">R</button>
+      <button id="vFlip" title="some meshes are authored facing the other way">Flip 180°</button>
+    </div>
+    <div id="gl"></div>
+    <div id="glNote">drag rotate · wheel zoom · right-drag pan<br>
+      Bind pose, body mesh only — props and hats are separate meshes.</div>
+  </div>
+</div>
+
+<div id="toast"></div>
+
+<script type="importmap">
+{"imports":{
+  "three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+}}
+</script>
+<script type="module">
+// ---------------------------------------------------------------------------------
+// Model preview. Shows the unit's body mesh wearing either the source texture or the
+// label mask, so a UV island can be matched to an actual body part. The mask view
+// updates live while painting.
+//
+// The mesh is exported from .rdm without skin, so it stands in bind pose. Props and
+// hats are separate meshes and are not shown.
+// ---------------------------------------------------------------------------------
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {GLTFLoader}    from 'three/addons/loaders/GLTFLoader.js';
+
+const host = document.getElementById('gl');
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x0e0e11);
+const camera = new THREE.PerspectiveCamera(35, 1, 0.01, 100);
+const renderer = new THREE.WebGLRenderer({antialias:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+host.appendChild(renderer.domElement);
+const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+
+scene.add(new THREE.HemisphereLight(0xffffff, 0x404050, 2.2));
+const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(2,4,3); scene.add(key);
+const rim = new THREE.DirectionalLight(0xaaccff, .7); rim.position.set(-3,2,-2); scene.add(rim);
+
+const comp = document.createElement('canvas');
+comp.width = comp.height = 512;          // start at atlas size, not the 300x150 default
+const compX = comp.getContext('2d', {willReadFrequently:true});
+const compTex = new THREE.CanvasTexture(comp);
+compTex.flipY = false;                 // glTF UV origin is top-left, like our canvas
+compTex.colorSpace = THREE.SRGBColorSpace;
+
+let current = null, mode = 'tex', spin = false, baseYaw = 0;
+const loader = new GLTFLoader();
+
+// The animation loop cannot be relied on: when the pane is unfocused or hidden the host
+// throttles requestAnimationFrame, so a camera move or a flip would not repaint until
+// something else happened to force it. Every action therefore renders explicitly, and
+// again on the next couple of frames so OrbitControls damping settles.
+// render() must NOT touch controls: OrbitControls.update() fires a 'change' event, and if
+// the change handler calls update() again it recurses until the stack blows.
+// The key light rides with the camera. With a fixed light, orbiting to the far side left
+// the model in shadow and reading as an untextured black silhouette - which is easy to
+// mistake for a broken material.
+function render(){ renderer.render(scene, camera); }
+function draw(){ controls.update(); render(); }
+function drawSoon(){
+  draw();
+  requestAnimationFrame(draw);
+  setTimeout(draw, 60);
+  setTimeout(draw, 180);
+}
+
+function fit(obj){
+  const box = new THREE.Box3().setFromObject(obj);
+  const size = box.getSize(new THREE.Vector3());
+  const ctr  = box.getCenter(new THREE.Vector3());
+  obj.position.sub(ctr);
+  const r = Math.max(size.x,size.y,size.z) || 1;
+  camera.position.set(0, size.y*0.1, r*2.4);
+  camera.near = r/100; camera.far = r*50; camera.updateProjectionMatrix();
+  controls.target.set(0,0,0); controls.update();
+}
+
+window.MODEL = {
+  // yawDeg: some meshes are authored facing -Z. Nothing is wrong with their UVs, but a
+  // default front camera shows the back of the head and the atlas looks mismatched.
+  async load(url, yawDeg){
+    if(current){ scene.remove(current); current = null; }
+    baseYaw = (yawDeg||0) * Math.PI/180;
+    if(!url){ return; }
+    try{
+      const gltf = await loader.loadAsync(url);
+      const root = gltf.scene;
+      root.traverse(o=>{
+        if(o.isMesh){
+          // Unlit on purpose: for judging a mask you want the atlas's true colours, not a
+          // lighting interpretation of them, and it removes shading as a variable when a
+          // model looks "wrong".
+          o.material = new THREE.MeshBasicMaterial({
+            map: compTex, side: THREE.DoubleSide
+          });
+        }
+      });
+      scene.add(root); current = root; fit(root);
+      current.rotation.y = baseYaw;
+      drawSoon();
+    }catch(e){ console.warn('model load failed', e); }
+  },
+  // texCanvas = the source atlas, maskCanvas = the label overlay
+  refresh(texCanvas, maskCanvas){
+    if(!texCanvas) return;
+    if(comp.width !== texCanvas.width || comp.height !== texCanvas.height){
+      comp.width = texCanvas.width; comp.height = texCanvas.height;
+      // The GPU texture was allocated at the previous size. Without disposing, three.js
+      // issues a partial upload that overflows the old allocation -- WebGL reports
+      // "glCopySubTextureCHROMIUM: Offset overflows texture dimensions" and the model
+      // renders black. Disposing forces a fresh allocation at the new size.
+      compTex.dispose();
+    }
+    compX.clearRect(0,0,comp.width,comp.height);
+    if(mode === 'mask'){
+      compX.fillStyle = '#101014';
+      compX.fillRect(0,0,comp.width,comp.height);
+      if(maskCanvas) compX.drawImage(maskCanvas,0,0);
+    } else {
+      compX.drawImage(texCanvas,0,0);
+      if(mode === 'both' && maskCanvas){
+        compX.globalAlpha = .55; compX.drawImage(maskCanvas,0,0); compX.globalAlpha = 1;
+      }
+    }
+    compTex.needsUpdate = true;
+    drawSoon();
+  },
+  debug(){
+    let mat=null;
+    if(current) current.traverse(o=>{ if(o.isMesh && !mat) mat=o.material; });
+    const px = comp.width ? compX.getImageData(comp.width>>1, comp.height>>1, 1, 1).data : null;
+    return {
+      hasModel: !!current,
+      compSize: comp.width+'x'+comp.height,
+      compCentre: px ? [px[0],px[1],px[2],px[3]] : null,
+      texImage: compTex.image ? (compTex.image.width+'x'+compTex.image.height) : 'none',
+      matMapIsCompTex: mat ? (mat.map === compTex) : null,
+      matType: mat ? mat.type : null,
+      camZ: +camera.position.z.toFixed(3),
+      lights: scene.children.filter(o=>o.isLight).map(l=>l.type+':'+l.intensity)
+    };
+  },
+  setMode(m){ mode = m; },
+  setSpin(s){ spin = s; },
+  // deterministic camera placement; orbit damping makes "just spin it" unreliable,
+  // and the preview pane throttles rAF so a timed rotation is not dependable either
+  view(which){
+    if(!current) return;
+    const box = new THREE.Box3().setFromObject(current);
+    const size = box.getSize(new THREE.Vector3());
+    const r = Math.max(size.x,size.y,size.z) || 1;
+    const d = r*2.2;
+    const pos = {front:[0,0,d], back:[0,0,-d], left:[-d,0,0], right:[d,0,0]}[which] || [0,0,d];
+    camera.position.set(pos[0], size.y*0.08, pos[2]);
+    controls.target.set(0,0,0);
+    drawSoon();
+  },
+  flip(){
+    if(current) current.rotation.y += Math.PI;
+    drawSoon();
+    return current ? current.rotation.y : 0;
+  }
+};
+
+function resize(){
+  const w = host.clientWidth, h = host.clientHeight;
+  if(!w || !h) return;
+  renderer.setSize(w,h,false);
+  camera.aspect = w/h; camera.updateProjectionMatrix();
+}
+new ResizeObserver(resize).observe(host);
+resize();
+
+renderer.setAnimationLoop(()=>{
+  if(spin && current) current.rotation.y += 0.008;
+  draw();
+});
+controls.addEventListener('change', render); // repaint on drag/zoom even if rAF is throttled
+new ResizeObserver(drawSoon).observe(host);
+</script>
+
+<div id="setup"><div class="card">
+  <h2>Pick the mask folder</h2>
+  <p>Grant write access to <code>.misc_data\mask_work\masks</code> so painted masks save straight back to the repo.</p>
+  <p>If the browser offers no picker, the tool still works and Save will download the PNG instead.</p>
+  <p><button id="btnPick">Choose masks folder…</button>
+     <button id="btnSkip">Skip (download mode)</button></p>
+</div></div>
+
+<script>
+// ===================================================================================
+// Orient Mask Painter
+//
+// Paints a per-pixel LABEL map over each unit atlas, so the reskin pipeline is told
+// what is cloth / skin / hair / leather instead of guessing from local statistics.
+// Labels are saved as flat-colour PNGs next to the textures.
+//
+//   0 unassigned  black        left alone by the pipeline
+//   1 cloth       green        motif replacement + palette tint
+//   2 skin        orange       value grade only
+//   3 hair        blue         untouched
+//   4 leather     yellow       light grade, no motif
+// ===================================================================================
+
+const LABELS = [
+  {id:0, name:'unassigned', rgb:[0,0,0]},
+  {id:1, name:'cloth',      rgb:[0,200,80]},
+  {id:2, name:'skin',       rgb:[230,140,90]},
+  {id:3, name:'hair',       rgb:[60,90,220]},
+  {id:4, name:'leather',    rgb:[230,200,60]},
+];
+const DATA_BASE = '../mask_work/';
+
+let manifest = [], idx = -1;
+let W=0, H=0;
+let labels=null;             // Uint8Array, one label per pixel
+let texImgData=null;         // source pixels, for wand + seeding
+let dirHandle=null;          // FileSystemDirectoryHandle for masks/, when granted
+let undoStack=[], edited=new Set(), saved=new Set();
+let curLabel=1, tool='brush', brush=18, tol=32, contiguous=true, overlayOn=true;
+
+const $ = s=>document.querySelector(s);
+const texC=$('#tex'), ovC=$('#ov'), curC=$('#cur');
+const texX=texC.getContext('2d',{willReadFrequently:true});
+const ovX =ovC.getContext('2d');
+const curX=curC.getContext('2d');
+const stage=$('#stage'), wrap=$('#wrap');
+let zoom=1, panX=0, panY=0;
+
+function toast(m){ const t=$('#toast'); t.textContent=m; t.classList.add('show');
+  clearTimeout(t._t); t._t=setTimeout(()=>t.classList.remove('show'),1600); }
+
+// ---------- boot ----------
+$('#btnPick').onclick = async ()=>{
+  try{
+    dirHandle = await window.showDirectoryPicker({mode:'readwrite'});
+    $('#setup').style.display='none';
+    await boot();
+  }catch(e){ toast('folder not granted'); }
+};
+$('#btnSkip').onclick = async ()=>{ $('#setup').style.display='none'; await boot(); };
+if(!window.showDirectoryPicker){ $('#btnPick').disabled=true;
+  $('#btnPick').title='needs a Chromium browser served over http://localhost'; }
+
+async function boot(){
+  try{
+    manifest = await (await fetch(DATA_BASE+'manifest.json')).json();
+  }catch(e){
+    alert('Could not read manifest.json.\n\nServe .misc_data over http (see the README line) rather than opening the file directly.');
+    return;
+  }
+  renderList();
+  await load(0);
+}
+
+function renderList(){
+  const L=$('#list'); L.innerHTML='';
+  manifest.forEach((m,i)=>{
+    const d=document.createElement('div');
+    d.className='row'+(i===idx?' sel':'');
+    d.innerHTML='<span class="dot"></span><span class="nm"></span><span class="uv"></span>';
+    d.querySelector('.nm').textContent = m.name.replace(/^residence_colony_02_/,'');
+    // mesh group: same number = same UVs = a mask copies across exactly
+    const u=d.querySelector('.uv');
+    u.textContent = m.uv ? 'M'+m.uv : '';
+    u.title = 'mesh group '+m.uv+' — masks copy exactly between these';
+    d.onclick=()=>load(i);
+    L.appendChild(d);
+  });
+  refreshDots();
+}
+function refreshDots(){
+  [...$('#list').children].forEach((row,i)=>{
+    const dot=row.querySelector('.dot');
+    dot.className='dot'+(saved.has(manifest[i].name)?' done':(edited.has(manifest[i].name)?' edited':''));
+    row.classList.toggle('sel', i===idx);
+  });
+  $('#counter').textContent = saved.size+' of '+manifest.length+' saved';
+}
+
+// ---------- load a texture ----------
+async function load(i){
+  if(i<0||i>=manifest.length) return;
+  idx=i; const m=manifest[i];
+  W=m.w; H=m.h;
+  for(const c of [texC,ovC,curC]){ c.width=W; c.height=H; }
+
+  const img = await loadImg(DATA_BASE+'textures/'+m.name+'.png');
+  texX.clearRect(0,0,W,H); texX.drawImage(img,0,0);
+  texImgData = texX.getImageData(0,0,W,H);
+
+  labels = new Uint8Array(W*H);
+  const prev = await tryLoadMask(m.name);
+  if(prev){ labels=prev; } else { autoSeed(); }
+
+  undoStack=[]; drawOverlay(); fitView(); refreshDots(); fillCopyFrom();
+
+  if(window.MODEL){
+    // manifest yaw is the default; a Flip you made for this texture overrides it
+    const over = localStorage.getItem('yaw:'+m.name);
+    const yaw = over !== null ? +over : (m.yaw||0);
+    await window.MODEL.load(m.model ? DATA_BASE+'models/'+m.model : null, yaw);
+    window.MODEL.refresh(texC, ovC);
+  }
+}
+function loadImg(src){ return new Promise((res,rej)=>{ const im=new Image();
+  im.onload=()=>res(im); im.onerror=rej; im.src=src+'?t='+Date.now(); }); }
+
+async function tryLoadMask(name){
+  const out = await fetchMaskLabels({name}, W, H);
+  if(out) saved.add(name);
+  return out;
+}
+
+// ---------- auto-seed (same idea as the pipeline, so it starts mostly right) ----------
+function autoSeed(){
+  const d=texImgData.data, N=W*H;
+  const Lum=new Float32Array(N), Hu=new Float32Array(N), Sa=new Float32Array(N);
+  for(let p=0;p<N;p++){
+    const r=d[p*4]/255,g=d[p*4+1]/255,b=d[p*4+2]/255;
+    const mx=Math.max(r,g,b), mn=Math.min(r,g,b), l=(mx+mn)/2, c=mx-mn;
+    let h=0,s=0;
+    if(c>1e-6){
+      s = l>0.5 ? c/(2-mx-mn) : c/(mx+mn);
+      if(mx===r) h=((g-b)/c+(g<b?6:0)); else if(mx===g) h=((b-r)/c+2); else h=((r-g)/c+4);
+      h*=60;
+    }
+    Lum[p]=l; Hu[p]=h; Sa[p]=s;
+  }
+  // local std-dev of luminance = "is this busy"
+  const vr=new Float32Array(N), R=2;
+  for(let y=0;y<H;y++) for(let x=0;x<W;x++){
+    let s1=0,s2=0,c=0;
+    for(let yy=Math.max(0,y-R);yy<=Math.min(H-1,y+R);yy++)
+      for(let xx=Math.max(0,x-R);xx<=Math.min(W-1,x+R);xx++){
+        const v=Lum[yy*W+xx]; s1+=v; s2+=v*v; c++; }
+    const m=s1/c; vr[y*W+x]=Math.sqrt(Math.max(0,s2/c-m*m));
+  }
+  const SR=Math.max(8,(W/40))|0;
+  const warm=new Float32Array(N), dark=new Float32Array(N);
+  for(let p=0;p<N;p++){
+    warm[p] = (Hu[p]>=5&&Hu[p]<=48 && Sa[p]>0.15&&Sa[p]<0.64 && Lum[p]>0.10&&Lum[p]<0.90)?1:0;
+    dark[p] = Lum[p]<0.21?1:0;
+  }
+  const warmB=box(warm,SR), darkB=box(dark,SR), vrB=box(vr,SR);
+  for(let p=0;p<N;p++){
+    if(darkB[p]>0.62)                      labels[p]=3;        // hair
+    else if(warmB[p]>0.62 && vrB[p]<0.062) labels[p]=2;        // skin
+    else if(vrB[p]>0.050)                  labels[p]=1;        // cloth
+    else                                   labels[p]=0;
+  }
+  drawOverlay();
+}
+function box(a,r){                                  // separable box blur
+  const t=new Float32Array(W*H), o=new Float32Array(W*H);
+  for(let y=0;y<H;y++){ let s=0,c=0;
+    for(let x=-r;x<=r;x++){ s+=a[y*W+Math.min(W-1,Math.max(0,x))]; c++; }
+    for(let x=0;x<W;x++){ t[y*W+x]=s/c;
+      s += a[y*W+Math.min(W-1,x+r+1)] - a[y*W+Math.min(W-1,Math.max(0,x-r))]; } }
+  for(let x=0;x<W;x++){ let s=0,c=0;
+    for(let y=-r;y<=r;y++){ s+=t[Math.min(H-1,Math.max(0,y))*W+x]; c++; }
+    for(let y=0;y<H;y++){ o[y*W+x]=s/c;
+      s += t[Math.min(H-1,y+r+1)*W+x] - t[Math.min(H-1,Math.max(0,y-r))*W+x]; } }
+  return o;
+}
+
+// ---------- overlay ----------
+function drawOverlay(){
+  const im=ovX.createImageData(W,H), o=im.data;
+  for(let p=0;p<W*H;p++){
+    const L=LABELS[labels[p]];
+    if(labels[p]===0){ o[p*4+3]=0; }
+    else { o[p*4]=L.rgb[0]; o[p*4+1]=L.rgb[1]; o[p*4+2]=L.rgb[2]; o[p*4+3]=255; }
+  }
+  ovX.putImageData(im,0,0);
+  // keep the 3D preview in step, but not on every brush sample
+  if(window.MODEL){
+    clearTimeout(drawOverlay._t);
+    drawOverlay._t = setTimeout(()=>window.MODEL.refresh(texC, ovC), 40);
+  }
+}
+
+// ---------- history ----------
+function pushUndo(){ undoStack.push(labels.slice()); if(undoStack.length>30) undoStack.shift(); }
+function undo(){ if(!undoStack.length) return; labels=undoStack.pop(); drawOverlay(); toast('undo'); }
+function markEdited(){ const n=manifest[idx].name; edited.add(n); saved.delete(n); refreshDots(); }
+
+// ---------- painting ----------
+function paintDisc(cx,cy,lab){
+  const r=brush/2, r2=r*r;
+  const x0=Math.max(0,(cx-r)|0), x1=Math.min(W-1,(cx+r)|0);
+  const y0=Math.max(0,(cy-r)|0), y1=Math.min(H-1,(cy+r)|0);
+  for(let y=y0;y<=y1;y++) for(let x=x0;x<=x1;x++){
+    const dx=x-cx, dy=y-cy;
+    if(dx*dx+dy*dy<=r2) labels[y*W+x]=lab;
+  }
+}
+function wand(sx,sy,lab){
+  const d=texImgData.data, si=(sy*W+sx)*4;
+  const sr=d[si],sg=d[si+1],sb=d[si+2], t2=tol*tol*3;
+  const match=p=>{ const i=p*4, dr=d[i]-sr, dg=d[i+1]-sg, db=d[i+2]-sb;
+    return dr*dr+dg*dg+db*db<=t2; };
+  if(!contiguous){ for(let p=0;p<W*H;p++) if(match(p)) labels[p]=lab; return; }
+  const seen=new Uint8Array(W*H), st=[sy*W+sx]; seen[sy*W+sx]=1;
+  while(st.length){
+    const p=st.pop(); if(!match(p)) continue;
+    labels[p]=lab;
+    const y=(p/W)|0, x=p-y*W;
+    if(x>0   && !seen[p-1]){seen[p-1]=1;st.push(p-1);}
+    if(x<W-1 && !seen[p+1]){seen[p+1]=1;st.push(p+1);}
+    if(y>0   && !seen[p-W]){seen[p-W]=1;st.push(p-W);}
+    if(y<H-1 && !seen[p+W]){seen[p+W]=1;st.push(p+W);}
+  }
+}
+function rectFill(x0,y0,x1,y1,lab){
+  const ax=Math.max(0,Math.min(x0,x1)|0), bx=Math.min(W-1,Math.max(x0,x1)|0);
+  const ay=Math.max(0,Math.min(y0,y1)|0), by=Math.min(H-1,Math.max(y0,y1)|0);
+  for(let y=ay;y<=by;y++) for(let x=ax;x<=bx;x++) labels[y*W+x]=lab;
+}
+
+// ---------- view ----------
+function fitView(){
+  const r=stage.getBoundingClientRect();
+  zoom=Math.max(1,Math.min((r.width-40)/W,(r.height-40)/H));
+  panX=(r.width-W*zoom)/2; panY=(r.height-H*zoom)/2; applyView();
+}
+function applyView(){ wrap.style.transform=`translate(${panX}px,${panY}px) scale(${zoom})`; }
+function toTex(e){
+  const r=stage.getBoundingClientRect();
+  return { x:(e.clientX-r.left-panX)/zoom, y:(e.clientY-r.top-panY)/zoom };
+}
+
+let drawing=false, panning=false, last=null, rectStart=null;
+stage.addEventListener('mousedown',e=>{
+  if(e.button===1 || spaceDown){ panning=true; last={x:e.clientX,y:e.clientY}; e.preventDefault(); return; }
+  if(e.button!==0) return;
+  const p=toTex(e); if(p.x<0||p.y<0||p.x>=W||p.y>=H) return;
+  const lab = e.altKey ? 0 : curLabel;
+  pushUndo(); markEdited();
+  if(tool==='brush'){ drawing=true; paintDisc(p.x,p.y,lab); drawOverlay(); }
+  else if(tool==='wand'){ wand(p.x|0,p.y|0,lab); drawOverlay(); }
+  else if(tool==='rect'){ rectStart={x:p.x,y:p.y,lab}; }
+});
+window.addEventListener('mousemove',e=>{
+  if(panning){ panX+=e.clientX-last.x; panY+=e.clientY-last.y; last={x:e.clientX,y:e.clientY}; applyView(); return; }
+  const p=toTex(e);
+  // brush cursor
+  curX.clearRect(0,0,W,H);
+  if(tool==='brush'&&p.x>=0&&p.y>=0&&p.x<W&&p.y<H){
+    curX.strokeStyle='#fff'; curX.lineWidth=Math.max(.5,1/zoom);
+    curX.beginPath(); curX.arc(p.x,p.y,brush/2,0,7); curX.stroke();
+  }
+  if(drawing){ paintDisc(p.x,p.y,e.altKey?0:curLabel); drawOverlay(); }
+  if(rectStart){
+    curX.strokeStyle='#fff'; curX.setLineDash([4/zoom,3/zoom]); curX.lineWidth=Math.max(.5,1.5/zoom);
+    curX.strokeRect(rectStart.x,rectStart.y,p.x-rectStart.x,p.y-rectStart.y); curX.setLineDash([]);
+  }
+});
+window.addEventListener('mouseup',e=>{
+  if(rectStart){ const p=toTex(e); rectFill(rectStart.x,rectStart.y,p.x,p.y,rectStart.lab);
+    rectStart=null; curX.clearRect(0,0,W,H); drawOverlay(); }
+  drawing=false; panning=false;
+});
+stage.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const r=stage.getBoundingClientRect(), mx=e.clientX-r.left, my=e.clientY-r.top;
+  const f=e.deltaY<0?1.15:1/1.15, nz=Math.max(.2,Math.min(40,zoom*f));
+  panX=mx-(mx-panX)*(nz/zoom); panY=my-(my-panY)*(nz/zoom); zoom=nz; applyView();
+},{passive:false});
+
+// ---------- save ----------
+function maskBlob(){
+  const c=document.createElement('canvas'); c.width=W; c.height=H;
+  const x=c.getContext('2d'); const im=x.createImageData(W,H), o=im.data;
+  for(let p=0;p<W*H;p++){
+    const L=LABELS[labels[p]];
+    o[p*4]=L.rgb[0]; o[p*4+1]=L.rgb[1]; o[p*4+2]=L.rgb[2]; o[p*4+3]=255;
+  }
+  x.putImageData(im,0,0);
+  return new Promise(res=>c.toBlob(res,'image/png'));
+}
+async function save(silent){
+  const name=manifest[idx].name+'_mask.png';
+  const blob=await maskBlob();
+  if(dirHandle){
+    const fh=await dirHandle.getFileHandle(name,{create:true});
+    const w=await fh.createWritable(); await w.write(blob); await w.close();
+  }else{
+    const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=name; a.click();
+  }
+  saved.add(manifest[idx].name); edited.delete(manifest[idx].name); refreshDots();
+  if(!silent) toast('saved '+name);
+}
+$('#btnSave').onclick=()=>save();
+$('#btnSaveAll').onclick=async()=>{
+  if(!edited.size){ toast('nothing edited'); return; }
+  const keep=idx, names=[...edited];
+  for(const n of names){ const i=manifest.findIndex(m=>m.name===n); await load(i); await save(true); }
+  await load(keep); toast('saved '+names.length+' mask(s)');
+};
+
+// ---------- toolbar ----------
+document.querySelectorAll('.lbl').forEach(el=>el.onclick=()=>{
+  document.querySelectorAll('.lbl').forEach(o=>o.classList.remove('on'));
+  el.classList.add('on'); curLabel=+el.dataset.label;
+});
+function setTool(t){ tool=t;
+  $('#tBrush').classList.toggle('on',t==='brush');
+  $('#tWand').classList.toggle('on',t==='wand');
+  $('#tRect').classList.toggle('on',t==='rect'); }
+$('#tBrush').onclick=()=>setTool('brush');
+$('#tWand').onclick =()=>setTool('wand');
+$('#tRect').onclick =()=>setTool('rect');
+$('#size').oninput=e=>{ brush=+e.target.value; $('#sizeV').textContent=brush; };
+$('#tol').oninput =e=>{ tol=+e.target.value;  $('#tolV').textContent=tol; };
+$('#contig').onchange=e=>contiguous=e.target.checked;
+$('#op').oninput=e=>{ ovC.style.opacity=e.target.value/100; };
+$('#btnSeed').onclick=()=>{ pushUndo(); markEdited(); autoSeed(); toast('re-seeded'); };
+$('#btnClear').onclick=()=>{ pushUndo(); markEdited(); labels.fill(0); drawOverlay(); };
+$('#btnUndo').onclick=undo;
+
+// ---------- copy a mask between textures ----------
+// Textures sharing a "uv" group have a byte-identical mesh, so their UV layouts match
+// exactly and a mask transfers with no edits. Anything outside the group is offered too
+// but warned about, since the islands will not line up.
+let clip = null;   // {w,h,uv,labels}
+
+function resampleLabels(src, sw, sh, dw, dh){
+  if(sw===dw && sh===dh) return src.slice();
+  const out = new Uint8Array(dw*dh);
+  for(let y=0;y<dh;y++){
+    const sy = Math.min(sh-1, (y*sh/dh)|0);
+    for(let x=0;x<dw;x++){
+      const sx = Math.min(sw-1, (x*sw/dw)|0);
+      out[y*dw+x] = src[sy*sw+sx];        // nearest neighbour: labels must not blend
+    }
+  }
+  return out;
+}
+function applyLabels(src, sw, sh, srcUv, srcName){
+  pushUndo(); markEdited();
+  labels = resampleLabels(src, sw, sh, W, H);
+  drawOverlay();
+  const me = manifest[idx];
+  if(srcUv && me.uv && srcUv !== me.uv)
+    toast('pasted from '+(srcName||'clipboard')+' — DIFFERENT mesh, UVs will not line up');
+  else if(sw!==W || sh!==H)
+    toast('pasted and rescaled '+sw+'→'+W);
+  else
+    toast('pasted'+(srcName?' from '+srcName.replace(/^residence_colony_02_/,''):''));
+}
+
+$('#btnCopy').onclick = ()=>{
+  clip = {w:W, h:H, uv:manifest[idx].uv, labels:labels.slice(), name:manifest[idx].name};
+  $('#btnPaste').disabled = false;
+  toast('copied '+manifest[idx].name.replace(/^residence_colony_02_/,''));
+};
+$('#btnPaste').onclick = ()=>{
+  if(!clip) return;
+  applyLabels(clip.labels, clip.w, clip.h, clip.uv, clip.name);
+};
+
+// "copy from" pulls another texture's mask straight off disk, no need to visit it first
+function fillCopyFrom(){
+  const sel=$('#copyFrom'); sel.innerHTML='<option value="">copy from…</option>';
+  const me=manifest[idx];
+  const same=document.createElement('optgroup'); same.label='same mesh — exact fit';
+  const other=document.createElement('optgroup'); other.label='different mesh — will not line up';
+  manifest.forEach((m,i)=>{
+    if(i===idx) return;
+    const o=document.createElement('option');
+    o.value=i; o.textContent=m.name.replace(/^residence_colony_02_/,'');
+    (m.uv && me.uv && m.uv===me.uv ? same : other).appendChild(o);
+  });
+  if(same.children.length) sel.appendChild(same);
+  if(other.children.length) sel.appendChild(other);
+}
+$('#copyFrom').onchange = async e=>{
+  const i=+e.target.value; e.target.value='';
+  if(isNaN(i)) return;
+  const src=manifest[i];
+  const got=await fetchMaskLabels(src, src.w, src.h);
+  if(!got){ toast('no saved mask for '+src.name.replace(/^residence_colony_02_/,'')); return; }
+  applyLabels(got, src.w, src.h, src.uv, src.name);
+};
+
+// read a mask PNG for an arbitrary texture at its own size
+async function fetchMaskLabels(entry, sw, sh){
+  let blob=null;
+  if(dirHandle){
+    try{ const fh=await dirHandle.getFileHandle(entry.name+'_mask.png'); blob=await fh.getFile(); }catch(e){}
+  }
+  if(!blob){
+    try{ const r=await fetch(DATA_BASE+'masks/'+entry.name+'_mask.png?t='+Date.now());
+         if(r.ok) blob=await r.blob(); }catch(e){}
+  }
+  if(!blob) return null;
+  const im=await createImageBitmap(blob);
+  const c=document.createElement('canvas'); c.width=sw; c.height=sh;
+  const x=c.getContext('2d',{willReadFrequently:true});
+  x.drawImage(im,0,0,sw,sh);
+  const d=x.getImageData(0,0,sw,sh).data, out=new Uint8Array(sw*sh);
+  for(let p=0;p<sw*sh;p++){
+    const r=d[p*4],g=d[p*4+1],b=d[p*4+2];
+    let best=0,bd=1e9;
+    for(const L of LABELS){
+      const dd=(r-L.rgb[0])**2+(g-L.rgb[1])**2+(b-L.rgb[2])**2;
+      if(dd<bd){bd=dd;best=L.id;}
+    }
+    out[p]=best;
+  }
+  return out;
+}
+
+// model view mode
+function setMode(m){
+  window.MODEL?.setMode(m);
+  $('#mTex').classList.toggle('on',m==='tex');
+  $('#mMask').classList.toggle('on',m==='mask');
+  $('#mBoth').classList.toggle('on',m==='both');
+  window.MODEL?.refresh(texC, ovC);
+}
+$('#mTex').onclick =()=>setMode('tex');
+$('#mMask').onclick=()=>setMode('mask');
+$('#mBoth').onclick=()=>setMode('both');
+$('#mSpin').onclick=e=>{ const on=!e.target.classList.contains('on');
+  e.target.classList.toggle('on',on); window.MODEL?.setSpin(on); };
+$('#vF').onclick=()=>window.MODEL?.view('front');
+$('#vB').onclick=()=>window.MODEL?.view('back');
+$('#vL').onclick=()=>window.MODEL?.view('left');
+$('#vR').onclick=()=>window.MODEL?.view('right');
+$('#vFlip').onclick=()=>{
+  if(!window.MODEL) return;
+  const rad = window.MODEL.flip();
+  const deg = Math.round(rad*180/Math.PI) % 360;
+  localStorage.setItem('yaw:'+manifest[idx].name, String((deg+360)%360));
+  toast('flipped — remembered for this texture');
+};
+
+// ---------- keys ----------
+let spaceDown=false;
+window.addEventListener('keydown',e=>{
+  if(e.code==='Space'){ spaceDown=true; e.preventDefault(); return; }
+  if(e.ctrlKey&&e.key.toLowerCase()==='z'){ e.preventDefault(); undo(); return; }
+  if(e.ctrlKey&&e.key.toLowerCase()==='s'){ e.preventDefault(); save(); return; }
+  if(e.ctrlKey&&e.key.toLowerCase()==='c'){ e.preventDefault(); $('#btnCopy').click(); return; }
+  if(e.ctrlKey&&e.key.toLowerCase()==='v'){ e.preventDefault(); $('#btnPaste').click(); return; }
+  if(e.key>='0'&&e.key<='4'){ document.querySelector(`.lbl[data-label="${e.key}"]`)?.click(); }
+  if(e.key.toLowerCase()==='b') setTool('brush');
+  if(e.key.toLowerCase()==='w') setTool('wand');
+  if(e.key.toLowerCase()==='r') setTool('rect');
+  if(e.key==='[') { brush=Math.max(1,brush-3); $('#size').value=brush; $('#sizeV').textContent=brush; }
+  if(e.key===']') { brush=Math.min(120,brush+3); $('#size').value=brush; $('#sizeV').textContent=brush; }
+  if(e.key.toLowerCase()==='x'){ overlayOn=!overlayOn; ovC.style.display=overlayOn?'block':'none'; }
+  if(e.key==='PageDown'){ load(Math.min(manifest.length-1,idx+1)); }
+  if(e.key==='PageUp'){ load(Math.max(0,idx-1)); }
+});
+window.addEventListener('keyup',e=>{ if(e.code==='Space') spaceDown=false; });
+window.addEventListener('resize',()=>{ if(W) fitView(); });
+window.addEventListener('beforeunload',e=>{ if(edited.size){ e.preventDefault(); e.returnValue=''; } });
+</script>
+</body>
+</html>
