@@ -15,7 +15,9 @@
                     <AssociatedRegions>Mod3</AssociatedRegions>
                     <SecondPartyRelevant>0</SecondPartyRelevant>
                 </Building>
-                <Blocking/>
+                <Blocking>
+                    <HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+                </Blocking>
                 <Cost>
                     <Costs>
                         <Item>
