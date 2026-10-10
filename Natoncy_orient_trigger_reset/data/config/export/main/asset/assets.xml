@@ -6,9 +6,8 @@
          ActionRegisterTrigger registers a fired trigger again (or re-creates a pending one), so it fires
          again with the current pool contents as soon as its population condition is met.
 
-         The order matters: UnhideAssets turns an unlocked asset back into "visible but locked",
-         and several assets are unhidden by one tier and unlocked by the next. So the triggers run
-         one after another in tier order, 1000 ms apart. Add new progression triggers here too. -->
+         The triggers run one after another in tier order, 1000 ms apart, like normal progression.
+         Add new progression triggers here too. -->
     <ModOp Type="addNextSibling" GUID="10138">
 
         <!-- Normal games: re-run all progression triggers in tier order -->
