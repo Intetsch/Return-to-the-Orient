@@ -8,9 +8,33 @@
         </RequiredBuildings>
     </ModOp>
 
-    <ModOp Type="addNextSibling" Path="//Assets/Asset/Values/ItemEffect/EffectTargets/Item[GUID=1010339]">
+    <!-- pearl diver gets the effects of other mods' pearl farm items.
+         shared-pools-and-definitions replaces the pearl farm 1010339 in EffectTargets with its pool 1500301936 -->
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1010339' or Item/GUID='1500301936'][not(Item/GUID='1404000861')]" AllowNoMatch="1">
         <Item>
             <GUID>1404000861</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- most of these products come from shared product submods that load after the main mod -->
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040" Path="Values/Product/AssociatedRegion">;Mod3</ModOp>
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040" Path="Values/Product/ProductionRegions">
+        <Item>
+            <RegionType>Mod3</RegionType>
+        </Item>
+    </ModOp>
+
+    <!-- Taludas' Old World trading company menu. The shared submod defines it but leaves placing it to the
+         mod that uses it, so without White and Cold the company was unlocked but in no build menu.
+         Same spots as White and Cold; the Condition skips it when White and Cold (loaded earlier) already added it. -->
+    <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500954']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1999005648']">
+        <Item>
+            <Building>1999005648</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500111" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7291']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1999005648']">
+        <Item>
+            <Building>1999005648</Building>
         </Item>
     </ModOp>
 

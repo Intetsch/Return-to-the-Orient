@@ -1,0 +1,35 @@
+{
+  "Version": "1.0.0",
+  "ModID": "natoncy_return_to_the_orient_trigger_reset",
+  "Category": {
+    "English": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Chinese": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "English": "Return to the Orient Trigger Reset",
+    "French": "Return to the Orient Trigger Reset",
+    "German": "Return to the Orient Trigger Reset",
+    "Italian": "Return to the Orient Trigger Reset",
+    "Japanese": "Return to the Orient Trigger Reset",
+    "Korean": "Return to the Orient Trigger Reset",
+    "Polish": "Return to the Orient Trigger Reset",
+    "Russian": "Return to the Orient Trigger Reset",
+    "Chinese": "Return to the Orient Trigger Reset",
+    "Spanish": "Return to the Orient Trigger Reset",
+    "Taiwanese": "Return to the Orient Trigger Reset"
+  },
+  "Description": {
+    "English": "Re-runs the Orient unlock triggers whenever the Orient session is entered, so buildings added by an update also unlock in existing saves.",
+    "German": "Führt die Freischalt-Trigger des Orients bei jedem Betreten der Orient-Session erneut aus, damit durch ein Update hinzugekommene Gebäude auch in bestehenden Spielständen freigeschaltet werden."
+  },
+  "CreatorName": "Natoncy"
+}

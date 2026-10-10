@@ -26,9 +26,9 @@ Your task is to establish a settlement in this deserted land, build a thriving c
 
 # Requirements & Compatibility
 
-Required DLCs: Land of Lions and New World Rising
+Required DLCs: Land of Lions
 
-Optional DLCs: Tourist Season, Bright Harvest and Empire of the Skies
+Optional DLCs: High Life, Tourist Season, Bright Harvest, Empire of the Skies and New World Rising
 
 The mod is compatible with new and existing saves, regular and creative modes. Campaign and multiplayer were not tested but should work.
 It does not change anything in the other regions, except some optional lifestyle needs in the old world.
@@ -38,7 +38,7 @@ Other mods should be compatible, this includes mods that add new regions (New Ho
 Recommended optional mods: Noblesse Oblige (Ricky & Taludas) and New Horizons
 
 The mod content starts with a quest to complete an expedition by Madame Kahina.
-To unlock the quest and expedition you need to have 5000 Investors, 1800 Obreras and 1000 Elders.
+To unlock the quest and expedition you need to have 3000 Investors, 1800 Obreras and 1000 Elders.
 
 # Credits 
 
