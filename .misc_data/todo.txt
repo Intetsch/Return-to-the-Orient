@@ -5,7 +5,7 @@ Enums:
 Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
 Required DLCs: Land of Lions
 Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
-Optional Mods: New Horizons, Noblesse Oblige
+Optional Mods: New Horizons, Noblesse Oblige, White & Cold
 
 
 
@@ -15,18 +15,61 @@ Optional Mods: New Horizons, Noblesse Oblige
 TODO:
 - Add happiness needs for OW/NW/Enbesa tiers
 - Palace or needs replacement for monument
+- Skyscrapers and reorder needs based on levels
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 - SBM/IAAM Buildings
     Palace system
-    Square (street) pieces
     Defense wall
     Industrial
+
+    007militär
+        Mauerturm
+        Mauertor
+        Mauer
+    005Küstengebäude
+        Speicherstadt
+        Hafenturm (1701 Leuchtturm)
+    004Handwerk
+        Töpfer 1
+        Schmiedt 2
+        ori_gold_ore_smelter
+        kupferschmelze
+        erzschmelze
+    003Farmen_plantagen
+        Forsthaus
+        buffalo farm
+    //002Straßen_Plätze
+        //Plätze
+    001Öffentliche_Gebäude
+        Zimmermann
+        Sultanspalast
+        Speicher
+        Palast_vier_winde (looks indian)
+        Obelisk
+        o_speicherstadt 18 (similar to Speicher)
+        Herrenhaus
+        //Häuser
+        Gebetsplatz
+
+    008zierobjekte
+        zierobjekte01 2
+    005Küstengebäude
+        feuer_zimmermann_lagune for firedepartment prop
+    gvdb
+        Orient
+            goldwäscher
+            Goldschmelze
+
+
+
+- Ornaments
+    SBM Square (street) pieces
+    Brunnen no fountain
+
 
 
 
 Bugs:
-- Flotation Plant leaves behind rails when deconstructed
-- FTC not unlocked
 
 
 
