@@ -24,4 +24,18 @@
         </Item>
     </ModOp>
 
+    <!-- Taludas' Old World trading company menu. The shared submod defines it but leaves placing it to the
+         mod that uses it, so without White and Cold the company was unlocked but in no build menu.
+         Same spots as White and Cold; the Condition skips it when White and Cold (loaded earlier) already added it. -->
+    <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500954']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1999005648']">
+        <Item>
+            <Building>1999005648</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500111" Path="/Values/ConstructionCategory/BuildingList/Item[Building='7291']" Condition="!~/Values/ConstructionCategory/BuildingList/Item[Building='1999005648']">
+        <Item>
+            <Building>1999005648</Building>
+        </Item>
+    </ModOp>
+
 </ModOps>
