@@ -1,0 +1,225 @@
+<ModOps>
+	<ModOp GUID="1010266" Type="addNextSibling" Condition="#new_horizons_session">
+		 <Asset>
+            <Template>FreeAreaBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005052</GUID>
+                    <Name>Agar Orchard</Name>
+                    <IconFilename>data/ui/icons/agar_wood.png</IconFilename>
+                </Standard>
+                <Building>
+                    <SkipUnlockMessage>0</SkipUnlockMessage>
+                    <BuildModeRandomRotation>90</BuildModeRandomRotation>
+                    <AssociatedRegions>Mod2</AssociatedRegions>
+                </Building>
+                <Blocking>
+                    <DeletePropsRadius>1</DeletePropsRadius>
+                </Blocking>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>100</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                            <Amount>4</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/production/bamboo_forester/bamboo_forester.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <ParticipantMessageArcheType>Resident_tier05_atWork</ParticipantMessageArcheType>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Lumberjack's Hut</Text>
+                            <Status>Exported</Status>
+                            <ExportCount>3</ExportCount>
+                        </English>
+                    </LocaText>
+                    <LineID>3716</LineID>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter>
+                    <ActiveSounds>
+                        <Item>
+                            <Sound>214800</Sound>
+                        </Item>
+                        <Item>
+                            <Sound>206315</Sound>
+                        </Item>
+                    </ActiveSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>202404</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>202404</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                    </ConstructionSounds>
+                    <IncidentSounds>
+                        <InfectedFire>
+                            <Item>
+                                <Sound>214659</Sound>
+                            </Item>
+                        </InfectedFire>
+                    </IncidentSounds>
+                    <BuildingRepaired>
+                        <Item>
+                            <Sound>203866</Sound>
+                        </Item>
+                    </BuildingRepaired>
+                    <MaterialType>Wood</MaterialType>
+                </SoundEmitter>
+                <FeedbackController />
+                <Infolayer />
+                <UpgradeList />
+                <Factory7 />
+                <FactoryBase>
+                    <FactoryOutputs>
+                        <Item>
+                            <Product>1900100180</Product>
+                            <Amount>1</Amount>
+                            <StorageAmount>4</StorageAmount>
+                        </Item>
+                    </FactoryOutputs>
+                    <CycleTime>180</CycleTime>
+                    <IsMainFactory>0</IsMainFactory>
+                </FactoryBase>
+                <LogisticNode />
+                <AmbientMoodProvider>
+                    <AmbientMood>AgricultureBuildingsEurope</AmbientMood>
+                    <Murmur>Farm</Murmur>
+                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Maintenance>
+                    <Maintenances>
+                        <Item>
+                            <Product>1010017</Product>
+                            <Amount>550</Amount>
+                            <InactiveAmount>300</InactiveAmount>
+                        </Item>
+                        <Item>
+                            <Product>15100002</Product>
+                            <Amount>70</Amount>
+                            <ShutdownThreshold>0.6</ShutdownThreshold>
+                        </Item>
+                    </Maintenances>
+                </Maintenance>
+                <Attackable>
+                    <MaximumHitPoints>1500</MaximumHitPoints>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <FreeAreaProductivity>
+                    <InfluenceRadius>9</InfluenceRadius>
+                    <NeededAreaPercent>60</NeededAreaPercent>
+                    <MaxWorkerAmount>3</MaxWorkerAmount>
+                    <AdditionalWorkerForForestation>9</AdditionalWorkerForForestation>
+                    <WorkerPause>10000</WorkerPause>
+                    <FreeAreaType>Hunter</FreeAreaType>
+                </FreeAreaProductivity>
+                <Pausable />
+                <IncidentInfectable>
+                    <Infectable>
+                        <Riot>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Riot>
+                        <Illness>
+                            <Escalated>0</Escalated>
+                        </Illness>
+                        <Explosion>
+                            <Base>0</Base>
+                            <Escalated>0</Escalated>
+                        </Explosion>
+                    </Infectable>
+                    <Explosion>
+                        <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+                    </Explosion>
+                    <IncidentInfectionChanceFactors>
+                        <Fire>
+                            <DensityFactor>0.1</DensityFactor>
+                            <DensityDistance>20</DensityDistance>
+                            <FactoryProductivityFactor>0.1</FactoryProductivityFactor>
+                            <FactoryUndertimeFactor>0.05</FactoryUndertimeFactor>
+                        </Fire>
+                        <Riot>
+                            <FactoryOvertimeFactor>0</FactoryOvertimeFactor>
+                            <FactoryUndertimeFactor>0</FactoryUndertimeFactor>
+                            <FactoryHappinessFactor>0</FactoryHappinessFactor>
+                            <ResidenceHappinessFactor>0</ResidenceHappinessFactor>
+                            <HappinessMin>0</HappinessMin>
+                            <HappinessMax>0</HappinessMax>
+                            <HappinessThreshold>20</HappinessThreshold>
+                        </Riot>
+                        <Illness>
+                            <ResidenceSatisfactionFactor>0</ResidenceSatisfactionFactor>
+                            <HappinessMin>0</HappinessMin>
+                            <HappinessMax>0</HappinessMax>
+                            <SatisfactionThreshold>0</SatisfactionThreshold>
+                        </Illness>
+                        <Explosion>
+                            <HappinessMin>0</HappinessMin>
+                            <HappinessMax>0</HappinessMax>
+                            <SatisfactionThreshold>0</SatisfactionThreshold>
+                        </Explosion>
+                    </IncidentInfectionChanceFactors>
+                </IncidentInfectable>
+                <Culture>
+                    <CultureType>Landscaping</CultureType>
+                </Culture>
+                <EcoSystemProvider />
+            </Values>
+        </Asset>
+	</ModOp>
+
+    <ModOp GUID="133700001" Type="add" Path="/Values/Region/Trees" Condition="#new_horizons_session">
+        <Hunter>
+            <GUID>133026</GUID>
+            <PlantPercent>75</PlantPercent>
+        </Hunter>
+    </ModOp>
+
+	<ModOp GUID="1445602" Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445028']" Condition="#new_horizons_session">
+		<Item>
+			<Building>1404005052</Building>
+		</Item>
+	</ModOp>
+
+    <ModOp GUID="368,190011,6000018,193856,190778" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="#new_horizons_session">
+		<Item>
+			<GUID>1404005052</GUID>
+		</Item>
+	</ModOp>
+
+</ModOps>

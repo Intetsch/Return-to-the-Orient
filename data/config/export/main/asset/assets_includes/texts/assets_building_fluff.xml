@@ -209,6 +209,54 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005063</GUID>
+					<Name>Oudh Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>With the bees' help in pollination, our farms become even more efficient.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005064</GUID>
+					<Name>Oudh Perfume Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>With the bees' help in pollination, our farms become even more efficient.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005065</GUID>
+					<Name>P. Parasiticum Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>With the bees' help in pollination, our farms become even more efficient.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
 	</ModOp>
 
 </ModOps>

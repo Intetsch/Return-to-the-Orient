@@ -38,4 +38,11 @@
         <Locked/>
     </ModOp>
 
+    <!-- Agarwood -->
+    <ModOp Type="add" GUID="15504013" Path="Values/ProductList/List" Condition="#new_horizons_session">
+        <Item>
+            <Product>1900100180</Product>
+        </Item>
+    </ModOp>
+
 </ModOps>

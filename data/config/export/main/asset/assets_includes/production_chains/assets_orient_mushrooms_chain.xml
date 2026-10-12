@@ -1,0 +1,40 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566" Condition="#new_horizons_session">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005056</GUID>
+                    <Name>orient mushrooms chain</Name>
+                    <IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005053</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1441203</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010266</Building>
+                        </Item>
+                        <Item>
+                            <Building>1441257</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404005054</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101276']" Condition="#new_horizons_session">
+		<Item>
+			<Building>1404005056</Building>
+		</Item>
+	</ModOp>
+
+</ModOps>

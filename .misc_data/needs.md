@@ -85,8 +85,8 @@
   - Magnates:
     - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
     - (Oud-Parfüm): Oud wird traditionell aus Adlerholzbäumen die von Pilzen befallen wurden, gewonnen. Daher:
-                    Adlerholzplantage im Orient -> wird befallen von Pilzen, die in einem Labor der alten Welt gewonnen werden
-                    -> infiziertes Holz -> Lagerkammer -> Saft -> Destillerie -> Oud-Parfüm
+                    Kohle + Algen + Holz (mykologisches Labor OW) -> Pilzkultur + Tofu + Wasser (Adlerholzplantage)
+                    -> Sake (als Ethanolbasis) + Glas + Kohle (zum Aufkochen) (Destillerie) -> Oud-Öl/-Parfum
 - Enbesa:
   - Elders:
     - (Gewürztee): Gewürze + Kräuter + Papier + Zimt

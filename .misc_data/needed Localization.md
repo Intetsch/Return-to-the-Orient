@@ -10,3 +10,25 @@
   - Blattpflücker
 - 1404005049:
   - Pflücker ernten die aromatischen Palmenblätter, was die Produktion jedoch etwas verlangsamt.
+- 1404005052:
+  - Agarbaum-Zucht
+- 1404005053:
+  - Mykologisches Labor
+- 1404005055:
+  - Infektionskeller
+- 1404005057:
+  - Destillerie
+- 1404005059:
+  - Oudh Parfum
+- 1404005063:
+  - Ein extrem wertvolles, geruchsintensives Harz, das der Adlerholzbaum als Reaktion auf Pilzbefall bildet.
+- 1404005064:
+  - Das als flüssiges Gold bezeichnete Oudh Parfum ist das teuerste und edelste Parfum der Welt, und in der Oberschicht heiß begehrt.
+- 1404005065:
+  - Phaeoacremonium parasiticum - ein spezieller Schimmelpilz, der die Ausbildung eines besonderen Harzes im Adlerholzbaum auslöst.
+- 1900100180:
+  - Adlerholz (nicht wörtlich übersetzen, in manchen Sprachen auch Agar-...)
+- 1900100181:
+  - Das noch unberührte Holz des Adlerholzbaumes, das in der Parfum- und Räucherwerkherstellung geschätzt wird.
+- 1888999915:
+  - Palmenblätter
