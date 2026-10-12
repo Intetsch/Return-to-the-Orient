@@ -14,6 +14,7 @@
     <Include File="assets_fountain.xml" />
     <Include File="assets_palm.xml" />
     <Include File="assets_place.xml" />
+    <Include File="assets_silo.xml" />
     <Include File="assets_jugglers_camp.xml" />
     <Include File="assets_ruin_large.xml" />
     <Include File="assets_ruin_small.xml" />
@@ -27,5 +28,6 @@
     <!-- debug only - remove before release -->
     <Include File="assets_test_unit_grid.xml" />
     <Include File="assets_test_sbm_import.xml" />
+    <Include File="assets_test_iaam.xml" />
 
 </ModOps>
