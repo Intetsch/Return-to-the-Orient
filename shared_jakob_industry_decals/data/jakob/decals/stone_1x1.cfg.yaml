@@ -1,0 +1,10 @@
+variant:
+  source: overlap.cfg
+  modifications:
+    - xpath: //Config/Decals/Config/Materials/Config
+      cModelDiffTex: data\jakob\decals\maps\stone_diff.psd
+      NORMAL_ENABLED: 1
+      cModelNormalTex: data\jakob\decals\maps\stone_norm.psd
+      METALLIC_TEX_ENABLED: 0
+      HEIGHT_MAP_ENABLED: 1
+      cHeightMap: data\jakob\decals\maps\stone_height.psd

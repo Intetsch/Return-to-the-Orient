@@ -1,0 +1,23 @@
+{
+  "Version": "1.0.10",
+  "ModID": "ow-tools-jakob",
+  "ModDependencies": [
+    "shared-pools-and-definitions",
+    "decals-industry-jakob",
+    "tools-jakob"
+  ],
+  "bundle": [
+    "../../archive/deprecated-modid-tools"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "English": "Production"
+  },
+  "ModName": {
+    "English": "OW Tools (Jakob)"
+  },
+  "CreatorName": "Jakob",
+  "CreatorContact": "https://github.com/jakobharder/anno1800-shared-mods"
+}
