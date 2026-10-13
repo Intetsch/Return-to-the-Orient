@@ -160,4 +160,10 @@
 		</Template>
     </ModOp>
 
+
+    <!-- skyscraper-button upgrades for the Envoy residence (1404000017 -> 1404004300 -> 1404004301) -->
+    <ModOp Template="ResidenceBuilding7_Colony" Type="add" Path="/Properties">
+        <FloorStackOwner />
+    </ModOp>
+
 </ModOps>

@@ -1,0 +1,137 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID='1404000327'>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404004400</GUID>
+					<Name>CreativeMode_Ornament_Orient_GrandMosque</Name>
+					<IconFilename>data/graphics/icons/public_services/icon_monument.png</IconFilename>
+					<InfoDescription>10291</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ornamental Grand Mosque</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<Blocking />
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList />
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/public/south/sultan_mosque/s_sultan_mosque.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/public/south/sultan_mosque/s_sultan_mosque_unfinished_02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/public/south/sultan_mosque/s_sultan_mosque_unfinished_01.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/1404_import/buildings/public/south/sultan_mosque/s_sultan_mosque_unfinished_00.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh>
+					<SkyDayListener>1</SkyDayListener>
+				</Mesh>
+				<SoundEmitter>
+					<ActiveSounds>
+						<Item>
+							<Sound>270304</Sound>
+						</Item>
+					</ActiveSounds>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+					<ProductionSounds>
+						<UI>
+							<Item>
+								<Sound>9818752</Sound>
+							</Item>
+						</UI>
+					</ProductionSounds>
+				</SoundEmitter>
+				<Locked />
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable />
+				<Infolayer />
+				<Culture>
+					<Attractiveness>500</Attractiveness>
+				</Culture>
+				<Attackable />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

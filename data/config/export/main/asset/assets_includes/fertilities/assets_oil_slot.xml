@@ -28,6 +28,15 @@
                 <Text>
                     <TextOverride>101062</TextOverride>
                 </Text>
+                <!-- Overlap categories are symmetric, so this radius must stay tiny: two oil
+                     slots (3x3, spawn spots 5+ tiles apart) may never overlap each other,
+                     while a noria's 25 radius still can't reach over an oil slot. -->
+                <ItemContainer>
+                    <SocketScope>Radius</SocketScope>
+                    <SocketScopeRadius>3</SocketScopeRadius>
+                    <SocketScopeRadiusOverlapCategory>Mod1</SocketScopeRadiusOverlapCategory>
+                    <!-- Noria category -->
+                </ItemContainer>
             </Values>
         </Asset>
     </ModOp>
