@@ -2447,8 +2447,8 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
-      <Text>Zahra bint Ismail，傳統的Destiladora</Text>
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
+      <Text>Zahra bint Ismail，世代相傳的蒸餾師</Text>
     </Text>
     <Text>
       <GUID>1404000910</GUID>
@@ -5698,7 +5698,7 @@
     <Text>
       <GUID>1404005003</GUID>
       <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+      <Text>浮選精礦已經完成，桶已裝滿。</Text>
     </Text>
     <Text>
       <GUID>1404005004</GUID>
@@ -5708,7 +5708,7 @@
     <Text>
       <GUID>1404005005</GUID>
       <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>Ore Drum</Text>
+      <Text>礦鼓</Text>
     </Text>
     <Text>
       <GUID>1404005006</GUID>
@@ -5834,6 +5834,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>獵象小屋</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>模組</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>薰香工坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>棕櫚葉採摘工</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>採葉工</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>採摘工收穫芳香的棕櫚葉，但這會讓生產稍微放緩。</Text>
     </Text>
   </ModOp>
 </ModOps>

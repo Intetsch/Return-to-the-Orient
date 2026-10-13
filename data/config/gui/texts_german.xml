@@ -823,12 +823,12 @@
     <Text>
       <GUID>1404000295</GUID>
       <!-- ProductionChain | Ceremonial Sabers | Ceremonial Sabers -->
-      <Text>Zeremonelle Säbel</Text>
+      <Text>Zeremonielle Säbel</Text>
     </Text>
     <Text>
       <GUID>1404000296</GUID>
       <!-- ProductionChain | Hookahs | Hookahs -->
-      <Text>Hookahs</Text>
+      <Text>Shishas</Text>
     </Text>
     <Text>
       <GUID>1404000297</GUID>
@@ -908,7 +908,7 @@
     <Text>
       <GUID>1404000320</GUID>
       <!-- Recipe | Hookahs | Hookahs -->
-      <Text>Hookahs</Text>
+      <Text>Shishas</Text>
     </Text>
     <Text>
       <GUID>1404000321</GUID>
@@ -2447,7 +2447,7 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
       <Text>Zahra bint Ismail, Destillateurin aus Tradition</Text>
     </Text>
     <Text>
@@ -5839,6 +5839,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>Elefantenjägerhütte</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>Modul</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>Räucherwerk-Werkstatt</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>Palmenblattpflücker</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>Blattpflücker</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>Pflücker ernten die aromatischen Palmenblätter, was die Produktion jedoch etwas verlangsamt.</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -5,7 +5,7 @@
 		<Name>BoundingBox</Name>
 		<Position>
 			<xf>0</xf>
-			<yf>3.687041</yf>
+			<yf>2.857041</yf>
 			<zf>0</zf>
 		</Position>
 		<Rotation>
@@ -16,7 +16,7 @@
 		</Rotation>
 		<Extents>
 			<xf>3.21337890625</xf>
-			<yf>5.015898</yf>
+			<yf>4.185898</yf>
 			<zf>3.21337890625</zf>
 		</Extents>
 	</BoundingBox>
@@ -49,7 +49,7 @@
 		<Name>DamageImpact0</Name>
 		<Position>
 			<xf>-0.088868</xf>
-			<yf>2.576754</yf>
+			<yf>1.746754</yf>
 			<zf>0.241524</zf>
 		</Position>
 		<Rotation>
@@ -89,7 +89,7 @@
 		<Name>DamageImpact2</Name>
 		<Position>
 			<xf>1.254832</xf>
-			<yf>2.394317</yf>
+			<yf>1.564317</yf>
 			<zf>0.156182</zf>
 		</Position>
 		<Rotation>
@@ -129,7 +129,7 @@
 		<Name>DamageImpact4</Name>
 		<Position>
 			<xf>0</xf>
-			<yf>2.881198</yf>
+			<yf>2.051198</yf>
 			<zf>0</zf>
 		</Position>
 		<Rotation>
@@ -149,7 +149,7 @@
 		<Name>infolayer</Name>
 		<Position>
 			<xf>0</xf>
-			<yf>5.639951</yf>
+			<yf>3.979951</yf>
 			<zf>0</zf>
 		</Position>
 		<Rotation>
@@ -258,7 +258,7 @@
 		<Name>Hitbox_1</Name>
 		<Position>
 			<xf>0</xf>
-			<yf>1.590508</yf>
+			<yf>1.160508</yf>
 			<zf>0</zf>
 		</Position>
 		<Rotation>
@@ -269,7 +269,7 @@
 		</Rotation>
 		<Extents>
 			<xf>1.321044921875</xf>
-			<yf>1.532402</yf>
+			<yf>1.102402</yf>
 			<zf>1.11279296875</zf>
 		</Extents>
 	</IntersectBox>
@@ -278,7 +278,7 @@
 		<Name>MeshBoundingBox</Name>
 		<Position>
 			<xf>0.05067455768585205</xf>
-			<yf>2.460505</yf>
+			<yf>1.630505</yf>
 			<zf>-0.023197054862976074</zf>
 		</Position>
 		<Rotation>
@@ -289,7 +289,7 @@
 		</Rotation>
 		<Extents>
 			<xf>1.5503175020217896</xf>
-			<yf>2.561914</yf>
+			<yf>1.731914</yf>
 			<zf>1.5238590002059937</zf>
 		</Extents>
 	</MeshBoundingBox>

@@ -2303,17 +2303,17 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>Pearl Diver</Text>
+      <Text>珍珠潜水员</Text>
     </Text>
     <Text>
       <GUID>1404000878</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>矿鼓模块</Text>
     </Text>
     <Text>
       <GUID>1404000879</GUID>
       <!-- Product | Elmore Mixture | Flotation Concentrate -->
-      <Text>Flotation Concentrate</Text>
+      <Text>浮选精矿</Text>
     </Text>
     <Text>
       <GUID>1404000881</GUID>
@@ -2323,7 +2323,7 @@
     <Text>
       <GUID>1404000882</GUID>
       <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
-      <Text>Empty Drums</Text>
+      <Text>空鼓</Text>
     </Text>
     <Text>
       <GUID>1404000883</GUID>
@@ -2447,8 +2447,8 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
-      <Text>Zahra bint Ismail，传统的Destiladora</Text>
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
+      <Text>Zahra bint Ismail，世代相传的蒸馏师</Text>
     </Text>
     <Text>
       <GUID>1404000910</GUID>
@@ -3868,27 +3868,27 @@
     <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
-      <Text>The ore drums are empty and need to be refilled.</Text>
+      <Text>矿石桶已空，需要重新装满。</Text>
     </Text>
     <Text>
       <GUID>1404005003</GUID>
       <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+      <Text>浮选精矿已经完成，桶已装满。</Text>
     </Text>
     <Text>
       <GUID>1404005004</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>矿鼓模块</Text>
     </Text>
     <Text>
       <GUID>1404005005</GUID>
       <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>Ore Drum</Text>
+      <Text>矿鼓</Text>
     </Text>
     <Text>
       <GUID>1404005006</GUID>
       <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
-      <Text>This module doubles the yield from ores through special refining in ore drums using an oil flotation process.</Text>
+      <Text>该模块通过使用油浮选工艺在矿桶中进行特殊精炼，使矿石产量翻倍。</Text>
     </Text>
     <Text>
       <GUID>1404005012</GUID>
@@ -4009,6 +4009,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>猎象小屋</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>模块</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>熏香工坊</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>棕榈叶采摘工</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>采叶工</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>采摘工收获芳香的棕榈叶，但这会让生产稍微放缓。</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

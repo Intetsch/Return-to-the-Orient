@@ -2303,17 +2303,17 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>Pearl Diver</Text>
+      <Text>Pêcheur de perles</Text>
     </Text>
     <Text>
       <GUID>1404000878</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>Module de fûts de minerai</Text>
     </Text>
     <Text>
       <GUID>1404000879</GUID>
       <!-- Product | Elmore Mixture | Flotation Concentrate -->
-      <Text>Flotation Concentrate</Text>
+      <Text>Concentré de flottation</Text>
     </Text>
     <Text>
       <GUID>1404000881</GUID>
@@ -2323,7 +2323,7 @@
     <Text>
       <GUID>1404000882</GUID>
       <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
-      <Text>Empty Drums</Text>
+      <Text>Fûts vides</Text>
     </Text>
     <Text>
       <GUID>1404000883</GUID>
@@ -2447,8 +2447,8 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
-      <Text>Zahra bint Ismail, Destiladora por tradicion</Text>
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
+      <Text>Zahra bint Ismail, distillatrice de tradition</Text>
     </Text>
     <Text>
       <GUID>1404000910</GUID>
@@ -3868,22 +3868,22 @@
     <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
-      <Text>The ore drums are empty and need to be refilled.</Text>
+      <Text>Les fûts de minerai sont vides et doivent être remplis.</Text>
     </Text>
     <Text>
       <GUID>1404005003</GUID>
       <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+      <Text>Le concentré de flottation est prêt et les fûts sont pleins.</Text>
     </Text>
     <Text>
       <GUID>1404005004</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>Module de fûts de minerai</Text>
     </Text>
     <Text>
       <GUID>1404005005</GUID>
       <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>Ore Drum</Text>
+      <Text>Fût de minerai</Text>
     </Text>
     <Text>
       <GUID>1404005006</GUID>
@@ -4009,6 +4009,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>Cabane de chasse à l'éléphant</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>Module</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>Atelier d'encens</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>Cueilleurs de palmes</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>Cueilleurs de feuilles</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>Les cueilleurs récoltent les feuilles de palmier aromatiques, ce qui ralentit toutefois un peu la production.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
