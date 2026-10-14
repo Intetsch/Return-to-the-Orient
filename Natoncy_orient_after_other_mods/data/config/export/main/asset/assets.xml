@@ -38,4 +38,27 @@
         </Item>
     </ModOp>
 
+    <!-- Add Agarwood Orchard to NH build menu -->
+    <ModOp GUID="1445602" Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445028']" Condition="#new_horizons_buildmenu">
+		<Item>
+			<Building>1404005052</Building>
+		</Item>
+	</ModOp>
+
+    <!-- Set Agarwood as produced in Horai-->
+    <ModOp Type="add" GUID="15504013" Path="Values/ProductList/List" Condition="#new_horizons_products">
+        <Item>
+            <Product>1900100180</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Set Noble Mushrooms as produced in NW -->
+    <ModOp Type="replace" GUID="1440300" Path="Values/Product/ProductionRegions" Condition="#new_horizons_products">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Colony01</RegionType>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
 </ModOps>
