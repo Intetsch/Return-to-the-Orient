@@ -210,13 +210,7 @@
         </Hunter>
     </ModOp>
 
-	<ModOp GUID="1445602" Type="addNextSibling" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445028']" Condition="#new_horizons_session">
-		<Item>
-			<Building>1404005052</Building>
-		</Item>
-	</ModOp>
-
-    <ModOp GUID="368,190011,6000018,193856,190778" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="#new_horizons_session">
+    <ModOp GUID="368,190011,6000018,193856,194008" Type="add" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs" Condition="#new_horizons_session">
 		<Item>
 			<GUID>1404005052</GUID>
 		</Item>

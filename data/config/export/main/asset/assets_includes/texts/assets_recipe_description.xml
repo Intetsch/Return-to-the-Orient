@@ -212,6 +212,22 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005075</GUID>
+                    <Name>Orient_Lab_RecipeList_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>
