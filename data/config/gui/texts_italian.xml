@@ -2447,8 +2447,8 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
-      <Text>Zahra bint Ismail, Destiladora por tradicion</Text>
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
+      <Text>Zahra bint Ismail, distillatrice per tradizione</Text>
     </Text>
     <Text>
       <GUID>1404000910</GUID>
@@ -3771,6 +3771,116 @@
       <Text>Mangiafuoco, acrobati e giocolieri attirano folle ovunque piantino le loro tende.</Text>
     </Text>
     <Text>
+      <GUID>1404004200</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
+      <Text>Luogo orientale 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004201</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
+      <Text>Luogo orientale 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004202</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
+      <Text>Luogo orientale 4</Text>
+    </Text>
+    <Text>
+      <GUID>1404004204</GUID>
+      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
+      <Text>Obelisco</Text>
+    </Text>
+    <Text>
+      <GUID>1404004203</GUID>
+      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
+      <Text>Luogo di preghiera</Text>
+    </Text>
+    <Text>
+      <GUID>1404004206</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
+      <Text>Piccola fontana orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404004205</GUID>
+      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
+      <Text>Recinzione orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404004208</GUID>
+      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
+      <Text>Porta cittadina orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404004207</GUID>
+      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
+      <Text>Mura cittadine orientali</Text>
+    </Text>
+    <Text>
+      <GUID>1404004210</GUID>
+      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
+      <Text>Torre di guardia orientale</Text>
+    </Text>
+    <Text>
+      <GUID>1404004211</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
+      <Text>Palazzo del sultano</Text>
+    </Text>
+    <Text>
+      <GUID>1404004212</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <Text>Ala del palazzo del sultano</Text>
+    </Text>
+    <Text>
+      <GUID>1404004213</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <Text>Ala del palazzo del sultano - Ponte</Text>
+    </Text>
+    <Text>
+      <GUID>1404004214</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
+      <Text>Ala del palazzo del sultano - Porta</Text>
+    </Text>
+    <Text>
+      <GUID>1404004215</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>Ala del palazzo del sultano - Incrocio</Text>
+    </Text>
+    <Text>
+      <GUID>1404004216</GUID>
+      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
+      <Text>Palazzo del sultano</Text>
+    </Text>
+    <Text>
+      <GUID>1404004217</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <Text>Ala del palazzo del sultano - Angolo</Text>
+    </Text>
+    <Text>
+      <GUID>1404004218</GUID>
+      <!-- OrnamentalBuilding | Silo | Silo -->
+      <Text>Silo</Text>
+    </Text>
+    <Text>
+      <GUID>1404004300</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
+      <Text>Casa dell'inviato: Livello 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004301</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
+      <Text>Casa dell'inviato: Livello 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004400</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
+      <Text>Grande Moschea ornamentale</Text>
+    </Text>
+    <Text>
+      <GUID>1404004209</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
+      <Text>Torre delle mura orientale</Text>
+    </Text>
+    <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
       <Text>I fusti del minerale sono vuoti e devono essere riempiti.</Text>
@@ -3914,6 +4024,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>Capanno di caccia agli elefanti</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>Modulo</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>Laboratorio d'incenso</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>Raccoglitori di foglie di palma</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>Raccoglitori di foglie</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>I raccoglitori raccolgono le aromatiche foglie di palma, anche se questo rallenta un po' la produzione.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

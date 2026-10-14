@@ -793,7 +793,7 @@
     <Text>
       <GUID>1404000289</GUID>
       <!-- ProductionChain | Kaftans | Kaftans -->
-      <Text>Kaftans</Text>
+      <Text>Cafetãs</Text>
     </Text>
     <Text>
       <GUID>1404000290</GUID>
@@ -2303,17 +2303,17 @@
     <Text>
       <GUID>1404000861</GUID>
       <!-- FactoryBuilding7 | Pearl Diver | Pearl Diver -->
-      <Text>Pearl Diver</Text>
+      <Text>Mergulhador de Pérolas</Text>
     </Text>
     <Text>
       <GUID>1404000878</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>Módulo Tambor de Minério</Text>
     </Text>
     <Text>
       <GUID>1404000879</GUID>
       <!-- Product | Elmore Mixture | Flotation Concentrate -->
-      <Text>Flotation Concentrate</Text>
+      <Text>Concentrado de Flotação</Text>
     </Text>
     <Text>
       <GUID>1404000881</GUID>
@@ -2323,7 +2323,7 @@
     <Text>
       <GUID>1404000882</GUID>
       <!-- GuildhouseBuff | Empty Drums | Empty Drums -->
-      <Text>Empty Drums</Text>
+      <Text>Tambores Vazios</Text>
     </Text>
     <Text>
       <GUID>1404000883</GUID>
@@ -2447,7 +2447,7 @@
     </Text>
     <Text>
       <GUID>1404000909</GUID>
-      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Destiladora por tradicion -->
+      <!-- GuildhouseItem | Zahra bint Ismail, Distiller by Tradition | Zahra bint Ismail, Distiller by Tradition -->
       <Text>Zahra bint Ismail, Destiladora por tradição</Text>
     </Text>
     <Text>
@@ -3771,29 +3771,139 @@
       <Text>Engolidores de fogo, acrobatas e malabaristas atraem multidões onde quer que montem suas tendas.</Text>
     </Text>
     <Text>
+      <GUID>1404004200</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 2 | Oriental Place 2 -->
+      <Text>Lugar Oriental 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004201</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 3 | Oriental Place 3 -->
+      <Text>Lugar Oriental 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004202</GUID>
+      <!-- OrnamentalBuilding | Oriental Place 4 | Oriental Place 4 -->
+      <Text>Lugar Oriental 4</Text>
+    </Text>
+    <Text>
+      <GUID>1404004204</GUID>
+      <!-- OrnamentalBuilding | Obelisk | Obelisk -->
+      <Text>Obelisco</Text>
+    </Text>
+    <Text>
+      <GUID>1404004203</GUID>
+      <!-- OrnamentalBuilding | Prayer Ground | Prayer Ground -->
+      <Text>Local de oração</Text>
+    </Text>
+    <Text>
+      <GUID>1404004206</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Fountain | Small Oriental Fountain -->
+      <Text>Pequena fonte oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004205</GUID>
+      <!-- OrnamentalBuilding | Oriental Fence | Oriental Fence -->
+      <Text>Cerca oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004208</GUID>
+      <!-- OrnamentalBuilding | Oriental City Gate | Oriental City Gate -->
+      <Text>Portão oriental da cidade</Text>
+    </Text>
+    <Text>
+      <GUID>1404004207</GUID>
+      <!-- OrnamentalBuilding | Oriental City Wall | Oriental City Wall -->
+      <Text>Muralha oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004210</GUID>
+      <!-- OrnamentalBuilding | Oriental Watchtower | Oriental Watchtower -->
+      <Text>Torre de vigia oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004211</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace | Sultan's Palace -->
+      <Text>Palácio do sultão</Text>
+    </Text>
+    <Text>
+      <GUID>1404004212</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing | Sultan's Palace Wing -->
+      <Text>Ala do palácio do sultão</Text>
+    </Text>
+    <Text>
+      <GUID>1404004213</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Bridge | Sultan's Palace Wing - Bridge -->
+      <Text>Ala do palácio do sultão - Ponte</Text>
+    </Text>
+    <Text>
+      <GUID>1404004214</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Gate | Sultan's Palace Wing - Gate -->
+      <Text>Ala do palácio do sultão - Portão</Text>
+    </Text>
+    <Text>
+      <GUID>1404004215</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Cross | Sultan's Palace Wing - Cross -->
+      <Text>Ala do palácio do sultão - Cruzamento</Text>
+    </Text>
+    <Text>
+      <GUID>1404004216</GUID>
+      <!-- ConstructionCategory | Sultan's Palace | Sultan's Palace -->
+      <Text>Palácio do sultão</Text>
+    </Text>
+    <Text>
+      <GUID>1404004217</GUID>
+      <!-- OrnamentalBuilding | Sultan's Palace Wing - Corner | Sultan's Palace Wing - Corner -->
+      <Text>Ala do palácio do sultão - Canto</Text>
+    </Text>
+    <Text>
+      <GUID>1404004218</GUID>
+      <!-- OrnamentalBuilding | Silo | Silo -->
+      <Text>Silo</Text>
+    </Text>
+    <Text>
+      <GUID>1404004300</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
+      <Text>Casa do enviado: Nível 2</Text>
+    </Text>
+    <Text>
+      <GUID>1404004301</GUID>
+      <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 3 | Envoy house: Level 3 -->
+      <Text>Casa do enviado: Nível 3</Text>
+    </Text>
+    <Text>
+      <GUID>1404004400</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Grand Mosque | Ornamental Grand Mosque -->
+      <Text>Grande Mesquita ornamental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004209</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Tower | Oriental Wall Tower -->
+      <Text>Torre de muralha oriental</Text>
+    </Text>
+    <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
-      <Text>The ore drums are empty and need to be refilled.</Text>
+      <Text>Os tambores de minério estão vazios e precisam ser reabastecidos.</Text>
     </Text>
     <Text>
       <GUID>1404005003</GUID>
       <!-- Text | The finished flotation concentrate is ready and the drums are full. | The finished flotation concentrate is ready and the drums are full. -->
-      <Text>The finished flotation concentrate is ready and the drums are full.</Text>
+      <Text>O concentrado de flotação acabado está pronto e os tambores estão cheios.</Text>
     </Text>
     <Text>
       <GUID>1404005004</GUID>
       <!-- BuffFactoryModule | Ore Drum Module | Ore Drum Module -->
-      <Text>Ore Drum Module</Text>
+      <Text>Módulo Tambor de Minério</Text>
     </Text>
     <Text>
       <GUID>1404005005</GUID>
       <!-- GuildhouseBuff | Ore Drum | Ore Drum -->
-      <Text>Ore Drum</Text>
+      <Text>Tambor de minério</Text>
     </Text>
     <Text>
       <GUID>1404005006</GUID>
       <!-- Text | This module doubles the yield from ores through special refining in ore drums using the Elmore process. | This module doubles the yield from ores through special refining in ore drums using an oil flotation process. -->
-      <Text>This module doubles the yield from ores through special refining in ore drums using an oil flotation process.</Text>
+      <Text>Este módulo duplica o rendimento dos minérios por meio de refino especial em tambores de minério por meio de um processo de flotação de óleo.</Text>
     </Text>
     <Text>
       <GUID>1404005012</GUID>
@@ -3914,6 +4024,31 @@
       <GUID>1404005041</GUID>
       <!-- FreeAreaBuilding | Elephant Hunting Cabin | Elephant Hunting Cabin -->
       <Text>Cabana de caça ao elefante</Text>
+    </Text>
+    <Text>
+      <GUID>1404005043</GUID>
+      <!-- Text | Module | Module -->
+      <Text>Módulo</Text>
+    </Text>
+    <Text>
+      <GUID>1404005044</GUID>
+      <!-- FactoryBuilding7 | Incense Workshop | Incense Workshop -->
+      <Text>Oficina de incenso</Text>
+    </Text>
+    <Text>
+      <GUID>1404005045</GUID>
+      <!-- BuffFactoryModule | Palm Leaf Pickers | Palm Leaf Pickers -->
+      <Text>Colhedores de folhas de palmeira</Text>
+    </Text>
+    <Text>
+      <GUID>1404005048</GUID>
+      <!-- GuildhouseBuff | Leaf Pickers | Leaf Pickers -->
+      <Text>Colhedores de folhas</Text>
+    </Text>
+    <Text>
+      <GUID>1404005049</GUID>
+      <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
+      <Text>Os colhedores colhem as aromáticas folhas de palmeira, embora isso desacelere um pouco a produção.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

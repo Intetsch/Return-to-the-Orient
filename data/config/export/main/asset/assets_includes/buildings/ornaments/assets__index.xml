@@ -9,13 +9,19 @@
     <Include File="assets_dlc11_gate.xml" />
     <Include File="assets_dlc11_sign.xml" />
     
+    <Include File="assets_citywall.xml" />
+    <Include File="assets_fence.xml" />
     <Include File="assets_fountain.xml" />
     <Include File="assets_palm.xml" />
+    <Include File="assets_orient_creative_fields.xml" />
+    <Include File="assets_orient_creative_ornaments.xml" />
     <Include File="assets_place.xml" />
+    <Include File="assets_silo.xml" />
     <Include File="assets_jugglers_camp.xml" />
     <Include File="assets_ruin_large.xml" />
     <Include File="assets_ruin_small.xml" />
     <Include File="assets_statue.xml" />
+    <Include File="assets_sultanspalace.xml" />
     <Include File="assets_street_canopy_large.xml" />
     <Include File="assets_street_canopy_small.xml" />
 
@@ -23,5 +29,6 @@
 
     <!-- debug only - remove before release -->
     <Include File="assets_test_unit_grid.xml" />
+    <Include File="assets_test_iaam.xml" />
 
 </ModOps>
