@@ -180,6 +180,38 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005070</GUID>
+                    <Name>Orient_Lab_Recipe_noble_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005071</GUID>
+                    <Name>Orient_Lab_Recipe_oud_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sweetened with golden honey, stirred slowly and sipped even more slowly. With sweetness this close, nobody craves marzipan – and word gets around, so more people move into the neighbourhood.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

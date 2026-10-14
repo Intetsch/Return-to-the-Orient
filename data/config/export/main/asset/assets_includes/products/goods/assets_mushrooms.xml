@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114340" >
+        <Asset>
+            <Template>Product</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005054</GUID>
+                    <Name>P. parasiticum</Name>
+                    <IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
+                    <InfoDescription>1404005065</InfoDescription>
+                </Standard>
+                <Locked />
+                <Product>
+                    <StorageLevel>Building</StorageLevel>
+                    <ProductCategory>11702</ProductCategory>
+                    <BasePrice>100</BasePrice>
+                    <CivLevel>1</CivLevel>
+                    <AssociatedRegion>Colony01</AssociatedRegion>
+                    <ProductionRegions>
+                        <Item>
+                            <RegionType>Colony01</RegionType>
+                        </Item>
+                    </ProductionRegions>
+                </Product>
+                <ExpeditionAttribute/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- StandardProductStorageList -->
+    <ModOp Type="add" GUID="120055" Path="Values/ProductStorageList/ProductList" >
+        <Item>
+            <Product>1404005054</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="502044" Path="Values/ProductList/List" >
+        <Item>
+            <Product>1404005054</Product>
+        </Item>
+    </ModOp>
+
+
+</ModOps>
+

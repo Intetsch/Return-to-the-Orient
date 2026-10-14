@@ -38,4 +38,20 @@
         <Locked/>
     </ModOp>
 
+    <!-- Agarwood -->
+    <ModOp Type="add" GUID="15504013" Path="Values/ProductList/List" Condition="#new_horizons_session">
+        <Item>
+            <Product>1900100180</Product>
+        </Item>
+    </ModOp>
+
+    <!-- Noble Mushrooms -->
+    <ModOp Type="replace" GUID="1440300" Path="Values/Product/ProductionRegions" Condition="#new_horizons_session">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Colony01</RegionType>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
 </ModOps>

@@ -1,0 +1,52 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531" Condition="#new_horizons_session">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005051</GUID>
+					<Name>asset pool orient oud</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1404005050</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005052</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005053</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005054</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005055</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005056</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005057</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005058</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005059</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005067</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005069</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

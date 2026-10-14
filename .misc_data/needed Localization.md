@@ -10,3 +10,25 @@
   - Blattpflücker
 - 1404005049:
   - Pflücker ernten die aromatischen Palmenblätter, was die Produktion jedoch etwas verlangsamt.
+- 1404005052:
+  - Agarbaum-Zucht
+- 1404005053:
+  - Mykologisches Labor: P. Parasiticum
+- 1404005055:
+  - Infektionskeller
+- 1404005057:
+  - Destillerie
+- 1404005059:
+  - Oudh Parfum
+- 1404005063:
+  - Ein extrem wertvolles, geruchsintensives Harz, das der Adlerholzbaum als Reaktion auf Pilzbefall bildet.
+- 1404005064:
+  - Das als flüssiges Gold bezeichnete Oudh Parfum ist das teuerste und edelste Parfum der Welt, und bei ihren Magnaten heiß begehrt.
+- 1404005065:
+  - Phaeoacremonium parasiticum - ein spezieller Schimmelpilz, der die Ausbildung eines besonderen Harzes im Adlerholzbaum auslöst.
+- 1404005066:
+  - Mykologisches Labor: Edelschimmel
+- 1404005070:
+  - Nach großen Fortschritten in der Pilzzucht ist es nun möglich den begehrten Edelschimmel industriell herzustellen, wodurch der teure Import obsolet wird.
+- 1404005071:
+  - Der für die Oudh-Herstellung benötigten Schimmelpilz Phaeoacremonium parasiticum muss im Labor gezüchtet werden, um die richtigen Wuchsbedingungen bereitzustellen.

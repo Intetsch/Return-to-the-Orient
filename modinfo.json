@@ -75,6 +75,10 @@
     "natoncy_sharedproduct_turbans",
     "shared_general_modules_kurila",
     "shared-sulfur-production-lion053",
+    "Agarwood",
+    "decals-industry-jakob",
+    "ow-tools-jakob",
+    "tools-jakob",
     "incense-newhorizons",
     "Palm_Leaves",
     "ObjectDummies_Serp",
@@ -103,6 +107,10 @@
   ],
   "CreatorName": "Natoncy",
   "LoadAfterIds": [
-    "shared_production_silver_bars"
+    "shared_production_silver_bars",
+    "new_horizons_buildmenu",
+    "new_horizons_itemeffectpools",
+    "new_horizons_products",
+    "new_horizons_session"
   ]
 }
