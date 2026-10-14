@@ -81,19 +81,21 @@
   - Engineers:
     - Hookahs
   - Investors:
-    - (Seidenschals): Seide + Baumwolle + Pigmente
+    - ?
   - Magnates:
-    - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
-    - (Oud-Parfüm): Oud wird traditionell aus Adlerholzbäumen die von Pilzen befallen wurden, gewonnen. Daher:
-                    Kohle + Algen + Holz (mykologisches Labor OW) -> Pilzkultur + Tofu + Wasser (Adlerholzplantage)
-                    -> Sake (als Ethanolbasis) + Glas + Kohle (zum Aufkochen) (Destillerie) -> Oud-Öl/-Parfum
+    - Oudh-Perfume
 - Enbesa:
   - Elders:
-    - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
-    - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
+    - Spiced Tea
 - NW:
   - Artista:
-    - (Räucherwerk): Kampfer + Palmenblätter + Messing
-    - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
+    - Incense
+    - Lokum
   - Obrera:
-    - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)
+    - Candied Dates
+
+## Left to be sorted:
+  - Dubai chocolate, but not sure ;)
+  - Arak: Would need Aniseed, another farm with only 1 use
+  - Roasted chickpeas: Would need chickpeas, same as above
+  - 

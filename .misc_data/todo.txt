@@ -5,7 +5,7 @@ Enums:
 Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
 Required DLCs: Land of Lions
 Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
-Optional Mods: New Horizons, Noblesse Oblige, White & Cold
+Optional Mods: New Horizons
 
 
 
@@ -28,7 +28,6 @@ TODO:
     Oudh Perfume
 - Triggers and balancing for happiness needs (once they're done)
 
-
 Bugs:
 
 
@@ -38,7 +37,8 @@ Backlog:
 - Rewrite some quest texts
 - Fix mod loader errors/warnings
 - Update Readme/Mod.io Description
-
+- rework spices chain: too simple and I'd like it to use it more often.
+  more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
 
 
 Not fixable/doable:
