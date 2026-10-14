@@ -13,9 +13,10 @@ Optional Mods: New Horizons
 
 
 TODO:
+- Ornament icons
 - Add happiness needs for OW/NW/Enbesa tiers
-- Reorder needs based on skyscraper levels
-- Palace or needs replacement for monument
+- Reorder needs based on skyscraper levels and rebalance
+- Palace with needs replacement
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Models for
     Mycological Laboratory x2
@@ -27,15 +28,20 @@ TODO:
     Oudh
     Oudh Perfume
 - Triggers and balancing for happiness needs (once they're done)
+- Replace mud bricks with Stampflehm
+- Check used InternalIDs
+- Light house monument
 
 Bugs:
 
 
 
-Backlog:
+Backlog/Before final release:
 - Camera sequence when entering region for the first time
 - Rewrite some quest texts
+- remove IAAM Test before next beta release
 - Fix mod loader errors/warnings
+- Cleanup and delete unused files
 - Update Readme/Mod.io Description
 - rework spices chain: too simple and I'd like it to use it more often.
   more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
@@ -56,7 +62,6 @@ Unused models
     001Öffentliche_Gebäude/o_speicherstadt (Variant 18) (similar to Speicher)
     001Öffentliche_Gebäude/Zimmermann
     003Farmen_plantagen/buffalo farm
-    003Farmen_plantagen/Forsthaus (Variant 2)
     004Handwerk/erzschmelze
     004Handwerk/kupferschmelze
     004Handwerk/ori_gold_ore_smelter

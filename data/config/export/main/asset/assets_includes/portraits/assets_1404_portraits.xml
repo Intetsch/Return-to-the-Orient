@@ -1,0 +1,747 @@
+<ModOps>
+
+    <!-- the Anno 1404 character portraits, converted like the Nomad and Envoy (.misc_data/tools/portrait_1404) -->
+    <ModOp Type="addNextSibling" GUID="114620">
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004600</GUID>
+                    <Name>portrait_1404_abbot</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_abbot.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/abbot/abbot.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004601</GUID>
+                    <Name>portrait_1404_al_zahir</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_al_zahir.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/al_zahir/al_zahir.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004602</GUID>
+                    <Name>portrait_1404_alchemist</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_alchemist.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/alchemist/alchemist.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004603</GUID>
+                    <Name>portrait_1404_assassine_keeper</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_assassine_keeper.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/assassine_keeper/assassine_keeper.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004604</GUID>
+                    <Name>portrait_1404_baronessa</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_baronessa.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/baronessa/baronessa.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004605</GUID>
+                    <Name>portrait_1404_beggar</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_beggar.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/beggar/beggar.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004606</GUID>
+                    <Name>portrait_1404_caravanserai_keeper</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_caravanserai_keeper.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/caravanserai_keeper/caravanserai_keeper.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004607</GUID>
+                    <Name>portrait_1404_cardinal</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_cardinal.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/cardinal/cardinal.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004608</GUID>
+                    <Name>portrait_1404_citizen</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_citizen.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/citizen/citizen.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004609</GUID>
+                    <Name>portrait_1404_corsair</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_corsair.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/corsair/corsair.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004610</GUID>
+                    <Name>portrait_1404_emperor</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_emperor.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/emperor/emperor.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004611</GUID>
+                    <Name>portrait_1404_female_saint</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_female_saint.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/female_saint/female_saint.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004612</GUID>
+                    <Name>portrait_1404_giovanni_di_mercante</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_giovanni_di_mercante.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/giovanni_di_mercante/giovanni_di_mercante.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004613</GUID>
+                    <Name>portrait_1404_guy_forcas</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_guy_forcas.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/guy_forcas/guy_forcas.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004614</GUID>
+                    <Name>portrait_1404_helena_flores</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_helena_flores.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/helena_flores/helena_flores.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004615</GUID>
+                    <Name>portrait_1404_hildegard_von_lewenstein</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_hildegard_von_lewenstein.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/hildegard_von_lewenstein/hildegard_von_lewenstein.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004616</GUID>
+                    <Name>portrait_1404_leif_jorgensen</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_leif_jorgensen.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/leif_jorgensen/leif_jorgensen.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004617</GUID>
+                    <Name>portrait_1404_lord_richard_northburg</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_lord_richard_northburg.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/lord_richard_northburg/lord_richard_northburg.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004618</GUID>
+                    <Name>portrait_1404_lord_richard_northburg_orient</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_lord_richard_northburg_orient.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/lord_richard_northburg_orient/lord_richard_northburg_orient.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004619</GUID>
+                    <Name>portrait_1404_marie_dartois</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_marie_dartois.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/marie_dartois/marie_dartois.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004620</GUID>
+                    <Name>portrait_1404_marie_dartois_wounded</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_marie_dartois_wounded.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/marie_dartois_wounded/marie_dartois_wounded.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004621</GUID>
+                    <Name>portrait_1404_nobleman</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_nobleman.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/nobleman/nobleman.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004622</GUID>
+                    <Name>portrait_1404_patrician</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_patrician.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/patrician/patrician.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004623</GUID>
+                    <Name>portrait_1404_peasant</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_peasant.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/peasant/peasant.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004624</GUID>
+                    <Name>portrait_1404_robber_baron</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_robber_baron.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/robber_baron/robber_baron.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004625</GUID>
+                    <Name>portrait_1404_scholar</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_scholar.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/scholar/scholar.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004626</GUID>
+                    <Name>portrait_1404_sick_emperor</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_sick_emperor.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/sick_emperor/sick_emperor.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004627</GUID>
+                    <Name>portrait_1404_sir_gavin_langton</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_sir_gavin_langton.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/sir_gavin_langton/sir_gavin_langton.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004628</GUID>
+                    <Name>portrait_1404_sultan</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_sultan.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/sultan/sultan.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004629</GUID>
+                    <Name>portrait_1404_treasure_hunter</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_treasure_hunter.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/treasure_hunter/treasure_hunter.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004630</GUID>
+                    <Name>portrait_1404_willem_van_der_mark</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_willem_van_der_mark.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/willem_van_der_mark/willem_van_der_mark.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004631</GUID>
+                    <Name>portrait_1404_witch</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_witch.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/witch/witch.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- offer them in the portrait picker of the new game / profile screen -->
+    <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Portraits">
+        <Item>
+            <Portrait>1404004600</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004601</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004602</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004603</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004604</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004605</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004606</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004607</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004608</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004609</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004610</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004611</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004612</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004613</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004614</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004615</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004616</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004617</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004618</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004619</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004620</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004621</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004622</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004623</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004624</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004625</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004626</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004627</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004628</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004629</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004630</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004631</Portrait>
+        </Item>
+    </ModOp>
+
+</ModOps>

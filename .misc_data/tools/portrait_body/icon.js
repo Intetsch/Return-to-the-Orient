@@ -12,6 +12,12 @@ function bilerp(tex, u, v) {
   return [0, 1, 2].map(k => (a[k] * (1 - fx) + b[k] * fx) * (1 - fy) + (c[k] * (1 - fx) + d[k] * fx) * fy);
 }
 
+function alphaAt(tex, u, v) {
+  u = u - Math.floor(u); v = v - Math.floor(v);
+  const x = Math.min(tex.w - 1, Math.floor(u * tex.w)), y = Math.min(tex.h - 1, Math.floor(v * tex.h));
+  return tex.data[(y * tex.w + x) * 4 + 3];
+}
+
 function renderIcon(meshes, cam, out) {
   const SS = 4, N = 256, W = N * SS;
   const col = new Float32Array(W * W * 3), cov = new Uint8Array(W * W), zb = new Float32Array(W * W).fill(-Infinity);
@@ -41,10 +47,12 @@ function renderIcon(meshes, cam, out) {
         if (w0 < -1e-6 || w1 < -1e-6 || w2 < -1e-6) continue;
         const z = w0 * A[2] + w1 * B[2] + w2 * C[2], o = y * W + x;
         if (z <= zb[o]) continue;
+        const u = w0 * m.uv[a][0] + w1 * m.uv[b][0] + w2 * m.uv[c][0], v = w0 * m.uv[a][1] + w1 * m.uv[b][1] + w2 * m.uv[c][1];
+        // m.alphaTest: cut out texels below that alpha, as the game's model shader does (1404 hair and feather cards)
+        if (m.alphaTest && alphaAt(m.tex, u, v) < m.alphaTest) continue;
         zb[o] = z;
         let n = norm([0, 1, 2].map(k => w0 * sn[a][k] + w1 * sn[b][k] + w2 * sn[c][k]));
         if (n[2] < 0) n = n.map(v => -v); // open shells: light the inside like the outside
-        const u = w0 * m.uv[a][0] + w1 * m.uv[b][0] + w2 * m.uv[c][0], v = w0 * m.uv[a][1] + w1 * m.uv[b][1] + w2 * m.uv[c][1];
         const tc = bilerp(m.tex, u, v);
         const d1 = Math.max(0, n[0] * L1[0] + n[1] * L1[1] + n[2] * L1[2]), d2 = Math.max(0, n[0] * L2[0] + n[1] * L2[1] + n[2] * L2[2]);
         const sh = 0.5 + 0.62 * d1 + 0.18 * d2;

@@ -5,7 +5,6 @@
     <ModOp Type="addNextSibling" GUID="101062">
         <Asset>
             <BaseAssetGUID>101062</BaseAssetGUID>
-            <!--heavy_colony01_01_slot (Oil Pump Slot)-->
             <Values>
                 <Standard>
                     <GUID>1404001315</GUID>
@@ -28,17 +27,6 @@
                 <Text>
                     <TextOverride>101062</TextOverride>
                 </Text>
-                <!-- TEST 2026-10-13: switched off, suspected of crashing new Orient session generation (vanilla never
-                     gives a Slot an ItemContainer; the oil slot is spawned at exactly the step that crashes).
-                Overlap categories are symmetric, so this radius must stay tiny: two oil
-                     slots (3x3, spawn spots 5+ tiles apart) may never overlap each other,
-                     while a noria's 25 radius still can't reach over an oil slot. 
-                <ItemContainer>
-                    <SocketScope>Radius</SocketScope>
-                    <SocketScopeRadius>3</SocketScopeRadius>
-                    <SocketScopeRadiusOverlapCategory>Mod1</SocketScopeRadiusOverlapCategory>
-                     Noria category 
-                </ItemContainer> -->
             </Values>
         </Asset>
     </ModOp>
