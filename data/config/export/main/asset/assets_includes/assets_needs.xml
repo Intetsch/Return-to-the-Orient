@@ -56,22 +56,8 @@
     </ModOp>
 
     <!-- ## OLD WORLD ## -->
-    <!-- ## Magnates: Oudh-Perfume ## -->
-    <ModOp Type="addNextSibling" GUID="15100100" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1440216']" Condition="#new_horizons_session">
-        <Item>
-            <Product>1404005059</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>16</HappinessValue>
-            <MoneyValue>350</MoneyValue>
-            <FullWeightPopulationCount>6000</FullWeightPopulationCount>
-            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
-            <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
-                <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
-        </Item>
-    </ModOp>
+    <!-- ## Magnates: Oudh-Perfume ##
+         See natoncy_orient_after_other_mods -->
 
     <!-- ## Investors: Lokum ## -->
     <ModOp Type="addNextSibling" GUID="15000004" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
