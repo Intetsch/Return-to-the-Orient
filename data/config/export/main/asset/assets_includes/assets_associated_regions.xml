@@ -45,4 +45,13 @@
         </Item>
     </ModOp>
 
+    <!-- Noble Mushrooms -->
+    <ModOp Type="replace" GUID="1440300" Path="Values/Product/ProductionRegions" Condition="#new_horizons_session">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Colony01</RegionType>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
 </ModOps>

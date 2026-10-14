@@ -19,7 +19,7 @@
                             <Building>1010266</Building>
                         </Item>
                         <Item>
-                            <Building>1441257</Building>
+                            <Building>1440200</Building>
                         </Item>
                     </Tier1>
                 </ProductionChain>
@@ -29,12 +29,53 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005074</GUID>
+                    <Name>orient noble mushrooms chain</Name>
+                    <IconFilename>data/graphics/ui/icons/goods/icon_special_shroom.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005066</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1441203</Building>
+                        </Item>
+                        <Item>
+                            <Building>1010291</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010313</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010262</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1440200</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1440300</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
     <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='101276']" Condition="#new_horizons_session">
 		<Item>
 			<Building>1404005056</Building>
 		</Item>
+        <Item>
+            <Building>1404005074</Building>
+        </Item>
 	</ModOp>
 
 </ModOps>

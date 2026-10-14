@@ -2,11 +2,11 @@
 
 	<ModOp Type="addNextSibling" GUID='1010343' Condition="#new_horizons_session">
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>Multifactory</Template>
 			<Values>
 				<Standard>
 					<GUID>1404005053</GUID>
-					<Name>heavy_orient_08 (Mycological Laboratory)</Name>
+					<Name>lab_orient_01 (Oud Mushrooms)</Name>
 					<IconFilename>data\ui\modgraphics\icon_mushrooms.png</IconFilename>
 				</Standard>
 				<Building>
@@ -52,6 +52,7 @@
 				</Object>
 				<Mesh/>
 				<Selection>
+					<GUIType>Production</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
@@ -93,12 +94,12 @@
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
-							<Product>120008</Product>
+							<Product>1440200</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
-							<Product>1440224</Product>
+							<Product>120008</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -121,12 +122,12 @@
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>700</Amount>
-							<InactiveAmount>300</InactiveAmount>
+							<Amount>1200</Amount>
+							<InactiveAmount>800</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1010367</Product>
-							<Amount>75</Amount>
+							<Amount>550</Amount>
 						</Item>
 					</Maintenances>
 				</Maintenance>
@@ -152,9 +153,14 @@
 					</IncidentInfectionChanceFactors>
 				</IncidentInfectable>
 				<Industrializable>
-					<BoostedByIndustrialization>0</BoostedByIndustrialization>
+					<BoostedByIndustrialization>1</BoostedByIndustrialization>
 				</Industrializable>
-				<Culture/>
+				<RecipeBuilding>
+					<RecipeList>1404005067</RecipeList>
+				</RecipeBuilding>
+				<Culture>
+					<HasPollution>1</HasPollution>
+				</Culture>
 				<QuestObject/>
 				<Electrifiable/>
 				<EcoSystemProvider/>
