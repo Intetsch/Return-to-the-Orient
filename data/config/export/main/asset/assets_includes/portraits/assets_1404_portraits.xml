@@ -642,67 +642,63 @@
                 <Locked />
             </Values>
         </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004632</GUID>
+                    <Name>portrait_1404_giacomo_garibaldi</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_giacomo_garibaldi.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/giacomo_garibaldi/giacomo_garibaldi.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004633</GUID>
+                    <Name>portrait_1404_spy</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_spy.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/spy/spy.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
     </ModOp>
 
     <!-- offer them in the portrait picker of the new game / profile screen -->
     <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Portraits">
+        <!-- AI -->
+        <!-- Easy -->
         <Item>
-            <Portrait>1404004600</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004601</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004602</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004603</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004604</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004605</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004606</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004607</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004608</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004609</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004610</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004611</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004612</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004613</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004614</Portrait>
+            <Portrait>1404004616</Portrait>
         </Item>
         <Item>
             <Portrait>1404004615</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004616</Portrait>
+            <Portrait>1404004630</Portrait>
         </Item>
-        <Item>
-            <Portrait>1404004617</Portrait>
-        </Item>
-        <Item>
-            <Portrait>1404004618</Portrait>
-        </Item>
+
+        <!-- Medium -->
         <Item>
             <Portrait>1404004619</Portrait>
         </Item>
@@ -710,38 +706,119 @@
             <Portrait>1404004620</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004621</Portrait>
+            <Portrait>1404004627</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004622</Portrait>
+            <Portrait>1404004614</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004613</Portrait>
+        </Item>
+
+        <!-- Hard -->
+        <Item>
+            <Portrait>1404004604</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004607</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004612</Portrait>
+        </Item>
+
+        <!-- Occident -->
+        <!-- Population levels -->
+        <Item>
+            <Portrait>1404004605</Portrait>
         </Item>
         <Item>
             <Portrait>1404004623</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004624</Portrait>
+            <Portrait>1404004608</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004625</Portrait>
+            <Portrait>1404004622</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004621</Portrait>
+        </Item>
+
+        <!-- Traders -->
+        <Item>
+            <Portrait>1404004617</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004618</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004610</Portrait>
         </Item>
         <Item>
             <Portrait>1404004626</Portrait>
         </Item>
+
+        <!-- Neutral powers -->
         <Item>
-            <Portrait>1404004627</Portrait>
+            <Portrait>1404004624</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004628</Portrait>
+            <Portrait>1404004611</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004600</Portrait>
         </Item>
         <Item>
             <Portrait>1404004629</Portrait>
         </Item>
         <Item>
-            <Portrait>1404004630</Portrait>
-        </Item>
-        <Item>
             <Portrait>1404004631</Portrait>
         </Item>
+
+        <!-- Orient -->
+        <!-- Population levels -->
+        <Item>
+            <Portrait>1404000154</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404000155</Portrait>
+        </Item>
+
+        <!-- Traders -->
+        <Item>
+            <Portrait>1404004601</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004628</Portrait>
+        </Item>
+        
+        <!-- Neutral powers -->
+        <Item>
+            <Portrait>1404004603</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004606</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004602</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004625</Portrait>
+        </Item>
+
+        <!-- Corsairs -->
+        <Item>
+            <Portrait>1404004609</Portrait>
+        </Item>
+
+        <!-- Venetians -->
+        <Item>
+            <Portrait>1404004633</Portrait>
+        </Item>
+        <Item>
+            <Portrait>1404004632</Portrait>
+        </Item>
+
     </ModOp>
 
 </ModOps>

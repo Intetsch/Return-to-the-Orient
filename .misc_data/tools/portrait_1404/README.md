@@ -4,15 +4,24 @@ Converts the Anno 1404 character portraits (`D:\anno_data\1404\data\graphics\uni
 `...\anims\portraits`) into player portraits, the same way the Nomad and Envoy (`portraits/orient/resident_orient_tier01/02`)
 were made. The busts are not extended downward (no `portrait_body` step).
 
-32 portraits: all 35 1404 portrait cfgs except the Nomad and Envoy (already in the mod) and `player`. That one is the
-peasant mesh with `player_0.dds`, a 2008 placeholder that is black in every block.
+34 portraits:
+- 32 of the 35 base-game 1404 portrait cfgs, all except the Nomad and Envoy (already in the mod) and `player`.
+  That one is the peasant mesh with `player_0.dds`, a 2008 placeholder that is black in every block.
+- The addon's (Venice) two in `D:\anno_data\1404\addondata\graphics\units\portraits`: Giacomo Garibaldi and the Spy.
+  - They come after the base game in the manifest, so the first 32 keep their GUIDs.
+  - They use a newer rig: top bone `SkinBone_RibCage`, then neck, head, and eyes `SkinBone_Eye_Lf/Rt`.
+    The chain treats it like the old one; the importer deletes the top bone.
+  - The Spy's 1404 cfg plays his talk animations in the idle sequences too, though his own `*_idle` files ship beside them.
+    `manifest.js` uses those for the idle moods.
 
 Output:
 - `data/graphics/portraits/1404/<id>/`: cfg, ifo, `rdm/<id>.rdm`, `anim/<id>_<mood>_<idle|talk>.rdm`, `maps/<id>_diff_0.._2.dds`;
 - picker tiles `data/ui/2kimages/main/profiles/portrait_1404_<id>.png` + `_0.._3.dds`;
 - texture sources in `.misc_data/data/graphics/Portraits/1404/<id>/`;
-- `assets_includes/portraits/assets_1404_portraits.xml`: Portrait assets 1404004600–631 (`portrait_1404_<id>`, manifest order),
+- `assets_includes/portraits/assets_1404_portraits.xml`: Portrait assets 1404004600–633 (`portrait_1404_<id>`, manifest order),
   plus their entries in the CreateGameScene (500769) picker list.
+  The picker list is grouped by hand (AI difficulty, region, role). `assemble.js` therefore never rewrites an existing file.
+  It only adds missing assets at the end of the asset ModOp and missing picker entries at the end of the list. Move those afterwards.
 
 ## The chain
 
@@ -61,7 +70,8 @@ The Envoy matches within 0.06 mesh units. `node summary.js` prints one line per 
   (Lord Northburg: `Object01` + the body; both use the one 1404 texture). Sub-meshes without a material are stray helpers and are
   left out (his 32-vertex `Bone_Head` box).
 - **Sick Emperor.** Granny faults (access violation in `SampleAnimation`) on any animation sampled on his model.
-  It is the only 64-bit mesh file. Resaving it or rebuilding it through Nexus Buddy's BR2 import does not help, and neither does
+  His mesh is a 64-bit Granny file, but that is not the cause: the addon's two 64-bit meshes sample fine.
+  Resaving it or rebuilding it through Nexus Buddy's BR2 import does not help, and neither does
   evaluating the curves directly (`IGrannyCurve.Sample`). So his own three 1404 animations cannot be converted.
   He gets the healthy Emperor's six animations instead (the user's choice; `manifest.js` RETARGET). `na2retarget.js` maps them
   onto his skeleton bone by bone (root, head, eyes, eyelids) as motion relative to the parent, applied about his own pivots,
@@ -78,10 +88,40 @@ The Envoy matches within 0.06 mesh units. `node summary.js` prints one line per 
 - Textures: 1404 DXT5 `.dds` → PNG (texconv) → `annotex -f=diff -l=3`, as the Envoy's (`textures.js`).
   The alpha channel stays: it holds the 1404 hair, feather and flower cut-outs. The game's model shader (ShaderID 8, no alpha blend)
   cuts them out, as it does for vanilla `resident_tier04` and `ai_04`, which have 10–15 % of their surface on transparent texels.
-- Picker tiles: `icons.js` renders the bust with `portrait_body/icon.js` (yaw −14°, 256 px, `alphaTest` on) and frames it
-  from the top of the head down to where the bust still covers the middle of the tile, so it fills the bottom edge like vanilla tiles.
+- Picker tiles: `icons.js` renders bust + lower body with `portrait_body/icon.js` (yaw −14°, 256 px, `alphaTest` on).
+  Like the Nomad's and Envoy's tiles, each is framed 162 units from the top of the head (more for tall headwear).
+  Without a body it would stop where the bust still covers the middle of the tile.
   `INSTALL=1` copies the tiles into the mod and runs `annotex -f=diff -l=4`.
+  - Two busts are modelled turned, shoulders included: Lord Northburg about −34°, the Sick Emperor about +28° (eye line).
+    Their tiles (`FACE_ALIGN`) turn the camera so they look where the others do, shift it so the eyes land at the usual spot,
+    and pose the eyes at their mean neutral-idle rotation (`tilepose.js`). The Lord's bind pose has his eyeballs turned aside.
+  - The Sick Emperor's yaw comes from his eye line (−41.7°). The Lord's is set by eye to 40°: with his head tilt
+    he still looked right at the measured 20.5°.
+  - Only the tiles changed; the 3D portraits in game keep their original turn.
 - `animsheet.js <mod> out.png [id ...]`: QA sheet, every portrait at rest and posed in three animations from the rdm round trips.
+
+## Lower bodies
+
+Each portrait has a second, static MODEL in its cfg: `rdm/<id>_body.rdm` (P4h_N4b_G4b_B4b_T2h, no skin) with
+`maps/<id>_body_diff` (1024×512), as the Nomad and Envoy got from `../portrait_body` (2026-10-04).
+- **Mesh** (`body1404.js`, driven by `bodies.js`): the bust's bottom edge extruded straight down to the hips, in 30 rows,
+  checkerboard triangles, a tuck row behind the seam and a fan underneath.
+  - It is portrait_body's method, generalised. The bust is first moved so its lower third is centred, and turned by its eye line
+    when that deviates more than 15° (Lord Northburg, the Sick Emperor, the Cardinal).
+  - Hips: eye height + 238 units, where the Nomad's (239.8) and Envoy's (235.9) bodies end.
+  - The rim is found on still triangles only. Every vertex's motion over all six animations is measured, and triangles that move
+    as a whole are left out (the Witch's hair strands reach the rim and swing with the head). Every rim found is static (0.00 units).
+  - Willem van der Mark's bust is closed by a flat cap; his rim is the cap's outer perimeter.
+- **Texture** (`bake1404.js`): the garment just above the rim, sampled every 0.4 units of arc, carried straight down.
+  - The colour runs from the local profile into a wide, tone-weighted average, so trims, fur edges and chains fade out within
+    ~60 units instead of running as stripes.
+  - The profile's folds sway and fade, new folds grow in further down, and the hips get slightly darker.
+  - A plain dark belt with a brass buckle sits at the Nomad's/Envoy's sash and belt height (eyes +190…+204).
+  - The seam blends into the bust's own rim colour.
+- `bodyfiles.js`: rdm (the extension's rdm4, as in build.sh) and the annotex `_0.._2` chain.
+- `assemble.js` copies them, adds the body MODEL (the bust MODEL minus its animations, the portrait_body/patchcfg.js way), and grows
+  the cfg/ifo bounds down to the hips.
+- `bodyprev.js out.png cell id...`: preview of bust + body.
 
 ## Use
 
@@ -89,7 +129,9 @@ The Envoy matches within 0.06 mesh units. `node summary.js` prints one line per 
 node manifest.js                      # 1404 cfgs -> manifest.json (mesh, texture, the six animations by 1404 sequence ID)
 node convert.js [--reuse] [id ...]    # needs work/nbdriver/NbDriver.exe (see below); ~20 min for all, report in work/report_*.json
 node textures.js
-node assemble.js "<mod folder>"       # copies into the mod, writes cfg/ifo and assets_1404_portraits.xml
+node icons.js "<mod folder>"          # once first: exports each shipped bust (work/<id>/icon/out.gltf) the bodies are built on
+node bodies.js && for id in ...; do node bake1404.js $id; done && node bodyfiles.js
+node assemble.js "<mod folder>"       # copies into the mod, writes cfg/ifo, adds missing assets to assets_1404_portraits.xml
 INSTALL=1 node icons.js "<mod folder>"
 ```
 

@@ -12,7 +12,9 @@ function eyes(gl) {
   for (const ch of (g.animations ? g.animations[0].channels : [])) { const s = g.animations[0].samplers[ch.sampler]; const v = acc(s.output); (an[ch.target.node] = an[ch.target.node] || {})[ch.target.path] = v; nk = Math.max(nk, v.length); }
   const loc = (i, k) => { const n = g.nodes[i], a = an[i] || {}; const pick = (arr, d) => arr ? arr[Math.min(k, arr.length - 1)] : d; return trs(pick(a.translation, n.translation || [0, 0, 0]), pick(a.rotation, n.rotation || [0, 0, 0, 1])); };
   const glob = (i, k) => parent[i] !== undefined ? mm(glob(parent[i], k), loc(i, k)) : loc(i, k);
-  const ids = ['Bone_L_Eye', 'Bone_R_Eye'].map(n => g.nodes.findIndex(x => x.name === n));
+  // base-game rig: Bone_L_Eye / Bone_R_Eye; the addon's newer rig (Garibaldi, Spy): SkinBone_Eye_Lf / _Rt
+  const pair = [['Bone_L_Eye', 'Bone_R_Eye'], ['SkinBone_Eye_Lf', 'SkinBone_Eye_Rt']].find(p => p.every(n => g.nodes.some(x => x.name === n))) || ['Bone_L_Eye', 'Bone_R_Eye'];
+  const ids = pair.map(n => g.nodes.findIndex(x => x.name === n));
   if (ids.some(i => i < 0)) throw new Error('no eye bones in ' + gl + ': ' + g.nodes.map(n => n.name).join(' '));
   const mean = [0, 0, 0], rest = [0, 0, 0];
   let zmin = Infinity, zmax = -Infinity;
@@ -20,8 +22,11 @@ function eyes(gl) {
   // rest (no animation)
   const saved = Object.assign({}, an); for (const k of Object.keys(an)) delete an[k];
   for (const i of ids) { const M = glob(i, 0); for (let c = 0; c < 3; c++) rest[c] += M[12 + c] / 2; }
+  // rest-pose eye line (left eye -> right eye) as an angle in the mesh's x/y plane; 180 = square to the camera
+  const [L, R] = ids.map(i => glob(i, 0));
+  const restEyeYaw = Math.atan2(R[13] - L[13], R[12] - L[12]) * 180 / Math.PI;
   Object.assign(an, saved);
-  return { mean, rest, zmin, zmax, frames: nk };
+  return { mean, rest, zmin, zmax, frames: nk, restEyeYaw };
 }
 // world = P + S * R(q) * p with the portrait quaternion; rows of R for world x and y
 const S = 0.039572;

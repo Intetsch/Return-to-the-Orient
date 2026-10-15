@@ -3,7 +3,8 @@
 // (2000x idle / 2100x talk; x = 1 friendly, 2 neutral, 3 angry; 0/4 = very friendly/angry, unused).
 const fs = require('fs'), path = require('path');
 const ROOT = 'D:/anno_data/1404/data/graphics';
-const PORTRAITS = ROOT + '/units/portraits';
+// base game first, then the addon (Venice: Giacomo Garibaldi, Spy), so the asset GUIDs of the first 32 stay put
+const PORTRAIT_DIRS = [ROOT + '/units/portraits', 'D:/anno_data/1404/addondata/graphics/units/portraits'];
 const SKIP = new Set([
   'nomad/s_nomad.cfg', 'embassador/s_embassador.cfg', // already in the mod as Nomad / Envoy
   'player/n_player.cfg', // the peasant mesh with player_0.dds, a 2008 placeholder that is black in every block
@@ -29,8 +30,17 @@ function resolve(rel) {
   return cur;
 }
 
+// The Spy's cfg plays his talk animations in the idle sequences too, though his own *_idle files ship next to them:
+// an idle slot that resolves to <x>_talk.gr2 takes <x>_idle.gr2 when that file exists.
+function idleFile(slot, f) {
+  if (!slot.endsWith('_idle') || !/_talk\.gr2$/i.test(f)) return f;
+  const alt = f.replace(/_talk\.gr2$/i, '_idle.gr2');
+  const hit = fs.readdirSync(path.dirname(alt)).find(e => e.toLowerCase() === path.basename(alt).toLowerCase());
+  return hit ? path.dirname(alt) + '/' + hit : f;
+}
+
 const out = [];
-for (const d of fs.readdirSync(PORTRAITS).sort()) {
+for (const PORTRAITS of PORTRAIT_DIRS) for (const d of fs.readdirSync(PORTRAITS).sort()) {
   for (const f of fs.readdirSync(path.join(PORTRAITS, d)).filter(x => x.endsWith('.cfg')).sort()) {
     const key = d + '/' + f;
     if (SKIP.has(key)) continue;
@@ -48,7 +58,7 @@ for (const d of fs.readdirSync(PORTRAITS).sort()) {
     const slots = {};
     for (const [slot, sid] of Object.entries(SLOTS)) {
       if (!(sid in seq)) throw new Error(key + ' has no sequence ' + sid);
-      slots[slot] = anims[seq[sid]];
+      slots[slot] = idleFile(slot, anims[seq[sid]]);
     }
     const id = ID[key] || d;
     out.push({ id, cfg: key, mesh, tex: texDds, slots });
