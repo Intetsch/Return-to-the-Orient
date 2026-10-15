@@ -31,7 +31,7 @@
 - 1404005070:
   - Nach großen Fortschritten in der Pilzzucht ist es nun möglich den begehrten Edelschimmel industriell herzustellen, wodurch der teure Import obsolet wird.
 - 1404005071:
-  - Der für die Oudh-Herstellung benötigten Schimmelpilz Phaeoacremonium parasiticum muss im Labor gezüchtet werden, um die richtigen Wuchsbedingungen bereitzustellen.
+  - Der für die Oudh-Herstellung benötigte Schimmelpilz Phaeoacremonium parasiticum muss im Labor gezüchtet werden, um die richtigen Wuchsbedingungen bereitzustellen.
 - 1404005075:
   - Der Grat zwischen einem bahnbrechenden Kultur und einer unkontrollierten Sporeninvasion ist denkbar schmal, dennoch handelt es sich hierbei um eine Revolution der Mykologie. Außerdem hat die verrückte Waldhexe nun auch einen Job.
   (kannst du auch umschreiben, bin da nicht der Held drin, dennoch sind die ganzen Vanilla Descs alle so trocken humorvoll)
