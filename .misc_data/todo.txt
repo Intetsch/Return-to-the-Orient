@@ -16,21 +16,22 @@ TODO:
 - Ornament icons
 - Reorder needs based on skyscraper levels and rebalance
 - Palace with needs replacement
-- Letting AI settle the region (Adding Harbour Defenses + Logic)
 - Add happiness needs for OW/NW/Enbesa tiers
     - Models for
         Mycological Laboratory x2
         Distillery
         Agarwood Orchard
         Infestation Cellar
+        Olive Farm & Field
     - Icons for
         P. Parasiticum
-        Oudh
-        Oudh Perfume
     - Triggers and balancing for happiness needs (once they're done)
-- Replace mud bricks with Stampflehm
+    - Add olive, aniseed and chickpea Fertility and Fertility Items
 - Check used InternalIDs
 - Light house monument
+- rework spices chain: add aniseed once implemented
+
+
 
 Bugs:
 
@@ -43,8 +44,9 @@ Backlog/Before final release:
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
 - Update Readme/Mod.io Description
-- rework spices chain: too simple and I'd like it to use it more often.
-  more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
+- Replace mud bricks with Stampflehm
+- Letting AI settle the region (Adding Harbour Defenses + Logic)
+
 
 
 Not fixable/doable:

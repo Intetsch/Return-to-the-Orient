@@ -1,0 +1,52 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="114531">
+		<Asset>
+			<Template>AssetPool</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005078</GUID>
+					<Name>asset pool orient Hummus</Name>
+				</Standard>
+				<AssetPool>
+					<AssetList>
+						<Item>
+							<Asset>1500011326</Asset>
+						</Item>
+						<Item>
+							<Asset>1500010105</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005076</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005077</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005079</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005087</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005082</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005083</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005084</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005085</Asset>
+						</Item>
+						<Item>
+							<Asset>1404005086</Asset>
+						</Item>
+					</AssetList>
+				</AssetPool>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

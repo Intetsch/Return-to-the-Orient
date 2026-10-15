@@ -19,18 +19,18 @@
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>0</PosX>
-                            <PosY>180</PosY>
+                            <PosY>-5</PosY>
                             <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>180</PosX>
-                            <PosY>180</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
+                            <PosX>50</PosX>
+                            <PosY>400</PosY>
+                            <UICirclePointer>East</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>180</PosX>
-                            <PosY>0</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
+                            <PosX>400</PosX>
+                            <PosY>270</PosY>
+                            <UICirclePointer>West</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                 </Recipe>

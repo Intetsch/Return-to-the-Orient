@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005087</GUID>
+      <!-- Product | hummus | Hummus -->
+      <Text>Хумус</Text>
+    </Text>
+    <Text>
+      <GUID>1404005089</GUID>
+      <!-- Text | hummus fluff text | A sweet and creamy blend of chickpeas and olive oil, and matches with everything. -->
+      <Text>Сладкая и кремовая смесь нута и оливкового масла, которая сочетается со всем.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

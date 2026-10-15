@@ -8,8 +8,10 @@
 					<GUID>1404005066</GUID>
 					<Name>lab_orient_02 (NH Mold)</Name>
 					<IconFilename>data/graphics/ui/icons/goods/icon_special_shroom.png</IconFilename>
+					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
+					<BuildingCategoryName>132773</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Colony01</AssociatedRegions>
 				</Building>
