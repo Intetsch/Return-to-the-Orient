@@ -1,6 +1,8 @@
 <ModOps>
 
-    <ModOp Type="add" GUID="1404000845,1404000846,119029,122988,101058,112842,117786,114545,127913,102818,119035,273697,273698,273699" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
+    <!-- The Enbesa canal crossings 117786/127913 are not added: the Orient has its own (1404004230/231), and only one
+         crossing per road type may be valid in the region. 112842 stays so canals built before the Orient canal remain valid. -->
+    <ModOp Type="add" GUID="1404000845,1404000846,119029,122988,101058,112842,114545,102818,119035,273697,273698,273699" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative buildings -->
     <ModOp Type="add" GUID="10284,13011,13911,10283" Path="Values/Building/AssociatedRegions">;Mod3</ModOp>
     <!-- Creative palace -->

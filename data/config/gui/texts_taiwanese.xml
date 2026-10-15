@@ -5706,6 +5706,11 @@
       <Text>裝飾大清真寺</Text>
     </Text>
     <Text>
+      <GUID>1404004800</GUID>
+      <!-- OrnamentalBuilding | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>東方燈塔</Text>
+    </Text>
+    <Text>
       <GUID>1404005002</GUID>
       <!-- Text | The ore drums are empty and need to be refilled. | The ore drums are empty and need to be refilled. -->
       <Text>礦石桶已空，需要重新裝滿。</Text>
@@ -5874,6 +5879,81 @@
       <GUID>1404005049</GUID>
       <!-- Text | Pickers harvest the aromatic palm leaves, though this slows production down a little. | Pickers harvest the aromatic palm leaves, though this slows production down a little. -->
       <Text>採摘工收穫芳香的棕櫚葉，但這會讓生產稍微放緩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005052</GUID>
+      <!-- FreeAreaBuilding | Agarwood Plantation | Agarwood Plantation -->
+      <Text>沉香種植園</Text>
+    </Text>
+    <Text>
+      <GUID>1404005053</GUID>
+      <!-- Multifactory | Mycological Laboratory: P. parasiticum | Mycological Laboratory: P. parasiticum -->
+      <Text>真菌實驗室：P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005054</GUID>
+      <!-- Product | P. parasiticum | P. parasiticum -->
+      <Text>P. parasiticum</Text>
+    </Text>
+    <Text>
+      <GUID>1404005055</GUID>
+      <!-- FactoryBuilding7 | Infestation Cellar | Infestation Cellar -->
+      <Text>感染地窖</Text>
+    </Text>
+    <Text>
+      <GUID>1404005057</GUID>
+      <!-- FactoryBuilding7 | Distillery | Distillery -->
+      <Text>蒸餾廠</Text>
+    </Text>
+    <Text>
+      <GUID>1404005058</GUID>
+      <!-- Product | Oudh | Oudh -->
+      <Text>沉香樹脂</Text>
+    </Text>
+    <Text>
+      <GUID>1404005059</GUID>
+      <!-- Product | Oudh Perfume | Oudh Perfume -->
+      <Text>沉香香水</Text>
+    </Text>
+    <Text>
+      <GUID>1404005063</GUID>
+      <!-- Text | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. | An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation. -->
+      <Text>一種極其珍貴、香氣濃郁的樹脂，是沉香樹受到真菌侵染後分泌而成的。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005064</GUID>
+      <!-- Text | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. | Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates. -->
+      <Text>沉香香水被譽為「液體黃金」，是世界上最昂貴、最高貴的香水，深受巨富們的追捧。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005065</GUID>
+      <!-- Text | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. | Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree. -->
+      <Text>Phaeoacremonium parasiticum——一種特殊的黴菌，能促使沉香樹形成獨特的樹脂。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005066</GUID>
+      <!-- Multifactory | Mycological Laboratory: Noble Mushrooms | Mycological Laboratory: Noble Mushrooms -->
+      <Text>真菌實驗室：貴族蘑菇</Text>
+    </Text>
+    <Text>
+      <GUID>1404005067</GUID>
+      <!-- RecipeList | Mycological Laboratory Patent List | Mycological Laboratory Patent List -->
+      <Text>真菌實驗室專利清單</Text>
+    </Text>
+    <Text>
+      <GUID>1404005070</GUID>
+      <!-- Text | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. | After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete. -->
+      <Text>在蘑菇栽培取得重大進展之後，如今已能大規模生產備受追捧的貴族蘑菇，昂貴的進口從此成為歷史。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005071</GUID>
+      <!-- Text | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. | The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions. -->
+      <Text>生產沉香樹脂所需的黴菌Phaeoacremonium parasiticum必須在實驗室中培養，以提供適宜的生長條件。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005075</GUID>
+      <!-- Text | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. | The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too. -->
+      <Text>突破性的培養與失控的孢子入侵之間只有一線之隔。儘管如此，這仍是真菌學的一場革命——而且，森林裡那位瘋癲的女巫終於也有了工作。</Text>
     </Text>
   </ModOp>
 </ModOps>

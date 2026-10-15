@@ -52,6 +52,8 @@ the Nomad's eye height (world y 2.95) in the profile screen. Before, the Envoy s
   `data/ui/2kimages/main/profiles/orient_portrait_{nomad,envoy}.png` plus `_0.._3.dds`.
   - Framing follows the vanilla profile icons: head at the top, shoulders to the edges, cut at the chest, yaw −14°.
   - It supersamples 4×, keeps a transparent background, and bleeds colour into it for clean mips.
+  - A mesh with `alphaTest` set (e.g. 128) has the texels below that alpha cut out, as the game does.
+    The Nomad and Envoy tiles do not set it. `../portrait_1404` does, for the 1404 hair and feather cards.
   - The DDS sizes match the vanilla fingerprint: 87556 / 22020 / 5636 / 1540.
 
   The portrait assets 1404000154/155 use these tiles as `IconFilename`.

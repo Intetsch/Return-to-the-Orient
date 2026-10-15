@@ -10,6 +10,7 @@
     <Include File="assets_dlc11_sign.xml" />
     
     <Include File="assets_citywall.xml" />
+    <Include File="assets_lighthouse.xml" />
     <Include File="assets_fence.xml" />
     <Include File="assets_fountain.xml" />
     <Include File="assets_palm.xml" />
@@ -28,7 +29,6 @@
     <Include File="assets_tent.xml" />
 
     <!-- debug only - remove before release -->
-    <Include File="assets_test_unit_grid.xml" />
     <Include File="assets_test_iaam.xml" />
 
 </ModOps>

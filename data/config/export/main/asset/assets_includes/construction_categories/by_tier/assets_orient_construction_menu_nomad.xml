@@ -11,11 +11,6 @@
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
-                        <!-- debug only - remove before release -->
-                        <Item>
-                            <Building>1404002401</Building>
-                            <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
-                        </Item>
                         <Item>
                             <Building>1404000845</Building>
                         </Item>
@@ -67,13 +62,13 @@
                         <Item>
                             <Building>1404004216</Building>
                         </Item>
+                        <Item>
+                            <Building>133886</Building>
+                        </Item>
                         <!-- debug only - remove before release -->
                         <Item>
                             <Building>1404004219</Building>
                             <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
-                        </Item>
-                        <Item>
-                            <Building>133886</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>
