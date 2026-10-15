@@ -79,23 +79,21 @@
 
 - OW:
   - Engineers:
-    - Hookahs
+    - (Hummus): Chickpeas + Olive Oil
   - Investors:
-    - ?
+    - Lokum
   - Magnates:
     - Oudh-Perfume
 - Enbesa:
   - Elders:
     - Spiced Tea
+  - Shepherds:
+    - (Roasted chickpeas): Chickpeas + spices + coal
 - NW:
   - Artista:
-    - Incense
     - Lokum
   - Obrera:
     - Candied Dates
-
-## Left to be sorted:
-  - Dubai chocolate, but not sure ;)
-  - Arak: Would need Aniseed, another farm with only 1 use
-  - Roasted chickpeas: Would need chickpeas, same as above
-  - 
+- Arctic:
+  - Technicians:
+    - (Arak): Aniseed + Grapes + Clay
