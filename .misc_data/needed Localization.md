@@ -1,39 +1,14 @@
 # Needed Localization/language.xml entries
 
-- 1404005043:
-  - Modul
-- 1404005044:
-  - Räucherwerk-Werkstatt
-- 1404005045:
-  - Palmenblattpflücker
-- 1404005048:
-  - Blattpflücker
-- 1404005049:
-  - Pflücker ernten die aromatischen Palmenblätter, was die Produktion jedoch etwas verlangsamt.
-- 1404005052:
-  - Agarbaum-Zucht
-- 1404005053:
-  - Mykologisches Labor: P. Parasiticum
-- 1404005055:
-  - Infektionskeller
-- 1404005057:
-  - Destillerie
-- 1404005059:
-  - Oudh Parfum
-- 1404005063:
-  - Ein extrem wertvolles, geruchsintensives Harz, das der Adlerholzbaum als Reaktion auf Pilzbefall bildet.
-- 1404005064:
-  - Das als flüssiges Gold bezeichnete Oudh Parfum ist das teuerste und edelste Parfum der Welt, und bei ihren Magnaten heiß begehrt.
-- 1404005065:
-  - Phaeoacremonium parasiticum - ein spezieller Schimmelpilz, der die Ausbildung eines besonderen Harzes im Adlerholzbaum auslöst.
-- 1404005066:
-  - Mykologisches Labor: Edelschimmel
-- 1404005070:
-  - Nach großen Fortschritten in der Pilzzucht ist es nun möglich den begehrten Edelschimmel industriell herzustellen, wodurch der teure Import obsolet wird.
-- 1404005071:
-  - Der für die Oudh-Herstellung benötigte Schimmelpilz Phaeoacremonium parasiticum muss im Labor gezüchtet werden, um die richtigen Wuchsbedingungen bereitzustellen.
-- 1404005075:
-  - Der Grat zwischen einem bahnbrechenden Kultur und einer unkontrollierten Sporeninvasion ist denkbar schmal, dennoch handelt es sich hierbei um eine Revolution der Mykologie. Außerdem hat die verrückte Waldhexe nun auch einen Job.
-  (kannst du auch umschreiben, bin da nicht der Held drin, dennoch sind die ganzen Vanilla Descs alle so trocken humorvoll)
-- 1404005067:
-  - Patentliste des mykologischen Labors
+- 1404005076:
+  - Olivenbaumhplantage
+- 1404005077:
+  - Olivenbaumhain
+- 1404005082:
+  - Kichererbsenfarm
+- 1404005083:
+  - Kichererbsenfeld
+- 1404005084:
+  - Hummusküche
+- 1404005086:
+  - Kaltpresse
