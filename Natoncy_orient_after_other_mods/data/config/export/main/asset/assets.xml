@@ -88,4 +88,21 @@
         </Item>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="1445007" Path="Values/ProductionChain/Tier1/Item[Building='1010263']" Condition="#new_horizons_buildmenu">
+        <Item>
+            <Building>1404005066</Building>
+                <Tier2>
+                    <Item>
+                        <Building>1441203</Building>
+                    </Item>
+                    <Item>
+                        <Building>1010291</Building>
+                    </Item>
+                    <Item>
+                        <Building>1441202</Building>
+                    </Item>
+                </Tier2>
+        </Item>
+    </ModOp>
+
 </ModOps>
