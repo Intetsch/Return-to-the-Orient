@@ -2,7 +2,7 @@
 
 Converts the Anno 1404 character portraits (`D:\anno_data\1404\data\graphics\units\portraits`, animations in
 `...\anims\portraits`) into player portraits, the same way the Nomad and Envoy (`portraits/orient/resident_orient_tier01/02`)
-were made. The busts are not extended downward (no `portrait_body` step).
+were made, with a generated lower body (see Lower bodies). Each portrait is its own submod (see Submods).
 
 34 portraits:
 - 32 of the 35 base-game 1404 portrait cfgs, all except the Nomad and Envoy (already in the mod) and `player`.
@@ -14,14 +14,40 @@ were made. The busts are not extended downward (no `portrait_body` step).
   - The Spy's 1404 cfg plays his talk animations in the idle sequences too, though his own `*_idle` files ship beside them.
     `manifest.js` uses those for the idle moods.
 
-Output:
-- `data/graphics/portraits/1404/<id>/`: cfg, ifo, `rdm/<id>.rdm`, `anim/<id>_<mood>_<idle|talk>.rdm`, `maps/<id>_diff_0.._2.dds`;
-- picker tiles `data/ui/2kimages/main/profiles/portrait_1404_<id>.png` + `_0.._3.dds`;
-- texture sources in `.misc_data/data/graphics/Portraits/1404/<id>/`;
-- `assets_includes/portraits/assets_1404_portraits.xml`: Portrait assets 1404004600–633 (`portrait_1404_<id>`, manifest order),
-  plus their entries in the CreateGameScene (500769) picker list.
-  The picker list is grouped by hand (AI difficulty, region, role). `assemble.js` therefore never rewrites an existing file.
-  It only adds missing assets at the end of the asset ModOp and missing picker entries at the end of the list. Move those afterwards.
+Output, per portrait, in the submod `Natoncy_player_portrait_1404_<nn>_<id>` next to the main mod's modinfo.json:
+- `data/graphics/portraits/1404/<id>/`: cfg, ifo, `rdm/<id>.rdm` + `<id>_body.rdm`, `anim/<id>_<mood>_<idle|talk>.rdm`,
+  `maps/<id>_diff_0.._2.dds` + `<id>_body_diff_0.._2.dds`;
+- picker tile `data/ui/2kimages/main/profiles/portrait_1404_<id>.png` + `_0.._3.dds`;
+- `modinfo.json` and `data/config/export/main/asset/assets.xml`: the Portrait asset (`portrait_1404_<id>`, GUIDs 1404004600–633)
+  and its entry in the CreateGameScene (500769) picker list.
+
+The texture sources stay in the main mod's `.misc_data/data/graphics/Portraits/1404/<id>/`.
+
+## Submods
+
+`picker.json` is the picker order, grouped by hand: AI Easy/Medium/Hard, then Occident and Orient by population levels,
+traders and neutral powers, then Corsairs and Venetians.
+`<nn>` counts every portrait in that order, 01 Leif Jorgensen to 36 Giacomo Garibaldi.
+- The Nomad (26) and Envoy (27, made with `../portrait_body`) are submods too. Their entries keep their older names:
+  asset `orient_resident_portrait01/02`, tile `orient_portrait_nomad/envoy`, graphics `orient/resident_orient_tier01/02`.
+- The main mod still uses their GUIDs 1404000154/155 for the Nomad and Envoy resident profiles and the Envoy quest decisions,
+  so those two submods are required. Players can switch the other portraits off; a missing dependency only logs a warning.
+
+`node submods.js "<mod folder>"` writes every submod's modinfo.json (an existing Version is kept) and assets.xml, and the
+submod ModIDs into the main modinfo's ModDependencies.
+To reorder the picker, edit `picker.json` and run it again. Renumbered folders are reported, not renamed: `git mv` them.
+
+The game's load order of the submods is undeclared and not stable (declaring LoadAfterIds has reshuffled other mods
+before), so nothing depends on it.
+Each picker entry is placed by three ModOps, each running only while the entry is not yet in the list:
+- `addNextSibling` after the last item (`[last()]`) whose Portrait is any earlier `picker.json` entry;
+- otherwise `addPrevSibling` before the first item (`[1]`) that is any later entry;
+- otherwise `add` at the end.
+
+They carry `AllowNoMatch`, because two of the three find no anchor every time. So the entries keep the `picker.json` order
+whichever portraits are loaded, in whatever order.
+`node ordertest.js "<mod folder>" [trials]` checks this with the game's mod loader (xmltest) on a minimal assets.xml.
+It runs random load orders and random subsets.
 
 ## The chain
 
@@ -91,7 +117,7 @@ The Envoy matches within 0.06 mesh units. `node summary.js` prints one line per 
 - Picker tiles: `icons.js` renders bust + lower body with `portrait_body/icon.js` (yaw −14°, 256 px, `alphaTest` on).
   Like the Nomad's and Envoy's tiles, each is framed 162 units from the top of the head (more for tall headwear).
   Without a body it would stop where the bust still covers the middle of the tile.
-  `INSTALL=1` copies the tiles into the mod and runs `annotex -f=diff -l=4`.
+  `INSTALL=1` copies the tiles into the submods and runs `annotex -f=diff -l=4`.
   - Two busts are modelled turned, shoulders included: Lord Northburg about −34°, the Sick Emperor about +28° (eye line).
     Their tiles (`FACE_ALIGN`) turn the camera so they look where the others do, shift it so the eyes land at the usual spot,
     and pose the eyes at their mean neutral-idle rotation (`tilepose.js`). The Lord's bind pose has his eyeballs turned aside.
@@ -131,8 +157,10 @@ node convert.js [--reuse] [id ...]    # needs work/nbdriver/NbDriver.exe (see be
 node textures.js
 node icons.js "<mod folder>"          # once first: exports each shipped bust (work/<id>/icon/out.gltf) the bodies are built on
 node bodies.js && for id in ...; do node bake1404.js $id; done && node bodyfiles.js
-node assemble.js "<mod folder>"       # copies into the mod, writes cfg/ifo, adds missing assets to assets_1404_portraits.xml
+node assemble.js "<mod folder>"       # copies into the submods (a new portrait needs its picker.json entry first), writes cfg/ifo
 INSTALL=1 node icons.js "<mod folder>"
+node submods.js "<mod folder>"        # modinfo.json + assets.xml of every submod (Nomad and Envoy included), ModDependencies
+node ordertest.js "<mod folder>"      # picker order under random load orders (xmltest)
 ```
 
 To build the driver, copy `NexusBuddy\bin\Release\*` of the Nexus Buddy repo and `nbdriver/NbDriver.cs` into `work/nbdriver/`, then run

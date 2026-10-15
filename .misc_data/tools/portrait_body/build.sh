@@ -5,9 +5,12 @@ set -e
 cd "$(dirname "$0")"
 MOD="$(cd ../../.. && pwd -W)"
 RDM4="$(ls -d ~/.vscode/extensions/jakobharder.anno-modding-tools-*/external | tail -1)/rdm4-bin.exe"
+# each portrait is a submod, Natoncy_player_portrait_1404_<nn>_<name> (../portrait_1404/picker.json)
+sub() { ls -d "$MOD"/Natoncy_player_portrait_1404_*_$1 | head -1; }
+name() { if [ $1 = 01 ]; then echo nomad; else echo envoy; fi; }
 
 for t in 01 02; do
-  D="$MOD/data/graphics/portraits/orient/resident_orient_tier$t"
+  D="$(sub $(name $t))/data/graphics/portraits/orient/resident_orient_tier$t"
   mkdir -p g$t tex body$t
   "$RDM4" -i "$D/rdm/resident_orient_tier$t.rdm" -o g$t -s -e gltf --force 2>/dev/null
   /c/tools/texconv.exe -nologo -y -ft png -o tex "$D/maps/resident_orient_tier${t}_diff_0.dds" > /dev/null
@@ -16,7 +19,7 @@ done
 node body.js 01 02
 
 for t in 01 02; do
-  D="$MOD/data/graphics/portraits/orient/resident_orient_tier$t"
+  D="$(sub $(name $t))/data/graphics/portraits/orient/resident_orient_tier$t"
   node bake.js $t
   "$RDM4" -i body$t/body.gltf -o body$t/resident_orient_tier${t}_body.rdm -g P4h_N4b_G4b_B4b_T2h --no_transform --force 2>/dev/null
   cp body$t/body_diff.png body$t/resident_orient_tier${t}_body_diff.png
@@ -29,8 +32,9 @@ done
 # player-portrait picker tiles (256px, like the vanilla profile icons), rendered from bust + body
 node icon.js > /dev/null
 for n in nomad envoy; do
-  cp orient_portrait_$n.png "$MOD/data/ui/2kimages/main/profiles/"
-  (cd "$MOD/data/ui/2kimages/main/profiles" && /c/tools/annotex.exe -f=diff -l=4 orient_portrait_$n.png > /dev/null)
+  P="$(sub $n)/data/ui/2kimages/main/profiles"
+  cp orient_portrait_$n.png "$P/"
+  (cd "$P" && /c/tools/annotex.exe -f=diff -l=4 orient_portrait_$n.png > /dev/null)
 done
 
 node prevhi.js

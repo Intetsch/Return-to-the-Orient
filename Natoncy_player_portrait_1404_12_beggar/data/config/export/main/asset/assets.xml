@@ -1,0 +1,46 @@
+<ModOps>
+
+    <!-- Anno 1404 player portrait 12: Beggar (Occident, Population levels) -->
+    <ModOp Type="addNextSibling" GUID="114620">
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait />
+                <Standard>
+                    <GUID>1404004605</GUID>
+                    <Name>portrait_1404_beggar</Name>
+                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_beggar.png</IconFilename>
+                </Standard>
+                <Mesh />
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/portraits/1404/beggar/beggar.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- portrait picker of the new game / profile screen
+         whichever of the portrait submods are loaded and in whatever order: right after the nearest earlier entry
+         already in the list, else right before the nearest later one, else at the end -->
+    <ModOp Type="addNextSibling" GUID="500769" Path="Values/CreateGameScene/Portraits[not(Item/Portrait='1404004605')]/Item[Portrait='1404004616' or Portrait='1404004615' or Portrait='1404004630' or Portrait='1404004619' or Portrait='1404004620' or Portrait='1404004627' or Portrait='1404004614' or Portrait='1404004613' or Portrait='1404004604' or Portrait='1404004607' or Portrait='1404004612'][last()]" AllowNoMatch="1">
+        <Item>
+            <Portrait>1404004605</Portrait>
+        </Item>
+    </ModOp>
+    <ModOp Type="addPrevSibling" GUID="500769" Path="Values/CreateGameScene/Portraits[not(Item/Portrait='1404004605')]/Item[Portrait='1404004623' or Portrait='1404004608' or Portrait='1404004622' or Portrait='1404004621' or Portrait='1404004617' or Portrait='1404004618' or Portrait='1404004610' or Portrait='1404004626' or Portrait='1404004624' or Portrait='1404004611' or Portrait='1404004600' or Portrait='1404004629' or Portrait='1404004631' or Portrait='1404000154' or Portrait='1404000155' or Portrait='1404004601' or Portrait='1404004628' or Portrait='1404004603' or Portrait='1404004606' or Portrait='1404004602' or Portrait='1404004625' or Portrait='1404004609' or Portrait='1404004633' or Portrait='1404004632'][1]" AllowNoMatch="1">
+        <Item>
+            <Portrait>1404004605</Portrait>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Portraits[not(Item/Portrait='1404004605')]" AllowNoMatch="1">
+        <Item>
+            <Portrait>1404004605</Portrait>
+        </Item>
+    </ModOp>
+
+</ModOps>

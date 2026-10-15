@@ -1,7 +1,0 @@
-<ModOps>
-
-    <!-- offer the Nomad and Envoy portraits in the portrait picker of the new game / profile screen -->
-    <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Portraits">
-    </ModOp>
-
-</ModOps>

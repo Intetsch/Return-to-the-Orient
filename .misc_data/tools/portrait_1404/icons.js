@@ -4,7 +4,8 @@
 // Framing: top of the head (hat included) at the top edge; height 162 mesh units like the Nomad tile (more for tall
 // headwear), but never below where the bust still covers the middle of the tile, so the tile is filled to the bottom
 // edge like the vanilla ones (at least 120 units). Writes work/icons/portrait_1404_<id>.png;
-// INSTALL=1 also copies it into data/ui/2kimages/main/profiles and builds the _0.._3 DDS chain.
+// INSTALL=1 also copies it into the portrait's submod (submods.js), data/ui/2kimages/main/profiles, and builds the
+// _0.._3 DDS chain.
 //
 // node icons.js <mod folder> [id ...]
 const fs = require('fs'), path = require('path');
@@ -17,6 +18,7 @@ const { loadGltf } = require(path.join(TOOLS, 'render.js'));
 const { renderIcon } = require(path.join(TOOLS, 'icon.js'));
 const { eyes } = require('./eyes.js');
 const { tilePose } = require('./tilepose.js');
+const { submod } = require('./submods.js');
 const manifest = JSON.parse(fs.readFileSync(path.join(HERE, 'manifest.json')));
 const want = process.argv.slice(3);
 const OUT = path.join(WORK, 'icons');
@@ -36,7 +38,8 @@ const eyeTarget = () => eyeX ?? (eyeX = (() => { const v = manifest.filter(q => 
 for (const p of manifest.filter(p => !want.length || want.includes(p.id))) {
   const id = p.id, dir = path.join(WORK, id, 'icon');
   fs.mkdirSync(dir, { recursive: true });
-  const rdm = path.join(MOD, 'data/graphics/portraits/1404', id, 'rdm', id + '.rdm');
+  const SUB = path.join(MOD, submod(id).folder);
+  const rdm = path.join(SUB, 'data/graphics/portraits/1404', id, 'rdm', id + '.rdm');
   const r = spawnSync('C:/tools/rdm4-bin.exe', ['-i', rdm, '-o', path.join(dir, 'out'), '-s', '-e', 'gltf', '--force'], { encoding: 'utf8' });
   if (r.status !== 0) throw new Error(r.stderr);
   // aligned busts: rest pose, but the eyes at their mean neutral-idle rotation (Lord Northburg's bind pose has the
@@ -81,7 +84,8 @@ for (const p of manifest.filter(p => !want.length || want.includes(p.id))) {
   console.log(id.padEnd(30), JSON.stringify(info[id]));
   if (process.env.INSTALL === '1') {
     // like portrait_body/build.sh: the PNG next to its LOD chain _0.._3 (256px.._32px)
-    const prof = path.join(MOD, 'data/ui/2kimages/main/profiles');
+    const prof = path.join(SUB, 'data/ui/2kimages/main/profiles');
+    fs.mkdirSync(prof, { recursive: true });
     fs.copyFileSync(path.join(OUT, `portrait_1404_${id}.png`), path.join(prof, `portrait_1404_${id}.png`));
     const a = spawnSync('C:/tools/annotex.exe', ['-f=diff', '-l=4', `portrait_1404_${id}.png`], { cwd: prof, encoding: 'utf8' });
     if (a.status !== 0) throw new Error(a.stdout + a.stderr);
