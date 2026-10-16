@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404000006</GUID>
                     <Name>Region Orient</Name>
-                    <IconFilename>data/ui/2kimages/main/icons/icon_session_landoflions.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
                 </Standard>
                 <Region>
                     <CoastGUIDReplacements>
@@ -405,12 +405,7 @@
                     <Residence>1404000016</Residence>
                 </Region>
                 <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Orient</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
+                    <TextOverride>1404000000</TextOverride>
                 </Text>
                 <Locked />
                 <RequiredSoundBanks>
