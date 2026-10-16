@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005092</GUID>
+      <!-- Product | aniseed | aniseed -->
+      <Text>아니스</Text>
+    </Text>
+    <Text>
+      <GUID>1404005094</GUID>
+      <!-- Text | aniseed fluff text | No, star anise is a different plant. -->
+      <Text>아니요, 팔각은 다른 식물입니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
