@@ -1,6 +1,8 @@
 # Portrait lower bodies
 
 Generates the static lower body of the Nomad (`resident_orient_tier01`) and Envoy (`resident_orient_tier02`) portraits.
+Both are submods, `Natoncy_player_portrait_1404_<nn>_nomad` / `_envoy`, like the 1404 portraits (`../portrait_1404`, Submods).
+`build.sh` and `patchcfg.js` find them by name, so a renumbering does not break them.
 Each body is a second, unanimated MODEL in the portrait cfg. It continues the bust straight down from its bottom edge
 to hip level (mesh z 150 / 140). The bust mesh and its animations are not touched.
 
@@ -56,8 +58,9 @@ the Nomad's eye height (world y 2.95) in the profile screen. Before, the Envoy s
     The Nomad and Envoy tiles do not set it. `../portrait_1404` does, for the 1404 hair and feather cards.
   - The DDS sizes match the vanilla fingerprint: 87556 / 22020 / 5636 / 1540.
 
-  The portrait assets 1404000154/155 use these tiles as `IconFilename`.
-  `assets_includes/portraits/assets_orient_player_portraits.xml` adds both to CreateGameScene (500769) `Portraits`.
+  The portrait assets 1404000154/155 use these tiles as `IconFilename`. Each submod's assets.xml defines its asset and
+  adds it to CreateGameScene (500769) `Portraits`. The main mod still uses both GUIDs: the Nomad and Envoy resident
+  profiles (`profiles/assets_orient_nomads.xml`, `_envoys.xml`) and the Envoy quest decisions. So these two submods are required.
 
 ## Portrait test quests
 

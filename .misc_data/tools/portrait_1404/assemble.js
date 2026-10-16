@@ -1,16 +1,17 @@
-// Copies the converted portraits into the mod: data/graphics/portraits/1404/<id>/{<id>.cfg,<id>.ifo,rdm,anim,maps},
-// the texture source PNG into .misc_data, and writes the Portrait assets + picker entries.
+// Copies the converted portraits into their submods (submods.js, picker.json):
+// <submod>/data/graphics/portraits/1404/<id>/{<id>.cfg,<id>.ifo,rdm,anim,maps}, and the texture source PNGs into the
+// main mod's .misc_data. The Portrait assets and picker entries are written by submods.js.
 // The cfg/ifo are the Envoy's bust-only originals (commit fbff52a9) with this portrait's files, and the
 // ORIENTATION_TRANSFORM position chosen so the eyes (mean over neutral idle) land where the Nomad's and Envoy's do.
 //
 // node assemble.js <mod folder>
 const fs = require('fs'), path = require('path');
 const { eyes, S } = require('./eyes.js');
+const { submod } = require('./submods.js');
 const HERE = __dirname, WORK = path.join(HERE, 'work');
 const MOD = process.argv[2];
 const manifest = JSON.parse(fs.readFileSync(path.join(HERE, 'manifest.json')));
 const report = JSON.parse(fs.readFileSync(path.join(WORK, 'report_all.json')));
-const GUID0 = 1404004600;
 const EYE = { x: 0, y: 3.10 }; // shipped Nomad / Envoy: (-0.02, 3.13) / (0.00, 3.07) in their neutral idle
 // cfg animation list of the Envoy: 9 entries -> sequences 10020,10021,10040,10010,10011,10031,10000,10001,10030
 const CFG_ANIMS = ['angry_idle', 'angry_talk', 'angry_talk', 'friendly_idle', 'friendly_talk', 'friendly_talk', 'neutral_idle', 'neutral_talk', 'neutral_talk'];
@@ -71,9 +72,9 @@ function addBody(cfg, ifo, id, ymin) {
 }
 
 const out = [];
-manifest.forEach((p, i) => {
-  const id = p.id, guid = GUID0 + i;
-  const w = path.join(WORK, id), dst = path.join(MOD, 'data/graphics/portraits/1404', id);
+manifest.forEach(p => {
+  const id = p.id, { guid, folder } = submod(id);
+  const w = path.join(WORK, id), dst = path.join(MOD, folder, 'data/graphics/portraits/1404', id);
   const names = animNames(p);
   // mesh: from the angry idle glb, as for the Nomad and Envoy (every glb carries the same rest mesh)
   const meshSrc = base(p.slots.angry_idle);
@@ -115,64 +116,6 @@ manifest.forEach((p, i) => {
   out.push({ id, guid, Px: +Px.toFixed(3), Py: +Py.toFixed(3), eyes: e.mean.map(x => +x.toFixed(1)), anims: Object.values(names), fixedBones: fixed, animationsFrom: p.retargetFrom || id });
 });
 
-// assets: Portrait per model (template copied from orient_resident_portrait02) + CreateGameScene picker list.
-// An existing file is never regenerated: the user groups and orders the picker list by hand (AI difficulty, region,
-// role). Only portraits missing from it are added: the Asset at the end of the first ModOp, the picker Item at the
-// end of the 500769 list.
-const assetBlock = o => `        <Asset>
-            <Template>Portrait</Template>
-            <Values>
-                <Portrait />
-                <Standard>
-                    <GUID>${o.guid}</GUID>
-                    <Name>portrait_1404_${o.id}</Name>
-                    <IconFilename>data/ui/2kimages/main/profiles/portrait_1404_${o.id}.png</IconFilename>
-                </Standard>
-                <Mesh />
-                <Object>
-                    <Variations>
-                        <Item>
-                            <Filename>data/graphics/portraits/1404/${o.id}/${o.id}.cfg</Filename>
-                        </Item>
-                    </Variations>
-                </Object>
-                <Locked />
-            </Values>
-        </Asset>`;
-const itemBlock = o => `        <Item>
-            <Portrait>${o.guid}</Portrait>
-        </Item>`;
-const XMLF = path.join(MOD, 'data/config/export/main/asset/assets_includes/portraits/assets_1404_portraits.xml');
-let xml;
-if (!fs.existsSync(XMLF)) {
-  xml = `<ModOps>
-
-    <!-- the Anno 1404 character portraits, converted like the Nomad and Envoy (.misc_data/tools/portrait_1404) -->
-    <ModOp Type="addNextSibling" GUID="114620">
-${out.map(assetBlock).join('\n')}
-    </ModOp>
-
-    <!-- offer them in the portrait picker of the new game / profile screen -->
-    <ModOp Type="add" GUID="500769" Path="Values/CreateGameScene/Portraits">
-${out.map(itemBlock).join('\n')}
-    </ModOp>
-
-</ModOps>
-`;
-} else {
-  xml = fs.readFileSync(XMLF, 'utf8').replace(/\r\n/g, '\n');
-  // insert before the line "    </ModOp>" that closes the ModOp starting at `from`, after its last non-blank line
-  const insertAtEnd = (from, text) => {
-    const close = xml.indexOf('\n    </ModOp>', from);
-    let j = close; while (/\s/.test(xml[j - 1])) j--;
-    xml = xml.slice(0, j) + '\n' + text + xml.slice(j);
-  };
-  const newAssets = out.filter(o => !xml.includes(`<GUID>${o.guid}</GUID>`));
-  if (newAssets.length) insertAtEnd(xml.indexOf('<ModOp Type="addNextSibling"'), newAssets.map(assetBlock).join('\n'));
-  const newItems = out.filter(o => !xml.includes(`<Portrait>${o.guid}</Portrait>`));
-  if (newItems.length) insertAtEnd(xml.indexOf('GUID="500769"'), newItems.map(itemBlock).join('\n'));
-  console.log('assets added:', newAssets.map(o => o.id).join(' ') || '-', '| picker entries added:', newItems.map(o => o.id).join(' ') || '-');
-}
-fs.writeFileSync(XMLF, crlf(xml));
 fs.writeFileSync(path.join(WORK, 'assembled.json'), JSON.stringify(out, null, 1));
 for (const o of out) console.log(String(o.guid), o.id.padEnd(30), 'P', o.Px.toFixed(3).padStart(7), o.Py.toFixed(3).padStart(7), 'anims', o.anims.join(','), o.fixedBones.length ? 'weights dropped: ' + o.fixedBones.join(',') : '');
+console.log('assets and picker entries: node submods.js <mod folder>');
