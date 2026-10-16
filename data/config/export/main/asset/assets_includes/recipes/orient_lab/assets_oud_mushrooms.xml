@@ -15,22 +15,22 @@
                 <Recipe>
                     <RecipeBuilding>1404005053</RecipeBuilding>
                     <RecipeDescriptionText>1404005071</RecipeDescriptionText>
-                    <RecipeImage>data\ui\modgraphics\icon_mushrooms.png</RecipeImage>
+                    <RecipeImage>data\ui\modgraphics\oud_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
+                            <PosX>420</PosX>
+                            <PosY>405</PosY>
+                            <UICirclePointer>NorthWest</UICirclePointer>
+                        </Item>
+                        <Item>
                             <PosX>0</PosX>
-                            <PosY>180</PosY>
+                            <PosY>-22</PosY>
                             <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>180</PosX>
-                            <PosY>180</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
-                        </Item>
-                        <Item>
-                            <PosX>180</PosX>
+                            <PosX>400</PosX>
                             <PosY>0</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
+                            <UICirclePointer>SouthWest</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                 </Recipe>

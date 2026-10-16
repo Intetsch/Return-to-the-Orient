@@ -34,8 +34,8 @@ NEW NEEDS
 1404005033: Pistachio Seeds Rare Fluff
 1404005034: Pistachio Seeds Epic Fluff
 --
-1404005041: Enbesa Elephant Hunting Cabin
-1404005042: Ivory Asset Pool
+DEPR 1404005041: Enbesa Elephant Hunting Cabin
+DEPR 1404005042: Ivory Asset Pool
 --
 1404005044: Incense Workshop
 1404005045: module palm leaves
@@ -70,6 +70,11 @@ NEW NEEDS
 1404005073: NH trigger lab unlock
 1404005074: Noble Mushroom ProductionChain
 1404005075: RecipeList Fluff
+1404005095: Moldy Bread
+1404005096: Moldy Bread Debuff
+1404005097: Moldy Bread fluff
+1404005098: Asset Pool Orient NH mushrooms
+1404005099: Debuff Fluff
 --
 1404005076: Olive plantation
 1404005077: Olive field
@@ -79,6 +84,9 @@ NEW NEEDS
 1404005084: Hummus Kitchen
 1404005085: Hummus ProductionChain
 1404005086: Cold Press
+--
+1404005090: Aniseed Farm
+1404005091: Aniseed field
 
 INDUSTRY
 ----------
@@ -159,3 +167,6 @@ SUBMODS
 1404005087: Hummus
 1404005088: Hummus FakeFactory
 1404005089: Hummus fluff
+1404005092: Aniseed
+1404005093: Aniseed FakeFactory
+1404005094: Aniseed fluff

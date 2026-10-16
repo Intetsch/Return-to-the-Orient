@@ -21,17 +21,17 @@
     <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
         <AssociatedRegion>Mod3</AssociatedRegion>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105" Path="Values/Product/ProductionRegions" Condition="Values/Product/ProductionRegions">
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
         <Item>
             <RegionType>Mod3</RegionType>
         </Item>
     </ModOp>
-    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105" Path="Values/Product" Condition="!Values/Product/ProductionRegions">
-        <ProductionRegion>
+    <ModOp Type="add" GUID="1010201,1010566,1440209,1440218,1404000235,1404000238,1404000241,1404000250,1404000253,1404000256,1404000262,1404000265,1404000283,1500301148,1888999749,1900100099,1900100125,1999005057,1999005084,1999005093,1999005351,1400201040,1957006101,1957006151,1957006121,1440306,1500011326,1500010105" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
+        <ProductionRegions>
             <Item>
                 <RegionType>Mod3</RegionType>
             </Item>
-        </ProductionRegion>
+        </ProductionRegions>
     </ModOp>
 
     <!-- Taludas' Old World trading company menu. The shared submod defines it but leaves placing it to the
@@ -88,6 +88,7 @@
         </Item>
     </ModOp>
 
+    <!-- Add lab to cheese chain -->
     <ModOp Type="addNextSibling" GUID="1445007" Path="Values/ProductionChain/Tier1/Item[Building='1010263']" Condition="#new_horizons_buildmenu">
         <Item>
             <Building>1404005066</Building>
@@ -104,5 +105,34 @@
                 </Tier2>
         </Item>
     </ModOp>
+
+    <!-- Set Algae and Rice as produced in Horai for recipe book -->
+    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/AssociatedRegion" Condition="/Values/Product/AssociatedRegion">;Mod2</ModOp>
+    <ModOp Type="add" GUID="1440212,1440200" Path="/Values/Product" Condition="!/Values/Product/AssociatedRegion">
+        <AssociatedRegion>Mod2</AssociatedRegion>
+    </ModOp>
+    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product/ProductionRegions" Condition="/Values/Product/ProductionRegions">
+        <Item>
+            <RegionType>Mod2</RegionType>
+        </Item>
+    </ModOp>
+    <ModOp Type="add" GUID="1440212,1440200" Path="Values/Product" Condition="!/Values/Product/ProductionRegions">
+        <ProductionRegions>
+            <Item>
+                <RegionType>Mod2</RegionType>
+            </Item>
+        </ProductionRegions>
+    </ModOp>
+
+    <!-- temporary NH region fix -->
+    <ModOp Type="replace" GUID="133700001" Path="Values/Standard/IconFilename" Condition="#new_horizons_session">
+        <IconFilename>data/graphics/ui/icons/icon_session_asia.png</IconFilename>
+    </ModOp>
+    <ModOp Type="replace" GUID="133700001" Path="Values/Text" Condition="#new_horizons_session">
+        <Text>
+            <TextOverride>133700000</TextOverride>
+        </Text>
+    </ModOp>
+
 
 </ModOps>

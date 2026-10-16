@@ -1,14 +1,14 @@
 # Needed Localization/language.xml entries
 
-- 1404005076:
-  - Olivenbaumhplantage
-- 1404005077:
-  - Olivenbaumhain
-- 1404005082:
-  - Kichererbsenfarm
-- 1404005083:
-  - Kichererbsenfeld
-- 1404005084:
-  - Hummusküche
-- 1404005086:
-  - Kaltpresse
+- 1404005090:
+  - Anisfarm
+- 1404005091:
+  - Anisfeld
+- 1404005095:
+  - Verschimmeltes Brot
+- 1404005096:
+  - Unausgereifte Produktion
+- 1404005097:
+  - Höchstens noch als Kompost nutzbar.
+- 1404005099:
+  - Die Produktion steckt in den Kinderschuhen, daher entstehen... unerwünschte Nebenprodukte - Manchmal aber auch etwas Nützliches.

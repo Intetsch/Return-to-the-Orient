@@ -86,7 +86,9 @@
 				</SoundEmitter>
 				<FeedbackController/>
 				<Infolayer/>
-				<UpgradeList/>
+				<UpgradeList>
+                    <DefaultBuff>1404005096</DefaultBuff>
+                </UpgradeList>
 				<Factory7/>
 				<FactoryBase>
 					<FactoryInputs>
@@ -108,12 +110,12 @@
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
-							<Product>1440300</Product>
+							<Product>1404005095</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>90</CycleTime>
+					<CycleTime>30</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
@@ -182,5 +184,57 @@
 			<Factory>1404005066</Factory>
 		</Item>
 	</ModOp>
+
+	<ModOp Type="addNextSibling" GUID="112297" Condition="#new_horizons_session">
+    <Asset>
+        <Template>GuildhouseBuff</Template>
+        <Values>
+            <Standard>
+                <GUID>1404005096</GUID>
+                <Name>Mold Lab DEBuff</Name>
+                <IconFilename>data/ui/2kimages/main/icons/goods_categories/icon_goods_categories_crafting_dark.png</IconFilename>
+                <InfoDescription>1404005099</InfoDescription>
+            </Standard>
+            <ItemEffect>
+                <EffectTargets>
+                    <Item>
+                        <GUID>1404005066</GUID>
+                    </Item>
+                </EffectTargets>
+                <AllowStacking>0</AllowStacking>
+            </ItemEffect>
+            <Text>
+                <LocaText>
+                    <English>
+                        <Text>Empty Drums</Text>
+                        <Status>Exported</Status>
+                    </English>
+                </LocaText>
+                <LineID>55228</LineID>
+            </Text>
+           <FactoryUpgrade>
+				<AdditionalOutput>
+					<Item>
+						<Product>1440300</Product>
+						<AdditionalOutputCycle>3</AdditionalOutputCycle>
+						<Amount>1</Amount>
+					</Item>
+				</AdditionalOutput>
+			</FactoryUpgrade>
+            <BuildingUpgrade />
+            <Buff />
+            <CultureUpgrade />
+            <ModuleOwnerUpgrade />
+            <IncidentInfectableUpgrade />
+            <PowerplantUpgrade />
+            <IndustrializableUpgrade />
+            <ItemContainerUpgrade />
+            <IncidentInfluencerUpgrade />
+            <IrrigationUpgrade />
+            <EcoSystemProviderUpgrade />
+            <ResourceUpgrade />
+        </Values>
+    </Asset>
+  </ModOp>
 
 </ModOps>
