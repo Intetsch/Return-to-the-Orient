@@ -76,4 +76,21 @@
         </Item>
     </ModOp>
 
+    <!-- ## Engineers: Hummus ## -->
+    <ModOp Type="addNextSibling" GUID="15000003" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
+        <Item>
+            <Product>1404005087</Product>
+            <Amount>0.00001</Amount>
+            <HappinessValue>8</HappinessValue>
+            <MoneyValue>180</MoneyValue>
+            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+    </ModOp>
+
 </ModOps>
