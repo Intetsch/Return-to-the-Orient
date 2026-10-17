@@ -6,7 +6,7 @@
             <Values>
                 <Standard>
                     <GUID>1404000845</GUID>
-                    <Name>Dirt Street Orient</Name>
+                    <Name>Simple Street Orient</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_street_africa.png</IconFilename>
                     <ID/>
                 </Standard>
@@ -297,7 +297,7 @@
                     <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
                     <BridgeAsset>122988</BridgeAsset>
                     tone Bridge Afric
-                    <InternalID>28</InternalID>
+                    <Internal????ID>????????????????????????????????</InternalID>
                     <DecalVariation>data/config/street/streetdecal_var_ext.txt</DecalVariation>
                     <AdaptToNeighbors>
                         <NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality</NeighborsThatMakeUsAdapt>
@@ -365,7 +365,7 @@
                 </Cost>
                 <Street>
                     <InvalidColor>-50116</InvalidColor>
-                    <InternalID>64</InternalID>
+                    <InternalID>65</InternalID>
                     <DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
                     <DecalVariation>data/config/street/canaldecal_var.txt</DecalVariation>
                     <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
@@ -568,7 +568,7 @@
                 </Cost>
                 <Street>
                     <InvalidColor>-50116</InvalidColor>
-                    <InternalID>65</InternalID>
+                    <InternalID>66</InternalID>
                     <DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
                     <DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
                     <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
@@ -702,7 +702,7 @@
                 </Cost>
                 <Street>
                     <InvalidColor>-50116</InvalidColor>
-                    <InternalID>66</InternalID>
+                    <InternalID>67</InternalID>
                     <DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
                     <DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
                     <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
