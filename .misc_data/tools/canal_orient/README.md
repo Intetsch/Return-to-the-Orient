@@ -28,3 +28,12 @@ Stone parameters (block length, course height, joints, colours) are the `DEFAULT
 
 `preview_before_after.png`: vanilla (left) and Orient (right) on the Orient sand, from a software render of the real meshes
 (no normal mapping, no water).
+
+## Icons
+
+`node icons.js "<mod root>"` writes `data/graphics/icons/irrigation/icon_{canal,basin}_orient.png` + `_0.._3.dds`
+(annotex `-f=diff -l=4`). Only the warm stone pixels of the vanilla `icon_canal` and `scenario/icon_basin` move to the
+canal's grey sandstone (a 3, b 15); the painted lightness, water, drop and outlines stay. The basin is limited to its
+brick ring, since the drop's highlight is warm too.
+Used by: canal 1404004229 and the Q03 noria quest tracker (canal icon), noria 1404000212 and irrigation chain
+1404000214 (basin icon). `preview_icons.png`: vanilla vs Orient.

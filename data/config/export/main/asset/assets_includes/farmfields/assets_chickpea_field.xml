@@ -49,22 +49,31 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_01.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_02.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_03.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_03.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_04.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_04.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_05.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_05.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/date_fields/date_fields_field_06.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_07.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_08.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/chickpea_fields/chickpea_fields_field_09.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -100,7 +109,7 @@
 					<AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
 				</AmbientMoodProvider>
 				<ModuleIrrigation>
-					<RequiresIrrigation>0</RequiresIrrigation>
+					<RequiresIrrigation>1</RequiresIrrigation>
 				</ModuleIrrigation>
 			</Values>
 		</Asset>

@@ -49,22 +49,25 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_01.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_01.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_02.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_02.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_03.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_03.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_04.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_04.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_05.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_05.cfg</Filename>
 						</Item>
 						<Item>
-							<Filename>data/graphics/buildings/orient/almond_fields/almond_fields_field_06.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_06.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/anise_fields/anise_fields_field_07.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -84,7 +87,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Plantain Grove</Text>
+							<Text>Aniseed Field</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -100,7 +103,7 @@
 					<AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
 				</AmbientMoodProvider>
 				<ModuleIrrigation>
-					<RequiresIrrigation>0</RequiresIrrigation>
+					<RequiresIrrigation>1</RequiresIrrigation>
 				</ModuleIrrigation>
 			</Values>
 		</Asset>

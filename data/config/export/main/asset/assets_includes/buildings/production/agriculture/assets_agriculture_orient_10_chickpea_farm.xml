@@ -94,7 +94,7 @@
 				<Object>
 					<Variations>
                         <Item>
-                            <Filename>data/graphics/1404_import/buildings/farm/south/coffee_plantation/s_coffee_plantation.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/agriculture_orient_10/agriculture_orient_10.cfg</Filename>
                         </Item>
 					</Variations>
 					<Skins>
@@ -138,7 +138,7 @@
 				<Infolayer/>
 				<UpgradeList/>
 				<Factory7>
-					<NeededFertility>1404000301</NeededFertility>
+					<NeededFertility>1404004901</NeededFertility>
 				</Factory7>
 				<FactoryBase>
 					<FactoryOutputs>
@@ -168,8 +168,11 @@
 						<Module>1404005007</Module>
 					</FertilizerModuleData>
 					<ModuleBuildRadius>0</ModuleBuildRadius>
-					<EnableIrrigationFertilizer>0</EnableIrrigationFertilizer>
+					<EnableIrrigationFertilizer>1</EnableIrrigationFertilizer>
+					<IrrigationLevelsWorking>LowWater;MediumWater;HighWater;FullWater</IrrigationLevelsWorking>
 					<FarmType>PlantFarm</FarmType>
+					<AmountNonIrrigatedModulesRequiredForInfolayer>4</AmountNonIrrigatedModulesRequiredForInfolayer>
+					<MissingIrrigationInfolayerIcon>125036</MissingIrrigationInfolayerIcon>
 				</ModuleOwner>
 				<AmbientMoodProvider>
 					<Murmur>None</Murmur>
