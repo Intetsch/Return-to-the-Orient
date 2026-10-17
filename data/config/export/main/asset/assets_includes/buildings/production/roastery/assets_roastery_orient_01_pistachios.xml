@@ -2,14 +2,16 @@
 
 	<ModOp Type="addNextSibling" GUID='1010343'>
 		<Asset>
-			<Template>FactoryBuilding7</Template>
+			<Template>Multifactory</Template>
 			<Values>
 				<Standard>
 					<GUID>1404005027</GUID>
-					<Name>export_orient_03 (Pistachio Roaster)</Name>
+					<Name>roastery_orient_01 (Pistachio Roaster)</Name>
 					<IconFilename>data\modgraphics\ui\icon_roasted_pistachios.png</IconFilename>
+					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
+					<BuildingCategoryName>132773</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 				</Building>
@@ -21,7 +23,7 @@
 								<InheritedIndex>0</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>0</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -33,7 +35,7 @@
 								<InheritedIndex>1</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>1</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -46,7 +48,7 @@
 								<InheritedIndex>2</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>2</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -59,7 +61,7 @@
 								<InheritedIndex>3</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>3</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -72,7 +74,7 @@
 								<InheritedIndex>4</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>4</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -83,7 +85,7 @@
 								<InheritedIndex>5</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>FactoryBuilding7</TemplateName>
+										<TemplateName>Multifactory</TemplateName>
 										<Index>5</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -105,6 +107,7 @@
 				</Object>
 				<Mesh/>
 				<Selection>
+					<GUIType>Production</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
@@ -147,6 +150,11 @@
 						</Item>
                         <Item>
 							<Product>114358</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+						<Item>
+							<Product>120021</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -204,6 +212,9 @@
 				</Industrializable>
 				<Culture/>
 				<QuestObject/>
+				<RecipeBuilding>
+					<RecipeList>1404005101</RecipeList>
+				</RecipeBuilding>
 				<Electrifiable/>
 				<EcoSystemProvider/>
 			</Values>

@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201065</GUID>
+      <!-- Product | roasted chickpeas | Roasted Chickpeas -->
+      <Text>Grão-de-bico assado</Text>
+    </Text>
+    <Text>
+      <GUID>1400201067</GUID>
+      <!-- Text | roasted chickpeas fluff text | A simple and popular snack, especially among the working class. -->
+      <Text>Um lanche simples e popular, principalmente entre a classe trabalhadora.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
