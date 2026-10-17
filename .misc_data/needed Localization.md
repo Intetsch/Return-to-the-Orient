@@ -12,3 +12,15 @@
   - Höchstens noch als Kompost nutzbar.
 - 1404005099:
   - Die Produktion steckt in den Kinderschuhen, daher entstehen... unerwünschte Nebenprodukte - Manchmal aber auch etwas Nützliches.
+- 1404005108:
+  - Heiße und gesalzene Pistazien sind für jeden ein Genuss, insbesondere wenn sie frisch vom Grill sind.
+- 1404005106:
+  - Ein heißer Grill, auf dem viele Dinge geröstet werden können - und geröstet schmeckt alles besser.
+- 1404005107:
+  - Diese frisch gewürzten Kichererbsen sind ein Ergebnis jahrhundertelanger Tradition und ein Snack für die Arbeiterklasse.
+- 1404005100:
+  - Rösterei: Kichererbsen
+- 1404005027 (überschreiben):
+  - Rösterei: Pistazien
+- 1404005101:
+  - Rezepte der Rösterei

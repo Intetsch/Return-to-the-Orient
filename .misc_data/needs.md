@@ -78,8 +78,10 @@
 # Needs in other Worlds
 
 - OW:
-  - Engineers:
+  - Artisans:
     - (Hummus): Chickpeas + Olive Oil
+  - Engineers:
+    - Measurement Instruments: 
   - Investors:
     - Lokum
   - Magnates:
