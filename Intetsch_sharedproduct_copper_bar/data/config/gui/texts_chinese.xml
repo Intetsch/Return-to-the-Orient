@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005109</GUID>
+      <!-- Product | copper bar | copper bar -->
+      <Text>铜锭</Text>
+    </Text>
+    <Text>
+      <GUID>1404005111</GUID>
+      <!-- Text | copper bar text | A soft metal that is frequently used in the Orient for delicate, intricate work.  -->
+      <Text>一种质地柔软的金属，在东方常用于精细复杂的工艺。</Text>
+    </Text>
+  </ModOp>
+</ModOps>
