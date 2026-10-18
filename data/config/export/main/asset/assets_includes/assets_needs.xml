@@ -19,6 +19,22 @@
             </AdditionalGlobalUnlockRequirement> -->
         </Item>
     </ModOp>
+    <!-- ## Shepherds: Roasted Chickpeas ## -->
+    <ModOp Type="addNextSibling" GUID="114329" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
+        <Item>
+            <Product>1400201065</Product>
+            <Amount>0.00002</Amount>
+            <HappinessValue>10</HappinessValue>
+            <MoneyValue>175</MoneyValue>
+            <FullWeightPopulationCount>500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>399</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+    </ModOp>
 
     <!-- ## NEW WORLD ## -->
     <!-- ## Artista: Lokum and Incense ## -->
@@ -76,15 +92,15 @@
         </Item>
     </ModOp>
 
-    <!-- ## Engineers: Hummus ## -->
-    <ModOp Type="addNextSibling" GUID="15000003" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
+    <!-- ## Artisans: Hummus ## -->
+    <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404005087</Product>
             <Amount>0.00001</Amount>
-            <HappinessValue>8</HappinessValue>
-            <MoneyValue>180</MoneyValue>
-            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+            <HappinessValue>3</HappinessValue>
+            <MoneyValue>80</MoneyValue>
+            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <!-- <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
