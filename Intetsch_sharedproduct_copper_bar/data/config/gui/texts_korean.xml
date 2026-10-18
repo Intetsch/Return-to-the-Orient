@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005109</GUID>
+      <!-- Product | copper bar | copper bar -->
+      <Text>구리 주괴</Text>
+    </Text>
+    <Text>
+      <GUID>1404005111</GUID>
+      <!-- Text | copper bar text | A soft metal that is frequently used in the Orient for delicate, intricate work.  -->
+      <Text>오리엔트에서 섬세하고 정교한 작업에 자주 쓰이는 부드러운 금속입니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
