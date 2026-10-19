@@ -228,6 +228,38 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005107</GUID>
+                    <Name>Orient_Roastery_Recipe_chickpeas_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005108</GUID>
+                    <Name>Orient_Roastery_Recipe_pistachios_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hot, salted pistachios are a treat for everyone, especially fresh off the grill.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>
