@@ -2,7 +2,7 @@
 
     <ModOp Type="addNextSibling" GUID="1010284">
         <Asset>
-            <Template>FarmBuilding</Template>
+            <Template>FactoryBuildingWithModules</Template>
             <Values>
                 <Standard>
                     <GUID>1404001302</GUID>
@@ -158,12 +158,12 @@
                 <ModuleOwner>
                     <ModuleLimits>
                         <Main>
-                        <Limit>0</Limit>
+                            <Limit>0</Limit>
                         </Main>
                     </ModuleLimits>
                     <ConstructionOptions>
                         <Item>
-                        <ModuleGUID>0</ModuleGUID>
+                            <ModuleGUID>0</ModuleGUID>
                         </Item>
                     </ConstructionOptions>
                     <AdjustModuleOrientationOnceSpecialModuleWasPlaced>1</AdjustModuleOrientationOnceSpecialModuleWasPlaced>

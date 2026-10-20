@@ -71,6 +71,25 @@
         </Item>
     </ModOp>
 
+    <!-- ## ARCTIC ## -->
+    <!-- ## Technicians: Arak ## -->
+    <ModOp Type="addNextSibling" GUID="112643" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='112703']">
+        <Item>
+            <Product>1404005120</Product>
+            <Amount>0.00001</Amount>
+            <SupplyWeight>5</SupplyWeight>
+            <MoneyValue>120</MoneyValue>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>749</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <!-- <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>500</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement> -->
+        </Item>
+    </ModOp>
+
+
     <!-- ## OLD WORLD ## -->
     <!-- ## Magnates: Oudh-Perfume ##
          See natoncy_orient_after_other_mods -->

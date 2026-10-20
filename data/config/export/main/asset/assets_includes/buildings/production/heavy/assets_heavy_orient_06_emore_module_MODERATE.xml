@@ -201,8 +201,7 @@
     </Asset>
   </ModOp>
 
-  <!-- add pool as module -->
-
+  <!-- add module to factories -->
   <ModOp Type="replace" GUID="1010297,1010282,1010327" Path="/Template">
 		<Template>FactoryBuildingWithModules</Template>
 	</ModOp>
