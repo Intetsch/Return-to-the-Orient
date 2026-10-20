@@ -40,3 +40,11 @@
   - Arakdestillerie
 - 1404005123:
   - Stark alkoholisches Mischgetränk aus Trauben und Anis. Wärmt die Seele von innen heraus.
+- 1404005124:
+  - Rösterei: Kaffee
+- 1404005125:
+  - Geröstete Kaffebohnen
+- 1404005126:
+  - Einfacher, gerösteter Kaffee
+- 1404005129:
+  - Simpler, heiß gerösteter Kaffee. Nichts besonderes, wenn auch eine orientalische Spezialität.
