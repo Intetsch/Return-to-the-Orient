@@ -305,6 +305,54 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005116</GUID>
+					<Name>Alembics Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005118</GUID>
+					<Name>Recipe Alembics Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005123</GUID>
+					<Name>Arak Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
 	</ModOp>
 
 </ModOps>

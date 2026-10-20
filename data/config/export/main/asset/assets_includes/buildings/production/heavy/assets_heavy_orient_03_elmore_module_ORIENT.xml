@@ -151,9 +151,16 @@
             </Text>
            <FactoryUpgrade>
                 <ProductivityUpgrade>
-                    <Value>1000</Value>
+                    <Value>950</Value>
                     <Percental>1</Percental>
                 </ProductivityUpgrade>
+                <AdditionalOutput>
+                  <Item>
+                    <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                    <AdditionalOutputCycle>1</AdditionalOutputCycle>
+                    <Amount>1</Amount>
+                  </Item>
+              </AdditionalOutput>
             </FactoryUpgrade>
             <BuildingUpgrade />
             <Buff />

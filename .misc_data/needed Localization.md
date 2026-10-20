@@ -24,3 +24,19 @@
   - Rösterei: Pistazien
 - 1404005101:
   - Rezepte der Rösterei
+- 1404005112:
+  - Kupferschmelzhütte
+- 1404005113:
+  - Orientalische Manufaktur: Alembiks
+- 1404005115:
+  - Alembiks
+- 1404005116:
+  - Alembiks sind ein orientalischer Kessel, der zum Brauen verschiedenster Getränke und Flüssigkeiten genutzt wird.
+- 1404005118:
+  - Alembiks sind der Standard der orientalischen Brauerei: So kann man mit ihnen diverse Flüssigkeiten und Getränke brauen. Durch das verarbeitete Kupfer ermöglichen sie eine ideale und möglichst gleichmäßige Hitzeverteilung.
+- 1404005120:
+  - Arak
+- 1404005121:
+  - Arakdestillerie
+- 1404005123:
+  - Stark alkoholisches Mischgetränk aus Trauben und Anis. Wärmt die Seele von innen heraus.

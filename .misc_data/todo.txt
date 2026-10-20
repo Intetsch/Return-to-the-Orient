@@ -20,6 +20,11 @@ TODO:
 - Add happiness needs for OW/NW/Enbesa tiers
     - Triggers and balancing for happiness needs (once they're done)
     - add compost for moldy bread
+    - Add models to:
+        - Copper Smelter
+        - Arak Distillery
+        - Manufacturer: Alembics
+    - Fix technicians need (no new need possible?)
 - Light house monument
 - Check unlock order
 
@@ -35,11 +40,9 @@ Backlog/Before final release:
 - remove IAAM Test before next beta release
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
-- Update Readme/Mod.io Description
+- Update Readme/Mod.io Description (add useable but not shared products)
 - Replace mud bricks with Stampflehm
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
-- rework spices chain: too simple and I'd like it to use it more often.
-  more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
 
 
 
