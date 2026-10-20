@@ -14,7 +14,6 @@ Optional Mods: New Horizons
 
 
 TODO:
-- Ornament icons
 - Reorder needs based on skyscraper levels and rebalance
 - Palace with needs replacement
 - Add happiness needs for OW/NW/Enbesa tiers
@@ -22,6 +21,7 @@ TODO:
     - add compost for moldy bread
 - Light house monument
 - Check unlock order
+- Coffe chain additional intermediate product: Roasted Beans or Ground Coffee
 
 
 
@@ -38,8 +38,8 @@ Backlog/Before final release:
 - Update Readme/Mod.io Description
 - Replace mud bricks with Stampflehm
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
-- rework spices chain: too simple and I'd like it to use it more often.
-  more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
+- rework spices chain: too simple and I'd like it to use it more often. 
+    more inputs to give more output, since some people have given feedback that it uses too much precious space in enbesa.
 
 
 
@@ -49,24 +49,4 @@ Not fixable/doable:
 - Festival icon not showing: Not working in New Horizon either, no idea why
 - Second Noria pipe not possible, would need a work area from a river or mine slot
 
-
-
-Unused models
-    gvdb/Orient/Goldschmelze (Variant 1)
-    001Öffentliche_Gebäude/Herrenhaus (Variant 1)
-    001Öffentliche_Gebäude/Speicher (Variant 4)
-    001Öffentliche_Gebäude/o_speicherstadt (Variant 18) (similar to Speicher)
-    001Öffentliche_Gebäude/Zimmermann
-    003Farmen_plantagen/buffalo farm
-    004Handwerk/erzschmelze
-    004Handwerk/kupferschmelze
-    004Handwerk/ori_gold_ore_smelter
-    004Handwerk/Schmiedt (Variant 2)
-    004Handwerk/Töpfer (Variant 1)
-    004Handwerk/baecker
-    005Küstengebäude/hafenturm
-    005Küstengebäude/Speicherstadt (Variant 2)
-Bad/Not fitting models
-    001Öffentliche_Gebäude/Palast_vier_winde (Variant 2)
-    005Küstengebäude/Hafenturm (All Variants)
 
