@@ -10,12 +10,21 @@ const OUT = path.join(__dirname, 'out');
 
 const SKIP = ['IAAM Test'];                       // test asset, borrows palm.png
 const PICK = { lighthouse: 3, ruin_large: 1 };   // variation index shown on the icon (default 0)
+// Facing (user's rule, like the vanilla Enbesa fences): fronts point to the bottom left (model -z), walls run from the
+// bottom left to the top right (model z), T branches and corner arms point to the bottom right (model +x).
+// rotY > 0 turns clockwise seen from above; <icon>_varNN icons inherit the menu icon's entry.
 const OPTS = { place: { pngDecals: true },       // place_01 paving only exists as PNG
   // the spray is the only difference to the no-spray variation
   fountain: { particles: true, look: { particleSize: 0.45, particleTint: [0.85, 0.9, 1.1] } },
-  // turned to their better side (user's picks); rotY > 0 turns clockwise seen from above
-  statue: { rotY: 90 }, tent_var03: { rotY: -90 }, tent_var04: { rotY: 90 }, tent_var05: { rotY: 180 },
-  stonewall_junction_cross: { look: { el: 60 } } }; // seen from higher up, so the tall wall does not hide the low arms
+  statue: { rotY: 90 }, tent_var03: { rotY: -90 }, tent_var04: { rotY: 90 }, tent_var05: { rotY: 180 }, // user's picks
+  watchtower: { rotY: 90 }, citywall_tower: { rotY: -90 }, lighthouse: { rotY: 180 }, sultanspalace_palace: { rotY: 90 },
+  // walls are modelled along x; gates stay in their wall line, so their arch faces the bottom right
+  citywall: { rotY: 90 }, citygate: { rotY: 90 }, fence01: { rotY: 90 }, stonewall: { rotY: 90 }, stonewall_large: { rotY: 90 },
+  ruin_large: { rotY: 90 }, ruin_small_var12: { rotY: 90 }, ruin_small_var13: { rotY: 90 }, ruin_small_var14: { rotY: 90 },
+  ruin_small_var15: { rotY: 90 }, sultanspalace_gate: { rotY: 90 }, sultanspalace_corner: { rotY: 90 },
+  stonewall_junction_t_large: { rotY: -90 }, stonewall_junction_t_small: { rotY: -90 },
+  stonewall_junction_corner_a: { rotY: -90 }, // corner_b stays unturned (user)
+  stonewall_junction_cross: { rotY: 90, look: { el: 60 } } }; // seen from higher up, so the tall wall does not hide the low arms
 
 const args = process.argv.slice(2);
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1].split(',') : null;
