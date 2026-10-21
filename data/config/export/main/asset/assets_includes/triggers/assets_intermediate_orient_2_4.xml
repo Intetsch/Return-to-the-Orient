@@ -103,8 +103,10 @@
                                             <Template>ConditionPlayerCounter</Template>
                                             <Values>
                                                 <Condition />
+                                                <!-- an Investor skyscraper level 4 built. Vanilla "skyscraper unlocks 1.6" (136124) unlocks
+                                                     typewriters with this OR an Engineer skyscraper level 3, see the Engineers trigger below -->
                                                 <ConditionPlayerCounter>
-                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <PlayerCounter>ObjectBuilt</PlayerCounter>
                                                     <Context>601886</Context>
                                                     <CounterAmount>1</CounterAmount>
                                                 </ConditionPlayerCounter>
@@ -166,7 +168,100 @@
                 <TriggerSetup/>
             </Values>
         </Asset>
-        
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004024</GUID>
+                    <Name>Intermediate Orient 2.4 Typewriters Engineers</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>1400</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <!-- an Engineer skyscraper level 3 built, the other half of vanilla 136124 -->
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>ObjectBuilt</PlayerCounter>
+                                                    <Context>601890</Context>
+                                                    <CounterAmount>1</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionIsDLCActive</Template>
+                                            <Values>
+                                                <Condition/>
+                                                <ConditionIsDLCActive>
+                                                    <DLCAssetList>
+                                                        <Item>
+                                                            <DLCAsset>410085</DLCAsset>
+                                                        </Item>
+                                                    </DLCAssetList>
+                                                </ConditionIsDLCActive>
+                                                <ConditionPropsNegatable/>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404000780</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets/>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+
         
 
         <Asset>
@@ -415,6 +510,153 @@
                                         <UnhideAssets>
                                             <Item>
                                                 <Asset>1404000778</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+
+
+
+        <!-- Export goods for other regions' needs -->
+
+
+        <!-- Export: Lokum for 4500 Investors, need in assets_needs.xml -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004021</GUID>
+                    <Name>Intermediate Orient 2.4 Lokum</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>1400</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>15000004</Context>
+                                                    <CounterAmount>4500</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404005022</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                        <UnhideAssets/>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
+
+        <!-- Export: Incense for 6000 Artistas (unhide) -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004022</GUID>
+                    <Name>Intermediate Orient 2.4 Incense</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>1400</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>5403</Context>
+                                                    <CounterAmount>6000</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets/>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404005046</Asset>
                                             </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>

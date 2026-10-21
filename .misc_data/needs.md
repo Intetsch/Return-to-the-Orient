@@ -93,9 +93,9 @@
     - (Roasted chickpeas): Chickpeas + spices + coal
 - NW:
   - Artista:
-    - Lokum
+    - Incense
   - Obrera:
     - Candied Dates
 - Arctic:
   - Technicians:
-    - (Arak): Aniseed + Grapes + Clay
+    - (Arak): Aniseed + Grapes + Alembics

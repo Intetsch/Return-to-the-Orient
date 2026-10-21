@@ -166,10 +166,8 @@
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
-                            <AdditionalGlobalUnlockRequirement>
-                                <Population>601883</Population>
-                                <MinPopulationAmount>15</MinPopulationAmount>
-                            </AdditionalGlobalUnlockRequirement>
+                            <!-- no AdditionalGlobalUnlockRequirement: it only takes a population level, not skyscrapers.
+                                 Like vanilla's own High Life needs, the stall's unlock (trigger 1404001260) gates it -->
                         </Item>
                         <Item>
                             <Product>1404000360</Product>
@@ -205,10 +203,8 @@
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
-                            <AdditionalGlobalUnlockRequirement>
-                                <Population>601890</Population>
-                                <MinPopulationAmount>1</MinPopulationAmount>
-                            </AdditionalGlobalUnlockRequirement>
+                            <!-- no AdditionalGlobalUnlockRequirement, see Biscuits: gated by the stall's unlock
+                                 (triggers 1404001263 / 1404004024) -->
                         </Item>
                         <Item>
                             <Product>1404000358</Product>

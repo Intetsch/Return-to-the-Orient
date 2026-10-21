@@ -71,20 +71,21 @@
         </ProductionRegions>
     </ModOp>
 
-    <!-- Add need: Magnates: Oudh-Perfume -->
+    <!-- Add need: Magnates: Oudh-Perfume
+         Unlock counts match trigger 1404005062 in triggers/assets_new_horizons_triggers.xml -->
     <ModOp Type="addNextSibling" GUID="15100100" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1440216']" Condition="#new_horizons_session">
         <Item>
             <Product>1404005059</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>16</HappinessValue>
+            <Amount>0.00004</Amount>
+            <HappinessValue>7</HappinessValue>
             <MoneyValue>350</MoneyValue>
             <FullWeightPopulationCount>6000</FullWeightPopulationCount>
             <NoWeightPopulationCount>3999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>2400</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 

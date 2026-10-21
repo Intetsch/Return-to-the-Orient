@@ -18,11 +18,34 @@
                                 <!-- ## CHANGE ## -->
                                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                                 <Context>1404000011</Context>
-                                <CounterAmount>2400</CounterAmount>
+                                <CounterAmount>1900</CounterAmount>
                                 <!-- ## CHANGE ## -->
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
+                    <!-- Magnates at the Oudh Perfume need's NoWeightPopulationCount + 1 (Natoncy_orient_after_other_mods) -->
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>15100100</Context>
+                                                    <CounterAmount>4000</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
                     <TriggerActions>
                         <Item>
                             <TriggerAction>
@@ -71,6 +94,29 @@
                             </ConditionPlayerCounter>
                         </Values>
                     </TriggerCondition>
+                    <!-- Magnates at the Oudh Perfume need's NoWeightPopulationCount + 1 (Natoncy_orient_after_other_mods) -->
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>15100100</Context>
+                                                    <CounterAmount>4000</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
                     <TriggerActions>
                         <Item>
                             <TriggerAction>

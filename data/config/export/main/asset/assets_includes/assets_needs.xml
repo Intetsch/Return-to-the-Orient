@@ -1,4 +1,7 @@
-<!-- Add Happiness Needs to different population -->
+<!-- Add Happiness Needs to different population
+     Each need unlocks at NoWeightPopulationCount + 1 of its own tier and at the Envoy count in
+     AdditionalGlobalUnlockRequirement. The export trigger in triggers/assets_intermediate_orient_2_*.xml
+     ("Export: ...") unlocks the production at the same two counts, so change them together. -->
 
 <ModOps>
 
@@ -7,32 +10,32 @@
     <ModOp Type="addNextSibling" GUID="114330" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114362']">
         <Item>
             <Product>1400201044</Product>
-            <Amount>0.00002</Amount>
-            <HappinessValue>10</HappinessValue>
-            <MoneyValue>175</MoneyValue>
+            <Amount>0.000025</Amount>
+            <HappinessValue>5</HappinessValue>
+            <MoneyValue>35</MoneyValue>
             <FullWeightPopulationCount>2500</FullWeightPopulationCount>
             <NoWeightPopulationCount>1299</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>1000</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
     <!-- ## Shepherds: Roasted Chickpeas ## -->
     <ModOp Type="addNextSibling" GUID="114329" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
         <Item>
             <Product>1400201065</Product>
-            <Amount>0.00002</Amount>
-            <HappinessValue>10</HappinessValue>
-            <MoneyValue>175</MoneyValue>
+            <Amount>0.00003</Amount>
+            <HappinessValue>5</HappinessValue>
+            <MoneyValue>25</MoneyValue>
             <FullWeightPopulationCount>500</FullWeightPopulationCount>
             <NoWeightPopulationCount>399</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
@@ -41,16 +44,16 @@
     <ModOp Type="addNextSibling" GUID="5403" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='5830']">
         <Item>
             <Product>1440306</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>12</HappinessValue>
+            <Amount>0.00002</Amount>
+            <HappinessValue>6</HappinessValue>
             <MoneyValue>85</MoneyValue>
             <FullWeightPopulationCount>7500</FullWeightPopulationCount>
             <NoWeightPopulationCount>5999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>1900</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
@@ -58,34 +61,34 @@
     <ModOp Type="addNextSibling" GUID="15000006" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010259']">
         <Item>
             <Product>1400201056</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>6</HappinessValue>
-            <MoneyValue>80</MoneyValue>
+            <Amount>0.000025</Amount>
+            <HappinessValue>5</HappinessValue>
+            <MoneyValue>40</MoneyValue>
             <FullWeightPopulationCount>4000</FullWeightPopulationCount>
             <NoWeightPopulationCount>2499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>600</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
     <!-- ## ARCTIC ## -->
     <!-- ## Technicians: Arak ## -->
-    <ModOp Type="addNextSibling" GUID="112643" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='112703']">
+    <ModOp Type="addNextSibling" GUID="112643" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120032']">
         <Item>
             <Product>1404005120</Product>
-            <Amount>0.00001</Amount>
-            <SupplyWeight>5</SupplyWeight>
-            <MoneyValue>120</MoneyValue>
+            <Amount>0.00003</Amount>
+            <HeatValue>6</HeatValue>
+            <MoneyValue>80</MoneyValue>
             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
             <NoWeightPopulationCount>749</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>1000</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
@@ -98,16 +101,16 @@
     <ModOp Type="addNextSibling" GUID="15000004" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
         <Item>
             <Product>1400201053</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>8</HappinessValue>
+            <Amount>0.00002</Amount>
+            <HappinessValue>5</HappinessValue>
             <MoneyValue>180</MoneyValue>
             <FullWeightPopulationCount>6000</FullWeightPopulationCount>
             <NoWeightPopulationCount>4499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>1400</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
@@ -115,16 +118,16 @@
     <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404005087</Product>
-            <Amount>0.00001</Amount>
-            <HappinessValue>3</HappinessValue>
+            <Amount>0.000025</Amount>
+            <HappinessValue>4</HappinessValue>
             <MoneyValue>80</MoneyValue>
             <FullWeightPopulationCount>2000</FullWeightPopulationCount>
             <NoWeightPopulationCount>1499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
-            <!-- <AdditionalGlobalUnlockRequirement>
+            <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>500</MinPopulationAmount>
-            </AdditionalGlobalUnlockRequirement> -->
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
 
