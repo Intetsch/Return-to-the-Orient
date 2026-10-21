@@ -47,7 +47,7 @@
                 <Object>
                     <Variations>
                         <Item>
-                            <Filename>data/graphics/buildings/orient/heavy_orient_02/heavy_orient_02.cfg</Filename>
+                            <Filename>data/graphics/buildings/orient/heavy_orient_08/heavy_orient_08.cfg</Filename>
                         </Item>
                     </Variations>
                 </Object>
@@ -65,8 +65,11 @@
                     </Colors>
                 </Selection>
                 <Text>
-                    <TextOverride>1742200042</TextOverride>
-                    <!--Silver Smelter, localised by shared_production_silver_bars-->
+                    <LocaText>
+                        <English>
+                            <Text>Copper Smelter</Text>
+                        </English>
+                    </LocaText>
                 </Text>
                 <Constructable/>
                 <Locked/>

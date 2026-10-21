@@ -5711,6 +5711,26 @@
       <Text>東方燈塔</Text>
     </Text>
     <Text>
+      <GUID>1404004801</GUID>
+      <!-- OrnamentalBuilding | Oriental Harbour Tower | Oriental Harbour Tower -->
+      <Text>東方港口塔樓</Text>
+    </Text>
+    <Text>
+      <GUID>1404004850</GUID>
+      <!-- OrnamentalBuilding | Small Oriental Wall | Small Oriental Wall -->
+      <Text>東方矮牆</Text>
+    </Text>
+    <Text>
+      <GUID>1404004851</GUID>
+      <!-- OrnamentalBuilding | Large Oriental Wall | Large Oriental Wall -->
+      <Text>東方高牆</Text>
+    </Text>
+    <Text>
+      <GUID>1404004852</GUID>
+      <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
+      <Text>東方牆體連接件</Text>
+    </Text>
+    <Text>
       <GUID>1404004900</GUID>
       <!-- Fertility | Olive Fertility | Olive Fertility -->
       <Text>橄欖生產力</Text>
@@ -6007,8 +6027,8 @@
     </Text>
     <Text>
       <GUID>1404005057</GUID>
-      <!-- FactoryBuilding7 | Distillery | Distillery -->
-      <Text>蒸餾廠</Text>
+      <!-- FactoryBuilding7 | Oudh Distillery | Oudh Distillery -->
+      <Text>沉香蒸餾廠</Text>
     </Text>
     <Text>
       <GUID>1404005058</GUID>
@@ -6144,6 +6164,66 @@
       <GUID>1404005108</GUID>
       <!-- Text | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. | Hot, salted pistachios are a treat for everyone, especially fresh off the grill. -->
       <Text>熱呼呼的鹹味開心果人人愛吃，剛出烤架的尤其美味。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005112</GUID>
+      <!-- FactoryBuildingWithModules | Copper Smelter | Copper Smelter -->
+      <Text>銅冶煉廠</Text>
+    </Text>
+    <Text>
+      <GUID>1404005113</GUID>
+      <!-- Multifactory | Oriental Workshop: Alembics | Oriental Workshop: Alembics -->
+      <Text>東方工坊：蒸餾器</Text>
+    </Text>
+    <Text>
+      <GUID>1404005115</GUID>
+      <!-- Product | alembics | Alembics -->
+      <Text>蒸餾器</Text>
+    </Text>
+    <Text>
+      <GUID>1404005116</GUID>
+      <!-- Text | Alembics are oriental stills used for brewing all kinds of drinks and liquids. | Alembics are oriental stills used for brewing all kinds of drinks and liquids. -->
+      <Text>蒸餾器是一種東方鍋爐，用於釀製各種飲品和液體。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005118</GUID>
+      <!-- Text | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. | Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible. -->
+      <Text>蒸餾器是東方釀造的標準器具：可以用來釀製各種液體和飲品。由於採用銅製，它能理想而盡可能均勻地分布熱量。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005120</GUID>
+      <!-- Product | arak | Arak -->
+      <Text>亞力酒</Text>
+    </Text>
+    <Text>
+      <GUID>1404005121</GUID>
+      <!-- FactoryBuilding7 | Arak Distillery | Arak Distillery -->
+      <Text>亞力酒蒸餾廠</Text>
+    </Text>
+    <Text>
+      <GUID>1404005123</GUID>
+      <!-- Text | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. | A strongly alcoholic blend of grapes and aniseed. Warms the soul from within. -->
+      <Text>以葡萄和洋茴香調製的烈性酒，能從裡到外溫暖靈魂。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005124</GUID>
+      <!-- Multifactory | Roastery: Coffee | Roastery: Coffee -->
+      <Text>烘焙坊：咖啡</Text>
+    </Text>
+    <Text>
+      <GUID>1404005125</GUID>
+      <!-- Product | Roasted Coffee | Roasted Coffee Beans -->
+      <Text>烘焙咖啡豆</Text>
+    </Text>
+    <Text>
+      <GUID>1404005126</GUID>
+      <!-- Text | Simple roasted coffee. | Simple roasted coffee. -->
+      <Text>普通的烘焙咖啡。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005129</GUID>
+      <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
+      <Text>簡單的高溫烘焙咖啡。沒什麼特別，但也算是一種東方特產。</Text>
     </Text>
   </ModOp>
 </ModOps>

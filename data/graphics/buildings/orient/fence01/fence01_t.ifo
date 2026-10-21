@@ -120,15 +120,51 @@
     </Position>
     <Position>
       <xf>0.5</xf>
-      <zf>-0.5</zf>
+      <zf>0.25</zf>
     </Position>
     <Position>
       <xf>-0.5</xf>
-      <zf>-0.5</zf>
+      <zf>0.25</zf>
     </Position>
     <Position>
       <xf>-0.5</xf>
       <zf>0.5</zf>
+    </Position>
+  </FeedbackBlocker>
+  <FeedbackBlocker>
+    <Position>
+      <xf>0.5</xf>
+      <zf>-0.5</zf>
+    </Position>
+    <Position>
+      <xf>0.5</xf>
+      <zf>-0.25</zf>
+    </Position>
+    <Position>
+      <xf>0.25</xf>
+      <zf>-0.25</zf>
+    </Position>
+    <Position>
+      <xf>0.25</xf>
+      <zf>-0.5</zf>
+    </Position>
+  </FeedbackBlocker>
+  <FeedbackBlocker>
+    <Position>
+      <xf>-0.5</xf>
+      <zf>-0.5</zf>
+    </Position>
+    <Position>
+      <xf>-0.5</xf>
+      <zf>-0.25</zf>
+    </Position>
+    <Position>
+      <xf>-0.25</xf>
+      <zf>-0.25</zf>
+    </Position>
+    <Position>
+      <xf>-0.25</xf>
+      <zf>-0.5</zf>
     </Position>
   </FeedbackBlocker>
 </Info>

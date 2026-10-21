@@ -45,6 +45,30 @@
 
 	</BuildBlocker>
 
+	<QuayArea>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>1</zf>
+		</Position>
+
+		<Position>
+			<xf>-1</xf>
+			<zf>-1</zf>
+		</Position>
+
+		<Position>
+			<xf>1</xf>
+			<zf>-1</zf>
+		</Position>
+
+		<Position>
+			<xf>1</xf>
+			<zf>1</zf>
+		</Position>
+
+	</QuayArea>
+
 	<Dummy>
 		<Name>DamageImpact0</Name>
 		<Position>

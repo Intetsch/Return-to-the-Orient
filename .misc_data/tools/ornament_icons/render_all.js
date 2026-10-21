@@ -10,7 +10,10 @@ const OUT = path.join(__dirname, 'out');
 
 const SKIP = ['IAAM Test'];                       // test asset, borrows palm.png
 const PICK = { lighthouse: 3, ruin_large: 1 };   // variation index shown on the icon (default 0)
-const OPTS = { place: { pngDecals: true } };     // place_01 paving only exists as PNG
+const OPTS = { place: { pngDecals: true },       // place_01 paving only exists as PNG
+  // the spray is the only difference to the no-spray variation
+  fountain: { particles: true, look: { particleSize: 0.45, particleTint: [0.85, 0.9, 1.1] } },
+  stonewall_junction_cross: { look: { el: 60 } } }; // seen from higher up, so the tall wall does not hide the low arms
 
 const args = process.argv.slice(2);
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1].split(',') : null;
@@ -22,16 +25,22 @@ for (const f of fs.readdirSync(ASSETS).filter(f => f.endsWith('.xml'))) {
     const icon = (a.match(/<IconFilename>([^<]*)</) || [])[1] || '';
     const name = (a.match(/<Name>([^<]*)</) || [])[1];
     if (!icon.startsWith(ICONS) || SKIP.includes(name)) continue;
-    const base = path.basename(icon, '.png');
-    if (jobs.has(base) || (only && !only.includes(base))) continue;
     const cfgs = [...a.matchAll(/<Filename>([^<]*\.cfg)</g)].map(m => m[1]);
-    jobs.set(base, cfgs[PICK[base] ?? 0]);
+    // the menu icon shows the PICK variation, VariationIcons item i shows variation i
+    const vi = (a.match(/<VariationIcons>([\s\S]*?)<\/VariationIcons>/) || [])[1] || '';
+    const icons = [[icon, PICK[path.basename(icon, '.png')] ?? 0], ...[...vi.matchAll(/<IconFilename>([^<]*)</g)].map((m, i) => [m[1], i])];
+    for (const [file, i] of icons) {
+      const base = path.basename(file, '.png');
+      if (!file.startsWith(ICONS) || jobs.has(base) || (only && !only.includes(base))) continue;
+      jobs.set(base, cfgs[i]);
+    }
   }
 }
 fs.mkdirSync(OUT, { recursive: true });
 for (const [base, cfg] of jobs) {
   const out = path.join(OUT, base + '.png');
-  makeIcon(MOD, cfg, out, OPTS[base] || {});
+  // <icon>_varNN variation icons share the menu icon's options
+  makeIcon(MOD, cfg, out, OPTS[base] || OPTS[base.replace(/_var\d\d$/, '')] || {});
   if (!install) continue;
   // annotex writes the .dds files into its working directory
   execFileSync('C:/tools/annotex.exe', ['-f=diff', '-l=4', base + '.png'], { cwd: OUT, stdio: 'ignore' });

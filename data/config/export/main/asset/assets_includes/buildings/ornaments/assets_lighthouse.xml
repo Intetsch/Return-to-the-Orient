@@ -24,6 +24,20 @@
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var01.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse.png</IconFilename>
+						</Item>
+					</VariationIcons>
 				</Building>
 				<Cost>
 					<Costs>

@@ -75,6 +75,7 @@ function render(scene, opts) {
   const groundClip = opts.groundClip ?? -0.01;
   const tris = scene.tris.filter(t => !(Math.max(t.v[0][1], t.v[1][1], t.v[2][1]) < groundClip)).map(t => opts.mirror ? { ...t, v: t.v.map(mx), n: t.n && t.n.map(mx) } : t);
   const decals = [...(opts.ground || []), ...(scene.decals || [])].flatMap(d => decalTris(d).map(t => ({ ...t, v: t.v.map(mx), tex: d.tex, mul: d.mul, sampler: d.sampler })));
+  const sprites = (scene.sprites || []).filter(s => s.p[1] >= groundClip).map(s => ({ ...s, p: mx(s.p) }));
 
   // ---------- framing ----------
   const sx_ = p => dot(M(p), cam.right), sy_ = p => dot(M(p), cam.up);
@@ -86,7 +87,7 @@ function render(scene, opts) {
     const gx = gp.map(sx_), gy = gp.map(sy_);
     let k = width / (Math.max(...gx) - Math.min(...gx));
     // everything visible
-    const all = [...tris.flatMap(t => t.v), ...gp];
+    const all = [...tris.flatMap(t => t.v), ...gp, ...sprites.map(s => s.p)];
     const ax = all.map(sx_), ay = all.map(sy_);
     const minX = Math.min(...ax), maxX = Math.max(...ax), minY = Math.min(...ay), maxY = Math.max(...ay);
     k = Math.min(k, maxW / (maxX - minX), (bottom - top) / (maxY - minY));
@@ -230,6 +231,21 @@ function render(scene, opts) {
       for (let k = 0; k < 3; k++) img[i * 4 + k] = img[i * 4 + 3] > 0 ? img[i * 4 + k] * (1 - a) + wc[k] * l[k] * a : wc[k] * l[k];
       img[i * 4 + 3] = img[i * 4 + 3] + a * (1 - img[i * 4 + 3]);
     });
+  }
+  // ---------- particles: soft camera-facing discs, back to front, lit like ground ----------
+  // a full disc covers more than the sparse particle textures do: particleSize / particleAlpha thin it out,
+  // particleTint offsets the warm tone curve (water spray would turn cream)
+  const pTint = opts.particleTint || [1, 1, 1], pSize = opts.particleSize ?? 1, pAlpha = opts.particleAlpha ?? 1;
+  for (const s of sprites.map(s => ({ ...s, P: proj(s.p) })).sort((a, b) => b.P[2] - a.P[2])) {
+    const [cx, cy, z] = s.P, rad = s.r * pSize * view.k * SS, l = light([0, 1, 0], s.p).map((v, k) => v * pTint[k]);
+    for (let y = Math.max(0, Math.floor(cy - rad)); y <= Math.min(R - 1, Math.ceil(cy + rad)); y++)
+      for (let x = Math.max(0, Math.floor(cx - rad)); x <= Math.min(R - 1, Math.ceil(cx + rad)); x++) {
+        const d2 = ((x + 0.5 - cx) ** 2 + (y + 0.5 - cy) ** 2) / (rad * rad), i = y * R + x;
+        if (d2 >= 1 || z >= zb[i] || (ga[i] > 0.5 && z >= gz[i])) continue;
+        const a = s.a * pAlpha * (1 - d2) * (1 - d2);
+        for (let k = 0; k < 3; k++) img[i * 4 + k] = img[i * 4 + 3] > 0 ? img[i * 4 + k] * (1 - a) + s.c[k] * l[k] * a : s.c[k] * l[k];
+        img[i * 4 + 3] += a * (1 - img[i * 4 + 3]);
+      }
   }
   // downsample
   const out = new Float32Array(size * size * 4);

@@ -3,7 +3,9 @@
 // colour grade fitted to the vanilla Africa ornament icons, dark outline. Framing like the Africa icons: visible
 // width 120 px, bottom edge on row 124, shrunk to fit when tall.
 // Usage: node icon.js <modRoot> <cfg rel> <out.png> [jsonOptions]
-//   options: footprint [hx,hz] (else from the .ifo BuildBlocker), noGround, skipModel regex, rotY (deg), width, extraCfgs
+//   options: footprint [hx,hz] (else from the .ifo BuildBlocker), noGround, skipModel regex, rotY (deg), width, extraCfgs,
+//            look (overrides of LOOK, e.g. {"el":60} where a tall part would hide the rest),
+//            particles (draw one frame of the cfg's PARTICLE systems, particleFrame picks it)
 const fs = require('fs'), path = require('path');
 const { loadScene, makeResolver, IDENT } = require('./scene.js');
 const R = require('./render.js');
@@ -67,7 +69,7 @@ function bounds(img, size, thr = 0.5) {
 function makeIcon(modRoot, cfgRel, out, o = {}) {
   const rot = o.rotY ? { p: [0, 0, 0], q: [0, Math.sin(o.rotY * Math.PI / 360), 0, Math.cos(o.rotY * Math.PI / 360)], s: [1, 1, 1] } : IDENT;
   const skip = o.skipModel ? new RegExp(o.skipModel, 'i') : null;
-  const scene = loadScene(modRoot, cfgRel, rot, { skipModel: skip ? (n, f) => skip.test(n) || skip.test(f) : null, pngDecals: o.pngDecals });
+  const scene = loadScene(modRoot, cfgRel, rot, { skipModel: skip ? (n, f) => skip.test(n) || skip.test(f) : null, pngDecals: o.pngDecals, particles: o.particles, particleFrame: o.particleFrame });
   for (const extra of o.extraCfgs || []) { const s2 = loadScene(modRoot, extra.cfg, extra.xf || IDENT); scene.tris.push(...s2.tris); scene.decals.push(...s2.decals); }
   // bright paving decals would sit on the tone curve's shoulder: bring them down to the sand's brightness
   for (const d of scene.decals) { const m = meanLum(d.tex), k = Math.min(1, (o.decalLum ?? 1.1) * SAND_LUM / m); d.mul = [k, k, k]; if (k < 1) console.log(`  decal ${path.basename(d.src)} x${k.toFixed(2)}`); }
@@ -76,7 +78,7 @@ function makeIcon(modRoot, cfgRel, out, o = {}) {
   if (o.rotY && Math.abs(o.rotY) % 180 === 90) fp = { x0: fp.z0, x1: fp.z1, z0: fp.x0, z1: fp.x1 };
   const ground = o.noGround ? [] : [sandGround(fp)];
   const W = o.width ?? 120, BOT = o.bottom ?? 124, TOP = o.top ?? 2;
-  const base = { ...LOOK, ground, ss: 4, smSize: 2048, aoSize: 512 };
+  const base = { ...LOOK, ...o.look, ground, ss: 4, smSize: 2048, aoSize: 512 };
   // pass 1: rough framing, then measure the outlined image and re-frame (twice, the outline does not scale)
   let r = R.render(scene, { ...base, ss: 1, aoDirs: 0, fit: { width: 110, bottom: 120, top: 8, maxW: 116 } });
   let view = r.view;

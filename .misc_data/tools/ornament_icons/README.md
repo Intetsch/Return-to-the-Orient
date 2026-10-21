@@ -17,6 +17,17 @@ Plain Node.js, no packages. It needs the extracted vanilla tree on `D:\anno_data
 A new ornament is picked up automatically when its `IconFilename` points into `data/graphics/icons/ornaments/`.
 The variation shown is the first one, unless `PICK` in `render_all.js` says otherwise.
 
+`VariationIcons` entries under `data/graphics/icons/ornaments/` are rendered too: item i shows variation i. For the
+variation the menu icon already shows, the entry reuses the menu icon. The others are named `<icon>_varNN.png`
+(NN = variation number from 01). They share the menu icon's `OPTS`.
+orientPlace01 (`place`) deliberately has no `VariationIcons` (user, 2026-10-21): its 16 pavings look nearly the same,
+so it keeps one icon and the game picks a variation at random.
+
+`{"particles":true}` draws one frame of the cfg's PARTICLE systems (`rdp.js` reads the baked `.rdp`) as soft discs.
+The fountain needs it, because its spray is the only difference from the no-spray variation. Full discs cover more than
+the sparse particle textures, and the warm tone curve turns water cream, so `look` takes `particleSize`, `particleAlpha`
+and `particleTint`.
+
 ## How it matches vanilla
 
 These values were fitted by rendering vanilla Africa ornament cfgs and comparing the result with their icons:

@@ -1,8 +1,9 @@
-// Loads an Anno cfg tree (MODEL / FILE / PROPCONTAINER-PROP / DECAL) into world-space triangles.
+// Loads an Anno cfg tree (MODEL / FILE / PROPCONTAINER-PROP / DECAL, optionally PARTICLE) into world-space triangles.
 // Files are looked up in the mod root first, then in the extracted vanilla tree.
 // Meshes: rdm4-bin -> glTF (cached); textures: <base>_0.dds -> PNG via texconv (cached), <base>.png as fallback.
 const fs = require('fs'), path = require('path'), os = require('os'), crypto = require('crypto'), { execFileSync } = require('child_process');
 const { decode } = require('./png.js');
+const { snapshot } = require('./rdp.js');
 const VANILLA = 'D:/anno_data/1800';
 const CACHE = path.join(__dirname, 'cache');
 fs.mkdirSync(CACHE, { recursive: true });
@@ -153,7 +154,7 @@ function material(m, R) {
 // opts.skipModel(name, fileName) -> true to drop a model
 function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
   const R = makeResolver(modRoot);
-  const tris = [], decals = [];
+  const tris = [], decals = [], sprites = [];
   const seen = [];
   function addMesh(prims, mats, T, lodMap) {
     for (const p of prims) {
@@ -230,8 +231,15 @@ function loadScene(modRoot, cfgRel, rootXf = IDENT, opts = {}) {
       if (!/.dds$/i.test(tex.src) && !opts.pngDecals) { console.log(`  decal without _0.dds skipped: ${val(ml[0], 'cModelDiffTex')}`); continue; }
       decals.push({ T: compose(T, xfOf(d)), hx, hz, tex, src: val(ml[0], 'cModelDiffTex') });
     }
+    // opts.particles: one frame of each PARTICLE system as sprites (the renderer has no other way to show a spray)
+    if (opts.particles) for (const pc of configs(main, 'Particles')) {
+      const fn = val(pc, 'FileName'), src = fn && R.find(fn);
+      if (!src) { if (fn) console.log(`  no particles ${fn}`); continue; }
+      const PT = compose(T, xfOf(pc));
+      for (const s of snapshot(src, opts.particleFrame)) sprites.push({ p: apply(PT, s.p), r: s.r * PT.s[0], c: s.c, a: s.a });
+    }
   }
   visitCfg(cfgRel, rootXf, 0);
-  return { tris, decals, cfgs: seen };
+  return { tris, decals, sprites, cfgs: seen };
 }
 module.exports = { loadScene, parseXml, kid, kids, val, num, configs, apply, compose, IDENT, makeResolver, qrot };
