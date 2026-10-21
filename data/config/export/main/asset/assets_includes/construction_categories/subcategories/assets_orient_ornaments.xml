@@ -1,5 +1,7 @@
 <ModOps>
 
+    <!-- 1404000793 is no longer in any menu: its ornaments moved to the themed groups below (ornament tab, like New Horizon).
+         Kept for its text "Oriental Ornaments", which the creative ornament copies use as BuildingCategoryName / ConstructionMenuText. -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -10,12 +12,38 @@
                     <IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
+                    <BuildingList />
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Harbour</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45754</LineID>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Themed groups of the Orient ornament tab (RegionMenu/Mod3/OrnamentsMode), named with vanilla ornament menu texts.
+         Unlocked together with 1404000793 (intermediate 1.2 + creative trigger 1404000791). -->
+    <ModOp Type="addNextSibling" GUID="114554">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004860</GUID>
+                    <Name>orient ornament menu park</Name>
+                    <IconFilename>data/graphics/icons/ornaments/palm.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
                     <BuildingList>
                         <Item>
-                            <Building>1404000379</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004218</Building>
+                            <Building>133886</Building>
                         </Item>
                         <Item>
                             <Building>102818</Building>
@@ -29,12 +57,100 @@
                         <Item>
                             <Building>102812</Building>
                         </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500067</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+        <!-- ornaments outside the city / in the desert -->
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004866</GUID>
+                    <Name>orient ornament menu countryside</Name>
+                    <IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000379</Building>
+                        </Item>
                         <Item>
                             <Building>1404000584</Building>
                         </Item>
                         <Item>
                             <Building>1404000585</Building>
                         </Item>
+                        <Item>
+                            <Building>1404004218</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004204</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>11643</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004861</GUID>
+                    <Name>orient ornament menu city</Name>
+                    <IconFilename>data/graphics/icons/ornaments/statue.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404000586</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000587</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000381</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000178</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000234</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004206</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404003600</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>500068</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004862</GUID>
+                    <Name>orient ornament menu paving</Name>
+                    <IconFilename>data/graphics/icons/ornaments/place.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
                         <Item>
                             <Building>1404000380</Building>
                         </Item>
@@ -50,6 +166,25 @@
                         <Item>
                             <Building>1404004203</Building>
                         </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>114435</TextOverride>
+                </Text>
+                <Locked/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004863</GUID>
+                    <Name>orient ornament menu fences and walls</Name>
+                    <IconFilename>data/graphics/icons/ornaments/citywall.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
                         <Item>
                             <Building>1404004205</Building>
                         </Item>
@@ -75,46 +210,13 @@
                             <Building>1404004210</Building>
                         </Item>
                         <Item>
-                            <Building>1404004800</Building>
-                        </Item>
-                        <Item>
                             <Building>1404004801</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000381</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000586</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000587</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000178</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004204</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404000234</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004206</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404003600</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
                 </ConstructionCategory>
                 <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Harbour</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
-                    <LineID>45754</LineID>
+                    <TextOverride>501491</TextOverride>
                 </Text>
                 <Locked/>
             </Values>

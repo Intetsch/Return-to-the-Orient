@@ -1,5 +1,6 @@
 <ModOps>
 
+    <!-- Not in any menu while the palace buildings sit in the Nomads' Development group (assets_orient_construction_menu_development.xml) -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>

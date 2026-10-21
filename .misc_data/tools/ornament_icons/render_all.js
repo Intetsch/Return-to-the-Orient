@@ -13,6 +13,8 @@ const PICK = { lighthouse: 3, ruin_large: 1 };   // variation index shown on the
 const OPTS = { place: { pngDecals: true },       // place_01 paving only exists as PNG
   // the spray is the only difference to the no-spray variation
   fountain: { particles: true, look: { particleSize: 0.45, particleTint: [0.85, 0.9, 1.1] } },
+  // turned to their better side (user's picks); rotY > 0 turns clockwise seen from above
+  statue: { rotY: 90 }, tent_var03: { rotY: -90 }, tent_var04: { rotY: 90 }, tent_var05: { rotY: 180 },
   stonewall_junction_cross: { look: { el: 60 } } }; // seen from higher up, so the tall wall does not hide the low arms
 
 const args = process.argv.slice(2);
