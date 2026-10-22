@@ -78,24 +78,15 @@
 # Needs in other Worlds
 
 - OW:
-  - Artisans:
-    - (Hummus): Chickpeas + Olive Oil
-  - Engineers:
-    - Measurement Instruments: 
-  - Investors:
-    - Lokum
-  - Magnates:
-    - Oudh-Perfume
+  - Artisans: Hummus
+  - Engineers: Astrolabes
+  - Investors: Lokum
+  - Magnates: Oudh-Perfume
 - Enbesa:
-  - Elders:
-    - Spiced Tea
-  - Shepherds:
-    - (Roasted chickpeas): Chickpeas + spices + coal
+  - Elders: Spiced Tea
+  - Shepherds: Roasted chickpeas
 - NW:
-  - Artista:
-    - Incense
-  - Obrera:
-    - Candied Dates
+  - Artista: Incense
+  - Obrera: Candied Dates
 - Arctic:
-  - Technicians:
-    - (Arak): Aniseed + Grapes + Alembics
+  - Technicians: Arak

@@ -1,0 +1,40 @@
+<ModOps>
+
+    <ModOp GUID='4532' Type="addNextSibling">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005132</GUID>
+                    <Name>asset pool orient astrolabes</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404005131</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005130</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005134</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005109</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005112</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005113</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005136</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+
+    </ModOp>
+</ModOps>
