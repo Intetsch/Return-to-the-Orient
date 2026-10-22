@@ -385,6 +385,38 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005133</GUID>
+					<Name>Astrolabes Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005134</GUID>
+					<Name>Astrolabes Recipe Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
 	</ModOp>
 
 </ModOps>
