@@ -155,18 +155,18 @@
 						</Item>
 						<Item>
 							<Product>1500010153</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
 							<Product>1404005131</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>6</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>60</CycleTime>
+					<CycleTime>45</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
