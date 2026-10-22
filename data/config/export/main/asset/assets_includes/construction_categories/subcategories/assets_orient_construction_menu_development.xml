@@ -1,7 +1,7 @@
 <ModOps>
 
     <!-- debug only - remove before release: unfinished buildings in the Nomads menu (IAAM Test, completed lighthouse and Grand Mosque
-         monuments placed directly without construction, Sultan's palace) -->
+         monuments placed directly without construction, lighthouse foundation, Sultan's palace) -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -19,6 +19,9 @@
                         </Item>
                         <Item>
                             <Building>1404007002</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004800</Building>
                         </Item>
                         <Item>
                             <Building>1404000327</Building>
