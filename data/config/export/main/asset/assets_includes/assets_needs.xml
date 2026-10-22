@@ -40,15 +40,15 @@
     </ModOp>
 
     <!-- ## NEW WORLD ## -->
-    <!-- ## Artista: Lokum and Incense ## -->
+    <!-- ## Artista: Incense ## -->
     <ModOp Type="addNextSibling" GUID="5403" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='5830']">
         <Item>
             <Product>1440306</Product>
-            <Amount>0.00002</Amount>
+            <Amount>0.00003</Amount>
             <HappinessValue>6</HappinessValue>
-            <MoneyValue>85</MoneyValue>
-            <FullWeightPopulationCount>7500</FullWeightPopulationCount>
-            <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            <MoneyValue>110</MoneyValue>
+            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
