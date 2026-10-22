@@ -10,11 +10,11 @@
     <ModOp Type="addNextSibling" GUID="114330" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114362']">
         <Item>
             <Product>1400201044</Product>
-            <Amount>0.000025</Amount>
-            <HappinessValue>5</HappinessValue>
+            <Amount>0.0002</Amount>
+            <HappinessValue>3</HappinessValue>
             <MoneyValue>35</MoneyValue>
-            <FullWeightPopulationCount>2500</FullWeightPopulationCount>
-            <NoWeightPopulationCount>1299</NoWeightPopulationCount>
+            <FullWeightPopulationCount>1300</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
@@ -26,10 +26,10 @@
     <ModOp Type="addNextSibling" GUID="114329" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
         <Item>
             <Product>1400201065</Product>
-            <Amount>0.00003</Amount>
-            <HappinessValue>5</HappinessValue>
+            <Amount>0.0003</Amount>
+            <HappinessValue>6</HappinessValue>
             <MoneyValue>25</MoneyValue>
-            <FullWeightPopulationCount>500</FullWeightPopulationCount>
+            <FullWeightPopulationCount>550</FullWeightPopulationCount>
             <NoWeightPopulationCount>399</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
@@ -40,15 +40,15 @@
     </ModOp>
 
     <!-- ## NEW WORLD ## -->
-    <!-- ## Artista: Lokum and Incense ## -->
+    <!-- ## Artista: Incense ## -->
     <ModOp Type="addNextSibling" GUID="5403" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='5830']">
         <Item>
             <Product>1440306</Product>
-            <Amount>0.00002</Amount>
+            <Amount>0.00003</Amount>
             <HappinessValue>6</HappinessValue>
-            <MoneyValue>85</MoneyValue>
-            <FullWeightPopulationCount>7500</FullWeightPopulationCount>
-            <NoWeightPopulationCount>5999</NoWeightPopulationCount>
+            <MoneyValue>110</MoneyValue>
+            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
@@ -61,11 +61,11 @@
     <ModOp Type="addNextSibling" GUID="15000006" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010259']">
         <Item>
             <Product>1400201056</Product>
-            <Amount>0.000025</Amount>
-            <HappinessValue>5</HappinessValue>
+            <Amount>0.00015</Amount>
+            <HappinessValue>3</HappinessValue>
             <MoneyValue>40</MoneyValue>
-            <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-            <NoWeightPopulationCount>2499</NoWeightPopulationCount>
+            <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
@@ -79,7 +79,7 @@
     <ModOp Type="addNextSibling" GUID="112643" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120032']">
         <Item>
             <Product>1404005120</Product>
-            <Amount>0.00003</Amount>
+            <Amount>0.0003</Amount>
             <HeatValue>6</HeatValue>
             <MoneyValue>80</MoneyValue>
             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
@@ -101,10 +101,10 @@
     <ModOp Type="addNextSibling" GUID="15000004" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
         <Item>
             <Product>1400201053</Product>
-            <Amount>0.00002</Amount>
+            <Amount>0.000142</Amount>
             <HappinessValue>5</HappinessValue>
-            <MoneyValue>180</MoneyValue>
-            <FullWeightPopulationCount>6000</FullWeightPopulationCount>
+            <MoneyValue>250</MoneyValue>
+            <FullWeightPopulationCount>5500</FullWeightPopulationCount>
             <NoWeightPopulationCount>4499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
@@ -118,11 +118,11 @@
     <ModOp Type="addNextSibling" GUID="15000003" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
         <Item>
             <Product>1404005131</Product>
-            <Amount>0.000025</Amount>
+            <Amount>0.000133</Amount>
             <HappinessValue>4</HappinessValue>
-            <MoneyValue>80</MoneyValue>
-            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
-            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+            <MoneyValue>100</MoneyValue>
+            <FullWeightPopulationCount>3500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
@@ -135,9 +135,9 @@
     <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404005087</Product>
-            <Amount>0.000025</Amount>
+            <Amount>0.0000133</Amount>
             <HappinessValue>4</HappinessValue>
-            <MoneyValue>80</MoneyValue>
+            <MoneyValue>65</MoneyValue>
             <FullWeightPopulationCount>2000</FullWeightPopulationCount>
             <NoWeightPopulationCount>1499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>

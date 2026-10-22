@@ -142,12 +142,12 @@
 					<FactoryInputs>
 						<Item>
 							<Product>1957006151</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
 							<Product>1404005115</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
@@ -164,11 +164,11 @@
 					<FactoryOutputs>
 						<Item>
 							<Product>1404005059</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>90</CycleTime>
+					<CycleTime>120</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
