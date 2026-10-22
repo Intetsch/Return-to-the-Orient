@@ -10,11 +10,11 @@
     <ModOp Type="addNextSibling" GUID="114330" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114362']">
         <Item>
             <Product>1400201044</Product>
-            <Amount>0.000025</Amount>
-            <HappinessValue>5</HappinessValue>
-            <MoneyValue>40</MoneyValue>
-            <FullWeightPopulationCount>2500</FullWeightPopulationCount>
-            <NoWeightPopulationCount>1299</NoWeightPopulationCount>
+            <Amount>0.0002</Amount>
+            <HappinessValue>3</HappinessValue>
+            <MoneyValue>35</MoneyValue>
+            <FullWeightPopulationCount>1300</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
@@ -26,7 +26,7 @@
     <ModOp Type="addNextSibling" GUID="114329" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
         <Item>
             <Product>1400201065</Product>
-            <Amount>0.00003</Amount>
+            <Amount>0.0003</Amount>
             <HappinessValue>6</HappinessValue>
             <MoneyValue>25</MoneyValue>
             <FullWeightPopulationCount>550</FullWeightPopulationCount>
