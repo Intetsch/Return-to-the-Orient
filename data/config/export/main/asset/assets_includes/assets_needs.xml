@@ -114,6 +114,23 @@
         </Item>
     </ModOp>
 
+    <!-- ## Engineers: Astrolabes ## -->
+    <ModOp Type="addNextSibling" GUID="15000003" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
+        <Item>
+            <Product>1404005131</Product>
+            <Amount>0.000025</Amount>
+            <HappinessValue>4</HappinessValue>
+            <MoneyValue>80</MoneyValue>
+            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
     <!-- ## Artisans: Hummus ## -->
     <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
