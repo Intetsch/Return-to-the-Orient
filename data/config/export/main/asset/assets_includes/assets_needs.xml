@@ -101,10 +101,10 @@
     <ModOp Type="addNextSibling" GUID="15000004" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
         <Item>
             <Product>1400201053</Product>
-            <Amount>0.00002</Amount>
+            <Amount>0.000142</Amount>
             <HappinessValue>5</HappinessValue>
-            <MoneyValue>180</MoneyValue>
-            <FullWeightPopulationCount>6000</FullWeightPopulationCount>
+            <MoneyValue>250</MoneyValue>
+            <FullWeightPopulationCount>5500</FullWeightPopulationCount>
             <NoWeightPopulationCount>4499</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
