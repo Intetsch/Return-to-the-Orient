@@ -4,7 +4,7 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>0.47119140625</xf>
+			<xf>-0.47119140625</xf>
 			<yf>1.71240234375</yf>
 			<zf>0.947509765625</zf>
 		</Position>
@@ -48,7 +48,7 @@
 	<Dummy>
 		<Name>DamageImpact0</Name>
 		<Position>
-			<xf>0.633993</xf>
+			<xf>-0.633993</xf>
 			<yf>0.707043</yf>
 			<zf>0.233453</zf>
 		</Position>
@@ -68,7 +68,7 @@
 	<Dummy>
 		<Name>DamageImpact1</Name>
 		<Position>
-			<xf>-0.474278</xf>
+			<xf>0.474278</xf>
 			<yf>0.353078</yf>
 			<zf>0.840396</zf>
 		</Position>
@@ -88,7 +88,7 @@
 	<Dummy>
 		<Name>DamageImpact2</Name>
 		<Position>
-			<xf>-0.882957</xf>
+			<xf>0.882957</xf>
 			<yf>0.243896</yf>
 			<zf>-0.631452</zf>
 		</Position>
@@ -108,7 +108,7 @@
 	<Dummy>
 		<Name>DamageImpact3</Name>
 		<Position>
-			<xf>0.471309</xf>
+			<xf>-0.471309</xf>
 			<yf>0.73763</yf>
 			<zf>0.947687</zf>
 		</Position>
@@ -148,7 +148,7 @@
 	<Dummy>
 		<Name>transporter_spawn</Name>
 		<Position>
-			<xf>-1.25</xf>
+			<xf>1.25</xf>
 			<yf>0</yf>
 			<zf>1.25</zf>
 		</Position>
@@ -188,7 +188,7 @@
 	<IntersectBox>
 		<Name>Hitbox_1</Name>
 		<Position>
-			<xf>0.0341796875</xf>
+			<xf>-0.0341796875</xf>
 			<yf>0.39599609375</yf>
 			<zf>0.536865234375</zf>
 		</Position>
@@ -208,7 +208,7 @@
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
-			<xf>-0.441527</xf>
+			<xf>0.441527</xf>
 			<yf>-0.096569</yf>
 			<zf>0.123931</zf>
 		</Position>

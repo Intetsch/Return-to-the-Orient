@@ -4,7 +4,7 @@
 	<BoundingBox>
 		<Name>BoundingBox</Name>
 		<Position>
-			<xf>0.689208984375</xf>
+			<xf>-0.689208984375</xf>
 			<yf>3.34326171875</yf>
 			<zf>-0.22119140625</zf>
 		</Position>
@@ -68,7 +68,7 @@
 	<Dummy>
 		<Name>transporter_spawn</Name>
 		<Position>
-			<xf>-1.25</xf>
+			<xf>1.25</xf>
 			<yf>0</yf>
 			<zf>-1.25</zf>
 		</Position>
@@ -128,7 +128,7 @@
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>
-			<xf>0.902685</xf>
+			<xf>-0.902685</xf>
 			<yf>0.688806</yf>
 			<zf>0.084624</zf>
 		</Position>
