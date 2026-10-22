@@ -2,16 +2,14 @@
 
 	<ModOp Type="addNextSibling" GUID='135418'>
 		<Asset>
-			<Template>Multifactory</Template>
+			<Template>FactoryBuilding7</Template>
 			<Values>
 				<Standard>
 					<GUID>1404000161</GUID>
-					<Name>manufacturer_orient_03 (pearl necklaces)</Name>
+					<Name>pearl_necklace_workshop_orient</Name>
 					<IconFilename>data\modgraphics\ui\icon_pearl_necklaces.png</IconFilename>
-					<InfoDescription>132783</InfoDescription>
 				</Standard>
 				<Building>
-					<BuildingCategoryName>132773</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 				</Building>
@@ -23,7 +21,7 @@
 								<InheritedIndex>0</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>0</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -35,7 +33,7 @@
 								<InheritedIndex>1</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>1</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -48,7 +46,7 @@
 								<InheritedIndex>2</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>2</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -61,7 +59,7 @@
 								<InheritedIndex>3</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>3</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -74,7 +72,7 @@
 								<InheritedIndex>4</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>4</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -85,7 +83,7 @@
 								<InheritedIndex>5</InheritedIndex>
 								<InheritanceMapV2>
 									<Entry>
-										<TemplateName>Multifactory</TemplateName>
+										<TemplateName>FactoryBuilding7</TemplateName>
 										<Index>5</Index>
 									</Entry>
 								</InheritanceMapV2>
@@ -96,18 +94,17 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/goldsmith/s_goldsmith_pearl_necklaces.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/goldsmith/s_goldsmith_ceremonial_sabers.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
-						<DefaultSkinName>1404000321</DefaultSkinName>
+						<DefaultSkinName>1404000161</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
 					</Skins>
 				</Object>
 				<Mesh/>
 				<Selection>
-					<GUIType>Production</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
@@ -122,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Oriental Workshop: Pearl Necklaces</Text>
+							<Text>Pearl Necklace Workshop</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -211,9 +208,6 @@
 				<QuestObject/>
 				<Electrifiable/>
 				<EcoSystemProvider/>
-				<RecipeBuilding>
-					<RecipeList>1404000313</RecipeList>
-				</RecipeBuilding>
 			</Values>
 		</Asset>
 	</ModOp>

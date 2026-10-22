@@ -1,0 +1,262 @@
+<ModOps>
+
+    <!-- Oriental Lighthouse: one per island (Serpens' ConditionThreshold pattern).
+         The build-menu entry 1404004800 is unlocked while the current island has no completed lighthouse
+         (1404007002) and locked when it has one. Each construction stage is its own GUID and a threshold
+         counts only one, so stages 1-3 rely on BuildingUnique (TourismMonument, Area) instead.
+         ConditionThreshold misbehaves in odd ways: it must be the main condition, ResetTrigger does not work
+         with it (hence the 1404007022/023 pair registering each other), and the locked entry shows the
+         conditions of the lowest unlocking trigger still registered (hence the never-firing 1404007021). -->
+
+    <ModOp Type="addNextSibling" GUID="130248">
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007020</GUID>
+                    <Name>orient lighthouse unlock (Intermediate Orient 2.2)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007022</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007021</GUID>
+                    <Name>orient lighthouse unlock condition display (never fires)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>ObjectBuilt</PlayerCounter>
+                                <Context>1404007002</Context>
+                                <CounterAmount>1</CounterAmount>
+                                <ComparisonOp>LessThan</ComparisonOp>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionAlwaysFalse</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionAlwaysFalse />
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007022</GUID>
+                    <Name>orient lighthouse unlock while the current island has none</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionThreshold</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionThreshold>
+                                <DataSource>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(1404007002)]</DataSource>
+                                <LowerThreshold>0</LowerThreshold>
+                                <UpperThreshold>0</UpperThreshold>
+                                <ThresholdDuration>0</ThresholdDuration>
+                                <IsAreaSpecific>1</IsAreaSpecific>
+                            </ConditionThreshold>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007023</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007023</GUID>
+                    <Name>orient lighthouse lock while the current island has one</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionThreshold</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionThreshold>
+                                <DataSource>[AreaManager AreaObjects ObjectLists BuildingsWithGameLogicCount(1404007002)]</DataSource>
+                                <LowerThreshold>1</LowerThreshold>
+                                <UpperThreshold>10000</UpperThreshold>
+                                <ThresholdDuration>0</ThresholdDuration>
+                                <IsAreaSpecific>1</IsAreaSpecific>
+                            </ConditionThreshold>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionLockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionLockAsset>
+                                        <LockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </LockAssets>
+                                    </ActionLockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007022</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+    </ModOp>
+
+</ModOps>

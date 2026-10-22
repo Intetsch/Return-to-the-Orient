@@ -632,8 +632,8 @@
     </Text>
     <Text>
       <GUID>1404000161</GUID>
-      <!-- Multifactory | Oriental Workshop: Pearl Necklaces | Oriental Workshop: Pearl Necklaces -->
-      <Text>Taller Oriental: Collares de Perlas</Text>
+      <!-- FactoryBuilding7 | Pearl Necklace Workshop | Pearl Necklace Workshop -->
+      <Text>Taller de collares de perlas</Text>
     </Text>
     <Text>
       <GUID>1404000162</GUID>
@@ -872,8 +872,8 @@
     </Text>
     <Text>
       <GUID>1404000312</GUID>
-      <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
-      <Text>Taller Oriental: Sables Ceremoniales</Text>
+      <!-- Multifactory | Oriental Smith: Ceremonial Sabers | Oriental Smith: Ceremonial Sabers -->
+      <Text>Herrería Oriental: Sables Ceremoniales</Text>
     </Text>
     <Text>
       <GUID>1404000313</GUID>
@@ -3877,8 +3877,8 @@
     </Text>
     <Text>
       <GUID>1404004800</GUID>
-      <!-- OrnamentalBuilding | Oriental Lighthouse | Oriental Lighthouse -->
-      <Text>Faro oriental</Text>
+      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
+      <Text>Faro oriental: Cimientos</Text>
     </Text>
     <Text>
       <GUID>1404004801</GUID>
@@ -3899,6 +3899,11 @@
       <GUID>1404004852</GUID>
       <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
       <Text>Unión de muro oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404004890</GUID>
+      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
+      <Text>La Gran Mezquita se construye en varias fases. Una vez terminada, recibe a peregrinos de todos los rincones del sultanato. Organiza grandes peregrinajes y los fieles te otorgarán influencia en la corte del sultán.</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -4347,8 +4352,8 @@
     </Text>
     <Text>
       <GUID>1404005113</GUID>
-      <!-- Multifactory | Oriental Workshop: Alembics | Oriental Workshop: Alembics -->
-      <Text>Taller Oriental: Alambiques</Text>
+      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
+      <Text>Herrería Oriental: Alambiques</Text>
     </Text>
     <Text>
       <GUID>1404005115</GUID>
@@ -4399,6 +4404,76 @@
       <GUID>1404005129</GUID>
       <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
       <Text>Café sencillo, tostado a fuego vivo. Nada especial, aunque sea una especialidad oriental.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005130</GUID>
+      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
+      <Text>Taller Oriental: Astrolabios</Text>
+    </Text>
+    <Text>
+      <GUID>1404005131</GUID>
+      <!-- Product | astrolabes | Astrolabes -->
+      <Text>Astrolabios</Text>
+    </Text>
+    <Text>
+      <GUID>1404005133</GUID>
+      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
+      <Text>Un preciso instrumento de medición oriental que se usa para seguir las estrellas.</Text>
+    </Text>
+    <Text>
+      <GUID>1404005135</GUID>
+      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
+      <Text>El astrolabio es una obra maestra de la artesanía oriental: permite seguir las estrellas, medir el tiempo con exactitud y determinar con precisión la posición astronómica, incluso de día.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007000</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
+      <Text>Faro oriental: Torre</Text>
+    </Text>
+    <Text>
+      <GUID>1404007001</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
+      <Text>Faro oriental: Sala de la linterna</Text>
+    </Text>
+    <Text>
+      <GUID>1404007002</GUID>
+      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>Faro oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404007003</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
+      <Text>Faro ornamental</Text>
+    </Text>
+    <Text>
+      <GUID>1404007010</GUID>
+      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
+      <Text>Donde las dunas se encuentran con el mar, los albañiles colocan unos amplios cimientos de adobe y madera de palmera. Algún día arderá aquí un fuego que guiará cada vela sana y salva de vuelta a casa.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007011</GUID>
+      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
+      <Text>Hilada a hilada, la torre se eleva sobre el puerto, revestida de mosaicos que atrapan el sol de la mañana. Desde su galería, los vigías ya pueden contar las velas en el horizonte.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007012</GUID>
+      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
+      <Text>Los vidrieros colocan los cristales de la sala de la linterna y la gran lámpara de araña se iza hasta lo más alto. Pronto su luz llegará lejos sobre las aguas.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007013</GUID>
+      <!-- Text | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. -->
+      <Text>Coloca cualquier objeto de barco o de dirigible en el faro. Sus efectos se aplican a todos tus barcos y dirigibles en todas las regiones. Las habilidades especiales, las banderas y la munición especial no se transfieren. Solo se puede construir un faro por isla.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008000</GUID>
+      <!-- Multifactory | Oriental Smith | Oriental Smith -->
+      <Text>Herrería Oriental</Text>
+    </Text>
+    <Text>
+      <GUID>1404008001</GUID>
+      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
+      <Text>Lista de patentes de herrería oriental</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

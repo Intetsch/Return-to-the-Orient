@@ -1,0 +1,153 @@
+<ModOps>
+
+	<!-- creative copy of the Oriental Lighthouse: completed model first, then the construction stages, like the Grand Mosque's 1404004400 -->
+	<ModOp Type="addNextSibling" GUID='1404007002'>
+		<Asset>
+			<Template>OrnamentalBuildingRuin</Template>
+			<Values>
+				<Standard>
+					<GUID>1404007003</GUID>
+					<Name>CreativeMode_Ornament_Orient_Lighthouse</Name>
+					<IconFilename>data/graphics/icons/ornaments/lighthouse.png</IconFilename>
+					<InfoDescription>10291</InfoDescription>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Ornamental Lighthouse</Text>
+						</English>
+					</LocaText>
+				</Text>
+				<Blocking>
+					<GroundDecalAsset>132528</GroundDecalAsset>
+					<GroundDecalInvisible>132529</GroundDecalInvisible>
+					<BlockWater>1</BlockWater>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
+				<Building>
+					<BuildingCategoryName>15314</BuildingCategoryName>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<TerrainType>Water_Including_Coast</TerrainType>
+					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<BuildModeStartVariation>0</BuildModeStartVariation>
+					<IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+					<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/lighthouse_var01.png</IconFilename>
+						</Item>
+					</VariationIcons>
+				</Building>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+						</Item>
+					</Costs>
+				</Cost>
+				<Selection>
+					<OnSelection>
+						<Values>
+							<ActionList />
+						</Values>
+						<Template>Actions</Template>
+					</OnSelection>
+				</Selection>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe04/leuchtturm04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe03/leuchtturm03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe02/leuchtturm02.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/lighthouse/iaam/orient/005kustengebaude/leuchtturm/stufe01/leuchtturm01.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Constructable />
+				<Mesh>
+					<SkyDayListener>1</SkyDayListener>
+				</Mesh>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<SelectionSounds>
+						<Item>
+							<Sound>9818389</Sound>
+						</Item>
+					</SelectionSounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+						<BuildUpgrade>
+							<Item>
+								<Sound>9818760</Sound>
+							</Item>
+						</BuildUpgrade>
+					</ConstructionSounds>
+					<ProductionSounds>
+						<UI>
+							<Item>
+								<Sound>9818752</Sound>
+							</Item>
+						</UI>
+					</ProductionSounds>
+				</SoundEmitter>
+				<Locked />
+				<FeedbackController />
+				<Ornament />
+				<AmbientMoodProvider>
+					<Murmur>None</Murmur>
+				</AmbientMoodProvider>
+				<Pausable />
+				<Infolayer />
+				<Culture>
+					<Attractiveness>500</Attractiveness>
+				</Culture>
+				<Attackable />
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

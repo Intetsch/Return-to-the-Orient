@@ -21,8 +21,7 @@ v0.6.0
         - Unlock triggers in the Orient
         - Factory Maintenances
         - Factory Building Costs
-    Models for:
-        - Oriental Manufacturer: Astrolabes
+- Fix auto trigger reset to not continuously fire
 
 v0.6.1
 - Reorder needs based on skyscraper levels and rebalance
@@ -31,7 +30,10 @@ v0.6.1
 
 v0.7.0
 - Light house monument
-- Replace mud bricks with Rammed Earth (Stampflehm)
+    Item boost should only apply to the type of the item target type like sail ship or warship
+- Construction material rework
+    Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
+    Palm lumber jack needs irrigation
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 
 Before v1.0.0

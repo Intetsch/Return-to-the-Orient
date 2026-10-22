@@ -632,8 +632,8 @@
     </Text>
     <Text>
       <GUID>1404000161</GUID>
-      <!-- Multifactory | Oriental Workshop: Pearl Necklaces | Oriental Workshop: Pearl Necklaces -->
-      <Text>東方工坊：珍珠項鍊</Text>
+      <!-- FactoryBuilding7 | Pearl Necklace Workshop | Pearl Necklace Workshop -->
+      <Text>珍珠項鍊工坊</Text>
     </Text>
     <Text>
       <GUID>1404000162</GUID>
@@ -872,8 +872,8 @@
     </Text>
     <Text>
       <GUID>1404000312</GUID>
-      <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
-      <Text>東方工坊：禮儀軍刀</Text>
+      <!-- Multifactory | Oriental Smith: Ceremonial Sabers | Oriental Smith: Ceremonial Sabers -->
+      <Text>東方鐵匠鋪：禮儀軍刀</Text>
     </Text>
     <Text>
       <GUID>1404000313</GUID>
@@ -5707,8 +5707,8 @@
     </Text>
     <Text>
       <GUID>1404004800</GUID>
-      <!-- OrnamentalBuilding | Oriental Lighthouse | Oriental Lighthouse -->
-      <Text>東方燈塔</Text>
+      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
+      <Text>東方燈塔：地基</Text>
     </Text>
     <Text>
       <GUID>1404004801</GUID>
@@ -5729,6 +5729,11 @@
       <GUID>1404004852</GUID>
       <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
       <Text>東方牆體連接件</Text>
+    </Text>
+    <Text>
+      <GUID>1404004890</GUID>
+      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
+      <Text>大清真寺分成數個階段建造。建成後，來自蘇丹國各地的朝聖者將紛至沓來。舉辦盛大的朝聖活動，信眾會助你在蘇丹宮廷中贏得影響力。</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -6172,8 +6177,8 @@
     </Text>
     <Text>
       <GUID>1404005113</GUID>
-      <!-- Multifactory | Oriental Workshop: Alembics | Oriental Workshop: Alembics -->
-      <Text>東方工坊：蒸餾器</Text>
+      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
+      <Text>東方鐵匠鋪：蒸餾器</Text>
     </Text>
     <Text>
       <GUID>1404005115</GUID>
@@ -6224,6 +6229,76 @@
       <GUID>1404005129</GUID>
       <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
       <Text>簡單的高溫烘焙咖啡。沒什麼特別，但也算是一種東方特產。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005130</GUID>
+      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
+      <Text>東方工坊：星盤</Text>
+    </Text>
+    <Text>
+      <GUID>1404005131</GUID>
+      <!-- Product | astrolabes | Astrolabes -->
+      <Text>星盤</Text>
+    </Text>
+    <Text>
+      <GUID>1404005133</GUID>
+      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
+      <Text>一種精密的東方測量儀器，用於追蹤星辰。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005135</GUID>
+      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
+      <Text>星盤是東方工藝的傑作：它能追蹤星辰、精確計時，即使在白天也能準確測定天文位置。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007000</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
+      <Text>東方燈塔：塔身</Text>
+    </Text>
+    <Text>
+      <GUID>1404007001</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
+      <Text>東方燈塔：燈室</Text>
+    </Text>
+    <Text>
+      <GUID>1404007002</GUID>
+      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>東方燈塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404007003</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
+      <Text>裝飾燈塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404007010</GUID>
+      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
+      <Text>在沙丘與大海相接之處，石匠們用泥磚和棕櫚木鋪下寬闊的地基。終有一天，這裡將燃起一團火光，引領每一片風帆平安歸航。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007011</GUID>
+      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
+      <Text>塔身一層層高出港口，外牆飾以馬賽克，映照著清晨的陽光。哨兵們站在迴廊上，已能數清地平線上的帆影。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007012</GUID>
+      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
+      <Text>玻璃匠為燈室裝上窗玻璃，巨大的吊燈被吊上塔頂。不久，它的光芒將遠照海面。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007013</GUID>
+      <!-- Text | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. -->
+      <Text>在燈塔中放入任意船隻或飛船物品。其效果將作用於你在所有區域的全部船隻和飛船。特殊能力、旗幟和特殊彈藥不會被傳遞。每座島嶼只能建造一座燈塔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008000</GUID>
+      <!-- Multifactory | Oriental Smith | Oriental Smith -->
+      <Text>東方鐵匠鋪</Text>
+    </Text>
+    <Text>
+      <GUID>1404008001</GUID>
+      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
+      <Text>東方鐵匠鋪專利清單</Text>
     </Text>
   </ModOp>
 </ModOps>

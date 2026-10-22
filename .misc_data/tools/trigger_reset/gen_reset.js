@@ -76,14 +76,23 @@ function subTrigger(base, conditionLines) {
   ]);
 }
 
-const sessionEnter = [
-  `<Template>ConditionEvent</Template>`,
+const NORIA = '1404000212';
+
+const negatable = (negate) => negate
+  ? [`    <ConditionPropsNegatable>`, `        <NegateCondition>1</NegateCondition>`, `    </ConditionPropsNegatable>`]
+  : [`    <ConditionPropsNegatable />`];
+
+// A state, not an event: true for as long as a noria is selected
+const noriaSelected = (negate) => [
+  `<Template>ConditionObjectSelected</Template>`,
   `<Values>`,
   `    <Condition />`,
-  `    <ConditionEvent>`,
-  `        <ConditionEvent>SessionEnter</ConditionEvent>`,
-  `    </ConditionEvent>`,
-  `    <ConditionPropsNegatable />`,
+  `    <ConditionObjectSelected />`,
+  `    <ConditionPropsSessionSettings />`,
+  `    <ObjectFilter>`,
+  `        <ObjectGUID>${NORIA}</ObjectGUID>`,
+  `    </ObjectFilter>`,
+  ...negatable(negate),
   `</Values>`,
 ];
 
@@ -92,9 +101,7 @@ const creativeMode = (negate) => [
   `<Values>`,
   `    <Condition />`,
   `    <ConditionIsCreativeMode />`,
-  ...(negate
-    ? [`    <ConditionPropsNegatable>`, `        <NegateCondition>1</NegateCondition>`, `    </ConditionPropsNegatable>`]
-    : [`    <ConditionPropsNegatable />`]),
+  ...negatable(negate),
   `</Values>`,
 ];
 
@@ -110,14 +117,7 @@ function trigger(guid, name, subs, actions) {
       `        </Standard>`,
       `        <Trigger>`,
       `            <TriggerCondition>`,
-      `                <Template>ConditionActiveSession</Template>`,
-      `                <Values>`,
-      `                    <Condition />`,
-      `                    <ConditionActiveSession>`,
-      `                        <ActiveSession>1404000000</ActiveSession>`,
-      `                    </ConditionActiveSession>`,
-      `                    <ConditionPropsNegatable />`,
-      `                </Values>`,
+      ...noriaSelected(false).map((l) => '                ' + l),
       `            </TriggerCondition>`,
       `            <SubTriggers>`,
     ]),
@@ -128,20 +128,17 @@ function trigger(guid, name, subs, actions) {
     ]),
     actions,
     block(8, [
-      `                <Item>`,
-      `                    <TriggerAction>`,
-      `                        <Template>ActionResetTrigger</Template>`,
-      `                        <Values>`,
-      `                            <Action />`,
-      `                            <ActionResetTrigger />`,
-      `                        </Values>`,
-      `                    </TriggerAction>`,
-      `                </Item>`,
       `            </TriggerActions>`,
+      // Re-arms once the noria is deselected (like vanilla 112094). An ActionResetTrigger would
+      // re-arm at once and fire again and again while the noria stays selected.
       `            <ResetTrigger>`,
-      `                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>`,
+      `                <Template>AutoCreateTrigger</Template>`,
       `                <Values>`,
-      `                    <EmptyAutoCreateValue />`,
+      `                    <Trigger>`,
+      `                        <TriggerCondition>`,
+      ...noriaSelected(true).map((l) => '                            ' + l),
+      `                        </TriggerCondition>`,
+      `                    </Trigger>`,
       `                </Values>`,
       `            </ResetTrigger>`,
       `        </Trigger>`,
@@ -157,24 +154,69 @@ function trigger(guid, name, subs, actions) {
 const normalSteps = tiers.map(([g, l], i) => step(g, `Intermediate Orient ${l}`, (i + 1) * STEP, 24)).join('\n');
 const creativeSteps = step('1404000791', 'InitCreativeMode-Orient', STEP, 24);
 
+// Saves keep their own copy of a pending trigger. Re-registering 1404004000/4001 once replaces
+// the session-enter copies in older saves with the current noria-selected version.
+const upgrade = block(8, [
+  `<Asset>`,
+  `    <Template>Trigger</Template>`,
+  `    <Values>`,
+  `        <Standard>`,
+  `            <GUID>1404004002</GUID>`,
+  `            <Name>Orient trigger reset upgrade to noria selection</Name>`,
+  `        </Standard>`,
+  `        <Trigger>`,
+  `            <TriggerCondition>`,
+  `                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>`,
+  `                <Values>`,
+  `                    <Condition />`,
+  `                    <ConditionAlwaysTrue />`,
+  `                </Values>`,
+  `            </TriggerCondition>`,
+  `            <TriggerActions>`,
+  ...['1404004000', '1404004001'].flatMap((g) => [
+    `                <Item>`,
+    `                    <TriggerAction>`,
+    `                        <Template>ActionRegisterTrigger</Template>`,
+    `                        <Values>`,
+    `                            <Action />`,
+    `                            <ActionRegisterTrigger>`,
+    `                                <TriggerAsset>${g}</TriggerAsset>`,
+    `                            </ActionRegisterTrigger>`,
+    `                        </Values>`,
+    `                    </TriggerAction>`,
+    `                </Item>`,
+  ]),
+  `            </TriggerActions>`,
+  `        </Trigger>`,
+  `        <TriggerSetup>`,
+  `            <UsedBySecondParties>0</UsedBySecondParties>`,
+  `        </TriggerSetup>`,
+  `    </Values>`,
+  `</Asset>`,
+]);
+
 const out = [
   `<ModOps>`,
   ``,
-  `    <!-- Re-runs the Orient unlock triggers every time the player enters the Orient session.`,
+  `    <!-- Re-runs the Orient unlock triggers every time the player selects a noria.`,
   `         A fired trigger is gone from the savegame, and it expanded its pools when it fired.`,
   `         Buildings that a later update adds to such a pool therefore stay locked in older saves.`,
   `         ActionRegisterTrigger registers a fired trigger again (or re-creates a pending one), so it fires`,
   `         again with the current pool contents as soon as its population condition is met.`,
   ``,
   `         The triggers run one after another in tier order, ${STEP} ms apart, like normal progression.`,
+  `         The reset re-arms when the noria is deselected, so select it again for the next run.`,
   `         Add new progression triggers here too. -->`,
   `    <ModOp Type="addNextSibling" GUID="10138">`,
   ``,
   `        <!-- Normal games: re-run all progression triggers in tier order -->`,
-  trigger('1404004000', 'Orient trigger reset on session enter', [subTrigger(24, sessionEnter), subTrigger(24, creativeMode(true))].join('\n'), normalSteps),
+  trigger('1404004000', 'Orient trigger reset on noria selected', subTrigger(24, creativeMode(true)), normalSteps),
   ``,
   `        <!-- Creative games: the creative trigger unlocks everything, so re-running it is enough -->`,
-  trigger('1404004001', 'Orient creative trigger reset on session enter', [subTrigger(24, sessionEnter), subTrigger(24, creativeMode(false))].join('\n'), creativeSteps),
+  trigger('1404004001', 'Orient creative trigger reset on noria selected', subTrigger(24, creativeMode(false)), creativeSteps),
+  ``,
+  `        <!-- Older saves: swap in the noria-selected version of both resets -->`,
+  upgrade,
   ``,
   `    </ModOp>`,
   ``,

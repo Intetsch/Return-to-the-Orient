@@ -632,8 +632,8 @@
     </Text>
     <Text>
       <GUID>1404000161</GUID>
-      <!-- Multifactory | Oriental Workshop: Pearl Necklaces | Oriental Workshop: Pearl Necklaces -->
-      <Text>オリエンタルワークショップ：パールネックレス</Text>
+      <!-- FactoryBuilding7 | Pearl Necklace Workshop | Pearl Necklace Workshop -->
+      <Text>真珠のネックレス工房</Text>
     </Text>
     <Text>
       <GUID>1404000162</GUID>
@@ -872,8 +872,8 @@
     </Text>
     <Text>
       <GUID>1404000312</GUID>
-      <!-- Multifactory | Oriental Workshop: Ceremonial Sabers | Oriental Workshop: Ceremonial Sabers -->
-      <Text>オリエンタルワークショップ：儀式用サーベル</Text>
+      <!-- Multifactory | Oriental Smith: Ceremonial Sabers | Oriental Smith: Ceremonial Sabers -->
+      <Text>オリエンタル鍛冶場：儀式用サーベル</Text>
     </Text>
     <Text>
       <GUID>1404000313</GUID>
@@ -3877,8 +3877,8 @@
     </Text>
     <Text>
       <GUID>1404004800</GUID>
-      <!-- OrnamentalBuilding | Oriental Lighthouse | Oriental Lighthouse -->
-      <Text>東洋の灯台</Text>
+      <!-- MonumentColony | Oriental Lighthouse: Foundations | Oriental Lighthouse: Foundations -->
+      <Text>東洋の灯台: 基礎</Text>
     </Text>
     <Text>
       <GUID>1404004801</GUID>
@@ -3899,6 +3899,11 @@
       <GUID>1404004852</GUID>
       <!-- OrnamentalBuilding | Oriental Wall Junction | Oriental Wall Junction -->
       <Text>オリエントの壁の接合部</Text>
+    </Text>
+    <Text>
+      <GUID>1404004890</GUID>
+      <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
+      <Text>グランド モスクは複数の段階に分けて建設される。完成すれば、スルタン国の隅々から巡礼者が訪れるようになる。盛大な巡礼を催せば、信徒たちがスルタンの宮廷における影響力をもたらしてくれるだろう。</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -4347,8 +4352,8 @@
     </Text>
     <Text>
       <GUID>1404005113</GUID>
-      <!-- Multifactory | Oriental Workshop: Alembics | Oriental Workshop: Alembics -->
-      <Text>オリエンタルワークショップ：アランビック</Text>
+      <!-- Multifactory | Oriental Smith: Alembics | Oriental Smith: Alembics -->
+      <Text>オリエンタル鍛冶場：アランビック</Text>
     </Text>
     <Text>
       <GUID>1404005115</GUID>
@@ -4399,6 +4404,76 @@
       <GUID>1404005129</GUID>
       <!-- Text | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. | Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same. -->
       <Text>高温で焙煎しただけのシンプルなコーヒー。特別なものではありませんが、東洋の名物ではあります。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005130</GUID>
+      <!-- Multifactory | Oriental Workshop: Astrolabes | Oriental Workshop: Astrolabes -->
+      <Text>オリエンタルワークショップ：アストロラーベ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005131</GUID>
+      <!-- Product | astrolabes | Astrolabes -->
+      <Text>アストロラーベ</Text>
+    </Text>
+    <Text>
+      <GUID>1404005133</GUID>
+      <!-- Text | A precise oriental measuring instrument used to track the stars. | A precise oriental measuring instrument used to track the stars. -->
+      <Text>星の観測に使われる、精密な東洋の測定器です。</Text>
+    </Text>
+    <Text>
+      <GUID>1404005135</GUID>
+      <!-- Text | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. | The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day. -->
+      <Text>アストロラーベは東洋の職人技の傑作です。星の動きを追い、時刻を正確に測り、昼間でも天体の位置を正確に割り出すことができます。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007000</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Tower | Oriental Lighthouse: Tower -->
+      <Text>東洋の灯台: 塔</Text>
+    </Text>
+    <Text>
+      <GUID>1404007001</GUID>
+      <!-- MonumentColony | Oriental Lighthouse: Lantern Room | Oriental Lighthouse: Lantern Room -->
+      <Text>東洋の灯台: 灯室</Text>
+    </Text>
+    <Text>
+      <GUID>1404007002</GUID>
+      <!-- HarborOffice | Oriental Lighthouse | Oriental Lighthouse -->
+      <Text>東洋の灯台</Text>
+    </Text>
+    <Text>
+      <GUID>1404007003</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Lighthouse | Ornamental Lighthouse -->
+      <Text>灯台（装飾）</Text>
+    </Text>
+    <Text>
+      <GUID>1404007010</GUID>
+      <!-- Text | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. | Where the dunes meet the sea, masons lay a broad foundation of mud brick and palm timber. One day a fire will burn here that guides every sail safely home. -->
+      <Text>砂丘が海と出会う場所で、石工たちが日干しレンガとヤシ材で広い基礎を築いていく。いつの日か、ここに灯る火がすべての帆を無事に故郷へと導くだろう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007011</GUID>
+      <!-- Text | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. | Course by course the tower climbs above the harbour, clad in mosaics that catch the morning sun. From its gallery the watchmen can already count the sails on the horizon. -->
+      <Text>一段、また一段と塔は港の上へと伸び、朝日を受けて輝くモザイクで飾られていく。回廊からは、見張りたちがすでに水平線の帆を数えられる。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007012</GUID>
+      <!-- Text | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. | Glaziers fit the panes of the lantern room, and the great chandelier is hoisted to the top. Soon its light will reach far across the water. -->
+      <Text>ガラス職人が灯室に窓ガラスをはめ込み、大きなシャンデリアが頂上へと吊り上げられる。まもなく、その光は遠く海の彼方まで届くだろう。</Text>
+    </Text>
+    <Text>
+      <GUID>1404007013</GUID>
+      <!-- Text | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. -->
+      <Text>灯台に船または飛行船のアイテムを1つセットできます。その効果は、すべての地域にあるあなたのすべての船と飛行船に適用されます。特殊能力、旗、特殊弾薬は引き継がれません。灯台は1つの島に1つしか建設できません。</Text>
+    </Text>
+    <Text>
+      <GUID>1404008000</GUID>
+      <!-- Multifactory | Oriental Smith | Oriental Smith -->
+      <Text>オリエンタル鍛冶場</Text>
+    </Text>
+    <Text>
+      <GUID>1404008001</GUID>
+      <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
+      <Text>東洋の鍛冶場の特許リスト</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>

@@ -1,12 +1,13 @@
 <ModOps>
 
-    <!-- Re-runs the Orient unlock triggers every time the player enters the Orient session.
+    <!-- Re-runs the Orient unlock triggers every time the player selects a noria.
          A fired trigger is gone from the savegame, and it expanded its pools when it fired.
          Buildings that a later update adds to such a pool therefore stay locked in older saves.
          ActionRegisterTrigger registers a fired trigger again (or re-creates a pending one), so it fires
          again with the current pool contents as soon as its population condition is met.
 
          The triggers run one after another in tier order, 1000 ms apart, like normal progression.
+         The reset re-arms when the noria is deselected, so select it again for the next run.
          Add new progression triggers here too. -->
     <ModOp Type="addNextSibling" GUID="10138">
 
@@ -16,39 +17,22 @@
             <Values>
                 <Standard>
                     <GUID>1404004000</GUID>
-                    <Name>Orient trigger reset on session enter</Name>
+                    <Name>Orient trigger reset on noria selected</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
-                        <Template>ConditionActiveSession</Template>
+                        <Template>ConditionObjectSelected</Template>
                         <Values>
                             <Condition />
-                            <ConditionActiveSession>
-                                <ActiveSession>1404000000</ActiveSession>
-                            </ConditionActiveSession>
+                            <ConditionObjectSelected />
+                            <ConditionPropsSessionSettings />
+                            <ObjectFilter>
+                                <ObjectGUID>1404000212</ObjectGUID>
+                            </ObjectFilter>
                             <ConditionPropsNegatable />
                         </Values>
                     </TriggerCondition>
                     <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionEvent</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionEvent>
-                                                    <ConditionEvent>SessionEnter</ConditionEvent>
-                                                </ConditionEvent>
-                                                <ConditionPropsNegatable />
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
                         <Item>
                             <SubTrigger>
                                 <Template>AutoCreateTrigger</Template>
@@ -1542,20 +1526,26 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
-                        <Item>
-                            <TriggerAction>
-                                <Template>ActionResetTrigger</Template>
-                                <Values>
-                                    <Action />
-                                    <ActionResetTrigger />
-                                </Values>
-                            </TriggerAction>
-                        </Item>
                     </TriggerActions>
                     <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Template>AutoCreateTrigger</Template>
                         <Values>
-                            <EmptyAutoCreateValue />
+                            <Trigger>
+                                <TriggerCondition>
+                                    <Template>ConditionObjectSelected</Template>
+                                    <Values>
+                                        <Condition />
+                                        <ConditionObjectSelected />
+                                        <ConditionPropsSessionSettings />
+                                        <ObjectFilter>
+                                            <ObjectGUID>1404000212</ObjectGUID>
+                                        </ObjectFilter>
+                                        <ConditionPropsNegatable>
+                                            <NegateCondition>1</NegateCondition>
+                                        </ConditionPropsNegatable>
+                                    </Values>
+                                </TriggerCondition>
+                            </Trigger>
                         </Values>
                     </ResetTrigger>
                 </Trigger>
@@ -1571,39 +1561,22 @@
             <Values>
                 <Standard>
                     <GUID>1404004001</GUID>
-                    <Name>Orient creative trigger reset on session enter</Name>
+                    <Name>Orient creative trigger reset on noria selected</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
-                        <Template>ConditionActiveSession</Template>
+                        <Template>ConditionObjectSelected</Template>
                         <Values>
                             <Condition />
-                            <ConditionActiveSession>
-                                <ActiveSession>1404000000</ActiveSession>
-                            </ConditionActiveSession>
+                            <ConditionObjectSelected />
+                            <ConditionPropsSessionSettings />
+                            <ObjectFilter>
+                                <ObjectGUID>1404000212</ObjectGUID>
+                            </ObjectFilter>
                             <ConditionPropsNegatable />
                         </Values>
                     </TriggerCondition>
                     <SubTriggers>
-                        <Item>
-                            <SubTrigger>
-                                <Template>AutoCreateTrigger</Template>
-                                <Values>
-                                    <Trigger>
-                                        <TriggerCondition>
-                                            <Template>ConditionEvent</Template>
-                                            <Values>
-                                                <Condition />
-                                                <ConditionEvent>
-                                                    <ConditionEvent>SessionEnter</ConditionEvent>
-                                                </ConditionEvent>
-                                                <ConditionPropsNegatable />
-                                            </Values>
-                                        </TriggerCondition>
-                                    </Trigger>
-                                </Values>
-                            </SubTrigger>
-                        </Item>
                         <Item>
                             <SubTrigger>
                                 <Template>AutoCreateTrigger</Template>
@@ -1655,22 +1628,75 @@
                                 </Values>
                             </TriggerAction>
                         </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <Template>AutoCreateTrigger</Template>
+                        <Values>
+                            <Trigger>
+                                <TriggerCondition>
+                                    <Template>ConditionObjectSelected</Template>
+                                    <Values>
+                                        <Condition />
+                                        <ConditionObjectSelected />
+                                        <ConditionPropsSessionSettings />
+                                        <ObjectFilter>
+                                            <ObjectGUID>1404000212</ObjectGUID>
+                                        </ObjectFilter>
+                                        <ConditionPropsNegatable>
+                                            <NegateCondition>1</NegateCondition>
+                                        </ConditionPropsNegatable>
+                                    </Values>
+                                </TriggerCondition>
+                            </Trigger>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <!-- Older saves: swap in the noria-selected version of both resets -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004002</GUID>
+                    <Name>Orient trigger reset upgrade to noria selection</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
                         <Item>
                             <TriggerAction>
-                                <Template>ActionResetTrigger</Template>
+                                <Template>ActionRegisterTrigger</Template>
                                 <Values>
                                     <Action />
-                                    <ActionResetTrigger />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404004000</TriggerAsset>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404004001</TriggerAsset>
+                                    </ActionRegisterTrigger>
                                 </Values>
                             </TriggerAction>
                         </Item>
                     </TriggerActions>
-                    <ResetTrigger>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-                        <Values>
-                            <EmptyAutoCreateValue />
-                        </Values>
-                    </ResetTrigger>
                 </Trigger>
                 <TriggerSetup>
                     <UsedBySecondParties>0</UsedBySecondParties>
