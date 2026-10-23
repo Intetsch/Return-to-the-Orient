@@ -371,7 +371,7 @@
         <!-- Export goods for other regions' needs -->
 
 
-        <!-- Export: Spiced Tea for 1300 Elders, need in assets_needs.xml -->
+        <!-- Export: Spiced Tea for 1000 Elders, need in assets_needs.xml -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -404,7 +404,7 @@
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>PopulationByLevel</PlayerCounter>
                                                     <Context>114330</Context>
-                                                    <CounterAmount>1300</CounterAmount>
+                                                    <CounterAmount>1000</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
                                         </TriggerCondition>

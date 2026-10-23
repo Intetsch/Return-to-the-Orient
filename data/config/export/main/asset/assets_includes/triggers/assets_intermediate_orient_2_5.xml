@@ -239,7 +239,7 @@
         <!-- Export goods for other regions' needs -->
 
 
-        <!-- Export: Incense for 6000 Artistas, need in assets_needs.xml -->
+        <!-- Export: Incense for 4000 Artistas, need in assets_needs.xml -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -272,7 +272,7 @@
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>PopulationByLevel</PlayerCounter>
                                                     <Context>5403</Context>
-                                                    <CounterAmount>6000</CounterAmount>
+                                                    <CounterAmount>4000</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
                                         </TriggerCondition>

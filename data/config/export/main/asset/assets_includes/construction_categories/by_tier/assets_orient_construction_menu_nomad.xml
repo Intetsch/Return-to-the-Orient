@@ -56,11 +56,11 @@
                         <Item>
                             <Building>1404000172</Building>
                         </Item>
-                        <!-- debug only - remove before release: Development group (IAAM Test, lighthouse, Sultan's palace) -->
+                        <!-- hidden for this release: Development group (IAAM Test, lighthouse, Sultan's palace)
                         <Item>
                             <Building>1404004865</Building>
                             <IgnoreUnlockStateForCategoryVisibility>1</IgnoreUnlockStateForCategoryVisibility>
-                        </Item>
+                        </Item> -->
                     </BuildingList>
                 </ConstructionCategory>
                 <Text>

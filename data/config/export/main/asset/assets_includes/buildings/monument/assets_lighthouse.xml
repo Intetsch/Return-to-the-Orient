@@ -3,8 +3,9 @@
 	<!-- Oriental Lighthouse monument: IAAM's lighthouse models (buildings/orient/lighthouse) as construction stages.
 	     Stage 1 Nomad goods, stage 2 Envoy goods, stage 3 late Envoy goods, then the completed lighthouse
 	     (HarborOffice template, like vanilla's tourist monument turning into a TowerRestaurant) with one socket for
-	     any ship or airship item; assets_lighthouse_beacons.xml applies the socketed item to all ships.
-	     One per island: BuildingUnique on the stages, triggers/assets_lighthouse_unique.xml for the completed one.
+	     the mod's beacon items (allocation Mod14); assets_lighthouse_beacons.xml buffs the beacon's ship type everywhere.
+	     One per island: BuildingUnique TourismMonument (Area) on every stage and the completed one (mod template
+	     HarborOffice_Unique); the island-threshold triggers that did this before looped and are retired.
 	     Harbour placement like the harbour tower 1404004801: Water_Including_Coast, Orient (New World) quay, QuayArea over the
 	     whole BuildBlocker in the stage .ifo files, terrain-height adaption off in the cfgs. -->
 
@@ -109,9 +110,9 @@
 					<MonumentFluff>1404007010</MonumentFluff>
 					<MonumentHeadline>1404007002</MonumentHeadline>
 					<BackgroundImage>
-						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_00.png</Blueprint>
-						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_01.png</PhasePlanned>
-						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_01_coloured.png</PhaseFinished>
+						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_00.png</Blueprint>
+						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_01.png</PhasePlanned>
+						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_01_coloured.png</PhaseFinished>
 					</BackgroundImage>
 					<ProgressbarHeight>50</ProgressbarHeight>
 				</Monument>
@@ -251,9 +252,9 @@
 					<MonumentFluff>1404007011</MonumentFluff>
 					<MonumentHeadline>1404007002</MonumentHeadline>
 					<BackgroundImage>
-						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_00.png</Blueprint>
-						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_02.png</PhasePlanned>
-						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_02_coloured.png</PhaseFinished>
+						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_00.png</Blueprint>
+						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_02.png</PhasePlanned>
+						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_02_coloured.png</PhaseFinished>
 					</BackgroundImage>
 					<ProgressbarHeight>65</ProgressbarHeight>
 				</Monument>
@@ -393,9 +394,9 @@
 					<MonumentFluff>1404007012</MonumentFluff>
 					<MonumentHeadline>1404007002</MonumentHeadline>
 					<BackgroundImage>
-						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_00.png</Blueprint>
-						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_02.png</PhasePlanned>
-						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/tower/monument_tower_02_coloured.png</PhaseFinished>
+						<Blueprint>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_00.png</Blueprint>
+						<PhasePlanned>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_03.png</PhasePlanned>
+						<PhaseFinished>data/ui/2kimages/main/assets16/monument_construction/orient_lighthouse/monument_orient_lighthouse_03_coloured.png</PhaseFinished>
 					</BackgroundImage>
 					<ProgressbarHeight>70</ProgressbarHeight>
 				</Monument>
@@ -439,10 +440,11 @@
 		</Asset>
 	</ModOp>
 
-	<!-- completed: HarborOffice for its ItemContainer + Culture (item sets); the socketed item itself affects nothing here -->
+	<!-- completed: HarborOffice for its ItemContainer + Culture (item sets); the socketed item itself affects nothing here.
+	     Mod template HarborOffice_Unique adds BuildingUnique, so it stays the island's TourismMonument like the stages. -->
 	<ModOp Type="addNextSibling" GUID='1404007001'>
 		<Asset>
-			<Template>HarborOffice</Template>
+			<Template>HarborOffice_Unique</Template>
 			<Values>
 				<Standard>
 					<GUID>1404007002</GUID>
@@ -484,7 +486,7 @@
 				<Infolayer />
 				<ItemContainer>
 					<SocketCount>1</SocketCount>
-					<SocketAllocation>Ship;SailShip;SteamShip;Warship;AarhantShip;DivingVessel;AirShip</SocketAllocation>
+					<SocketAllocation>Mod14</SocketAllocation>
 					<SocketScope>Radius</SocketScope>
 					<SocketScopeRadius>1</SocketScopeRadius>
 				</ItemContainer>
@@ -497,6 +499,14 @@
 				<Pausable />
 				<Maintenance />
 				<Culture />
+				<BuildingUnique>
+					<Uniques>
+						<Item>
+							<UniqueType>TourismMonument</UniqueType>
+							<UniqueScope>Area</UniqueScope>
+						</Item>
+					</Uniques>
+				</BuildingUnique>
 			</Values>
 		</Asset>
 	</ModOp>

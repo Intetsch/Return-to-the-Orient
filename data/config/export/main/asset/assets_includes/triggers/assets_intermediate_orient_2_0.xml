@@ -244,6 +244,77 @@
                 <TriggerSetup/>
             </Values>
         </Asset>
+
+        <!-- Export: Astrolabes for 3000 Engineers (unhide) -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004025</GUID>
+                    <Name>Intermediate Orient 2.0 Astrolabes</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition/>
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>1</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <SubTriggers>
+                        <Item>
+                            <SubTrigger>
+                                <Template>AutoCreateTrigger</Template>
+                                <Values>
+                                    <Trigger>
+                                        <TriggerCondition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>15000003</Context>
+                                                    <CounterAmount>3000</CounterAmount>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </TriggerCondition>
+                                    </Trigger>
+                                </Values>
+                            </SubTrigger>
+                        </Item>
+                    </SubTriggers>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action/>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets/>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1404005132</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                    <ResetTrigger>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <EmptyAutoCreateValue/>
+                        </Values>
+                    </ResetTrigger>
+                </Trigger>
+                <TriggerSetup/>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

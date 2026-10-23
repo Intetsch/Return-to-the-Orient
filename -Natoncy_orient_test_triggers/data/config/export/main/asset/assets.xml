@@ -1,8 +1,8 @@
 <ModOps>
 
     <!-- TEST ONLY - do not ship. Rename the folder to "-Natoncy_orient_test_triggers" or delete it to switch it off.
-         Pending triggers in a save keep the thresholds they were registered with. Start a new game,
-         or enter the Orient once so the trigger reset submod re-registers them with these values. -->
+         Pending triggers in a save keep the thresholds they were registered with.
+         The trigger reset submod re-registers them only once per main mod version, so use a new game. -->
 
     <!-- Creative: unlock only the session and the creative menu, so the population triggers do the rest -->
     <ModOp Type="replace" GUID="1404000791" Path="/Values/Trigger/TriggerActions/Item/TriggerAction/Values/ActionUnlockAsset/UnlockAssets">
@@ -15,9 +15,6 @@
             </Item>
         </UnlockAssets>
     </ModOp>
-
-    <!-- Let the trigger reset run in creative too -->
-    <ModOp Type="remove" GUID="1404004000" Path="/Values/Trigger/SubTriggers/Item[SubTrigger/Values/Trigger/TriggerCondition/Template='ConditionIsCreativeMode']" />
 
     <!-- Nomads: 1.1 = 1, 1.2 = 2, 1.3 = 3, 1.4 = 4 -->
     <ModOp Type="replace" GUID="1404000814" Path="/Values/Trigger/TriggerCondition/Values/ConditionPlayerCounter/CounterAmount">
