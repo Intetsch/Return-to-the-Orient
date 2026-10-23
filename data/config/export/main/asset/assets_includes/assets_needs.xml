@@ -46,7 +46,7 @@
             <Product>1440306</Product>
             <Amount>0.00003</Amount>
             <HappinessValue>6</HappinessValue>
-            <MoneyValue>110</MoneyValue>
+            <MoneyValue>90</MoneyValue>
             <FullWeightPopulationCount>4500</FullWeightPopulationCount>
             <NoWeightPopulationCount>3999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
@@ -135,7 +135,7 @@
     <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404005087</Product>
-            <Amount>0.00013</Amount>
+            <Amount>0.000133</Amount>
             <HappinessValue>4</HappinessValue>
             <MoneyValue>65</MoneyValue>
             <FullWeightPopulationCount>2000</FullWeightPopulationCount>
@@ -145,6 +145,51 @@
                 <Population>1404000011</Population>
                 <MinPopulationAmount>300</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## Add chains to construction menus of other sessions, following the convention of vanilla. -->
+    <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
+        <Item>
+            <Building>1404005085</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010365']">
+        <Item>
+            <Building>1404005136</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500020']">
+        <Item>
+            <Building>1404005024</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="114553" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+        <Item>
+            <Building>1404005105</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114520']">
+        <Item>
+            <Building>1404005021</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="112791" Path="/Values/ConstructionCategory/BuildingList/Item[Building='116029']">
+        <Item>
+            <Building>1404005122</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+        <Item>
+            <Building>1404005037</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building='5939']">
+        <Item>
+            <Building>1404005047</Building>
         </Item>
     </ModOp>
 
