@@ -15,17 +15,12 @@
                 <Recipe>
                     <RecipeBuilding>1404005113</RecipeBuilding>
                     <RecipeDescriptionText>1404005118</RecipeDescriptionText>
-                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_ceremonial_sabers.png</RecipeImage>
+                    <RecipeImage>data/ui/modgraphics/alambique_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
                             <PosX>350</PosX>
-                            <PosY>380</PosY>
+                            <PosY>0</PosY>
                             <UICirclePointer>West</UICirclePointer>
-                        </Item>
-                        <Item>
-                            <PosX>160</PosX>
-                            <PosY>70</PosY>
-                            <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                     <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
