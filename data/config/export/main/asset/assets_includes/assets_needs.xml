@@ -46,7 +46,7 @@
             <Product>1440306</Product>
             <Amount>0.00003</Amount>
             <HappinessValue>6</HappinessValue>
-            <MoneyValue>110</MoneyValue>
+            <MoneyValue>90</MoneyValue>
             <FullWeightPopulationCount>4500</FullWeightPopulationCount>
             <NoWeightPopulationCount>3999</NoWeightPopulationCount>
             <IsConsideredByAI>0</IsConsideredByAI>
@@ -135,7 +135,7 @@
     <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
         <Item>
             <Product>1404005087</Product>
-            <Amount>0.0000133</Amount>
+            <Amount>0.000133</Amount>
             <HappinessValue>4</HappinessValue>
             <MoneyValue>65</MoneyValue>
             <FullWeightPopulationCount>2000</FullWeightPopulationCount>
