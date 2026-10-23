@@ -88,6 +88,12 @@
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>
+    
+    <ModOp Type="addNextSibling" GUID="1445600" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1445041']" Condition="#new_horizons_session">
+        <Item>
+            <Building>1404005050</Building>
+        </Item>
+    </ModOp>
 
     <!-- Add lab to cheese chain -->
     <ModOp Type="addNextSibling" GUID="1445007" Path="Values/ProductionChain/Tier1/Item[Building='1010263']" Condition="#new_horizons_buildmenu">
