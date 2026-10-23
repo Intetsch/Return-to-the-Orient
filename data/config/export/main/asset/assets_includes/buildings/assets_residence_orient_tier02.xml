@@ -170,6 +170,7 @@
                 <Pausable />
                 <Culture />
                 <StreetActivation />
+                <!-- hidden for this release: skyscraper upgrade to Envoy residence level 2
                 <FloorStackOwner>
                     <UpgradeTargetGUID>1404004300</UpgradeTargetGUID>
                     <AddFloorCost>
@@ -182,7 +183,7 @@
                             <Amount>6</Amount>
                         </Item>
                     </AddFloorCost>
-                </FloorStackOwner>
+                </FloorStackOwner> -->
                 <InfluenceSource>
                     <InfluenceAmount>4</InfluenceAmount>
                     <InfluenceSource>Culture</InfluenceSource>
