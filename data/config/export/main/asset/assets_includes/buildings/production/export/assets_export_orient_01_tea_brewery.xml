@@ -26,7 +26,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Amount>2500</Amount>
+							<Amount>15000</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -39,7 +39,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
-							<Amount>20</Amount>
+							<Amount>16</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -52,7 +52,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>114402</Ingredient>
-							<Amount>15</Amount>
+							<Amount>12</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -65,7 +65,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
-							<Amount>30</Amount>
+							<Amount>14</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -94,7 +94,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/1404_import/buildings/farm/north/spice_farm/n_spice_farm.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/export_orient_01/export_orient_01.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Spice Mill</Text>
+							<Text>Tea Brewery</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -173,14 +173,14 @@
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>700</Amount>
-							<InactiveAmount>300</InactiveAmount>
+							<Amount>200</Amount>
+							<InactiveAmount>100</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1404000013</Product>

@@ -1,0 +1,191 @@
+﻿<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>QuestPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001274</GUID>
+                    <Name>OrientQuests_Envoy_Pool</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/resident/icon_resident_elder.png</IconFilename>
+                </Standard>
+                <QuestPool>
+                    <Quests>
+                        <Item>
+                            <Quest>1404001275</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001290</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001652</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001304</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001662</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001321</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001330</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001351</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001358</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001376</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001381</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001387</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001397</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001405</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001412</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001426</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001436</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001455</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001459</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001465</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001470</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001474</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001480</Quest>
+                        </Item>
+                        <Item>
+                            <Quest>1404001504</Quest>
+                        </Item>
+                    </Quests>
+                    <PoolCooldown>9000000</PoolCooldown>
+                    <CooldownOnQuestStart>1</CooldownOnQuestStart>
+                    <CooldownOnQuestEnd>1</CooldownOnQuestEnd>
+                    <QuestCooldown>90000000</QuestCooldown>
+                    <SessionDependencies>
+                        <Item>
+                            <SessionOrRegion>1404000000</SessionOrRegion>
+                        </Item>
+                    </SessionDependencies>
+                    <QuestPoolActionCallbacks>
+                        <OnQuestStart>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestStart>
+                        <OnQuestDeclined>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestDeclined>
+                        <OnQuestActive>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestActive>
+                        <OnQuestAborted>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestAborted>
+                        <OnQuestTimedOut>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestTimedOut>
+                        <OnQuestFailed>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestFailed>
+                        <OnQuestSucceeded>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestSucceeded>
+                        <OnQuestEnd>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestEnd>
+                        <OnQuestDiscarded>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <ActionList />
+                            </Values>
+                        </OnQuestDiscarded>
+                    </QuestPoolActionCallbacks>
+                </QuestPool>
+                <Locked />
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                    <SubConditions>
+                        <Item>
+                            <SubCondition>
+                                <Template>PreConditionList</Template>
+                                <Values>
+                                    <PreConditionList>
+                                        <Condition>
+                                            <Template>ConditionPlayerCounter</Template>
+                                            <Values>
+                                                <Condition />
+                                                <ConditionPlayerCounter>
+                                                    <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                                    <Context>1404000011</Context>
+                                                    <CounterAmount>300</CounterAmount>
+                                                    <CounterScope>Area</CounterScope>
+                                                    <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+                                                </ConditionPlayerCounter>
+                                            </Values>
+                                        </Condition>
+                                    </PreConditionList>
+                                </Values>
+                            </SubCondition>
+                        </Item>
+                    </SubConditions>
+                </PreConditionList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

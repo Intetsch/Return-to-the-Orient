@@ -22,31 +22,41 @@
                             <Building>13011</Building>
                         </Item>
                         <Item>
-                            <Building>12779</Building>
+                            <Building>1404004400</Building>
+                        </Item>
+                        <!-- hidden for this release: Ornamental Lighthouse
+                        <Item>
+                            <Building>1404007003</Building>
+                        </Item> -->
+                        <Item>
+                            <Building>1404004501</Building>
                         </Item>
                         <Item>
-                            <Building>14234</Building>
+                            <Building>1404004220</Building>
                         </Item>
                         <Item>
-                            <Building>14588</Building>
+                            <Building>1404004502</Building>
                         </Item>
                         <Item>
                             <Building>13911</Building>
                         </Item>
                         <Item>
-                            <Building>14792</Building>
+                            <Building>1404004504</Building>
                         </Item>
                         <Item>
-                            <Building>14652</Building>
+                            <Building>1404004503</Building>
                         </Item>
                         <Item>
-                            <Building>10283</Building>
+                            <Building>1404004574</Building>
                         </Item>
                         <Item>
                             <Building>13975</Building>
                         </Item>
                         <Item>
                             <Building>13977</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004720</Building>
                         </Item>
                     </BuildingList>
                     <RevelantForAI>0</RevelantForAI>
@@ -58,6 +68,127 @@
                         </English>
                     </LocaText>
                     <TextOverride>10140</TextOverride>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Orient creative Docklands group: the 7 region-overwriting Docklands modules + the Orient copies of the Enbesa
+         Docklands ornaments (assets_orient_creative_ornaments.xml: "Oriental Ornaments", New World quay). -->
+    <ModOp Type="addNextSibling" GUID="14234">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004220</GUID>
+                    <Name>OrnamentalDocklandsGroup Orient</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_docklands_main.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>12885</Building>
+                        </Item>
+                        <Item>
+                            <Building>12956</Building>
+                        </Item>
+                        <Item>
+                            <Building>12911</Building>
+                        </Item>
+                        <Item>
+                            <Building>12954</Building>
+                        </Item>
+                        <Item>
+                            <Building>12957</Building>
+                        </Item>
+                        <Item>
+                            <Building>12955</Building>
+                        </Item>
+                        <Item>
+                            <Building>12958</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004549</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004550</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004551</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004552</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004553</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004554</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004555</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004556</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004557</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004558</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004559</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004560</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004561</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004562</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004563</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004564</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004565</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004566</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004567</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004568</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004569</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004570</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004571</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004572</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004573</Building>
+                        </Item>
+                    </BuildingList>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>12905</TextOverride>
                 </Text>
                 <Locked>
                     <DefaultLockedState>1</DefaultLockedState>

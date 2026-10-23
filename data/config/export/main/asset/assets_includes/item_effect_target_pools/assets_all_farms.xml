@@ -12,7 +12,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>All Oriental Marketstalls</Text>
+							<Text>All crop farms of the Orient</Text>
 						</English>
 					</LocaText>
 				</Text>
@@ -35,6 +35,15 @@
                         </Item>
 						<Item>
                             <GUID>1404005025</GUID>
+						</Item>
+						<Item>
+                            <GUID>1404005076</GUID>
+						</Item>
+						<Item>
+                            <GUID>1404005082</GUID>
+						</Item>
+						<Item>
+                            <GUID>1404005090</GUID>
 						</Item>
 					</EffectTargetGUIDs>
 				</ItemEffectTargetPool>

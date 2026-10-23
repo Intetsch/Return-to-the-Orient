@@ -133,13 +133,29 @@
 			<Template>Text</Template>
 			<Values>
 				<Standard>
+					<GUID>1404003601</GUID>
+					<Name>jugglers_camp Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Fire-eaters, acrobats and jugglers draw a crowd wherever they pitch their tents.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
 					<GUID>1404005014</GUID>
 					<Name>Honey Module Fluff</Name>
 				</Standard>
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+							<Text>A few beehives produce honey and make farms more efficient.</Text>
 						</English>
 					</LocaText>
 				</Text>
@@ -155,7 +171,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+							<Text>The bees' honey, gathered from the date palms, is a highly sought-after commodity.</Text>
 						</English>
 					</LocaText>
 				</Text>
@@ -171,7 +187,231 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Popular with nomads for their ease of assembly and disassembly they create a cool space during the day and trap heat at night.</Text>
+							<Text>With the bees' help in pollination, our farms become even more efficient.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005049</GUID>
+					<Name>Palm Leaf Buff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Pickers harvest the aromatic palm leaves, though this slows production down a little.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005063</GUID>
+					<Name>Oudh Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>An extremely valuable, intensely fragrant resin that the agarwood tree forms in response to a fungal infestation.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005064</GUID>
+					<Name>Oudh Perfume Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Known as "liquid gold", Oudh perfume is the most expensive and exquisite perfume in the world – and highly coveted by magnates.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005065</GUID>
+					<Name>P. Parasiticum Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Phaeoacremonium parasiticum – a special mould that triggers the formation of a unique resin in the agarwood tree.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005097</GUID>
+					<Name>Moldy bread Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Good for nothing but compost, at best.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005099</GUID>
+					<Name>Moldy bread debuff Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Production is still in its infancy, so it yields... unwanted by-products. Sometimes, though, something useful turns up too.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005106</GUID>
+					<Name>RecipeList Roastery Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A hot grill on which all sorts of things can be roasted – and everything tastes better roasted.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005116</GUID>
+					<Name>Alembics Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Alembics are oriental stills used for brewing all kinds of drinks and liquids.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005118</GUID>
+					<Name>Recipe Alembics Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Alembics are the standard of oriental brewing: all sorts of liquids and drinks can be brewed with them. Thanks to the copper they are made of, they spread the heat ideally and as evenly as possible.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005123</GUID>
+					<Name>Arak Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A strongly alcoholic blend of grapes and aniseed. Warms the soul from within.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005126</GUID>
+					<Name>Roasted Coffee Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Simple roasted coffee.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005129</GUID>
+					<Name>Roasted Coffee Recipe Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Simple, hot-roasted coffee. Nothing special, though an oriental speciality all the same.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005133</GUID>
+					<Name>Astrolabes Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>A precise oriental measuring instrument used to track the stars.</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005135</GUID>
+					<Name>Astrolabes Recipe Fluff</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>The astrolabe is a masterpiece of oriental craftsmanship: it can track the stars, keep accurate time and determine one's astronomical position precisely, even by day.</Text>
 						</English>
 					</LocaText>
 				</Text>

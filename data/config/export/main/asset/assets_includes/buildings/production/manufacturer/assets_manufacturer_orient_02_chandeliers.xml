@@ -96,7 +96,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/goldsmith/s_goldsmith_chandeliers.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/kupferschmelze/s_copper_smelter.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -144,7 +144,7 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
-							<Product>1010249</Product>
+							<Product>1957006151</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
@@ -176,7 +176,7 @@
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>

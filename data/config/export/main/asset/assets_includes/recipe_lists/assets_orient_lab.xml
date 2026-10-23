@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135415" Condition="#new_horizons_session">
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005067</GUID>
+                    <Name>RecipeList_Orient_Lab</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_highlife_manufactory.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Mycological Laboratory Patent List</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>1404005068</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404005069</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>Laboratory</RecipeListType>
+                    <RecipeListMoodImage>data/ui/modgraphics/miclab_mood.png</RecipeListMoodImage>
+                    <RecipeListDescription>1404005075</RecipeListDescription>
+                </RecipeList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

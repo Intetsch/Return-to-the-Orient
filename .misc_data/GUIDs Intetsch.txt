@@ -1,6 +1,8 @@
 1404000845-1404000887
 1404005000+
 
+robocopy "D:\philipp\Return-to-the-Orient\Return-to-the-Orient" "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Anno 1800\mods\Return-to-the-Orient" /mir /mt:20
+
 NEW NEEDS
 ----------
 1404005012: Honey Module
@@ -22,7 +24,9 @@ NEW NEEDS
 1404005024: Lokum ProductionChain
 1404005025: Pistachio Farm
 1404005026: Pistachio Farmfield
-1404005027: Pistachio Roaster
+1404005027: Pistachio Roastery
+1404005102: Recipe Pistachios
+1404005108: Recipe Pistachios Fluff
 --
 1404005028: Pistachio Seeds Uncommon
 1404005029: Pistachio Seeds Rare
@@ -32,8 +36,87 @@ NEW NEEDS
 1404005033: Pistachio Seeds Rare Fluff
 1404005034: Pistachio Seeds Epic Fluff
 --
-1404005041: Enbesa Elephant Hunting Cabin
-1404005042: Ivory Asset Pool
+DEPR 1404005041: Enbesa Elephant Hunting Cabin
+DEPR 1404005042: Ivory Asset Pool
+--
+1404005044: Incense Workshop
+1404005045: module palm leaves
+1404005046: Asset Pool Incense
+1404005047: Incense ProductionChain
+1404005048: Palm Leaf Module Buff
+1404005049: Palm Leaf Buff Fluff
+--
+1404005050: Oud ProductionChain
+1404005051: Oud Asset Pool
+1404005052: Agar Orchard
+1404005053: Lab 01
+1404005054: P. Parasiticum
+1404005055: Infestation Cellar
+1404005056: Mushroom ProductionChain
+1404005057: Distillery
+1404005058: Oudh
+1404005059: Oudh Perfume
+1404005060: NH trigger Intermediate unhide
+1404005061: NH trigger creative mode
+1404005062: NH trigger Intermediate unlock
+1404005063: Oudh Fluff
+1404005064: Oudh Perfume Fluff
+1404005065: P. Parasiticum Fluff
+1404005066: Lab 02
+1404005067: RecipeList Lab
+1404005068: Recipe Noble Mushrooms
+1404005069: Recipe Oud Mushrooms
+1404005070: Recipe Noble Fluff
+1404005071: Recipe Oud Fluff
+1404005072: NH trigger lab unhide
+1404005073: NH trigger lab unlock
+1404005074: Noble Mushroom ProductionChain
+1404005075: RecipeList Fluff
+1404005095: Moldy Bread
+1404005096: Moldy Bread Debuff
+1404005097: Moldy Bread fluff
+1404005098: Asset Pool Orient NH mushrooms
+1404005099: Debuff Fluff
+--
+1404005076: Olive plantation
+1404005077: Olive field
+1404005078: asset pool hummus
+1404005082: Chickpea farm
+1404005083: Chickpea field
+1404005084: Hummus Kitchen
+1404005085: Hummus ProductionChain
+1404005086: Cold Press
+--
+1404005090: Aniseed Farm
+1404005091: Aniseed field
+1404005112: Copper Smelter
+1404005113: Manufacturer: Alembics
+1404005114: asset pool arak
+1404005115: Alembics
+1404005116: Alembics Fluff
+1404005117: Recipe Alembics
+1404005118: Recipe Alembics Fluff
+DEPR 1404005119: Alembics ProductionChain
+1404005120: Arak
+1404005121: Arak Distillery
+1404005122: Arak ProductionChain
+1404005123: Arak fluff
+--
+1404005100: Chickpea Roastery
+1404005101: Recipe List Roastery
+1404005103: Recipe Chickpeas Roastery
+1404005104: Asset Pool Roasted Chickpeas
+1404005105: Roasted Chickpeas ProductionChain
+1404005106: RecipeList Roastery Fluff
+1404005107: Recipe Chickpeas Fluff
+--
+1404005130: Manufacturer: Astrolabes
+1404005131: Astrolabes
+1404005132: Asset Pool Astrolabes
+1404005133: Astrolabes Fluff
+1404005134: Recipe Astrolabes
+1404005135: Recipe Astrolabes Fluff
+1404005136: Astrolabes ProductionChain
 
 
 INDUSTRY
@@ -105,3 +188,25 @@ OTHER
 1404005007: Fertilizer module
 1404005018: ItemEffectTargetPool All Farms
 1404005038: Wrong Region InfoTip Text
+1404005043: Module Category Text
+1404005124: Coffee Roastery
+1404005125: Roasted Coffee
+1404005126: Roasted Coffee Fluff
+1404005127: Roasted Coffee ProductionChain
+1404005128: Roasted Coffee Recipe
+1404005129: Roasted Coffee Recipe Fluff
+
+SUBMODS
+----------
+1404005079: Chickpeas
+1404005080: Chickpeas FakeFactory
+1404005081: Chickpeas fluff
+1404005087: Hummus
+1404005088: Hummus FakeFactory
+1404005089: Hummus fluff
+1404005092: Aniseed
+1404005093: Aniseed FakeFactory
+1404005094: Aniseed fluff
+1404005109: Copper Bar
+1404005110: Copper Bar FakeFactory
+1404005111: Copper Bar Fluff

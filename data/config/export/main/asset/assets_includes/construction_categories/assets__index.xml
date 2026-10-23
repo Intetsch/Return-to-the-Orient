@@ -23,9 +23,6 @@
 							<Item>
 								<Category>1404001114</Category>
 							</Item>
-                            <Item>
-                                <Category>1404000614</Category>
-                            </Item>
                         </Categories>
                     </Tier>
                     <BuildingCategory>
@@ -45,12 +42,57 @@
                             <Item>
                                 <Category>1404000617</Category>
                             </Item>
+                        </Categories>
+                    </BuildingCategory>
+                </CategoryMode>
+                <!-- Separate ornament tab like the Old/New World, split into themed groups like New Horizon's Mod2;
+                     both views list the same groups (as New Horizon does). Groups in subcategories/assets_orient_ornaments.xml -->
+                <OrnamentsMode>
+                    <OrnamentsSource>
+                        <Categories>
+                            <Item>
+                                <Category>1404004860</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004866</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004861</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004862</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004863</Category>
+                            </Item>
                             <Item>
                                 <Category>1404000614</Category>
                             </Item>
                         </Categories>
-                    </BuildingCategory>
-                </CategoryMode>
+                    </OrnamentsSource>
+                    <OrnamentsCategory>
+                        <Categories>
+                            <Item>
+                                <Category>1404004860</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004866</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004861</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004862</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404004863</Category>
+                            </Item>
+                            <Item>
+                                <Category>1404000614</Category>
+                            </Item>
+                        </Categories>
+                    </OrnamentsCategory>
+                </OrnamentsMode>
             </Mod3>
         </RegionMenu>
         <PinButtonRegions>
@@ -83,7 +125,7 @@
                             <Template>CustomizableButtonConfig</Template>
                             <Values>
                                 <CustomizableButtonConfig>
-                                    <CustomizableBuilding>112842</CustomizableBuilding>
+                                    <CustomizableBuilding>1404004229</CustomizableBuilding>
                                     <BuildingInfotip>500132</BuildingInfotip>
                                 </CustomizableButtonConfig>
                             </Values>

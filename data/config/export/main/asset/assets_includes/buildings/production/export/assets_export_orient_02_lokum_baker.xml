@@ -26,7 +26,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Amount>2500</Amount>
+							<Amount>30000</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -65,7 +65,7 @@
 								</InheritanceMapV2>
 							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
-							<Amount>30</Amount>
+							<Amount>22</Amount>
 						</Item>
 						<Item>
 							<VectorElement>
@@ -94,7 +94,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/1404_import/buildings/farm/north/spice_farm/n_spice_farm.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/export_orient_02/export_orient_02.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -119,7 +119,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Spice Mill</Text>
+							<Text>Lokum Baker</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -142,7 +142,7 @@
 					<FactoryInputs>
 						<Item>
 							<Product>1010235</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
                         <Item>
@@ -152,35 +152,35 @@
 						</Item>
                         <Item>
 							<Product>1400201049</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 						<Item>
 							<Product>1010239</Product>
-							<Amount>1</Amount>
+							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
 							<Product>1400201053</Product>
-							<Amount>1</Amount>
+							<Amount>4</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryOutputs>
-					<CycleTime>90</CycleTime>
+					<CycleTime>120</CycleTime>
 					<IsMainFactory>0</IsMainFactory>
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
 						<Item>
 							<Product>1010017</Product>
-							<Amount>700</Amount>
-							<InactiveAmount>300</InactiveAmount>
+							<Amount>4500</Amount>
+							<InactiveAmount>2250</InactiveAmount>
 						</Item>
 						<Item>
 							<Product>1404000013</Product>

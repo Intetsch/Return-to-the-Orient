@@ -78,19 +78,15 @@
 # Needs in other Worlds
 
 - OW:
-  - Engineers:
-    - Hookahs
-  - Investors:
-    - (Seidenschals): Seide + Baumwolle + Pigmente
-  - Magnates:
-    - (Elfenbein Zeug): Elfenbein + Holzfurniere + Gold + Perlen
+  - Artisans: Hummus
+  - Engineers: Astrolabes
+  - Investors: Lokum
+  - Magnates: Oudh-Perfume
 - Enbesa:
-  - Elders:
-    - (Gewürztee): Gewürze + Kräuter + Papier + Zimt
-    - (Honig): Bienenmodul (einfach paar Bienenstöcke auf ner Grasfläche) lassen Dattelfarmen Dattelpalmenhonig herstellen und boosten die Dattelprodultion durch Bestäubung
+  - Elders: Spiced Tea
+  - Shepherds: Roasted chickpeas
 - NW:
-  - Artista:
-    - (Räucherwerk): Gewürze + Harzmodul + Messing + Kampfer
-    - (Lokum): Mehl + Rosenwasser + Pistazien + Zucker
-  - Obrera:
-    - (kandierte Datteln): Datteln + Rum + Honig (siehe Bienenmodul)
+  - Artista: Incense
+  - Obrera: Candied Dates
+- Arctic:
+  - Technicians: Arak

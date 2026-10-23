@@ -6,7 +6,7 @@
 			<Values>
 				<Standard>
 					<GUID>1404000312</GUID>
-					<Name>manufacturer_orient_01 (ceremonial sabers)</Name>
+					<Name>smith_orient_01 (ceremonial sabers)</Name>
 					<IconFilename>data\modgraphics\ui\icon_ceremonial_sabers.png</IconFilename>
 					<InfoDescription>132783</InfoDescription>
 				</Standard>
@@ -96,11 +96,11 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/goldsmith/s_goldsmith_ceremonial_sabers.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/erzschmelze/s_ore_smelter_blue.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
-						<DefaultSkinName>1404000321</DefaultSkinName>
+						<DefaultSkinName>1404008000</DefaultSkinName>
 						<DefaultSkinDescription>23853</DefaultSkinDescription>
 						<DefaultSkinCategoryName>7312</DefaultSkinCategoryName>
 					</Skins>
@@ -122,7 +122,7 @@
 				<Text>
 					<LocaText>
 						<English>
-							<Text>Oriental Workshop: Ceremonial Sabers</Text>
+							<Text>Oriental Smith: Ceremonial Sabers</Text>
 							<Status>Exported</Status>
 						</English>
 					</LocaText>
@@ -166,7 +166,7 @@
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
@@ -212,7 +212,7 @@
 				<Electrifiable/>
 				<EcoSystemProvider/>
 				<RecipeBuilding>
-					<RecipeList>1404000313</RecipeList>
+					<RecipeList>1404008001</RecipeList>
 				</RecipeBuilding>
 			</Values>
 		</Asset>

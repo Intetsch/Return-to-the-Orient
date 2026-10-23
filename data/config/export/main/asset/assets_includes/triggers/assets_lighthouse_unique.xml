@@ -1,0 +1,317 @@
+<ModOps>
+
+    <!-- Oriental Lighthouse unlock. One lighthouse per island comes from BuildingUnique (TourismMonument, Area) on
+         every stage and on the completed lighthouse (mod template HarborOffice_Unique); there is no other limit.
+         1404007024 (a removed build-permit site swap) is retired here as well.
+         1404007021-023 used to lock/unlock the foundation per island with island-scoped ConditionThresholds that
+         registered each other. Once a completed lighthouse existed both conditions held at the same time and the
+         pair looped forever, locking and unlocking the foundation. They are retired: as never-firing assets the
+         loop ends at the next registration, and 1404007025/026 unregister them and unlock the foundation again
+         a few seconds later, in case the last loop step locked it. -->
+
+    <ModOp Type="addNextSibling" GUID="130248">
+
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007020</GUID>
+                    <Name>orient lighthouse unlock (Intermediate Orient 2.2)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionPlayerCounter</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>1404000011</Context>
+                                <CounterAmount>600</CounterAmount>
+                            </ConditionPlayerCounter>
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <!-- cleanup of the retired loop: unregister, then re-register 1404007020 after 5 s so it unlocks the
+             foundation again (at once if 2.2 is reached, otherwise when it is) -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007025</GUID>
+                    <Name>orient lighthouse retire island lock triggers</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysTrue</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007021</TriggerAsset>
+                                        <UnregisterTrigger>1</UnregisterTrigger>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007022</TriggerAsset>
+                                        <UnregisterTrigger>1</UnregisterTrigger>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007023</TriggerAsset>
+                                        <UnregisterTrigger>1</UnregisterTrigger>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionRegisterTrigger>
+                                        <TriggerAsset>1404007024</TriggerAsset>
+                                        <UnregisterTrigger>1</UnregisterTrigger>
+                                    </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>5000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1404007020</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <!-- same for creative saves, which never reach the Envoy condition of 1404007020 -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007026</GUID>
+                    <Name>orient lighthouse unlock after the retired loop (creative)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionIsCreativeMode</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionIsCreativeMode />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionDelayedActions</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>5000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionUnlockAsset</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionUnlockAsset>
+                                                                        <UnlockAssets>
+                                                                            <Item>
+                                                                                <Asset>1404004800</Asset>
+                                                                            </Item>
+                                                                        </UnlockAssets>
+                                                                    </ActionUnlockAsset>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>1</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+        <!-- retired (never fire, no actions), kept so saves that still hold them end the old loop -->
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007021</GUID>
+                    <Name>orient lighthouse unlock condition display (retired)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysFalse</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysFalse />
+                        </Values>
+                    </TriggerCondition>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007022</GUID>
+                    <Name>orient lighthouse unlock while the current island has none (retired)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysFalse</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysFalse />
+                        </Values>
+                    </TriggerCondition>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007023</GUID>
+                    <Name>orient lighthouse lock while the current island has one (retired)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysFalse</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysFalse />
+                        </Values>
+                    </TriggerCondition>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404007024</GUID>
+                    <Name>orient lighthouse site becomes stage 1 (retired)</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <Template>ConditionAlwaysFalse</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysFalse />
+                        </Values>
+                    </TriggerCondition>
+                </Trigger>
+                <TriggerSetup>
+                    <AutoRegisterTrigger>0</AutoRegisterTrigger>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+
+    </ModOp>
+
+</ModOps>

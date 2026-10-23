@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005105</GUID>
+                    <Name>orient roasted chickpeas chain</Name>
+                    <IconFilename>data/modgraphics/ui/icon_roasted_chickpeas.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005100</Building>
+                    <Tier1>
+                        <Item>
+                            <Building>1010304</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404000170</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>114452</Building>
+                                </Item>
+                                <Item>
+                                    <Building>114440</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1404005090</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                        <Item>
+                            <Building>1404005082</Building>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1400201065</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>

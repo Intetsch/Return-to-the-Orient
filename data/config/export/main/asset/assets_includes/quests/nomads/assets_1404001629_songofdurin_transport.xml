@@ -1,0 +1,821 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="153293">
+        <Asset>
+            <Template>A7_QuestPickupObject</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001629</GUID>
+                    <Name>RQ_Nomad_SongOfDurin_Transport</Name>
+                </Standard>
+                <Quest>
+                    <StarterMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StarterMessage>
+                    <SuccessMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001643</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001632</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </SuccessMessage>
+                    <FailureMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </FailureMessage>
+                    <SelectionReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SelectionReminderMessage>
+                    <AbortedManuallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedManuallyMessage>
+                    <AbortedAutomaticallyMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </AbortedAutomaticallyMessage>
+                    <InvitationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification>
+                                    <Profile>1404000018</Profile>
+                                    <NotificationTextFemale>1404001640</NotificationTextFemale>
+                                </CharacterNotification>
+                                <BaseNotification>
+                                    <NotificationText>1404001642</NotificationText>
+                                </BaseNotification>
+                                <NotificationSubtitle>
+                                    <Subtitle>1404001630</Subtitle>
+                                </NotificationSubtitle>
+                            </Values>
+                        </Notification>
+                    </InvitationMessage>
+                    <EscortShipSelectedMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </EscortShipSelectedMessage>
+                    <ReminderMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ReminderMessage>
+                    <ResolveConfirmationMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </ResolveConfirmationMessage>
+                    <InvitationSmugglerQuestMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </InvitationSmugglerQuestMessage>
+                    <SmugglerQuestTradingStationReached>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </SmugglerQuestTradingStationReached>
+                    <StartInvitationGiveItemMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartInvitationGiveItemMessage>
+                    <StartFollowShipMessage>
+                        <Notification>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                                <CharacterNotification />
+                                <BaseNotification />
+                                <NotificationSubtitle />
+                            </Values>
+                        </Notification>
+                    </StartFollowShipMessage>
+                    <OnQuestStart>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestStart>
+                    <OnQuestDeclined>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDeclined>
+                    <OnQuestActive>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestActive>
+                    <OnQuestAborted>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestAborted>
+                    <OnQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestTimedOut>
+                    <OnActiveQuestTimedOut>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnActiveQuestTimedOut>
+                    <OnQuestFailed>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestFailed>
+                    <OnQuestDiscarded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestDiscarded>
+                    <OnQuestSucceeded>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestSucceeded>
+                    <OnQuestEnd>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnQuestEnd>
+                    <OnPhotographySuccessNewspaperAction>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Action />
+                            <ActionForceNewspaper />
+                        </Values>
+                    </OnPhotographySuccessNewspaperAction>
+                    <QuestGiver>1404000018</QuestGiver>
+                    <StoryText>1404001641</StoryText>
+                    <ConfirmOnReachedCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ConditionQuestResolveConfirmation />
+                            <Condition />
+                            <ConditionQuestObjective />
+                        </Values>
+                    </ConfirmOnReachedCondition>
+                    <QuestBookBackground>data/ui/2kimages/main/assets16/questbackground/bg_quest_escort_follow.png</QuestBookBackground>
+                    <ReputationQuestFail>
+                        <ReputationFailList>
+                            <Item>
+                                <VectorElement>
+                                    <InheritedIndex>0</InheritedIndex>
+                                    <InheritanceMapV2>
+                                        <Entry>
+                                            <TemplateName>A7_QuestEscortObject</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                        <Entry>
+                                            <TemplateName>A7_QuestPickupObject</TemplateName>
+                                            <Index>0</Index>
+                                        </Entry>
+                                    </InheritanceMapV2>
+                                </VectorElement>
+                                <ReputationParticipant>Second_ai_01_Jorgensen</ReputationParticipant>
+                            </Item>
+                        </ReputationFailList>
+                    </ReputationQuestFail>
+                    <QuestHints>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestPickupObject</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Text>1404001637</Text>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestPickupObject</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Text>1404001638</Text>
+                        </Item>
+                    </QuestHints>
+                    <HasStarterSpeechBubble>0</HasStarterSpeechBubble>
+                    <StarterSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction>
+                                <HintText>1404001639</HintText>
+                                <ObjectFilter>
+                                    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                    <Values>
+                                        <ObjectFilter>
+                                            <ObjectGUID>102577</ObjectGUID>
+                                        </ObjectFilter>
+                                    </Values>
+                                </ObjectFilter>
+                                <UseSpecificPortrait>1</UseSpecificPortrait>
+                                <SpecificPortraitProfile>47</SpecificPortraitProfile>
+                            </ConditionTutorialInteraction>
+                        </Values>
+                    </StarterSpeechBubble>
+                    <SuccessSpeechBubble>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionTutorialInteraction />
+                        </Values>
+                    </SuccessSpeechBubble>
+                </Quest>
+                <PreConditionList>
+                    <Condition>
+                        <Template>ConditionMutualAreaInSubconditions</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionMutualAreaInSubconditions />
+                        </Values>
+                    </Condition>
+                </PreConditionList>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Desert Verse</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>43808</LineID>
+                </Text>
+                <Reward>
+                    <RewardAssets>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestPickupObject</TemplateName>
+                                        <Index>0</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                    <Entry>
+                                        <TemplateName>A7_QuestPickupObject</TemplateName>
+                                        <Index>1</Index>
+                                    </Entry>
+                                </InheritanceMapV2>
+                            </VectorElement>
+                            <Reward>130369</Reward>
+                            <SentToQuestArea>1</SentToQuestArea>
+                            <IsDisguised>1</IsDisguised>
+                        </Item>
+                    </RewardAssets>
+                    <RewardReputation />
+                </Reward>
+                <Objectives>
+                    <WinConditions>
+                        <Item>
+                            <Objective>
+                                <Template>SmugglerObjective</Template>
+                                <Values>
+                                    <ConditionQuestSmuggler>
+                                        <SmugglerStations>
+                                            <Item>
+                                                <Station>
+                                                    <Template>QuestTradingStation</Template>
+                                                    <Values>
+                                                        <TradingStation>
+                                                            <TradingStationDestination>
+                                                                <Template>ConditionObjectPrebuiltObject</Template>
+                                                                <Values>
+                                                                    <ConditionObjectPrebuiltObject>
+                                                                        <PrebuiltObject>118755</PrebuiltObject>
+                                                                    </ConditionObjectPrebuiltObject>
+                                                                    <ConditionScanner />
+                                                                    <ConditionObjectiveSignsAndFeedback />
+                                                                </Values>
+                                                            </TradingStationDestination>
+                                                            <TradingStationRetrieveItem>1404001634</TradingStationRetrieveItem>
+                                                            <OnTradingStationVisited>
+                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                <Values>
+                                                                    <ActionList>
+                                                                        <Actions>
+                                                                            <Item>
+                                                                                <Action>
+                                                                                    <Template>ActionNotification</Template>
+                                                                                    <Values>
+                                                                                        <Action />
+                                                                                        <ActionNotification>
+                                                                                            <Notification>
+                                                                                                <Template>CharacterNotification</Template>
+                                                                                                <Values>
+                                                                                                    <CharacterNotification>
+                                                                                                        <Profile>1404000018</Profile>
+                                                                                                    </CharacterNotification>
+                                                                                                    <BaseNotification>
+                                                                                                        <NotificationText>1404001644</NotificationText>
+                                                                                                    </BaseNotification>
+                                                                                                    <NotificationSubtitle>
+                                                                                                        <Subtitle>1404001633</Subtitle>
+                                                                                                    </NotificationSubtitle>
+                                                                                                </Values>
+                                                                                            </Notification>
+                                                                                        </ActionNotification>
+                                                                                    </Values>
+                                                                                </Action>
+                                                                            </Item>
+                                                                        </Actions>
+                                                                    </ActionList>
+                                                                </Values>
+                                                            </OnTradingStationVisited>
+                                                            <TradingStationReachedNotification>
+                                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                                <Values>
+                                                                    <CharacterNotification>
+                                                                        <Profile>1404000018</Profile>
+                                                                    </CharacterNotification>
+                                                                    <BaseNotification>
+                                                                        <NotificationText>1404001635</NotificationText>
+                                                                    </BaseNotification>
+                                                                    <NotificationSubtitle>
+                                                                        <Subtitle>1404001631</Subtitle>
+                                                                    </NotificationSubtitle>
+                                                                </Values>
+                                                            </TradingStationReachedNotification>
+                                                        </TradingStation>
+                                                    </Values>
+                                                </Station>
+                                            </Item>
+                                        </SmugglerStations>
+                                        <TextTradingStation_NoItem>1404001636</TextTradingStation_NoItem>
+                                        <TextTradingStation>20067</TextTradingStation>
+                                    </ConditionQuestSmuggler>
+                                    <ConditionQuestObjective />
+                                    <ConditionPropsSessionSettings />
+                                    <ConditionPropsExecutionPlaceSettings>
+                                        <ExecutionPlace>
+                                            <Template>ConditionObjectPrebuiltObject</Template>
+                                            <Values>
+                                                <ConditionObjectPrebuiltObject>
+                                                    <PrebuiltObject>1404000974</PrebuiltObject>
+                                                    <PrebuiltObjectUseProcessingSession>1</PrebuiltObjectUseProcessingSession>
+                                                </ConditionObjectPrebuiltObject>
+                                                <ConditionScanner />
+                                                <ConditionObjectiveSignsAndFeedback />
+                                            </Values>
+                                        </ExecutionPlace>
+                                        <ExecutionPlaceText>12972</ExecutionPlaceText>
+                                    </ConditionPropsExecutionPlaceSettings>
+                                </Values>
+                            </Objective>
+                        </Item>
+                    </WinConditions>
+                </Objectives>
+                <QuestOptional>
+                    <HasStarterObject>Specific</HasStarterObject>
+                    <StarterObject>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionStarterObject>
+                                <StarterObjectObject>
+                                    <Template>ConditionObjectSpawnedObject</Template>
+                                    <Values>
+                                        <ConditionObjectSpawnedObject>
+                                            <ExecutionObject>118755</ExecutionObject>
+                                            <ObjectSpawnArea>
+                                                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                                <Values>
+                                                    <SpawnArea>
+                                                        <SpawnContext>PlayerKontor</SpawnContext>
+                                                        <DistanceToContext>5</DistanceToContext>
+                                                    </SpawnArea>
+                                                </Values>
+                                            </ObjectSpawnArea>
+                                            <VisualObjectOwner>Second_ai_01_Jorgensen</VisualObjectOwner>
+                                        </ConditionObjectSpawnedObject>
+                                        <ConditionScanner />
+                                        <ConditionObjectiveSignsAndFeedback>
+                                            <Infolayer>500173</Infolayer>
+                                        </ConditionObjectiveSignsAndFeedback>
+                                    </Values>
+                                </StarterObjectObject>
+                            </ConditionStarterObject>
+                            <ConditionQuestObjective />
+                            <ConditionPropsSessionSettings />
+                        </Values>
+                    </StarterObject>
+                </QuestOptional>
+            </Values>
+        </Asset>
+
+        <!-- referenced vanilla assets, copied from _original_assets.xml -->
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>I have composed a qasida, a poem of the desert, about the wells that are running dry. The Sultan should hear it — but who listens to a herder?</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41383</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000395</AudioAsset>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001630</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_QuestStart</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>There is a land where the wells ran deep, where the wind knew every name...</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41384</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000455</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001631</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickup</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Madame Kahina says the Sultan loves poetry! Perhaps he will hear the voice of the desert after all.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41959</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000405</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001632</GUID>
+                    <Name>AT_ADDON01_Ketema_IdleGossip02</Name>
+                </Standard>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>AudioText</Template>
+            <Values>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>...if you drink it all today, my Sultan, what will your grandsons drink?</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>41385</LineID>
+                </Text>
+                <AudioText>
+                    <AudioAsset>1404000431</AudioAsset>
+                    <Mood>Positve</Mood>
+                </AudioText>
+                <Standard>
+                    <GUID>1404001633</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickup2</Name>
+                </Standard>
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>QuestItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001634</GUID>
+                    <Name>QI Nomad Poem - Song of Durin</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/campaign/icon_letter_closed.png</IconFilename>
+                    <InfoDescription>1404001676</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Qasida of the Dry Wells</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45652</LineID>
+                </Text>
+                <Item>
+                    <Flotsam>103060</Flotsam>
+                </Item>
+                <Locked />
+                <ItemAction />
+                <CultureUpgrade />
+                <ItemEffect />
+                <ShipyardUpgrade />
+            </Values>
+        </Asset>
+
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001635</GUID>
+                    <Name>ST_SmugglerQuestTradingStationReached PickupItem - f</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>6905</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001636</GUID>
+                    <Name>Smuggler_ShipInRange</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Sail to [AssetData([Conditions QuestCondition Context]) Text]</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>22168</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001637</GUID>
+                    <Name>QuestbookHint_Generic_Smuggle01</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>27467</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001638</GUID>
+                    <Name>QuestbookHint_Generic_Smuggle02_withAttackers</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>27468</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001639</GUID>
+                    <Name>SmuggleQuest_Bente_TheArtOfHistory_HintText</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Princess Qing tells me that some heirlooms belonging to her forefathers remain locked away at High Clarence Hall, and the Emperor has written to the Queen several times to ask for them back. I know it's naughty, but if you could somehow get them to the Princess, the world will be a better place for it.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>27259</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001640</GUID>
+                    <Name>ST_QuestOffered_1 - f Smuggle</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>29727</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001641</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_Story</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>&lt;b&gt;The Nomads of Wadi Al Zahir have always measured wealth in water.&lt;/b&gt; Now that norias and workshops draw more and more from the aquifers, the old wells are failing one after another. A young Nomad has poured his worries into a qasida in the style of the old desert poets, and he asks you to take it to Madame Kahina's harbour so that it may reach the Sultan.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44181</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001642</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_QuestStartSummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The Nomad asks you to take his poem to Madame Kahina, who can send it on to the Sultan.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44185</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001643</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_KetemaReplySummary</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Madame Kahina promises to send the Nomad's poem to the Sultan's court.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>44187</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001644</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_ItemPickupSummary2</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The young poet proudly shares the second half of his poem with you.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>45170</LineID>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404001676</GUID>
+                    <Name>RQ_Nomad_Transport_SongOfDurin_PoemDescription</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>A desert poem by a young Nomad, lamenting the wells that run dry as the city grows.</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+
+    </ModOp>
+
+</ModOps>

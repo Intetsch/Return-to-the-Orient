@@ -1,0 +1,38 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005102</GUID>
+                    <Name>Recipe_Pistachios</Name>
+                    <IconFilename>data\modgraphics\ui\icon_roasted_pistachios.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1400201049</TextOverride>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404005027</RecipeBuilding>
+                    <RecipeDescriptionText>1404005108</RecipeDescriptionText>
+                    <RecipeImage>data/ui/modgraphics/pistachio_recipe_mood.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>400</PosX>
+                            <PosY>395</PosY>
+                            <UICirclePointer>NorthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>40</PosX>
+                            <PosY>30</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

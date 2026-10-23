@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005128</GUID>
+                    <Name>Recipe_Coffee</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_roasted_coffee.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1404005125</TextOverride>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404005124</RecipeBuilding>
+                    <RecipeDescriptionText>1404005129</RecipeDescriptionText>
+                    <RecipeImage>data/ui/modgraphics/roastedcoffee_recipe_mood.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>90</PosX>
+                            <PosY>30</PosY>
+                            <UICirclePointer>South</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

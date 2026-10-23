@@ -6,7 +6,7 @@
             <Values>
                 <Standard>
                     <GUID>1404000845</GUID>
-                    <Name>Dirt Street Orient</Name>
+                    <Name>Simple Street Orient</Name>
                     <IconFilename>data/ui/2kimages/main/3dicons/icon_street_africa.png</IconFilename>
                     <ID/>
                 </Standard>
@@ -297,7 +297,7 @@
                     <CfgFileName>data/dlc06/graphics/effects/street/africa_street_02/africa_street_02.cfg</CfgFileName>
                     <BridgeAsset>122988</BridgeAsset>
                     tone Bridge Afric
-                    <InternalID>28</InternalID>
+                    <Internal????ID>????????????????????????????????</InternalID>
                     <DecalVariation>data/config/street/streetdecal_var_ext.txt</DecalVariation>
                     <AdaptToNeighbors>
                         <NeighborsThatMakeUsAdapt>StreetHighQuality;Crossing_Rail_Street;Crossing_Rail_StreetHighQuality;Quay_And_QuayBase_And_HiddenFences;Bridge_StreetHighQuality</NeighborsThatMakeUsAdapt>
@@ -328,4 +328,477 @@
         </Asset>
     </ModOp> -->
      
+    <!-- Canal, Orient skin (cream plaster): vanilla 112842 with local cfgs (data/graphics/buildings/orient/canal) -->
+    <ModOp Type="addNextSibling" GUID="112842">
+        <Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004229</GUID>
+                    <Name>Canal Orient</Name>
+                    <IconFilename>data/graphics/icons/irrigation/icon_canal_orient.png</IconFilename>
+                    <InfoDescription>124829</InfoDescription>
+                </Standard>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <ItemsPerCost>4</ItemsPerCost>
+                </Cost>
+                <Street>
+                    <InvalidColor>-50116</InvalidColor>
+                    <InternalID>65</InternalID>
+                    <DecalMapping>data/config/street/streetdecal.txt.bin</DecalMapping>
+                    <DecalVariation>data/config/street/canaldecal_var.txt</DecalVariation>
+                    <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+                    <HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+                    <OverbuildRule>IrrigationPipe</OverbuildRule>
+                    <IsLogicRoad>0</IsLogicRoad>
+                    <HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+                    <IsIrrigationPipe>1</IsIrrigationPipe>
+                    <RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+                    <CfgAdditionAtlas>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_single_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_end_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_curv_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_3way_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_cross_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_curv_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_3way_bassin_03.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_3way_bassin_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_tripple_corner_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_3way_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_double_corner_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_curv_bassin_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_place_bassin_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_unsupported_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_01_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_01_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_01_03.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_01_04.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_02_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_02_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_02_03.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_long_02_04.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_03.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_04.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_05.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_short_05_duck.cfg</Cfg>
+                        </Item>
+                    </CfgAdditionAtlas>
+                    <AdaptToNeighbors>
+                        <AdaptGroups>Canal</AdaptGroups>
+                        <NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+                    </AdaptToNeighbors>
+                    <WalkingBlocked>1</WalkingBlocked>
+                </Street>
+                <Constructable>
+                    <DestructionCategory>StreetsAndBridges</DestructionCategory>
+                </Constructable>
+                <Locked />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>200777</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>200140</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <ConstructionStreetSounds>
+                        <BuildAddWaypoint>
+                            <Item>
+                                <Sound>215919</Sound>
+                            </Item>
+                        </BuildAddWaypoint>
+                    </ConstructionStreetSounds>
+                    <MaterialType>Street_Dirt</MaterialType>
+                </SoundEmitter>
+                <Text>
+                    <TextOverride>112842</TextOverride>
+                </Text>
+                <Building>
+                    <SkipUnlockMessage>1</SkipUnlockMessage>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Ornament />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Canal crossing for the Orient desert road: vanilla 117786 with local cfgs (data/graphics/buildings/orient/canal) -->
+    <ModOp Type="addNextSibling" GUID="117786">
+        <Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004230</GUID>
+                    <Name>Crossing Canal-Street Orient</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+                </Standard>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <ItemsPerCost>4</ItemsPerCost>
+                </Cost>
+                <Street>
+                    <InvalidColor>-50116</InvalidColor>
+                    <InternalID>66</InternalID>
+                    <DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+                    <DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+                    <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+                    <HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+                    <Quality>1</Quality>
+                    <OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+                    <IsPlazza>1</IsPlazza>
+                    <CanBuildOnShore>1</CanBuildOnShore>
+                    <HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+                    <IsIrrigationPipe>1</IsIrrigationPipe>
+                    <RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+                    <CfgAdditionAtlas>
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_crossing_01.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_crossing_01_closed_open.cfg</Cfg>
+                        </Item>
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                    </CfgAdditionAtlas>
+                    <AdaptToNeighbors>
+                        <AdaptGroups>StreetLowQuality;Canal</AdaptGroups>
+                        <NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+                    </AdaptToNeighbors>
+                </Street>
+                <Constructable>
+                    <DestructionCategory>StreetsAndBridges</DestructionCategory>
+                </Constructable>
+                <Locked />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>200777</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>200140</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <ConstructionStreetSounds>
+                        <BuildAddWaypoint>
+                            <Item>
+                                <Sound>215919</Sound>
+                            </Item>
+                        </BuildAddWaypoint>
+                    </ConstructionStreetSounds>
+                    <MaterialType>Street_Dirt</MaterialType>
+                </SoundEmitter>
+                <Text>
+                    <TextOverride>117786</TextOverride>
+                </Text>
+                <Building>
+                    <SkipUnlockMessage>1</SkipUnlockMessage>
+                    <PickingAsset>1404000845</PickingAsset>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Ornament />
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <!-- Canal crossing for the fast street: vanilla 127913 with local cfgs (data/graphics/buildings/orient/canal) -->
+    <ModOp Type="addNextSibling" GUID="127913">
+        <Asset>
+            <Template>Street</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004231</GUID>
+                    <Name>Crossing Canal-FastStreet Orient</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/ornaments/christmas_park_props_system_02_cross.png</IconFilename>
+                </Standard>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>20</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <ItemsPerCost>4</ItemsPerCost>
+                </Cost>
+                <Street>
+                    <InvalidColor>-50116</InvalidColor>
+                    <InternalID>67</InternalID>
+                    <DecalMapping>data/config/street/crossingdecal_irrigation_pipe.txt.bin</DecalMapping>
+                    <DecalVariation>data/config/street/streetdecal_var.txt</DecalVariation>
+                    <HidePropsAfterBuilding>1</HidePropsAfterBuilding>
+                    <HidePropsWhileBuilding>1</HidePropsWhileBuilding>
+                    <Quality>2</Quality>
+                    <OverbuildRule>IrrigationPipeStreetCrossing</OverbuildRule>
+                    <SpeedFactor>1.5</SpeedFactor>
+                    <IsPlazza>1</IsPlazza>
+                    <CanBuildOnShore>1</CanBuildOnShore>
+                    <HasFeedbackPathPlanningPenalty>0</HasFeedbackPathPlanningPenalty>
+                    <IsIrrigationPipe>1</IsIrrigationPipe>
+                    <RenderCfgAdditionInsteadOfDecal>1</RenderCfgAdditionInsteadOfDecal>
+                    <CfgAdditionAtlas>
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_crossing_02.cfg</Cfg>
+                        </Item>
+                        <Item>
+                            <Cfg>data/graphics/buildings/orient/canal/irrigation_channel_crossing_02_closed_open.cfg</Cfg>
+                        </Item>
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                        <Item />
+                    </CfgAdditionAtlas>
+                    <AdaptToNeighbors>
+                        <AdaptGroups>StreetHighQuality;Canal</AdaptGroups>
+                        <NeighborsThatMakeUsAdapt>Canal</NeighborsThatMakeUsAdapt>
+                    </AdaptToNeighbors>
+                </Street>
+                <Constructable>
+                    <DestructionCategory>StreetsAndBridges</DestructionCategory>
+                </Constructable>
+                <Locked />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>200777</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>200140</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                    </ConstructionSounds>
+                    <ConstructionStreetSounds>
+                        <BuildAddWaypoint>
+                            <Item>
+                                <Sound>215919</Sound>
+                            </Item>
+                        </BuildAddWaypoint>
+                    </ConstructionStreetSounds>
+                    <MaterialType>Street_Dirt</MaterialType>
+                </SoundEmitter>
+                <Text>
+                    <TextOverride>127913</TextOverride>
+                </Text>
+                <Building>
+                    <SkipUnlockMessage>1</SkipUnlockMessage>
+                    <PickingAsset>119029</PickingAsset>
+                    <AssociatedRegions>Mod3</AssociatedRegions>
+                </Building>
+                <Ornament />
+            </Values>
+        </Asset>
+    </ModOp>
+
 </ModOps>

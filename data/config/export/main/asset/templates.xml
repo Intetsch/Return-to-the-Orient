@@ -160,4 +160,108 @@
 		</Template>
     </ModOp>
 
+
+    <!-- skyscraper-button upgrades for the Envoy residence (1404000017 -> 1404004300 -> 1404004301) -->
+    <ModOp Template="ResidenceBuilding7_Colony" Type="add" Path="/Properties">
+        <FloorStackOwner />
+    </ModOp>
+
+    <!-- HarborOffice + BuildingUnique: the completed Oriental Lighthouse 1404007002 (HarborOffice for its socket and
+         item sets) counts as the island's TourismMonument like its construction stages, so placement allows one
+         lighthouse per island without triggers. -->
+    <ModOp Template="HarborOffice" Type="addNextSibling">
+        <Template>
+          <Name>HarborOffice_Unique</Name>
+          <Properties>
+            <Standard />
+            <Building>
+              <BuildingType>Factory</BuildingType>
+              <BuildingCategoryName>100001</BuildingCategoryName>
+              <TerrainType>Water_Including_Coast</TerrainType>
+            </Building>
+            <Blocking />
+            <Cost>
+              <InfluenceCostType>HarborOffice</InfluenceCostType>
+            </Cost>
+            <Object>
+              <IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+            </Object>
+            <Mesh />
+            <Selection>
+              <GUIType>Guildhouse</GUIType>
+              <OnSelection>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList />
+                </Values>
+              </OnSelection>
+              <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+            </Selection>
+            <Text />
+            <Constructable>
+              <DestructionCategory>Production</DestructionCategory>
+            </Constructable>
+            <Locked />
+            <SoundEmitter>
+              <DestroySounds>
+                <Item>
+                  <Sound>9818756</Sound>
+                </Item>
+              </DestroySounds>
+              <ConstructionSounds>
+                <BuildFailed>
+                  <Item>
+                    <Sound>9818387</Sound>
+                  </Item>
+                </BuildFailed>
+                <BuildMoveStart>
+                  <Item>
+                    <Sound>9818755</Sound>
+                  </Item>
+                </BuildMoveStart>
+                <BuildMoveSuccess>
+                  <Item>
+                    <Sound>203995</Sound>
+                  </Item>
+                </BuildMoveSuccess>
+                <BuildMoveEnd>
+                  <Item>
+                    <Sound>200141</Sound>
+                  </Item>
+                </BuildMoveEnd>
+              </ConstructionSounds>
+            </SoundEmitter>
+            <FeedbackController />
+            <Infolayer />
+            <ItemContainer>
+              <SocketCount>3</SocketCount>
+              <SocketAllocation>RadiusBuilding;HarborOffice</SocketAllocation>
+              <SocketScope>Radius</SocketScope>
+              <SocketScopeRadius>20</SocketScopeRadius>
+              <SocketScopeRadiusOverlapCategory>HarborOffice</SocketScopeRadiusOverlapCategory>
+            </ItemContainer>
+            <UpgradeList />
+            <Attackable>
+              <HasRuinState>1</HasRuinState>
+              <ExplosionEffects>
+                <Item />
+              </ExplosionEffects>
+              <SelfHealPerHealTick>300</SelfHealPerHealTick>
+            </Attackable>
+            <Pausable />
+            <Maintenance>
+              <IncomeCategory>AdministrationBuildings</IncomeCategory>
+            </Maintenance>
+            <Culture />
+            <Warehouse>
+              <StorageType>Depot</StorageType>
+            </Warehouse>
+            <LogisticNode />
+            <StorageBase />
+            <Distribution />
+            <BuildingUnique />
+          </Properties>
+        </Template>
+    </ModOp>
+
 </ModOps>

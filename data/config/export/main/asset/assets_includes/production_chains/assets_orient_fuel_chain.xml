@@ -11,22 +11,22 @@
 				<ProductionChain>
 					<Building>1404005011</Building>
 					<Tier1>
-					  <Item>
-						<Building>1404000867</Building>
-						<Tier2>
-							<Item>
-								<Building>119035</Building>
-								<Tier3>
-									<Item>
-										<Building>1404000874</Building>
-									</Item>
-								</Tier3>
-							</Item>
-							<Item>
-								<Building>1404000873</Building>
-							</Item>
-						</Tier2>
-					  </Item>
+						<Item>
+							<Building>1404000867</Building>
+							<Tier2>
+								<Item>
+									<Building>119035</Building>
+									<Tier3>
+										<Item>
+											<Building>1404000874</Building>
+										</Item>
+									</Tier3>
+								</Item>
+								<Item>
+									<Building>1404000873</Building>
+								</Item>
+							</Tier2>
+						</Item>
 					</Tier1>
 				</ProductionChain>
 				<Locked>

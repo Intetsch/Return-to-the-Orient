@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201065</GUID>
+      <!-- Product | roasted chickpeas | Roasted Chickpeas -->
+      <Text>구운 병아리콩</Text>
+    </Text>
+    <Text>
+      <GUID>1400201067</GUID>
+      <!-- Text | roasted chickpeas fluff text | A simple and popular snack, especially among the working class. -->
+      <Text>특히 노동자 계층 사이에서 인기 있는 간단한 간식입니다.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

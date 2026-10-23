@@ -1,0 +1,425 @@
+<ModOps>
+
+    <!-- The Orient museum pieces as creative-mode ornaments, like vanilla's exhibit ornaments (17278.. in group 16491
+         "Enbesan Exhibits"): full copies of the vanilla module ornaments 17683-17685 with the oriental cfgs, named after
+         the items. Group 1404004720 sits next to the Enbesan exhibits in the creative culture menu 17914 and in the Orient
+         creative menu 1404000614; unlocked by the Orient creative trigger 1404000791. Generator gen_museum.js (2026-10-20). -->
+    <ModOp Type="addNextSibling" GUID="17685">
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004710</GUID>
+                    <Name>CreativeMode_Museum_Orient_abacus (ornamental, item 1404001023)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item2.png</IconFilename>
+                    <InfoDescription>13601</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1404001023</TextOverride>
+                </Text>
+                <Blocking />
+                <Building>
+                    <BuildingCategoryName>15314</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Colony01;Africa;Mod3</AssociatedRegions>
+                    <AllowChangeVariation>0</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                        <Template>Actions</Template>
+                    </OnSelection>
+                    <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack</AllowedDragType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item>
+                            <Sound>9818389</Sound>
+                        </Item>
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>9818759</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                        <BuildUpgrade>
+                            <Item>
+                                <Sound>9818760</Sound>
+                            </Item>
+                        </BuildUpgrade>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI>
+                            <Item>
+                                <Sound>9818752</Sound>
+                            </Item>
+                        </UI>
+                    </ProductionSounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament />
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Pausable />
+                <Infolayer />
+                <Culture>
+                    <Attractiveness>20</Attractiveness>
+                </Culture>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004711</GUID>
+                    <Name>CreativeMode_Museum_Orient_prophet_stone (ornamental, item 1404001022)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item1.png</IconFilename>
+                    <InfoDescription>13601</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1404001022</TextOverride>
+                </Text>
+                <Blocking />
+                <Building>
+                    <BuildingCategoryName>15314</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Colony01;Africa;Mod3</AssociatedRegions>
+                    <AllowChangeVariation>0</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                        <Template>Actions</Template>
+                    </OnSelection>
+                    <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack</AllowedDragType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item>
+                            <Sound>9818389</Sound>
+                        </Item>
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>9818759</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                        <BuildUpgrade>
+                            <Item>
+                                <Sound>9818760</Sound>
+                            </Item>
+                        </BuildUpgrade>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI>
+                            <Item>
+                                <Sound>9818752</Sound>
+                            </Item>
+                        </UI>
+                    </ProductionSounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament />
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Pausable />
+                <Infolayer />
+                <Culture>
+                    <Attractiveness>20</Attractiveness>
+                </Culture>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>OrnamentalBuilding</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004712</GUID>
+                    <Name>CreativeMode_Museum_Orient_palm_leaf (ornamental, item 1404001024)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item3.png</IconFilename>
+                    <InfoDescription>13601</InfoDescription>
+                </Standard>
+                <Text>
+                    <TextOverride>1404001024</TextOverride>
+                </Text>
+                <Blocking />
+                <Building>
+                    <BuildingCategoryName>15314</BuildingCategoryName>
+                    <AssociatedRegions>Moderate;Colony01;Africa;Mod3</AssociatedRegions>
+                    <AllowChangeVariation>0</AllowChangeVariation>
+                    <SecondPartyRelevant>0</SecondPartyRelevant>
+                    <IsCreativeModeOrnament>1</IsCreativeModeOrnament>
+                </Building>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                </Cost>
+                <Selection>
+                    <OnSelection>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                        <Template>Actions</Template>
+                    </OnSelection>
+                    <AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack</AllowedDragType>
+                </Selection>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Constructable />
+                <Mesh />
+                <SoundEmitter>
+                    <DestroySounds>
+                        <Item>
+                            <Sound>9818756</Sound>
+                        </Item>
+                    </DestroySounds>
+                    <SelectionSounds>
+                        <Item>
+                            <Sound>9818389</Sound>
+                        </Item>
+                    </SelectionSounds>
+                    <ConstructionSounds>
+                        <BuildSuccessful>
+                            <Item>
+                                <Sound>9818759</Sound>
+                            </Item>
+                        </BuildSuccessful>
+                        <BuildFailed>
+                            <Item>
+                                <Sound>9818387</Sound>
+                            </Item>
+                        </BuildFailed>
+                        <BuildMoveStart>
+                            <Item>
+                                <Sound>9818755</Sound>
+                            </Item>
+                        </BuildMoveStart>
+                        <BuildMoveSuccess>
+                            <Item>
+                                <Sound>203995</Sound>
+                            </Item>
+                        </BuildMoveSuccess>
+                        <BuildMoveEnd>
+                            <Item>
+                                <Sound>200141</Sound>
+                            </Item>
+                        </BuildMoveEnd>
+                        <BuildUpgrade>
+                            <Item>
+                                <Sound>9818760</Sound>
+                            </Item>
+                        </BuildUpgrade>
+                    </ConstructionSounds>
+                    <ProductionSounds>
+                        <UI>
+                            <Item>
+                                <Sound>9818752</Sound>
+                            </Item>
+                        </UI>
+                    </ProductionSounds>
+                </SoundEmitter>
+                <Locked />
+                <FeedbackController />
+                <Ornament />
+                <AmbientMoodProvider>
+                    <DynamicEnvironmentType>Fog</DynamicEnvironmentType>
+                </AmbientMoodProvider>
+                <Pausable />
+                <Infolayer />
+                <Culture>
+                    <Attractiveness>20</Attractiveness>
+                </Culture>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="16491">
+        <Asset>
+            <Template>ConstructionCategory</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004720</GUID>
+                    <Name>CreativeMode_CultureModules_Museums_Orient</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item_set.png</IconFilename>
+                </Standard>
+                <ConstructionCategory>
+                    <BuildingList>
+                        <Item>
+                            <Building>1404004710</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004711</Building>
+                        </Item>
+                        <Item>
+                            <Building>1404004712</Building>
+                        </Item>
+                    </BuildingList>
+                    <CategoryDescription>19564</CategoryDescription>
+                    <RevelantForAI>0</RevelantForAI>
+                </ConstructionCategory>
+                <Text>
+                    <TextOverride>1404001021</TextOverride>
+                </Text>
+                <Locked>
+                    <DefaultLockedState>1</DefaultLockedState>
+                </Locked>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="17914" Path="Values/ConstructionCategory/BuildingList/Item[Building='16491']">
+        <Item>
+            <Building>1404004720</Building>
+        </Item>
+    </ModOp>
+
+</ModOps>

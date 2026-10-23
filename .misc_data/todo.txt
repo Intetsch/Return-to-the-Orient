@@ -2,10 +2,11 @@ Enums:
     RegionID: Mod3 (Orient)
     ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
+    InternalID: 28, 64, 65, 66, 69
 Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
 Required DLCs: Land of Lions
-Optional DLCs: New World Rising, HighLife, Tourist Season, Bright Harvest, Empire of the Skies
-Optional Mods: New Horizons, Noblesse Oblige
+Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
+Optional Mods: New Horizons
 
 
 
@@ -13,28 +14,38 @@ Optional Mods: New Horizons, Noblesse Oblige
 
 
 TODO:
-- Add happiness needs for OW/NW/Enbesa tiers
-- Population quests
-- Feedback units
-- Player portraits Nomads/Envoys and expanding body downward
-- Letting AI settle the region (Adding Harbour Defenses + Logic)
-- Check silk production chain
 
-v0.7.0 (no priority):
-- Add models and loca to
-    bee module
-    pistachio Roaster
-    pistachio farm
-    pistachio field
-    lokum Baker
-    Tea Brewery
-- Add Pistachio fertility to islands
+v0.6.0
+- Fix auto trigger reset to not continuously fire
+
+v0.6.1
+- Reorder needs based on skyscraper levels and rebalance
+- add compost for moldy bread
+- Palace with needs replacement
+
+v0.7.0
+- Light house monument
+- Construction material rework
+    Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
+    Palm lumber jack needs irrigation
+- Letting AI settle the region (Adding Harbour Defenses + Logic)
+
+Before v1.0.0
+- Check quests
+- Check loading screen hints
+- remove IAAM Test and other test assets
+- Fix mod loader errors/warnings
+- Cleanup and delete unused files
+- Update Readme/Mod.io Description (add useable but not shared products)
+
+
 
 Bugs:
 
 
 
 Backlog:
+- Rewrite some quest texts maybe
 - Camera sequence when entering region for the first time
 
 
@@ -44,3 +55,5 @@ Not fixable/doable:
 - Fix music colliding with voice lines/other special music (monument completed): Would require changing vanilla soundbanks
 - Festival icon not showing: Not working in New Horizon either, no idea why
 - Second Noria pipe not possible, would need a work area from a river or mine slot
+
+

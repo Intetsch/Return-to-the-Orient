@@ -1,0 +1,235 @@
+<ModOps>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004920</GUID>
+                    <Name>Mixed Chickpea Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_chickpeas.png</IconFilename>
+                    <InfoDescription>1404004923</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Chickpea Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Uncommon</Rarity>
+                    <TradePrice>18600</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>-15</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404004901</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404005082</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004923</GUID>
+                    <Name>item fluff Mixed Chickpea Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These seeds can help you grow a few fields of Chickpeas in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004921</GUID>
+                    <Name>Chickpea Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_chickpeas.png</IconFilename>
+                    <InfoDescription>1404004924</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Quality Chickpea Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Rare</Rarity>
+                    <TradePrice>64000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <AddedFertility>1404004901</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404005082</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>10</BaseMorale>
+                    <ItemDifficulties>Easy;Average</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004924</GUID>
+                    <Name>item fluff Chickpea Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These seeds can help you grow plentiful fields of Chickpeas in alien soil.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="191383" Type="addNextSibling">
+        <Asset>
+            <Template>GuildhouseItem</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004922</GUID>
+                    <Name>Selected Chickpea Seeds</Name>
+                    <IconFilename>data/graphics/icons/items/seeds_chickpeas.png</IconFilename>
+                    <InfoDescription>1404004925</InfoDescription>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hybrid Chickpea Seeds</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+                <Item>
+                    <MaxStackSize>1</MaxStackSize>
+                    <Rarity>Epic</Rarity>
+                    <TradePrice>192000</TradePrice>
+                </Item>
+                <FactoryUpgrade>
+                    <ProductivityUpgrade>
+                        <Value>25</Value>
+                        <Percental>1</Percental>
+                    </ProductivityUpgrade>
+                    <AddedFertility>1404004901</AddedFertility>
+                </FactoryUpgrade>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>1404005082</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <ItemAction/>
+                <ExpeditionAttribute>
+                    <BaseMorale>15</BaseMorale>
+                    <ItemDifficulties>Average;Hard</ItemDifficulties>
+                </ExpeditionAttribute>
+                <CultureUpgrade/>
+                <BuildingUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IncidentInfectableUpgrade/>
+                <ResidenceUpgrade/>
+                <PopulationUpgrade/>
+                <IndustrializableUpgrade/>
+                <Locked/>
+                <Buff/>
+                <CraftableItem/>
+                <HeaterUpgrade/>
+                <PowerplantUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    <ModOp GUID="15926" Type="addNextSibling">
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004925</GUID>
+                    <Name>item fluff Selected Chickpea Seeds</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These seeds have been adapted to grow in a very wide range of soils, and with increased Chickpea yield!</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+    
+</ModOps>

@@ -117,7 +117,7 @@
 				<LogisticNode/>
 				<AmbientMoodProvider>
 					<AmbientMood>AgricultureBuildingsSouthAmerica</AmbientMood>
-					<Murmur>Africa_Farms</Murmur>
+					<Murmur>None</Murmur>
 					<DynamicEnvironmentType>None</DynamicEnvironmentType>
 				</AmbientMoodProvider>
 				<Maintenance>
@@ -188,7 +188,7 @@
 	</ModOp>
 
 
-	<ModOp GUID="368,190011,,6000018,193856,190778" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+	<ModOp GUID="368,190011,6000018,193856,190778" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
 		<Item>
 			<GUID>1404000865</GUID>
 		</Item>

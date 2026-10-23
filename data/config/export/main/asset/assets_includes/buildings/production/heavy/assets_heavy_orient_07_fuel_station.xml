@@ -14,6 +14,9 @@
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 				</Building>
+				<Blocking>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
 				<Cost>
 					<Costs>
 						<Item>

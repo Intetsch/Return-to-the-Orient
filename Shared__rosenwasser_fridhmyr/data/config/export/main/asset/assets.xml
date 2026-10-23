@@ -15,12 +15,8 @@
           <ProductCategory>11702</ProductCategory>
           <BasePrice>60</BasePrice>
           <CivLevel>1</CivLevel>
-          <AssociatedRegion>Africa</AssociatedRegion>
-            <ProductionRegions>
-              <Item>
-                <RegionType>Africa</RegionType>
-              </Item>
-            </ProductionRegions>
+          <AssociatedRegion>Meta</AssociatedRegion>
+          <ProductionRegions />
         </Product>
         <ExpeditionAttribute>
           <BaseMorale>0</BaseMorale>
@@ -35,12 +31,6 @@
     </Asset>
   </ModOp>
 
-  <!-- START ADD GOOD TO Intermediate Products-->
-  <ModOp Type="addNextSibling" GUID='502084,502048,502046,502047' Path="/Values/ProductList/List">
-      <Item>
-        <Product>1900100125</Product>
-      </Item>
-  </ModOp>
 
   <!-- Expedition -->
   <ModOp Type="add" GUID="800111">

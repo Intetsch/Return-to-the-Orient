@@ -1,0 +1,253 @@
+<ModOps>
+
+    <!-- Oriental museum modules: an Orient museum piece placed in the museum turns its module into one of these (the
+         items' ChangeModule), like vanilla's own item modules (124786 Fasil Ghebbi Ruins). Full copies of the vanilla
+         Auditorium/Wing/Plaza with the reskinned cfgs in buildings/orient/museum_orient; named after their item.
+         Unlocked together with the items by pool 1404001025. Generator gen_museum.js (2026-10-20). -->
+    <ModOp Type="addNextSibling" GUID="1010483">
+        <Asset>
+            <Template>CultureModule</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004700</GUID>
+                    <Name>culture_02_module_orient_abacus (museum module of item 1404001023)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item2.png</IconFilename>
+                    <InfoDescription>11665</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>2498</BuildingCategoryName>
+                    <PickingAsset>100454</PickingAsset>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>MuseumModule</InfluenceCostType>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>1404001023</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <BuildingModule>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_castle.png</ModuleMoodImage>
+                </BuildingModule>
+                <ItemContainer>
+                    <SocketAllocation>Culture;Museum</SocketAllocation>
+                </ItemContainer>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <QuestObject />
+                <AmbientMoodProvider />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureModule</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004701</GUID>
+                    <Name>culture_02_module_orient_prophet_stone (museum module of item 1404001022)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item1.png</IconFilename>
+                    <InfoDescription>11665</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>2498</BuildingCategoryName>
+                    <PickingAsset>100454</PickingAsset>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>MuseumModule</InfluenceCostType>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>1404001022</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <BuildingModule>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_museum_display.png</ModuleMoodImage>
+                </BuildingModule>
+                <ItemContainer>
+                    <SocketAllocation>Culture;Museum</SocketAllocation>
+                </ItemContainer>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <QuestObject />
+                <AmbientMoodProvider />
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>CultureModule</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404004702</GUID>
+                    <Name>culture_02_module_orient_palm_leaf (museum module of item 1404001024)</Name>
+                    <IconFilename>data/graphics/icons/items/museum_item3.png</IconFilename>
+                    <InfoDescription>11665</InfoDescription>
+                </Standard>
+                <Building>
+                    <BuildingCategoryName>2498</BuildingCategoryName>
+                    <PickingAsset>100454</PickingAsset>
+                    <AssociatedRegions>Moderate;Colony01</AssociatedRegions>
+                </Building>
+                <Blocking />
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <Ingredient>1010017</Ingredient>
+                            <Amount>500</Amount>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010196</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010205</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010218</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010207</Ingredient>
+                        </Item>
+                        <Item>
+                            <Ingredient>1010202</Ingredient>
+                        </Item>
+                    </Costs>
+                    <InfluenceCostType>MuseumModule</InfluenceCostType>
+                </Cost>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/museum_orient/museum_orient_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Mesh />
+                <Selection>
+                    <OnSelection>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <ActionList />
+                        </Values>
+                    </OnSelection>
+                    <Colors>
+                        <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                    </Colors>
+                </Selection>
+                <Text>
+                    <TextOverride>1404001024</TextOverride>
+                </Text>
+                <Constructable />
+                <Locked />
+                <SoundEmitter />
+                <FeedbackController />
+                <Infolayer />
+                <BuildingModule>
+                    <ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_museum_display.png</ModuleMoodImage>
+                </BuildingModule>
+                <ItemContainer>
+                    <SocketAllocation>Culture;Museum</SocketAllocation>
+                </ItemContainer>
+                <Attackable>
+                    <AttackableType>IslandBuilding</AttackableType>
+                    <HasRuinState>1</HasRuinState>
+                    <SelfHealPerHealTick>4</SelfHealPerHealTick>
+                </Attackable>
+                <QuestObject />
+                <AmbientMoodProvider />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

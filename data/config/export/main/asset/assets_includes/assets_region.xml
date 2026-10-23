@@ -7,7 +7,7 @@
                 <Standard>
                     <GUID>1404000006</GUID>
                     <Name>Region Orient</Name>
-                    <IconFilename>data/ui/2kimages/main/icons/icon_session_landoflions.png</IconFilename>
+                    <IconFilename>data/ui/2kimages/main/icons/icon_session_orient.png</IconFilename>
                 </Standard>
                 <Region>
                     <CoastGUIDReplacements>
@@ -389,6 +389,18 @@
                         <Item>
                             <Fertility>120018</Fertility>
                         </Item>
+                        <Item>
+                            <Fertility>1404005031</Fertility>
+                        </Item>
+                        <Item>
+                            <Fertility>1404004900</Fertility>
+                        </Item>
+                        <Item>
+                            <Fertility>1404004901</Fertility>
+                        </Item>
+                        <Item>
+                            <Fertility>1404004902</Fertility>
+                        </Item>
                     </AllowedFertilities>
                     <Trees>
                         <Lumberjack>
@@ -405,12 +417,7 @@
                     <Residence>1404000016</Residence>
                 </Region>
                 <Text>
-                    <LocaText>
-                        <English>
-                            <Text>Orient</Text>
-                            <Status>Exported</Status>
-                        </English>
-                    </LocaText>
+                    <TextOverride>1404000000</TextOverride>
                 </Text>
                 <Locked />
                 <RequiredSoundBanks>
@@ -1210,9 +1217,9 @@
             <StreetNormal>1404000845</StreetNormal>
             <StreetFast>119029</StreetFast>
             <Quay>101339</Quay>
-            <IrrigationPipe>112842</IrrigationPipe>
-            <Crossing_Pipe_StreetNormal>117786</Crossing_Pipe_StreetNormal>
-            <Crossing_Pipe_StreetFast>117786</Crossing_Pipe_StreetFast>
+            <IrrigationPipe>1404004229</IrrigationPipe>
+            <Crossing_Pipe_StreetNormal>1404004230</Crossing_Pipe_StreetNormal>
+            <Crossing_Pipe_StreetFast>1404004231</Crossing_Pipe_StreetFast>
         </Mod3>
     </ModOp>
 
@@ -1316,7 +1323,7 @@
                         <Template>CustomizableButtonConfig</Template>
                         <Values>
                             <CustomizableButtonConfig>
-                                <CustomizableBuilding>112842</CustomizableBuilding>
+                                <CustomizableBuilding>1404004229</CustomizableBuilding>
                                 <BuildingInfotip>500132</BuildingInfotip>
                             </CustomizableButtonConfig>
                         </Values>

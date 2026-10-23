@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404000379</GUID>
 					<Name>orientTent0102</Name>
-					<IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
+					<IconFilename>data/graphics/icons/ornaments/tent_var02.png</IconFilename>
 					<InfoDescription>1404001003</InfoDescription>
 				</Standard>
 				<Text>
@@ -24,6 +24,23 @@
 					<BuildingCategoryName>11149</BuildingCategoryName>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/tent.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/tent_var02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/tent_var03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/tent_var04.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/tent_var05.png</IconFilename>
+						</Item>
+					</VariationIcons>
 				</Building>
 				<Cost>
 					<Costs>
@@ -120,6 +137,12 @@
 						</Item>
 						<Item>
 							<Filename>data/graphics/buildings/orient/tent03/s_tent03.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/tent04/s_tent04.cfg</Filename>
+						</Item>
+						<Item>
+							<Filename>data/graphics/buildings/orient/tent05/s_tent05.cfg</Filename>
 						</Item>
 					</Variations>
 				</Object>

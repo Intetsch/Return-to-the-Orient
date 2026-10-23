@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005109</GUID>
+      <!-- Product | copper bar | copper bar -->
+      <Text>Lingot de cuivre</Text>
+    </Text>
+    <Text>
+      <GUID>1404005111</GUID>
+      <!-- Text | copper bar text | A soft metal that is frequently used in the Orient for delicate, intricate work.  -->
+      <Text>Un métal tendre, souvent utilisé en Orient pour les travaux délicats et minutieux.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

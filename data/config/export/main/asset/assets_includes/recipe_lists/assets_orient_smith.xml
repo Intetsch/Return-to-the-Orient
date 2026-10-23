@@ -1,0 +1,37 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135415">
+        <Asset>
+            <Template>RecipeList</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404008001</GUID>
+                    <Name>RecipeList_Orient_Smith</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/icon_highlife_manufactory.png</IconFilename>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Oriental Smith Patent List</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                </Text>
+                <RecipeList>
+                    <Recipes>
+                        <Item>
+                            <Recipe>1404000314</Recipe>
+                        </Item>
+                        <Item>
+                            <Recipe>1404005117</Recipe>
+                        </Item>
+                    </Recipes>
+                    <RecipeListType>Manufacture</RecipeListType>
+                    <RecipeListMoodImage>data/ui/2kimages/main/assets/recipebook/mood_images/recipebook_moodimages_artisans_workshop.png</RecipeListMoodImage>
+                    <RecipeListDescription>135980</RecipeListDescription>
+                </RecipeList>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

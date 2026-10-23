@@ -180,6 +180,86 @@
                 </Text>
             </Values>
         </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005070</GUID>
+                    <Name>Orient_Lab_Recipe_noble_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>After great advances in mushroom cultivation, the coveted noble mushrooms can now be produced industrially, which makes costly imports obsolete.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005071</GUID>
+                    <Name>Orient_Lab_Recipe_oud_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The mould Phaeoacremonium parasiticum, which is needed to make Oudh, has to be cultivated in a laboratory to provide the right growing conditions.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005075</GUID>
+                    <Name>Orient_Lab_RecipeList_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>The line between a groundbreaking culture and an uncontrolled spore invasion is vanishingly thin. Still, this is nothing short of a revolution in mycology – and the mad forest witch finally has a job, too.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005107</GUID>
+                    <Name>Orient_Roastery_Recipe_chickpeas_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>These freshly spiced chickpeas are the fruit of centuries of tradition and a snack for the working class.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Text</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005108</GUID>
+                    <Name>Orient_Roastery_Recipe_pistachios_Desc</Name>
+                </Standard>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Hot, salted pistachios are a treat for everyone, especially fresh off the grill.</Text>
+                        </English>
+                    </LocaText>
+                </Text>
+            </Values>
+        </Asset>
     </ModOp>
 
 </ModOps>

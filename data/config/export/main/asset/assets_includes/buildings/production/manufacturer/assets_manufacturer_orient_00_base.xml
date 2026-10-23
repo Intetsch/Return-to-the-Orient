@@ -96,7 +96,7 @@
 				<Object>
 					<Variations>
 						<Item>
-							<Filename>data/graphics/buildings/orient/goldsmith/s_goldsmith.cfg</Filename>
+							<Filename>data/graphics/buildings/orient/sbm/iaam/orient/004handwerk/kupferschmelze/s_copper_smelter.cfg</Filename>
 						</Item>
 					</Variations>
 					<Skins>
@@ -166,7 +166,7 @@
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>

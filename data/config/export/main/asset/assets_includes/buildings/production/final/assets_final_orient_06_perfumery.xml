@@ -150,6 +150,11 @@
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
+						<Item>
+							<Product>1404005115</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
 					</FactoryInputs>
 					<FactoryOutputs>
 						<Item>
@@ -163,7 +168,7 @@
 				</FactoryBase>
 				<LogisticNode/>
 				<AmbientMoodProvider>
-					<Murmur>Africa_Factories</Murmur>
+					<Murmur>None</Murmur>
 				</AmbientMoodProvider>
 				<Maintenance>
 					<Maintenances>
