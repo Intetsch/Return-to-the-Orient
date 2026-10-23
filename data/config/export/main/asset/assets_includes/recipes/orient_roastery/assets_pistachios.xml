@@ -15,16 +15,16 @@
                 <Recipe>
                     <RecipeBuilding>1404005027</RecipeBuilding>
                     <RecipeDescriptionText>1404005108</RecipeDescriptionText>
-                    <RecipeImage>data/ui/2kimages/main/assets/recipebook/orient_manufacturer/recipebook_orient_manufacturer_ceremonial_sabers.png</RecipeImage>
+                    <RecipeImage>data/ui/modgraphics/pistachio_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
-                            <PosX>350</PosX>
-                            <PosY>380</PosY>
-                            <UICirclePointer>West</UICirclePointer>
+                            <PosX>400</PosX>
+                            <PosY>395</PosY>
+                            <UICirclePointer>NorthWest</UICirclePointer>
                         </Item>
                         <Item>
-                            <PosX>160</PosX>
-                            <PosY>70</PosY>
+                            <PosX>40</PosX>
+                            <PosY>30</PosY>
                             <UICirclePointer>SouthEast</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
