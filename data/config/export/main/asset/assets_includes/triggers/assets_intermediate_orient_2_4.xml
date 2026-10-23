@@ -604,7 +604,7 @@
             </Values>
         </Asset>
 
-        <!-- Export: Incense for 6000 Artistas (unhide) -->
+        <!-- Export: Incense for 4000 Artistas (unhide) -->
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -637,7 +637,7 @@
                                                 <ConditionPlayerCounter>
                                                     <PlayerCounter>PopulationByLevel</PlayerCounter>
                                                     <Context>5403</Context>
-                                                    <CounterAmount>6000</CounterAmount>
+                                                    <CounterAmount>4000</CounterAmount>
                                                 </ConditionPlayerCounter>
                                             </Values>
                                         </TriggerCondition>

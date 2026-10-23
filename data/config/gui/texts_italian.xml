@@ -4462,8 +4462,373 @@
     </Text>
     <Text>
       <GUID>1404007013</GUID>
-      <!-- Text | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. | Socket any ship or airship item in the lighthouse. Its effects apply to all your ships and airships in every region. Special abilities, flags and special ammunition are not passed on. Only one lighthouse can be built per island. -->
-      <Text>Inserisci qualsiasi oggetto per navi o dirigibili nel faro. I suoi effetti si applicano a tutte le tue navi e a tutti i tuoi dirigibili in tutte le regioni. Abilità speciali, bandiere e munizioni speciali non vengono trasferite. Si può costruire un solo faro per isola.</Text>
+      <!-- Text | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. | Socket a beacon in the lighthouse. Each beacon strengthens all your ships of one type in every region. Madame Kahina now and then offers beacons in the Orient. Only one lighthouse can be built per island. -->
+      <Text>Inserisci un fuoco nel faro. Ogni fuoco potenzia tutte le tue navi di un tipo in tutte le regioni. Madame Kahina offre ogni tanto dei fuochi in Oriente. Si può costruire un solo faro per isola.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007200</GUID>
+      <!-- Text | Beacon of the Harbour | Beacon of the Harbour -->
+      <Text>Fuoco del porto</Text>
+    </Text>
+    <Text>
+      <GUID>1404007201</GUID>
+      <!-- Text | Thrifty Beacon of the Shipwrights | Thrifty Beacon of the Shipwrights -->
+      <Text>Fuoco parsimonioso dei carpentieri navali</Text>
+    </Text>
+    <Text>
+      <GUID>1404007202</GUID>
+      <!-- Text | Steadfast Beacon of the Fleet | Steadfast Beacon of the Fleet -->
+      <Text>Fuoco saldo della flotta</Text>
+    </Text>
+    <Text>
+      <GUID>1404007203</GUID>
+      <!-- Text | Eternal Beacon of the Seven Seas | Eternal Beacon of the Seven Seas -->
+      <Text>Fuoco eterno dei sette mari</Text>
+    </Text>
+    <Text>
+      <GUID>1404007204</GUID>
+      <!-- Text | Beacon of the Dhows | Beacon of the Dhows -->
+      <Text>Fuoco dei dhow</Text>
+    </Text>
+    <Text>
+      <GUID>1404007205</GUID>
+      <!-- Text | Swift Beacon of the Trade Winds | Swift Beacon of the Trade Winds -->
+      <Text>Fuoco rapido degli alisei</Text>
+    </Text>
+    <Text>
+      <GUID>1404007206</GUID>
+      <!-- Text | Vigilant Beacon of the Frigates | Vigilant Beacon of the Frigates -->
+      <Text>Fuoco vigile delle fregate</Text>
+    </Text>
+    <Text>
+      <GUID>1404007207</GUID>
+      <!-- Text | Radiant Beacon of the Monsoon | Radiant Beacon of the Monsoon -->
+      <Text>Fuoco radioso del monsone</Text>
+    </Text>
+    <Text>
+      <GUID>1404007208</GUID>
+      <!-- Text | Beacon of the Stokers | Beacon of the Stokers -->
+      <Text>Fuoco dei fuochisti</Text>
+    </Text>
+    <Text>
+      <GUID>1404007209</GUID>
+      <!-- Text | Tireless Beacon of the Boilers | Tireless Beacon of the Boilers -->
+      <Text>Fuoco instancabile delle caldaie</Text>
+    </Text>
+    <Text>
+      <GUID>1404007210</GUID>
+      <!-- Text | Relentless Beacon of the Steamers | Relentless Beacon of the Steamers -->
+      <Text>Fuoco implacabile dei piroscafi</Text>
+    </Text>
+    <Text>
+      <GUID>1404007211</GUID>
+      <!-- Text | Golden Beacon of the Merchants | Golden Beacon of the Merchants -->
+      <Text>Fuoco dorato dei mercanti</Text>
+    </Text>
+    <Text>
+      <GUID>1404007212</GUID>
+      <!-- Text | Beacon of the Gunners | Beacon of the Gunners -->
+      <Text>Fuoco dei cannonieri</Text>
+    </Text>
+    <Text>
+      <GUID>1404007213</GUID>
+      <!-- Text | Fierce Beacon of the Broadside | Fierce Beacon of the Broadside -->
+      <Text>Fuoco feroce della bordata</Text>
+    </Text>
+    <Text>
+      <GUID>1404007214</GUID>
+      <!-- Text | Thundering Beacon of the Admiralty | Thundering Beacon of the Admiralty -->
+      <Text>Fuoco tonante dell'Ammiragliato</Text>
+    </Text>
+    <Text>
+      <GUID>1404007215</GUID>
+      <!-- Text | Unbreakable Beacon of the Navy | Unbreakable Beacon of the Navy -->
+      <Text>Fuoco indistruttibile della Marina</Text>
+    </Text>
+    <Text>
+      <GUID>1404007216</GUID>
+      <!-- Text | Beacon of the Skies | Beacon of the Skies -->
+      <Text>Fuoco dei cieli</Text>
+    </Text>
+    <Text>
+      <GUID>1404007217</GUID>
+      <!-- Text | Buoyant Beacon of the Clouds | Buoyant Beacon of the Clouds -->
+      <Text>Fuoco fluttuante delle nuvole</Text>
+    </Text>
+    <Text>
+      <GUID>1404007218</GUID>
+      <!-- Text | Steady Beacon of the Airmen | Steady Beacon of the Airmen -->
+      <Text>Fuoco costante degli aeronauti</Text>
+    </Text>
+    <Text>
+      <GUID>1404007219</GUID>
+      <!-- Text | Soaring Beacon of the Djinn | Soaring Beacon of the Djinn -->
+      <Text>Fuoco svettante del jinn</Text>
+    </Text>
+    <Text>
+      <GUID>1404007220</GUID>
+      <!-- Text | Beacon of the Pearl Divers | Beacon of the Pearl Divers -->
+      <Text>Fuoco dei pescatori di perle</Text>
+    </Text>
+    <Text>
+      <GUID>1404007221</GUID>
+      <!-- Text | Glimmering Beacon of the Deep | Glimmering Beacon of the Deep -->
+      <Text>Fuoco scintillante degli abissi</Text>
+    </Text>
+    <Text>
+      <GUID>1404007222</GUID>
+      <!-- Text | Mysterious Beacon of the Sunken Hoards | Mysterious Beacon of the Sunken Hoards -->
+      <Text>Fuoco misterioso dei tesori sommersi</Text>
+    </Text>
+    <Text>
+      <GUID>1404007223</GUID>
+      <!-- Text | Fabled Beacon of the Drowned Kingdom | Fabled Beacon of the Drowned Kingdom -->
+      <Text>Fuoco leggendario del regno sommerso</Text>
+    </Text>
+    <Text>
+      <GUID>1404007230</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece. | Every harbour master knows: a ship that sees the light comes home in one piece. -->
+      <Text>Ogni capitano di porto lo sa: una nave che vede la luce torna a casa tutta intera.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007231</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow. -->
+      <Text>Tenuto acceso dalla gilda dei carpentieri, che preferiscono riparare un'asse oggi che uno scafo domani.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007232</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it. | Its flame has never wavered, and neither shall the ships that sail by it. -->
+      <Text>La sua fiamma non ha mai vacillato, e nemmeno le navi che la seguono.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007233</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once. | Legend says its light can be seen from every coast of the world at once. -->
+      <Text>La leggenda dice che la sua luce si vede da tutte le coste del mondo nello stesso istante.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007234</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you. | The old dhow captains swear by it: follow the light, and the wind will follow you. -->
+      <Text>I vecchi capitani dei dhow lo giurano: segui la luce e il vento seguirà te.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007235</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust. | Lit when the trade winds turn, so no merchant misses a single gust. -->
+      <Text>Si accende quando girano gli alisei, così nessun mercante perde nemmeno una raffica.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007236</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot. | From its gallery the watchmen spot an enemy sail long before the first shot. -->
+      <Text>Dalla sua balconata le vedette scorgono una vela nemica molto prima del primo colpo.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007237</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts. -->
+      <Text>Quando arriva il monsone, il suo fuoco blu gonfia ogni vela da qui alle coste delle spezie.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007238</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out. -->
+      <Text>Un bagliore per i fuochisti sul molo: prima entra il carbone, prima salpa la nave.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007239</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it. | It burns the same coal as the boilers it watches over, and wastes none of it. -->
+      <Text>Brucia lo stesso carbone delle caldaie che sorveglia, senza sprecarne nulla.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007240</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning. | Whatever strikes the hull, the paddle wheels keep turning. -->
+      <Text>Qualunque cosa colpisca lo scafo, le ruote a pale continuano a girare.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007241</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses. | Where its golden light shines, the bazaars open their gates and their purses. -->
+      <Text>Dove splende la sua luce dorata, i bazar aprono le porte e le borse.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007242</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast. | A red light for the gunners: aim true, fire fast. -->
+      <Text>Una luce rossa per i cannonieri: mira giusta, fuoco rapido.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007243</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light. | Neither sail nor smokestack escapes a broadside fired by its red light. -->
+      <Text>Né vela né ciminiera sfugge a una bordata sparata alla sua luce rossa.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007244</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare. | The admirals of the Sultan's fleet read their orders by its glare. -->
+      <Text>Gli ammiragli della flotta del sultano leggono i loro ordini al suo bagliore.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007245</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon. | Forged for a fleet that bends to no storm and breaks under no cannon. -->
+      <Text>Forgiato per una flotta che non si piega a nessuna tempesta e non cede a nessun cannone.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007246</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home. | A green light high above the minarets, guiding the airships home. -->
+      <Text>Una luce verde alta sopra i minareti, per guidare a casa i dirigibili.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007247</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon. | Its warm glow lifts the airships like the desert air at noon. -->
+      <Text>Il suo caldo bagliore solleva i dirigibili come l'aria del deserto a mezzogiorno.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007248</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold. | Airmen trust it more than any compass: as long as it shines green, the engines hold. -->
+      <Text>Gli aeronauti si fidano di lui più che di qualsiasi bussola: finché brilla verde, i motori reggono.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007249</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings. | Some say a djinn lives in the lens and carries every airship on its wings. -->
+      <Text>Si dice che nella lente viva un jinn che porta ogni dirigibile sulle sue ali.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007250</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck. | The pearl divers of the gulf light it before every dive, for luck. -->
+      <Text>I pescatori di perle del golfo lo accendono prima di ogni immersione, per buona fortuna.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007251</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells. | Its purple glow reaches down to where the sand hides more than shells. -->
+      <Text>Il suo bagliore viola arriva fin dove la sabbia nasconde più che conchiglie.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007252</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty. | No one knows who first lit it, only that the wrecks it shines upon are never empty. -->
+      <Text>Nessuno sa chi l'abbia acceso per primo: solo che i relitti che illumina non sono mai vuoti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007253</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole. -->
+      <Text>Acceso, si dice, dall'ultimo custode di un regno che il mare ha inghiottito per intero.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007260</GUID>
+      <!-- Text | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Every harbour master knows: a ship that sees the light comes home in one piece.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
+      <Text>Ogni capitano di porto lo sa: una nave che vede la luce torna a casa tutta intera.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007261</GUID>
+      <!-- Text | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Kept lit by the shipwrights' guild, who would rather mend a plank today than a hull tomorrow.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
+      <Text>Tenuto acceso dalla gilda dei carpentieri, che preferiscono riparare un'asse oggi che uno scafo domani.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007262</GUID>
+      <!-- Text | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Its flame has never wavered, and neither shall the ships that sail by it.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
+      <Text>La sua fiamma non ha mai vacillato, e nemmeno le navi che la seguono.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007263</GUID>
+      <!-- Text | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. | Legend says its light can be seen from every coast of the world at once.<br/>Socket in an Oriental Lighthouse: all your ships in every region receive these effects. -->
+      <Text>La leggenda dice che la sua luce si vede da tutte le coste del mondo nello stesso istante.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007264</GUID>
+      <!-- Text | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | The old dhow captains swear by it: follow the light, and the wind will follow you.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
+      <Text>I vecchi capitani dei dhow lo giurano: segui la luce e il vento seguirà te.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vela in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007265</GUID>
+      <!-- Text | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | Lit when the trade winds turn, so no merchant misses a single gust.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
+      <Text>Si accende quando girano gli alisei, così nessun mercante perde nemmeno una raffica.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vela in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007266</GUID>
+      <!-- Text | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | From its gallery the watchmen spot an enemy sail long before the first shot.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
+      <Text>Dalla sua balconata le vedette scorgono una vela nemica molto prima del primo colpo.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vela in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007267</GUID>
+      <!-- Text | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. | When the monsoon breaks, its blue fire fills every sail from here to the spice coasts.<br/>Socket in an Oriental Lighthouse: all your sail ships in every region receive these effects. -->
+      <Text>Quando arriva il monsone, il suo fuoco blu gonfia ogni vela da qui alle coste delle spezie.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vela in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007268</GUID>
+      <!-- Text | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | A glow for the stokers on the quay: the faster the coal goes in, the sooner the ship goes out.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
+      <Text>Un bagliore per i fuochisti sul molo: prima entra il carbone, prima salpa la nave.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vapore in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007269</GUID>
+      <!-- Text | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | It burns the same coal as the boilers it watches over, and wastes none of it.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
+      <Text>Brucia lo stesso carbone delle caldaie che sorveglia, senza sprecarne nulla.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vapore in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007270</GUID>
+      <!-- Text | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Whatever strikes the hull, the paddle wheels keep turning.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
+      <Text>Qualunque cosa colpisca lo scafo, le ruote a pale continuano a girare.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vapore in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007271</GUID>
+      <!-- Text | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. | Where its golden light shines, the bazaars open their gates and their purses.<br/>Socket in an Oriental Lighthouse: all your steamships in every region receive these effects. -->
+      <Text>Dove splende la sua luce dorata, i bazar aprono le porte e le borse.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi a vapore in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007272</GUID>
+      <!-- Text | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | A red light for the gunners: aim true, fire fast.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
+      <Text>Una luce rossa per i cannonieri: mira giusta, fuoco rapido.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi da guerra in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007273</GUID>
+      <!-- Text | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Neither sail nor smokestack escapes a broadside fired by its red light.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
+      <Text>Né vela né ciminiera sfugge a una bordata sparata alla sua luce rossa.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi da guerra in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007274</GUID>
+      <!-- Text | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | The admirals of the Sultan's fleet read their orders by its glare.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
+      <Text>Gli ammiragli della flotta del sultano leggono i loro ordini al suo bagliore.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi da guerra in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007275</GUID>
+      <!-- Text | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. | Forged for a fleet that bends to no storm and breaks under no cannon.<br/>Socket in an Oriental Lighthouse: all your warships in every region receive these effects. -->
+      <Text>Forgiato per una flotta che non si piega a nessuna tempesta e non cede a nessun cannone.&lt;br/&gt;Da inserire in un Faro orientale: tutte le tue navi da guerra in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007276</GUID>
+      <!-- Text | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | A green light high above the minarets, guiding the airships home.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
+      <Text>Una luce verde alta sopra i minareti, per guidare a casa i dirigibili.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi dirigibili in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007277</GUID>
+      <!-- Text | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Its warm glow lifts the airships like the desert air at noon.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
+      <Text>Il suo caldo bagliore solleva i dirigibili come l'aria del deserto a mezzogiorno.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi dirigibili in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007278</GUID>
+      <!-- Text | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Airmen trust it more than any compass: as long as it shines green, the engines hold.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
+      <Text>Gli aeronauti si fidano di lui più che di qualsiasi bussola: finché brilla verde, i motori reggono.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi dirigibili in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007279</GUID>
+      <!-- Text | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. | Some say a djinn lives in the lens and carries every airship on its wings.<br/>Socket in an Oriental Lighthouse: all your airships in every region receive these effects. -->
+      <Text>Si dice che nella lente viva un jinn che porta ogni dirigibile sulle sue ali.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi dirigibili in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007280</GUID>
+      <!-- Text | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | The pearl divers of the gulf light it before every dive, for luck.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
+      <Text>I pescatori di perle del golfo lo accendono prima di ogni immersione, per buona fortuna.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi recuperatori in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007281</GUID>
+      <!-- Text | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Its purple glow reaches down to where the sand hides more than shells.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
+      <Text>Il suo bagliore viola arriva fin dove la sabbia nasconde più che conchiglie.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi recuperatori in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007282</GUID>
+      <!-- Text | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | No one knows who first lit it, only that the wrecks it shines upon are never empty.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
+      <Text>Nessuno sa chi l'abbia acceso per primo: solo che i relitti che illumina non sono mai vuoti.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi recuperatori in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007283</GUID>
+      <!-- Text | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. | Lit, they say, by the last keeper of a kingdom the sea swallowed whole.<br/>Socket in an Oriental Lighthouse: all your salvagers in every region receive these effects. -->
+      <Text>Acceso, si dice, dall'ultimo custode di un regno che il mare ha inghiottito per intero.&lt;br/&gt;Da inserire in un Faro orientale: tutti i tuoi recuperatori in tutte le regioni ricevono questi effetti.</Text>
+    </Text>
+    <Text>
+      <GUID>1404007041</GUID>
+      <!-- Text | Lighthouse | Lighthouse -->
+      <Text>Faro</Text>
     </Text>
     <Text>
       <GUID>1404008000</GUID>

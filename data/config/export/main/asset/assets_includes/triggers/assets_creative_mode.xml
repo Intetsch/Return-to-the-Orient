@@ -244,6 +244,9 @@
                                                 <Asset>1404007002</Asset>
                                             </Item>
                                             <Item>
+                                                <Asset>1404007046</Asset>
+                                            </Item>
+                                            <Item>
                                                 <Asset>1404004801</Asset>
                                             </Item>
                                             <Item>
@@ -508,14 +511,18 @@
                             </TriggerAction>
                         </Item>
                         <Item>
-                            <!-- Oriental Lighthouse 1404004800: unlocked per island by assets_lighthouse_unique.xml -->
+                            <!-- Oriental Lighthouse 1404004800 (one per island through BuildingUnique, 5 build permits) -->
                             <TriggerAction>
-                                <Template>ActionRegisterTrigger</Template>
+                                <Template>ActionUnlockAsset</Template>
                                 <Values>
                                     <Action/>
-                                    <ActionRegisterTrigger>
-                                        <TriggerAsset>1404007022</TriggerAsset>
-                                    </ActionRegisterTrigger>
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1404004800</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
                                 </Values>
                             </TriggerAction>
                         </Item>

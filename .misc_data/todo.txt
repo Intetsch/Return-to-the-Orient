@@ -30,13 +30,14 @@ v0.6.1
 
 v0.7.0
 - Light house monument
-    Item boost should only apply to the type of the item target type like sail ship or warship
 - Construction material rework
     Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
     Palm lumber jack needs irrigation
 - Letting AI settle the region (Adding Harbour Defenses + Logic)
 
 Before v1.0.0
+- Check quests
+- Check loading screen hints
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files

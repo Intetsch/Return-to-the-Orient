@@ -1,7 +1,9 @@
 // Generates Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml (CRLF).
 // Usage (from the repo root): node .misc_data/tools/trigger_reset/gen_reset.js
 // When a new progression trigger is added, put it into `tiers` in tier order and regenerate.
+// Regenerate for every release too: the reset runs once per save for each main mod version.
 const fs = require('fs');
+const path = require('path');
 const STEP = 1000; // ms between two re-registrations
 const tiers = [
   ['1404000792', '1.0'],
@@ -59,53 +61,35 @@ function step(guid, comment, delay, base) {
   ]);
 }
 
-function subTrigger(base, conditionLines) {
+function register(guid, comment, unregister, base) {
   return block(base, [
+    `<!-- ${comment} -->`,
     `<Item>`,
-    `    <SubTrigger>`,
-    `        <Template>AutoCreateTrigger</Template>`,
+    `    <TriggerAction>`,
+    `        <Template>ActionRegisterTrigger</Template>`,
     `        <Values>`,
-    `            <Trigger>`,
-    `                <TriggerCondition>`,
-    ...conditionLines.map((l) => '                    ' + l),
-    `                </TriggerCondition>`,
-    `            </Trigger>`,
+    `            <Action />`,
+    `            <ActionRegisterTrigger>`,
+    `                <TriggerAsset>${guid}</TriggerAsset>`,
+    ...(unregister ? [`                <UnregisterTrigger>1</UnregisterTrigger>`] : []),
+    `            </ActionRegisterTrigger>`,
     `        </Values>`,
-    `    </SubTrigger>`,
+    `    </TriggerAction>`,
     `</Item>`,
   ]);
 }
 
-const NORIA = '1404000212';
-
-const negatable = (negate) => negate
-  ? [`    <ConditionPropsNegatable>`, `        <NegateCondition>1</NegateCondition>`, `    </ConditionPropsNegatable>`]
-  : [`    <ConditionPropsNegatable />`];
-
-// A state, not an event: true for as long as a noria is selected
-const noriaSelected = (negate) => [
-  `<Template>ConditionObjectSelected</Template>`,
+// IsBaseAutoCreateAsset means the template default, which is ConditionAlwaysTrue for triggers
+const condition = (template) => [
+  template === 'ConditionAlwaysTrue' ? `<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>` : `<Template>${template}</Template>`,
   `<Values>`,
   `    <Condition />`,
-  `    <ConditionObjectSelected />`,
-  `    <ConditionPropsSessionSettings />`,
-  `    <ObjectFilter>`,
-  `        <ObjectGUID>${NORIA}</ObjectGUID>`,
-  `    </ObjectFilter>`,
-  ...negatable(negate),
+  `    <${template} />`,
   `</Values>`,
 ];
 
-const creativeMode = (negate) => [
-  `<Template>ConditionIsCreativeMode</Template>`,
-  `<Values>`,
-  `    <Condition />`,
-  `    <ConditionIsCreativeMode />`,
-  ...negatable(negate),
-  `</Values>`,
-];
-
-function trigger(guid, name, subs, actions) {
+// `actions` is already indented for its place inside <TriggerActions>
+function trigger(guid, name, autoRegister, conditionTemplate, actions) {
   return [
     block(8, [
       `<Asset>`,
@@ -117,32 +101,15 @@ function trigger(guid, name, subs, actions) {
       `        </Standard>`,
       `        <Trigger>`,
       `            <TriggerCondition>`,
-      ...noriaSelected(false).map((l) => '                ' + l),
+      ...condition(conditionTemplate).map((l) => '                ' + l),
       `            </TriggerCondition>`,
-      `            <SubTriggers>`,
+      ...(actions ? [`            <TriggerActions>`] : []),
     ]),
-    subs,
+    ...(actions ? [actions, block(8, [`            </TriggerActions>`])] : []),
     block(8, [
-      `            </SubTriggers>`,
-      `            <TriggerActions>`,
-    ]),
-    actions,
-    block(8, [
-      `            </TriggerActions>`,
-      // Re-arms once the noria is deselected (like vanilla 112094). An ActionResetTrigger would
-      // re-arm at once and fire again and again while the noria stays selected.
-      `            <ResetTrigger>`,
-      `                <Template>AutoCreateTrigger</Template>`,
-      `                <Values>`,
-      `                    <Trigger>`,
-      `                        <TriggerCondition>`,
-      ...noriaSelected(true).map((l) => '                            ' + l),
-      `                        </TriggerCondition>`,
-      `                    </Trigger>`,
-      `                </Values>`,
-      `            </ResetTrigger>`,
       `        </Trigger>`,
       `        <TriggerSetup>`,
+      ...(autoRegister ? [] : [`            <AutoRegisterTrigger>0</AutoRegisterTrigger>`]),
       `            <UsedBySecondParties>0</UsedBySecondParties>`,
       `        </TriggerSetup>`,
       `    </Values>`,
@@ -151,72 +118,52 @@ function trigger(guid, name, subs, actions) {
   ].join('\n');
 }
 
-const normalSteps = tiers.map(([g, l], i) => step(g, `Intermediate Orient ${l}`, (i + 1) * STEP, 24)).join('\n');
-const creativeSteps = step('1404000791', 'InitCreativeMode-Orient', STEP, 24);
+// One run trigger per main mod version: a trigger that is new to a save registers itself on load and
+// fires once, so the reset runs exactly once per save after each update. x.y.z -> 1404006000 + 100x + 10y + z.
+const version = JSON.parse(fs.readFileSync(path.join(__dirname, '../../../modinfo.json'), 'utf8')).Version;
+const [major, minor, patch] = version.split('.').map(Number);
+if (minor > 9 || patch > 9 || major > 9) throw new Error(`version ${version} does not fit the run GUID scheme`);
+const RUN_GUID = 1404006000 + major * 100 + minor * 10 + patch;
+const BODY_GUID = '1404004003';
 
-// Saves keep their own copy of a pending trigger. Re-registering 1404004000/4001 once replaces
-// the session-enter copies in older saves with the current noria-selected version.
-const upgrade = block(8, [
-  `<Asset>`,
-  `    <Template>Trigger</Template>`,
-  `    <Values>`,
-  `        <Standard>`,
-  `            <GUID>1404004002</GUID>`,
-  `            <Name>Orient trigger reset upgrade to noria selection</Name>`,
-  `        </Standard>`,
-  `        <Trigger>`,
-  `            <TriggerCondition>`,
-  `                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>`,
-  `                <Values>`,
-  `                    <Condition />`,
-  `                    <ConditionAlwaysTrue />`,
-  `                </Values>`,
-  `            </TriggerCondition>`,
-  `            <TriggerActions>`,
-  ...['1404004000', '1404004001'].flatMap((g) => [
-    `                <Item>`,
-    `                    <TriggerAction>`,
-    `                        <Template>ActionRegisterTrigger</Template>`,
-    `                        <Values>`,
-    `                            <Action />`,
-    `                            <ActionRegisterTrigger>`,
-    `                                <TriggerAsset>${g}</TriggerAsset>`,
-    `                            </ActionRegisterTrigger>`,
-    `                        </Values>`,
-    `                    </TriggerAction>`,
-    `                </Item>`,
-  ]),
-  `            </TriggerActions>`,
-  `        </Trigger>`,
-  `        <TriggerSetup>`,
-  `            <UsedBySecondParties>0</UsedBySecondParties>`,
-  `        </TriggerSetup>`,
-  `    </Values>`,
-  `</Asset>`,
-]);
+const bodySteps = [
+  ...tiers.map(([g, l], i) => step(g, `Intermediate Orient ${l}`, (i + 1) * STEP, 24)),
+  // Creative games: the creative trigger unlocks everything. It stays pending in normal games anyway.
+  step('1404000791', 'InitCreativeMode-Orient', (tiers.length + 1) * STEP, 24),
+].join('\n');
+
+const runActions = [
+  // Older saves still hold the repeating resets (session enter, then noria selection) with their
+  // own copy of the actions. Drop them, otherwise they keep firing.
+  register('1404004000', 'Old repeating reset', true, 24),
+  register('1404004001', 'Old repeating creative reset', true, 24),
+  register('1404004002', 'Old upgrade to noria selection', true, 24),
+  register(BODY_GUID, 'Re-run all progression triggers', false, 24),
+].join('\n');
 
 const out = [
   `<ModOps>`,
   ``,
-  `    <!-- Re-runs the Orient unlock triggers every time the player selects a noria.`,
+  `    <!-- Re-runs the Orient unlock triggers once per save after every update of the main mod.`,
   `         A fired trigger is gone from the savegame, and it expanded its pools when it fired.`,
   `         Buildings that a later update adds to such a pool therefore stay locked in older saves.`,
   `         ActionRegisterTrigger registers a fired trigger again (or re-creates a pending one), so it fires`,
   `         again with the current pool contents as soon as its population condition is met.`,
   ``,
   `         The triggers run one after another in tier order, ${STEP} ms apart, like normal progression.`,
-  `         The reset re-arms when the noria is deselected, so select it again for the next run.`,
   `         Add new progression triggers here too. -->`,
   `    <ModOp Type="addNextSibling" GUID="10138">`,
   ``,
-  `        <!-- Normal games: re-run all progression triggers in tier order -->`,
-  trigger('1404004000', 'Orient trigger reset on noria selected', subTrigger(24, creativeMode(true)), normalSteps),
+  `        <!-- Fires once per save for main mod version ${version} -->`,
+  trigger(RUN_GUID, `Orient trigger reset run ${version}`, true, 'ConditionAlwaysTrue', runActions),
   ``,
-  `        <!-- Creative games: the creative trigger unlocks everything, so re-running it is enough -->`,
-  trigger('1404004001', 'Orient creative trigger reset on noria selected', subTrigger(24, creativeMode(false)), creativeSteps),
+  `        <!-- Only runs when registered by a run trigger -->`,
+  trigger(BODY_GUID, 'Orient trigger reset', false, 'ConditionAlwaysTrue', bodySteps),
   ``,
-  `        <!-- Older saves: swap in the noria-selected version of both resets -->`,
-  upgrade,
+  `        <!-- Retired repeating resets, kept so older saves that still hold them can unregister them -->`,
+  trigger('1404004000', 'Orient trigger reset (retired)', false, 'ConditionAlwaysFalse', null),
+  trigger('1404004001', 'Orient creative trigger reset (retired)', false, 'ConditionAlwaysFalse', null),
+  trigger('1404004002', 'Orient trigger reset upgrade (retired)', false, 'ConditionAlwaysFalse', null),
   ``,
   `    </ModOp>`,
   ``,
@@ -224,6 +171,6 @@ const out = [
   ``,
 ].join('\n');
 
-const target = process.argv[2] || require('path').join(__dirname, '../../../Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml');
+const target = process.argv[2] || path.join(__dirname, '../../../Natoncy_orient_trigger_reset/data/config/export/main/asset/assets.xml');
 fs.writeFileSync(target, out.replace(/\r?\n/g, '\r\n'));
-console.log('written', target);
+console.log('written', target, 'run trigger', RUN_GUID);
