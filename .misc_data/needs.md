@@ -75,18 +75,18 @@
     - Pearls (New World)
     - Wool (Old World)
 
-# Needs in other Worlds
+# Needs in other Worlds (FloorLevel) (unlock)
 
 - OW:
-  - Artisans: Hummus
-  - Engineers: Astrolabes
-  - Investors: Lokum
-  - Magnates: Oudh-Perfume
+  - (1) (300) Artisans: Hummus
+  - (1) (300) Engineers: Astrolabes
+  - (2) (1000) Investors: Lokum
+  - (2) (2400) Magnates: Oudh-Perfume
 - Enbesa:
-  - Elders: Spiced Tea
-  - Shepherds: Roasted chickpeas
+  - (2) (1000) Elders: Spiced Tea
+  - (1) (300) Shepherds: Roasted chickpeas
 - NW:
-  - Artista: Incense
-  - Obrera: Candied Dates
+  - (2) (1900) Artista: Incense
+  - (1) (600) Obrera: Candied Dates
 - Arctic:
-  - Technicians: Arak
+  - (2) (1000) Technicians: Arak
