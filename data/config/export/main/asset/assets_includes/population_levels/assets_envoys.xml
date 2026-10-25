@@ -119,6 +119,74 @@
                             <IsConsideredByAI>1</IsConsideredByAI>
                         </Item>
 
+                        <!-- Skycraper FloorLevel 1 -->
+                        <Item>
+                            <Product>1404005087</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>1</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1404005131</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>1</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1400201065</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>1</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1400201056</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>1</RequiredFloorLevel>
+                        </Item>
+
+                        <!-- Skycraper FloorLevel 2 -->
+                        <Item>
+                            <Product>1400201053</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>2</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1400201044</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>2</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1440306</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>2</RequiredFloorLevel>
+                        </Item>
+                        <Item>
+                            <Product>1404005120</Product>
+                            <Amount>0.00015</Amount>
+                            <SupplyWeight>1</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredFloorLevel>2</RequiredFloorLevel>
+                        </Item>
+
                         <!-- Luxury (Nomads) -->
                         <Item>
                             <Product>1404000235</Product>
@@ -399,6 +467,18 @@
         <Item>
             <PopulationGuid>1404000011</PopulationGuid>
             <PopulationFactor>2.4</PopulationFactor>
+        </Item>
+    </ModOp>
+
+    <!-- add Oudh Perfume if NH is present -->
+    <ModOp Type="addNextSibling" GUID="1404000011" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1400201053']" Condition="#new_horizons_session">
+        <Item>
+            <Product>1404005059</Product>
+            <Amount>0.000222</Amount>
+            <SupplyWeight>1</SupplyWeight>
+            <MoneyValue>12</MoneyValue>
+            <IsConsideredByAI>1</IsConsideredByAI>
+            <RequiredFloorLevel>2</RequiredFloorLevel>
         </Item>
     </ModOp>
 
