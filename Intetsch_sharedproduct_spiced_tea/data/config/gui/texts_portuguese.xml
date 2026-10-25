@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1400201044</GUID>
+      <!-- Product | spiced tea | Spiced Tea -->
+      <Text>Chá de especiarias</Text>
+    </Text>
+    <Text>
+      <GUID>1400201046</GUID>
+      <!-- Text | spiced tea fluff text | An oriental spiced tea, that is said to have healing properties. -->
+      <Text>Um chá oriental de especiarias ao qual, em muitas regiões, são atribuídas propriedades curativas.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

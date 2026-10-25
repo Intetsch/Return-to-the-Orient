@@ -149,46 +149,62 @@
                             <Product>1404000361</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>2</ResearchValue>
+                            <ResearchValue>4</ResearchValue>
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000003</Population>
+                                <MinPopulationAmount>1000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000357</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>2</ResearchValue>
+                            <ResearchValue>4</ResearchValue>
                             <FullWeightPopulationCount>1000</FullWeightPopulationCount>
                             <NoWeightPopulationCount>599</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <!-- no AdditionalGlobalUnlockRequirement: it only takes a population level, not skyscrapers.
+                                 Like vanilla's own High Life needs, the stall's unlock (trigger 1404001260) gates it -->
                         </Item>
                         <Item>
                             <Product>1404000360</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>3</ResearchValue>
+                            <ResearchValue>4</ResearchValue>
                             <FullWeightPopulationCount>1400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>1800</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000359</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>3</ResearchValue>
+                            <ResearchValue>4</ResearchValue>
                             <FullWeightPopulationCount>1400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>999</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000004</Population>
+                                <MinPopulationAmount>3000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000364</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>3</ResearchValue>
+                            <ResearchValue>4</ResearchValue>
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <!-- no AdditionalGlobalUnlockRequirement, see Biscuits: gated by the stall's unlock
+                                 (triggers 1404001263 / 1404004024) -->
                         </Item>
                         <Item>
                             <Product>1404000358</Product>
@@ -198,24 +214,36 @@
                             <FullWeightPopulationCount>1900</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1399</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>4000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000363</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <ResearchValue>8</ResearchValue>
                             <FullWeightPopulationCount>2400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>15000004</Population>
+                                <MinPopulationAmount>5000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000362</Product>
                             <HappinessValue>8</HappinessValue>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <ResearchValue>8</ResearchValue>
                             <FullWeightPopulationCount>2400</FullWeightPopulationCount>
                             <NoWeightPopulationCount>1899</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>5403</Population>
+                                <MinPopulationAmount>6000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
                         </Item>
                         <Item>
                             <Product>1404000283</Product>
@@ -230,7 +258,7 @@
                         <!-- Lifestyle -->
                         <Item>
                             <Product>1010203</Product>
-                            <Amount>0.001</Amount>
+                            <Amount>0.0005</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
@@ -242,7 +270,7 @@
                         </Item>
                         <Item>
                             <Product>5397</Product>
-                            <Amount>0.0006667</Amount>
+                            <Amount>0.0004</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
@@ -267,7 +295,7 @@
                         </Item>
                         <Item>
                             <Product>114414</Product>
-                            <Amount>0.0006777</Amount>
+                            <Amount>0.0003333</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
@@ -279,7 +307,7 @@
                         </Item>
                         <Item>
                             <Product>5392</Product>
-                            <Amount>0.000555</Amount>
+                            <Amount>0.000222</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>
@@ -292,7 +320,7 @@
                         </Item>
                         <Item>
                             <Product>133532</Product>
-                            <Amount>0.0006</Amount>
+                            <Amount>0.0003</Amount>
                             <SupplyWeight>1</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
                             <ResearchValue>4</ResearchValue>

@@ -25,7 +25,7 @@
 							<Amount>2500</Amount>
 						</Item>
 						<Item>
-							<Ingredient>1010196</Ingredient>
+							<Ingredient>1400201040</Ingredient>
 							<Amount>10</Amount>
 						</Item>
 						<Item>
@@ -59,7 +59,11 @@
 					</Colors>
 				</Selection>
 				<Text>
-					<TextOverride>1010339</TextOverride>
+					<LocaText>
+						<English>
+							<Text>Pearl Diver</Text>
+						</English>
+					</LocaText>
 				</Text>
 				<Constructable/>
 				<Locked/>
@@ -191,4 +195,18 @@
 			</Values>
 		</Asset>
 	</ModOp>
+
+
+	<ModOp GUID="190904,190622,190620,190616,190903,190902,190621,190618" Type="add" Path="Values/ItemEffect/EffectTargets">
+		<Item>
+			<GUID>1404000861</GUID>
+		</Item>
+	</ModOp>
+
+	<ModOp GUID="368,191508,193400,6000018,193856" Type="add" Path="Values/ItemEffectTargetPool/EffectTargetGUIDs">
+		<Item>
+			<GUID>1404000861</GUID>
+		</Item>
+	</ModOp>
+
 </ModOps>

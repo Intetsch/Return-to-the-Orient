@@ -31,6 +31,57 @@
           </ProductStorageList>
         </Values>
       </Asset>
+      <Asset>
+        <Template>ProductStorageList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040212</GUID>
+            <Name>TradeLicenses_StorageList NW</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_diplomacy_options_quest.png</IconFilename>
+          </Standard>
+          <ProductStorageList>
+            <ProductList>
+              <Item>
+                <Product>1999005351</Product>
+              </Item>
+            </ProductList>
+          </ProductStorageList>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ProductStorageList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040213</GUID>
+            <Name>TradeLicenses_StorageList AF</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_diplomacy_options_quest.png</IconFilename>
+          </Standard>
+          <ProductStorageList>
+            <ProductList>
+              <Item>
+                <Product>1999005351</Product>
+              </Item>
+            </ProductList>
+          </ProductStorageList>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ProductStorageList</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040214</GUID>
+            <Name>TradeLicenses_StorageList AR</Name>
+            <IconFilename>data/ui/2kimages/main/icons/icon_diplomacy_options_quest.png</IconFilename>
+          </Standard>
+          <ProductStorageList>
+            <ProductList>
+              <Item>
+                <Product>1999005351</Product>
+              </Item>
+            </ProductList>
+          </ProductStorageList>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
@@ -234,6 +285,252 @@
           </Culture>
         </Values>
       </Asset>
+      <Asset>
+        <BaseAssetGUID>1999005385</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040200</GUID>
+            <Name>Trading company Main Building New World</Name>
+          </Standard>
+          <Blocking>
+            <GroundDecalAsset>132528</GroundDecalAsset>
+            <GroundDecalInvisible>132529</GroundDecalInvisible>
+          </Blocking>
+          <Building>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Text>
+            <TextOverride>1999005385</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Selection />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_nw/trading_company_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Constructable/>
+          <SoundEmitter />
+          <Locked />
+          <Infolayer/>
+          <FeedbackController />
+          <Warehouse />
+          <LogisticNode />
+          <UpgradeList/>
+          <AmbientMoodProvider />
+          <Maintenance />
+          <StorageBase>
+            <ProductStorageList>1500040212</ProductStorageList>
+          </StorageBase>
+          <LoadingPier />
+          <MinimapToken />
+          <Attackable />
+          <Pausable/>
+          <BuildingUnique />
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1500040201</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Hacienda />
+          <IncidentInfectable/>
+          <Culture />
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>1999005385</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040204</GUID>
+            <Name>Trading company Main Building Africa</Name>
+          </Standard>
+          <Blocking>
+            <GroundDecalAsset>22441</GroundDecalAsset>
+            <GroundDecalInvisible>22472</GroundDecalInvisible>
+          </Blocking>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Text>
+            <TextOverride>1999005385</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Selection />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_africa/trading_company_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Constructable/>
+          <SoundEmitter />
+          <Locked />
+          <Infolayer/>
+          <FeedbackController />
+          <Warehouse />
+          <LogisticNode />
+          <UpgradeList/>
+          <AmbientMoodProvider />
+          <Maintenance />
+          <StorageBase>
+            <ProductStorageList>1500040213</ProductStorageList>
+          </StorageBase>
+          <LoadingPier />
+          <MinimapToken />
+          <Attackable />
+          <Pausable/>
+          <BuildingUnique />
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1500040205</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Hacienda />
+          <IncidentInfectable/>
+          <Culture />
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>1999005385</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040208</GUID>
+            <Name>Trading company Main Building Arctic</Name>
+          </Standard>
+          <Blocking>
+            <GroundDecalAsset>114826</GroundDecalAsset>
+            <GroundDecalInvisible>113478</GroundDecalInvisible>
+          </Blocking>
+          <Building>
+            <AssociatedRegions>Arctic</AssociatedRegions>
+          </Building>
+          <Text>
+            <TextOverride>1999005385</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>15000</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>30</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>25</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>40</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Selection />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_arctic/trading_company_main.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Constructable/>
+          <SoundEmitter />
+          <Locked />
+          <Infolayer/>
+          <FeedbackController />
+          <Warehouse />
+          <LogisticNode />
+          <UpgradeList/>
+          <AmbientMoodProvider />
+          <Maintenance />
+          <StorageBase>
+            <ProductStorageList>1500040214</ProductStorageList>
+          </StorageBase>
+          <LoadingPier />
+          <MinimapToken />
+          <Attackable />
+          <Pausable/>
+          <BuildingUnique />
+          <ModuleOwner>
+            <ConstructionOptions>
+              <Item>
+                <ModuleGUID>1500040209</ModuleGUID>
+              </Item>
+            </ConstructionOptions>
+          </ModuleOwner>
+          <Hacienda />
+          <IncidentInfectable/>
+          <Culture />
+        </Values>
+      </Asset>
 
       <!-- Module: Storage Building Import Storage List -->
       <Asset>
@@ -415,6 +712,238 @@
               <ProcessingQueueParallelCount>2</ProcessingQueueParallelCount>
             </QueueConfiguration>
           </LogisticNode>
+          <FeedbackController />
+          <BuildingModule />
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>1999005384</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040201</GUID>
+            <Name>NW FTC warehouse</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Colony01</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>132528</GroundDecalAsset>
+            <GroundDecalInvisible>132529</GroundDecalInvisible>
+          </Blocking>
+          <Mesh />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_nw/trading_company_warehouse.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_nw/trading_company_trade_contracts_office.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1500040201</DefaultSkinName>
+            </Skins>
+          </Object>
+          <AmbientMoodProvider />
+          <Constructable />
+          <Selection />
+          <Text>
+            <TextOverride>1999005384</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>6</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Attackable />
+          <Warehouse />
+          <StorageBase>
+            <ProductStorageList>1500040212</ProductStorageList>
+          </StorageBase>
+          <Locked />
+          <Maintenance />
+          <Pausable />
+          <SoundEmitter />
+          <Infolayer />
+          <UpgradeList />
+          <LogisticNode />
+          <FeedbackController />
+          <BuildingModule />
+        </Values>
+      </Asset>
+
+      <Asset>
+        <BaseAssetGUID>1999005384</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040205</GUID>
+            <Name>FTC warehouse Africa</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>22441</GroundDecalAsset>
+            <GroundDecalInvisible>22472</GroundDecalInvisible>
+          </Blocking>
+          <Mesh />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_africa/trading_company_warehouse.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_africa/trading_company_trade_contracts_office.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1500040205</DefaultSkinName>
+            </Skins>
+          </Object>
+          <AmbientMoodProvider />
+          <Constructable />
+          <Selection />
+          <Text>
+            <TextOverride>1999005384</TextOverride>
+          </Text>
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>6</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Attackable />
+          <Warehouse />
+          <StorageBase>
+            <ProductStorageList>1500040213</ProductStorageList>
+          </StorageBase>
+          <Locked />
+          <Maintenance />
+          <Pausable />
+          <SoundEmitter />
+          <Infolayer />
+          <UpgradeList />
+          <LogisticNode />
+          <FeedbackController />
+          <BuildingModule />
+        </Values>
+      </Asset>
+      <Asset>
+        <BaseAssetGUID>1999005384</BaseAssetGUID>
+        <Values>
+          <Standard>
+            <GUID>1500040209</GUID>
+            <Name>FTC warehouse Arctic</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Arctic</AssociatedRegions>
+          </Building>
+          <Blocking>
+            <GroundDecalAsset>114826</GroundDecalAsset>
+            <GroundDecalInvisible>113478</GroundDecalInvisible>
+          </Blocking>
+          <Text>
+            <TextOverride>1999005384</TextOverride>
+          </Text>
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_arctic/trading_company_warehouse.cfg</Filename>
+              </Item>
+              <Item>
+                <Filename>data/drakkam/buildings/production/trading_company_arctic/trading_company_trade_contracts_office.cfg</Filename>
+              </Item>
+            </Variations>
+            <Skins>
+              <DefaultSkinName>1500040205</DefaultSkinName>
+            </Skins>
+          </Object>
+          <AmbientMoodProvider />
+          <Constructable />
+          <Selection />
+          <Text />
+          <Cost>
+            <Costs>
+              <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1500</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010196</Ingredient>
+                <Amount>10</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010205</Ingredient>
+                <Amount>12</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010218</Ingredient>
+                <Amount>6</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010207</Ingredient>
+                <Amount>4</Amount>
+              </Item>
+              <Item>
+                <Ingredient>1010202</Ingredient>
+              </Item>
+            </Costs>
+          </Cost>
+          <Attackable />
+          <Warehouse />
+          <StorageBase>
+            <ProductStorageList>1500040214</ProductStorageList>
+          </StorageBase>
+          <Locked />
+          <Maintenance />
+          <Pausable />
+          <SoundEmitter />
+          <Infolayer />
+          <UpgradeList />
+          <LogisticNode />
           <FeedbackController />
           <BuildingModule />
         </Values>
@@ -2462,19 +2991,26 @@
     </ModOp>
 
     <!-- Buff Targets -->
-    <ModOp Type="add" GUID="193897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-      <Item>
-        <GUID>1999005385</GUID>
-      </Item>
-    </ModOp>
     <ModOp Type="add" GUID="193897,193480" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999005385</GUID>
+      </Item>
+      <Item>
+        <GUID>1500040200</GUID>
+      </Item>
+      <Item>
+        <GUID>1500040204</GUID>
+      </Item>
+      <Item>
+        <GUID>1500040208</GUID>
       </Item>
     </ModOp>
     <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
       <Item>
         <GUID>1999005385</GUID>
+      </Item>
+      <Item>
+        <GUID>1500040200</GUID>
       </Item>
       <Item>
         <GUID>1999005376</GUID>
@@ -2621,6 +3157,99 @@
           <Locked />
         </Values>
       </Asset>
+      <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040202</GUID>
+            <Name>OW Trading company construction menu NW</Name>
+            <IconFilename>data/ui/icon_trading_company_main.png</IconFilename>
+          </Standard>
+          <ConstructionCategory>
+            <BuildingList>
+              <Item>
+                <Building>1500040200</Building>
+              </Item>
+              <Item>
+                <Building>1500040201</Building>
+              </Item>
+            </BuildingList>
+            <CategoryDescription>1999005235</CategoryDescription>
+          </ConstructionCategory>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Trading company</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>27185</LineID>
+          </Text>
+          <Locked />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040206</GUID>
+            <Name>OW Trading company construction menu AF</Name>
+            <IconFilename>data/ui/icon_trading_company_main.png</IconFilename>
+          </Standard>
+          <ConstructionCategory>
+            <BuildingList>
+              <Item>
+                <Building>1500040204</Building>
+              </Item>
+              <Item>
+                <Building>1500040205</Building>
+              </Item>
+            </BuildingList>
+            <CategoryDescription>1999005235</CategoryDescription>
+          </ConstructionCategory>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Trading company</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>27185</LineID>
+          </Text>
+          <Locked />
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>ConstructionCategory</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040210</GUID>
+            <Name>OW Trading company construction menu AR</Name>
+            <IconFilename>data/ui/icon_trading_company_main.png</IconFilename>
+          </Standard>
+          <ConstructionCategory>
+            <BuildingList>
+              <Item>
+                <Building>1500040208</Building>
+              </Item>
+              <Item>
+                <Building>1500040209</Building>
+              </Item>
+            </BuildingList>
+            <CategoryDescription>1999005235</CategoryDescription>
+          </ConstructionCategory>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Trading company</Text>
+                <Status>Exported</Status>
+              </English>
+            </LocaText>
+            <LineID>27185</LineID>
+          </Text>
+          <Locked />
+        </Values>
+      </Asset>
     </ModOp>
 
     <!-- Asset Pools for Unlocks -->
@@ -2674,8 +3303,82 @@
           </AssetPool>
         </Values>
       </Asset>
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040203</GUID>
+            <Name>Asset Pool Trading company NW</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1999005351</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040200</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040201</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040202</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040207</GUID>
+            <Name>Asset Pool Trading company Africa</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1999005351</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040204</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040205</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040206</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>AssetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500040211</GUID>
+            <Name>Asset Pool Trading company Arctic</Name>
+          </Standard>
+          <AssetPool>
+            <AssetList>
+              <Item>
+                <Asset>1999005351</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040208</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040209</Asset>
+              </Item>
+              <Item>
+                <Asset>1500040210</Asset>
+              </Item>
+            </AssetList>
+          </AssetPool>
+        </Values>
+      </Asset>
     </ModOp>
-
   </Group>
 
 </ModOps>

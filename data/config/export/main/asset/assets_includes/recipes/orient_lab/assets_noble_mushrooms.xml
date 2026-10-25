@@ -1,0 +1,43 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="132757" Condition="#new_horizons_session">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005068</GUID>
+                    <Name>Recipe_Lab_noble</Name>
+                    <IconFilename>data/graphics/ui/icons/goods/icon_special_shroom.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1440300</TextOverride>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404005066</RecipeBuilding>
+                    <RecipeDescriptionText>1404005070</RecipeDescriptionText>
+                    <RecipeImage>data\ui\modgraphics\noble_recipe_mood.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>0</PosX>
+                            <PosY>-5</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>50</PosX>
+                            <PosY>400</PosY>
+                            <UICirclePointer>East</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>400</PosX>
+                            <PosY>270</PosY>
+                            <UICirclePointer>West</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

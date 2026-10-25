@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404000212</GUID>
 					<Name>Noria</Name>
-					<IconFilename>data/ui/2kimages/main/3dicons/scenario/icon_basin.png</IconFilename>
+					<IconFilename>data/graphics/icons/irrigation/icon_basin_orient.png</IconFilename>
 				</Standard>
 				<Building>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
@@ -38,7 +38,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>1010196</Ingredient>
+							<Ingredient>1400201040</Ingredient>
 							<Amount>7</Amount>
 						</Item>
 						<Item>

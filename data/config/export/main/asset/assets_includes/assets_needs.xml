@@ -1,0 +1,196 @@
+<!-- Add Happiness Needs to different population
+     Each need unlocks at NoWeightPopulationCount + 1 of its own tier and at the Envoy count in
+     AdditionalGlobalUnlockRequirement. The export trigger in triggers/assets_intermediate_orient_2_*.xml
+     ("Export: ...") unlocks the production at the same two counts, so change them together. -->
+
+<ModOps>
+
+    <!-- ## ENBESA ## -->
+    <!-- ## Elders: Spiced Tea ## -->
+    <ModOp Type="addNextSibling" GUID="114330" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114362']">
+        <Item>
+            <Product>1400201044</Product>
+            <Amount>0.0002</Amount>
+            <HappinessValue>3</HappinessValue>
+            <MoneyValue>35</MoneyValue>
+            <FullWeightPopulationCount>1300</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>1000</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+    <!-- ## Shepherds: Roasted Chickpeas ## -->
+    <ModOp Type="addNextSibling" GUID="114329" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='114390']">
+        <Item>
+            <Product>1400201065</Product>
+            <Amount>0.0003</Amount>
+            <HappinessValue>6</HappinessValue>
+            <MoneyValue>25</MoneyValue>
+            <FullWeightPopulationCount>550</FullWeightPopulationCount>
+            <NoWeightPopulationCount>399</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## NEW WORLD ## -->
+    <!-- ## Artista: Incense ## -->
+    <ModOp Type="addNextSibling" GUID="5403" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='5830']">
+        <Item>
+            <Product>1440306</Product>
+            <Amount>0.00003</Amount>
+            <HappinessValue>6</HappinessValue>
+            <MoneyValue>90</MoneyValue>
+            <FullWeightPopulationCount>4500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>1900</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## Obreras: Candied Dates ## -->
+    <ModOp Type="addNextSibling" GUID="15000006" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010259']">
+        <Item>
+            <Product>1400201056</Product>
+            <Amount>0.00015</Amount>
+            <HappinessValue>3</HappinessValue>
+            <MoneyValue>40</MoneyValue>
+            <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>999</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>600</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## ARCTIC ## -->
+    <!-- ## Technicians: Arak ## -->
+    <ModOp Type="addNextSibling" GUID="112643" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='120032']">
+        <Item>
+            <Product>1404005120</Product>
+            <Amount>0.0003</Amount>
+            <HeatValue>6</HeatValue>
+            <MoneyValue>80</MoneyValue>
+            <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>749</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>1000</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+
+    <!-- ## OLD WORLD ## -->
+    <!-- ## Magnates: Oudh-Perfume ##
+         See natoncy_orient_after_other_mods -->
+
+    <!-- ## Investors: Lokum ## -->
+    <ModOp Type="addNextSibling" GUID="15000004" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010248']">
+        <Item>
+            <Product>1400201053</Product>
+            <Amount>0.000142</Amount>
+            <HappinessValue>5</HappinessValue>
+            <MoneyValue>250</MoneyValue>
+            <FullWeightPopulationCount>5500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>4499</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>1400</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## Engineers: Astrolabes ## -->
+    <ModOp Type="addNextSibling" GUID="15000003" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010356']">
+        <Item>
+            <Product>1404005131</Product>
+            <Amount>0.00013</Amount>
+            <HappinessValue>4</HappinessValue>
+            <MoneyValue>100</MoneyValue>
+            <FullWeightPopulationCount>3500</FullWeightPopulationCount>
+            <NoWeightPopulationCount>2999</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## Artisans: Hummus ## -->
+    <ModOp Type="addNextSibling" GUID="15000002" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1010353']">
+        <Item>
+            <Product>1404005087</Product>
+            <Amount>0.000133</Amount>
+            <HappinessValue>4</HappinessValue>
+            <MoneyValue>65</MoneyValue>
+            <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+            <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+            <IsConsideredByAI>0</IsConsideredByAI>
+            <AdditionalGlobalUnlockRequirement>
+                <Population>1404000011</Population>
+                <MinPopulationAmount>300</MinPopulationAmount>
+            </AdditionalGlobalUnlockRequirement>
+        </Item>
+    </ModOp>
+
+    <!-- ## Add chains to construction menus of other sessions, following the convention of vanilla. -->
+    <ModOp Type="addNextSibling" GUID="25000191" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010362']">
+        <Item>
+            <Building>1404005085</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="25000192" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010365']">
+        <Item>
+            <Building>1404005136</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="500447" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500020']">
+        <Item>
+            <Building>1404005024</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="114553" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114563']">
+        <Item>
+            <Building>1404005105</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="114554" Path="/Values/ConstructionCategory/BuildingList/Item[Building='114520']">
+        <Item>
+            <Building>1404005021</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="112791" Path="/Values/ConstructionCategory/BuildingList/Item[Building='116029']">
+        <Item>
+            <Building>1404005122</Building>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="25000194" Path="/Values/ConstructionCategory/BuildingList/Item[Building='500909']">
+        <Item>
+            <Building>1404005037</Building>
+        </Item>
+    </ModOp>
+    <ModOp Type="addNextSibling" GUID="5466" Path="/Values/ConstructionCategory/BuildingList/Item[Building='5939']">
+        <Item>
+            <Building>1404005047</Building>
+        </Item>
+    </ModOp>
+
+</ModOps>

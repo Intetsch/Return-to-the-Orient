@@ -7,7 +7,7 @@
 				<Standard>
 					<GUID>1404000584</GUID>
 					<Name>orientRuinSmall</Name>
-					<IconFilename>data/graphics/icons/ornaments/ruin_small.png</IconFilename>
+					<IconFilename>data/graphics/icons/ornaments/ruin_small_var15.png</IconFilename>
 					<InfoDescription>1404001003</InfoDescription>
 				</Standard>
 				<Text>
@@ -23,6 +23,56 @@
 					<BuildingCategoryName>11149</BuildingCategoryName>
 					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<VariationIcons>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var02.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var03.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var04.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var05.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var06.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var07.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var08.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var09.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var10.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var11.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var12.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var13.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var14.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var15.png</IconFilename>
+						</Item>
+						<Item>
+							<IconFilename>data/graphics/icons/ornaments/ruin_small_var16.png</IconFilename>
+						</Item>
+					</VariationIcons>
 				</Building>
 				<Cost>
 					<Costs>
@@ -48,7 +98,7 @@
 									</Entry>
 								</InheritanceMapV2>
 							</VectorElement>
-							<Ingredient>1010196</Ingredient>
+							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>

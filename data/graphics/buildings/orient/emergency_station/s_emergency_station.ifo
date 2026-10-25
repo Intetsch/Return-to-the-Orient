@@ -244,6 +244,26 @@
 		</Extents>
 	</IntersectBox>
 
+	<IntersectBox>
+		<Name>Hitbox_cistern</Name>
+		<Position>
+			<xf>1.0998</xf>
+			<yf>0.6772</yf>
+			<zf>1.9054</zf>
+		</Position>
+		<Rotation>
+			<xf>0</xf>
+			<yf>0.991399</yf>
+			<zf>0</zf>
+			<wf>0.130872</wf>
+		</Rotation>
+		<Extents>
+			<xf>0.6133</xf>
+			<yf>0.6772</yf>
+			<zf>0.6876</zf>
+		</Extents>
+	</IntersectBox>
+
 	<MeshBoundingBox>
 		<Name>MeshBoundingBox</Name>
 		<Position>

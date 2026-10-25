@@ -35,6 +35,22 @@
 				</Text>
 			</Values>
 		</Asset>
+		<Asset>
+			<Template>Text</Template>
+			<Values>
+				<Standard>
+					<GUID>1404005038</GUID>
+					<Name>Wrong Region InfoTip Text</Name>
+				</Standard>
+				<Text>
+					<LocaText>
+						<English>
+							<Text>Can only be built in Wadi Al Zahir</Text>
+						</English>
+					</LocaText>
+				</Text>
+			</Values>
+		</Asset>
     </ModOp>
 
 </ModOps>

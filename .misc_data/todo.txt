@@ -2,28 +2,55 @@ Enums:
     RegionID: Mod3 (Orient)
     ParticipantID: Mod8 (Nomads), Mod9 (Envoys), Mod12 (Kahina)
     SocketScopeRadiusOverlapCategory: Mod1 (Noria)
-Required DLCs: Land of Lions, New World Rising
-Optional DLCs: Tourist Season
-Optional Mods: New Horizons, Noblesse Oblige
+    InternalID: 28, 64, 65, 66, 69
+Required Pop.: 3000 Investors, 1800 Obreros, 1000 Elders
+Required DLCs: Land of Lions
+Optional DLCs: New World Rising, High Life, Tourist Season, Bright Harvest, Empire of the Skies
+Optional Mods: New Horizons
+
+
 
 
 
 
 TODO:
-- Ornamental tent
-- Check lifestyle balancing
-- Population quests
-- Fix pearl farm item effect https://a1800.net/a1800/asset/190903
+
+v0.6.1
+- Reorder needs based on skyscraper levels and rebalance
+- add compost for moldy bread
+
+v0.7.0
+- Palace with needs replacement
+- Light house monument
+- Construction material rework
+    Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
+    Palm lumber jack needs irrigation
+- Letting AI settle the region (Adding Harbour Defenses + Logic)
+
+Before v1.0.0
+- Check quests
+- Check loading screen hints
+- remove IAAM Test and other test assets
+- Fix mod loader errors/warnings
+- Cleanup and delete unused files
+- Update Readme/Mod.io Description (add useable but not shared products)
+
 
 
 Bugs:
-- Festival icon not showing
-- Watered fields not shown as green fields when placing canals or farm fields
 
 
 
 Backlog:
-- Letting AI settle the region (Adding Harbour Defenses + Logic (Warship?))
+- Rewrite some quest texts maybe
 - Camera sequence when entering region for the first time
-- Fix music colliding with voice lines (very unlikely to be fixable)
-- Palm lumberjack and use wood as construction material?
+- Update scholar residences (final)
+
+
+Not fixable/doable:
+- Watered fields not shown as green fields when placing canals or farm fields: Setting RegionID in the Region asset to Africa makes it visible, seems to be hardcoded to Africa region enum
+- Fix music colliding with voice lines/other special music (monument completed): Would require changing vanilla soundbanks
+- Festival icon not showing: Not working in New Horizon either, no idea why
+- Second Noria pipe not possible, would need a work area from a river or mine slot
+
+

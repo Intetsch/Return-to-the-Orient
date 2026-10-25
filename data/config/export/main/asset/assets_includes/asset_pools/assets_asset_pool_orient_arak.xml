@@ -1,0 +1,46 @@
+<ModOps>
+
+    <ModOp GUID='4532' Type="addNextSibling">
+        <Asset>
+            <Template>AssetPool</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005114</GUID>
+                    <Name>asset pool orient arak</Name>
+                </Standard>
+                <AssetPool>
+                    <AssetList>
+                        <Item>
+                            <Asset>1404005109</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005112</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005113</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404008000</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005115</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005117</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005122</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005121</Asset>
+                        </Item>
+                        <Item>
+                            <Asset>1404005120</Asset>
+                        </Item>
+                    </AssetList>
+                </AssetPool>
+            </Values>
+        </Asset>
+
+    </ModOp>
+</ModOps>

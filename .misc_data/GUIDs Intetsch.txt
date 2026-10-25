@@ -1,5 +1,176 @@
 1404000845-1404000887
+1404005000+
 
+robocopy "D:\philipp\Return-to-the-Orient\Return-to-the-Orient" "C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\games\Anno 1800\mods\Return-to-the-Orient" /mir /mt:20
+
+NEW NEEDS
+----------
+1404005012: Honey Module
+1404005013: Honey Buff
+1404005014: Honey Module Fluff
+1404005015: Honey Buff Fluff
+1404005035: Fruit Manufactury
+1404005036: Candied Dates Asset Pool
+1404005037: Candied Dates ProductionChain
+--
+1404005016: Spiced Tea Asset Pool
+1404005017: Bee Buff
+1404005019: Bee Buff Fluff
+1404005020: Tea Brewery
+1404005021: Spiced Tea ProductionChain
+--
+1404005022: Lokum Asset Pool
+1404005023: Lokum Baker
+1404005024: Lokum ProductionChain
+1404005025: Pistachio Farm
+1404005026: Pistachio Farmfield
+1404005027: Pistachio Roastery
+1404005102: Recipe Pistachios
+1404005108: Recipe Pistachios Fluff
+--
+1404005028: Pistachio Seeds Uncommon
+1404005029: Pistachio Seeds Rare
+1404005030: Pistachio Seeds Epic
+1404005031: Pistachio Fertility
+1404005032: Pistachio Seeds Uncommon Fluff
+1404005033: Pistachio Seeds Rare Fluff
+1404005034: Pistachio Seeds Epic Fluff
+--
+DEPR 1404005041: Enbesa Elephant Hunting Cabin
+DEPR 1404005042: Ivory Asset Pool
+--
+1404005044: Incense Workshop
+1404005045: module palm leaves
+1404005046: Asset Pool Incense
+1404005047: Incense ProductionChain
+1404005048: Palm Leaf Module Buff
+1404005049: Palm Leaf Buff Fluff
+--
+1404005050: Oud ProductionChain
+1404005051: Oud Asset Pool
+1404005052: Agar Orchard
+1404005053: Lab 01
+1404005054: P. Parasiticum
+1404005055: Infestation Cellar
+1404005056: Mushroom ProductionChain
+1404005057: Distillery
+1404005058: Oudh
+1404005059: Oudh Perfume
+1404005060: NH trigger Intermediate unhide
+1404005061: NH trigger creative mode
+1404005062: NH trigger Intermediate unlock
+1404005063: Oudh Fluff
+1404005064: Oudh Perfume Fluff
+1404005065: P. Parasiticum Fluff
+1404005066: Lab 02
+1404005067: RecipeList Lab
+1404005068: Recipe Noble Mushrooms
+1404005069: Recipe Oud Mushrooms
+1404005070: Recipe Noble Fluff
+1404005071: Recipe Oud Fluff
+1404005072: NH trigger lab unhide
+1404005073: NH trigger lab unlock
+1404005074: Noble Mushroom ProductionChain
+1404005075: RecipeList Fluff
+1404005095: Moldy Bread
+1404005096: Moldy Bread Debuff
+1404005097: Moldy Bread fluff
+1404005098: Asset Pool Orient NH mushrooms
+1404005099: Debuff Fluff
+--
+1404005076: Olive plantation
+1404005077: Olive field
+1404005078: asset pool hummus
+1404005082: Chickpea farm
+1404005083: Chickpea field
+1404005084: Hummus Kitchen
+1404005085: Hummus ProductionChain
+1404005086: Cold Press
+--
+1404005090: Aniseed Farm
+1404005091: Aniseed field
+1404005112: Copper Smelter
+1404005113: Manufacturer: Alembics
+1404005114: asset pool arak
+1404005115: Alembics
+1404005116: Alembics Fluff
+1404005117: Recipe Alembics
+1404005118: Recipe Alembics Fluff
+DEPR 1404005119: Alembics ProductionChain
+1404005120: Arak
+1404005121: Arak Distillery
+1404005122: Arak ProductionChain
+1404005123: Arak fluff
+--
+1404005100: Chickpea Roastery
+1404005101: Recipe List Roastery
+1404005103: Recipe Chickpeas Roastery
+1404005104: Asset Pool Roasted Chickpeas
+1404005105: Roasted Chickpeas ProductionChain
+1404005106: RecipeList Roastery Fluff
+1404005107: Recipe Chickpeas Fluff
+--
+1404005130: Manufacturer: Astrolabes
+1404005131: Astrolabes
+1404005132: Asset Pool Astrolabes
+1404005133: Astrolabes Fluff
+1404005134: Recipe Astrolabes
+1404005135: Recipe Astrolabes Fluff
+1404005136: Astrolabes ProductionChain
+
+
+INDUSTRY
+----------
+1404000877: Silver Chain
+1404000878: Elmore Module ORIENT
+1404000879: Elmore Mixture
+1404000880: Fake Produt Water
+1404000881: Buff Elmore Module
+1404000882: Debuff No Module Silver Smelter
+1404000883: Acid Plant Orient
+1404000884: ConstructionCategory Industry
+1404000885: Acid Chain
+1404000886: Elmore Mixer
+1404000887: Elmore Mixture Chain
+1404005000: Cyanide Asset Pool
+1404005001: Elmore Mixture Pool
+1404005002: Debuff Text
+1404005003: Buff Text
+1404005004: Elmore Module MODERATE
+1404005005: Elmore Module Buff Moderate
+1404005006: Elmore Module Buff Text
+1404005039: Sulfuric Acid
+1404005040: Sulfuric Acid Fluff
+
+OIL
+----------
+1404000867: Oil harbor I
+1404000868: Oil harbor II
+1404000869: Oil harbor III
+1404000870: Oil harbor IV
+1404000871: Asset Pool Oil
+1404000872: Prod Chain Oil
+1404000873: Oil Harbor depot
+1404000874: Oil Plant
+1404000875: Oil Pump
+1404005008: Fuel Chain
+1404005009: Asset Pool Fuel
+1404005010: Tractor Module
+1404005011: Fuel Station
+
+MUSIC
+----------
+1404000853: Soundbank Background Music
+1404000854: Audio Play Background Music
+1404000855: Trigger SessionExit Music
+1404000856: Trigger SessionEnter
+1404000857: Audio Stop Background Music
+1404000858: Trigger Play Background Music
+1404000859: FeatureUnlock Region Check
+1404000860: Trigger Exit to Menu Register
+
+OTHER
+----------
 1404000845: Dirt Straße neu
 1404000846: Dirt Brücke neu
 1404000847: Ramadan Text
@@ -12,14 +183,30 @@
 1404000862: Kontor_imperial_orient_01
 1404000863: Kontor_imperial_orient_02
 1404000864: Kontor_imperial_orient_03
+1404000865: Palm lumberjack
+1404000866: Asset Pool palm lumber
+1404005007: Fertilizer module
+1404005018: ItemEffectTargetPool All Farms
+1404005038: Wrong Region InfoTip Text
+1404005043: Module Category Text
+1404005124: Coffee Roastery
+1404005125: Roasted Coffee
+1404005126: Roasted Coffee Fluff
+1404005127: Roasted Coffee ProductionChain
+1404005128: Roasted Coffee Recipe
+1404005129: Roasted Coffee Recipe Fluff
 
-MUSIC
-
-1404000853: Soundbank Background Music
-1404000854: Audio Play Background Music
-1404000855: Trigger SessionExit Music
-1404000856: Trigger SessionEnter
-1404000857: Audio Stop Background Music
-1404000858: Trigger Play Background Music
-1404000859: FeatureUnlock Region Check
-1404000860: Trigger Exit to Menu Register
+SUBMODS
+----------
+1404005079: Chickpeas
+1404005080: Chickpeas FakeFactory
+1404005081: Chickpeas fluff
+1404005087: Hummus
+1404005088: Hummus FakeFactory
+1404005089: Hummus fluff
+1404005092: Aniseed
+1404005093: Aniseed FakeFactory
+1404005094: Aniseed fluff
+1404005109: Copper Bar
+1404005110: Copper Bar FakeFactory
+1404005111: Copper Bar Fluff

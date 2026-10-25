@@ -736,12 +736,42 @@
                         <EarlyGame>
                             <TradeFleet>
                             </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1400201040</Good>
+                                    <ProductionPerMinute>2</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1400201040</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
                             <OfferingItems>1404000978</OfferingItems>
                             <MaxItemsToOffer>3</MaxItemsToOffer>
                         </EarlyGame>
                         <EarlyMidGame>
                             <TradeFleet>
                             </TradeFleet>
+                            <GoodsProduction>
+                                <Item>
+                                    <Good>1400201040</Good>
+                                    <ProductionPerMinute>3</ProductionPerMinute>
+                                </Item>
+                            </GoodsProduction>
+                            <OfferingGoods>
+                                <Item>
+                                    <GoodSets>
+                                        <Item>
+                                            <Good>1400201040</Good>
+                                        </Item>
+                                    </GoodSets>
+                                </Item>
+                            </OfferingGoods>
                             <OfferingItems>1404000978</OfferingItems>
                             <MaxItemsToOffer>4</MaxItemsToOffer>
                         </EarlyMidGame>
@@ -750,7 +780,7 @@
                             </TradeFleet>
                             <GoodsProduction>
                                 <Item>
-                                    <Good>1010196</Good>
+                                    <Good>1400201040</Good>
                                     <ProductionPerMinute>4</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -762,7 +792,7 @@
                                 <Item>
                                     <GoodSets>
                                         <Item>
-                                            <Good>1010196</Good>
+                                            <Good>1400201040</Good>
                                         </Item>
                                         <Item>
                                             <Good>114402</Good>
@@ -785,7 +815,7 @@
                             </TradeFleet>
                             <GoodsProduction>
                                 <Item>
-                                    <Good>1010196</Good>
+                                    <Good>1400201040</Good>
                                     <ProductionPerMinute>5</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -801,7 +831,7 @@
                                 <Item>
                                     <GoodSets>
                                         <Item>
-                                            <Good>1010196</Good>
+                                            <Good>1400201040</Good>
                                         </Item>
                                         <Item>
                                             <Good>114402</Good>
@@ -827,7 +857,7 @@
                             </TradeFleet>
                             <GoodsProduction>
                                 <Item>
-                                    <Good>1010196</Good>
+                                    <Good>1400201040</Good>
                                     <ProductionPerMinute>6</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -851,7 +881,7 @@
                                 <Item>
                                     <GoodSets>
                                         <Item>
-                                            <Good>1010196</Good>
+                                            <Good>1400201040</Good>
                                         </Item>
                                         <Item>
                                             <Good>114402</Good>
@@ -883,7 +913,7 @@
                             </TradeFleet>
                             <GoodsProduction>
                                 <Item>
-                                    <Good>1010196</Good>
+                                    <Good>1400201040</Good>
                                     <ProductionPerMinute>7</ProductionPerMinute>
                                 </Item>
                                 <Item>
@@ -907,10 +937,10 @@
                                 <Item>
                                     <GoodSets>
                                         <Item>
-                                            <Good>1010196</Good>
+                                            <Good>1400201040</Good>
                                         </Item>
                                         <Item>
-                                            <Good>1010196</Good>
+                                            <Good>1400201040</Good>
                                         </Item>
                                         <Item>
                                             <Good>1404000265</Good>

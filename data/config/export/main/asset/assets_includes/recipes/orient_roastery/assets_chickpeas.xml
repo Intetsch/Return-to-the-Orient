@@ -1,0 +1,43 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="135419">
+        <Asset>
+            <Template>Recipe</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005103</GUID>
+                    <Name>Recipe_Chickpeas</Name>
+                    <IconFilename>data\modgraphics\ui\icon_roasted_chickpeas.png</IconFilename>
+                </Standard>
+                <Text>
+                    <TextOverride>1400201065</TextOverride>
+                </Text>
+                <Recipe>
+                    <RecipeBuilding>1404005100</RecipeBuilding>
+                    <RecipeDescriptionText>1404005107</RecipeDescriptionText>
+                    <RecipeImage>data/ui/modgraphics/roastedchickpeas_recipe_mood.png</RecipeImage>
+                    <RecipeIngredientUIData>
+                        <Item>
+                            <PosX>45</PosX>
+                            <PosY>-15</PosY>
+                            <UICirclePointer>SouthEast</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>385</PosX>
+                            <PosY>-10</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                        <Item>
+                            <PosX>375</PosX>
+                            <PosY>400</PosY>
+                            <UICirclePointer>West</UICirclePointer>
+                        </Item>
+                    </RecipeIngredientUIData>
+                    <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>
+                </Recipe>
+                <Locked/>
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>coffee icons</title>
+<style>body{margin:0;background:#3b4a5a;font:12px sans-serif;color:#fff}#v{display:flex;flex-wrap:wrap;gap:8px;padding:8px}.card{padding:4px;background:#6b5a44}.card.l{background:#e9dcc0}canvas{display:block}</style></head><body>
+<div id="v"></div>
+<script src="ink.js"></script>
+<script src="scenes.js"></script>
+<script src="icons.js"></script>
+<script>
+function renderIcon(name, size = 128, ss = 4) {
+  const { c, g } = newCanvas(size, size, ss); ctx = g; seed(ICONS[name].seed ?? 1);
+  ICONS[name].draw();
+  const mid = document.createElement('canvas'); mid.width = size * 2; mid.height = size * 2; const gm = mid.getContext('2d'); gm.imageSmoothingQuality = 'high'; gm.drawImage(c, 0, 0, mid.width, mid.height);
+  const out = document.createElement('canvas'); out.width = size; out.height = size; const go = out.getContext('2d'); go.imageSmoothingQuality = 'high'; go.drawImage(mid, 0, 0, size, size);
+  return out;
+}
+window.results = {};
+const want = (location.hash.slice(1) || Object.keys(ICONS).join(',')).split(',');
+for (const n of want) { try { const cnv = renderIcon(n); window['ic_' + n] = cnv; for (const cls of ['card', 'card l']) { const d = document.createElement('div'); d.className = cls; const big = document.createElement('canvas'); big.width = 256; big.height = 256; const bg = big.getContext('2d'); bg.imageSmoothingEnabled = false; bg.drawImage(cnv, 0, 0, 256, 256); d.appendChild(cls === 'card' ? big : cnv.cloneNode()); if (cls !== 'card') d.firstChild.getContext('2d').drawImage(cnv, 0, 0); document.getElementById('v').appendChild(d); } window.results[n] = 'ok'; } catch (e) { window.results[n] = String(e.stack || e); } }
+async function saveIcons(prefix = 'icon_') { const out = []; for (const n of want) if (window['ic_' + n]) { const r = await fetch('/save?name=' + prefix + n + '.png', { method: 'POST', body: window['ic_' + n].toDataURL('image/png') }); out.push(await r.text()); } return out; }
+</script></body></html>

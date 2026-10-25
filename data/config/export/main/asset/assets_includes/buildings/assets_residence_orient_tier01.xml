@@ -29,7 +29,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
+                            <Ingredient>1400201040</Ingredient>
                             <Amount>2</Amount>
                         </Item>
                         <Item>
@@ -108,6 +108,18 @@
                         <Item>
                             <Filename>data/graphics/1404_import/buildings/residence/south/nomad_house/s_nomad_house_04.cfg</Filename>
                         </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/nomad_house_a/s_nomad_house_a_01.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/nomad_house_a/s_nomad_house_a_02.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/nomad_house_a/s_nomad_house_a_03.cfg</Filename>
+                        </Item>
+                        <Item>
+                            <Filename>data/graphics/buildings/orient/nomad_house_a/s_nomad_house_a_04.cfg</Filename>
+                        </Item>
                     </Variations>
                     <Skins>
                         <DefaultSkinName>1404000016</DefaultSkinName>
@@ -150,7 +162,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
+                            <Ingredient>1400201040</Ingredient>
                             <Amount>2</Amount>
                         </Item>
                         <Item>
@@ -232,24 +244,7 @@
                 </Residence7>
                 <LogisticNode />
                 <AmbientMoodProvider>
-                    <DynamicEnvironmentType>None</DynamicEnvironmentType>
-                    <HappinessDependentMurmur>
-                        <Angry>
-                            <Murmur>Africa_ShepherdUnhappy</Murmur>
-                        </Angry>
-                        <Unhappy>
-                            <Murmur>Africa_ShepherdUnhappy</Murmur>
-                        </Unhappy>
-                        <Neutral>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Neutral>
-                        <Happy>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Happy>
-                        <Euphoric>
-                            <Murmur>Africa_ShepherdHappy</Murmur>
-                        </Euphoric>
-                    </HappinessDependentMurmur>
+                    <DynamicEnvironmentType>ResidenceT1</DynamicEnvironmentType>
                 </AmbientMoodProvider>
                 <UpgradeList />
                 <Attackable>

@@ -68,9 +68,25 @@
     - Marketstall: Steam Carriages
     - Marketstall: Scooter
 
-- Coffee House (Public service)
-  - Coffee Beans (New World)
+  - Coffee House (Public service)
+    - Coffee Beans (New World)
 
-- Pearl Necklaces (Orient)
-  - Pearls (New World)
-  - Wool (Old World)
+  - Pearl Necklaces (Orient)
+    - Pearls (New World)
+    - Wool (Old World)
+
+# Needs in other Worlds
+
+- OW:
+  - Artisans: Hummus
+  - Engineers: Astrolabes
+  - Investors: Lokum
+  - Magnates: Oudh-Perfume
+- Enbesa:
+  - Elders: Spiced Tea
+  - Shepherds: Roasted chickpeas
+- NW:
+  - Artista: Incense
+  - Obrera: Candied Dates
+- Arctic:
+  - Technicians: Arak

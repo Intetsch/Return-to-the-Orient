@@ -2,8 +2,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "TARGET=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\.misc_data\data\sessions\islands\pool\orient"
-set "DEST=C:\Users\Max\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sessions\islands\pool\orient"
+set "TARGET=C:\Users\maxim\Documents\Anno 1800\mods\[Addon] Return to the Orient\.misc_data\data\sessions\islands\pool\orient"
+set "DEST=C:\Users\maxim\Documents\Anno 1800\mods\[Addon] Return to the Orient\data\sessions\islands\pool\orient"
 
 for /D %%F in ("%TARGET%\*") do (
     set "ISLANDNAME=%%~nxF"

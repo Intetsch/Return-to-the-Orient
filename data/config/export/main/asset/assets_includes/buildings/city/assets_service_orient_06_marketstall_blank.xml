@@ -50,7 +50,7 @@
                                     </Entry>
                                 </InheritanceMapV2>
                             </VectorElement>
-                            <Ingredient>1010196</Ingredient>
+                            <Ingredient>1400201040</Ingredient>
                             <Amount>3</Amount>
                         </Item>
                         <Item>
@@ -145,9 +145,16 @@
                         </Item>
                     </Maintenances>
                 </Maintenance>
-                <Industrializable />
+                <Industrializable>
+                    <BoostedByIndustrialization>0</BoostedByIndustrialization>
+                    <MandatoryIndustrialization>0</MandatoryIndustrialization>
+                </Industrializable>
                 <IncidentInfectable />
-                <Electrifiable />
+                <Electrifiable>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
+                </Electrifiable>
                 <AmbientMoodProvider>
                     <Murmur>Market</Murmur>
                 </AmbientMoodProvider>

@@ -1,0 +1,25 @@
+<ModOps>
+
+	<!-- Storage of the Orient trading company (1404003200) and its warehouse module: trade licenses only,
+	     like Taludas' regional lists (1500040213 = Africa). -->
+	<ModOp Type="addNextSibling" GUID="502168">
+		<Asset>
+			<Template>ProductStorageList</Template>
+			<Values>
+				<Standard>
+					<GUID>1404003205</GUID>
+					<Name>TradeLicenses_StorageList Orient</Name>
+					<IconFilename>data/ui/2kimages/main/icons/icon_diplomacy_options_quest.png</IconFilename>
+				</Standard>
+				<ProductStorageList>
+					<ProductList>
+						<Item>
+							<Product>1999005351</Product>
+						</Item>
+					</ProductList>
+				</ProductStorageList>
+			</Values>
+		</Asset>
+	</ModOp>
+
+</ModOps>

@@ -1,0 +1,106 @@
+<ModOps>
+  <!-- # Product: Incense -->
+  <Group>
+    <ModOp GUID="114356" Type="addPrevSibling">
+      <Asset>
+        <Template>Product</Template>
+        <Values>
+          <Standard>
+            <GUID>1440306</GUID>
+            <Name>Incense</Name>
+            <IconFilename>data/graphics/ui/icons/goods/icon_incense.png</IconFilename>
+          </Standard>
+          <Locked />
+          <Product>
+            <StorageLevel>Building</StorageLevel>
+            <ProductCategory>11702</ProductCategory>
+            <BasePrice>250</BasePrice>
+            <CivLevel>3</CivLevel>
+            <AssociatedRegion/>
+            <ProductionRegions/>
+          </Product>
+          <ExpeditionAttribute>
+            <ExpeditionAttributes>
+              <Item>
+                <Attribute>Faith</Attribute>
+                <Amount>20</Amount>
+              </Item>
+            </ExpeditionAttributes>
+          </ExpeditionAttribute>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+  <!-- # Storage Lists -->
+  <Group>
+    <ModOp Type="add" GUID="120055"
+      Condition="!/Values/ProductStorageList/ProductList/Item[Product='1440306 ']"
+      Path="/Values/ProductStorageList/ProductList">
+      <Item>
+        <Product>1440306 </Product>
+      </Item>
+    </ModOp>
+  </Group>
+  <!-- # Is Main Fake  -->
+    <ModOp Type="addNextSibling" GUID="120008"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1440306 ']/IsMainFactory[text()='1']">
+      <Asset>
+        <Template>FactoryBuilding7</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301168</GUID>
+            <Name>IsMainFactory_Fake: Incense</Name>
+          </Standard>
+          <Building>
+            <AssociatedRegions>Africa</AssociatedRegions>
+            <SecondPartyRelevant>0</SecondPartyRelevant>
+          </Building>
+          <Blocking />
+          <Object>
+            <Variations>
+              <Item>
+                <Filename>data\graphics\buildings\public\logistic_01\logistic_01.cfg</Filename>
+              </Item>
+            </Variations>
+          </Object>
+          <Locked />
+          <FactoryBase>
+            <FactoryInputs>
+              <Item>
+                <Product>134616</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>114370</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+              <Item>
+                <Product>114364</Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryInputs>
+            <FactoryOutputs>
+              <Item>
+                <Product>1440306 </Product>
+                <Amount>1</Amount>
+                <StorageAmount>4</StorageAmount>
+              </Item>
+            </FactoryOutputs>
+            <CycleTime>60</CycleTime>
+            <IsMainFactory>1</IsMainFactory>
+          </FactoryBase>
+          <Maintenance>
+            <Maintenances>
+              <Item>
+                <Product>114341</Product>
+                <Amount>30</Amount>
+              </Item>
+            </Maintenances>
+          </Maintenance>
+        </Values>
+      </Asset>
+    </ModOp>
+</ModOps>

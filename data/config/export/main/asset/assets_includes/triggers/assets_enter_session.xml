@@ -104,6 +104,17 @@
 								</Values>
 							</TriggerAction>
 						</Item>
+						<Item>	
+							<TriggerAction>
+								<Template>ActionDiscoverIsland</Template>
+								<Values>
+									<Action />
+									<ActionDiscoverIsland>
+									<TargetIsland>1404000973</TargetIsland>
+									</ActionDiscoverIsland>
+								</Values>
+							</TriggerAction>
+						</Item>
 					</TriggerActions>
 				</Trigger>
 				<TriggerSetup />

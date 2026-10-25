@@ -1,0 +1,59 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="114566">
+        <Asset>
+            <Template>ProductionChain</Template>
+            <Values>
+                <Standard>
+                    <GUID>1404005119</GUID>
+                    <Name>orient alembics chain</Name>
+                    <IconFilename>data\ui\modgraphics\icon_alembic.png</IconFilename>
+                </Standard>
+                <ProductionChain>
+                    <Building>1404005113</Building>
+                    <Tier1>
+                        <!-- <Item>
+                            <Building>1500010154</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010297</Building>
+                                    <Tier3>
+                                        <Item>
+                                            <Building>1010304</Building>
+                                        </Item>
+                                        <Item>
+                                            <Building>1010305</Building>
+                                        </Item>
+                                    </Tier3>
+                                </Item>
+                                <Item>
+                                    <Building>1010266</Building>
+                                </Item>
+                            </Tier2>
+                        </Item> -->
+                        <Item>
+                            <Building>1404005112</Building>
+                            <Tier2>
+                                <Item>
+                                    <Building>1010304</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1010308</Building>
+                                </Item>
+                                <Item>
+                                    <Building>1404000886</Building>
+                                </Item>
+                            </Tier2>
+                        </Item>
+                    </Tier1>
+                </ProductionChain>
+                <Locked/>
+                <Text>
+                    <TextOverride>1404005115</TextOverride>
+                </Text>
+            </Values>
+        </Asset>
+    </ModOp>
+
+
+</ModOps>
