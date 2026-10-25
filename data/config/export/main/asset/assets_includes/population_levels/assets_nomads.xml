@@ -25,6 +25,21 @@
                             <Product>120020</Product>
                             <SupplyWeight>3</SupplyWeight>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Camp radius replaces the market for Bedouin Tents -->
+                        <Item>
+                            <Product>1404008102</Product>
+                            <SupplyWeight>7</SupplyWeight>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1888999749</Product>
@@ -34,6 +49,29 @@
                             <FullWeightPopulationCount>100</FullWeightPopulationCount>
                             <NoWeightPopulationCount>49</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: hummus instead of dates, from the hummus unlock (300 Envoys) -->
+                        <Item>
+                            <Product>1404005087</Product>
+                            <Amount>0.0003125</Amount>
+                            <SupplyWeight>4</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>100</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>49</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>300</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000265</Product>
@@ -43,6 +81,29 @@
                             <FullWeightPopulationCount>300</FullWeightPopulationCount>
                             <NoWeightPopulationCount>199</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: spiced tea instead of pomegranate juice, from the spiced tea unlock (1000 Envoys) -->
+                        <Item>
+                            <Product>1400201044</Product>
+                            <Amount>0.00048</Amount>
+                            <SupplyWeight>6</SupplyWeight>
+                            <MoneyValue>12</MoneyValue>
+                            <FullWeightPopulationCount>300</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>199</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>1000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         <Item>
                             <Product>1404000150</Product>
@@ -71,6 +132,29 @@
                             <FullWeightPopulationCount>350</FullWeightPopulationCount>
                             <NoWeightPopulationCount>299</NoWeightPopulationCount>
                             <IsConsideredByAI>1</IsConsideredByAI>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404000016</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
+                        </Item>
+                        <!-- Bedouin Tents: candied dates instead of rugs, from the candied dates unlock (600 Envoys) -->
+                        <Item>
+                            <Product>1400201056</Product>
+                            <Amount>0.0002</Amount>
+                            <HappinessValue>16</HappinessValue>
+                            <MoneyValue>24</MoneyValue>
+                            <FullWeightPopulationCount>350</FullWeightPopulationCount>
+                            <NoWeightPopulationCount>299</NoWeightPopulationCount>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>1404000011</Population>
+                                <MinPopulationAmount>600</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <RequiredBuildings>
+                                <Item>
+                                    <RequiredBuilding>1404008101</RequiredBuilding>
+                                </Item>
+                            </RequiredBuildings>
                         </Item>
                         
                         <!-- Lifestyle -->

@@ -3182,13 +3182,13 @@
     </Text>
     <Text>
       <GUID>1404001115</GUID>
-      <!-- Hacienda | Research Station | Research Station -->
-      <Text>Forschungsstation</Text>
+      <!-- Hacienda | Research Outpost | Research Outpost -->
+      <Text>Forschungsaußenposten</Text>
     </Text>
     <Text>
       <GUID>1404001116</GUID>
-      <!-- Product | Hacienda | Research Station -->
-      <Text>Forschungsstation</Text>
+      <!-- Product | Hacienda | Research Outpost -->
+      <Text>Forschungsaußenposten</Text>
     </Text>
     <Text>
       <GUID>1404001117</GUID>
@@ -6669,6 +6669,91 @@
       <GUID>1404008001</GUID>
       <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
       <Text>Patentliste der orientalischen Schmiede</Text>
+    </Text>
+    <Text>
+      <GUID>1404008100</GUID>
+      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
+      <Text>Beduinenlager</Text>
+    </Text>
+    <Text>
+      <GUID>1404008101</GUID>
+      <!-- ResidenceBuilding7_Colony | Bedouin Tent | Bedouin Tent -->
+      <Text>Beduinenzelt</Text>
+    </Text>
+    <Text>
+      <GUID>1404008103</GUID>
+      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
+      <Text>Genügsamkeit der Wüste</Text>
+    </Text>
+    <Text>
+      <GUID>1404008104</GUID>
+      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
+      <Text>Wer die Wüste durchquert, lernt, mit wenig lange auszukommen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008106</GUID>
+      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
+      <Text>Verringert den Verbrauch an lokalen Waren für Beduinen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008110</GUID>
+      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
+      <Text>Kamelzucht</Text>
+    </Text>
+    <Text>
+      <GUID>1404008111</GUID>
+      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
+      <Text>Ein Beduine kennt jedes Kamel beim Namen – und seine Vorfahren sieben Generationen zurück.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008113</GUID>
+      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
+      <Text>Erhöht die Produktivität von Kamelfarmen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008120</GUID>
+      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
+      <Text>Oasengärten</Text>
+    </Text>
+    <Text>
+      <GUID>1404008121</GUID>
+      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
+      <Text>Wo Wasser aus dem Sand steigt, pflanzen die Stämme Dattelpalmen als Schattenspender und Granatäpfel darunter.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008123</GUID>
+      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
+      <Text>Erhöht die Produktivität von Dattel- und Granatapfelplantagen</Text>
+    </Text>
+    <Text>
+      <GUID>1404008130</GUID>
+      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
+      <Text>Gastfreundschaft der Wüste</Text>
+    </Text>
+    <Text>
+      <GUID>1404008131</GUID>
+      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
+      <Text>Kein Reisender wird von einem Beduinenzelt abgewiesen: drei Tage Obdach, Kaffee und Brot, ohne Fragen.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008133</GUID>
+      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
+      <Text>Erhöht die Zufriedenheit der Nomaden</Text>
+    </Text>
+    <Text>
+      <GUID>1404008140</GUID>
+      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
+      <Text>Bande des Stammes</Text>
+    </Text>
+    <Text>
+      <GUID>1404008141</GUID>
+      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
+      <Text>Ruft der Scheich, schickt jedes Zelt seine Hände, denn der Stamm besteht oder fällt gemeinsam.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008143</GUID>
+      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
+      <Text>Erhöht die Arbeitskraft der Nomaden</Text>
     </Text>
   </ModOp>
 </ModOps>

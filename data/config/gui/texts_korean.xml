@@ -3182,13 +3182,13 @@
     </Text>
     <Text>
       <GUID>1404001115</GUID>
-      <!-- Hacienda | Research Station | Research Station -->
-      <Text>연구 스테이션</Text>
+      <!-- Hacienda | Research Outpost | Research Outpost -->
+      <Text>연구 전초기지</Text>
     </Text>
     <Text>
       <GUID>1404001116</GUID>
-      <!-- Product | Hacienda | Research Station -->
-      <Text>연구 스테이션</Text>
+      <!-- Product | Hacienda | Research Outpost -->
+      <Text>연구 전초기지</Text>
     </Text>
     <Text>
       <GUID>1404001117</GUID>
@@ -4839,6 +4839,91 @@
       <GUID>1404008001</GUID>
       <!-- RecipeList | Oriental Smith Patent List | Oriental Smith Patent List -->
       <Text>동양 대장간 특허 목록</Text>
+    </Text>
+    <Text>
+      <GUID>1404008100</GUID>
+      <!-- Hacienda | Bedouin Camp | Bedouin Camp -->
+      <Text>베두인 야영지</Text>
+    </Text>
+    <Text>
+      <GUID>1404008101</GUID>
+      <!-- ResidenceBuilding7_Colony | Bedouin Tent | Bedouin Tent -->
+      <Text>베두인 천막</Text>
+    </Text>
+    <Text>
+      <GUID>1404008103</GUID>
+      <!-- EffectContainer | Desert Frugality | Desert Frugality -->
+      <Text>사막의 검소함</Text>
+    </Text>
+    <Text>
+      <GUID>1404008104</GUID>
+      <!-- Text | Those who cross the desert learn to make a little go a long way. | Those who cross the desert learn to make a little go a long way. -->
+      <Text>사막을 건너는 자는 적은 것으로 오래 버티는 법을 배운다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008106</GUID>
+      <!-- Text | Reduces the consumption of local wares for Bedouins | Reduces the consumption of local wares for Bedouins -->
+      <Text>베두인의 지역 상품 소비를 줄입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008110</GUID>
+      <!-- EffectContainer | Camel Breeding | Camel Breeding -->
+      <Text>낙타 번식</Text>
+    </Text>
+    <Text>
+      <GUID>1404008111</GUID>
+      <!-- Text | A Bedouin knows every camel by name, and its forebears seven generations back. | A Bedouin knows every camel by name, and its forebears seven generations back. -->
+      <Text>베두인은 모든 낙타의 이름을 알고, 7대 위의 조상까지 기억한다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008113</GUID>
+      <!-- Text | Increases the productivity of camel farms | Increases the productivity of camel farms -->
+      <Text>낙타 농장의 생산성을 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008120</GUID>
+      <!-- EffectContainer | Oasis Gardens | Oasis Gardens -->
+      <Text>오아시스 정원</Text>
+    </Text>
+    <Text>
+      <GUID>1404008121</GUID>
+      <!-- Text | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. | Where water rises from the sand, the tribes plant date palms for shade and pomegranates beneath them. -->
+      <Text>모래에서 물이 솟는 곳이면, 부족은 그늘을 위해 대추야자를 심고 그 아래에 석류를 심는다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008123</GUID>
+      <!-- Text | Increases the productivity of date and pomegranate farms | Increases the productivity of date and pomegranate farms -->
+      <Text>대추야자 농장과 석류 농장의 생산성을 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008130</GUID>
+      <!-- EffectContainer | Desert Hospitality | Desert Hospitality -->
+      <Text>사막의 환대</Text>
+    </Text>
+    <Text>
+      <GUID>1404008131</GUID>
+      <!-- Text | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. | No traveller is turned away from a Bedouin tent: three days of shelter, coffee and bread, no questions asked. -->
+      <Text>베두인 천막은 어떤 나그네도 내치지 않는다. 사흘 동안의 잠자리와 커피와 빵을, 아무것도 묻지 않고 내준다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008133</GUID>
+      <!-- Text | Increases the happiness of Nomads | Increases the happiness of Nomads -->
+      <Text>유목민의 행복도를 높입니다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008140</GUID>
+      <!-- EffectContainer | Bonds of the Tribe | Bonds of the Tribe -->
+      <Text>부족의 유대</Text>
+    </Text>
+    <Text>
+      <GUID>1404008141</GUID>
+      <!-- Text | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. | When the sheikh calls, every tent sends its hands, for the tribe stands or falls together. -->
+      <Text>족장이 부르면 모든 천막이 일손을 보낸다. 부족은 함께 서고 함께 쓰러지기 때문이다.</Text>
+    </Text>
+    <Text>
+      <GUID>1404008143</GUID>
+      <!-- Text | Increases the workforce of Nomads | Increases the workforce of Nomads -->
+      <Text>유목민의 노동력을 늘립니다.</Text>
     </Text>
     <Text>
       <GUID>1404001275</GUID>
