@@ -16,7 +16,7 @@
 				<Standard>
 					<GUID>1404004800</GUID>
 					<Name>orient_lighthouse_0</Name>
-					<IconFilename>data/graphics/icons/ornaments/lighthouse_var01.png</IconFilename>
+					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -163,7 +163,7 @@
 				<Standard>
 					<GUID>1404007000</GUID>
 					<Name>orient_lighthouse_1</Name>
-					<IconFilename>data/graphics/icons/ornaments/lighthouse_var02.png</IconFilename>
+					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -305,7 +305,7 @@
 				<Standard>
 					<GUID>1404007001</GUID>
 					<Name>orient_lighthouse_2</Name>
-					<IconFilename>data/graphics/icons/ornaments/lighthouse_var03.png</IconFilename>
+					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
 				</Standard>
 				<Building>
 					<PickingAsset>1404004800</PickingAsset>
@@ -449,10 +449,11 @@
 				<Standard>
 					<GUID>1404007002</GUID>
 					<Name>orient_lighthouse_3_complete</Name>
-					<IconFilename>data/graphics/icons/ornaments/lighthouse.png</IconFilename>
+					<IconFilename>data/graphics/icons/public_services/icon_monument_lighthouse.png</IconFilename>
 					<InfoDescription>1404007013</InfoDescription>
 				</Standard>
 				<Building>
+					<BuildingCategoryName>100002</BuildingCategoryName>
 					<PickingAsset>1404004800</PickingAsset>
 					<TerrainType>Water_Including_Coast</TerrainType>
 					<AssociatedRegions>Mod3</AssociatedRegions>
@@ -488,7 +489,8 @@
 					<SocketCount>1</SocketCount>
 					<SocketAllocation>Mod14</SocketAllocation>
 					<SocketScope>Radius</SocketScope>
-					<SocketScopeRadius>1</SocketScopeRadius>
+					<SocketScopeRadius>4096</SocketScopeRadius>
+					<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
 				</ItemContainer>
 				<UpgradeList />
 				<Attackable>
