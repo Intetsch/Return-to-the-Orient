@@ -138,9 +138,9 @@
                                 </Item>
                             </RequiredBuildings>
                         </Item>
-                        <!-- Bedouin Tents: candied dates instead of rugs, from the candied dates unlock (600 Envoys) -->
+                        <!-- Bedouin Tents: roasted chickpeas instead of rugs, from the roasted chickpeas unlock (300 Envoys) -->
                         <Item>
-                            <Product>1400201056</Product>
+                            <Product>1400201065</Product>
                             <Amount>0.0002</Amount>
                             <HappinessValue>16</HappinessValue>
                             <MoneyValue>24</MoneyValue>
@@ -148,7 +148,7 @@
                             <NoWeightPopulationCount>299</NoWeightPopulationCount>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>1404000011</Population>
-                                <MinPopulationAmount>600</MinPopulationAmount>
+                                <MinPopulationAmount>300</MinPopulationAmount>
                             </AdditionalGlobalUnlockRequirement>
                             <RequiredBuildings>
                                 <Item>
