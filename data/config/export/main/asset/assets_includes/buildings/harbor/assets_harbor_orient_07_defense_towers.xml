@@ -208,7 +208,7 @@
                 </Cost>
             </Values>
         </Asset>
-        <!-- 4799 already costs only Mud Bricks and Old World goods -->
+        <!-- 4799 costs Enbesa mud bricks; index 2 becomes Rammed Earth -->
         <Asset>
             <BaseAssetGUID>4799</BaseAssetGUID>
             <Values>
@@ -234,6 +234,46 @@
                     </Variations>
                 </Object>
                 <Mesh/>
+                <Cost>
+                    <Costs>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                            </VectorElement>
+                            <Ingredient>1404009000</Ingredient>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                        <Item>
+                            <VectorElement>
+                                <InheritedIndex>6</InheritedIndex>
+                            </VectorElement>
+                        </Item>
+                    </Costs>
+                </Cost>
             </Values>
         </Asset>
         <Asset>

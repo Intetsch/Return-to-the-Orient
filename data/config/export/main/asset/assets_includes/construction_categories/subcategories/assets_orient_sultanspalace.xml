@@ -1,6 +1,7 @@
 <ModOps>
 
-    <!-- Not in any menu while the palace buildings sit in the Nomads' Development group (assets_orient_construction_menu_development.xml) -->
+    <!-- Not in any menu while the palace sits in the Nomads' Development group (assets_orient_construction_menu_development.xml).
+         The wing pieces are the palace's Hacienda modules and are placed from its module panel, not from a menu. -->
     <ModOp Type="addNextSibling" GUID="114554">
         <Asset>
             <Template>ConstructionCategory</Template>
@@ -14,21 +15,6 @@
                     <BuildingList>
                         <Item>
                             <Building>1404004211</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004212</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004213</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004214</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004215</Building>
-                        </Item>
-                        <Item>
-                            <Building>1404004217</Building>
                         </Item>
                     </BuildingList>
                 </ConstructionCategory>

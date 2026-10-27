@@ -1,16 +1,17 @@
 <ModOps>
 
-	<!-- Sultan's palace modules (IAAM sultanspalast, copied from sbm_import to buildings/orient/sultanspalace),
-	     plain ornaments for now. Group 1404004216 in construction_categories/subcategories/assets_orient_sultanspalace.xml -->
+	<!-- Sultan's palace (IAAM sultanspalast, copied from sbm_import to buildings/orient/sultanspalace): the main house is a
+			Hacienda without decrees and without a build limit (no UniqueType), the wing pieces are its modules.
+			Group 1404004216 in construction_categories/subcategories/assets_orient_sultanspalace.xml -->
 	<ModOp Type="addNextSibling" GUID='130726'>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>Hacienda</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004211</GUID>
 					<Name>orientSultansPalace</Name>
-					<IconFilename>data/graphics/icons/ornaments/sultanspalace_palace.png</IconFilename>
-					<InfoDescription>1404001003</InfoDescription>
+					<IconFilename>data/graphics/icons/public_services/icon_orient_sultanspalace_emblem.png</IconFilename>
+					<InfoDescription>2975</InfoDescription>
 				</Standard>
 				<Text>
 					<LocaText>
@@ -21,95 +22,47 @@
 					</LocaText>
 					<LineID>45376</LineID>
 				</Text>
-				<Blocking/>
+				<Blocking>
+					<HasBuildingBaseTiles>1</HasBuildingBaseTiles>
+				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingType>Logistic</BuildingType>
+					<BuildingCategoryName>11151</BuildingCategoryName>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 						</Item>
 					</Costs>
 				</Cost>
 				<Selection>
+					<GUIType>Hacienda</GUIType>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
 						<Values>
 							<ActionList/>
 						</Values>
 					</OnSelection>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
 				</Selection>
 				<Object>
 					<Variations>
@@ -120,21 +73,80 @@
 				</Object>
 				<Constructable/>
 				<Mesh/>
-				<SoundEmitter/>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<BuildingRepaired>
+						<Item>
+							<Sound>203866</Sound>
+						</Item>
+					</BuildingRepaired>
+				</SoundEmitter>
 				<Locked/>
-				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>269351</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
+				<FeedbackController/>
+				<Warehouse>
+					<WarehouseStorage>
+						<StorageMax>0</StorageMax>
+					</WarehouseStorage>
+				</Warehouse>
+				<LogisticNode/>
+				<UpgradeList/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
+				<Maintenance/>
+				<StorageBase/>
+				<Attackable>
+					<AttackableType>IslandBuilding</AttackableType>
+					<MaximumHitPoints>3500</MaximumHitPoints>
+					<SelfHealPerHealTick>4</SelfHealPerHealTick>
+				</Attackable>
+				<Pausable/>
+				<BuildingUnique/>
+				<ModuleOwner>
+					<ModuleLimits>
+						<Main>
+							<Limit>999</Limit>
+						</Main>
+					</ModuleLimits>
+					<ConstructionOptions>
+						<Item>
+							<ModuleGUID>1404004212</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404004213</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404004214</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404004215</ModuleGUID>
+						</Item>
+						<Item>
+							<ModuleGUID>1404004217</ModuleGUID>
+						</Item>
+					</ConstructionOptions>
+					<AddModuleLimit>0</AddModuleLimit>
+					<BlueprintModuleOption>
+						<ModuleButtonIcon>20831</ModuleButtonIcon>
+						<ModulePopupDescription>25236</ModulePopupDescription>
+						<ModulePopupHeader>25235</ModulePopupHeader>
+						<ModuleButtonInfotip>25239</ModuleButtonInfotip>
+						<ShowRemainingModuleCount>1</ShowRemainingModuleCount>
+					</BlueprintModuleOption>
+				</ModuleOwner>
+				<Hacienda/>
+				<IncidentInfectable/>
+				<PublicService/>
 				<Culture/>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>AdditionalModule</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004212</GUID>
@@ -154,85 +166,39 @@
 				<Blocking/>
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/wohnflugel/wohnflugel.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -241,30 +207,19 @@
 						</Values>
 					</OnSelection>
 				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/wohnflugel/wohnflugel.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
 				<Constructable/>
-				<Mesh/>
-				<SoundEmitter/>
 				<Locked/>
+				<SoundEmitter/>
 				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>269351</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
-				<Culture/>
+				<BuildingModule/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>AdditionalModule</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004213</GUID>
@@ -284,85 +239,39 @@
 				<Blocking/>
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/bogengang/bogengang.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -371,30 +280,19 @@
 						</Values>
 					</OnSelection>
 				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/bogengang/bogengang.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
 				<Constructable/>
-				<Mesh/>
-				<SoundEmitter/>
 				<Locked/>
+				<SoundEmitter/>
 				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>25226</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
-				<Culture/>
+				<BuildingModule/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>AdditionalModule</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004214</GUID>
@@ -419,85 +317,39 @@
 				</Blocking>
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/torhaus/torhaus.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -506,30 +358,19 @@
 						</Values>
 					</OnSelection>
 				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/torhaus/torhaus.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
 				<Constructable/>
-				<Mesh/>
-				<SoundEmitter/>
 				<Locked/>
+				<SoundEmitter/>
 				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>6013</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
-				<Culture/>
+				<BuildingModule/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>AdditionalModule</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004215</GUID>
@@ -549,85 +390,39 @@
 				<Blocking/>
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckturm/eckturm.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -636,30 +431,19 @@
 						</Values>
 					</OnSelection>
 				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckturm/eckturm.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
 				<Constructable/>
-				<Mesh/>
-				<SoundEmitter/>
 				<Locked/>
+				<SoundEmitter/>
 				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>5190</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
-				<Culture/>
+				<BuildingModule/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 			</Values>
 		</Asset>
 		<Asset>
-			<Template>OrnamentalBuilding</Template>
+			<Template>AdditionalModule</Template>
 			<Values>
 				<Standard>
 					<GUID>1404004217</GUID>
@@ -679,85 +463,39 @@
 				<Blocking/>
 				<Building>
 					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
+					<SecondPartyRelevant>0</SecondPartyRelevant>
+					<ModuleParentType>Hacienda</ModuleParentType>
 				</Building>
 				<Cost>
 					<Costs>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>0</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>0</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
+							<Ingredient>1010017</Ingredient>
 							<Amount>200</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>1</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>1</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1400201040</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>2</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>2</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-							<Ingredient>114402</Ingredient>
+							<Ingredient>1404009000</Ingredient>
 							<Amount>0</Amount>
 						</Item>
 						<Item>
-							<VectorElement>
-								<InheritedIndex>3</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>3</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
 							<Ingredient>1404000256</Ingredient>
 							<Amount>0</Amount>
 						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>4</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>4</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
-						<Item>
-							<VectorElement>
-								<InheritedIndex>5</InheritedIndex>
-								<InheritanceMapV2>
-									<Entry>
-										<TemplateName>OrnamentalBuilding</TemplateName>
-										<Index>5</Index>
-									</Entry>
-								</InheritanceMapV2>
-							</VectorElement>
-						</Item>
 					</Costs>
 				</Cost>
+				<Object>
+					<Variations>
+						<Item>
+							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckflugel/eckflugel.cfg</Filename>
+						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
 				<Selection>
 					<OnSelection>
 						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
@@ -766,26 +504,15 @@
 						</Values>
 					</OnSelection>
 				</Selection>
-				<Object>
-					<Variations>
-						<Item>
-							<Filename>data/graphics/buildings/orient/sultanspalace/iaam/orient/001offenliche_gebaude/sultanspalast/eckflugel/eckflugel.cfg</Filename>
-						</Item>
-					</Variations>
-				</Object>
 				<Constructable/>
-				<Mesh/>
-				<SoundEmitter/>
 				<Locked/>
+				<SoundEmitter/>
 				<FeedbackController/>
-				<Ornament>
-					<OrnamentUnit>4</OrnamentUnit>
-					<OrnamentDescription>269351</OrnamentDescription>
-				</Ornament>
-				<AmbientMoodProvider/>
-				<Pausable/>
 				<Infolayer/>
-				<Culture/>
+				<BuildingModule/>
+				<AmbientMoodProvider>
+					<AmbientMood>ResidenceTier1</AmbientMood>
+				</AmbientMoodProvider>
 			</Values>
 		</Asset>
 	</ModOp>

@@ -9,6 +9,7 @@
     <Include File="assets_mushrooms.xml" />
     <Include File="assets_oud_perfume.xml" />
     <Include File="assets_oud.xml" />
+    <Include File="assets_rammed_earth.xml" />
     <Include File="assets_roasted_coffee.xml" />
     <Include File="assets_sultans_seals.xml" />
     <Include File="assets_sulfuric_acid.xml" />
@@ -67,6 +68,9 @@
         </Item>
         <Item>
             <Product>1404000207</Product>
+        </Item>
+        <Item>
+            <Product>1404009000</Product>
         </Item>
     </ModOp>
 
