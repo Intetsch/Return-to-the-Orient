@@ -110,7 +110,7 @@
 				<ModuleOwner>
 					<ModuleLimits>
 						<Main>
-							<Limit>999</Limit>
+							<Limit>9999</Limit>
 						</Main>
 					</ModuleLimits>
 					<ConstructionOptions>
@@ -136,7 +136,7 @@
 						<ModulePopupDescription>25236</ModulePopupDescription>
 						<ModulePopupHeader>25235</ModulePopupHeader>
 						<ModuleButtonInfotip>25239</ModuleButtonInfotip>
-						<ShowRemainingModuleCount>1</ShowRemainingModuleCount>
+						<ShowRemainingModuleCount>0</ShowRemainingModuleCount>
 					</BlueprintModuleOption>
 				</ModuleOwner>
 				<Hacienda/>
@@ -165,7 +165,7 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>0</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
@@ -212,7 +212,9 @@
 				<SoundEmitter/>
 				<FeedbackController/>
 				<Infolayer/>
-				<BuildingModule/>
+				<BuildingModule>
+					<ModuleType>Main</ModuleType>
+				</BuildingModule>
 				<AmbientMoodProvider>
 					<AmbientMood>ResidenceTier1</AmbientMood>
 				</AmbientMoodProvider>
@@ -238,7 +240,7 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>0</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
@@ -285,7 +287,9 @@
 				<SoundEmitter/>
 				<FeedbackController/>
 				<Infolayer/>
-				<BuildingModule/>
+				<BuildingModule>
+					<ModuleType>Main</ModuleType>
+				</BuildingModule>
 				<AmbientMoodProvider>
 					<AmbientMood>ResidenceTier1</AmbientMood>
 				</AmbientMoodProvider>
@@ -316,7 +320,7 @@
 					<BelowArchBuildHeight>1</BelowArchBuildHeight>
 				</Blocking>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>0</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
@@ -363,7 +367,9 @@
 				<SoundEmitter/>
 				<FeedbackController/>
 				<Infolayer/>
-				<BuildingModule/>
+				<BuildingModule>
+					<ModuleType>Main</ModuleType>
+				</BuildingModule>
 				<AmbientMoodProvider>
 					<AmbientMood>ResidenceTier1</AmbientMood>
 				</AmbientMoodProvider>
@@ -389,7 +395,7 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>0</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
@@ -436,7 +442,9 @@
 				<SoundEmitter/>
 				<FeedbackController/>
 				<Infolayer/>
-				<BuildingModule/>
+				<BuildingModule>
+					<ModuleType>Main</ModuleType>
+				</BuildingModule>
 				<AmbientMoodProvider>
 					<AmbientMood>ResidenceTier1</AmbientMood>
 				</AmbientMoodProvider>
@@ -462,7 +470,7 @@
 				</Text>
 				<Blocking/>
 				<Building>
-					<BuildingCategoryName>11149</BuildingCategoryName>
+					<BuildingCategoryName>0</BuildingCategoryName>
 					<BuildModeRandomRotation>90</BuildModeRandomRotation>
 					<AssociatedRegions>Mod3</AssociatedRegions>
 					<SecondPartyRelevant>0</SecondPartyRelevant>
@@ -509,7 +517,9 @@
 				<SoundEmitter/>
 				<FeedbackController/>
 				<Infolayer/>
-				<BuildingModule/>
+				<BuildingModule>
+					<ModuleType>Main</ModuleType>
+				</BuildingModule>
 				<AmbientMoodProvider>
 					<AmbientMood>ResidenceTier1</AmbientMood>
 				</AmbientMoodProvider>
