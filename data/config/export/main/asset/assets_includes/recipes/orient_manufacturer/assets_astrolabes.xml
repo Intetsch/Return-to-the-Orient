@@ -18,6 +18,11 @@
                     <RecipeImage>data/ui/modgraphics/astrolabio_recipe_mood.png</RecipeImage>
                     <RecipeIngredientUIData>
                         <Item>
+                            <PosX>400</PosX>
+                            <PosY>70</PosY>
+                            <UICirclePointer>SouthWest</UICirclePointer>
+                        </Item>
+                        <Item>
                             <PosX>350</PosX>
                             <PosY>400</PosY>
                             <UICirclePointer>NorthWest</UICirclePointer>
@@ -26,11 +31,6 @@
                             <PosX>50</PosX>
                             <PosY>15</PosY>
                             <UICirclePointer>SouthEast</UICirclePointer>
-                        </Item>
-                        <Item>
-                            <PosX>400</PosX>
-                            <PosY>70</PosY>
-                            <UICirclePointer>SouthWest</UICirclePointer>
                         </Item>
                     </RecipeIngredientUIData>
                     <RecipeUnlockConditionText>137486</RecipeUnlockConditionText>

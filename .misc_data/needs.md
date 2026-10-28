@@ -1,48 +1,67 @@
 # Needs
 
+Unlock = condition of the trigger that unlocks the need's asset pool (triggers/assets_intermediate_orient_*.xml).
+The need already shows (hidden/preview) one trigger stage earlier.
+
 - Nomads
   - Basic
-    - Marketplace (Public service)
-    - Dates (Orient)
-    - Pomegranate Juice (Orient)
-    - Mosque (Public service)
+    - Marketplace (Public service) [unlock: Orient session reached]
+    - Dates (Orient) [unlock: 50 Nomads]
+    - Pomegranate Juice (Orient) [unlock: 200 Nomads]
+    - Mosque (Public service) [unlock: 300 Nomads]
   - Luxury
-    - Camels (Orient)
-    - Rugs (Orient or Enbesa)
+    - Camels (Orient) [unlock: 100 Nomads]
+    - Rugs (Orient or Enbesa) [unlock: 300 Nomads]
       - Silk Fabric (Taludas; Horai or Orient)
       - Indigo (Enbesa)
+  - Bedouin Tents (replace a Nomad need)
+    - Bedouin Camp radius instead of Marketplace
+    - Hummus instead of Dates [unlock: hummus pool, 300 Envoys + 1500 Artisans]
+    - Spiced Tea instead of Pomegranate Juice [unlock: spiced tea pool, 1000 Envoys + 1000 Elders]
+    - Roasted Chickpeas instead of Rugs [unlock: roasted chickpeas pool, 300 Envoys + 400 Shepherds]
+  - Lifestyle (bonus, imported) [unlock: population elsewhere]
+    - Bread [150 Workers]
+    - Beef [1 Artisan]
+    - Chocolate [1750 Investors]
+    - Clay [1 Worker]
+    - Pigments [1800 Artistas]
+    - Nandu Leather [1 Artista]
 
-- Envoys
+- Envoys (also have all Nomad Basic and Luxury needs)
   - Basic
-    - Consulate (Public service)
-    - Spice Powder (Orient)
+    - Consulate (Public service) [unlock: 1 Envoy]
+    - Spice Powder (Orient) [unlock: 1 Envoy]
       - Spices (New World or Enbesa)
-    - Kaftans (Orient)
+      - Aniseed (Orient)
+      - Salt (Enbesa or New World)
+    - Kaftans (Orient) [unlock: 600 Envoys]
       - Silk Fabric (Taludas; Horai or Orient)
       - Wool (Old World)
-    - Bath House (Public service)
-    - Rose Water (Orient)
+    - Bath House (Public service) [unlock: 600 Envoys]
+    - Rose Water (Orient) [unlock: 1000 Envoys]
       - Roses (fridhmyr/Satanoy; Orient)
       - Glass (Old World)
         - Quartz Sand (Old World)
-    - Hookas (Orient)
-      - Tobacco (New World)
+      - Alembics (Orient)
+        - Copper Bar (Orient)
+          - Coal (Old World or Arctic)
+          - Copper (Old World)
+    - Hookas (Orient) [unlock: 1400 Envoys]
+      - Silver Bars (Orient or New World)
+        - Silver Ore (Orient)
       - Caoutchouc (New World)
-      - Brass (Old World)
-        - Copper (Old World)
-        - Zinc (Old World)
-    - Marzipan (Taludas; Orient)
+      - Tobacco (New World)
+    - Marzipan (Taludas; Orient) [unlock: 2400 Envoys]
       - Almonds (Taludas; Orient)
-      - Honey (Taludas)
+      - Honey (Taludas; Orient Bee Garden module on the Date Farm, or Honey Import Dock)
       - Chocolate (New World)
         - Cocoa (New World)
         - Sugar (New World)
           - Sugar Cane (New World)
-    - Chandeliers (Orient)
-      - Gold (Old World)
-        - Gold Ore (Old World or Arctic)
-        - Coal (Old World or Arctic)
-      - Wood Veneers (Old World or New World)
+    - Chandeliers (Orient) [unlock: 3600 Envoys]
+      - Silver Bars (Orient or New World)
+        - Silver Ore (Orient)
+      - Wood Veneers (Old World)
         - Wood (Old World, New World or Arctic)
       - Ornate Candles (Enbesa)
         - Beeswax (Enbesa)
@@ -50,43 +69,71 @@
       - Glass (Old World)
         - Quartz Sand (Old World)
   - Luxury
-    - Marketstall: Pocket Watches
-    - Marketstall: Biscuits
-    - Ceremonial Sabers (Orient)
+    - Marketstall: Pocket Watches [unlock: 600 Envoys]
+    - Marketstall: Biscuits [unlock: 600 Envoys + 15 Investor skyscrapers level 2 (residence_tier05_level02) + DLC High Life]
+    - Ceremonial Sabers (Orient) [unlock: 300 Envoys]
+      - Silver Bars (Orient or New World)
+        - Silver Ore (Orient)
       - Ebony (Taludas)
-      - Steel (Old World)
-        - Coal (Old World or Arctic)
-        - Iron (Old World or New World)
-    - Marketstall: Ice Cream
-    - Marketstall: Gramophones
-    - Marketstall: Typewriters
-    - Turbans (Orient)
+    - Marketstall: Ice Cream [unlock: 1000 Envoys + 1800 Artistas + DLC New World Rising]
+    - Marketstall: Gramophones [unlock: 1000 Envoys]
+    - Marketstall: Typewriters [unlock: 1400 Envoys + (1 Investor skyscraper level 4 OR 1 Engineer skyscraper level 3) + DLC High Life]
+    - Turbans (Orient) [unlock: 3000 Envoys]
       - Silk Fabric (Taludas; Horai or Orient)
-      - Pearls (New World)
+      - Wool (Old World)
       - Nandu Feathers (New World)
-    - Marketstall: Fans
-    - Marketstall: Steam Carriages
-    - Marketstall: Scooter
+    - Marketstall: Fans [unlock: 1400 Envoys + 4000 Artistas + DLC New World Rising]
+    - Marketstall: Steam Carriages [unlock: 1900 Envoys + 5000 Investors]
+    - Marketstall: Scooter [unlock: 1900 Envoys + 6000 Artistas + DLC New World Rising]
 
-  - Coffee House (Public service)
-    - Coffee Beans (New World)
+  - Coffee House (Public service) [unlock: 7000 Scholars + 3600 Envoys]
+    - Roasted Coffee (Orient)
+      - Coffee Beans (New World)
+    - Recipe extras (optional, one per recipe): Goat Milk, Spice Powder, Dates, Rose Water, Honey
 
-  - Pearl Necklaces (Orient)
+  - Pearl Necklaces (Orient) [unlock: 1000 Scholars + 3600 Envoys]
     - Pearls (New World)
     - Wool (Old World)
+
+  - Lifestyle (bonus, imported) [unlock: population elsewhere]
+    - Soap [300 Workers]
+    - Medicine [6000 Artistas]
+    - Orchid [2700 Artistas]
+    - Clay Pipe [300 Elders]
+    - Film Reel [4000 Artistas]
+    - Souvenirs [2000 Tourists]
+
+- Scholars (Orient residence; every tier also needs 3600 Envoys). Vanilla need → Orient replacement, same amounts and thresholds as vanilla
+  - Basic
+    - University → Research Outpost (Public service) [unlock: 1 Scholar]
+    - Canned Food → Hummus [unlock: 1 Scholar]
+    - Tailored Suits → Kaftans [unlock: 300 Scholars]
+    - Electricity → Spiced Tea [unlock: 1000 Scholars]
+    - Seafood Stew (kept) [unlock: 2000 Scholars]
+    - Telephones → Astrolabes [unlock: 4000 Scholars]
+    - Radio Tower → Coffee House (Public service) [unlock: 7000 Scholars]
+  - Luxury
+    - Leather Boots (kept) [unlock: 1 Scholar]
+    - Rum → Arak [unlock: 1 Scholar]
+    - Bowler Hats → Turbans [unlock: 300 Scholars]
+    - Hibiscus Tea → Pomegranate Juice [unlock: 1000 Scholars]
+    - Tapestries → Rugs (same product 114404, kept) [unlock: 2000 Scholars]
+    - Clay Pipes → Hookahs [unlock: 4000 Scholars]
+    - Gramophones → Chandeliers [unlock: 7000 Scholars + 3000 Investors]
+  - Pearl Necklaces were the Electricity replacement until 2026-10-28; no population needs them now
 
 # Needs in other Worlds (FloorLevel) (unlock)
 
 - OW:
-  - (1) (300) Artisans: Hummus
-  - (1) (300) Engineers: Astrolabes
-  - (2) (1000) Investors: Lokum
-  - (2) (2400) Magnates: Oudh-Perfume
+  - (1) (300 Envoys + 1500 Artisans) Artisans: Hummus
+  - (1) (300 Envoys + 3000 Engineers) Engineers: Astrolabes
+  - (2) (1400 Envoys + 4500 Investors) Investors: Lokum
+  - (2) (2400 Envoys + 4000 Magnates) Magnates: Oudh-Perfume
 - Enbesa:
-  - (2) (1000) Elders: Spiced Tea
-  - (1) (300) Shepherds: Roasted chickpeas
+  - (2) (1000 Envoys + 1000 Elders) Elders: Spiced Tea
+  - (1) (300 Envoys + 400 Shepherds) Shepherds: Roasted chickpeas
 - NW:
-  - (2) (1900) Artista: Incense
-  - (1) (600) Obrera: Candied Dates
+  - (2) (1900 Envoys + 4000 Artistas) Artista: Incense
+  - (1) (600 Envoys + 1000 Obreros) Obrera: Candied Dates
 - Arctic:
-  - (2) (1000) Technicians: Arak
+  - (2) (1000 Envoys + 750 Technicians) Technicians: Arak

@@ -144,6 +144,11 @@
 				<FactoryBase>
 					<FactoryInputs>
 						<Item>
+							<Product>1500010153</Product>
+							<Amount>2</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+						<Item>
 							<Product>1404005109</Product>
 							<Amount>1</Amount>
 							<StorageAmount>4</StorageAmount>
@@ -151,11 +156,6 @@
 						<Item>
 							<Product>1010249</Product>
 							<Amount>1</Amount>
-							<StorageAmount>4</StorageAmount>
-						</Item>
-						<Item>
-							<Product>1500010153</Product>
-							<Amount>2</Amount>
 							<StorageAmount>4</StorageAmount>
 						</Item>
 					</FactoryInputs>
