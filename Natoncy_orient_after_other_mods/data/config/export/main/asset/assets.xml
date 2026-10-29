@@ -75,7 +75,7 @@
     </ModOp>
 
     <!-- Add need: Magnates: Oudh-Perfume
-         Unlock counts match trigger 1404005062 in triggers/assets_new_horizons_triggers.xml -->
+         The Envoy count is the Orient's own oud unlock, trigger 1404004032 in triggers/assets_new_horizons_triggers.xml -->
     <ModOp Type="addNextSibling" GUID="15100100" Path="Values/PopulationLevel7/PopulationInputs/Item[Product='1440216']" Condition="#new_horizons_session">
         <Item>
             <Product>1404005059</Product>
@@ -87,7 +87,7 @@
             <IsConsideredByAI>0</IsConsideredByAI>
             <AdditionalGlobalUnlockRequirement>
                 <Population>1404000011</Population>
-                <MinPopulationAmount>2400</MinPopulationAmount>
+                <MinPopulationAmount>6000</MinPopulationAmount>
             </AdditionalGlobalUnlockRequirement>
         </Item>
     </ModOp>

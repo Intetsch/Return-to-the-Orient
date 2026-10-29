@@ -41,21 +41,23 @@
                     <IconFilename>data/graphics/icons/ornaments/palm.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
+                    <!-- Orient copies of Palm Trees 133886, the two palms 102818/102817, bush 102863 and grass 102812
+                         (assets_orient_park_plants.xml): the New World unlocks the originals at 300 Jornaleros -->
                     <BuildingList>
                         <Item>
-                            <Building>133886</Building>
+                            <Building>1404004870</Building>
                         </Item>
                         <Item>
-                            <Building>102818</Building>
+                            <Building>1404004871</Building>
                         </Item>
                         <Item>
-                            <Building>102817</Building>
+                            <Building>1404004872</Building>
                         </Item>
                         <Item>
-                            <Building>102863</Building>
+                            <Building>1404004873</Building>
                         </Item>
                         <Item>
-                            <Building>102812</Building>
+                            <Building>1404004874</Building>
                         </Item>
                     </BuildingList>
                     <CategoryDescription>19564</CategoryDescription>
