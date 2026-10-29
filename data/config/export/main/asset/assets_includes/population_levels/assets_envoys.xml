@@ -328,12 +328,13 @@
                             </AdditionalGlobalUnlockRequirement>
                         </Item>
 
-                        <!-- Lifestyle -->
+                        <!-- Lifestyle: rewards on the vanilla Obreros scale (SupplyWeight 1-6, MoneyValue 5-58), no ResearchValue
+                             (vanilla gives that to Scholars only). The AGU is the count at which the good's production unlocks, like vanilla -->
                         <Item>
                             <Product>1010203</Product>
                             <Amount>0.0005</Amount>
                             <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <MoneyValue>5</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>15000001</Population>
                                 <MinPopulationAmount>300</MinPopulationAmount>
@@ -341,12 +342,25 @@
                             <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
                             <IsBonusNeed>1</IsBonusNeed>
                         </Item>
+                        <!-- Astrolabes: the late Orient good, like the Obreros' Typewriter. Production unlocks at 4000 Scholars (3.4).
+                             The AGU counts vanilla Scholars too; the locked product hides the need until 3.4 -->
+                        <Item>
+                            <Product>1404005131</Product>
+                            <Amount>0.0005</Amount>
+                            <SupplyWeight>5</SupplyWeight>
+                            <MoneyValue>35</MoneyValue>
+                            <AdditionalGlobalUnlockRequirement>
+                                <Population>118745</Population>
+                                <MinPopulationAmount>4000</MinPopulationAmount>
+                            </AdditionalGlobalUnlockRequirement>
+                            <ExcludePopulationFromMoneyAndConsumptionCalculation>1</ExcludePopulationFromMoneyAndConsumptionCalculation>
+                            <IsBonusNeed>1</IsBonusNeed>
+                        </Item>
                         <Item>
                             <Product>5397</Product>
                             <Amount>0.0004</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <SupplyWeight>6</SupplyWeight>
+                            <MoneyValue>58</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>6000</MinPopulationAmount>
@@ -357,8 +371,8 @@
                         <Item>
                             <Product>5386</Product>
                             <Amount>0.0007</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>2</SupplyWeight>
+                            <MoneyValue>14</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>2700</MinPopulationAmount>
@@ -369,8 +383,8 @@
                         <Item>
                             <Product>114414</Product>
                             <Amount>0.0003333</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
+                            <SupplyWeight>3</SupplyWeight>
+                            <MoneyValue>26</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>114330</Population>
                                 <MinPopulationAmount>300</MinPopulationAmount>
@@ -381,9 +395,8 @@
                         <Item>
                             <Product>5392</Product>
                             <Amount>0.000222</Amount>
-                            <SupplyWeight>1</SupplyWeight>
-                            <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
+                            <SupplyWeight>4</SupplyWeight>
+                            <MoneyValue>30</MoneyValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>5403</Population>
                                 <MinPopulationAmount>4000</MinPopulationAmount>
@@ -394,9 +407,8 @@
                         <Item>
                             <Product>133532</Product>
                             <Amount>0.0003</Amount>
-                            <SupplyWeight>1</SupplyWeight>
+                            <SupplyWeight>2</SupplyWeight>
                             <MoneyValue>12</MoneyValue>
-                            <ResearchValue>4</ResearchValue>
                             <AdditionalGlobalUnlockRequirement>
                                 <Population>601379</Population>
                                 <MinPopulationAmount>2000</MinPopulationAmount>

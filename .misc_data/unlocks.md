@@ -48,7 +48,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Harbour menu (tier 1); Depot; Harbour Office
 - Camels (pool)
-  - Buildings: Camel Farm; Silo module (camel feed)
+  - Buildings: Camel Farm
   - Fields: Camel Field
   - Goods: Camels
   - Items: Animal Grazing and Breeding Agreement; Hassan ibn Rashid, Breeder of purebred camels
@@ -145,7 +145,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Items: Omar ibn Salih al-Tujjar, The Great Importer
 - Market Stalls menu
 - Hummus (pool)
-  - Buildings: Olive Plantation; Chickpea Farm; Hummus Kitchen; Cold Press
+  - Buildings: Olive Plantation; Chickpea Farm; Hummus Kitchen; Cold Press; Silo module (camel feed, eats chickpeas)
   - Fields: Olive Grove; Chickpea Field
   - Goods: Olive Oil; Olives; Chickpeas; Hummus
   - Chains: Hummus
@@ -169,10 +169,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 ### 2.2 — 600 Envoys
 
-- Oriental Lighthouse
-- Lighthouse beacons (pool)
-  - Items: Beacon of the Harbour; Thrifty Beacon of the Shipwrights; Steadfast Beacon of the Fleet; Eternal Beacon of the Seven Seas; Beacon of the Dhows; Swift Beacon of the Trade Winds; Vigilant Beacon of the Frigates; Radiant Beacon of the Monsoon; Beacon of the Stokers; Tireless Beacon of the Boilers; Relentless Beacon of the Steamers; Golden Beacon of the Merchants; Beacon of the Gunners; Fierce Beacon of the Broadside; Thundering Beacon of the Admiralty; Unbreakable Beacon of the Navy; Beacon of the Skies; Buoyant Beacon of the Clouds; Steady Beacon of the Airmen; Soaring Beacon of the Djinn; Beacon of the Pearl Divers; Glimmering Beacon of the Deep; Mysterious Beacon of the Sunken Hoards; Fabled Beacon of the Drowned Kingdom
-- Sultan's Palace; Sultan's Palace Wing; Sultan's Palace Wing - Bridge; Sultan's Palace Wing - Gate; Sultan's Palace Wing - Cross; Sultan's Palace Wing - Corner; Sultan's Palace menu; Hospital
+- Hospital
 - Airship platform (pool)
   - Buildings: Orient airship landing platform; Orient Item Transfer Module; Orient Airship Commuter Station; DLC11 Cafe Orient; DLC11 Cafe Tables Orient; DLC11 Clock Orient; DLC11 Flagpole Orient; DLC11 Benches Small Orient; DLC11 Benches Large Orient; DLC11 Sign Orient; DLC11 Gate Orient
   - Menus: Orient construction menu airship platform
@@ -190,7 +187,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Goods: Spiced Tea
   - Chains: Spiced tea
   - Items: Spice Supply Decree; Jalaluddin al-Qahwa, The Master of Spices
-- Large Ruins; Oriental Watchtower
+- Large Ruins; Oriental Watchtower; Oriental Lighthouse: Tower
 - **Extra** (needs 1800 Artistas + DLC New World Rising):
   - Marketstall: Ice Cream (pool)
     - Buildings: Marketstall: Ice Cream; Marketstall
@@ -215,6 +212,9 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 - Armor Pierce tower
 - Warehouse & kontor III (pool)
   - Buildings: Warehouse III; Kontor III; Imperial Kontor III
+- Oriental Lighthouse: Lantern Room; Oriental Lighthouse
+- Lighthouse beacons (pool)
+  - Items: Beacon of the Harbour; Thrifty Beacon of the Shipwrights; Steadfast Beacon of the Fleet; Eternal Beacon of the Seven Seas; Beacon of the Dhows; Swift Beacon of the Trade Winds; Vigilant Beacon of the Frigates; Radiant Beacon of the Monsoon; Beacon of the Stokers; Tireless Beacon of the Boilers; Relentless Beacon of the Steamers; Golden Beacon of the Merchants; Beacon of the Gunners; Fierce Beacon of the Broadside; Thundering Beacon of the Admiralty; Unbreakable Beacon of the Navy; Beacon of the Skies; Buoyant Beacon of the Clouds; Steady Beacon of the Airmen; Soaring Beacon of the Djinn; Beacon of the Pearl Divers; Glimmering Beacon of the Deep; Mysterious Beacon of the Sunken Hoards; Fabled Beacon of the Drowned Kingdom
 - Oriental Place 2
 
 ### 2.5 — 2250 Envoys
@@ -361,6 +361,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
   - Goods: Turbans; Silk Fabric
   - Chains: Turbans
   - Items: Amina bint Rashid, Guru of Latest Fashion; Iskender Pasha Oglu, Dressmaker to the Grand Vizier; Silk Seeds; Quality Silk Seeds; Hybrid Silk Seeds; Leyla al-Harir, the Mistress of the Cocoon; Steam boilers for silk reeling
+- Sultan's Palace; Sultan's Palace Wing; Sultan's Palace Wing - Bridge; Sultan's Palace Wing - Gate; Sultan's Palace Wing - Cross; Sultan's Palace Wing - Corner; Sultan's Palace menu
 
 ### 3.2 — 1000 Scholars
 
@@ -415,7 +416,19 @@ Not aligned (no one-to-one counterpart, or a choice still open):
 - Oil (harbours, storage, railway, tractor, fuel station) unlocks at 2.1; the New World has it at 2.2. It is a
   production chain here, so it was left alone.
 - Desert Treasures museum set at 2.8; the New World museum is at 2.4.
-- Oriental Lighthouse, Harbour Tower, Sultan's Palace and the Grand Mosque have no New World counterpart.
+- Harbour Tower has no New World counterpart.
+
+Monuments and haciendas (set 2026-10-29) follow vanilla's pattern across all regions rather than the New World alone:
+- Vanilla puts the Hacienda at the entry of the middle tier (1 Obrero), the Palace at the entry of the top tier
+  (1 Investor), and builds a region's big monument one stage per population step, each stage shown one step
+  earlier (World's Fair 1/750/1750/3000/5000 Investors, Arctic monument 1/100/300/750 Technicians).
+- Bedouin Camp 2.0, Research Outpost 3.0 (or 2.8).
+- Oriental Lighthouse: Foundations 2.2 (own trigger 1404007020), Tower 2.3, Lantern Room and the finished
+  lighthouse with its beacons 2.4. Then the Grand Mosque: Foundations 2.5, Prayer Hall 2.6, Towers 2.7, finished 2.8.
+  So every Envoy stage from 2.2 to 2.8 opens one monument stage.
+- Sultan's Palace 3.1 (shown at 3.0). Its planned residents need Incense, Turbans (3.1) and the Coffee House (3.5).
+- The Lantern Room and the mosque Towers take Hookahs (2.4) instead of Chandeliers, which only come with
+  Sky 2.1 or 3.5.
 
 ## Notes
 

@@ -17,8 +17,10 @@ TODO:
 
 v0.6.1
 - add compost for moldy bread
+- Check unhides
 
 v0.7.0
+- Light house monument construction feedback units
 - Palace
 - Construction material rework
     Replace mud bricks with Rammed Earth (Stampflehm) <- Clay pit
@@ -29,6 +31,7 @@ Before v1.0.0
 - Check shared mods
 - Check quests
 - Check loading screen hints
+- Check all guid used exist (1404000205)
 - remove IAAM Test and other test assets
 - Fix mod loader errors/warnings
 - Cleanup and delete unused files
