@@ -5,7 +5,12 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Order: Nomads, Envoys, Envoy skyscraper, Scholars. Each stage lists its main trigger first, then the **Extra**
   triggers that also need population in another region or a DLC.
-- Everything here is shown greyed out (unhidden) one stage before it unlocks.
+- Everything here is shown greyed out (unhidden) one stage before it unlocks, except at the first stage of a tier
+  (2.0, 3.0): like vanilla (colony01 1.4 and 2.4 unhide nothing), those items appear without a preview.
+  Entries inside a build-menu subfolder (Small/Large Harbour, Market Stalls, Airship Platform, Trading Company) and the
+  subfolders themselves are never unhidden either: a preview there breaks the subfolder button. They appear when they unlock.
+- Build-menu folders follow vanilla too: a tab or subfolder shows as soon as one entry inside is shown or unlocked,
+  and a later tier's tab gets its own chain copies (the "Scholars: …" chains) so it doesn't open with an earlier tier.
 - A pool unlocks everything in it: buildings, fields, goods, production chains (the build-menu entries), recipes
   and items. Entries inside a pool are separated by ";".
 - Creative mode (assets_creative_mode.xml) unlocks everything at once and is not listed.
@@ -46,7 +51,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 ### 1.2 — 100 Nomads
 
-- Harbour menu (tier 1); Depot; Harbour Office
+- Harbour menu (tier 1); Quay; Depot; Harbour Office
 - Camels (pool)
   - Buildings: Camel Farm
   - Fields: Camel Field
@@ -107,7 +112,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Items: Abdul Rahman al-Haddad, The Weigher of a Thousand Spices; Hassan al-Bakri, The Obsessive Blender; Zayn al-Qadir, Allergic to Spicy Food; Aniseed Seeds; Quality Aniseed Seeds; Hybrid Aniseed Seeds
 - Bedouin Camp; Bedouin Tent
 - Pearl Necklaces (pool)
-  - Buildings: Pearl Necklace Workshop; Pearl Diver; Export Dock: Pearl Necklaces
+  - Buildings: Pearl Necklace Workshop; Pearl Diver
   - Goods: Pearl Necklaces
   - Chains: Pearl Necklace
   - Items: Aisha bint Marwan, Pearlsmith of Bahrain; Nabil ibn Yusuf al-Sarraj, With the Silver Touch; Pearl Sorting Bank-Bench; Zubayda al-Durra, the Deep-Sea Diver; Diving Ballast Stone
@@ -119,7 +124,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Harbour menu (tier 2); Pier; Advanced Pier
 - Ceremonial Sabers (pool)
-  - Buildings: Oriental Smith; Oriental Smith: Ceremonial Sabers; Import Dock: Ebony (vanilla); Orient trading company; Orient trading company warehouse; Ebony Import Dock (Orient); Honey Import Dock (Orient); Export Dock: Mosaic; Export Dock: Ceremonial Sabers; Export Dock: Flotation Concentrate; Silver Ore Mine; Silver Ore Mine work area; Silver Smelter
+  - Buildings: Oriental Smith; Oriental Smith: Ceremonial Sabers; Import Dock: Ebony (vanilla); Orient trading company; Orient trading company warehouse; Ebony Import Dock (Orient); Honey Import Dock (Orient); Export Dock: Mosaic; Export Dock: Ceremonial Sabers; Export Dock: Flotation Concentrate; Export Dock: Pearl Necklaces; Silver Ore Mine; Silver Ore Mine work area; Silver Smelter
   - Goods: Ceremonial Sabers; Ebony; Trade Licenses; Silver Ore; Silver Bars
   - Chains: Ceremonial Sabers
   - Recipes: Ceremonial Sabers
@@ -344,7 +349,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
 
 - Scholar residence
 - Research Outpost: also unlocked at 2.8, whichever comes first
-- Scholars: leather shoes
+- Scholars: leather shoes; Scholars: hummus
 - Arak (pool)
   - Buildings: Copper Smelter; Oriental Smith: Alembics; Oriental Smith; Arak Distillery
   - Goods: Copper Bar; Alembics; Arak
@@ -366,7 +371,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
 ### 3.2 — 1000 Scholars
 
 - Oriental Fountain
-- Nothing new: this stage only shows the 3.3 Scholar chains.
+- Scholars: pomegranate juice; Scholars: spiced tea (menu copies, the goods are already unlocked)
 
 ### 3.3 — 2000 Scholars
 
@@ -374,6 +379,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
 
 ### 3.4 — 4000 Scholars
 
+- Scholars: hookahs (menu copy)
 - Astrolabes (pool)
   - Buildings: Oriental Workshop: Astrolabes; Copper Smelter; Oriental Smith: Alembics; Oriental Workshop
   - Goods: Astrolabes; Copper Bar
@@ -390,6 +396,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
   - Items: Husayn ibn Tariq al-Qahwaji, Renowned Coffee Master; Vizier Decree on Urban Jurisdiction
   - Rose Water (pool, contents under Sky 1.1)
 - Chandeliers (pool): also unlocked at Sky 2.1, whichever comes first (contents there)
+- Scholars: chandeliers (menu copy)
 
 ## Vanilla order
 
@@ -400,7 +407,7 @@ Buildings that are not production chains, needs or public services, compared wit
 |---|---|---|
 | Warehouse I, Desert Road | 1.0 | Small Warehouse, Dirt Road (1.0) |
 | Trade Union | 1.1 | Trade Union (1.1) |
-| Depot, Harbour Office | 1.2 | Depot, Harbourmaster's Office (1.2) |
+| Quay, Depot, Harbour Office | 1.2 | Quay, Depot, Harbourmaster's Office (1.2) |
 | Fire Department, Repair Crane, Puckle Gun, FlaK tower | 1.3 | Fire Station, Repair Crane, Mounted Guns, Flak (1.3) |
 | Police Station, Ornaments tab, Palm Trees | 1.4 | Police Station, Quaint Park, Palm Trees (1.4) |
 | Paved Street, Warehouse II, Kontor II, Town Hall, Bedouin Camp, Fertilizer module | 2.0 | Paved Street, Medium Warehouse, Medium Trading Post, Town Hall, Hacienda, Fertiliser Silo (2.0) |
@@ -440,5 +447,7 @@ Monuments and haciendas (set 2026-10-29) follow vanilla's pattern across all reg
 - The New Horizons lab (Noble Mushrooms) has no Orient condition, only the Magnates count.
 - The Park group lists Orient copies of Palm Trees and the vanilla palms, bush and grass (1404004870–874). The New
   World unlocks the originals at 300 Jornaleros (pools 134882 and 130195), before the Orient opens. Palm Trees is
-  Tourist Season content, so its copy has its own triggers that also check that DLC (1404004875 unhide,
-  1404004876 unlock, 1404004877 creative), like vanilla's.
+  Tourist Season content, so its copy has its own triggers that also check that DLC (1404004876 unlock,
+  1404004877 creative), like vanilla's. It is not previewed at 1.4 (first Envoy stage).
+- The Development folder 1404004865 (debug) sits in the creative menu 1404000614, so normal games never show the
+  finished Lighthouse and Grand Mosque it holds.
