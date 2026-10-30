@@ -121,5 +121,24 @@
       </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000240</GUID>
+            <Name>ceremonial sabers expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Sharp enough to cut bandages, and much else besides.</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
   </Group>
 </ModOps>

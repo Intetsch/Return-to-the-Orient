@@ -121,5 +121,24 @@
       </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000285</GUID>
+            <Name>turbans expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Sunshade, bandage and rope, all in one.</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
   </Group>
 </ModOps>

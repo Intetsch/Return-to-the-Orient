@@ -121,5 +121,24 @@
       </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="118750">
+      <Asset>
+        <Template>Text</Template>
+        <Values>
+          <Standard>
+            <GUID>1404000258</GUID>
+            <Name>mosaic expedition fluff text</Name>
+          </Standard>
+          <Text>
+            <LocaText>
+              <English>
+                <Text>Pieced together, just like a broken bone.</Text>
+              </English>
+            </LocaText>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
   </Group>
 </ModOps>

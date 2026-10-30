@@ -786,6 +786,11 @@
       <Text>Pieczęć sułtana na dokumentach ma duże znaczenie w sułtanacie.</Text>
     </Text>
     <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>Żaden kapitan portu nie śmie podważać pieczęci sułtana.</Text>
+    </Text>
+    <Text>
       <GUID>1404000288</GUID>
       <!-- Product | Coffee House | Coffee House -->
       <Text>Kawiarnia</Text>
@@ -1038,7 +1043,7 @@
     <Text>
       <GUID>1404000356</GUID>
       <!-- Mall | Marketstall: Pocket Watches | Marketstall: Pocket Watches -->
-      <Text>Targowisko: Zegarki kieszonkowe</Text>
+      <Text>Stragan: Zegarki kieszonkowe</Text>
     </Text>
     <Text>
       <GUID>1404000357</GUID>
@@ -1048,7 +1053,7 @@
     <Text>
       <GUID>1404000358</GUID>
       <!-- Product | Marketstall: Fans | Marketstall: Fans -->
-      <Text>Targowisko: Fani</Text>
+      <Text>Stragan: Wentylatory</Text>
     </Text>
     <Text>
       <GUID>1404000359</GUID>
@@ -1063,27 +1068,27 @@
     <Text>
       <GUID>1404000361</GUID>
       <!-- Product | Marketstall: Pocket Watches | Marketstall: Pocket Watches -->
-      <Text>Targowisko: Zegarki kieszonkowe</Text>
+      <Text>Stragan: Zegarki kieszonkowe</Text>
     </Text>
     <Text>
       <GUID>1404000362</GUID>
       <!-- Product | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>Stragan: Skuter</Text>
+      <Text>Stragan: Hulajnoga</Text>
     </Text>
     <Text>
       <GUID>1404000363</GUID>
       <!-- Product | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>Targowisko: wagony parowe</Text>
+      <Text>Stragan: Pojazdy parowe</Text>
     </Text>
     <Text>
       <GUID>1404000364</GUID>
       <!-- Product | Marketstall: Typewriters | Marketstall: Typewriters -->
-      <Text>Targowisko: Maszyny do pisania</Text>
+      <Text>Stragan: Maszyny do pisania</Text>
     </Text>
     <Text>
       <GUID>1404000365</GUID>
       <!-- Mall | Marketstall: Fans | Marketstall: Fans -->
-      <Text>Targowisko: Fani</Text>
+      <Text>Stragan: Wentylatory</Text>
     </Text>
     <Text>
       <GUID>1404000366</GUID>
@@ -1098,17 +1103,17 @@
     <Text>
       <GUID>1404000369</GUID>
       <!-- Mall | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>Stragan: Skuter</Text>
+      <Text>Stragan: Hulajnoga</Text>
     </Text>
     <Text>
       <GUID>1404000370</GUID>
       <!-- Mall | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>Targowisko: wagony parowe</Text>
+      <Text>Stragan: Pojazdy parowe</Text>
     </Text>
     <Text>
       <GUID>1404000371</GUID>
       <!-- Mall | Marketstall: Typewriters | Marketstall: Typewriters -->
-      <Text>Targowisko: Maszyny do pisania</Text>
+      <Text>Stragan: Maszyny do pisania</Text>
     </Text>
     <Text>
       <GUID>1404000372</GUID>
@@ -2318,7 +2323,7 @@
     <Text>
       <GUID>1404000881</GUID>
       <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
-      <Text>Dostarczona mieszanina</Text>
+      <Text>Dostarczony koncentrat</Text>
     </Text>
     <Text>
       <GUID>1404000882</GUID>
@@ -3432,13 +3437,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>Przekąski i kanapki</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>Prowiant na drogę</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>Spacerując wśród eksponatów, odwiedzający skromne wystawy zazwyczaj delektują się kilkoma przekąskami i kanapkami.</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>Pielgrzymi w drodze są wdzięczni za garść daktyli i prażonej ciecierzycy, które dodają im sił.</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3452,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>Aby powitać wielu gości, niezbędne są duże ekspozycje pikantnych potraw.</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>Aby powitać wielu pielgrzymów, niezbędne są suto zastawione półmiski hummusu i marcepanu.</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3482,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>Nie ma lepszego sposobu na zadowolenie wymagających gości, niż zapewnienie im dostępu do wysokiej jakości napojów alkoholowych.</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>Nic tak nie orzeźwia zmęczonych pielgrzymów jak chłodny sok z granatów i aromatyczna herbata korzenna.</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3502,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>Odrobina koloru może zmienić świat, a w odbijającej się piłce jest coś, co sprawia, że ​​nie da się jej nie kopnąć.</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>Silne wielbłądy dla karawany i dywanik modlitewny na każdy postój: proste rzeczy, które dla pielgrzyma wiele znaczą.</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3512,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>Tylko spójrzcie na te wspaniałe pierzaste kostiumy – karnawał i chaos mieszają się na ulicach, przerywane od czasu do czasu głuchym „Łup!” piłki uderzającej o ziemię.</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>Piękne kaftany na dni świąteczne i fajka wodna wieczorem zamieniają długą drogę w święto.</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3522,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>Wszystkie najnowocześniejsze luksusy, wymyślone sprytnymi rękami – słodkie zapachy unoszące się w powietrzu, dźwięk muzyki, misterne maski – a wszystko to podąża za morzem twarzy dołączających do tej maskarady.</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>Cenne perfumy oudh, piękne turbany i zdobione fajki wodne, wykonane przez zręczne dłonie, wypełniają dziedzińce przepychem i słodkimi zapachami.</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3549,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>Luksusowa dekoracja orientalna</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>Dekoracja orientalna</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -3861,6 +3871,11 @@
       <Text>Silos</Text>
     </Text>
     <Text>
+      <GUID>1404004219</GUID>
+      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
+      <Text>IAAM Test</Text>
+    </Text>
+    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>Dom posła: Poziom 2</Text>
@@ -3901,9 +3916,49 @@
       <Text>Orientalne połączenie murów</Text>
     </Text>
     <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>Rozkruszona ruda, unoszona w oleju i zbierana z powierzchni dla huty.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>Orientalna latarnia morska jest budowana w kilku etapach. Po ukończeniu można w niej umieszczać światła, z których każde wzmacnia wszystkie twoje statki jednego typu we wszystkich regionach. Na jednej wyspie można zbudować tylko jedną latarnię.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>Przechowuje ciecierzycę jako paszę dla twoich wielbłądów, zwiększając wydajność farmy.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>Wydobyty z piasków Wadi Al Zahir, gdzie niegdyś odpoczywały dawne karawany.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>Relikwie proroków, uczonych i męczenników, wydobyte z piasków Wadi Al Zahir.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>W świętym miesiącu wierni poszczą od świtu do zmierzchu, a całe miasto czeka na wezwanie do modlitwy o zachodzie słońca.</Text>
+    </Text>
+    <Text>
       <GUID>1404004890</GUID>
       <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
       <Text>Wielki Meczet jest budowany w kilku etapach. Po ukończeniu przyjmuje pielgrzymów ze wszystkich zakątków sułtanatu. Organizuj wielkie pielgrzymki, a wierni zapewnią ci wpływy na dworze sułtana.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>Gdy post dobiega końca, rodziny odwiedzają się ze słodyczami i żaden sąsiad nie zostaje bez podarunku.</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>Świeża woda czerpana z kanałów.</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
@@ -5868,7 +5923,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>Utrzymaj w całym regionie:&lt;br/&gt;poniżej [Conditions QuestCondition Amount]% zaopatrzenia w: [AssetData([Conditions QuestCondition Context]) Text] przez: [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -6138,7 +6193,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] pyta, czy są oni gotowi do opuszczenia twojego statku.</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -6643,17 +6698,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>Odbierz prezent oferowany ci przez mieszkańca</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>Moja uprząż do wspinaczki jest gotowa! Weź jedną ze skrzyni obok mnie, a nawet najwyżej rosnące daktyle będą w twoim zasięgu.</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>Podnieś podarunek, klikając na pudełko stojące obok mieszkańca zlecającego zadanie.</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -6752,8 +6807,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>Błagam, zrób nam fotografię w zoo! Być może to ostatnia szansa, zanim nasz mały Timothy odda ducha tej okropnej chorobie.</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>Lwy, papugi i słonie, wszystkie w jednym ogrodzie? Przynieś mi obraz tego cudu, żebym mógł w to uwierzyć!</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -6808,7 +6863,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] pyta, czy możesz odebrać ładunek.</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -6818,12 +6873,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>Doprowadź statek we wskazane miejsce. Znajdziesz je, klikając na zadanie w świecie gry.</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>Trzymaj się poza zasięgiem patroli, w przeciwnym razie zaatakują cię. Im mniejszy i szybszy masz statek, tym wyższa szansa powodzenia.</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -6833,7 +6888,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text] oferuje ci zadanie polegające na przemycie.</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>

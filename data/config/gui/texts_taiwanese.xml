@@ -786,6 +786,11 @@
       <Text>文書上的蘇丹印章在蘇丹國具有很大的分量。</Text>
     </Text>
     <Text>
+      <GUID>1404000287</GUID>
+      <!-- Text | No harbour master dares to question the Sultan's seal. | No harbour master dares to question the Sultan's seal. -->
+      <Text>沒有哪個港務長敢質疑蘇丹的印章。</Text>
+    </Text>
+    <Text>
       <GUID>1404000288</GUID>
       <!-- Product | Coffee House | Coffee House -->
       <Text>咖啡廳</Text>
@@ -1048,17 +1053,17 @@
     <Text>
       <GUID>1404000358</GUID>
       <!-- Product | Marketstall: Fans | Marketstall: Fans -->
-      <Text>市場攤位：風扇</Text>
+      <Text>市場攤位：電扇</Text>
     </Text>
     <Text>
       <GUID>1404000359</GUID>
       <!-- Product | Marketstall: Gramophones | Marketstall: Gramophones -->
-      <Text>市集攤位：留聲機</Text>
+      <Text>市場攤位：留聲機</Text>
     </Text>
     <Text>
       <GUID>1404000360</GUID>
       <!-- Product | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>市集攤位：冰淇淋</Text>
+      <Text>市場攤位：冰淇淋</Text>
     </Text>
     <Text>
       <GUID>1404000361</GUID>
@@ -1068,12 +1073,12 @@
     <Text>
       <GUID>1404000362</GUID>
       <!-- Product | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>市場攤位：踏板車</Text>
+      <Text>市場攤位：機車</Text>
     </Text>
     <Text>
       <GUID>1404000363</GUID>
       <!-- Product | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>市場攤位：蒸汽馬車</Text>
+      <Text>市場攤位：蒸汽車</Text>
     </Text>
     <Text>
       <GUID>1404000364</GUID>
@@ -1083,27 +1088,27 @@
     <Text>
       <GUID>1404000365</GUID>
       <!-- Mall | Marketstall: Fans | Marketstall: Fans -->
-      <Text>市場攤位：風扇</Text>
+      <Text>市場攤位：電扇</Text>
     </Text>
     <Text>
       <GUID>1404000366</GUID>
       <!-- Mall | Marketstall: Gramophones | Marketstall: Gramophones -->
-      <Text>市集攤位：留聲機</Text>
+      <Text>市場攤位：留聲機</Text>
     </Text>
     <Text>
       <GUID>1404000367</GUID>
       <!-- Mall | Marketstall: Ice Cream | Marketstall: Ice Cream -->
-      <Text>市集攤位：冰淇淋</Text>
+      <Text>市場攤位：冰淇淋</Text>
     </Text>
     <Text>
       <GUID>1404000369</GUID>
       <!-- Mall | Marketstall: Scooter | Marketstall: Scooter -->
-      <Text>市場攤位：踏板車</Text>
+      <Text>市場攤位：機車</Text>
     </Text>
     <Text>
       <GUID>1404000370</GUID>
       <!-- Mall | Marketstall: Steam Carriages | Marketstall: Steam Carriages -->
-      <Text>市場攤位：蒸汽馬車</Text>
+      <Text>市場攤位：蒸汽車</Text>
     </Text>
     <Text>
       <GUID>1404000371</GUID>
@@ -2318,7 +2323,7 @@
     <Text>
       <GUID>1404000881</GUID>
       <!-- GuildhouseBuff | Concentrate Supplied | Concentrate Supplied -->
-      <Text>提供混合物</Text>
+      <Text>提供精礦</Text>
     </Text>
     <Text>
       <GUID>1404000882</GUID>
@@ -2943,7 +2948,7 @@
     <Text>
       <GUID>1404001058</GUID>
       <!-- ExpeditionDecision | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. | <b>The caravan winds along hidden desert tracks,</b> skirting dunes and ancient ruins before rejoining a grand boulevard. By sunset, the capital’s domes shimmer on the horizon. The caravan has delivered you safely to your destination. -->
-      <Text>&lt;b&gt;商隊沿著隱藏的沙漠小徑蜿蜒而行，繞過沙丘和古老的廢墟，然後重新匯入一條宏偉的林蔭大道。日落時分，首都的圓頂在地平線上閃閃發光。大篷車已將您安全送到目的地。</Text>
+      <Text>&lt;b&gt;商隊沿著隱藏的沙漠小徑蜿蜒而行，&lt;/b&gt;繞過沙丘和古老的廢墟，然後重新匯入一條宏偉的林蔭大道。日落時分，首都的圓頂在地平線上閃閃發光。大篷車已將您安全送到目的地。</Text>
     </Text>
     <Text>
       <GUID>1404001059</GUID>
@@ -2978,7 +2983,7 @@
     <Text>
       <GUID>1404001065</GUID>
       <!-- ExpeditionDecision | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. | <b>The road ends abruptly,</b> swallowed by towering dunes. Wind howls across the sand, erasing any trace of direction. You must decide your next move. -->
-      <Text>&lt;b&gt;道路突然終止，被高聳的沙丘吞沒。風在沙地上呼嘯，抹去了方向的痕跡。您必須決定下一步行動。</Text>
+      <Text>&lt;b&gt;道路突然終止，&lt;/b&gt;被高聳的沙丘吞沒。風在沙地上呼嘯，抹去了方向的痕跡。您必須決定下一步行動。</Text>
     </Text>
     <Text>
       <GUID>1404001066</GUID>
@@ -3118,7 +3123,7 @@
     <Text>
       <GUID>1404001093</GUID>
       <!-- ExpeditionDecision | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? | <b>You stand before the Sultan,</b> seated upon an ornate throne. All eyes are upon you. How will you greet him? -->
-      <Text>&lt;b&gt;您站在蘇丹面前，坐在華麗的王座上。所有的目光都集中在你身上。你會怎麼跟他打招呼？</Text>
+      <Text>&lt;b&gt;您站在蘇丹面前，&lt;/b&gt;他端坐在華麗的寶座上。所有人的目光都落在您身上。您將如何向他致意？</Text>
     </Text>
     <Text>
       <GUID>1404001094</GUID>
@@ -3432,13 +3437,13 @@
     </Text>
     <Text>
       <GUID>1404001195</GUID>
-      <!-- Text | Nibbles and canapés | Nibbles and canapés -->
-      <Text>小吃和開胃菜</Text>
+      <!-- Text | Nibbles and canapés | Provisions for the road -->
+      <Text>路上的乾糧</Text>
     </Text>
     <Text>
       <GUID>1404001196</GUID>
-      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. -->
-      <Text>參觀規模不大的展覽的參觀者在展品中漫步時通常會享用一些小吃和小吃。</Text>
+      <!-- Text | Visitors of modest exhibitions usually enjoy a few nibbles and canapés when they wander among the exhibits. | Pilgrims on the road are grateful for a handful of dates and roasted chickpeas to keep them going. -->
+      <Text>旅途中的朝聖者會感激能有一把椰棗和烤鷹嘴豆來補充體力。</Text>
     </Text>
     <Text>
       <GUID>1404001197</GUID>
@@ -3447,8 +3452,8 @@
     </Text>
     <Text>
       <GUID>1404001198</GUID>
-      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Large displays of savoury meals are essential to welcoming many visitors. -->
-      <Text>大量展示美味佳餚對於歡迎眾多遊客至關重要。</Text>
+      <!-- Text | Large displays of savoury meals are essential to welcoming many visitors. | Generous platters of hummus and marzipan are essential to welcoming many pilgrims. -->
+      <Text>要迎接眾多朝聖者，大盤的鷹嘴豆泥和杏仁糖必不可少。</Text>
     </Text>
     <Text>
       <GUID>1404001199</GUID>
@@ -3477,8 +3482,8 @@
     </Text>
     <Text>
       <GUID>1404001204</GUID>
-      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. -->
-      <Text>要取悅要求苛刻的遊客，沒有比為他們提供優質酒精飲料更好的方法了。</Text>
+      <!-- Text | There is no better way to please demanding visitors than giving them access to quality alcoholic drinks. | Nothing refreshes weary pilgrims like cool pomegranate juice and fragrant spiced tea. -->
+      <Text>對於疲憊的朝聖者來說，沒有什麼比清涼的石榴汁和芬芳的香料茶更提神了。</Text>
     </Text>
     <Text>
       <GUID>1404001205</GUID>
@@ -3497,8 +3502,8 @@
     </Text>
     <Text>
       <GUID>1404001208</GUID>
-      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick. -->
-      <Text>一抹色彩可以改變世界，彈跳的球有種讓人無法不好好踢一踢的感覺。</Text>
+      <!-- Text | A touch of colour can change the world, and there's something about a bouncing ball that makes it impossible not to give it a good kick.  | Sturdy camels for the caravan and a prayer rug for every halt: simple things that mean a great deal to a pilgrim. -->
+      <Text>供商隊騎乘的健壯駱駝，每次歇腳時鋪開的禮拜毯：這些樸素的東西對朝聖者意義重大。</Text>
     </Text>
     <Text>
       <GUID>1404001209</GUID>
@@ -3507,8 +3512,8 @@
     </Text>
     <Text>
       <GUID>1404001210</GUID>
-      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground. -->
-      <Text>只要看看那些精美的羽毛服裝 - 嘉年華和混亂在街道上交織在一起，偶爾被重擊聲打斷！球撞擊地面的情況。</Text>
+      <!-- Text | Just look at those fabulous feathery costumes - carnival and chaos mingling in the streets, interrupted by the occasional Thwack! of a ball hitting the ground.  | Fine kaftans for the feast days and a hookah to share in the evening turn the long road into a celebration. -->
+      <Text>節日裡精美的長袍，夜晚共享的水煙袋，讓漫長的旅途變成一場慶典。</Text>
     </Text>
     <Text>
       <GUID>1404001211</GUID>
@@ -3517,8 +3522,8 @@
     </Text>
     <Text>
       <GUID>1404001212</GUID>
-      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. -->
-      <Text>所有最新的奢侈品，都是由聰明的雙手設計出來的——空氣中縈繞的甜蜜香氣、音樂的聲音、錯綜複雜的面具——所有這些都遵循著參加這場化裝舞會的人海。</Text>
+      <!-- Text | All the latest luxuries, devised by clever hands - sweet scents lingering in the air, the sound of music, intricate masks - all following the sea of faces that join this masquerade. | Precious oudh perfume, fine turbans and ornate hookahs, crafted by skilled hands, fill the courtyards with splendour and sweet scents. -->
+      <Text>巧手製作的珍貴沉香香水、精美頭巾和華麗水煙袋，讓庭院充滿華彩與芬芳。</Text>
     </Text>
     <Text>
       <GUID>1404001213</GUID>
@@ -3544,6 +3549,11 @@
       <GUID>1404001217</GUID>
       <!-- RewardPool | Luxury Orient Decoration | Luxury Orient Decoration -->
       <Text>豪華東方裝修</Text>
+    </Text>
+    <Text>
+      <GUID>1404004893</GUID>
+      <!-- RewardPool | Correct Orient Decoration | Orient Decoration -->
+      <Text>東方裝飾</Text>
     </Text>
     <Text>
       <GUID>1404001218</GUID>
@@ -4298,7 +4308,7 @@
     <Text>
       <GUID>1404001435</GUID>
       <!-- Text | RQ_Envoy_Status_Fasting_Objective | Sustain across the region under:<br/>[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit >> time] -->
-      <Text>Sustain across the region under:&lt;br/&gt;[Conditions QuestCondition Amount]% of [AssetData([Conditions QuestCondition Context]) Text] supply for [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
+      <Text>在這個地區維持：&lt;br/&gt;[AssetData([Conditions QuestCondition Context]) Text]供給低於[Conditions QuestCondition Amount]%，持續 [Conditions QuestCondition TimeLimit &gt;&gt; time]</Text>
     </Text>
     <Text>
       <GUID>1404001436</GUID>
@@ -4568,7 +4578,7 @@
     <Text>
       <GUID>1404001493</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached GivePeople - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if they are ready to get off your ship.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]詢問你是否準備好帶他們離船。</Text>
     </Text>
     <Text>
       <GUID>1404001494</GUID>
@@ -5073,17 +5083,17 @@
     <Text>
       <GUID>1404001602</GUID>
       <!-- Text | RQ_Gift_ObjectiveText | Pick up the gift offered by your resident -->
-      <Text>Pick up the gift offered by your resident</Text>
+      <Text>收下居民給你的禮物</Text>
     </Text>
     <Text>
       <GUID>1404001603</GUID>
-      <!-- Text | RQ_Farmers_DigField_HintText | 'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean. -->
-      <Text>'Twas a day like any other, ploughing the field, when m'boy dug this thing up! You like these, don't ye? Don't worry, we already scrubbed it clean.</Text>
+      <!-- Text | RQ_Farmers_DigField_HintText | My climbing harness is finished! Take one from the box beside me, and even the highest dates will be within your reach. -->
+      <Text>我的攀爬安全帶做好了！從我身旁的箱子裡拿一條吧，再高的椰棗也能摘到。</Text>
     </Text>
     <Text>
       <GUID>1404001604</GUID>
       <!-- Text | QuestbookHint_Generic_GiftResident | Pick up the gift by clicking on the box standing next to the quest resident. -->
-      <Text>Pick up the gift by clicking on the box standing next to the quest resident.</Text>
+      <Text>點擊任務居民旁的箱子即可拾起禮物。</Text>
     </Text>
     <Text>
       <GUID>1404001605</GUID>
@@ -5182,8 +5192,8 @@
     </Text>
     <Text>
       <GUID>1404001624</GUID>
-      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Please, a photograph of us at the zoo! We may never again have the chance before our little Timothy succumbs to his illness. -->
-      <Text>拜託，拍下我們在動物園的照片！這是小提摩西屈服於病痛之前最後的機會了。</Text>
+      <!-- Text | RQ_Artisans_FamilyZoo_HintText | Lions, parrots and elephants, all in one garden? Bring me a picture of this marvel, so that I may believe it! -->
+      <Text>獅子、鸚鵡和大象，全都在同一座園子裡？給我帶一張這奇觀的照片來，我才能相信！</Text>
     </Text>
     <Text>
       <GUID>1404001625</GUID>
@@ -5238,7 +5248,7 @@
     <Text>
       <GUID>1404001635</GUID>
       <!-- Text | ST_SmugglerQuestTradingStationReached PickupItem - f | [AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] asks if you are ready to pick up the cargo.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]詢問你是否準備好取得貨物。</Text>
     </Text>
     <Text>
       <GUID>1404001636</GUID>
@@ -5248,12 +5258,12 @@
     <Text>
       <GUID>1404001637</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle01 | Bring a ship to the requested location. You can find it by clicking on the quest in the game world. -->
-      <Text>Bring a ship to the requested location. You can find it by clicking on the quest in the game world.</Text>
+      <Text>帶一艘船艦到任務指定的地點。在遊戲世界中按一下任務即可找到其所在位置。</Text>
     </Text>
     <Text>
       <GUID>1404001638</GUID>
       <!-- Text | QuestbookHint_Generic_Smuggle02_withAttackers | Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance. -->
-      <Text>Don't get into the patrols' sight radius, or else they will attack you. The smaller and faster the ship you use for this, the higher the success chance.</Text>
+      <Text>別進入巡邏船的視線半徑範圍，否則他們會對你展開攻擊。這件任務中，你使用越小越快的船艦，成功的機率就越高。</Text>
     </Text>
     <Text>
       <GUID>1404001639</GUID>
@@ -5263,7 +5273,7 @@
     <Text>
       <GUID>1404001640</GUID>
       <!-- Text | ST_QuestOffered_1 - f Smuggle | [AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest. -->
-      <Text>[AssetData([NotificationContext CharacterGUID]) Text] offers you a smuggle quest.</Text>
+      <Text>[AssetData([NotificationContext CharacterGUID]) Text]交付你一件走私任務。</Text>
     </Text>
     <Text>
       <GUID>1404001641</GUID>
@@ -5691,6 +5701,11 @@
       <Text>糧倉</Text>
     </Text>
     <Text>
+      <GUID>1404004219</GUID>
+      <!-- OrnamentalBuilding | IAAM Test | IAAM Test -->
+      <Text>IAAM Test</Text>
+    </Text>
+    <Text>
       <GUID>1404004300</GUID>
       <!-- ResidenceBuilding7_Colony | Envoy Residence: Level 2 | Envoy house: Level 2 -->
       <Text>使館：等級 2</Text>
@@ -5731,9 +5746,49 @@
       <Text>東方牆體連接件</Text>
     </Text>
     <Text>
+      <GUID>1404004884</GUID>
+      <!-- Text | Crushed ore, floated in oil and skimmed off for the smelter. | Crushed ore, floated in oil and skimmed off for the smelter. -->
+      <Text>碾碎的礦石在油中浮起後撇取，專供冶煉廠使用。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004885</GUID>
+      <!-- Text | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. | The Oriental Lighthouse is built in several phases. Once complete, beacons can be socketed in it, each strengthening all your ships of one type in every region. Only one lighthouse can be built per island. -->
+      <Text>東方燈塔分成數個階段建造。建成後可放入信標，每個信標都會強化你在所有區域的某一類全部船隻。每座島嶼只能建造一座燈塔。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004886</GUID>
+      <!-- Text | Stores chickpeas as fodder for your camels, increasing the farm's productivity. | Stores chickpeas as fodder for your camels, increasing the farm's productivity. -->
+      <Text>儲存鷹嘴豆作為駱駝的飼料，提高農場的生產力。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004887</GUID>
+      <!-- Text | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. | Recovered from the sands of Wadi Al Zahir, where the caravans of old once rested. -->
+      <Text>出土於Wadi Al Zahir的沙地，古時的商隊曾在那裡歇腳。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004888</GUID>
+      <!-- Text | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. | Relics of prophets, scholars and martyrs, recovered from the sands of Wadi Al Zahir. -->
+      <Text>出土於Wadi Al Zahir沙地的先知、學者與殉道者的遺物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004889</GUID>
+      <!-- Text | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. | In the holy month the faithful fast from dawn until dusk, and the whole city waits for the call to prayer at sunset. -->
+      <Text>在神聖的月份裡，信徒們從黎明齋戒到黃昏，全城都在等待日落時的禮拜召喚。</Text>
+    </Text>
+    <Text>
       <GUID>1404004890</GUID>
       <!-- Text | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. | The Grand Mosque is built in several phases. Once complete, it welcomes pilgrims from every corner of the sultanate. Host great pilgrimages and the faithful will grant you influence in the sultan's court. -->
       <Text>大清真寺分成數個階段建造。建成後，來自蘇丹國各地的朝聖者將紛至沓來。舉辦盛大的朝聖活動，信眾會助你在蘇丹宮廷中贏得影響力。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004891</GUID>
+      <!-- Text | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. | When the fast is broken, families visit one another with sweets, and no neighbour is left without a gift. -->
+      <Text>開齋之時，家家戶戶帶著甜點互相拜訪，沒有哪位鄰居會收不到禮物。</Text>
+    </Text>
+    <Text>
+      <GUID>1404004892</GUID>
+      <!-- Text | Fresh water drawn from the canals. | Fresh water drawn from the canals. -->
+      <Text>從運河中汲取的清水。</Text>
     </Text>
     <Text>
       <GUID>1404004900</GUID>
