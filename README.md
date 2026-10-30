@@ -89,7 +89,6 @@ These products are added by the mod, but are specific to the Orient. This is the
 - shared_jakob_tools by jakob
 - shared_olive_oil_jakob by jakob
 - shared_olives_jakob by jakob
-- shared_palm_leaf by sataony
 - shared_incense by taubenangriff
 - shared_sulfur_production_lion053 by lion053
 - shared_production_silver_bars
@@ -102,9 +101,10 @@ These products are added by the mod, but are specific to the Orient. This is the
 
 #### Products
 
-- Shared__rosenwasser_fridhmyr by fridhmyr
-- Shared_Date_Satanoy by Satanoy
-- Shared_Roses_fridhmyr by fridhmyr
+- [Product] PalmLeaf_Satanoy by Satanoy
+- [Product] Shared_Date_Satanoy by Satanoy
+- [Product] Shared_Roses_fridhmyr by fridhmyr
+- [Product] Shared_rosenwasser_fridhmyr by fridhmyr
 - shared_agarwood_fridhmyr by fridhmyr
 
 #### Storage Lists
