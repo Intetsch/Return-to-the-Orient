@@ -110,6 +110,8 @@
                 </Industrializable>
                 <Electrifiable>
                     <ElectrifiedEffect>0</ElectrifiedEffect>
+                    <ElectricityBoost>0</ElectricityBoost>
+                    <ShowPowerInObjectMenu>0</ShowPowerInObjectMenu>
                 </Electrifiable>
             </Values>
         </Asset>
