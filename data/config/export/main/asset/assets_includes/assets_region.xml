@@ -408,7 +408,8 @@
                             <PlantPercent>40</PlantPercent>
                         </Lumberjack>
                         <FirTrees>
-                            <GUID>133886</GUID>
+                            <!-- player-plantable trees = the region's LeafTrees/FirTrees slots; Palm Trees Orient copy -->
+                            <GUID>1404004870</GUID>
                             <PlantPercent>10</PlantPercent>
                         </FirTrees>
                     </Trees>

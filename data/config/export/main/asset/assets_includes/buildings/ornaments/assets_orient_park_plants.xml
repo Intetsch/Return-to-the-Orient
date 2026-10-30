@@ -3,7 +3,7 @@
     <!-- Orient copies of the Park group's vanilla vegetation (user 2026-10-29: vegetation at 1 Envoy). The New World
          unlocks the originals at 300 Jornaleros, always before the Orient, so the Orient Park group 1404004860 lists these
          instead. Full copies; only GUID, Name, Text (TextOverride to the original) and Mod3 change.
-         Palm Trees is Tourist Season content (DLC 410084): its copy is unlocked by 1404004875-877, which check the DLC
+         Palm Trees is Tourist Season content (DLC 410084): its copy is unlocked by 1404004876/877, which check the DLC
          like vanilla's 134886. The four others are unlocked by the 2.0 trigger 1404000818 and creative 1404000791.
          Generator gen_park_plants.js. -->
     <ModOp Type="addNextSibling" GUID="133886">

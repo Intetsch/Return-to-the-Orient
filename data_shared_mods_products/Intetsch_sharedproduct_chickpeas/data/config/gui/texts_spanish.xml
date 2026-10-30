@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005079</GUID>
+      <!-- Product | chickpeas | Chickpeas -->
+      <Text>Garbanzos</Text>
+    </Text>
+    <Text>
+      <GUID>1404005081</GUID>
+      <!-- Text | chickpeas fluff text | Chickpeas are a loved fruit of the Orient, and can be enjoyed in any conceivable form. -->
+      <Text>El garbanzo es un fruto muy querido de Oriente y se puede disfrutar de cualquier forma imaginable.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

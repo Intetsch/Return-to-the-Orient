@@ -5,7 +5,12 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Order: Nomads, Envoys, Envoy skyscraper, Scholars. Each stage lists its main trigger first, then the **Extra**
   triggers that also need population in another region or a DLC.
-- Everything here is shown greyed out (unhidden) one stage before it unlocks.
+- Everything here is shown greyed out (unhidden) one stage before it unlocks, except at the first stage of a tier
+  (2.0, 3.0): like vanilla (colony01 1.4 and 2.4 unhide nothing), those items appear without a preview.
+  Entries inside a build-menu subfolder (Small/Large Harbour, Market Stalls, Airship Platform, Trading Company) and the
+  subfolders themselves are never unhidden either: a preview there breaks the subfolder button. They appear when they unlock.
+- Build-menu folders follow vanilla too: a tab or subfolder shows as soon as one entry inside is shown or unlocked,
+  and a later tier's tab gets its own chain copies (the "Scholars: …" chains) so it doesn't open with an earlier tier.
 - A pool unlocks everything in it: buildings, fields, goods, production chains (the build-menu entries), recipes
   and items. Entries inside a pool are separated by ";".
 - Creative mode (assets_creative_mode.xml) unlocks everything at once and is not listed.
@@ -46,9 +51,9 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 ### 1.2 — 100 Nomads
 
-- Harbour menu (tier 1); Depot; Harbour Office
+- Harbour menu (tier 1); Quay; Depot; Harbour Office
 - Camels (pool)
-  - Buildings: Camel Farm; Silo module (camel feed)
+  - Buildings: Camel Farm
   - Fields: Camel Field
   - Goods: Camels
   - Items: Animal Grazing and Breeding Agreement; Hassan ibn Rashid, Breeder of purebred camels
@@ -107,7 +112,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Items: Abdul Rahman al-Haddad, The Weigher of a Thousand Spices; Hassan al-Bakri, The Obsessive Blender; Zayn al-Qadir, Allergic to Spicy Food; Aniseed Seeds; Quality Aniseed Seeds; Hybrid Aniseed Seeds
 - Bedouin Camp; Bedouin Tent
 - Pearl Necklaces (pool)
-  - Buildings: Pearl Necklace Workshop; Pearl Diver; Export Dock: Pearl Necklaces
+  - Buildings: Pearl Necklace Workshop; Pearl Diver
   - Goods: Pearl Necklaces
   - Chains: Pearl Necklace
   - Items: Aisha bint Marwan, Pearlsmith of Bahrain; Nabil ibn Yusuf al-Sarraj, With the Silver Touch; Pearl Sorting Bank-Bench; Zubayda al-Durra, the Deep-Sea Diver; Diving Ballast Stone
@@ -119,7 +124,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Harbour menu (tier 2); Pier; Advanced Pier
 - Ceremonial Sabers (pool)
-  - Buildings: Oriental Smith; Oriental Smith: Ceremonial Sabers; Import Dock: Ebony (vanilla); Orient trading company; Orient trading company warehouse; Ebony Import Dock (Orient); Honey Import Dock (Orient); Export Dock: Mosaic; Export Dock: Ceremonial Sabers; Export Dock: Flotation Concentrate; Silver Ore Mine; Silver Ore Mine work area; Silver Smelter
+  - Buildings: Oriental Smith; Oriental Smith: Ceremonial Sabers; Import Dock: Ebony (vanilla); Orient trading company; Orient trading company warehouse; Ebony Import Dock (Orient); Honey Import Dock (Orient); Export Dock: Mosaic; Export Dock: Ceremonial Sabers; Export Dock: Flotation Concentrate; Export Dock: Pearl Necklaces; Silver Ore Mine; Silver Ore Mine work area; Silver Smelter
   - Goods: Ceremonial Sabers; Ebony; Trade Licenses; Silver Ore; Silver Bars
   - Chains: Ceremonial Sabers
   - Recipes: Ceremonial Sabers
@@ -145,7 +150,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Items: Omar ibn Salih al-Tujjar, The Great Importer
 - Market Stalls menu
 - Hummus (pool)
-  - Buildings: Olive Plantation; Chickpea Farm; Hummus Kitchen; Cold Press
+  - Buildings: Olive Plantation; Chickpea Farm; Hummus Kitchen; Cold Press; Silo module (camel feed, eats chickpeas)
   - Fields: Olive Grove; Chickpea Field
   - Goods: Olive Oil; Olives; Chickpeas; Hummus
   - Chains: Hummus
@@ -169,10 +174,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 ### 2.2 — 600 Envoys
 
-- Oriental Lighthouse
-- Lighthouse beacons (pool)
-  - Items: Beacon of the Harbour; Thrifty Beacon of the Shipwrights; Steadfast Beacon of the Fleet; Eternal Beacon of the Seven Seas; Beacon of the Dhows; Swift Beacon of the Trade Winds; Vigilant Beacon of the Frigates; Radiant Beacon of the Monsoon; Beacon of the Stokers; Tireless Beacon of the Boilers; Relentless Beacon of the Steamers; Golden Beacon of the Merchants; Beacon of the Gunners; Fierce Beacon of the Broadside; Thundering Beacon of the Admiralty; Unbreakable Beacon of the Navy; Beacon of the Skies; Buoyant Beacon of the Clouds; Steady Beacon of the Airmen; Soaring Beacon of the Djinn; Beacon of the Pearl Divers; Glimmering Beacon of the Deep; Mysterious Beacon of the Sunken Hoards; Fabled Beacon of the Drowned Kingdom
-- Sultan's Palace; Sultan's Palace Wing; Sultan's Palace Wing - Bridge; Sultan's Palace Wing - Gate; Sultan's Palace Wing - Cross; Sultan's Palace Wing - Corner; Sultan's Palace menu; Hospital
+- Hospital
 - Airship platform (pool)
   - Buildings: Orient airship landing platform; Orient Item Transfer Module; Orient Airship Commuter Station; DLC11 Cafe Orient; DLC11 Cafe Tables Orient; DLC11 Clock Orient; DLC11 Flagpole Orient; DLC11 Benches Small Orient; DLC11 Benches Large Orient; DLC11 Sign Orient; DLC11 Gate Orient
   - Menus: Orient construction menu airship platform
@@ -190,7 +192,7 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
   - Goods: Spiced Tea
   - Chains: Spiced tea
   - Items: Spice Supply Decree; Jalaluddin al-Qahwa, The Master of Spices
-- Large Ruins; Oriental Watchtower
+- Large Ruins; Oriental Watchtower; Oriental Lighthouse: Tower
 - **Extra** (needs 1800 Artistas + DLC New World Rising):
   - Marketstall: Ice Cream (pool)
     - Buildings: Marketstall: Ice Cream; Marketstall
@@ -215,6 +217,9 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 - Armor Pierce tower
 - Warehouse & kontor III (pool)
   - Buildings: Warehouse III; Kontor III; Imperial Kontor III
+- Oriental Lighthouse: Lantern Room; Oriental Lighthouse
+- Lighthouse beacons (pool)
+  - Items: Beacon of the Harbour; Thrifty Beacon of the Shipwrights; Steadfast Beacon of the Fleet; Eternal Beacon of the Seven Seas; Beacon of the Dhows; Swift Beacon of the Trade Winds; Vigilant Beacon of the Frigates; Radiant Beacon of the Monsoon; Beacon of the Stokers; Tireless Beacon of the Boilers; Relentless Beacon of the Steamers; Golden Beacon of the Merchants; Beacon of the Gunners; Fierce Beacon of the Broadside; Thundering Beacon of the Admiralty; Unbreakable Beacon of the Navy; Beacon of the Skies; Buoyant Beacon of the Clouds; Steady Beacon of the Airmen; Soaring Beacon of the Djinn; Beacon of the Pearl Divers; Glimmering Beacon of the Deep; Mysterious Beacon of the Sunken Hoards; Fabled Beacon of the Drowned Kingdom
 - Oriental Place 2
 
 ### 2.5 — 2250 Envoys
@@ -344,7 +349,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
 
 - Scholar residence
 - Research Outpost: also unlocked at 2.8, whichever comes first
-- Scholars: leather shoes
+- Scholars: leather shoes; Scholars: hummus
 - Arak (pool)
   - Buildings: Copper Smelter; Oriental Smith: Alembics; Oriental Smith; Arak Distillery
   - Goods: Copper Bar; Alembics; Arak
@@ -361,11 +366,12 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
   - Goods: Turbans; Silk Fabric
   - Chains: Turbans
   - Items: Amina bint Rashid, Guru of Latest Fashion; Iskender Pasha Oglu, Dressmaker to the Grand Vizier; Silk Seeds; Quality Silk Seeds; Hybrid Silk Seeds; Leyla al-Harir, the Mistress of the Cocoon; Steam boilers for silk reeling
+- Sultan's Palace; Sultan's Palace Wing; Sultan's Palace Wing - Bridge; Sultan's Palace Wing - Gate; Sultan's Palace Wing - Cross; Sultan's Palace Wing - Corner; Sultan's Palace menu
 
 ### 3.2 — 1000 Scholars
 
 - Oriental Fountain
-- Nothing new: this stage only shows the 3.3 Scholar chains.
+- Scholars: pomegranate juice; Scholars: spiced tea (menu copies, the goods are already unlocked)
 
 ### 3.3 — 2000 Scholars
 
@@ -373,6 +379,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
 
 ### 3.4 — 4000 Scholars
 
+- Scholars: hookahs (menu copy)
 - Astrolabes (pool)
   - Buildings: Oriental Workshop: Astrolabes; Copper Smelter; Oriental Smith: Alembics; Oriental Workshop
   - Goods: Astrolabes; Copper Bar
@@ -389,6 +396,7 @@ Every Scholar stage also needs 3250 Envoys, so it can come before 2.7, 2.8 and t
   - Items: Husayn ibn Tariq al-Qahwaji, Renowned Coffee Master; Vizier Decree on Urban Jurisdiction
   - Rose Water (pool, contents under Sky 1.1)
 - Chandeliers (pool): also unlocked at Sky 2.1, whichever comes first (contents there)
+- Scholars: chandeliers (menu copy)
 
 ## Vanilla order
 
@@ -399,7 +407,7 @@ Buildings that are not production chains, needs or public services, compared wit
 |---|---|---|
 | Warehouse I, Desert Road | 1.0 | Small Warehouse, Dirt Road (1.0) |
 | Trade Union | 1.1 | Trade Union (1.1) |
-| Depot, Harbour Office | 1.2 | Depot, Harbourmaster's Office (1.2) |
+| Quay, Depot, Harbour Office | 1.2 | Quay, Depot, Harbourmaster's Office (1.2) |
 | Fire Department, Repair Crane, Puckle Gun, FlaK tower | 1.3 | Fire Station, Repair Crane, Mounted Guns, Flak (1.3) |
 | Police Station, Ornaments tab, Palm Trees | 1.4 | Police Station, Quaint Park, Palm Trees (1.4) |
 | Paved Street, Warehouse II, Kontor II, Town Hall, Bedouin Camp, Fertilizer module | 2.0 | Paved Street, Medium Warehouse, Medium Trading Post, Town Hall, Hacienda, Fertiliser Silo (2.0) |
@@ -415,7 +423,19 @@ Not aligned (no one-to-one counterpart, or a choice still open):
 - Oil (harbours, storage, railway, tractor, fuel station) unlocks at 2.1; the New World has it at 2.2. It is a
   production chain here, so it was left alone.
 - Desert Treasures museum set at 2.8; the New World museum is at 2.4.
-- Oriental Lighthouse, Harbour Tower, Sultan's Palace and the Grand Mosque have no New World counterpart.
+- Harbour Tower has no New World counterpart.
+
+Monuments and haciendas (set 2026-10-29) follow vanilla's pattern across all regions rather than the New World alone:
+- Vanilla puts the Hacienda at the entry of the middle tier (1 Obrero), the Palace at the entry of the top tier
+  (1 Investor), and builds a region's big monument one stage per population step, each stage shown one step
+  earlier (World's Fair 1/750/1750/3000/5000 Investors, Arctic monument 1/100/300/750 Technicians).
+- Bedouin Camp 2.0, Research Outpost 3.0 (or 2.8).
+- Oriental Lighthouse: Foundations 2.2 (own trigger 1404007020), Tower 2.3, Lantern Room and the finished
+  lighthouse with its beacons 2.4. Then the Grand Mosque: Foundations 2.5, Prayer Hall 2.6, Towers 2.7, finished 2.8.
+  So every Envoy stage from 2.2 to 2.8 opens one monument stage.
+- Sultan's Palace 3.1 (shown at 3.0). Its planned residents need Incense, Turbans (3.1) and the Coffee House (3.5).
+- The Lantern Room and the mosque Towers take Hookahs (2.4) instead of Chandeliers, which only come with
+  Sky 2.1 or 3.5.
 
 ## Notes
 
@@ -427,5 +447,7 @@ Not aligned (no one-to-one counterpart, or a choice still open):
 - The New Horizons lab (Noble Mushrooms) has no Orient condition, only the Magnates count.
 - The Park group lists Orient copies of Palm Trees and the vanilla palms, bush and grass (1404004870–874). The New
   World unlocks the originals at 300 Jornaleros (pools 134882 and 130195), before the Orient opens. Palm Trees is
-  Tourist Season content, so its copy has its own triggers that also check that DLC (1404004875 unhide,
-  1404004876 unlock, 1404004877 creative), like vanilla's.
+  Tourist Season content, so its copy has its own triggers that also check that DLC (1404004876 unlock,
+  1404004877 creative), like vanilla's. It is not previewed at 1.4 (first Envoy stage).
+- The Development folder 1404004865 (debug) sits in the creative menu 1404000614, so normal games never show the
+  finished Lighthouse and Grand Mosque it holds.

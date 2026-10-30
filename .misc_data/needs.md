@@ -19,13 +19,15 @@ The need already shows (hidden/preview) one trigger stage earlier.
     - Hummus instead of Dates [unlock: hummus pool, 300 Envoys (2.1)]
     - Spiced Tea instead of Pomegranate Juice [unlock: spiced tea pool, 1000 Envoys (2.3)]
     - Roasted Chickpeas instead of Rugs [unlock: roasted chickpeas pool, 300 Envoys (2.1)]
-  - Lifestyle (bonus, imported) [unlock: population elsewhere]
-    - Bread [150 Workers]
-    - Beef [1 Artisan]
-    - Chocolate [1750 Investors]
-    - Clay [1 Worker]
-    - Pigments [1800 Artistas]
-    - Nandu Leather [1 Artista]
+  - Lifestyle (bonus) [unlock: the count at which the good's production unlocks, like vanilla; no trigger]
+    Rewards on the vanilla Jornaleros scale, given as residents (SupplyWeight) / gold (MoneyValue)
+    - Bread [150 Workers] 2 / 11
+    - Beef [1 Artisan] 1 / 12
+    - Chocolate [1750 Investors] 2 / 16
+    - Clay [1 Worker] 1 / 11
+    - Spice Powder (Orient) [600 Envoys] 1 / 14 — like the Jornaleros' Felt (600 Obreros)
+    - Pigments [1800 Artistas] 2 / 14
+    - Nandu Leather [1 Artista] 2 / 12
 
 - Envoys (also have all Nomad Basic and Luxury needs)
   - Stages (triggers 2.0–2.8): 1 / 300 / 600 / 1000 / 1500 / 2250 / 3250 / 4500 / 6000 Envoys.
@@ -103,13 +105,15 @@ The need already shows (hidden/preview) one trigger stage earlier.
     - Recipe extras (optional, one per recipe): Goat Milk, Spice Powder, Dates, Rose Water, Honey
       (the Coffee House pool also unlocks the Rose Water pool)
 
-  - Lifestyle (bonus, imported) [unlock: population elsewhere]
-    - Soap [300 Workers]
-    - Medicine [6000 Artistas]
-    - Orchid [2700 Artistas]
-    - Clay Pipe [300 Elders]
-    - Film Reel [4000 Artistas]
-    - Souvenirs [2000 Tourists]
+  - Lifestyle (bonus) [unlock: the count at which the good's production unlocks, like vanilla; no trigger]
+    Rewards on the vanilla Obreros scale, given as residents (SupplyWeight) / gold (MoneyValue); no ResearchValue, no mail
+    - Soap [300 Workers] 1 / 5
+    - Astrolabes (Orient) [4000 Scholars; the locked product hides it until 3.4] 5 / 35 — like the Obreros' Typewriter
+    - Medicine [6000 Artistas] 6 / 58
+    - Orchid [2700 Artistas] 2 / 14
+    - Clay Pipe [300 Elders] 3 / 26
+    - Film Reel [4000 Artistas] 4 / 30
+    - Souvenirs [2000 Tourists] 2 / 12
 
 - Scholars (Orient residence; every tier also needs 3250 Envoys). Vanilla need → Orient replacement, same amounts and thresholds as vanilla
   - Basic

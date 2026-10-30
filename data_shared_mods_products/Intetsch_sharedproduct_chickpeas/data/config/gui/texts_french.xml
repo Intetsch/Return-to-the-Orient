@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1404005079</GUID>
+      <!-- Product | chickpeas | Chickpeas -->
+      <Text>Pois chiches</Text>
+    </Text>
+    <Text>
+      <GUID>1404005081</GUID>
+      <!-- Text | chickpeas fluff text | Chickpeas are a loved fruit of the Orient, and can be enjoyed in any conceivable form. -->
+      <Text>Le pois chiche est un fruit adoré de l'Orient et peut être savouré sous toutes les formes imaginables.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
