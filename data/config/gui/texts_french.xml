@@ -4921,6 +4921,11 @@
       <Text>Réduit la consommation de produits locaux pour les Bédouins</Text>
     </Text>
     <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>Campement bédouin décoratif</Text>
+    </Text>
+    <Text>
       <GUID>1404008110</GUID>
       <!-- EffectContainer | Camel Breeding | Camel Breeding -->
       <Text>Élevage de chameaux</Text>
@@ -7044,6 +7049,21 @@
       <GUID>1404001676</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
       <Text>Un poème du désert écrit par un jeune nomade, qui pleure les puits qui tarissent à mesure que la ville grandit.</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
+      <Text>Mine de béryl</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Beryl Deposit | Beryl Deposit -->
+      <Text>Gisement de béryl</Text>
+    </Text>
+    <Text>
+      <GUID>1404003907</GUID>
+      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
+      <Text>Ce gisement permet d'extraire du béryl, taillé ensuite en tesselles pour les mosaïques.</Text>
     </Text>
   </ModOp>
 </ModOps>

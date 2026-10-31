@@ -4921,6 +4921,11 @@
       <Text>ベドウィン向けの地元産品の消費を削減します。</Text>
     </Text>
     <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>ベドウィンの野営地（装飾）</Text>
+    </Text>
+    <Text>
       <GUID>1404008110</GUID>
       <!-- EffectContainer | Camel Breeding | Camel Breeding -->
       <Text>ラクダの繁殖</Text>
@@ -7044,6 +7049,21 @@
       <GUID>1404001676</GUID>
       <!-- Text | RQ_Nomad_Transport_SongOfDurin_PoemDescription | A desert poem by a young Nomad, lamenting the wells that run dry as the city grows. -->
       <Text>町が大きくなるにつれ枯れていく井戸を嘆く、若い遊牧民の砂漠の詩。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
+      <Text>緑柱石鉱山</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Beryl Deposit | Beryl Deposit -->
+      <Text>緑柱石鉱床</Text>
+    </Text>
+    <Text>
+      <GUID>1404003907</GUID>
+      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
+      <Text>この鉱床から緑柱石を採掘し、モザイク用の石片に加工できる。</Text>
     </Text>
   </ModOp>
 </ModOps>

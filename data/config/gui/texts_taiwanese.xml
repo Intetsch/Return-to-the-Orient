@@ -6746,6 +6746,11 @@
       <Text>減少貝都因人對土特產的消耗</Text>
     </Text>
     <Text>
+      <GUID>1404008107</GUID>
+      <!-- OrnamentalBuildingRuin | Ornamental Bedouin Camp | Ornamental Bedouin Camp -->
+      <Text>裝飾貝都因營地</Text>
+    </Text>
+    <Text>
       <GUID>1404008110</GUID>
       <!-- EffectContainer | Camel Breeding | Camel Breeding -->
       <Text>駱駝育種</Text>
@@ -7044,6 +7049,21 @@
       <GUID>1404009147</GUID>
       <!-- Text | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. | The accumulation of water poses a threat to mine galleries and necessitates the suspension of excavation work at many sites. Dewatering pumps make it possible to drain shafts and keep work areas accessible. Their use facilitates deeper excavation and the recovery of ground that would otherwise remain flooded. -->
       <Text>積水威脅著礦井坑道，迫使許多礦場暫停開採。排水泵能夠排乾豎井，使作業區域保持暢通。使用它們便於向更深處開採，並收復原本會一直被水淹沒的地段。</Text>
+    </Text>
+    <Text>
+      <GUID>1404003903</GUID>
+      <!-- FactoryBuilding7 | Beryl Mine | Beryl Mine -->
+      <Text>綠柱石礦場</Text>
+    </Text>
+    <Text>
+      <GUID>1404003905</GUID>
+      <!-- Slot | Beryl Deposit | Beryl Deposit -->
+      <Text>綠柱石礦床</Text>
+    </Text>
+    <Text>
+      <GUID>1404003907</GUID>
+      <!-- Text | Beryl Deposit description | Beryl can be mined from this deposit and cut into tesserae for mosaics. -->
+      <Text>可以從這處礦床開採綠柱石，再切割成馬賽克鑲片。</Text>
     </Text>
   </ModOp>
 </ModOps>

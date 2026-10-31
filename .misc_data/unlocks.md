@@ -94,8 +94,8 @@ using the unlock editor's parser (.misc_data/tools/unlock_editor). It is a snaps
 
 - Paved Street
 - Mosaic (pool)
-  - Buildings: Mosaic Workshop; Clay Pit
-  - Goods: Mosaic
+  - Buildings: Mosaic Workshop; Clay Pit; Beryl Mine; Beryl Mine work area
+  - Goods: Beryl; Mosaic
   - Chains: Mosaic
   - Items: Nasrin Khatun, The Master of Clay; Mining Dewatering Pump
 - Consulate (pool)
@@ -449,6 +449,5 @@ Monuments and haciendas (set 2026-10-29) follow vanilla's pattern across all reg
   World unlocks the originals at 300 Jornaleros (pools 134882 and 130195), before the Orient opens. Palm Trees is
   Tourist Season content, so its copy has its own triggers that also check that DLC (1404004876 unlock,
   1404004877 creative), like vanilla's. It is not previewed at 1.4 (first Envoy stage).
-- The Oriental Lighthouse and the Bedouin Camp are hidden from the build menu (not in any tab). Their unlocks above
-  still fire.
-- The Development folder 1404004865 (debug, finished Lighthouse and Grand Mosque) is no longer in any menu.
+- The Development folder 1404004865 (debug, finished Lighthouse and Grand Mosque) is the first entry of the Nomads
+  tab 1404000014 with IgnoreUnlockStateForCategoryVisibility. It unlocks only in creative mode (1404000791).
